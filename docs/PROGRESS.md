@@ -246,3 +246,24 @@ Caveats (details in docs/KNOWN_ISSUES.md "Current state"):
   details, because tooltips are hover only. The new Vietnamese strings are drafts and need native review.
 * Checks: `npm run typecheck` clean.
 * Not committed.
+
+## Build sites and Coal Thumper on the map (2026-10-12)
+
+* Build site (`buildSpace`, the "Đặt Gathering Post" list with "Vị trí xây dựng") is answered on the map: the panel shows
+  the status line and no list, and a click on a highlighted space builds. The list stays as the fallback when the map
+  cannot draw (`useUi` mapDown).
+* Large buildings: `placementOptions` (buildings.ts) offers one option per half of the tile instead of only the top
+  half, so each half has its own pick point on the map. Either click builds on the whole tile (`footprint()`). Old saves
+  still replay: the top-half option id is unchanged.
+* Coal Thumper (`thump`, up to `count` adjacent spaces, one Coal each) is picked on the map too. Each click toggles the
+  space; a picked space shows a solid marker (new `selected` prop on `MapView`, `setSelected` in `scene.ts`); Confirm
+  sends the picks.
+* Dev hook: `__fp.mapScreenPoint(id)` (DEV only) gives the canvas pixel of a pick id, for browser checks.
+* Checks: `npm run typecheck` clean; engine `npm test` 944 passed, 3 skipped (65 files); new
+  `packages/engine/tests/buildspace_halves.test.ts`. Browser (headless shell, 1600×900, solo Crater): a Tent build site
+  shows no visible list rows and answers from a map click (N03 top: "Tent built"); a Beacon build site shows two pick
+  points on F01 (top and bottom), and a click on the bottom half built the Beacon over both spaces.
+* Not verified in the browser: `thump`. The smart bot did not reach a Coal Thumper distribution in the automated runs
+  (the Use step gave no thump decision). The multi-pick path and the selected marker are reviewed in code only.
+* i18n: "Click the highlighted spaces on the map" added to `tools/i18n/ui/decisions.json`; `build_vi.mjs` 0 problems.
+

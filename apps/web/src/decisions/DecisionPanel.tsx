@@ -42,14 +42,17 @@ const ART_KINDS = new Set(['law', 'tech', 'card', 'citizen', 'scenario', 'type',
 /**
  * Kinds whose options are board spaces or empty hexes. The map highlights each legal option and a click answers, so the
  * panel shows no list of them: the rows stay in the DOM for the keyboard and show when focus enters them. The list
- * comes back in full when the map cannot draw (useUi mapDown).
+ * comes back in full when the map cannot draw (useUi mapDown). `thump` and `distribute` kinds pick several spaces: the
+ * map toggles them (App onPickOption) and the panel's Confirm sends them.
  */
-const MAP_ANSWER_KINDS = new Set(['tileSlot', 'space', 'adjacentSpace', 'treePick']);
+const MAP_ANSWER_KINDS = new Set(['tileSlot', 'space', 'adjacentSpace', 'treePick', 'buildSpace', 'thump']);
 const MAP_HINT: Record<string, string> = {
   tileSlot: 'Click a highlighted hex on the map',
   space: 'Click a highlighted space on the map',
   adjacentSpace: 'Click a highlighted space on the map',
   treePick: 'Click a highlighted space on the map',
+  buildSpace: 'Click a highlighted space on the map',
+  thump: 'Click the highlighted spaces on the map',
 };
 
 function lastEventLine(state: GameState): string {
@@ -82,11 +85,12 @@ export function DecisionPanel({ state, answer, canAnswer, busy = false }: Decisi
   // a position decision the map answers: its options are shown on the map, not in the panel
   const mapOnly =
     !!p &&
-    !distribute &&
     !mapDown &&
     p.options.length > 0 &&
     MAP_ANSWER_KINDS.has(p.kind) &&
     p.options.every((o) => resolvePickId(state, o.id) !== null);
+  // several map picks (a distribute or N-of-M) are sent by the Confirm bar; a single pick answers on the map click
+  const confirmOnMap = mapOnly && (distribute || (!!p && p.max > 1));
   const multi = !!p && !distribute && p.max > 1;
   const confirmable = !!p && total >= p.min && total <= p.max;
   const live = !!p && canAnswer && !busy;
@@ -141,8 +145,16 @@ export function DecisionPanel({ state, answer, canAnswer, busy = false }: Decisi
         }
         return;
       }
+      if (!live) return;
+      if (e.key === 'Enter' && (multi || distribute) && confirmable) {
+        // Enter on a focused control keeps its own action.
+        if (t && t.closest('button, [role="button"]')) return;
+        e.preventDefault();
+        confirm();
+        return;
+      }
       // a map-only decision has no list on the panel, so number keys would pick from an invisible list: the map does it
-      if (!live || mapOnly) return;
+      if (mapOnly) return;
       if (/^[1-9]$/.test(e.key)) {
         const ordered = p.kind === 'action' ? actionOrder(p.options) : p.options;
         const o = ordered[Number(e.key) - 1];
@@ -150,13 +162,6 @@ export function DecisionPanel({ state, answer, canAnswer, busy = false }: Decisi
           e.preventDefault();
           press(o.id);
         }
-        return;
-      }
-      if (e.key === 'Enter' && (multi || distribute) && confirmable) {
-        // Enter on a focused control keeps its own action.
-        if (t && t.closest('button, [role="button"]')) return;
-        e.preventDefault();
-        confirm();
       }
     };
     window.addEventListener('keydown', onKey, true);
@@ -176,19 +181,10 @@ export function DecisionPanel({ state, answer, canAnswer, busy = false }: Decisi
     content = <FuelGauge {...body} />;
   } else if (p.kind === 'expArrive' || p.kind === 'expExplore') {
     content = <ExpeditionPanel {...body} />;
-  } else if (distribute) {
-    content = <Distribute {...body} />;
-  } else if (p.options.length === 0) {
-    content = (
-      <div className="dec-only">
-        <Button variant="primary" disabledReason={live ? undefined : blocked} onClick={() => answer([])}>
-          {tn('Continue')}
-        </Button>
-      </div>
-    );
   } else if (mapOnly) {
-    // the legal options are highlighted on the map and a click answers (App.onPickOption). The panel says where to click
-    // and why an option is off; the rows are kept for the keyboard and show only when focus enters them.
+    // the legal options are highlighted on the map and a click answers (App.onPickOption), or toggles the pick of a
+    // multi-pick decision until Confirm. The panel says where to click and why an option is off; the rows are kept for
+    // the keyboard and show only when focus enters them.
     const off = p.options.filter((o) => o.disabled);
     content = (
       <>
@@ -206,7 +202,14 @@ export function DecisionPanel({ state, answer, canAnswer, busy = false }: Decisi
         <div className="dec-keys">
           <OptionList {...body} numbered={false} />
         </div>
-        {p.min === 0 ? (
+        {confirmOnMap ? (
+          <ConfirmBar
+            text={t(`${total} of ${countText(p.min, p.max)} ${distribute ? 'assigned' : 'chosen'}`)}
+            label={busy ? t('Sending...') : t('Confirm')}
+            reason={confirmReason}
+            onConfirm={confirm}
+          />
+        ) : p.min === 0 ? (
           <div className="dec-only">
             <Button variant="ghost" disabledReason={live ? undefined : blocked} onClick={() => answer([])}>
               {tn('Skip')}
@@ -214,6 +217,16 @@ export function DecisionPanel({ state, answer, canAnswer, busy = false }: Decisi
           </div>
         ) : null}
       </>
+    );
+  } else if (distribute) {
+    content = <Distribute {...body} />;
+  } else if (p.options.length === 0) {
+    content = (
+      <div className="dec-only">
+        <Button variant="primary" disabledReason={live ? undefined : blocked} onClick={() => answer([])}>
+          {tn('Continue')}
+        </Button>
+      </div>
     );
   } else {
     content = (
