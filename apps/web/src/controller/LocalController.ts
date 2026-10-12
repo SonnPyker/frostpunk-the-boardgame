@@ -125,9 +125,14 @@ export class LocalController implements Controller {
     this.listeners.clear();
   }
 
+  /** true when this game autosaves (a tutorial lesson does not, so the player's own saved game is left alone) */
+  get persists(): boolean {
+    return this.persist;
+  }
+
   /** Removes the autosave, e.g. when the game ended and the player returns to the menu. */
   discardSave(): void {
-    clearSoloSave();
+    if (this.persist) clearSoloSave();
   }
 
   private fail(message: string): void {

@@ -267,6 +267,24 @@ Caveats (details in docs/KNOWN_ISSUES.md "Current state"):
   (the Use step gave no thump decision). The multi-pick path and the selected marker are reviewed in code only.
 * i18n: "Click the highlighted spaces on the map" added to `tools/i18n/ui/decisions.json`; `build_vi.mjs` 0 problems.
 
+## Tutorial lessons (2026-10-12)
+
+* Main menu → Tutorial: six short lessons on a prepared Crater position (Fuel the Generator, Gather Resources, Remove
+  Snow, Construct, Use a Building, End of the Round). Design and how to add one: `docs/TUTORIAL.md`.
+* Engine: `packages/engine/src/tutorial.ts`. A lesson is a `GameConfig` with `tutorial: <id>`, so it saves and replays
+  like any game. Its steps gate the answers (`lessonCheck` in `setup.ts` `answer`), and progress is in `s.flags.lesson`.
+  The set-up decisions are answered by the engine for a lesson. `GameConfig.tutorial` is the only type change.
+* Web: `screens/Tutorial.tsx` (list), `screens/LessonBanner.tsx` (step panel and completion card),
+  `session.startLesson` (not autosaved; the player's own solo save is kept), `store/tutorial.ts` (finished lessons, per
+  browser). Vietnamese texts in `tools/i18n/ui/tutorial.json`; `build_vi.mjs` reports 0 problems.
+* Checks: engine `tests/tutorial.test.ts` (21 tests: each lesson completes, wrong picks are refused and change nothing,
+  Back to actions rewinds the lesson, replay is identical); engine 967/967 (67 files), token scan 0 unknown, server
+  106/106, co-op smoke PASS, root typecheck and `npm run build:web` clean. Browser (headless Chromium, 1366×768): list,
+  banner, a refused wrong pick, the completion card, Next lesson, Leave lesson, and no solo save created by a lesson.
+* Not done: lessons for Hope and Discontent, Hunger, Laws, Technologies, Expeditions and Storms; a Night sleep lesson
+  (the sleep decision is a distribute); a map-click check of the Remove Snow tile steps in the browser (the engine test
+  covers them, the map was not clicked).
+
 
 ## Scenario and custom set-up (2026-10-12)
 

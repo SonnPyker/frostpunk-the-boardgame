@@ -69,6 +69,11 @@ export function cloneState(s: GameState): GameState {
   return JSON.parse(JSON.stringify(s)) as GameState;
 }
 
+// Tutorial lessons (engine tutorial.ts): plain data and the config that starts one. A lesson is a solo game, so the
+// rest of the session (answers, the decision panel, Back to actions) works as in any solo game.
+export { LESSONS, LESSON_REFUSED, lessonConfig } from '@frostpunk/engine';
+export type { LessonDef, LessonProgress } from '@frostpunk/engine';
+
 /** The limits a custom start is held to (engine START_LIMITS). */
 export interface StartLimits {
   citizens: number;

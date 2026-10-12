@@ -5,7 +5,7 @@ import type { BotLevel, GameConfig } from '@frostpunk/engine';
 import { LocalController } from '../controller/LocalController';
 import { WatchController } from '../controller/WatchController';
 import { RemoteController } from '../controller/RemoteController';
-import { EngineUnavailableError, createGameState } from '../controller/engineApi';
+import { EngineUnavailableError, createGameState, lessonConfig } from '../controller/engineApi';
 import { clearSoloSave, hasSoloSave, readCoopSession } from '../controller/persistence';
 import type { Controller, ControllerSnapshot } from '../controller/types';
 import { useUi } from './ui';
@@ -21,6 +21,8 @@ interface SessionStore {
   snap: ControllerSnapshot | null;
   /** starts a new solo game (throws nothing: failures become toasts and false is returned) */
   startSolo: (config: GameConfig) => boolean;
+  /** starts a tutorial lesson (not autosaved: the player's own saved game stays as it is) */
+  startLesson: (id: string) => boolean;
   /** starts a game that a bot plays while this client only watches (watch mode) */
   startWatch: (config: GameConfig, level: BotLevel) => boolean;
   continueSolo: () => boolean;
@@ -97,6 +99,19 @@ export const useSession = create<SessionStore>()((set, get) => ({
     }
   },
 
+  startLesson: (id) => {
+    try {
+      const config = lessonConfig(id);
+      const state = createGameState(config);
+      attach(new LocalController(state, config, { persist: false }));
+      return true;
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : t('Could not start the game.');
+      useUi.getState().notify(msg, 'error');
+      return false;
+    }
+  },
+
   continueSolo: () => {
     let result: ReturnType<typeof LocalController.restore>;
     try {
@@ -145,8 +160,10 @@ export const useSession = create<SessionStore>()((set, get) => ({
   },
 
   discardSolo: () => {
-    // A watched game has no autosave of its own: the solo save of the player's own game must survive it.
-    if (!(get().controller instanceof WatchController)) clearSoloSave();
+    // A watched game and a lesson have no autosave of their own: the solo save of the player's own game must survive them.
+    const c = get().controller;
+    const keepsSave = c instanceof WatchController || (c instanceof LocalController && !c.persists);
+    if (!keepsSave) clearSoloSave();
     detachAll();
   },
 

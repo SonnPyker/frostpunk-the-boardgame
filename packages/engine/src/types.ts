@@ -214,6 +214,8 @@ export interface GameConfig {
   extraPack: boolean;
   /** skip optional Hope-bag draw choices (auto) */
   advisors?: (string | null)[];
+  /** A tutorial lesson (tutorial.ts): a prearranged solo Crater position whose steps gate the answers. Absent for a normal game. */
+  tutorial?: string;
   /**
    * Custom starting values (solo "Tùy chỉnh" set-up). When present they replace the Society card's printed values for this
    * game; absent means the card as printed. Limits: setup.ts `validateStart`.

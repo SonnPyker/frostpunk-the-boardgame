@@ -17,6 +17,7 @@ import './actions';
 import './phases';
 import './night';
 import './scenario';
+import './tutorial';
 
 export * from './types';
 export * as Data from './data';
@@ -25,6 +26,8 @@ export { blankState, blankConfig } from './testing';
 export { describe as describeFx } from './fx/describe';
 export { seedRng } from './rng';
 export { BACK_PICK } from './core';
+export { LESSONS, LESSON_REFUSED, LESSON_SEED, lessonConfig, lessonDef, lessonProgress } from './tutorial';
+export type { LessonDef, LessonProgress, LessonStep } from './tutorial';
 export * from './protocol';
 export { createGame, answer, validateConfig, validateStart, startValues, START_LIMITS, newGameState, pushSetupOps, CORPSE_MAX } from './setup';
 export { randomSetup, PLAYABLE_SCENARIOS } from './randomSetup';

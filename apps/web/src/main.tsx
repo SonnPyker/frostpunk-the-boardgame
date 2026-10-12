@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client';
 import './styles/theme.css';
 import './styles/components.css';
 import './styles/screens.css';
+import './styles/tutorial.css';
 import { App } from './App';
 import { Boot } from './screens/Boot';
 import { applySettingsToDocument, getSettings, useSettings } from './store/settings';

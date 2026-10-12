@@ -17,7 +17,7 @@
 // * Custom start (solo "Tùy chỉnh"): `config.start` replaces the printed Society numbers (see `startValues`, `validateStart`).
 //   Every other step is the same. Random set-ups (randomSetup.ts) use only printed Society cards.
 import './fx/index';
-import { answerPending, ask, defOp, hasOp, log, opt, push, run, RuleError } from './core';
+import { BACK_PICK, answerPending, ask, defOp, hasOp, log, opt, push, run, RuleError } from './core';
 import * as D from './data';
 import { meepleCountFor } from './data';
 import { describeList } from './fx/describe';
@@ -28,6 +28,7 @@ import { placeBuilding } from './buildings';
 import { addSick } from './sickness';
 import { initTileStacks, setupBoardTiles } from './tiles';
 import { allLawIds } from './laws';
+import { lessonAdvance, lessonCheck, lessonRewind, validateLesson } from './tutorial';
 import { blankState } from './testing';
 import { randInt, shuffle } from './rng';
 import { LIMITS, newMeeple } from './util';
@@ -88,6 +89,7 @@ export function validateConfig(config: GameConfig) {
   if (new Set(chosen).size !== chosen.length) throw new RuleError('an Advisor is chosen twice');
   if (config.mode === 'solo' && chosen.length > 1) throw new RuleError('a solo game takes one Advisor');
   if (chosen.length > 0 && chosen.length < n) throw new RuleError(`the table needs at least ${n} Advisors (one per player)`);
+  if (config.tutorial !== undefined) validateLesson(config);
   if (config.start !== undefined) validateStart(config.start);
 }
 
@@ -290,6 +292,8 @@ export function newGameState(config: GameConfig): GameState {
  */
 export function pushSetupOps(s: GameState) {
   push(s, { k: 'setupEnd' });
+  // a tutorial position is arranged after the board and the discards, just before the Action phase starts
+  if (s.config.tutorial !== undefined) push(s, { k: 'tutorialPatch' });
   const hook = (ScenarioMod as any).scenarioSetup;
   if (typeof hook === 'function') hook(s);
   // Discards run in a random seat order: when two players' Citizen costs cannot both be paid, the winner is random (rulebook p15).
@@ -368,19 +372,44 @@ export function createGame(config: GameConfig): GameState {
   const s = newGameState(config);
   pushSetupOps(s);
   drive(s);
+  if (config.tutorial !== undefined) skipLessonSetup(s);
   return s;
+}
+
+/**
+ * A lesson starts from a fixed position, so the set-up decisions (the Crater corner and the Citizen discards) are not
+ * asked: each takes its first enabled option, the same way on every replay.
+ */
+function skipLessonSetup(s: GameState) {
+  for (let i = 0; i < 20 && s.pending && (s.pending.kind === 'setup' || s.pending.kind === 'citizenDiscard'); i++) {
+    const p = s.pending;
+    const first = p.options.find((o) => !o.disabled) ?? p.options[0];
+    answer(s, p.who, p.id, [first.id]);
+  }
 }
 
 export type AnswerResult = { ok: boolean; error?: string };
 
 /** Applies an answer (mutates `s`); the game then runs to the next decision. Returns {ok:false, error} for rejected answers. */
 export function answer(s: GameState, who: number, pendingId: number, pick: string[]): AnswerResult {
+  // a tutorial step refuses an answer that is not its own pick before the answer is applied
+  const before = s.pending;
+  let advance = false;
+  if (before && before.id === pendingId && s.flags.lesson) {
+    const gate = lessonCheck(s, before, pick);
+    if (!gate.ok) return { ok: false, error: gate.error };
+    advance = gate.advance;
+  }
+  let result: AnswerResult;
   try {
-    return answerPending(s, who, pendingId, pick);
+    result = answerPending(s, who, pendingId, pick);
   } catch (e: any) {
     if (e instanceof RuleError) return { ok: false, error: e.message };
     // stack ran dry before the phase driver exists: the answer itself was applied
-    if (!hasOp('phStart') && /stack ran dry/.test(String(e?.message)) && s.status === 'playing') return { ok: true };
-    throw e;
+    if (!hasOp('phStart') && /stack ran dry/.test(String(e?.message)) && s.status === 'playing') result = { ok: true };
+    else throw e;
   }
+  if (result.ok && advance) lessonAdvance(s);
+  if (result.ok && s.flags.lesson && pick.length === 1 && pick[0] === BACK_PICK) lessonRewind(s);
+  return result;
 }

@@ -59,6 +59,9 @@ export function MainMenu() {
           <Button variant="secondary" size="lg" block onClick={() => setScreen('newSolo')}>
             {tn('New solo game')}
           </Button>
+          <Button variant="secondary" size="lg" block onClick={() => setScreen('tutorial')}>
+            {tn('Tutorial')}
+          </Button>
           <div className="menu__group" role="group" aria-label={t('Solo scenarios')}>
             <span className="label-caps menu__group-label">{tn('Solo · scenario set-up')}</span>
             <div className="menu__group-row">

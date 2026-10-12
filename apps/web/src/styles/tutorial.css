@@ -1,0 +1,220 @@
+/* Tutorial: the lesson list (screens/Tutorial.tsx) and the lesson panel over the game (screens/LessonBanner.tsx). */
+
+.tutorial__form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tutorial__intro {
+  margin: 0;
+  max-width: 760px;
+  color: var(--frost-dim);
+  font-size: 16px;
+  line-height: 1.45;
+}
+
+.tutorial__grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+}
+
+.lesson-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  height: 100%;
+  min-height: 170px;
+  padding: 16px 18px;
+  text-align: left;
+  font: inherit;
+  color: var(--frost);
+  background: var(--panel-solid);
+  border: var(--edge);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.lesson-card:hover,
+.lesson-card:focus-visible {
+  border-color: var(--ember);
+  box-shadow: var(--glow);
+  outline: none;
+}
+
+.lesson-card__no {
+  color: var(--steel);
+  font-size: 12px;
+}
+
+.lesson-card__title {
+  font-family: Oswald, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.lesson-card__summary {
+  flex: 1;
+  color: var(--frost-dim);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.lesson-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 12px;
+  color: var(--steel);
+  font-size: 12px;
+}
+
+.lesson-card__done {
+  color: var(--ok);
+}
+
+/* The lesson layer sits above the map and below the menus. Only the panel takes pointer events. */
+.lesson-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.lesson-banner {
+  position: absolute;
+  top: 78px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(640px, calc(100vw - 32px));
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px 16px;
+  background: var(--panel-solid);
+  border: var(--edge);
+  border-radius: var(--radius);
+  box-shadow: var(--glow);
+  pointer-events: auto;
+}
+
+.lesson-banner__head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.lesson-banner__head .label-caps {
+  color: var(--steel);
+  font-size: 12px;
+}
+
+.lesson-banner__title {
+  flex: 1;
+  font-family: Oswald, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.lesson-banner__step {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 0;
+  color: var(--frost);
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.lesson-banner__count {
+  flex: none;
+  color: var(--ember-hi);
+  font-size: 12px;
+}
+
+.lesson-banner__dots {
+  display: flex;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lesson-banner__dots li {
+  width: 22px;
+  height: 4px;
+  background: var(--steel);
+  opacity: 0.45;
+}
+
+.lesson-banner__dots li[data-state='done'] {
+  background: var(--ok);
+  opacity: 1;
+}
+
+.lesson-banner__dots li[data-state='current'] {
+  background: var(--ember);
+  opacity: 1;
+}
+
+.lesson-done {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(480px, calc(100vw - 32px));
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 22px;
+  background: var(--panel-solid);
+  border: var(--edge);
+  border-radius: var(--radius);
+  box-shadow: var(--glow);
+  pointer-events: auto;
+}
+
+.lesson-done--chip {
+  top: 78px;
+  left: auto;
+  right: 16px;
+  transform: none;
+  width: auto;
+  padding: 6px 8px;
+  box-shadow: none;
+}
+
+.lesson-done .label-caps {
+  color: var(--ok);
+  font-size: 12px;
+}
+
+.lesson-done__title {
+  margin: 0;
+  font-family: Oswald, sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.lesson-done__summary {
+  margin: 0;
+  color: var(--frost-dim);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.lesson-done__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 6px;
+}
