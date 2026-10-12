@@ -21,7 +21,7 @@ function lookup(fn: keyof Manifest, key: string): string | undefined {
 
 /** Card art (front face) for a card id such as C01, M001, L02, W05, X01, T04, ADV_HEALTH. */
 export const cardArt = (id: string): string | undefined => lookup('cardUrl', id);
-/** Token art, e.g. 'hope-care', 'disc-anger', 'wood', 'coal', 'core', 'steel', 'food', 'citizen-worker'. */
+/** Token art by its bare name, e.g. 'care', 'anger', 'wood', 'coal', 'core', 'steel', 'food', 'citizen-worker'. */
 export const tokenArt = (key: string): string | undefined => lookup('tokenUrl', key);
 /** Board art by key (board_generator, board_panel_b, ...), drawn as a backdrop behind a HUD panel. */
 export const boardArt = (key: string): string | undefined => lookup('boardUrl', key);

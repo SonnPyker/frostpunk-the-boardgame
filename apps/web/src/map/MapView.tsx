@@ -11,6 +11,7 @@ import { MapScene, type Quality } from './scene';
 import { resolvePickId, type PickInfo } from './pick';
 import { PAL } from './palette';
 import { t } from '../i18n';
+import { useUi } from '../store/ui';
 
 export type { Quality } from './scene';
 
@@ -103,12 +104,14 @@ export function MapView(props: MapViewProps) {
         quality,
       );
     } catch (err) {
-      // WebGL unavailable or context creation failed: say so instead of showing a blank box
+      // WebGL unavailable or context creation failed: say so instead of showing a blank box, and tell the decision panel
+      // that the map cannot answer, so position decisions list their options
       const fail = failRef.current;
       if (fail) {
         fail.style.display = 'flex';
         fail.textContent = t('3D map unavailable') + ': ' + (err instanceof Error ? err.message : String(err));
       }
+      useUi.getState().setMapDown();
       return;
     }
     sceneRef.current = scene;

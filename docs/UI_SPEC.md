@@ -44,6 +44,7 @@ Rules (rulebook PDF viewer + checklist), Victory/Defeat summary. Card zoom: hove
 `state.pending` (kind, prompt, src, options[{id,label,hint,disabled,data}], min,max, meta{allowRepeat,caps,count}) is rendered in the Decision
 panel: 1-of-N (buttons / card tiles), N-of-M (checkbox tiles with Confirm), distribute (+/- steppers using meta.caps), confirm-only, and — when option ids are
 map objects (space ids like `N03:top`, building uids, meeple ids) — ALSO highlighted and clickable directly on the 3D map. Disabled options show their reason.
+For position decisions (space, adjacent space, tree, empty hex; see `MAP_ANSWER_KINDS`) the map is the only picker: the panel shows a status line and the disabled reasons, with no duplicate list. The option rows stay for the keyboard, without number badges, and show on focus. The full list returns only when the map cannot draw.
 Only the addressed seat (`pending.who`, −1 = any) can answer; others see "Waiting for <name>". Answers go through a `Controller` interface:
 `{ state, answer(pick:string[]): void }` implemented by `LocalController` (solo, engine in-browser, with undo-free autosave to localStorage) and `RemoteController` (WebSocket to the server).
 

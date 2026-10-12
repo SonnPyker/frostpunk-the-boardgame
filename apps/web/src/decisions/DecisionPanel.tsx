@@ -9,6 +9,8 @@ import { CardImage } from '../hud/CardImage';
 import { Icon } from '../hud/icons';
 import { isMinorLog } from '../hud/model';
 import { t, tn } from '../i18n';
+import { resolvePickId } from '../map/pick';
+import { useUi } from '../store/ui';
 import { ActionMenu, actionOrder } from './ActionMenu';
 import { ConfirmBar, countText } from './ConfirmBar';
 import { Distribute } from './Distribute';
@@ -16,7 +18,7 @@ import { ExpeditionPanel } from './Expedition';
 import { FuelGauge } from './FuelGauge';
 import { useDecisionHistory } from './history';
 import { kindIcon, kindLabel } from './labels';
-import { contextCardId, friendlyText, sourceTitle } from './meta';
+import { contextCardId, friendlyLabel, friendlyText, sourceTitle } from './meta';
 import { OptionList, type BodyProps } from './OptionList';
 import { bumpPick, clearSelection, pickArray, toggleBoardPick, totalOf, useCounts } from './selection';
 import { WORKSHOP_HINT, noteWorkshopStep, resetWorkshopRun, workshopPosition } from './workshop';
@@ -36,6 +38,19 @@ export interface DecisionPanelProps {
 
 /** Kinds whose card is worth drawing large beside the options. */
 const ART_KINDS = new Set(['law', 'tech', 'card', 'citizen', 'scenario', 'type', 'expArrive', 'expExplore']);
+
+/**
+ * Kinds whose options are board spaces or empty hexes. The map highlights each legal option and a click answers, so the
+ * panel shows no list of them: the rows stay in the DOM for the keyboard and show when focus enters them. The list
+ * comes back in full when the map cannot draw (useUi mapDown).
+ */
+const MAP_ANSWER_KINDS = new Set(['tileSlot', 'space', 'adjacentSpace', 'treePick']);
+const MAP_HINT: Record<string, string> = {
+  tileSlot: 'Click a highlighted hex on the map',
+  space: 'Click a highlighted space on the map',
+  adjacentSpace: 'Click a highlighted space on the map',
+  treePick: 'Click a highlighted space on the map',
+};
 
 function lastEventLine(state: GameState): string {
   for (let i = state.log.length - 1; i >= 0; i--) {
@@ -63,6 +78,15 @@ export function DecisionPanel({ state, answer, canAnswer, busy = false }: Decisi
   const counts = useCounts(p);
   const total = totalOf(counts);
   const distribute = !!p?.meta?.caps;
+  const mapDown = useUi((s) => s.mapDown);
+  // a position decision the map answers: its options are shown on the map, not in the panel
+  const mapOnly =
+    !!p &&
+    !distribute &&
+    !mapDown &&
+    p.options.length > 0 &&
+    MAP_ANSWER_KINDS.has(p.kind) &&
+    p.options.every((o) => resolvePickId(state, o.id) !== null);
   const multi = !!p && !distribute && p.max > 1;
   const confirmable = !!p && total >= p.min && total <= p.max;
   const live = !!p && canAnswer && !busy;
@@ -117,8 +141,8 @@ export function DecisionPanel({ state, answer, canAnswer, busy = false }: Decisi
         }
         return;
       }
-      // a tileSlot decision has no list on the panel, so number keys would pick from an invisible list: the map does it
-      if (!live || p.kind === 'tileSlot') return;
+      // a map-only decision has no list on the panel, so number keys would pick from an invisible list: the map does it
+      if (!live || mapOnly) return;
       if (/^[1-9]$/.test(e.key)) {
         const ordered = p.kind === 'action' ? actionOrder(p.options) : p.options;
         const o = ordered[Number(e.key) - 1];
@@ -137,7 +161,7 @@ export function DecisionPanel({ state, answer, canAnswer, busy = false }: Decisi
     };
     window.addEventListener('keydown', onKey, true);
     return () => window.removeEventListener('keydown', onKey, true);
-  }, [p, live, total, multi, distribute, confirmable, press, confirm]);
+  }, [p, live, total, multi, distribute, mapOnly, confirmable, press, confirm]);
 
   if (!p) return null;
 
@@ -162,21 +186,39 @@ export function DecisionPanel({ state, answer, canAnswer, busy = false }: Decisi
         </Button>
       </div>
     );
-  } else if (p.kind === 'tileSlot') {
-    // the legal hexes are highlighted on the map and a click answers (App.onPickOption). The list is folded away: it is
-    // only there for a player whose map cannot draw (no WebGL), who would otherwise have no way to answer.
+  } else if (mapOnly) {
+    // the legal options are highlighted on the map and a click answers (App.onPickOption). The panel says where to click
+    // and why an option is off; the rows are kept for the keyboard and show only when focus enters them.
+    const off = p.options.filter((o) => o.disabled);
     content = (
       <>
-        {live ? <div className="dec-status">{t('Click a highlighted hex on the map')}</div> : null}
-        <details className="dec-fallback">
-          <summary>{tn('No map? Pick from a list')}</summary>
-          <OptionList {...body} />
-        </details>
+        {live ? <div className="dec-status">{tn(MAP_HINT[p.kind])}</div> : null}
+        {off.length > 0 ? (
+          <ul className="dec-off-list">
+            {off.map((o) => (
+              <li key={o.id}>
+                <span className="dec-off-name">{tn(friendlyLabel(p, o))}</span>
+                <span className="dec-off">{tn(o.disabled ?? '')}</span>
+              </li>
+            ))}
+          </ul>
+        ) : null}
+        <div className="dec-keys">
+          <OptionList {...body} numbered={false} />
+        </div>
+        {p.min === 0 ? (
+          <div className="dec-only">
+            <Button variant="ghost" disabledReason={live ? undefined : blocked} onClick={() => answer([])}>
+              {tn('Skip')}
+            </Button>
+          </div>
+        ) : null}
       </>
     );
   } else {
     content = (
       <>
+        {mapDown && MAP_ANSWER_KINDS.has(p.kind) ? <div className="dec-status">{tn('No map? Pick from a list')}</div> : null}
         <OptionList {...body} />
         {multi ? (
           <ConfirmBar

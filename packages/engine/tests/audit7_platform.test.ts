@@ -188,7 +188,12 @@ describe('plt-06 asset conversion', () => {
       ...Object.values(manifest.audio),
     ].map((r) => r.path).filter((p): p is string => typeof p === 'string');
     expect(paths.length).toBeGreaterThan(200);
-    for (const p of paths) expect(exists(pub + p), p).toBe(true);
+    // Checks the cards, models and audio sections. audio/frostpunk_theme.mp3 is git-ignored (*.mp3: the game audio is not
+    // published with the repo), so a clean checkout without assets_src/ has no copy. Only that file is skipped, and only then.
+    for (const p of paths) {
+      if (p === 'audio/frostpunk_theme.mp3' && !hasSrc) continue;
+      expect(exists(pub + p), p).toBe(true);
+    }
     for (const p of paths.filter((x) => x.startsWith('cards/'))) expect(p.endsWith('.webp'), p).toBe(true);
   });
 });

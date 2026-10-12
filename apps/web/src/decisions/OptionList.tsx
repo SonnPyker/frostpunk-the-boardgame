@@ -30,6 +30,8 @@ export interface BodyProps {
   confirm: () => void;
   /** why Confirm is off; undefined when it can be pressed */
   confirmReason?: string;
+  /** show the 1-9 key badges; off where digits do not answer (map-only decisions) */
+  numbered?: boolean;
 }
 
 export function OptionList(props: BodyProps) {
@@ -63,7 +65,7 @@ interface ItemProps extends BodyProps {
   yesNo: boolean;
 }
 
-function OptionItem({ p, state, live, counts, multi, press, blocked, id, index, tiles, yesNo }: ItemProps) {
+function OptionItem({ p, state, live, counts, multi, press, blocked, numbered, id, index, tiles, yesNo }: ItemProps) {
   const o = p.options.find((x) => x.id === id);
   const hud = usePick(id);
   if (!o) return null;
@@ -111,7 +113,7 @@ function OptionItem({ p, state, live, counts, multi, press, blocked, id, index, 
       onClick={onClick}
       onKeyDown={onKeyDown}
     >
-      <kbd className="dec-key">{index < 9 ? index + 1 : ''}</kbd>
+      {numbered === false ? null : <kbd className="dec-key">{index < 9 ? index + 1 : ''}</kbd>}
       {thumb ? (
         <CardImage id={thumb} w={tiles ? 96 : 56} className="dec-card" />
       ) : bldArt ? (
