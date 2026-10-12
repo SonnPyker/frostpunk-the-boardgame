@@ -45,8 +45,6 @@ jobs:
         env:
           PORT: "8080"
           CORS_ORIGIN: "http://localhost:5173"
-          SUPABASE_URL: "https://example.supabase.co"
-          SUPABASE_SERVICE_ROLE_KEY: "ci-placeholder"
         run: |
           node apps/server/dist/server.mjs &
           PID=$!

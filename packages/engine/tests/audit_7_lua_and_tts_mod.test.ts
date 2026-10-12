@@ -12,7 +12,6 @@ import type { GameConfig } from '../src/types';
 const LUA = readFileSync(new URL('../../../docs/tts_lua_script.lua', import.meta.url), 'utf8').replace(/\r\n/g, '\n');
 // assets_src/ is git-ignored (the raw TTS copy), so a clean checkout such as CI has no mod file. lua-04 runs only where it exists.
 const MOD_FILE = new URL('../../../assets_src/mod/frostpunk_tts_mod.json', import.meta.url);
-const MOD: unknown = existsSync(MOD_FILE) ? JSON.parse(readFileSync(MOD_FILE, 'utf8')) : null;
 
 /** Source of a top-level Lua function (up to the column-0 `end`). */
 function luaFunction(name: string): string {
@@ -47,9 +46,9 @@ function frozenGroveConfig(seed: number): GameConfig {
   };
 }
 
-describe.skipIf(MOD === null)('lua-04: TTS mod Steam Hub text', () => {
+describe.skipIf(!existsSync(MOD_FILE))('lua-04: TTS mod Steam Hub text', () => {
   it('every Steam Hub object states the any-time timing and the Heat-above-red condition', () => {
-    const hubs = objectsNamed(MOD, 'Steam Hub');
+    const hubs = objectsNamed(JSON.parse(readFileSync(MOD_FILE, 'utf8')), 'Steam Hub');
     expect(hubs.length).toBeGreaterThan(0);
     for (const hub of hubs) {
       const text = String(hub.Description);
