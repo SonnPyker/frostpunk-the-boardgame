@@ -364,6 +364,10 @@
   "vi": "Nhấn vào vị trí được tô sáng trên bản đồ"
  },
  {
+  "key": "Click the highlighted spaces on the map",
+  "vi": "Nhấn vào các vị trí được tô sáng trên bản đồ"
+ },
+ {
   "key": "No map? Pick from a list",
   "vi": "Không thấy bản đồ? Chọn từ danh sách"
  }

@@ -11,6 +11,8 @@ expect a decision of these kinds to appear when only one option is enabled.
 | `meeple`      | `m:<meepleId>`, one representative per kind (lowest free id) | `data.kind` = MeepleKind | `actMeeple` (main action or special) | `actMeeplePick` |
 | `citizen`     | Citizen card id (e.g. `C04`) or `normal`        | card act in `data.act`                       | `actCitizen`                     | `actCitizenPick`         |
 | `space`       | space id (e.g. `N01:top`)                      | hint: resources and trees on the space       | `actGatherSpace`                 | `actGatherDo`            |
+| `buildSpace`  | space id (e.g. `N02:bottom`); a Large building gets one option per half of its tile, each with `spaces` = both halves | label `<space> (both spaces)` for a Large building; prompt names the building | `bldBuildSpace` (buildings.ts, after `buildPick`) | `bldBuildPay` (any half of the tile gives the same footprint, `footprint()`) |
+| `thump`       | space id, `cap` 1 each (distribute, `count` spaces) | up to `count` adjacent spaces that can take Coal; several picks, Confirm sends them | `thumpCoal` (buildings.ts, Coal Thumper use) | `bldThumpApply` |
 | `gatherRes`   | `<spaceId>\|<wood\|coal\|core>` (distribute)    | `cap` = stock of that resource on the space  | `actGatherDo`, `actAdjTake`      | `actGatherApply`         |
 | `building`    | `b:<buildingUid>`                              | hint: space label                            | `actUse`                         | `actUseDo`               |
 | `adjacentSpace` | space id                                     | adjacent spaces with Resources only          | `actAdjPick` (gatherAdjacentSpace) | `actAdjTake`           |
@@ -28,11 +30,14 @@ expect a decision of these kinds to appear when only one option is enabled.
 | `farReorder`  | `top`, `bottom`                                | prompt names the revealed Far tile (revealed, so its id is shown) | `tilReorderStep` (tiles.ts, after `tilReveal3`; the `revealFar3AndReorder` token, C26) | `tilReorderPick` (asks again for each remaining tile) |
 
 Notes:
-- Map-only kinds: `tileSlot`, `space`, `adjacentSpace` and `treePick` (`MAP_ANSWER_KINDS` in `apps/web/src/decisions/DecisionPanel.tsx`).
+- Map-only kinds: `tileSlot`, `space`, `adjacentSpace`, `treePick`, `buildSpace` and `thump` (`MAP_ANSWER_KINDS` in `apps/web/src/decisions/DecisionPanel.tsx`).
   When every option resolves on the map (`resolvePickId`) and the map can draw, the panel shows the status line, the
   disabled options with their reasons, and the rows for the keyboard only (no number badges). Digits do not answer these kinds. Click
   answers through `onPickOption`; a building or Meeple standing on a highlighted space does not block the click (scene.ts
-  `pickCandidates`). `buildSpace` keeps its list: a Large building highlights one of its two spaces only.
+  `pickCandidates`). A multi-pick map kind (`thump`, or any distribute) toggles each click into the shared selection
+  (`App` `onPickOption` → `toggleBoardPick`); a picked option shows a solid marker (`MapView` `selected`) until the
+  panel's Confirm sends it. Kinds that stay lists: `building`, `moveBuilding`, `reuseBuilding`, `meeple`, `citizen`,
+  `gatherRes`, `mapres` and the other pickers of pieces, kinds and resources (not board positions).
 - `gatherRes` count: 2 normally, 3 with T07 (any space on the same tile). Distribute caps follow the stock of each resource.
 - `kind: 'distribute'` (the core default) is not used by this module; `gatherRes` is always passed explicitly.
 - Automaton coal is paid in `actResolve` before the effect; it is not a decision.

@@ -157,7 +157,9 @@ export function placementOptions(s: GameState, kind: string, opts: { overRuins?:
       if (!t.spaces.every((sid) => spaceFreeFor(s, sid, overRuins))) continue;
       if (!spaceAllowed(s, t.spaces[0])) continue; // ACT-11 Frozen Grove: Construct only on a connected tile
       if (!placementOk(s, kind, t.spaces)) continue;
-      out.push({ id: t.spaces[0], label: `${spaceLabel(s, t.spaces[0]).replace(/ (top|bottom)$/, '')} (both spaces)`, spaces: [...t.spaces] });
+      // one option per half of the tile: either half names the same two-space footprint (footprint()), so the map
+      // shows a pick point on each half and a click on either builds the Large building on the whole tile
+      for (const sid of t.spaces) out.push({ id: sid, label: `${spaceLabel(s, sid)} (both spaces)`, spaces: [...t.spaces] });
     }
     return out;
   }

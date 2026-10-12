@@ -72,6 +72,8 @@ export interface FpApi {
   perf(opts?: { quality?: Quality; frames?: number; size?: [number, number]; stress?: number }): PerfResult | null;
   /** live map scenes (WebGL contexts owned by the map), canvases in the DOM, and the current scene's renderer memory */
   mapStats(): { liveScenes: number; canvases: number; geometries: number | null; textures: number | null; programs: number | null };
+  /** the canvas point (CSS pixels) of a map pick id, e.g. a space id, or null when it is not drawn on screen */
+  mapScreenPoint(id: string): { x: number; y: number } | null;
   settings(patch: Partial<Settings>): Settings;
   stores: { session: typeof useSession; ui: typeof useUi; settings: typeof useSettings };
 }
@@ -185,6 +187,9 @@ export function installDevHook(): void {
       // adopt the advanced copy when it reached the target, or when the game ended on the way (end screens)
       if (res.state && (res.ok || res.status !== 'playing')) ctrl.adopt(res.state);
       return res;
+    },
+    mapScreenPoint(id) {
+      return debugMapScene()?.screenPoint(id) ?? null;
     },
     mapStats() {
       const scene = debugMapScene();

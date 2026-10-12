@@ -19,7 +19,7 @@ import { OverlayHost } from './screens/Overlays';
 import { SimpleDecisionPanel, type SimpleDecisionPanelProps } from './screens/SimpleDecisionPanel';
 import { GameMenuControls } from './screens/GameChrome';
 import { recordDecision } from './decisions/history';
-import { toggleBoardPick } from './decisions/selection';
+import { toggleBoardPick, useCounts } from './decisions/selection';
 import { setPlayerNames, t, tn, useLang } from './i18n';
 
 // ---- contracts with the MAP3D, HUD and DECISIONS modules --------------------
@@ -30,6 +30,8 @@ export interface MapViewProps {
   onPick: (optionId: string) => void;
   /** option ids the player may click now (they are highlighted on the map) */
   highlight: ReadonlySet<string>;
+  /** option ids already picked in a multi-pick decision (drawn as picked on the map) */
+  selected?: ReadonlySet<string>;
 }
 
 export interface HudSlotProps {
@@ -223,6 +225,13 @@ export function App() {
     return new Set(pending.options.filter((o) => !o.disabled).map((o) => o.id));
   }, [pending, canAnswer]);
 
+  // the options already picked for a multi-pick decision (distribute or N-of-M), so the map can show them
+  const picked = useCounts(pending);
+  const selected = useMemo<ReadonlySet<string>>(() => {
+    const ids = Object.keys(picked).filter((id) => (picked[id] ?? 0) > 0);
+    return ids.length ? new Set(ids) : NO_OPTIONS;
+  }, [picked]);
+
   let body: ReactNode;
   if (!controller) {
     body = menuScreenFor(screen);
@@ -242,7 +251,7 @@ export function App() {
             fallback={() => <FallbackMap state={state} onPick={noop} highlight={NO_OPTIONS} />}
           >
             <Suspense fallback={<FallbackMap state={state} onPick={noop} highlight={NO_OPTIONS} />}>
-              <MapView state={state} onPick={onPickOption} highlight={highlight} />
+              <MapView state={state} onPick={onPickOption} highlight={highlight} selected={selected} />
             </Suspense>
           </ErrorBoundary>
         </div>

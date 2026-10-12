@@ -21,6 +21,8 @@ export interface MapViewProps {
   onPick?: (id: string) => void;
   /** Option ids that can be picked right now. They get pulsing markers and are the only ones reported to onPick. */
   highlight?: Set<string>;
+  /** Option ids already picked in a multi-pick decision: drawn as picked (they stay clickable to take them back). */
+  selected?: ReadonlySet<string>;
   /** Option id to fly the camera to. Changing it re-centres the map. */
   focus?: string | null;
   quality?: Quality;
@@ -28,14 +30,19 @@ export interface MapViewProps {
   onHover?: (id: string | null, info: PickInfo | null) => void;
 }
 
-/** Canonical pick ids of every highlighted option. */
-function highlightedCanon(p: MapViewProps): Set<string> {
+/** Canonical pick ids of a set of option ids. */
+function canonOf(state: GameState, ids: ReadonlySet<string> | undefined): Set<string> {
   const set = new Set<string>();
-  for (const opt of p.highlight ?? []) {
-    const c = resolvePickId(p.state, opt);
+  for (const opt of ids ?? []) {
+    const c = resolvePickId(state, opt);
     if (c) set.add(c);
   }
   return set;
+}
+
+/** Canonical pick ids of every highlighted option. */
+function highlightedCanon(p: MapViewProps): Set<string> {
+  return canonOf(p.state, p.highlight);
 }
 
 /** The option id behind a canonical id (falls back to the canonical id when no option maps to it). */
@@ -46,7 +53,7 @@ function optionFor(p: MapViewProps, canonical: string): string {
 }
 
 export function MapView(props: MapViewProps) {
-  const { state, highlight, focus, quality = 'medium' } = props;
+  const { state, highlight, selected, focus, quality = 'medium' } = props;
   const hostRef = useRef<HTMLDivElement | null>(null);
   const tipRef = useRef<HTMLDivElement | null>(null);
   const failRef = useRef<HTMLDivElement | null>(null);
@@ -131,8 +138,12 @@ export function MapView(props: MapViewProps) {
   }, [quality]);
 
   useEffect(() => {
-    sceneRef.current?.setHighlight(highlightedCanon({ state, highlight }));
+    sceneRef.current?.setHighlight(canonOf(state, highlight));
   }, [state, highlight]);
+
+  useEffect(() => {
+    sceneRef.current?.setSelected(canonOf(state, selected));
+  }, [state, selected]);
 
   useEffect(() => {
     if (!focus) return;

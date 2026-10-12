@@ -173,9 +173,11 @@ export class MapScene {
   private snow: THREE.Points | null = null;
   private snowSpeed: Float32Array = new Float32Array(0);
   private highlight = new Set<string>();
+  private selected = new Set<string>();
   private hoverId: string | null = null;
   private hlMat!: THREE.MeshBasicMaterial;
   private hoverMat!: THREE.MeshBasicMaterial;
+  private selMat!: THREE.MeshBasicMaterial;
   private heatNorm = 0;
 
   private raf = 0;
@@ -236,6 +238,10 @@ export class MapScene {
       'mkHover',
       () => new THREE.MeshBasicMaterial({ color: PAL.hope, transparent: true, opacity: 0.32, depthWrite: false, side: THREE.DoubleSide }),
     );
+    this.selMat = this.kit.mat(
+      'mkSel',
+      () => new THREE.MeshBasicMaterial({ color: PAL.hope, transparent: true, opacity: 0.85, depthWrite: false, side: THREE.DoubleSide }),
+    );
 
     this.rig = new CameraRig(1);
     // size first so the initial overview fits the real aspect; later resizes keep the player's zoom
@@ -278,6 +284,24 @@ export class MapScene {
     this.highlight = new Set(ids);
     this.refreshMarkers();
     this.requestFrame();
+  }
+
+  /** Options already picked in a multi-pick decision: a solid marker, so the pick shows before Confirm. */
+  setSelected(ids: Set<string>): void {
+    if (this.disposed) return;
+    this.selected = new Set(ids);
+    this.refreshMarkers();
+    this.requestFrame();
+  }
+
+  /** DEV: where a pick id sits on the canvas, in CSS pixels (null when it is not on screen). Used by the dev hook. */
+  screenPoint(id: string): { x: number; y: number } | null {
+    if (!this.state || this.disposed) return null;
+    const xz = pickCentre(this.state, id, this.meeplePos);
+    if (!xz) return null;
+    const v = new THREE.Vector3(xz.x, 0, xz.z).project(this.rig.camera);
+    const r = this.canvas.getBoundingClientRect();
+    return { x: r.left + ((v.x + 1) / 2) * r.width, y: r.top + ((1 - v.y) / 2) * r.height };
   }
 
   focus(id: string | null): void {
@@ -964,8 +988,9 @@ export class MapScene {
 
   private refreshMarkers(): void {
     if (!this.state) return;
-    const want = new Map<string, { id: string; hl: boolean }>();
+    const want = new Map<string, { id: string; hl: boolean; sel?: boolean }>();
     for (const id of this.highlight) want.set(id + '|l', { id, hl: true });
+    for (const id of this.selected) want.set(id + '|s', { id, hl: true, sel: true });
     if (this.hoverId && !this.highlight.has(this.hoverId)) want.set(this.hoverId + '|h', { id: this.hoverId, hl: false });
     for (const [key, mesh] of this.markerMeshes) {
       if (!want.has(key)) {
@@ -978,7 +1003,7 @@ export class MapScene {
       if (!xz) continue;
       let mesh = this.markerMeshes.get(key);
       if (!mesh) {
-        mesh = new THREE.Mesh(this.markerGeometry(w.id), w.hl ? this.hlMat : this.hoverMat);
+        mesh = new THREE.Mesh(this.markerGeometry(w.id), w.sel ? this.selMat : w.hl ? this.hlMat : this.hoverMat);
         mesh.renderOrder = 2;
         this.markerMeshes.set(key, mesh);
         this.layers.markers.add(mesh);
@@ -986,7 +1011,7 @@ export class MapScene {
       // space fans are drawn around their tile centre; everything else around its own centre
       const isSpace = !w.id.startsWith('b:') && !w.id.startsWith('m:') && !w.id.startsWith('tile:') && !w.id.startsWith('hex:');
       const centre = (isSpace && spaceTileCentre(this.state, w.id)) || xz;
-      mesh.position.set(centre.x, 0.02, centre.z);
+      mesh.position.set(centre.x, w.sel ? 0.03 : 0.02, centre.z);
     }
     this.requestFrame();
   }
