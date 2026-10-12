@@ -17,7 +17,7 @@
     "test": "npm test -w packages/engine",
     "typecheck": "npm run typecheck -w packages/engine && npm run typecheck -w apps/server && npm run typecheck -w apps/web",
     "assets": "python tools/optimize_assets.py",
-    "sim": "npm run sim -w packages/engine"
+    "sim": "npm run sim -w packages/engine --"
   },
   "engines": {
     "node": ">=20"
