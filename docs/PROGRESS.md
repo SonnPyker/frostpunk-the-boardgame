@@ -300,3 +300,31 @@ Caveats (details in docs/KNOWN_ISSUES.md "Current state"):
 * Open, found while doing this: the solo New game screen (`NewGame.tsx`) previews the Survivalist numbers when Extra pack is
   ticked, but it never sends `survivalist: true`, so the game plays the normal or hard card. Not changed here. The custom screen
   has an explicit Survivalist difficulty, so it plays what it shows.
+
+## Watch mode: a bot plays the game (2026-10-12)
+
+* Main menu → "Xem bot chơi" (Watch a bot play). The set-up is the solo one (scenario, society, difficulty, extra pack,
+  seed, one Advisor) plus a bot level: Random (`legalPick`), Heuristic (the sim's `--smart` scoring) or Expert (the
+  `--pro` scripted bot). The level is chosen before the game starts.
+* The bots moved into the engine so the web can use them: `packages/engine/src/bots/pro.ts` (was scripts/bots/pro.ts),
+  `src/bots/heuristic.ts` (the sim's `smartPick`, now `heuristicPick`) and `src/bots/level.ts` (`BOT_LEVELS`, `botPick`,
+  `botRng`, exported from the engine index). `sim.ts` output is unchanged: the same seeds give the same games.
+* `apps/web/src/controller/WatchController.ts`: the bot answers each decision through `applyAnswer` (same rules as a
+  player). Speed is decisions per second (1×, 2×, 4×) or Max (as many as fit in a 40 ms slice per 100 ms tick). Pause,
+  step (one decision while paused) and speed are the viewer's controls (`WatchControls`, in the HUD top bar). The
+  viewer cannot answer: `canAnswer` is false and the decision panel says "Bot đang chọn".
+* Watched games are not autosaved and never touch the solo save: `discardSolo` leaves the solo save alone when a
+  watch is attached, and the in-game menu says "Dừng xem và về menu chính" instead of "Save and return".
+* Bot stuck (no legal pick) stops the game with a toast and status "Stopped: no legal move"; a finished game shows the
+  end screen.
+* Tests: `packages/engine/tests/bots.test.ts` (each level answers with legal picks, the same bot seed plays the same
+  game, the random level depends on its seed, a Frozen Grove game ends under the heuristic level). Engine `npm test`
+  955 passed, 3 skipped (67 files). Typecheck clean. `vite build` clean.
+* Browser (headless shell, 1366×820, `npm run dev:web`, Crater): the setup shows the Mức bot choice; Watch starts and
+  the bot advances; Pause freezes the board for 2.5 s; Step changes the HUD; Max played a whole game to the end screen
+  ("THẤT BẠI"); the solo autosave key was not written; "Dừng xem và về menu chính" returns to the main menu. No page
+  errors in the console (only the existing i18n warnings for untranslated log lines).
+* Not included: the Monte-Carlo bot (`scripts/bots/mc.ts`) stays a sim-only tool; it was not measured in the browser and
+  its rollouts are much heavier than the other levels. The dev bot (`apps/web/src/dev/bot.ts`) still has its own copy of
+  the heuristic.
+* i18n: 26 strings in `tools/i18n/ui/watch.json`; `build_vi.mjs` 0 problems.

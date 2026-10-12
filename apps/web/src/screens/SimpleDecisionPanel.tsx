@@ -15,6 +15,8 @@ export interface SimpleDecisionPanelProps {
   canAnswer: boolean;
   /** true while an answer is on its way to the server (co-op) */
   busy?: boolean;
+  /** watch mode: the bot plays this decision */
+  watching?: boolean;
 }
 
 function countText(min: number, max: number): string {
@@ -22,7 +24,7 @@ function countText(min: number, max: number): string {
   return `${min} to ${max}`;
 }
 
-export function SimpleDecisionPanel({ state, answer, canAnswer, busy = false }: SimpleDecisionPanelProps) {
+export function SimpleDecisionPanel({ state, answer, canAnswer, busy = false, watching = false }: SimpleDecisionPanelProps) {
   const p = state.pending;
   const pendingId = p?.id ?? null;
   const [chosen, setChosen] = useState<string[]>([]);
@@ -35,7 +37,7 @@ export function SimpleDecisionPanel({ state, answer, canAnswer, busy = false }: 
   if (!p) return null;
 
   const live = canAnswer && !busy;
-  const waitReason = canAnswer ? undefined : t('Waiting for another player');
+  const waitReason = canAnswer ? undefined : watching ? t('The bot is choosing') : t('Waiting for another player');
   const confirmable = chosen.length >= p.min && chosen.length <= p.max;
   const multi = p.max > 1;
 

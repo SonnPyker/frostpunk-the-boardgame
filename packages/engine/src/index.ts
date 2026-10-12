@@ -33,6 +33,8 @@ export type { AnswerResult } from './setup';
 export type { GameView, PendingView, PlayerSeatView, DeckName, ViewOptions } from './view';
 export { autoplay } from './autoplay';
 export type { AutoplayResult } from './autoplay';
+export { BOT_LEVELS, botPick, botRng } from './bots/level';
+export type { BotLevel } from './bots/level';
 
 /** A player's answer to one decision. */
 export type Command = { who: number; pendingId: number; pick: string[] };

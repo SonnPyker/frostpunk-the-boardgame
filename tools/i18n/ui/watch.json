@@ -1,0 +1,106 @@
+[
+ {
+  "key": "Watch a bot play",
+  "vi": "Xem bot chơi"
+ },
+ {
+  "key": "Watch",
+  "vi": "Xem"
+ },
+ {
+  "key": "Bot level",
+  "vi": "Mức bot"
+ },
+ {
+  "key": "Random",
+  "vi": "Ngẫu nhiên"
+ },
+ {
+  "key": "Heuristic",
+  "vi": "Kinh nghiệm"
+ },
+ {
+  "key": "Expert",
+  "vi": "Chuyên gia"
+ },
+ {
+  "key": "Random: any legal answer. A baseline to compare with.",
+  "vi": "Ngẫu nhiên: chọn bất kỳ nước hợp lệ nào. Dùng làm mốc để so sánh."
+ },
+ {
+  "key": "Heuristic: scores each option by its kind (fuel, shelter, food, buildings).",
+  "vi": "Kinh nghiệm: chấm điểm từng lựa chọn theo loại quyết định (nhiên liệu, nhà ở, thức ăn, công trình)."
+ },
+ {
+  "key": "Expert: a scripted bot that weighs food, shelter, heat, Hope and Discontent.",
+  "vi": "Chuyên gia: bot theo kịch bản, cân nhắc thức ăn, nhà ở, nhiệt, Hope và Discontent."
+ },
+ {
+  "key": "The bot plays the whole game. Pause, step or change the speed while it plays.",
+  "vi": "Bot chơi cả ván. Bạn có thể tạm dừng, đi từng bước hoặc đổi tốc độ khi bot đang chơi."
+ },
+ {
+  "key": "Watch controls",
+  "vi": "Điều khiển xem"
+ },
+ {
+  "key": "Speed",
+  "vi": "Tốc độ"
+ },
+ {
+  "key": "Play",
+  "vi": "Chơi tiếp"
+ },
+ {
+  "key": "Pause",
+  "vi": "Tạm dừng"
+ },
+ {
+  "key": "Step",
+  "vi": "Từng bước"
+ },
+ {
+  "key": "Max",
+  "vi": "Tối đa"
+ },
+ {
+  "key": "Playing",
+  "vi": "Đang chơi"
+ },
+ {
+  "key": "Paused",
+  "vi": "Đang tạm dừng"
+ },
+ {
+  "key": "Game over",
+  "vi": "Hết ván"
+ },
+ {
+  "key": "Stopped: no legal move",
+  "vi": "Đã dừng: không còn nước hợp lệ"
+ },
+ {
+  "key": "This game is watched, not played.",
+  "vi": "Ván này chỉ để xem, không phải để chơi."
+ },
+ {
+  "key": "The game is waiting for a decision that does not exist.",
+  "vi": "Ván đang chờ một quyết định không tồn tại."
+ },
+ {
+  "key": "The bot found no legal move, so the game stopped.",
+  "vi": "Bot không tìm được nước hợp lệ nên ván đã dừng."
+ },
+ {
+  "key": "The engine rejected the bot move.",
+  "vi": "Engine từ chối nước đi của bot."
+ },
+ {
+  "key": "The bot is choosing",
+  "vi": "Bot đang chọn"
+ },
+ {
+  "key": "Stop watching and return to menu",
+  "vi": "Dừng xem và về menu chính"
+ }
+]
