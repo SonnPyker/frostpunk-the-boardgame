@@ -1,0 +1,98 @@
+[
+ {
+  "key": "Random scenario",
+  "vi": "Kịch bản ngẫu nhiên"
+ },
+ {
+  "key": "Custom game",
+  "vi": "Tùy chỉnh"
+ },
+ {
+  "key": "Solo scenarios",
+  "vi": "Kịch bản đơn"
+ },
+ {
+  "key": "Solo · scenario set-up",
+  "vi": "Đơn · thiết lập kịch bản"
+ },
+ {
+  "key": "Random draw",
+  "vi": "Lượt rút ngẫu nhiên"
+ },
+ {
+  "key": "Random",
+  "vi": "Ngẫu nhiên"
+ },
+ {
+  "key": "The draw chooses the Advisor.",
+  "vi": "Lượt rút chọn Advisor."
+ },
+ {
+  "key": "Set-up summary",
+  "vi": "Tóm tắt thiết lập"
+ },
+ {
+  "key": "Starting values",
+  "vi": "Giá trị khởi đầu"
+ },
+ {
+  "key": "Starts from the Society card you chose.",
+  "vi": "Bắt đầu từ thẻ Xã hội bạn đã chọn."
+ },
+ {
+  "key": "Limits: population 0–50 per type, sick up to 25, Automatons 0–6, supplies 0–50, Hope 1–6 tokens, Discontent 0–5 tokens, Corpse 0–9.",
+  "vi": "Giới hạn: dân số {0}–{1} mỗi loại, bệnh tối đa {2}, Automaton {3}–{4}, nguồn {5}–{6}, Hope {7}–{8} dấu, Discontent {9}–{10} dấu, Corpse {11}–{12}."
+ },
+ {
+  "key": "Custom starting values: not the numbers printed on the card.",
+  "vi": "Giá trị khởi đầu tùy chỉnh: không phải các số in trên thẻ."
+ },
+ {
+  "key": "This set-up cannot start a game. Check the starting numbers.",
+  "vi": "Thiết lập này không thể bắt đầu ván chơi. Hãy kiểm tra các giá trị khởi đầu."
+ },
+ {
+  "key": "Check the starting numbers.",
+  "vi": "Hãy kiểm tra các giá trị khởi đầu."
+ },
+ {
+  "key": "Hope tokens",
+  "vi": "Dấu Hope"
+ },
+ {
+  "key": "Discontent tokens",
+  "vi": "Dấu Discontent"
+ },
+ {
+  "key": "Active Hope",
+  "vi": "Hope đang hoạt động"
+ },
+ {
+  "key": "Active Discontent",
+  "vi": "Discontent đang hoạt động"
+ },
+ {
+  "key": "sick",
+  "vi": "bệnh"
+ },
+ {
+  "key": "3 drawn, 2 active",
+  "vi": "{0} rút, {1} đang hoạt động"
+ },
+ {
+  "key": "survivalist",
+  "vi": "Survivalist"
+ },
+ {
+  "key": "Corpse",
+  "vi": "Corpse"
+ },
+ {
+  "key": "Each draw picks one of the three playable scenarios and an Advisor, then draws every starting number at random within the limits of the game. The seed shuffles the map and the decks.",
+  "vi": "Mỗi lượt rút chọn một trong ba kịch bản có thể chơi và một Advisor, rồi rút ngẫu nhiên mọi giá trị khởi đầu trong giới hạn của ván chơi. Hạt giống xáo trộn bản đồ và các bộ bài."
+ },
+ {
+  "key": "Numbers drawn at random within the limits of the game.",
+  "vi": "Các giá trị được rút ngẫu nhiên trong giới hạn của ván chơi."
+ }
+]

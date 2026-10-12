@@ -214,6 +214,30 @@ export interface GameConfig {
   extraPack: boolean;
   /** skip optional Hope-bag draw choices (auto) */
   advisors?: (string | null)[];
+  /**
+   * Custom starting values (solo "Tùy chỉnh" set-up). When present they replace the Society card's printed values for this
+   * game; absent means the card as printed. Limits: setup.ts `validateStart`.
+   */
+  start?: StartOverride;
+}
+
+/** The starting numbers of a game: the Society card's printed values, or a custom set-up's (plain JSON, kept in the config). */
+export interface StartOverride {
+  /** Population track: workers, engineers, children */
+  pop: [number, number, number];
+  /** sick Citizens of each type (a part of the population of that type) */
+  sick: [number, number, number];
+  /** Automatons placed in the supply */
+  automaton: number;
+  food: number;
+  wood: number;
+  coal: number;
+  cores: number;
+  /** Hope tokens drawn, and how many of them start active */
+  hope: [number, number];
+  /** Discontent tokens drawn, and how many of them start active */
+  discontent: [number, number];
+  corpse: number;
 }
 
 export interface GameState {

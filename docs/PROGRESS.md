@@ -268,6 +268,39 @@ Caveats (details in docs/KNOWN_ISSUES.md "Current state"):
 * i18n: "Click the highlighted spaces on the map" added to `tools/i18n/ui/decisions.json`; `build_vi.mjs` 0 problems.
 
 
+## Scenario and custom set-up (2026-10-12)
+
+* Two solo entries on the main menu, under "Solo · scenario set-up": **Kịch bản ngẫu nhiên** (random) and **Tùy chỉnh**
+  (custom). One screen, `apps/web/src/screens/ScenarioSetup.tsx`, in two modes. Both show the set-up summary before Begin.
+  Co-op is unchanged: the server settings do not carry the custom start.
+* **Random** (`packages/engine/src/randomSetup.ts`, `randomSetup(drawSeed, {name, extraPack})`). One draw picks one of the
+  three playable scenarios, one Advisor and a seed, then draws every starting number at random within `START_LIMITS`: Population
+  per type (0–50), sick Citizens (up to the population, at most 25), Automatons (0–6), Food, Wood, Coal and Cores (0–50), Hope
+  (1–6 tokens, some active), Discontent (0–5 tokens, some active) and the Corpse marker (0–9). Each draw therefore passes
+  `validateStart`. The map and the decks were already random per seed (tile stacks, Morning, Dusk, Weather, Citizen decks, Laws,
+  Technologies, Expeditions); the rulebook fixes the Heat and indicator positions, the Storm marker and Round 1, so those are not
+  drawn. The draw uses the printed Society card only as a label; the numbers come from `randomStart`, not from a card.
+* **Custom**: `GameConfig.start` (`StartOverride`, `types.ts`) replaces the printed numbers for that game. `setup.ts`
+  `validateStart` enforces `START_LIMITS`: population 0–50 per type; sick 0 to its population and at most 25 (a Sickness marker
+  at 26 loses); Automatons 0–6; Food, Wood, Coal and Cores 0–50 (the cap on Wood, Coal and Cores is a choice of this port, the
+  rulebook prints no maximum); Hope 1–6 tokens drawn with at most that many active (no Hope loses at once); Discontent 0–5
+  tokens drawn (a sixth loses) with at most that many active; Corpse 0–9 (the last space loses). The start is plain JSON in the
+  config, so replay and the autosave give the same game. The screen clamps each field to these limits. Custom values are not
+  printed on any card, and the summary says so.
+* `startValues(config)` gives the numbers a game uses (the custom start, or the printed card). `newGameState` reads it.
+* Tests: `packages/engine/tests/scenario_setup.test.ts` (14 tests: 200 random draws use a playable scenario, one Advisor and a
+  start that passes `validateStart`; draws are reproducible and each draw gives a different start; the draws reach the ends of
+  each range; two draws shuffle different map stacks and Morning decks; 200 draws start with the invariants holding, and a sample
+  is played on (up to 300 decisions each). Custom tests: each limit refuses
+  its value; the custom start sets the population, tokens, meeples and Corpse, replays identically, and holds the invariants at
+  the largest allowed values).
+* Checks: `npm run typecheck` clean; engine 958 passed / 3 skipped (67 files); server 106/106; `npm run build:web` ok;
+  token scan 0 unknown. Browser (headless Chromium, 1366×768): both modes render in Vietnamese, the random button changes
+  the draw, the custom fields clamp (50 workers, 6 Hope tokens), and Begin starts a Crater game with no console errors.
+* Open, found while doing this: the solo New game screen (`NewGame.tsx`) previews the Survivalist numbers when Extra pack is
+  ticked, but it never sends `survivalist: true`, so the game plays the normal or hard card. Not changed here. The custom screen
+  has an explicit Survivalist difficulty, so it plays what it shows.
+
 ## Watch mode: a bot plays the game (2026-10-12)
 
 * Main menu → "Xem bot chơi" (Watch a bot play). The set-up is the solo one (scenario, society, difficulty, extra pack,
