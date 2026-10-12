@@ -214,6 +214,8 @@ export interface GameConfig {
   extraPack: boolean;
   /** skip optional Hope-bag draw choices (auto) */
   advisors?: (string | null)[];
+  /** A tutorial lesson (tutorial.ts): a prearranged solo Crater position whose steps gate the answers. Absent for a normal game. */
+  tutorial?: string;
 }
 
 export interface GameState {

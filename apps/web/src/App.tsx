@@ -12,6 +12,8 @@ import { ErrorBoundary, Toast } from './components/ui';
 import { useSession } from './store/session';
 import { useUi } from './store/ui';
 import { MainMenu } from './screens/MainMenu';
+import { Tutorial } from './screens/Tutorial';
+import { LessonBanner } from './screens/LessonBanner';
 import { NewGame, type NewGameMode } from './screens/NewGame';
 import { Lobby } from './screens/Lobby';
 import { EndScreen } from './screens/EndScreen';
@@ -104,6 +106,7 @@ const noop = () => undefined;
 const SETUP_MODES: Record<string, NewGameMode> = { newSolo: 'solo', coopHost: 'host', coopJoin: 'join' };
 
 function menuScreenFor(screen: string): ReactNode {
+  if (screen === 'tutorial') return <Tutorial />;
   const mode = SETUP_MODES[screen];
   return mode ? <NewGame mode={mode} /> : <MainMenu />;
 }
@@ -253,6 +256,11 @@ export function App() {
             <Suspense fallback={<FallbackMap state={state} onPick={noop} highlight={NO_OPTIONS} />}>
               <MapView state={state} onPick={onPickOption} highlight={highlight} selected={selected} />
             </Suspense>
+          </ErrorBoundary>
+        </div>
+        <div className="lesson-layer">
+          <ErrorBoundary name={t('Tutorial')} variant="corner">
+            <LessonBanner />
           </ErrorBoundary>
         </div>
         <div className="hud-layer">

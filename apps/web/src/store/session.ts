@@ -4,7 +4,7 @@ import { create } from 'zustand';
 import type { GameConfig } from '@frostpunk/engine';
 import { LocalController } from '../controller/LocalController';
 import { RemoteController } from '../controller/RemoteController';
-import { EngineUnavailableError, createGameState } from '../controller/engineApi';
+import { EngineUnavailableError, createGameState, lessonConfig } from '../controller/engineApi';
 import { clearSoloSave, hasSoloSave, readCoopSession } from '../controller/persistence';
 import type { Controller, ControllerSnapshot } from '../controller/types';
 import { useUi } from './ui';
@@ -20,6 +20,8 @@ interface SessionStore {
   snap: ControllerSnapshot | null;
   /** starts a new solo game (throws nothing: failures become toasts and false is returned) */
   startSolo: (config: GameConfig) => boolean;
+  /** starts a tutorial lesson (not autosaved: the player's own saved game stays as it is) */
+  startLesson: (id: string) => boolean;
   continueSolo: () => boolean;
   /** creates a co-op controller and attaches it; the caller then sends create/join */
   openCoop: () => RemoteController;
@@ -79,6 +81,19 @@ export const useSession = create<SessionStore>()((set, get) => ({
     }
   },
 
+  startLesson: (id) => {
+    try {
+      const config = lessonConfig(id);
+      const state = createGameState(config);
+      attach(new LocalController(state, config, { persist: false }));
+      return true;
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : t('Could not start the game.');
+      useUi.getState().notify(msg, 'error');
+      return false;
+    }
+  },
+
   continueSolo: () => {
     let result: ReturnType<typeof LocalController.restore>;
     try {
@@ -127,7 +142,9 @@ export const useSession = create<SessionStore>()((set, get) => ({
   },
 
   discardSolo: () => {
-    clearSoloSave();
+    // a lesson has no autosave of its own: ending it must not remove the player's saved game
+    const c = get().controller;
+    if (!(c instanceof LocalController) || c.persists) clearSoloSave();
     detachAll();
   },
 

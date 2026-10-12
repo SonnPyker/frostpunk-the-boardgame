@@ -1,0 +1,206 @@
+[
+ {
+  "key": "Tutorial",
+  "vi": "Hướng dẫn"
+ },
+ {
+  "key": "Short lessons on a prepared Crater board. Each one teaches one rule. Follow the step on screen: only the answer it asks for is accepted.",
+  "vi": "Các bài ngắn trên bàn Crater đã được dựng sẵn, mỗi bài dạy một luật. Làm theo bước trên màn hình: chỉ nhận đúng lựa chọn mà bước đó yêu cầu."
+ },
+ {
+  "key": "Lessons",
+  "vi": "Các bài"
+ },
+ {
+  "key": "Lesson 1",
+  "vi": "Bài {0}"
+ },
+ {
+  "key": "Lesson 1 of 6",
+  "vi": "Bài {0} trên {1}"
+ },
+ {
+  "key": "Step 1 of 3",
+  "vi": "Bước {0} trên {1}"
+ },
+ {
+  "key": "3 steps",
+  "vi": "{0} bước"
+ },
+ {
+  "key": "Rulebook pages",
+  "vi": "Sách luật, trang"
+ },
+ {
+  "key": "Completed",
+  "vi": "Đã xong"
+ },
+ {
+  "key": "Start",
+  "vi": "Bắt đầu"
+ },
+ {
+  "key": "Leave lesson",
+  "vi": "Thoát bài"
+ },
+ {
+  "key": "Lesson complete",
+  "vi": "Đã hoàn thành bài"
+ },
+ {
+  "key": "Next lesson",
+  "vi": "Bài tiếp theo"
+ },
+ {
+  "key": "Back to lessons",
+  "vi": "Danh sách bài"
+ },
+ {
+  "key": "Keep playing freely",
+  "vi": "Chơi tự do"
+ },
+ {
+  "key": "Lesson progress is kept in this browser only. Your saved game is not changed.",
+  "vi": "Tiến độ bài học chỉ lưu trên trình duyệt này. Ván đang chơi của bạn không bị thay đổi."
+ },
+ {
+  "key": "This lesson asks for a different answer here. Follow the step shown.",
+  "vi": "Bài này cần một lựa chọn khác ở bước này. Hãy làm theo bước trên màn hình."
+ },
+ {
+  "key": "Fuel the Generator",
+  "vi": "Nạp Than cho Generator"
+ },
+ {
+  "key": "Coal in the Generator raises Heat. Warm actions do not make Citizens sick.",
+  "vi": "Than nạp vào Generator làm tăng Nhiệt. Hành động ấm không làm Công dân bị bệnh."
+ },
+ {
+  "key": "Choose Fuel the Generator. It costs no Meeple and no main action.",
+  "vi": "Chọn Nạp Than cho Generator. Việc này không tốn Meeple và không tốn hành động chính."
+ },
+ {
+  "key": "Spend 2 Coal. Each Coal raises the Heat marker by 1, from 1 to 3.",
+  "vi": "Chi {0} Than. Mỗi Than tăng dấu Nhiệt thêm {1}, từ {2} lên {3}."
+ },
+ {
+  "key": "Gather Resources",
+  "vi": "Thu thập tài nguyên"
+ },
+ {
+  "key": "A Worker takes up to 2 Resources from one space with Wood, Coal or Steam Core.",
+  "vi": "Một Công nhân lấy tối đa {0} tài nguyên từ một ô có Gỗ, Than hoặc Steam Core."
+ },
+ {
+  "key": "Choose Gather Resources. Heat is at 4, so the space is warm and no Citizen falls sick.",
+  "vi": "Chọn Thu thập tài nguyên. Nhiệt đang ở mức {0}, nên ô này ấm và không Công dân nào bị bệnh."
+ },
+ {
+  "key": "Choose a Meeple to do the work. It goes onto the space you pick next.",
+  "vi": "Chọn một Meeple để làm việc. Meeple này sẽ được đặt lên ô bạn chọn tiếp theo."
+ },
+ {
+  "key": "Pick the space with 2 Wood. You take up to 2 Resources from it. Each space can be gathered once per Round.",
+  "vi": "Chọn ô có {0} Gỗ. Bạn lấy tối đa {1} tài nguyên từ ô này. Mỗi ô chỉ được thu thập một lần trong mỗi vòng."
+ },
+ {
+  "key": "Remove Snow",
+  "vi": "Gỡ bỏ tuyết"
+ },
+ {
+  "key": "Clear the snow next to the Generator to add new tiles, with their Resources and Trees.",
+  "vi": "Gỡ tuyết cạnh Generator để thêm mảnh mới, kèm theo tài nguyên và cây."
+ },
+ {
+  "key": "Choose Remove Snow. It is always cold, so one Worker falls sick.",
+  "vi": "Chọn Gỡ bỏ tuyết. Hành động này luôn lạnh, nên một Công nhân bị bệnh."
+ },
+ {
+  "key": "Choose a Meeple to clear the snow.",
+  "vi": "Chọn một Meeple để gỡ tuyết."
+ },
+ {
+  "key": "Choose two Near tiles. Near tiles go next to the Generator. The other choice is one Far tile.",
+  "vi": "Chọn hai mảnh Gần. Mảnh Gần đặt cạnh Generator. Lựa chọn còn lại là một mảnh Xa."
+ },
+ {
+  "key": "Place the first Near tile on a highlighted hex next to the Generator.",
+  "vi": "Đặt mảnh Gần thứ nhất lên ô lục giác được tô sáng cạnh Generator."
+ },
+ {
+  "key": "Place the second Near tile on another highlighted hex.",
+  "vi": "Đặt mảnh Gần thứ hai lên một ô lục giác được tô sáng khác."
+ },
+ {
+  "key": "Construct",
+  "vi": "Xây dựng"
+ },
+ {
+  "key": "Build a building on an empty space and pay its cost in Wood.",
+  "vi": "Xây một công trình trên ô trống và trả chi phí bằng Gỗ."
+ },
+ {
+  "key": "Choose Construct. You can make up to 3 sub-actions in any order: Build or Dismantle.",
+  "vi": "Chọn Xây dựng. Bạn có tối đa {0} hành động phụ theo thứ tự tùy ý: Xây hoặc Tháo dỡ."
+ },
+ {
+  "key": "Choose a Meeple to build. Construct is always warm, so no Citizen falls sick.",
+  "vi": "Chọn một Meeple để xây. Xây dựng luôn ấm, nên không Công dân nào bị bệnh."
+ },
+ {
+  "key": "Decline the Citizen card and take the normal Construct action.",
+  "vi": "Từ chối thẻ Công dân và chọn hành động Xây dựng thông thường."
+ },
+ {
+  "key": "Choose Build.",
+  "vi": "Chọn Xây."
+ },
+ {
+  "key": "Choose Hunter's Hut. It costs 1 Wood.",
+  "vi": "Chọn Lều Thợ Săn. Chi phí {0} Gỗ."
+ },
+ {
+  "key": "Place it on any highlighted empty space. A space with a Meeple or a building cannot take one.",
+  "vi": "Đặt công trình lên một ô trống được tô sáng. Ô có Meeple hoặc công trình khác thì không đặt được."
+ },
+ {
+  "key": "Choose Done to end the Construct action.",
+  "vi": "Chọn Xong để kết thúc hành động Xây dựng."
+ },
+ {
+  "key": "Use a Building",
+  "vi": "Sử dụng một Công trình"
+ },
+ {
+  "key": "Send a Worker to a building and use its effect. Hunter's Hut gives 4 Food.",
+  "vi": "Cử một Công nhân đến công trình và dùng hiệu ứng của nó. Lều Thợ Săn cho {0} Thực phẩm."
+ },
+ {
+  "key": "Choose Use a Building. Heat is at 4, so the building is warm.",
+  "vi": "Chọn Sử dụng một Công trình. Nhiệt đang ở mức {0}, nên công trình ấm."
+ },
+ {
+  "key": "Choose a Meeple to use the building. A Small building takes one Meeple per Round.",
+  "vi": "Chọn một Meeple để dùng công trình. Công trình nhỏ nhận một Meeple mỗi vòng."
+ },
+ {
+  "key": "Use Hunter's Hut. It gains 4 Food.",
+  "vi": "Dùng Lều Thợ Săn. Nhận thêm {0} Thực phẩm."
+ },
+ {
+  "key": "End of the Round",
+  "vi": "Kết thúc vòng chơi"
+ },
+ {
+  "key": "Passing ends your Action phase. Night then offers an optional Fuel before the Round ends.",
+  "vi": "Bỏ lượt sẽ kết thúc Giai đoạn Hành động của bạn. Sau đó, Đêm cho phép nạp nhiên liệu tùy chọn trước khi vòng kết thúc."
+ },
+ {
+  "key": "Choose Pass. When every player passes in a row, the Action phase ends.",
+  "vi": "Chọn Bỏ lượt. Khi mọi người chơi cùng bỏ lượt liên tiếp, Giai đoạn Hành động kết thúc."
+ },
+ {
+  "key": "At Night, Fuel the Generator is optional. Spend 1 Coal. Citizens with no warm place to sleep fall sick.",
+  "vi": "Vào Đêm, nạp nhiên liệu cho Generator là tùy chọn. Chi {0} Than. Công dân không có chỗ ngủ ấm sẽ bị bệnh."
+ }
+]
