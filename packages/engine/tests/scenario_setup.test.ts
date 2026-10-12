@@ -35,40 +35,58 @@ function startFrom(society: number, difficulty: 'normal' | 'hard' = 'normal'): S
 }
 
 describe('random set-up draw', () => {
-  it('uses only playable scenarios, printed Society cards and one Advisor', () => {
+  it('draws a playable scenario, one Advisor, and a start within START_LIMITS', () => {
     for (let seed = 1; seed <= 200; seed++) {
-      for (const extraPack of [false, true]) {
-        const cfg = randomSetup(seed, { name: NAME, extraPack });
-        expect(validateConfig(cfg)).toBeUndefined();
-        expect(PLAYABLE_SCENARIOS).toContain(cfg.scenario);
-        expect(cfg.advisors).toHaveLength(1);
-        expect(Object.keys(D.advisors)).toContain(cfg.advisors![0]);
-        const difficulty = cfg.survivalist ? 'survivalist' : cfg.difficulty;
-        const row = printedCard(cfg.society, difficulty);
-        expect(row.pop).toEqual(startValues(cfg).pop);
-        expect(startValues(cfg).food).toBe(row.food);
-        if (!extraPack) expect(cfg.survivalist).toBeUndefined();
-      }
+      const cfg = randomSetup(seed, { name: NAME, extraPack: seed % 2 === 0 });
+      expect(validateConfig(cfg)).toBeUndefined();
+      expect(PLAYABLE_SCENARIOS).toContain(cfg.scenario);
+      expect(cfg.advisors).toHaveLength(1);
+      expect(Object.keys(D.advisors)).toContain(cfg.advisors![0]);
+      expect(cfg.survivalist).toBeUndefined();
+      expect(cfg.start).toBeDefined();
+      expect(() => validateStart(cfg.start!)).not.toThrow();
     }
   });
 
-  it('is reproducible for one draw seed and varies across draws', () => {
+  it('is reproducible for one draw seed and gives a different start on each draw', () => {
     const opts = { name: NAME, extraPack: true };
     expect(randomSetup(42, opts)).toEqual(randomSetup(42, opts));
-    const combos = new Set<string>();
-    for (let seed = 1; seed <= 200; seed++) {
-      const cfg = randomSetup(seed, opts);
-      combos.add(`${cfg.scenario}/${cfg.society}/${cfg.survivalist ? 'S' : cfg.difficulty}`);
-    }
-    expect(combos.size).toBeGreaterThan(30);
+    const starts = new Set<string>();
+    for (let seed = 1; seed <= 200; seed++) starts.add(JSON.stringify(randomSetup(seed, opts).start));
+    expect(starts.size).toBe(200);
   });
 
-  it('starts valid games that keep every invariant and can be played on', () => {
-    for (let seed = 1; seed <= 24; seed++) {
+  it('draws across the whole range of each number, not only the printed card values', () => {
+    const seen = { workerLow: false, workerHigh: false, hopeOne: false, hopeTop: false, corpseTop: false, automatonTop: false };
+    for (let seed = 1; seed <= 500; seed++) {
+      const st = randomSetup(seed, { name: NAME, extraPack: false }).start!;
+      seen.workerLow ||= st.pop[0] <= 5;
+      seen.workerHigh ||= st.pop[0] >= 45;
+      seen.hopeOne ||= st.hope[0] === 1;
+      seen.hopeTop ||= st.hope[0] === START_LIMITS.hope;
+      seen.corpseTop ||= st.corpse === START_LIMITS.corpse;
+      seen.automatonTop ||= st.automaton === START_LIMITS.automaton;
+    }
+    expect(Object.values(seen).every(Boolean)).toBe(true);
+  });
+
+  it('gives each draw its own map and decks, since the seed shuffles them', () => {
+    const opts = { name: NAME, extraPack: false };
+    const a = newGameState(randomSetup(1, opts));
+    const b = newGameState(randomSetup(2, opts));
+    expect(a.stacks).not.toEqual(b.stacks);
+    expect(a.decks.morning).not.toEqual(b.decks.morning);
+  });
+
+  it('starts valid games that keep every invariant, and plays some of them on', () => {
+    for (let seed = 1; seed <= 200; seed++) {
       const cfg = randomSetup(seed, { name: NAME, extraPack: seed % 2 === 0 });
       const s = createGame(cfg);
-      expect(checkInvariants(s)).toEqual([]);
-      expect(s.status).toBe('playing');
+      expect(checkInvariants(s), `draw ${seed}`).toEqual([]);
+      expect(s.status, `draw ${seed}`).toBe('playing');
+    }
+    for (let seed = 1; seed <= 24; seed++) {
+      const s = createGame(randomSetup(seed, { name: NAME, extraPack: seed % 2 === 0 }));
       const r = autoplay(s, seed, 300);
       expect(r.error).toBeUndefined();
       expect(checkInvariants(s)).toEqual([]);

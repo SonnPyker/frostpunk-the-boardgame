@@ -188,7 +188,7 @@ export function ScenarioSetup({ mode }: { mode: ScenarioSetupMode }) {
                 <div className="setup__stack">
                   <p className="muted setup__note">
                     {tn(
-                      'Each draw picks one of the three playable scenarios, one Society card as printed, one Advisor and a seed. Every starting number is the one the card prints, so the set-up follows the rulebook.',
+                      'Each draw picks one of the three playable scenarios and an Advisor, then draws every starting number at random within the limits of the game. The seed shuffles the map and the decks.',
                     )}
                   </p>
                   <div className="setup__draw">
@@ -393,7 +393,13 @@ export function ScenarioSetup({ mode }: { mode: ScenarioSetupMode }) {
                     <div>
                       <dt>{tn('Society')}</dt>
                       <dd>
-                        {SOCIETY_NUMERALS[shown.society - 1]} · {tn(shownDifficulty ?? 'normal')}
+                        {mode === 'random' ? (
+                          tn('Random')
+                        ) : (
+                          <>
+                            {SOCIETY_NUMERALS[shown.society - 1]} · {tn(shownDifficulty ?? 'normal')}
+                          </>
+                        )}
                       </dd>
                     </div>
                     <div>
@@ -455,7 +461,9 @@ export function ScenarioSetup({ mode }: { mode: ScenarioSetupMode }) {
                       <dd>{shownStart.corpse}</dd>
                     </div>
                   </dl>
-                  {shown.start ? (
+                  {mode === 'random' ? (
+                    <p className="muted setup__note">{tn('Numbers drawn at random within the limits of the game.')}</p>
+                  ) : shown.start ? (
                     <p className="muted setup__note">{tn('Custom starting values: not the numbers printed on the card.')}</p>
                   ) : null}
                 </>

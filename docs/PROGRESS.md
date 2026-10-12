@@ -274,9 +274,12 @@ Caveats (details in docs/KNOWN_ISSUES.md "Current state"):
   (custom). One screen, `apps/web/src/screens/ScenarioSetup.tsx`, in two modes. Both show the set-up summary before Begin.
   Co-op is unchanged: the server settings do not carry the custom start.
 * **Random** (`packages/engine/src/randomSetup.ts`, `randomSetup(drawSeed, {name, extraPack})`). One draw picks one of the
-  three playable scenarios, one printed Society card (Survivalist cards only with the extra pack), one Advisor and a seed.
-  Every starting number is the one the card prints, so a random game never starts from a state the rulebook does not print.
-  The "Ngẫu nhiên" button draws again.
+  three playable scenarios, one Advisor and a seed, then draws every starting number at random within `START_LIMITS`: Population
+  per type (0–50), sick Citizens (up to the population, at most 25), Automatons (0–6), Food, Wood, Coal and Cores (0–50), Hope
+  (1–6 tokens, some active), Discontent (0–5 tokens, some active) and the Corpse marker (0–9). Each draw therefore passes
+  `validateStart`. The map and the decks were already random per seed (tile stacks, Morning, Dusk, Weather, Citizen decks, Laws,
+  Technologies, Expeditions); the rulebook fixes the Heat and indicator positions, the Storm marker and Round 1, so those are not
+  drawn. The draw uses the printed Society card only as a label; the numbers come from `randomStart`, not from a card.
 * **Custom**: `GameConfig.start` (`StartOverride`, `types.ts`) replaces the printed numbers for that game. `setup.ts`
   `validateStart` enforces `START_LIMITS`: population 0–50 per type; sick 0 to its population and at most 25 (a Sickness marker
   at 26 loses); Automatons 0–6; Food, Wood, Coal and Cores 0–50 (the cap on Wood, Coal and Cores is a choice of this port, the
@@ -285,8 +288,10 @@ Caveats (details in docs/KNOWN_ISSUES.md "Current state"):
   config, so replay and the autosave give the same game. The screen clamps each field to these limits. Custom values are not
   printed on any card, and the summary says so.
 * `startValues(config)` gives the numbers a game uses (the custom start, or the printed card). `newGameState` reads it.
-* Tests: `packages/engine/tests/scenario_setup.test.ts` (12 tests: 200 random draws use only printed cards and playable
-  scenarios, draws are reproducible, a sample of draws is played on (up to 300 decisions each) with the invariants holding; each limit refuses
+* Tests: `packages/engine/tests/scenario_setup.test.ts` (14 tests: 200 random draws use a playable scenario, one Advisor and a
+  start that passes `validateStart`; draws are reproducible and each draw gives a different start; the draws reach the ends of
+  each range; two draws shuffle different map stacks and Morning decks; 200 draws start with the invariants holding, and a sample
+  is played on (up to 300 decisions each). Custom tests: each limit refuses
   its value; the custom start sets the population, tokens, meeples and Corpse, replays identically, and holds the invariants at
   the largest allowed values).
 * Checks: `npm run typecheck` clean; engine 958 passed / 3 skipped (67 files); server 106/106; `npm run build:web` ok;
