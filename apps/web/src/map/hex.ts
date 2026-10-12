@@ -103,8 +103,11 @@ export function zoneHeated(gen: GameState['gen'], zone: 'A' | 'B' | 'C' | null):
   return yellow;
 }
 
-/** Rim corner hexes (absolute axial), relative to the generator centre as in data/raw/map.json. */
-export function rimCorners(genCentre: [number, number]): { corner: number; q: number; r: number }[] {
+/**
+ * Rim corner hexes in absolute axial coordinates, as in data/raw/map.json. The Rim is fixed on the board for every
+ * scenario (the engine's tiles.ts and the TTS Lua use the same values); the Generator centre does not move it.
+ */
+export function rimCorners(): { corner: number; q: number; r: number }[] {
   const list = ((mapData as any).rim.corners as { corner: number; q: number; r: number }[]) ?? [];
-  return list.map((c) => ({ corner: c.corner, q: c.q + genCentre[0], r: c.r + genCentre[1] }));
+  return list.map((c) => ({ corner: c.corner, q: c.q, r: c.r }));
 }

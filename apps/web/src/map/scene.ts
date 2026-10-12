@@ -525,7 +525,7 @@ export class MapScene {
     if (key !== this.rimKey) {
       this.rimKey = key;
       if (this.rimGroup) this.layers.rim.remove(this.rimGroup);
-      const pts = rimCorners(s.genCentre).map((c) => hexXz(c.q, c.r));
+      const pts = rimCorners().map((c) => hexXz(c.q, c.r));
       this.rimGroup = M.rimGroup(this.kit, pts);
       this.layers.rim.add(this.rimGroup);
     }
@@ -1070,7 +1070,10 @@ export class MapScene {
     }
     this.canvas.style.cursor = '';
     if (wasClick) {
-      const id = this.pickAt(x, y);
+      // a click answers the first highlighted pick under the pointer, so a building or Meeple standing on a highlighted
+      // space does not block it; with nothing highlighted it reports the nearest pick, as before
+      const ids = this.pickCandidates(x, y);
+      const id = ids.find((c) => this.highlight.has(c)) ?? ids[0];
       // empty ground ('hex:') is only a pick when it is a highlighted option
       if (id && (!id.startsWith('hex:') || this.highlight.has(id))) this.hooks.onPick(id);
     }
@@ -1115,20 +1118,29 @@ export class MapScene {
 
   /** Canonical pick id under a canvas pixel: meeples and buildings first, then the board plane. */
   private pickAt(x: number, y: number): string | null {
-    if (!this.state) return null;
+    return this.pickCandidates(x, y)[0] ?? null;
+  }
+
+  /** Every canonical pick id under a canvas pixel, nearest first: meeples and buildings, then the board plane. */
+  private pickCandidates(x: number, y: number): string[] {
+    if (!this.state) return [];
     const rect = this.canvas.getBoundingClientRect();
     this.ndc.set((x / rect.width) * 2 - 1, -(y / rect.height) * 2 + 1);
     this.raycaster.setFromCamera(this.ndc, this.rig.camera);
+    const out: string[] = [];
     const hits = this.raycaster.intersectObjects([this.layers.meeples, this.layers.buildings], true);
     for (const h of hits) {
       if (!shown(h.object)) continue;
       let o: THREE.Object3D | null = h.object;
       while (o && o.userData.pick === undefined) o = o.parent;
-      if (o) return o.userData.pick as string;
+      if (o) out.push(o.userData.pick as string);
     }
     const p = new THREE.Vector3();
-    if (this.raycaster.ray.intersectPlane(this.groundPlane, p)) return worldToPick(this.state, p.x, p.z);
-    return null;
+    if (this.raycaster.ray.intersectPlane(this.groundPlane, p)) {
+      const ground = worldToPick(this.state, p.x, p.z);
+      if (ground) out.push(ground);
+    }
+    return out;
   }
 
   // ---- frame loop ------------------------------------------------------------------------------------------------------------

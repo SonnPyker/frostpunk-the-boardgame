@@ -16,11 +16,14 @@ interface UiStore {
   screen: MenuScreen;
   overlay: Overlay;
   toast: Toast | null;
+  /** the 3D map could not be drawn (no WebGL, or it crashed): decisions then show their options as a list */
+  mapDown: boolean;
   setScreen: (screen: MenuScreen) => void;
   openOverlay: (overlay: Exclude<Overlay, null>) => void;
   closeOverlay: () => void;
   notify: (text: string, tone?: ToastTone) => void;
   dismissToast: (id: number) => void;
+  setMapDown: () => void;
 }
 
 let toastSeq = 0;
@@ -29,6 +32,8 @@ export const useUi = create<UiStore>()((set) => ({
   screen: 'menu',
   overlay: null,
   toast: null,
+  mapDown: false,
+  setMapDown: () => set({ mapDown: true }),
   setScreen: (screen) => set({ screen }),
   openOverlay: (overlay) => set({ overlay }),
   closeOverlay: () => set({ overlay: null }),

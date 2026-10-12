@@ -210,3 +210,39 @@ Caveats (details in docs/KNOWN_ISSUES.md "Current state"):
   Browser-verified: the Build list (12 kinds, with art and text), the Use list (`b:2`, `b:5`), and the tooltip on a Charcoal Kiln.
 * Checks: `npm run typecheck` clean; `npm test` engine 947/947; `npm test -w apps/server` 106/106; `npm run build` ok.
 * Not committed.
+
+## Frozen Grove HUD fixes (2026-10-12)
+
+* Rim band: `rimCorners()` in `apps/web/src/map/hex.ts` added the Generator centre to the absolute corners in
+  `data/raw/map.json`, so on Frozen Grove (centre [0, 2]) the hatched band was drawn two rows low. The corners are now
+  used as they are, matching `packages/engine/src/tiles.ts`. Crater and Dreadnought (centre [0, 0]) are unchanged.
+* Hope and Discontent tokens: `SocietyBoard.tsx` looked up `hope-care` and similar names, but the manifest keys are the
+  bare names (`care`, `anger`, ...). The chips now show their art. Justice still has no asset (`justice.webp` is not in
+  `apps/web/public/assets/tokens`), so it keeps the two-letter fallback.
+* Checks: `npm run typecheck` clean. Browser: a new Frozen Grove solo game loads the Hope and Discontent art.
+* Open: the faint "4 5 6" numerals in the Society Engineer row and in the Generator come from the `board_panel_b` and
+  `board_generator` backdrops at 0.2 opacity with no mask. The City panel's Storm text is clipped at `max-height: 860px`.
+  Both need a layout decision.
+* Not committed.
+
+## Map-only position decisions (2026-10-12)
+
+* Position decisions (`tileSlot`, `space`, `adjacentSpace`, `treePick`; `MAP_ANSWER_KINDS` in
+  `apps/web/src/decisions/DecisionPanel.tsx`) no longer repeat their options as a list when the map can draw. The panel
+  shows a status line ("Click a highlighted hex/space on the map") and the disabled options with their reasons. The rows
+  stay for the keyboard: Tab reveals them (`.dec-keys:focus-within` in `decisions.css`), Enter answers. They carry no
+  number badge, because digits do not answer these kinds (`OptionList` `numbered={false}`).
+* Click: a building or Meeple on a highlighted space no longer blocks the click. `scene.ts` `pickCandidates` collects the
+  raycast picks and the ground pick, and the click takes the first highlighted one.
+* Fallback: `useUi` `mapDown` is set when the WebGL constructor fails (`MapView.tsx`) or the map ErrorBoundary catches
+  (`App.tsx` `onError`). The list then shows under "No map? Pick from a list".
+* Kept as lists: `buildSpace` (a Large building highlights one of its two spaces), and the building, meeple, citizen,
+  reuse and distribute decisions.
+* Browser-verified (normal mode): Gather answered by a real click on highlighted N08 top. Remove Snow: two Near tiles
+  answered by two map clicks, back to the Action menu. Gather space answered from the keyboard (Tab, Enter). No-WebGL
+  (simulated by overriding `getContext`): the map failure text shows and the space decision shows 9 list rows.
+* Not yet verified in the browser: `treePick`, `adjacentSpace`, and a hover cursor over a building on a highlighted space.
+* Open: a player who loses WebGL after mount (no context-lost handler) keeps the hidden list. Touch players lose hover
+  details, because tooltips are hover only. The new Vietnamese strings are drafts and need native review.
+* Checks: `npm run typecheck` clean.
+* Not committed.

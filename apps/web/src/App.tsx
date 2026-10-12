@@ -235,7 +235,12 @@ export function App() {
     body = (
       <div className="game-view">
         <div className="app-layer app-layer--map">
-          <ErrorBoundary name={t('3D map')} variant="corner" fallback={() => <FallbackMap state={state} onPick={noop} highlight={NO_OPTIONS} />}>
+          <ErrorBoundary
+            name={t('3D map')}
+            variant="corner"
+            onError={() => useUi.getState().setMapDown()}
+            fallback={() => <FallbackMap state={state} onPick={noop} highlight={NO_OPTIONS} />}
+          >
             <Suspense fallback={<FallbackMap state={state} onPick={noop} highlight={NO_OPTIONS} />}>
               <MapView state={state} onPick={onPickOption} highlight={highlight} />
             </Suspense>

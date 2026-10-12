@@ -251,7 +251,7 @@ function TokenTrack({ side, s }: { side: 'hope' | 'disc'; s: GameState }) {
 }
 
 function TokenChip({ type, active, isHope, label, color }: { type: string; active: boolean; isHope: boolean; label: string; color: string }) {
-  const art = tokenArt(`${isHope ? 'hope' : 'disc'}-${type}`);
+  const art = tokenArt(type);
   const state = active ? 'active' : 'exhausted';
   const text = isHope
     ? `${label} Hope (${t(state)}). ${t(active ? 'Active: can be exhausted for its effect.' : 'Exhausted: activate it again to use it.')}`

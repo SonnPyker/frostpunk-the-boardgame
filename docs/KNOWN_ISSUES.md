@@ -441,7 +441,7 @@ committing, not undo a resolved action. Limits (all deliberate unless noted):
   (`docs/rules_text/196D49D479.clean.txt`, around lines 194–206). The Vietnamese is `tools/i18n/ui/buildings.json`.
 - No 2D artwork for Steam Hub or Dreadnought in the asset set, so both show the icon fallback. Their effect text still shows.
 - Platform uses the yellow platform token (`token_platform`), not a tile face, because the asset set has no tile for it.
-- Remove Snow: number keys do nothing for a tile-placement decision. The map or the folded list answers it.
+- Remove Snow: number keys do nothing for a tile-placement decision. The map answers it; the list appears only when the map cannot draw.
 - Not verified in a browser: the map hover on Steam Hub or Dreadnought, and any Frozen Grove game. Verified: the Build list,
   the Use list, the map tooltip on a Charcoal Kiln, and a whole Remove Snow through the folded list. The map hover on
   hex (0, 2) was not checked; that hex was answered through the list.
