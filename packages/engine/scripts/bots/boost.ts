@@ -14,7 +14,7 @@
 //   the level that heats the yellow shelters (capped by the cold marker).
 // Nothing else is changed: population, buildings, cards, decks, laws and techs are left to the engine.
 //
-// Bot: the pro bot (scripts/bots/pro.ts) with the scores pushed towards late-game content: Workshop first, Stockpile
+// Bot: the pro bot (src/bots/pro.ts) with the scores pushed towards late-game content: Workshop first, Stockpile
 // (S03/S07), deploying Scouts, adopting Laws, developing Technologies, taking an Advisor. The same repeat and cap rules
 // apply, so every answer is a legal answer.
 //
@@ -24,8 +24,8 @@
 import type { GameState, Pending, PendingOption, HopeType, DiscType, CitizenType } from '../../src/types';
 import { CITIZEN_TYPES } from '../../src/types';
 import { legalPick } from '../../src/autoplay';
-import { proCtx, proScore, pickBy } from './pro';
-import type { ProCtx } from './pro';
+import { proCtx, proScore, pickBy } from '../../src/bots/pro';
+import type { ProCtx } from '../../src/bots/pro';
 import { randInt } from '../../src/rng';
 
 type Rng = Parameters<typeof randInt>[0];

@@ -8,7 +8,7 @@
 import { createGame, answer } from '../../../packages/engine/src/setup';
 import '../../../packages/engine/src/index';
 import { legalPick } from '../../../packages/engine/src/autoplay';
-import { proPick } from '../../../packages/engine/scripts/bots/pro';
+import { proPick } from '../../../packages/engine/src/bots/pro';
 import { checkInvariants } from '../../../packages/engine/src/invariants';
 import { seedRng } from '../../../packages/engine/src/rng';
 import { writeFileSync } from 'node:fs';

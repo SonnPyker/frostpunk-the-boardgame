@@ -1069,6 +1069,14 @@
   gap: 8px;
 }
 
+/* Watch mode: bot status, pause or play, step and speed, in the HUD top bar */
+.watch-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 /* The dock fills the centre column of the bottom band (.hud-bottom-c, position: relative in hud.css). It grows upward over
    the map, so the resource strip, seats and hand beside it stay readable. Tall decisions (long card texts, many options)
    scroll inside the dock instead of covering the whole screen. */

@@ -338,6 +338,7 @@ export function CreditsModal({ open, onClose }: { open: boolean; onClose: () => 
 
 export function InGameMenu({ open, onClose }: { open: boolean; onClose: () => void }) {
   const mode = useSession((s) => s.snap?.mode ?? 'solo');
+  const watching = useSession((s) => (s.snap?.watch ?? null) !== null);
   const detach = useSession((s) => s.detach);
   const leaveRoom = useSession((s) => s.leaveRoom);
   const openOverlay = useUi((s) => s.openOverlay);
@@ -346,13 +347,16 @@ export function InGameMenu({ open, onClose }: { open: boolean; onClose: () => vo
 
   const saveAndExit = () => {
     // Solo: every answer is already autosaved, so detaching keeps the game. Co-op: the seat stays on the server.
+    // A watched game is not kept: leaving it simply stops the viewing.
     detach();
     setScreen('menu');
     onClose();
-    notify(
-      mode === 'solo' ? t('Game saved in this browser.') : t('You left the table. Your seat is kept for you.'),
-      'ok',
-    );
+    if (!watching) {
+      notify(
+        mode === 'solo' ? t('Game saved in this browser.') : t('You left the table. Your seat is kept for you.'),
+        'ok',
+      );
+    }
   };
 
   const leaveForGood = () => {
@@ -374,7 +378,11 @@ export function InGameMenu({ open, onClose }: { open: boolean; onClose: () => vo
           {tn('Rules')}
         </Button>
         <Button variant="secondary" block onClick={saveAndExit}>
-          {mode === 'solo' ? tn('Save and return to menu') : tn('Leave the table, keep my seat')}
+          {watching
+            ? tn('Stop watching and return to menu')
+            : mode === 'solo'
+              ? tn('Save and return to menu')
+              : tn('Leave the table, keep my seat')}
         </Button>
         {mode === 'coop' ? (
           <Button variant="danger" block onClick={leaveForGood}>

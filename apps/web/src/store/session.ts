@@ -1,8 +1,9 @@
 // The active game session: which controller is attached and its latest snapshot. Screens read `snap`
 // and call the actions; controllers push new snapshots into the store.
 import { create } from 'zustand';
-import type { GameConfig } from '@frostpunk/engine';
+import type { BotLevel, GameConfig } from '@frostpunk/engine';
 import { LocalController } from '../controller/LocalController';
+import { WatchController } from '../controller/WatchController';
 import { RemoteController } from '../controller/RemoteController';
 import { EngineUnavailableError, createGameState } from '../controller/engineApi';
 import { clearSoloSave, hasSoloSave, readCoopSession } from '../controller/persistence';
@@ -20,6 +21,8 @@ interface SessionStore {
   snap: ControllerSnapshot | null;
   /** starts a new solo game (throws nothing: failures become toasts and false is returned) */
   startSolo: (config: GameConfig) => boolean;
+  /** starts a game that a bot plays while this client only watches (watch mode) */
+  startWatch: (config: GameConfig, level: BotLevel) => boolean;
   continueSolo: () => boolean;
   /** creates a co-op controller and attaches it; the caller then sends create/join */
   openCoop: () => RemoteController;
@@ -30,13 +33,25 @@ interface SessionStore {
   detach: () => void;
   /** leaves the co-op lobby for good (sends leave) */
   leaveRoom: () => void;
-  /** ends the current solo game for good (removes the autosave) */
+  /** ends the current solo game for good (removes the autosave; a watched game has none, so it is left alone) */
   discardSolo: () => void;
   /** coop: a seat exists (in this tab or as the fallback); coopFallback: only the localStorage fallback holds it */
   hasSaved: () => { solo: boolean; coop: boolean; coopCode: string | null; coopFallback: boolean };
 }
 
 let unsubscribe: (() => void) | null = null;
+
+/** Tells the player why a game could not start, and returns false for the caller. */
+function startFailed(e: unknown): false {
+  const msg =
+    e instanceof EngineUnavailableError
+      ? t('The rules engine is not wired into this build yet.')
+      : e instanceof Error
+        ? e.message
+        : t('Could not start the game.');
+  useUi.getState().notify(msg, 'error');
+  return false;
+}
 
 function attach(controller: Controller): void {
   unsubscribe?.();
@@ -68,14 +83,17 @@ export const useSession = create<SessionStore>()((set, get) => ({
       attach(controller);
       return true;
     } catch (e) {
-      const msg =
-        e instanceof EngineUnavailableError
-          ? t('The rules engine is not wired into this build yet.')
-          : e instanceof Error
-            ? e.message
-            : t('Could not start the game.');
-      useUi.getState().notify(msg, 'error');
-      return false;
+      return startFailed(e);
+    }
+  },
+
+  startWatch: (config, level) => {
+    try {
+      const state = createGameState(config);
+      attach(new WatchController(state, level, config.seed));
+      return true;
+    } catch (e) {
+      return startFailed(e);
     }
   },
 
@@ -127,7 +145,8 @@ export const useSession = create<SessionStore>()((set, get) => ({
   },
 
   discardSolo: () => {
-    clearSoloSave();
+    // A watched game has no autosave of its own: the solo save of the player's own game must survive it.
+    if (!(get().controller instanceof WatchController)) clearSoloSave();
     detachAll();
   },
 
