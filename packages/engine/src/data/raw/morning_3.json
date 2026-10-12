@@ -1,0 +1,41 @@
+[
+{"id":"M031","idx":30,"title":"Winter Has Come","opts":[
+  {"label":"Let him keep the pups","fx":["spent:workerEngineer:1","hunger+4","dusk:D056","remove"]},
+  {"label":"Distribute them among our citizens","fx":["hunger+4","dusk:D057","remove"]},
+  {"label":"Put them down and make use of the meat","fx":["gain:food:4","disc+1:apathy","remove"]}]},
+{"id":"M032","idx":31,"title":"The Quack from the Burrow","opts":[
+  {"label":"Let him do it","fx":["cure:4","hunger+3","dusk:D058","remove"]},
+  {"label":"Send an engineer to reeducate him","fx":["spent:engineer:1","dusk:D059","remove"]},
+  {"label":"Forbid him from his activities","fx":["disc+1","dusk:D060","remove"]}]},
+{"id":"M033","idx":32,"title":"Unequal Treatment","pack":"extra","top":[{"if":"!built:fightingArena","then":["sick:worker:1","sick:engineer:1"]}],"opts":[
+  {"label":"Favour the engineers","fx":["spent:engineer:1","dusk:D061","remove"]},
+  {"label":"Favour the workers","fx":["spent:worker:1","dusk:D062","remove"]},
+  {"label":"Let them solve the conflict on their own","fx":["dusk:D063","remove"]}]},
+{"id":"M034","idx":33,"title":"Ceremony for the Dead","pack":"extra","opts":[
+  {"label":"Spare some resources in memory","req":["spend:2res"],"fx":["hope+1","spent:worker:1","remove"]},
+  {"label":"Agree to shorter working hours","fx":["spent:worker:1","remove"]},
+  {"label":"Survival is all that counts","fx":["disc+1","remove"]}]},
+{"id":"M035","idx":34,"title":"Wild Berries","pack":"extra","opts":[
+  {"label":"Give them to our engineers","fx":["spent:engineer:1","dusk:D064","remove"]},
+  {"label":"Collect them and search for other berries","fx":["spent:worker:1","placeTile:far","sick:worker:3","gain:food:3","remove"]},
+  {"label":"Not going to risk making people sick","fx":["disc+1","remove"]}]},
+{"id":"M036","idx":35,"title":"Fanatics","pack":"extra","top":["activate:apathy"],"opts":[
+  {"label":"No work means no food","fx":["lose:worker:4","dusk:D065","remove"]},
+  {"label":"Break their signs and give them a choice","fx":["hope-1","lose:worker:2","remove"]},
+  {"label":"Convince them that our situation is not doomed","req":["exhaust:motivation"],"fx":["dusk:D066","remove"]}]},
+{"id":"M037","idx":36,"title":"A Coup...?","pack":"extra","opts":[
+  {"label":"Conduct a survey","fx":["spent:engineer:1","dusk:D067","remove"]},
+  {"label":"Have the watchmen barge in on a meeting","fx":["spent:worker:1","dusk:D068","remove"]},
+  {"label":"Promise a reward to anyone who reports plots","fx":["dusk:D069","remove"]}]},
+{"id":"M038","idx":37,"title":"Child's Play","pack":"extra","opts":[
+  {"label":"Act officially and thank the kids","fx":["event"]},
+  {"label":"Let the parents handle the situation","fx":["dusk:D071","remove"]}],
+ "eventAction":{"acts":["worker"],"freq":"round","cost":{"wood":1},"custom":"M038"}},
+{"id":"M039","idx":38,"title":"Doomsayer","pack":"extra","top":["hope-1"],"opts":[
+  {"label":"Confront him publicly","req":["exhaust:justice"],"fx":["remove"]},
+  {"label":"Send our men to soften him up","fx":["spent:worker:1","dusk:D072","remove"]},
+  {"label":"We have bigger problems","fx":["dusk:D073","remove"]}]},
+{"id":"M040","idx":39,"title":"Morning Smog","pack":"extra","top":["flipSickness:toSkull:1"],"opts":[
+  {"label":"Let the sick and the weak stay put","fx":["spentPerSkull","remove"]},
+  {"label":"A moment of weakness is a commodity","fx":["disc+1","dusk:D074","remove"]}]}
+]

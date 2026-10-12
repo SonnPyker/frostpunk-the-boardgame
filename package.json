@@ -1,0 +1,28 @@
+{
+  "name": "frostpunk-web",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Faithful, fully automated web port of Frostpunk: The Board Game (solo + co-op)",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "npm run dev -w apps/web",
+    "dev:server": "npm run dev -w apps/server",
+    "build": "npm run build -w apps/web && npm run build -w apps/server",
+    "build:web": "npm run build -w apps/web",
+    "build:server": "npm run build -w apps/server",
+    "test": "npm test -w packages/engine",
+    "typecheck": "npm run typecheck -w packages/engine && npm run typecheck -w apps/server && npm run typecheck -w apps/web",
+    "assets": "python tools/optimize_assets.py",
+    "sim": "npm run sim -w packages/engine"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}

@@ -1,0 +1,199 @@
+/* Frostpunk web client: design tokens (docs/UI_SPEC.md section 1) and global resets.
+   Everything in the client reads colours, type and spacing from these variables. */
+
+:root {
+  color-scheme: dark;
+
+  /* surfaces */
+  --bg-0: #070b0e;
+  --bg-1: #0c1318;
+  --bg-2: #121c23;
+  --panel: #0f171dcc;
+  --panel-solid: #101a21;
+
+  /* cold */
+  --steel: #7c93a1;
+  --steel-hi: #b9cdd8;
+  --frost: #dff1f8;
+  --frost-dim: #8fb2c2;
+
+  /* heat / primary action */
+  --ember: #ff9b2f;
+  --ember-hi: #ffc766;
+  --ember-lo: #8a4b10;
+
+  /* hope and discontent */
+  --hope: #6fd3ff;
+  --disc: #d8483f;
+  --danger: #ff4d3d;
+  --ok: #74d08a;
+  --care: #8bd2ff;
+  --justice: #d9c27a;
+  --motivation: #d98cff;
+  --anger: #e5533d;
+  --apathy: #8f8f9b;
+  --greed: #c9a227;
+
+  /* resources and citizens */
+  --wood: #b07a45;
+  --coal: #2a2a2e;
+  --core: #ff8a3d;
+  --steel-res: #9fb4c4;
+  --food: #e8d9a0;
+
+  --radius: 4px;
+  --edge: 1px solid #2b3d49;
+  --edge-hi: 1px solid #4d6676;
+  --glow: 0 0 18px #ff9b2f55;
+  --glow-strong: 0 0 28px #ff9b2f88, 0 0 60px #ff9b2f33;
+  --shadow: 0 10px 30px #00000080;
+
+  --font-display: 'Oswald', 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  --font-body: 'Barlow', 'Segoe UI', system-ui, sans-serif;
+  --font-cond: 'Barlow Condensed', 'Barlow', 'Arial Narrow', sans-serif;
+
+  --topbar-h: 56px;
+  --ui-scale: 1;
+  --gutter: 16px;
+}
+
+/* explicit dark theme (the client is dark-only; these keep the tokens in one place) */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background: var(--bg-0);
+  color: var(--frost);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+}
+
+body {
+  min-height: 100vh;
+}
+
+#root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* UI scale (Settings): zoom the whole app; the box is sized in unscaled units so it still fills the window. */
+  width: calc(100vw / var(--ui-scale));
+  height: calc(100vh / var(--ui-scale));
+  overflow: hidden;
+  zoom: var(--ui-scale);
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 0;
+  color: var(--frost);
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  color: var(--ember-hi);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+:focus-visible {
+  outline: 2px solid var(--ember-hi);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: #ff9b2f55;
+  color: var(--frost);
+}
+
+/* tabular numerals for counters */
+.num {
+  font-family: var(--font-display);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+
+.label-caps {
+  font-family: var(--font-cond);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--frost-dim);
+}
+
+.muted {
+  color: var(--frost-dim);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* scrollbars: thin, steel */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #2b3d49 transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2b3d49;
+  border-radius: 8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+  }
+}

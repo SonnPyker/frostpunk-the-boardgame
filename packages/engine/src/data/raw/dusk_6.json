@@ -1,0 +1,25 @@
+[
+{"id":"D063","title":"The End of Conflict","deck":"728","idx":24,"pack":"extra","top":["die:workerOrEngineer:1",{"each":"active:anger","fx":["die:workerOrEngineer:1"]},"remove"],"opts":[]},
+{"id":"D064","title":"Successful Experiment!","deck":"728","idx":25,"pack":"extra","top":["event"],"eventPassive":{"huntingSymbols":1},"opts":[]},
+{"id":"D065","title":"Hunger for Work","deck":"728","idx":26,"pack":"extra","top":["exhaust:motivation","hope-1","gain:worker:4","sick:worker:2","remove"],"opts":[]},
+{"id":"D066","title":"Reality Check","deck":"728","idx":27,"pack":"extra","branch":{"if":"activeHope>=2","then":1,"else":2},"opts":[
+  {"label":"Things are not as bad as they thought","fx":["hope+1","remove"]},
+  {"label":"Not seeing any real change, critics left","fx":["hope-1","lose:worker:4","remove"]}]},
+{"id":"D067","title":"Results of the Survey","deck":"728","idx":28,"pack":"extra","top":["custom:D067","remove"],"opts":[]},
+{"id":"D068","title":"A Breach of Trust","deck":"728","idx":29,"pack":"extra","branch":{"if":"active:anger","then":1,"else":2},"opts":[
+  {"label":"The people were indeed plotting","fx":["exhaust:anger","hope+1","remove"]},
+  {"label":"Those meetings were social gatherings","fx":["exhaust:justice","disc+1:anger","remove"]}]},
+{"id":"D069","title":"Information Overflow","deck":"728","idx":30,"pack":"extra","top":["disc+1:greed","remove"],"opts":[]},
+{"id":"D070","title":"Lucky Misstep","deck":"728","idx":31,"pack":"extra","top":["sick:worker:2","gain:wood:2","gain:coal:2","remove"],"opts":[]},
+{"id":"D071","title":"Where Were the Parents?","deck":"728","idx":32,"pack":"extra","opts":[
+  {"label":"Send a rescue team immediately","fx":["spent:workerEngineer:1","sick:child:1","remove"]},
+  {"label":"It's their responsibility","fx":["die:child:1","remove"]}]},
+{"id":"D072","title":"Point of No Return","deck":"728","idx":33,"pack":"extra","opts":[
+  {"label":"He is to be left alone","fx":["disc+2","remove"]},
+  {"label":"The man must be eliminated","fx":["custom:D072","die:worker:1","remove"]}]},
+{"id":"D073","title":"Riot","deck":"728","idx":34,"pack":"extra","branch":{"if":"mostCommonDisc","map":{"none":1,"anger":1,"greed":2,"*":3}},"opts":[
+  {"label":"A mob devastated one of the buildings","fx":["destroyBuilding:choose","sick:any:2","remove"]},
+  {"label":"The rioters saw the chaos as a chance","fx":["hunger+6","remove"]},
+  {"label":"One of our citizens was stomped to death","fx":["die:current:1","remove"]}]},
+{"id":"D074","title":"Deadly Fumes","deck":"728","idx":35,"pack":"extra","top":["sick:any:2","flipSickness:toSyringe:all","remove"],"opts":[]}
+]

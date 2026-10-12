@@ -1,0 +1,37 @@
+[
+{"id":"D018","title":"Trials of Life","deck":"727","idx":18,"opts":[
+  {"label":"It is a miracle","fx":["gain:worker:4","gain:engineer:2","gain:child:1","sick:worker:2","sick:child:1","hunger+4","remove"]},
+  {"label":"Welcome if they obey the rules","fx":["gain:worker:2","gain:engineer:2","hunger+2","hope-1","remove"]},
+  {"label":"Away with you","fx":["disc+1:apathy","remove"]}]},
+{"id":"D019","title":"Have You Helped Them Survive?","deck":"727","idx":19,"branch":{"if":"cardHasRes:M010","then":1,"else":2},"opts":[
+  {"label":"Our help was sufficient","fx":["hope+1","gain:core:1","cardResToBank:M010","removeCard:M010","remove"]},
+  {"label":"We refused","fx":["disc+1:greed","removeCard:M010","dusk:D020","remove"]}]},
+{"id":"D020","title":"Refugees from the Fallen Settlement","deck":"727","idx":20,"opts":[
+  {"label":"Join us if you keep the past buried","fx":["gain:worker:4","gain:child:4","sick:worker:1","sick:child:1","hunger+6","hope+1","dusk:D021","remove"]},
+  {"label":"We cannot let them in","fx":["disc+1:greed","remove"]}]},
+{"id":"D021","title":"Have the Refugees Assimilated?","deck":"727","idx":21,"top":[{"if":"noActiveDisc","then":["remove","stop"]}],"branch":{"if":"mostCommonDisc","map":{"anger":1,"greed":2,"*":3}},"opts":[
+  {"label":"Aggressive towards the refugees","fx":["disc+1:anger","remove"]},
+  {"label":"Regarded them with disdain","fx":["disc+1:greed","remove"]},
+  {"label":"Didn't welcome them with empathy","fx":["disc+1:apathy","remove"]}]},
+{"id":"D022","title":"The Prophet Rises","deck":"727","idx":22,"top":["disc+1:greed","lose:res:2"],"opts":[
+  {"label":"It ends now","fx":["disc+1:anger","dusk:D023","remove"]},
+  {"label":"The Prophet's wishes must be fulfilled","fx":["event"]}],
+ "eventDusk":[{"spendOr":{"food":2},"else":["hope-1"]}]},
+{"id":"D023","title":"The Prophecy Is Tested","deck":"727","idx":23,"opts":[
+  {"label":"Banish both immediately","fx":["lose:engineer:1","lose:child:1",{"if":"!active:justice","then":["disc+1:anger"]},"remove"]},
+  {"label":"People drink the words from her lips","fx":["lose:res:2","event"]}],
+ "eventDusk":[{"spendOr":{"food":2},"else":["hope-1"]}]},
+{"id":"D024","title":"Another Victim - Public","deck":"727","idx":24,"top":["die:engineer:1:noCards","remove"],"opts":[]},
+{"id":"D025","title":"Another Victim - Secret","deck":"727","idx":25,"top":["die:current:1",{"if":"active:anger","then":["die:current:1"]}],"opts":[
+  {"label":"Make this public to warn the citizens","fx":["disc+1","dusk:D024","remove"]},
+  {"label":"Keep this a secret by staging a work accident","fx":["activate:anger","shuffleBack"]},
+  {"label":"Make this public and investigate","req":["active:justice"],"fx":["hope+1","spent:worker:1","dusk:D026","remove"]}]},
+{"id":"D026","title":"Murderer Caught!","deck":"727","idx":26,"opts":[
+  {"label":"He must repent by working longer shifts","fx":["disc+1:anger","removeAllStress","remove"]},
+  {"label":"Justice for all! He will be publicly executed","fx":["disc-1","die:engineer:1:noCards","remove"]}]},
+{"id":"D027","title":"Did You Find a Family for the Children?","deck":"727","idx":27,"branch":{"if":"active:care","then":1,"else":2},"opts":[
+  {"label":"The children look happier","fx":["hope+1","remove"]},
+  {"label":"The family didn't have enough time or love","fx":["die:child:1","remove"]}]},
+{"id":"D028","title":"Frozen Heart","deck":"727","idx":28,"top":["disc+1","die:child:1","remove"],"opts":[]},
+{"id":"D029","title":"The Generator Accident!","deck":"727","idx":29,"top":["sick:engineer:2","stress+3","remove"],"opts":[]}
+]

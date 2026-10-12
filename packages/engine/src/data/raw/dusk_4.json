@@ -1,0 +1,33 @@
+[
+{"id":"D039","title":"Blowing Off Steam","deck":"728","idx":0,"top":["die:child:1"],"opts":[
+  {"label":"Children need care, not punishment","fx":["hope+1","spent:worker:1","spent:child:2","remove"]},
+  {"label":"The parents are to be blamed","fx":["disc+1:anger","remove"]},
+  {"label":"The people on duty should be punished","req":["active:justice"],"fx":["sick:worker:2","remove"]}]},
+{"id":"D040","title":"Fear of the Dark","deck":"728","idx":1,"top":["gain:worker:5","sick:worker:2","gain:coal:3"],"opts":[
+  {"label":"Organise a night watch","fx":["spent:workerEngineer:1","remove"]},
+  {"label":"We've spent enough time and resources","fx":["dusk:D041","remove"]}]},
+{"id":"D041","title":"Something Is Out There!","deck":"728","idx":2,"top":["hope-1","die:worker:2:noCards","remove"],"opts":[]},
+{"id":"D042","title":"It's an Automaton!","deck":"728","idx":3,"opts":[
+  {"label":"Fix the machine","req":["exhaust:motivation"],"fx":["gain:automaton:1","spent:engineer:1","remove"]},
+  {"label":"Take the steam core","fx":["gain:core:1","spent:engineer:1","remove"]},
+  {"label":"Leave the machine buried","fx":["disc+1","dusk:D043","remove"]}]},
+{"id":"D043","title":"A Tripod!","deck":"728","idx":4,"top":["disc+1:anger","custom:D043","event"],
+ "eventAction":{"acts":["engineer"],"freq":"round","custom":"D043"},"opts":[]},
+{"id":"D044","title":"Gambling with Their Legacy","deck":"728","idx":5,"opts":[
+  {"label":"Official intervention","req":["exhaust:justice"],"fx":["remove"]},
+  {"label":"Rules are rules","fx":["disc+1","dusk:D046","remove"]},
+  {"label":"Gambling is prohibited","fx":["disc+1:anger","remove"]}]},
+{"id":"D045","title":"Gambling with Their Lives","deck":"728","idx":6,"top":["activate:greed","hunger+3"],"opts":[
+  {"label":"Hard work will allow them to forget","fx":["disc+1:anger","removeAllStress","remove"]},
+  {"label":"Their crimes cannot be justified","fx":["disc-1","lose:worker:4","remove"]}]},
+{"id":"D046","title":"Gambling with Others' Lives","deck":"728","idx":7,"top":["hunger+4","die:worker:1","remove"],"opts":[]},
+{"id":"D047","title":"What Happened to the Dissidents?","deck":"728","idx":8,"branch":{"if":"round:odd","then":1,"else":2},"opts":[
+  {"label":"Found some survivors","fx":["hope+1","gain:worker:3","gain:engineer:2","sick:worker:1","remove"]},
+  {"label":"Found steam technology","fx":["exhaust:motivation","gain:worker:2","sick:worker:2","gain:core:1","remove"]}]},
+{"id":"D048","title":"Exodus","deck":"728","idx":9,"top":["lose:food:4","lose:worker:3","lose:engineer:2","remove"],"opts":[]},
+{"id":"D049","title":"What Lies Beneath?","deck":"728","idx":10,"opts":[
+  {"label":"Our engineers should investigate","fx":["spent:engineer:1","dusk:D051","remove"]},
+  {"label":"Scrap it all for parts","fx":["spent:engineer:1","gain:core:1","remove"]},
+  {"label":"Every pair of hands is needed","fx":["disc+1","dusk:D050","remove"]}]},
+{"id":"D050","title":"No Sleep 'Til Hammersmith!","deck":"728","idx":11,"top":["disc+1:anger","exhaust:motivation","remove"],"opts":[]}
+]

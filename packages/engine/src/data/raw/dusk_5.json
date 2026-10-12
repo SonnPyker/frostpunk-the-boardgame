@@ -1,0 +1,34 @@
+[
+{"id":"D051","title":"The Spirit of Elise","deck":"728","idx":12,"top":["disc-1"],"opts":[
+  {"label":"Have a concert","fx":["hope+1","remove"]},
+  {"label":"Disconnect the power source","fx":["gain:core:1","remove"]}]},
+{"id":"D052","title":"Public Dispute","deck":"728","idx":13,"branch":{"if":"hopeTokens>=3","then":1,"else":2},"opts":[
+  {"label":"Strictly limit the spectrum of opinion","fx":["custom:D016","remove"]},
+  {"label":"The debate turned into an open riot","fx":["disc+1:anger",{"each":"active:anger","fx":["sick:any:1"]},"remove"]}]},
+{"id":"D053","title":"What About the Toys?","deck":"728","idx":14,"branch":{"if":"cardNoRes:M029","then":1,"else":2},"opts":[
+  {"label":"A promise was given to the children","fx":["hope-1","activate:greed:all","removeCard:M029","remove"]},
+  {"label":"The most terrible things can happen to a man","fx":["custom:D053","cardResToBank:M029","removeCard:M029","remove"]}]},
+{"id":"D054","title":"Typhoid","deck":"728","idx":15,"top":["sick:current:3","remove"],"opts":[]},
+{"id":"D055","title":"The Cobra Effect","deck":"728","idx":16,"top":["disc+1:greed","hunger+4",{"each":"active:greed","fx":["hunger+2"]},"remove"],"opts":[]},
+{"id":"D056","title":"Fur and Fang","deck":"728","idx":17,"opts":[
+  {"label":"The pups provide comfort","fx":["exhaust:apathy:all","remove"]},
+  {"label":"A wolf is a hunter's best companion","fx":["gain:food:7","remove"]}]},
+{"id":"D057","title":"Call of the Wild","deck":"728","idx":18,"branch":{"if":"active:apathy","then":1,"else":2},"opts":[
+  {"label":"The pups ended up in the wrong hands","fx":["sick:any:3","remove"]},
+  {"label":"The wolves are magnificent specimens","fx":["hope+1","remove"]}]},
+{"id":"D058","title":"Post-Treatment Complications","deck":"728","idx":19,"top":["spent:workerEngineer:1","flipSickness:any:1","remove"],"opts":[]},
+{"id":"D059","title":"An Adept of Life","deck":"728","idx":20,"top":[{"if":"active:care","then":["cure:3","remove"],"else":["cure:2","remove"]}],"opts":[]},
+{"id":"D060","title":"Fear Is the Mind Killer","deck":"728","idx":21,"top":["flipSicknessType:worker"],"opts":[
+  {"label":"He is a broken man","req":["active:justice"],"fx":["remove"]},
+  {"label":"The quack must be punished","fx":["lose:worker:1","remove"]}]},
+{"id":"D061","title":"Workers' Strike","deck":"728","idx":22,"pack":"extra","opts":[
+  {"label":"Agree to their terms","req":["exhaust:justice"],"fx":["remove"]},
+  {"label":"Force them to work","fx":["disc+2","remove"]},
+  {"label":"Let them rest","fx":["disc-1","spent:worker:1",{"each":"active:anger","fx":["spent:worker:1"]},"remove"]}]},
+{"id":"D062","title":"Engineers' Strike","deck":"728","idx":23,"pack":"extra","opts":[
+  {"label":"Accept their conditions","fx":["event"]},
+  {"label":"Force them to work","fx":["disc+1:anger","disc+1","remove"]}],
+ "eventPassive":{"noEngineerSpecific":true},
+ "eventAction":{"acts":["engineer"],"freq":"round","custom":"D062","cost":{"food":5}},
+ "eventDusk":[{"if":"engineerOnCard","then":["remove"]}]}
+]

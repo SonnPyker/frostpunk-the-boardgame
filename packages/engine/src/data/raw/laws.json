@@ -1,0 +1,30 @@
+{
+"rules": {
+  "maxLaws": 4,
+  "introduceAction": "Platform (Generator tile): pick a Law from Future Law display; take its 2 Law Consequence cards, shuffle ONE AT RANDOM into Dusk deck unseen, remove the other from game unseen. Apply intro Hope/Discontent change immediately. Laws cannot be discarded.",
+  "startingPairs": [["L01","L02"],["L03","L04"],["L05","L06"],["L07","L08"]],
+  "pairRule": "Only 1 Law of each starting pair may be introduced; introducing one removes the paired Law from the game."
+},
+"laws": [
+{"id":"L01","idx":0,"deck":"557","title":"Child Labour","pairedWith":"L02","intro":["hope-1","disc+1"],"perm":{"action":["childMeeplesMayGather","childMeeplesMayUseGatheringPost:3"]}},
+{"id":"L02","idx":1,"deck":"557","title":"Child Shelter","pairedWith":"L01","intro":["hope+1"],"unlock":[{"building":"childShelter","woodCost":2}],"buildOnIntro":"childShelter"},
+{"id":"L03","idx":2,"deck":"557","title":"Food Additives","pairedWith":"L04","intro":[],"perm":{"hungerStartOncePerRound":{"pay":"spend:food:2","fx":["hunger-10","disc+1:greed"]}}},
+{"id":"L04","idx":3,"deck":"557","title":"Heated Meals","pairedWith":"L03","intro":["hope+1"],"perm":{"heatedBySpendFood":2}},
+{"id":"L05","idx":4,"deck":"557","title":"Crowded Quarters","pairedWith":"L06","intro":["disc+1:anger"],"perm":{"night":["heatedShelterExtraSlot:1"]}},
+{"id":"L06","idx":5,"deck":"557","title":"Makeshift Shelters","pairedWith":"L05","intro":[],"perm":{"night":["ruinsCountAsShelter","heatedRuinsSlots:1"]}},
+{"id":"L07","idx":6,"deck":"557","title":"New Order","pairedWith":"L08","intro":["exhaust:disc:oneOfEachType"],"unlock":[{"building":"snowPit","woodCost":0},{"building":"propagandaCentre","woodCost":2},{"building":"agitator","woodCost":3},{"building":"prison","woodCost":3}]},
+{"id":"L08","idx":7,"deck":"557","title":"New Faith","pairedWith":"L07","intro":["activate:hope:oneOfEachType"],"unlock":[{"building":"fieldKitchen","woodCost":0},{"building":"cemetery","woodCost":1},{"building":"temple","woodCost":3},{"building":"faithKeepers","woodCost":3}]},
+{"id":"L09","idx":8,"deck":"557","title":"Care House","intro":["hope+1:care"],"unlock":[{"building":"careHouse","woodCost":2}],"buildOnIntro":"careHouse"},
+{"id":"L10","idx":9,"deck":"557","title":"Fighting Arena","intro":["disc-1"],"unlock":[{"building":"fightingArena","woodCost":1}],"buildOnIntro":"fightingArena"},
+{"id":"L11","idx":10,"deck":"557","title":"Public House","intro":["hope+1"],"unlock":[{"building":"publicHouse","woodCost":1}],"buildOnIntro":"publicHouse"},
+{"id":"L12","idx":11,"deck":"557","title":"Double Rations for the Ill","intro":["hope+1","disc-1"],"perm":{"action":["medicalBuildingsMaySpendFoodCure:food:2:cure:1:buildings:medicalPost,infirmary,careHouse"]}},
+{"id":"L13","idx":12,"deck":"557","title":"Time to Rest","intro":["hope+1"],"perm":{"actionOncePerRound":{"pay":["exhaust:justice","spent:workerEngineer:1"],"choose":[["disc-discard:1"],["activate:care","activate:motivation"]]}}},
+{"id":"L14","idx":13,"deck":"557","title":"Extended Shift","intro":["disc+1"],"perm":{"actionOncePerRound":{"pay":["exhaust:motivation"],"fx":["reuseBuilding"]}}},
+{"id":"L15","idx":14,"deck":"557","title":"Public Council","intro":["disc-1"],"perm":{"passive":["chooseTokenWhenDrawing"]}},
+{"id":"L16","idx":15,"deck":"557","title":"Starvation Rations","intro":["disc+1:apathy"],"perm":{"hungerFeeding":["foodCostMinusPerCurrentTypeMeeple:1"]}},
+{"id":"L17","idx":16,"deck":"557","title":"Emergency Shift","pack":"extra","intro":[],"onIntro":["returnSpentCitizenTokens:upTo2"],"perm":{"actionOncePerRound":{"fx":["returnSpentCitizenTokens:upTo2","disc+1:apathy"],"returnedMeeplesUsableThisRound":true}}},
+{"id":"L18","idx":17,"deck":"557","title":"Shared Knowledge","pack":"extra","intro":["hope+1"],"perm":{"action":["workersMayUseWorkshops","engineerConstructTwoSubactionsUpgrade"]}},
+{"id":"L19","idx":18,"deck":"557","title":"Radical Treatment","pack":"extra","intro":[],"perm":{"action":["medicalPostOrInfirmaryAlt:setSicknessMarkerTo5AndFlip:mayCauseDeath"]}},
+{"id":"L20","idx":19,"deck":"557","title":"The Virtue of Humanity","pack":"extra","intro":["virtueHopeFromBag"],"perm":{"passive":["virtueHopeSubstitute"]}}
+]
+}

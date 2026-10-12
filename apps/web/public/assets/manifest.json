@@ -1,0 +1,3396 @@
+{
+ "audio": {
+  "theme": {
+   "bytes": 4473172,
+   "path": "audio/frostpunk_theme.mp3",
+   "title": "01. Frostpunk Theme"
+  }
+ },
+ "boards": {
+  "board_call_to_rise": {
+   "bytes": 84998,
+   "h": 1417,
+   "path": "boards/board_call_to_rise.webp",
+   "w": 827
+  },
+  "board_generator": {
+   "bytes": 157762,
+   "h": 1600,
+   "path": "boards/board_generator.webp",
+   "w": 933
+  },
+  "board_heat_track": {
+   "bytes": 59410,
+   "h": 480,
+   "path": "boards/board_heat_track.webp",
+   "w": 1600
+  },
+  "board_panel_a": {
+   "bytes": 68020,
+   "h": 1067,
+   "path": "boards/board_panel_a.webp",
+   "w": 1600
+  },
+  "board_panel_a_back": {
+   "bytes": 67150,
+   "h": 1067,
+   "path": "boards/board_panel_a_back.webp",
+   "w": 1600
+  },
+  "board_panel_b": {
+   "bytes": 76836,
+   "h": 960,
+   "path": "boards/board_panel_b.webp",
+   "w": 1600
+  },
+  "board_panel_b_back": {
+   "bytes": 77092,
+   "h": 960,
+   "path": "boards/board_panel_b_back.webp",
+   "w": 1600
+  },
+  "board_phase_track": {
+   "bytes": 114552,
+   "h": 1143,
+   "path": "boards/board_phase_track.webp",
+   "w": 1600
+  },
+  "board_phase_track_back": {
+   "bytes": 89370,
+   "h": 1146,
+   "path": "boards/board_phase_track_back.webp",
+   "w": 1600
+  },
+  "board_reference": {
+   "bytes": 138404,
+   "h": 1417,
+   "path": "boards/board_reference.webp",
+   "w": 827
+  },
+  "board_round_track": {
+   "bytes": 118258,
+   "h": 1382,
+   "path": "boards/board_round_track.webp",
+   "w": 1600
+  },
+  "board_setup_compass": {
+   "bytes": 174428,
+   "h": 1417,
+   "path": "boards/board_setup_compass.webp",
+   "w": 827
+  },
+  "board_storm_track": {
+   "bytes": 92308,
+   "h": 727,
+   "path": "boards/board_storm_track.webp",
+   "w": 1600
+  }
+ },
+ "cards": {
+  "C01": {
+   "back": "back_citizen",
+   "bytes": 16326,
+   "deck": "541",
+   "h": 420,
+   "idx": 0,
+   "path": "cards/C01.webp",
+   "w": 301
+  },
+  "C02": {
+   "back": "back_citizen",
+   "bytes": 12260,
+   "deck": "541",
+   "h": 420,
+   "idx": 1,
+   "path": "cards/C02.webp",
+   "w": 301
+  },
+  "C03": {
+   "back": "back_citizen",
+   "bytes": 18664,
+   "deck": "541",
+   "h": 420,
+   "idx": 2,
+   "path": "cards/C03.webp",
+   "w": 301
+  },
+  "C04": {
+   "back": "back_citizen",
+   "bytes": 18368,
+   "deck": "541",
+   "h": 420,
+   "idx": 3,
+   "path": "cards/C04.webp",
+   "w": 301
+  },
+  "C05": {
+   "back": "back_citizen",
+   "bytes": 18654,
+   "deck": "541",
+   "h": 420,
+   "idx": 4,
+   "path": "cards/C05.webp",
+   "w": 301
+  },
+  "C06": {
+   "back": "back_citizen",
+   "bytes": 19840,
+   "deck": "541",
+   "h": 420,
+   "idx": 5,
+   "path": "cards/C06.webp",
+   "w": 301
+  },
+  "C07": {
+   "back": "back_citizen",
+   "bytes": 17116,
+   "deck": "541",
+   "h": 420,
+   "idx": 6,
+   "path": "cards/C07.webp",
+   "w": 301
+  },
+  "C08": {
+   "back": "back_citizen",
+   "bytes": 22536,
+   "deck": "541",
+   "h": 420,
+   "idx": 7,
+   "path": "cards/C08.webp",
+   "w": 301
+  },
+  "C09": {
+   "back": "back_citizen",
+   "bytes": 18074,
+   "deck": "541",
+   "h": 420,
+   "idx": 8,
+   "path": "cards/C09.webp",
+   "w": 301
+  },
+  "C10": {
+   "back": "back_citizen",
+   "bytes": 17112,
+   "deck": "541",
+   "h": 420,
+   "idx": 9,
+   "path": "cards/C10.webp",
+   "w": 301
+  },
+  "C11": {
+   "back": "back_citizen",
+   "bytes": 16512,
+   "deck": "541",
+   "h": 420,
+   "idx": 10,
+   "path": "cards/C11.webp",
+   "w": 301
+  },
+  "C12": {
+   "back": "back_citizen",
+   "bytes": 18166,
+   "deck": "541",
+   "h": 420,
+   "idx": 11,
+   "path": "cards/C12.webp",
+   "w": 301
+  },
+  "C13": {
+   "back": "back_citizen",
+   "bytes": 17612,
+   "deck": "541",
+   "h": 420,
+   "idx": 12,
+   "path": "cards/C13.webp",
+   "w": 301
+  },
+  "C14": {
+   "back": "back_citizen",
+   "bytes": 14528,
+   "deck": "541",
+   "h": 420,
+   "idx": 13,
+   "path": "cards/C14.webp",
+   "w": 301
+  },
+  "C15": {
+   "back": "back_citizen",
+   "bytes": 15000,
+   "deck": "541",
+   "h": 420,
+   "idx": 14,
+   "path": "cards/C15.webp",
+   "w": 301
+  },
+  "C16": {
+   "back": "back_citizen",
+   "bytes": 15278,
+   "deck": "541",
+   "h": 420,
+   "idx": 15,
+   "path": "cards/C16.webp",
+   "w": 301
+  },
+  "C17": {
+   "back": "back_citizen",
+   "bytes": 15526,
+   "deck": "541",
+   "h": 420,
+   "idx": 16,
+   "path": "cards/C17.webp",
+   "w": 301
+  },
+  "C18": {
+   "back": "back_citizen",
+   "bytes": 16124,
+   "deck": "541",
+   "h": 420,
+   "idx": 17,
+   "path": "cards/C18.webp",
+   "w": 301
+  },
+  "C19": {
+   "back": "back_citizen",
+   "bytes": 13108,
+   "deck": "541",
+   "h": 420,
+   "idx": 18,
+   "path": "cards/C19.webp",
+   "w": 301
+  },
+  "C20": {
+   "back": "back_citizen",
+   "bytes": 20416,
+   "deck": "541",
+   "h": 420,
+   "idx": 19,
+   "path": "cards/C20.webp",
+   "w": 301
+  },
+  "C21": {
+   "back": "back_citizen",
+   "bytes": 21204,
+   "deck": "541",
+   "h": 420,
+   "idx": 20,
+   "path": "cards/C21.webp",
+   "w": 301
+  },
+  "C22": {
+   "back": "back_citizen",
+   "bytes": 16732,
+   "deck": "541",
+   "h": 420,
+   "idx": 21,
+   "path": "cards/C22.webp",
+   "w": 301
+  },
+  "C23": {
+   "back": "back_citizen",
+   "bytes": 14394,
+   "deck": "541",
+   "h": 420,
+   "idx": 22,
+   "path": "cards/C23.webp",
+   "w": 301
+  },
+  "C24": {
+   "back": "back_citizen",
+   "bytes": 15804,
+   "deck": "541",
+   "h": 420,
+   "idx": 23,
+   "path": "cards/C24.webp",
+   "w": 301
+  },
+  "C25": {
+   "back": "back_citizen",
+   "bytes": 15566,
+   "deck": "541",
+   "h": 420,
+   "idx": 24,
+   "path": "cards/C25.webp",
+   "w": 301
+  },
+  "C26": {
+   "back": "back_citizen",
+   "bytes": 15256,
+   "deck": "541",
+   "h": 420,
+   "idx": 25,
+   "path": "cards/C26.webp",
+   "w": 301
+  },
+  "C27": {
+   "back": "back_citizen",
+   "bytes": 18418,
+   "deck": "541",
+   "h": 420,
+   "idx": 26,
+   "path": "cards/C27.webp",
+   "w": 301
+  },
+  "C28": {
+   "back": "back_citizen",
+   "bytes": 18168,
+   "deck": "541",
+   "h": 420,
+   "idx": 27,
+   "path": "cards/C28.webp",
+   "w": 301
+  },
+  "C29": {
+   "back": "back_citizen",
+   "bytes": 14238,
+   "deck": "541",
+   "h": 420,
+   "idx": 28,
+   "path": "cards/C29.webp",
+   "w": 301
+  },
+  "C30": {
+   "back": "back_citizen",
+   "bytes": 20054,
+   "deck": "541",
+   "h": 420,
+   "idx": 29,
+   "path": "cards/C30.webp",
+   "w": 301
+  },
+  "D000": {
+   "back": "back_dusk",
+   "bytes": 13270,
+   "deck": "727",
+   "h": 420,
+   "idx": 0,
+   "path": "cards/D000.webp",
+   "w": 245
+  },
+  "D001": {
+   "back": "back_dusk",
+   "bytes": 20248,
+   "deck": "727",
+   "h": 420,
+   "idx": 1,
+   "path": "cards/D001.webp",
+   "w": 245
+  },
+  "D002": {
+   "back": "back_dusk",
+   "bytes": 21038,
+   "deck": "727",
+   "h": 420,
+   "idx": 2,
+   "path": "cards/D002.webp",
+   "w": 245
+  },
+  "D003": {
+   "back": "back_dusk",
+   "bytes": 17774,
+   "deck": "727",
+   "h": 420,
+   "idx": 3,
+   "path": "cards/D003.webp",
+   "w": 245
+  },
+  "D004": {
+   "back": "back_dusk",
+   "bytes": 20194,
+   "deck": "727",
+   "h": 420,
+   "idx": 4,
+   "path": "cards/D004.webp",
+   "w": 245
+  },
+  "D005": {
+   "back": "back_dusk",
+   "bytes": 19828,
+   "deck": "727",
+   "h": 420,
+   "idx": 5,
+   "path": "cards/D005.webp",
+   "w": 245
+  },
+  "D006": {
+   "back": "back_dusk",
+   "bytes": 20166,
+   "deck": "727",
+   "h": 420,
+   "idx": 6,
+   "path": "cards/D006.webp",
+   "w": 245
+  },
+  "D007": {
+   "back": "back_dusk",
+   "bytes": 20918,
+   "deck": "727",
+   "h": 420,
+   "idx": 7,
+   "path": "cards/D007.webp",
+   "w": 245
+  },
+  "D008": {
+   "back": "back_dusk",
+   "bytes": 18626,
+   "deck": "727",
+   "h": 420,
+   "idx": 8,
+   "path": "cards/D008.webp",
+   "w": 245
+  },
+  "D009": {
+   "back": "back_dusk",
+   "bytes": 17438,
+   "deck": "727",
+   "h": 420,
+   "idx": 9,
+   "path": "cards/D009.webp",
+   "w": 245
+  },
+  "D010": {
+   "back": "back_dusk",
+   "bytes": 18512,
+   "deck": "727",
+   "h": 420,
+   "idx": 10,
+   "path": "cards/D010.webp",
+   "w": 245
+  },
+  "D011": {
+   "back": "back_dusk",
+   "bytes": 24158,
+   "deck": "727",
+   "h": 420,
+   "idx": 11,
+   "path": "cards/D011.webp",
+   "w": 245
+  },
+  "D012": {
+   "back": "back_dusk",
+   "bytes": 13928,
+   "deck": "727",
+   "h": 420,
+   "idx": 12,
+   "path": "cards/D012.webp",
+   "w": 245
+  },
+  "D013": {
+   "back": "back_dusk",
+   "bytes": 14912,
+   "deck": "727",
+   "h": 420,
+   "idx": 13,
+   "path": "cards/D013.webp",
+   "w": 245
+  },
+  "D014": {
+   "back": "back_dusk",
+   "bytes": 13390,
+   "deck": "727",
+   "h": 420,
+   "idx": 14,
+   "path": "cards/D014.webp",
+   "w": 245
+  },
+  "D015": {
+   "back": "back_dusk",
+   "bytes": 13608,
+   "deck": "727",
+   "h": 420,
+   "idx": 15,
+   "path": "cards/D015.webp",
+   "w": 245
+  },
+  "D016": {
+   "back": "back_dusk",
+   "bytes": 16526,
+   "deck": "727",
+   "h": 420,
+   "idx": 16,
+   "path": "cards/D016.webp",
+   "w": 245
+  },
+  "D017": {
+   "back": "back_dusk",
+   "bytes": 13902,
+   "deck": "727",
+   "h": 420,
+   "idx": 17,
+   "path": "cards/D017.webp",
+   "w": 245
+  },
+  "D018": {
+   "back": "back_dusk",
+   "bytes": 23606,
+   "deck": "727",
+   "h": 420,
+   "idx": 18,
+   "path": "cards/D018.webp",
+   "w": 245
+  },
+  "D019": {
+   "back": "back_dusk",
+   "bytes": 20746,
+   "deck": "727",
+   "h": 420,
+   "idx": 19,
+   "path": "cards/D019.webp",
+   "w": 245
+  },
+  "D020": {
+   "back": "back_dusk",
+   "bytes": 18786,
+   "deck": "727",
+   "h": 420,
+   "idx": 20,
+   "path": "cards/D020.webp",
+   "w": 245
+  },
+  "D021": {
+   "back": "back_dusk",
+   "bytes": 21504,
+   "deck": "727",
+   "h": 420,
+   "idx": 21,
+   "path": "cards/D021.webp",
+   "w": 245
+  },
+  "D022": {
+   "back": "back_dusk",
+   "bytes": 19128,
+   "deck": "727",
+   "h": 420,
+   "idx": 22,
+   "path": "cards/D022.webp",
+   "w": 245
+  },
+  "D023": {
+   "back": "back_dusk",
+   "bytes": 19020,
+   "deck": "727",
+   "h": 420,
+   "idx": 23,
+   "path": "cards/D023.webp",
+   "w": 245
+  },
+  "D024": {
+   "back": "back_dusk",
+   "bytes": 14224,
+   "deck": "727",
+   "h": 420,
+   "idx": 24,
+   "path": "cards/D024.webp",
+   "w": 245
+  },
+  "D025": {
+   "back": "back_dusk",
+   "bytes": 22766,
+   "deck": "727",
+   "h": 420,
+   "idx": 25,
+   "path": "cards/D025.webp",
+   "w": 245
+  },
+  "D026": {
+   "back": "back_dusk",
+   "bytes": 20752,
+   "deck": "727",
+   "h": 420,
+   "idx": 26,
+   "path": "cards/D026.webp",
+   "w": 245
+  },
+  "D027": {
+   "back": "back_dusk",
+   "bytes": 20728,
+   "deck": "727",
+   "h": 420,
+   "idx": 27,
+   "path": "cards/D027.webp",
+   "w": 245
+  },
+  "D028": {
+   "back": "back_dusk",
+   "bytes": 13232,
+   "deck": "727",
+   "h": 420,
+   "idx": 28,
+   "path": "cards/D028.webp",
+   "w": 245
+  },
+  "D029": {
+   "back": "back_dusk",
+   "bytes": 17584,
+   "deck": "727",
+   "h": 420,
+   "idx": 29,
+   "path": "cards/D029.webp",
+   "w": 245
+  },
+  "D030": {
+   "back": "back_dusk",
+   "bytes": 14650,
+   "deck": "727",
+   "h": 420,
+   "idx": 30,
+   "path": "cards/D030.webp",
+   "w": 245
+  },
+  "D031": {
+   "back": "back_dusk",
+   "bytes": 17048,
+   "deck": "727",
+   "h": 420,
+   "idx": 31,
+   "path": "cards/D031.webp",
+   "w": 245
+  },
+  "D032": {
+   "back": "back_dusk",
+   "bytes": 13774,
+   "deck": "727",
+   "h": 420,
+   "idx": 32,
+   "path": "cards/D032.webp",
+   "w": 245
+  },
+  "D033": {
+   "back": "back_dusk",
+   "bytes": 13992,
+   "deck": "727",
+   "h": 420,
+   "idx": 33,
+   "path": "cards/D033.webp",
+   "w": 245
+  },
+  "D034": {
+   "back": "back_dusk",
+   "bytes": 16866,
+   "deck": "727",
+   "h": 420,
+   "idx": 34,
+   "path": "cards/D034.webp",
+   "w": 245
+  },
+  "D035": {
+   "back": "back_dusk",
+   "bytes": 18536,
+   "deck": "727",
+   "h": 420,
+   "idx": 35,
+   "path": "cards/D035.webp",
+   "w": 245
+  },
+  "D036": {
+   "back": "back_dusk",
+   "bytes": 13728,
+   "deck": "727",
+   "h": 420,
+   "idx": 36,
+   "path": "cards/D036.webp",
+   "w": 245
+  },
+  "D037": {
+   "back": "back_dusk",
+   "bytes": 17630,
+   "deck": "727",
+   "h": 420,
+   "idx": 37,
+   "path": "cards/D037.webp",
+   "w": 245
+  },
+  "D038": {
+   "back": "back_dusk",
+   "bytes": 21622,
+   "deck": "727",
+   "h": 420,
+   "idx": 38,
+   "path": "cards/D038.webp",
+   "w": 245
+  },
+  "D039": {
+   "back": "back_dusk",
+   "bytes": 22244,
+   "deck": "728",
+   "h": 420,
+   "idx": 0,
+   "path": "cards/D039.webp",
+   "w": 245
+  },
+  "D040": {
+   "back": "back_dusk",
+   "bytes": 19930,
+   "deck": "728",
+   "h": 420,
+   "idx": 1,
+   "path": "cards/D040.webp",
+   "w": 245
+  },
+  "D041": {
+   "back": "back_dusk",
+   "bytes": 15062,
+   "deck": "728",
+   "h": 420,
+   "idx": 2,
+   "path": "cards/D041.webp",
+   "w": 245
+  },
+  "D042": {
+   "back": "back_dusk",
+   "bytes": 22158,
+   "deck": "728",
+   "h": 420,
+   "idx": 3,
+   "path": "cards/D042.webp",
+   "w": 245
+  },
+  "D043": {
+   "back": "back_dusk",
+   "bytes": 26282,
+   "deck": "728",
+   "h": 420,
+   "idx": 4,
+   "path": "cards/D043.webp",
+   "w": 245
+  },
+  "D044": {
+   "back": "back_dusk",
+   "bytes": 23748,
+   "deck": "728",
+   "h": 420,
+   "idx": 5,
+   "path": "cards/D044.webp",
+   "w": 245
+  },
+  "D045": {
+   "back": "back_dusk",
+   "bytes": 21516,
+   "deck": "728",
+   "h": 420,
+   "idx": 6,
+   "path": "cards/D045.webp",
+   "w": 245
+  },
+  "D046": {
+   "back": "back_dusk",
+   "bytes": 19718,
+   "deck": "728",
+   "h": 420,
+   "idx": 7,
+   "path": "cards/D046.webp",
+   "w": 245
+  },
+  "D047": {
+   "back": "back_dusk",
+   "bytes": 22306,
+   "deck": "728",
+   "h": 420,
+   "idx": 8,
+   "path": "cards/D047.webp",
+   "w": 245
+  },
+  "D048": {
+   "back": "back_dusk",
+   "bytes": 14524,
+   "deck": "728",
+   "h": 420,
+   "idx": 9,
+   "path": "cards/D048.webp",
+   "w": 245
+  },
+  "D049": {
+   "back": "back_dusk",
+   "bytes": 23292,
+   "deck": "728",
+   "h": 420,
+   "idx": 10,
+   "path": "cards/D049.webp",
+   "w": 245
+  },
+  "D050": {
+   "back": "back_dusk",
+   "bytes": 16590,
+   "deck": "728",
+   "h": 420,
+   "idx": 11,
+   "path": "cards/D050.webp",
+   "w": 245
+  },
+  "D051": {
+   "back": "back_dusk",
+   "bytes": 22966,
+   "deck": "728",
+   "h": 420,
+   "idx": 12,
+   "path": "cards/D051.webp",
+   "w": 245
+  },
+  "D052": {
+   "back": "back_dusk",
+   "bytes": 18768,
+   "deck": "728",
+   "h": 420,
+   "idx": 13,
+   "path": "cards/D052.webp",
+   "w": 245
+  },
+  "D053": {
+   "back": "back_dusk",
+   "bytes": 21578,
+   "deck": "728",
+   "h": 420,
+   "idx": 14,
+   "path": "cards/D053.webp",
+   "w": 245
+  },
+  "D054": {
+   "back": "back_dusk",
+   "bytes": 12986,
+   "deck": "728",
+   "h": 420,
+   "idx": 15,
+   "path": "cards/D054.webp",
+   "w": 245
+  },
+  "D055": {
+   "back": "back_dusk",
+   "bytes": 17808,
+   "deck": "728",
+   "h": 420,
+   "idx": 16,
+   "path": "cards/D055.webp",
+   "w": 245
+  },
+  "D056": {
+   "back": "back_dusk",
+   "bytes": 16934,
+   "deck": "728",
+   "h": 420,
+   "idx": 17,
+   "path": "cards/D056.webp",
+   "w": 245
+  },
+  "D057": {
+   "back": "back_dusk",
+   "bytes": 18854,
+   "deck": "728",
+   "h": 420,
+   "idx": 18,
+   "path": "cards/D057.webp",
+   "w": 245
+  },
+  "D058": {
+   "back": "back_dusk",
+   "bytes": 16480,
+   "deck": "728",
+   "h": 420,
+   "idx": 19,
+   "path": "cards/D058.webp",
+   "w": 245
+  },
+  "D059": {
+   "back": "back_dusk",
+   "bytes": 16670,
+   "deck": "728",
+   "h": 420,
+   "idx": 20,
+   "path": "cards/D059.webp",
+   "w": 245
+  },
+  "D060": {
+   "back": "back_dusk",
+   "bytes": 22596,
+   "deck": "728",
+   "h": 420,
+   "idx": 21,
+   "path": "cards/D060.webp",
+   "w": 245
+  },
+  "D061": {
+   "back": "back_dusk",
+   "bytes": 17966,
+   "deck": "728",
+   "h": 420,
+   "idx": 22,
+   "path": "cards/D061.webp",
+   "w": 245
+  },
+  "D062": {
+   "back": "back_dusk",
+   "bytes": 21130,
+   "deck": "728",
+   "h": 420,
+   "idx": 23,
+   "path": "cards/D062.webp",
+   "w": 245
+  },
+  "D063": {
+   "back": "back_dusk",
+   "bytes": 18222,
+   "deck": "728",
+   "h": 420,
+   "idx": 24,
+   "path": "cards/D063.webp",
+   "w": 245
+  },
+  "D064": {
+   "back": "back_dusk",
+   "bytes": 16714,
+   "deck": "728",
+   "h": 420,
+   "idx": 25,
+   "path": "cards/D064.webp",
+   "w": 245
+  },
+  "D065": {
+   "back": "back_dusk",
+   "bytes": 14182,
+   "deck": "728",
+   "h": 420,
+   "idx": 26,
+   "path": "cards/D065.webp",
+   "w": 245
+  },
+  "D066": {
+   "back": "back_dusk",
+   "bytes": 21502,
+   "deck": "728",
+   "h": 420,
+   "idx": 27,
+   "path": "cards/D066.webp",
+   "w": 245
+  },
+  "D067": {
+   "back": "back_dusk",
+   "bytes": 17494,
+   "deck": "728",
+   "h": 420,
+   "idx": 28,
+   "path": "cards/D067.webp",
+   "w": 245
+  },
+  "D068": {
+   "back": "back_dusk",
+   "bytes": 23184,
+   "deck": "728",
+   "h": 420,
+   "idx": 29,
+   "path": "cards/D068.webp",
+   "w": 245
+  },
+  "D069": {
+   "back": "back_dusk",
+   "bytes": 16554,
+   "deck": "728",
+   "h": 420,
+   "idx": 30,
+   "path": "cards/D069.webp",
+   "w": 245
+  },
+  "D070": {
+   "back": "back_dusk",
+   "bytes": 16254,
+   "deck": "728",
+   "h": 420,
+   "idx": 31,
+   "path": "cards/D070.webp",
+   "w": 245
+  },
+  "D071": {
+   "back": "back_dusk",
+   "bytes": 21040,
+   "deck": "728",
+   "h": 420,
+   "idx": 32,
+   "path": "cards/D071.webp",
+   "w": 245
+  },
+  "D072": {
+   "back": "back_dusk",
+   "bytes": 20052,
+   "deck": "728",
+   "h": 420,
+   "idx": 33,
+   "path": "cards/D072.webp",
+   "w": 245
+  },
+  "D073": {
+   "back": "back_dusk",
+   "bytes": 23908,
+   "deck": "728",
+   "h": 420,
+   "idx": 34,
+   "path": "cards/D073.webp",
+   "w": 245
+  },
+  "D074": {
+   "back": "back_dusk",
+   "bytes": 13926,
+   "deck": "728",
+   "h": 420,
+   "idx": 35,
+   "path": "cards/D074.webp",
+   "w": 245
+  },
+  "F01": {
+   "back": "back_far",
+   "bytes": 10286,
+   "deck": "551",
+   "h": 364,
+   "idx": 0,
+   "path": "cards/F01.webp",
+   "w": 420
+  },
+  "F02": {
+   "back": "back_far",
+   "bytes": 9820,
+   "deck": "551",
+   "h": 364,
+   "idx": 1,
+   "path": "cards/F02.webp",
+   "w": 420
+  },
+  "F03": {
+   "back": "back_far",
+   "bytes": 9540,
+   "deck": "551",
+   "h": 364,
+   "idx": 2,
+   "path": "cards/F03.webp",
+   "w": 420
+  },
+  "F04": {
+   "back": "back_far",
+   "bytes": 10006,
+   "deck": "551",
+   "h": 364,
+   "idx": 3,
+   "path": "cards/F04.webp",
+   "w": 420
+  },
+  "F05": {
+   "back": "back_far",
+   "bytes": 7682,
+   "deck": "551",
+   "h": 364,
+   "idx": 4,
+   "path": "cards/F05.webp",
+   "w": 420
+  },
+  "F06": {
+   "back": "back_far",
+   "bytes": 9076,
+   "deck": "551",
+   "h": 364,
+   "idx": 5,
+   "path": "cards/F06.webp",
+   "w": 420
+  },
+  "F07": {
+   "back": "back_far",
+   "bytes": 9114,
+   "deck": "551",
+   "h": 364,
+   "idx": 6,
+   "path": "cards/F07.webp",
+   "w": 420
+  },
+  "F08": {
+   "back": "back_far",
+   "bytes": 10388,
+   "deck": "551",
+   "h": 364,
+   "idx": 7,
+   "path": "cards/F08.webp",
+   "w": 420
+  },
+  "F09": {
+   "back": "back_far",
+   "bytes": 10570,
+   "deck": "551",
+   "h": 364,
+   "idx": 8,
+   "path": "cards/F09.webp",
+   "w": 420
+  },
+  "F10": {
+   "back": "back_far",
+   "bytes": 9798,
+   "deck": "551",
+   "h": 364,
+   "idx": 9,
+   "path": "cards/F10.webp",
+   "w": 420
+  },
+  "F11": {
+   "back": "back_far",
+   "bytes": 9498,
+   "deck": "551",
+   "h": 364,
+   "idx": 10,
+   "path": "cards/F11.webp",
+   "w": 420
+  },
+  "F12": {
+   "back": "back_far",
+   "bytes": 9774,
+   "deck": "551",
+   "h": 364,
+   "idx": 11,
+   "path": "cards/F12.webp",
+   "w": 420
+  },
+  "F13": {
+   "back": "back_far",
+   "bytes": 9118,
+   "deck": "551",
+   "h": 364,
+   "idx": 12,
+   "path": "cards/F13.webp",
+   "w": 420
+  },
+  "F14": {
+   "back": "back_far",
+   "bytes": 9862,
+   "deck": "551",
+   "h": 364,
+   "idx": 13,
+   "path": "cards/F14.webp",
+   "w": 420
+  },
+  "F15": {
+   "back": "back_far",
+   "bytes": 10172,
+   "deck": "551",
+   "h": 364,
+   "idx": 14,
+   "path": "cards/F15.webp",
+   "w": 420
+  },
+  "F16": {
+   "back": "back_far",
+   "bytes": 9888,
+   "deck": "551",
+   "h": 364,
+   "idx": 15,
+   "path": "cards/F16.webp",
+   "w": 420
+  },
+  "F17": {
+   "back": "back_far",
+   "bytes": 10438,
+   "deck": "551",
+   "h": 364,
+   "idx": 16,
+   "path": "cards/F17.webp",
+   "w": 420
+  },
+  "F18": {
+   "back": "back_far",
+   "bytes": 10778,
+   "deck": "551",
+   "h": 364,
+   "idx": 17,
+   "path": "cards/F18.webp",
+   "w": 420
+  },
+  "L01A": {
+   "back": "back_lawcons",
+   "bytes": 16066,
+   "deck": "726",
+   "h": 420,
+   "idx": 0,
+   "path": "cards/L01A.webp",
+   "w": 245
+  },
+  "L01B": {
+   "back": "back_lawcons",
+   "bytes": 16500,
+   "deck": "726",
+   "h": 420,
+   "idx": 1,
+   "path": "cards/L01B.webp",
+   "w": 245
+  },
+  "L02A": {
+   "back": "back_lawcons",
+   "bytes": 13810,
+   "deck": "726",
+   "h": 420,
+   "idx": 2,
+   "path": "cards/L02A.webp",
+   "w": 245
+  },
+  "L02B": {
+   "back": "back_lawcons",
+   "bytes": 20558,
+   "deck": "726",
+   "h": 420,
+   "idx": 3,
+   "path": "cards/L02B.webp",
+   "w": 245
+  },
+  "L03A": {
+   "back": "back_lawcons",
+   "bytes": 15116,
+   "deck": "726",
+   "h": 420,
+   "idx": 4,
+   "path": "cards/L03A.webp",
+   "w": 245
+  },
+  "L03B": {
+   "back": "back_lawcons",
+   "bytes": 16016,
+   "deck": "726",
+   "h": 420,
+   "idx": 5,
+   "path": "cards/L03B.webp",
+   "w": 245
+  },
+  "L04A": {
+   "back": "back_lawcons",
+   "bytes": 21430,
+   "deck": "726",
+   "h": 420,
+   "idx": 6,
+   "path": "cards/L04A.webp",
+   "w": 245
+  },
+  "L04B": {
+   "back": "back_lawcons",
+   "bytes": 11166,
+   "deck": "726",
+   "h": 420,
+   "idx": 7,
+   "path": "cards/L04B.webp",
+   "w": 245
+  },
+  "L05A": {
+   "back": "back_lawcons",
+   "bytes": 19924,
+   "deck": "726",
+   "h": 420,
+   "idx": 8,
+   "path": "cards/L05A.webp",
+   "w": 245
+  },
+  "L05B": {
+   "back": "back_lawcons",
+   "bytes": 16378,
+   "deck": "726",
+   "h": 420,
+   "idx": 9,
+   "path": "cards/L05B.webp",
+   "w": 245
+  },
+  "L06A": {
+   "back": "back_lawcons",
+   "bytes": 22604,
+   "deck": "726",
+   "h": 420,
+   "idx": 10,
+   "path": "cards/L06A.webp",
+   "w": 245
+  },
+  "L06B": {
+   "back": "back_lawcons",
+   "bytes": 21236,
+   "deck": "726",
+   "h": 420,
+   "idx": 11,
+   "path": "cards/L06B.webp",
+   "w": 245
+  },
+  "L07A": {
+   "back": "back_lawcons",
+   "bytes": 24824,
+   "deck": "726",
+   "h": 420,
+   "idx": 12,
+   "path": "cards/L07A.webp",
+   "w": 245
+  },
+  "L07B": {
+   "back": "back_lawcons",
+   "bytes": 24572,
+   "deck": "726",
+   "h": 420,
+   "idx": 13,
+   "path": "cards/L07B.webp",
+   "w": 245
+  },
+  "L08A": {
+   "back": "back_lawcons",
+   "bytes": 24154,
+   "deck": "726",
+   "h": 420,
+   "idx": 14,
+   "path": "cards/L08A.webp",
+   "w": 245
+  },
+  "L08B": {
+   "back": "back_lawcons",
+   "bytes": 23394,
+   "deck": "726",
+   "h": 420,
+   "idx": 15,
+   "path": "cards/L08B.webp",
+   "w": 245
+  },
+  "L09A": {
+   "back": "back_lawcons",
+   "bytes": 14140,
+   "deck": "726",
+   "h": 420,
+   "idx": 16,
+   "path": "cards/L09A.webp",
+   "w": 245
+  },
+  "L09B": {
+   "back": "back_lawcons",
+   "bytes": 14340,
+   "deck": "726",
+   "h": 420,
+   "idx": 17,
+   "path": "cards/L09B.webp",
+   "w": 245
+  },
+  "L10A": {
+   "back": "back_lawcons",
+   "bytes": 20484,
+   "deck": "726",
+   "h": 420,
+   "idx": 18,
+   "path": "cards/L10A.webp",
+   "w": 245
+  },
+  "L10B": {
+   "back": "back_lawcons",
+   "bytes": 22154,
+   "deck": "726",
+   "h": 420,
+   "idx": 19,
+   "path": "cards/L10B.webp",
+   "w": 245
+  },
+  "L11A": {
+   "back": "back_lawcons",
+   "bytes": 18378,
+   "deck": "726",
+   "h": 420,
+   "idx": 20,
+   "path": "cards/L11A.webp",
+   "w": 245
+  },
+  "L11B": {
+   "back": "back_lawcons",
+   "bytes": 22592,
+   "deck": "726",
+   "h": 420,
+   "idx": 21,
+   "path": "cards/L11B.webp",
+   "w": 245
+  },
+  "L12A": {
+   "back": "back_lawcons",
+   "bytes": 17754,
+   "deck": "726",
+   "h": 420,
+   "idx": 22,
+   "path": "cards/L12A.webp",
+   "w": 245
+  },
+  "L12B": {
+   "back": "back_lawcons",
+   "bytes": 20018,
+   "deck": "726",
+   "h": 420,
+   "idx": 23,
+   "path": "cards/L12B.webp",
+   "w": 245
+  },
+  "L13A": {
+   "back": "back_lawcons",
+   "bytes": 14136,
+   "deck": "726",
+   "h": 420,
+   "idx": 24,
+   "path": "cards/L13A.webp",
+   "w": 245
+  },
+  "L13B": {
+   "back": "back_lawcons",
+   "bytes": 19242,
+   "deck": "726",
+   "h": 420,
+   "idx": 25,
+   "path": "cards/L13B.webp",
+   "w": 245
+  },
+  "L14A": {
+   "back": "back_lawcons",
+   "bytes": 15568,
+   "deck": "726",
+   "h": 420,
+   "idx": 26,
+   "path": "cards/L14A.webp",
+   "w": 245
+  },
+  "L14B": {
+   "back": "back_lawcons",
+   "bytes": 13534,
+   "deck": "726",
+   "h": 420,
+   "idx": 27,
+   "path": "cards/L14B.webp",
+   "w": 245
+  },
+  "L15A": {
+   "back": "back_lawcons",
+   "bytes": 20094,
+   "deck": "726",
+   "h": 420,
+   "idx": 28,
+   "path": "cards/L15A.webp",
+   "w": 245
+  },
+  "L15B": {
+   "back": "back_lawcons",
+   "bytes": 15492,
+   "deck": "726",
+   "h": 420,
+   "idx": 29,
+   "path": "cards/L15B.webp",
+   "w": 245
+  },
+  "L16A": {
+   "back": "back_lawcons",
+   "bytes": 16024,
+   "deck": "726",
+   "h": 420,
+   "idx": 30,
+   "path": "cards/L16A.webp",
+   "w": 245
+  },
+  "L16B": {
+   "back": "back_lawcons",
+   "bytes": 19418,
+   "deck": "726",
+   "h": 420,
+   "idx": 31,
+   "path": "cards/L16B.webp",
+   "w": 245
+  },
+  "L17A": {
+   "back": "back_lawcons",
+   "bytes": 19274,
+   "deck": "726",
+   "h": 420,
+   "idx": 32,
+   "path": "cards/L17A.webp",
+   "w": 245
+  },
+  "L17B": {
+   "back": "back_lawcons",
+   "bytes": 17750,
+   "deck": "726",
+   "h": 420,
+   "idx": 33,
+   "path": "cards/L17B.webp",
+   "w": 245
+  },
+  "L18A": {
+   "back": "back_lawcons",
+   "bytes": 21102,
+   "deck": "726",
+   "h": 420,
+   "idx": 34,
+   "path": "cards/L18A.webp",
+   "w": 245
+  },
+  "L18B": {
+   "back": "back_lawcons",
+   "bytes": 14432,
+   "deck": "726",
+   "h": 420,
+   "idx": 35,
+   "path": "cards/L18B.webp",
+   "w": 245
+  },
+  "L19A": {
+   "back": "back_lawcons",
+   "bytes": 17606,
+   "deck": "726",
+   "h": 420,
+   "idx": 36,
+   "path": "cards/L19A.webp",
+   "w": 245
+  },
+  "L19B": {
+   "back": "back_lawcons",
+   "bytes": 16262,
+   "deck": "726",
+   "h": 420,
+   "idx": 37,
+   "path": "cards/L19B.webp",
+   "w": 245
+  },
+  "L20A": {
+   "back": "back_lawcons",
+   "bytes": 20310,
+   "deck": "726",
+   "h": 420,
+   "idx": 38,
+   "path": "cards/L20A.webp",
+   "w": 245
+  },
+  "L20B": {
+   "back": "back_lawcons",
+   "bytes": 24050,
+   "deck": "726",
+   "h": 420,
+   "idx": 39,
+   "path": "cards/L20B.webp",
+   "w": 245
+  },
+  "M001": {
+   "back": "back_morning",
+   "bytes": 19938,
+   "deck": "543",
+   "h": 420,
+   "idx": 0,
+   "path": "cards/M001.webp",
+   "w": 245
+  },
+  "M002": {
+   "back": "back_morning",
+   "bytes": 13814,
+   "deck": "543",
+   "h": 420,
+   "idx": 1,
+   "path": "cards/M002.webp",
+   "w": 245
+  },
+  "M003": {
+   "back": "back_morning",
+   "bytes": 16854,
+   "deck": "543",
+   "h": 420,
+   "idx": 2,
+   "path": "cards/M003.webp",
+   "w": 245
+  },
+  "M004": {
+   "back": "back_morning",
+   "bytes": 17054,
+   "deck": "543",
+   "h": 420,
+   "idx": 3,
+   "path": "cards/M004.webp",
+   "w": 245
+  },
+  "M005": {
+   "back": "back_morning",
+   "bytes": 14504,
+   "deck": "543",
+   "h": 420,
+   "idx": 4,
+   "path": "cards/M005.webp",
+   "w": 245
+  },
+  "M006": {
+   "back": "back_morning",
+   "bytes": 17028,
+   "deck": "543",
+   "h": 420,
+   "idx": 5,
+   "path": "cards/M006.webp",
+   "w": 245
+  },
+  "M007": {
+   "back": "back_morning",
+   "bytes": 14218,
+   "deck": "543",
+   "h": 420,
+   "idx": 6,
+   "path": "cards/M007.webp",
+   "w": 245
+  },
+  "M008": {
+   "back": "back_morning",
+   "bytes": 16804,
+   "deck": "543",
+   "h": 420,
+   "idx": 7,
+   "path": "cards/M008.webp",
+   "w": 245
+  },
+  "M009": {
+   "back": "back_morning",
+   "bytes": 19892,
+   "deck": "543",
+   "h": 420,
+   "idx": 8,
+   "path": "cards/M009.webp",
+   "w": 245
+  },
+  "M010": {
+   "back": "back_morning",
+   "bytes": 20460,
+   "deck": "543",
+   "h": 420,
+   "idx": 9,
+   "path": "cards/M010.webp",
+   "w": 245
+  },
+  "M011": {
+   "back": "back_morning",
+   "bytes": 19528,
+   "deck": "543",
+   "h": 420,
+   "idx": 10,
+   "path": "cards/M011.webp",
+   "w": 245
+  },
+  "M012": {
+   "back": "back_morning",
+   "bytes": 20194,
+   "deck": "543",
+   "h": 420,
+   "idx": 11,
+   "path": "cards/M012.webp",
+   "w": 245
+  },
+  "M013": {
+   "back": "back_morning",
+   "bytes": 18130,
+   "deck": "543",
+   "h": 420,
+   "idx": 12,
+   "path": "cards/M013.webp",
+   "w": 245
+  },
+  "M014": {
+   "back": "back_morning",
+   "bytes": 15060,
+   "deck": "543",
+   "h": 420,
+   "idx": 13,
+   "path": "cards/M014.webp",
+   "w": 245
+  },
+  "M015": {
+   "back": "back_morning",
+   "bytes": 18438,
+   "deck": "543",
+   "h": 420,
+   "idx": 14,
+   "path": "cards/M015.webp",
+   "w": 245
+  },
+  "M016": {
+   "back": "back_morning",
+   "bytes": 19808,
+   "deck": "543",
+   "h": 420,
+   "idx": 15,
+   "path": "cards/M016.webp",
+   "w": 245
+  },
+  "M017": {
+   "back": "back_morning",
+   "bytes": 16790,
+   "deck": "543",
+   "h": 420,
+   "idx": 16,
+   "path": "cards/M017.webp",
+   "w": 245
+  },
+  "M018": {
+   "back": "back_morning",
+   "bytes": 14412,
+   "deck": "543",
+   "h": 420,
+   "idx": 17,
+   "path": "cards/M018.webp",
+   "w": 245
+  },
+  "M019": {
+   "back": "back_morning",
+   "bytes": 16054,
+   "deck": "543",
+   "h": 420,
+   "idx": 18,
+   "path": "cards/M019.webp",
+   "w": 245
+  },
+  "M020": {
+   "back": "back_morning",
+   "bytes": 20026,
+   "deck": "543",
+   "h": 420,
+   "idx": 19,
+   "path": "cards/M020.webp",
+   "w": 245
+  },
+  "M021": {
+   "back": "back_morning",
+   "bytes": 16428,
+   "deck": "543",
+   "h": 420,
+   "idx": 20,
+   "path": "cards/M021.webp",
+   "w": 245
+  },
+  "M022": {
+   "back": "back_morning",
+   "bytes": 20262,
+   "deck": "543",
+   "h": 420,
+   "idx": 21,
+   "path": "cards/M022.webp",
+   "w": 245
+  },
+  "M023": {
+   "back": "back_morning",
+   "bytes": 14922,
+   "deck": "543",
+   "h": 420,
+   "idx": 22,
+   "path": "cards/M023.webp",
+   "w": 245
+  },
+  "M024": {
+   "back": "back_morning",
+   "bytes": 13704,
+   "deck": "543",
+   "h": 420,
+   "idx": 23,
+   "path": "cards/M024.webp",
+   "w": 245
+  },
+  "M025": {
+   "back": "back_morning",
+   "bytes": 17924,
+   "deck": "543",
+   "h": 420,
+   "idx": 24,
+   "path": "cards/M025.webp",
+   "w": 245
+  },
+  "M026": {
+   "back": "back_morning",
+   "bytes": 18702,
+   "deck": "543",
+   "h": 420,
+   "idx": 25,
+   "path": "cards/M026.webp",
+   "w": 245
+  },
+  "M027": {
+   "back": "back_morning",
+   "bytes": 15622,
+   "deck": "543",
+   "h": 420,
+   "idx": 26,
+   "path": "cards/M027.webp",
+   "w": 245
+  },
+  "M028": {
+   "back": "back_morning",
+   "bytes": 20438,
+   "deck": "543",
+   "h": 420,
+   "idx": 27,
+   "path": "cards/M028.webp",
+   "w": 245
+  },
+  "M029": {
+   "back": "back_morning",
+   "bytes": 20658,
+   "deck": "543",
+   "h": 420,
+   "idx": 28,
+   "path": "cards/M029.webp",
+   "w": 245
+  },
+  "M030": {
+   "back": "back_morning",
+   "bytes": 16652,
+   "deck": "543",
+   "h": 420,
+   "idx": 29,
+   "path": "cards/M030.webp",
+   "w": 245
+  },
+  "M031": {
+   "back": "back_morning",
+   "bytes": 20484,
+   "deck": "543",
+   "h": 420,
+   "idx": 30,
+   "path": "cards/M031.webp",
+   "w": 245
+  },
+  "M032": {
+   "back": "back_morning",
+   "bytes": 19756,
+   "deck": "543",
+   "h": 420,
+   "idx": 31,
+   "path": "cards/M032.webp",
+   "w": 245
+  },
+  "M033": {
+   "back": "back_morning",
+   "bytes": 18290,
+   "deck": "543",
+   "h": 420,
+   "idx": 32,
+   "path": "cards/M033.webp",
+   "w": 245
+  },
+  "M034": {
+   "back": "back_morning",
+   "bytes": 19766,
+   "deck": "543",
+   "h": 420,
+   "idx": 33,
+   "path": "cards/M034.webp",
+   "w": 245
+  },
+  "M035": {
+   "back": "back_morning",
+   "bytes": 18682,
+   "deck": "543",
+   "h": 420,
+   "idx": 34,
+   "path": "cards/M035.webp",
+   "w": 245
+  },
+  "M036": {
+   "back": "back_morning",
+   "bytes": 19852,
+   "deck": "543",
+   "h": 420,
+   "idx": 35,
+   "path": "cards/M036.webp",
+   "w": 245
+  },
+  "M037": {
+   "back": "back_morning",
+   "bytes": 17094,
+   "deck": "543",
+   "h": 420,
+   "idx": 36,
+   "path": "cards/M037.webp",
+   "w": 245
+  },
+  "M038": {
+   "back": "back_morning",
+   "bytes": 19576,
+   "deck": "543",
+   "h": 420,
+   "idx": 37,
+   "path": "cards/M038.webp",
+   "w": 245
+  },
+  "M039": {
+   "back": "back_morning",
+   "bytes": 19596,
+   "deck": "543",
+   "h": 420,
+   "idx": 38,
+   "path": "cards/M039.webp",
+   "w": 245
+  },
+  "M040": {
+   "back": "back_morning",
+   "bytes": 17920,
+   "deck": "543",
+   "h": 420,
+   "idx": 39,
+   "path": "cards/M040.webp",
+   "w": 245
+  },
+  "N01": {
+   "back": "back_near",
+   "bytes": 9952,
+   "deck": "550",
+   "h": 364,
+   "idx": 0,
+   "path": "cards/N01.webp",
+   "w": 420
+  },
+  "N02": {
+   "back": "back_near",
+   "bytes": 10574,
+   "deck": "550",
+   "h": 364,
+   "idx": 1,
+   "path": "cards/N02.webp",
+   "w": 420
+  },
+  "N03": {
+   "back": "back_near",
+   "bytes": 10320,
+   "deck": "550",
+   "h": 364,
+   "idx": 2,
+   "path": "cards/N03.webp",
+   "w": 420
+  },
+  "N04": {
+   "back": "back_near",
+   "bytes": 9816,
+   "deck": "550",
+   "h": 364,
+   "idx": 3,
+   "path": "cards/N04.webp",
+   "w": 420
+  },
+  "N05": {
+   "back": "back_near",
+   "bytes": 9974,
+   "deck": "550",
+   "h": 364,
+   "idx": 4,
+   "path": "cards/N05.webp",
+   "w": 420
+  },
+  "N06": {
+   "back": "back_near",
+   "bytes": 9866,
+   "deck": "550",
+   "h": 364,
+   "idx": 5,
+   "path": "cards/N06.webp",
+   "w": 420
+  },
+  "N07": {
+   "back": "back_near",
+   "bytes": 9944,
+   "deck": "550",
+   "h": 364,
+   "idx": 6,
+   "path": "cards/N07.webp",
+   "w": 420
+  },
+  "N08": {
+   "back": "back_near",
+   "bytes": 9960,
+   "deck": "550",
+   "h": 364,
+   "idx": 7,
+   "path": "cards/N08.webp",
+   "w": 420
+  },
+  "N09": {
+   "back": "back_near",
+   "bytes": 8352,
+   "deck": "550",
+   "h": 364,
+   "idx": 8,
+   "path": "cards/N09.webp",
+   "w": 420
+  },
+  "N10": {
+   "back": "back_near",
+   "bytes": 10046,
+   "deck": "550",
+   "h": 364,
+   "idx": 9,
+   "path": "cards/N10.webp",
+   "w": 420
+  },
+  "N11": {
+   "back": "back_near",
+   "bytes": 9528,
+   "deck": "550",
+   "h": 364,
+   "idx": 10,
+   "path": "cards/N11.webp",
+   "w": 420
+  },
+  "N12": {
+   "back": "back_near",
+   "bytes": 10274,
+   "deck": "550",
+   "h": 364,
+   "idx": 11,
+   "path": "cards/N12.webp",
+   "w": 420
+  },
+  "S01": {
+   "back": "S01_back",
+   "bytes": 21356,
+   "deck": "552",
+   "h": 420,
+   "idx": 0,
+   "path": "cards/S01.webp",
+   "w": 245
+  },
+  "S01_back": {
+   "bytes": 16248,
+   "h": 420,
+   "path": "cards/S01_back.webp",
+   "w": 245
+  },
+  "S02": {
+   "back": "S02_back",
+   "bytes": 22472,
+   "deck": "552",
+   "h": 420,
+   "idx": 1,
+   "path": "cards/S02.webp",
+   "w": 245
+  },
+  "S02_back": {
+   "bytes": 16206,
+   "h": 420,
+   "path": "cards/S02_back.webp",
+   "w": 245
+  },
+  "S03": {
+   "back": "S03_back",
+   "bytes": 21198,
+   "deck": "552",
+   "h": 420,
+   "idx": 2,
+   "path": "cards/S03.webp",
+   "w": 245
+  },
+  "S03_back": {
+   "bytes": 16290,
+   "h": 420,
+   "path": "cards/S03_back.webp",
+   "w": 245
+  },
+  "S04": {
+   "back": "S04_back",
+   "bytes": 24880,
+   "deck": "552",
+   "h": 420,
+   "idx": 3,
+   "path": "cards/S04.webp",
+   "w": 245
+  },
+  "S04_back": {
+   "bytes": 16324,
+   "h": 420,
+   "path": "cards/S04_back.webp",
+   "w": 245
+  },
+  "S05": {
+   "back": "S05_back",
+   "bytes": 22124,
+   "deck": "552",
+   "h": 420,
+   "idx": 4,
+   "path": "cards/S05.webp",
+   "w": 245
+  },
+  "S05_back": {
+   "bytes": 16118,
+   "h": 420,
+   "path": "cards/S05_back.webp",
+   "w": 245
+  },
+  "S06": {
+   "back": "S06_back",
+   "bytes": 20182,
+   "deck": "552",
+   "h": 420,
+   "idx": 5,
+   "path": "cards/S06.webp",
+   "w": 245
+  },
+  "S06_back": {
+   "bytes": 16202,
+   "h": 420,
+   "path": "cards/S06_back.webp",
+   "w": 245
+  },
+  "S07": {
+   "back": "S07_back",
+   "bytes": 19110,
+   "deck": "552",
+   "h": 420,
+   "idx": 6,
+   "path": "cards/S07.webp",
+   "w": 245
+  },
+  "S07_back": {
+   "bytes": 16240,
+   "h": 420,
+   "path": "cards/S07_back.webp",
+   "w": 245
+  },
+  "S08": {
+   "back": "S08_back",
+   "bytes": 14164,
+   "deck": "552",
+   "h": 420,
+   "idx": 7,
+   "path": "cards/S08.webp",
+   "w": 245
+  },
+  "S08_back": {
+   "bytes": 9446,
+   "h": 420,
+   "path": "cards/S08_back.webp",
+   "w": 245
+  },
+  "S09": {
+   "back": "S09_back",
+   "bytes": 18130,
+   "deck": "552",
+   "h": 420,
+   "idx": 8,
+   "path": "cards/S09.webp",
+   "w": 245
+  },
+  "S09_back": {
+   "bytes": 10356,
+   "h": 420,
+   "path": "cards/S09_back.webp",
+   "w": 245
+  },
+  "SD01": {
+   "back": "back_socialdispute",
+   "bytes": 22866,
+   "deck": "545",
+   "h": 420,
+   "idx": 0,
+   "path": "cards/SD01.webp",
+   "w": 245
+  },
+  "SD02": {
+   "back": "back_socialdispute",
+   "bytes": 22640,
+   "deck": "545",
+   "h": 420,
+   "idx": 1,
+   "path": "cards/SD02.webp",
+   "w": 245
+  },
+  "SD03": {
+   "back": "back_socialdispute",
+   "bytes": 22522,
+   "deck": "545",
+   "h": 420,
+   "idx": 2,
+   "path": "cards/SD03.webp",
+   "w": 245
+  },
+  "SD04": {
+   "back": "back_socialdispute",
+   "bytes": 22698,
+   "deck": "545",
+   "h": 420,
+   "idx": 3,
+   "path": "cards/SD04.webp",
+   "w": 245
+  },
+  "SD05": {
+   "back": "back_socialdispute",
+   "bytes": 24004,
+   "deck": "545",
+   "h": 420,
+   "idx": 4,
+   "path": "cards/SD05.webp",
+   "w": 245
+  },
+  "SD06": {
+   "back": "back_socialdispute",
+   "bytes": 23242,
+   "deck": "545",
+   "h": 420,
+   "idx": 5,
+   "path": "cards/SD06.webp",
+   "w": 245
+  },
+  "SD07": {
+   "back": "back_socialdispute",
+   "bytes": 14996,
+   "deck": "545",
+   "h": 420,
+   "idx": 6,
+   "path": "cards/SD07.webp",
+   "w": 245
+  },
+  "SD08": {
+   "back": "back_socialdispute",
+   "bytes": 15252,
+   "deck": "545",
+   "h": 420,
+   "idx": 7,
+   "path": "cards/SD08.webp",
+   "w": 245
+  },
+  "SD09": {
+   "back": "back_socialdispute",
+   "bytes": 16722,
+   "deck": "545",
+   "h": 420,
+   "idx": 8,
+   "path": "cards/SD09.webp",
+   "w": 245
+  },
+  "SD10": {
+   "back": "back_socialdispute",
+   "bytes": 18504,
+   "deck": "545",
+   "h": 420,
+   "idx": 9,
+   "path": "cards/SD10.webp",
+   "w": 245
+  },
+  "back_citizen": {
+   "bytes": 27470,
+   "h": 420,
+   "path": "cards/back_citizen.webp",
+   "w": 301
+  },
+  "back_dusk": {
+   "bytes": 22930,
+   "h": 420,
+   "path": "cards/back_dusk.webp",
+   "w": 245
+  },
+  "back_far": {
+   "bytes": 5662,
+   "h": 364,
+   "path": "cards/back_far.webp",
+   "w": 420
+  },
+  "back_lawcons": {
+   "bytes": 22930,
+   "h": 420,
+   "path": "cards/back_lawcons.webp",
+   "w": 245
+  },
+  "back_morning": {
+   "bytes": 12464,
+   "h": 420,
+   "path": "cards/back_morning.webp",
+   "w": 245
+  },
+  "back_near": {
+   "bytes": 4988,
+   "h": 364,
+   "path": "cards/back_near.webp",
+   "w": 420
+  },
+  "back_socialdispute": {
+   "bytes": 22930,
+   "h": 420,
+   "path": "cards/back_socialdispute.webp",
+   "w": 245
+  }
+ },
+ "meta": {
+  "counts": {
+   "audio": 1,
+   "boards": 13,
+   "cards": 250,
+   "models": 14,
+   "pdf": 2,
+   "tiles": 79,
+   "tokens": 55
+  },
+  "generatedBy": "tools/optimize_assets.py",
+  "missingImageUrls": [
+   "https://steamusercontent-a.akamaihd.net/ugc/1844787679315813259/D47EF0DC1BAFBEB93DDB841087AE757F89C5BAA2/",
+   "https://steamusercontent-a.akamaihd.net/ugc/1844787679315957821/BD4B6D674529EB8B2F657F11E12CCEA072F8731B/"
+  ],
+  "skipped": [
+   {
+    "bytes": 2477412,
+    "pdf": "advisor_foreman",
+    "reason": "advisor responsibility sheet; digital game automates it (run with --all-pdfs to ship)"
+   },
+   {
+    "bytes": 2643833,
+    "pdf": "advisor_social",
+    "reason": "advisor responsibility sheet; digital game automates it (run with --all-pdfs to ship)"
+   },
+   {
+    "bytes": 6960532,
+    "pdf": "advisor_health",
+    "reason": "advisor responsibility sheet; digital game automates it (run with --all-pdfs to ship)"
+   },
+   {
+    "bytes": 2609532,
+    "pdf": "advisor_generator",
+    "reason": "advisor responsibility sheet; digital game automates it (run with --all-pdfs to ship)"
+   }
+  ],
+  "totalBytes": 46908625,
+  "unresolved": [],
+  "version": 3
+ },
+ "models": {
+  "automatons": {
+   "bytes": 33168,
+   "extent": [
+    0.8257,
+    1.0,
+    0.25
+   ],
+   "flipped": false,
+   "path": "models/automatons.glb",
+   "sourceExtent": 3.1996,
+   "textured": false,
+   "tris": 1344
+  },
+  "children": {
+   "bytes": 51628,
+   "extent": [
+    1.0,
+    0.6024,
+    0.4006
+   ],
+   "flipped": false,
+   "path": "models/children.glb",
+   "sourceExtent": 1.9971,
+   "textured": false,
+   "tris": 2116
+  },
+  "coal": {
+   "bytes": 97500,
+   "extent": [
+    0.9422,
+    0.7061,
+    1.0
+   ],
+   "flipped": false,
+   "path": "models/coal.glb",
+   "sourceExtent": 0.8005,
+   "textured": true,
+   "tris": 64
+  },
+  "dreadnought": {
+   "bytes": 1892940,
+   "extent": [
+    1.0,
+    0.2396,
+    0.3516
+   ],
+   "flipped": false,
+   "path": "models/dreadnought.glb",
+   "sourceExtent": 190.0988,
+   "textured": false,
+   "tris": 22528
+  },
+  "engineers": {
+   "bytes": 38928,
+   "extent": [
+    0.9488,
+    1.0,
+    0.5009
+   ],
+   "flipped": false,
+   "path": "models/engineers.glb",
+   "sourceExtent": 1.5972,
+   "textured": false,
+   "tris": 1588
+  },
+  "leadership_marker": {
+   "bytes": 67016,
+   "extent": [
+    1.0,
+    0.6264,
+    0.2329
+   ],
+   "flipped": false,
+   "path": "models/leadership_marker.glb",
+   "sourceExtent": 3.4343,
+   "textured": false,
+   "tris": 2766
+  },
+  "model_1f2abb1e": {
+   "bytes": 2007832,
+   "extent": [
+    0.4682,
+    1.0,
+    0.4598
+   ],
+   "flipped": false,
+   "path": "models/model_1f2abb1e.glb",
+   "sourceExtent": 22.4437,
+   "textured": false,
+   "tris": 23994
+  },
+  "round_marker": {
+   "bytes": 16992,
+   "extent": [
+    0.4947,
+    0.4966,
+    1.0
+   ],
+   "flipped": false,
+   "path": "models/round_marker.glb",
+   "sourceExtent": 1.6111,
+   "textured": false,
+   "tris": 672
+  },
+  "steam_core": {
+   "bytes": 42480,
+   "extent": [
+    0.5659,
+    0.4362,
+    1.0
+   ],
+   "flipped": false,
+   "path": "models/steam_core.glb",
+   "sourceExtent": 1.8341,
+   "textured": false,
+   "tris": 1752
+  },
+  "steam_hub": {
+   "bytes": 53952,
+   "extent": [
+    1.0,
+    0.3726,
+    0.9991
+   ],
+   "flipped": false,
+   "path": "models/steam_hub.glb",
+   "sourceExtent": 2.1471,
+   "textured": false,
+   "tris": 2228
+  },
+  "steel": {
+   "bytes": 5596,
+   "extent": [
+    1.0,
+    0.6665,
+    0.5558
+   ],
+   "flipped": false,
+   "path": "models/steel.glb",
+   "sourceExtent": 1.4394,
+   "textured": false,
+   "tris": 196
+  },
+  "trees": {
+   "bytes": 17596,
+   "extent": [
+    0.6549,
+    1.0,
+    0.3387
+   ],
+   "flipped": false,
+   "path": "models/trees.glb",
+   "sourceExtent": 2.3617,
+   "textured": false,
+   "tris": 696
+  },
+  "wood": {
+   "bytes": 157672,
+   "extent": [
+    0.8704,
+    0.622,
+    1.0
+   ],
+   "flipped": false,
+   "path": "models/wood.glb",
+   "sourceExtent": 1.2861,
+   "textured": true,
+   "tris": 624
+  },
+  "workers": {
+   "bytes": 33444,
+   "extent": [
+    1.0,
+    0.9152,
+    0.4543
+   ],
+   "flipped": false,
+   "path": "models/workers.glb",
+   "sourceExtent": 1.7608,
+   "textured": false,
+   "tris": 1356
+  }
+ },
+ "pdf": {
+  "frostpunk_rulebook": {
+   "bytes": 25761209,
+   "path": "pdf/frostpunk_rulebook.pdf"
+  },
+  "frostpunk_rules_supplement": {
+   "bytes": 4742463,
+   "path": "pdf/frostpunk_rules_supplement.pdf"
+  }
+ },
+ "tiles": {
+  "F01": {
+   "bytes": 17792,
+   "deck": "551",
+   "h": 444,
+   "idx": 0,
+   "path": "tiles/F01.webp",
+   "w": 512
+  },
+  "F02": {
+   "bytes": 17034,
+   "deck": "551",
+   "h": 444,
+   "idx": 1,
+   "path": "tiles/F02.webp",
+   "w": 512
+  },
+  "F03": {
+   "bytes": 16502,
+   "deck": "551",
+   "h": 444,
+   "idx": 2,
+   "path": "tiles/F03.webp",
+   "w": 512
+  },
+  "F04": {
+   "bytes": 17112,
+   "deck": "551",
+   "h": 444,
+   "idx": 3,
+   "path": "tiles/F04.webp",
+   "w": 512
+  },
+  "F05": {
+   "bytes": 12834,
+   "deck": "551",
+   "h": 444,
+   "idx": 4,
+   "path": "tiles/F05.webp",
+   "w": 512
+  },
+  "F06": {
+   "bytes": 15406,
+   "deck": "551",
+   "h": 444,
+   "idx": 5,
+   "path": "tiles/F06.webp",
+   "w": 512
+  },
+  "F07": {
+   "bytes": 14986,
+   "deck": "551",
+   "h": 444,
+   "idx": 6,
+   "path": "tiles/F07.webp",
+   "w": 512
+  },
+  "F08": {
+   "bytes": 17340,
+   "deck": "551",
+   "h": 444,
+   "idx": 7,
+   "path": "tiles/F08.webp",
+   "w": 512
+  },
+  "F09": {
+   "bytes": 17808,
+   "deck": "551",
+   "h": 444,
+   "idx": 8,
+   "path": "tiles/F09.webp",
+   "w": 512
+  },
+  "F10": {
+   "bytes": 16882,
+   "deck": "551",
+   "h": 444,
+   "idx": 9,
+   "path": "tiles/F10.webp",
+   "w": 512
+  },
+  "F11": {
+   "bytes": 15876,
+   "deck": "551",
+   "h": 444,
+   "idx": 10,
+   "path": "tiles/F11.webp",
+   "w": 512
+  },
+  "F12": {
+   "bytes": 16386,
+   "deck": "551",
+   "h": 444,
+   "idx": 11,
+   "path": "tiles/F12.webp",
+   "w": 512
+  },
+  "F13": {
+   "bytes": 15488,
+   "deck": "551",
+   "h": 444,
+   "idx": 12,
+   "path": "tiles/F13.webp",
+   "w": 512
+  },
+  "F14": {
+   "bytes": 16534,
+   "deck": "551",
+   "h": 444,
+   "idx": 13,
+   "path": "tiles/F14.webp",
+   "w": 512
+  },
+  "F15": {
+   "bytes": 16860,
+   "deck": "551",
+   "h": 444,
+   "idx": 14,
+   "path": "tiles/F15.webp",
+   "w": 512
+  },
+  "F16": {
+   "bytes": 17078,
+   "deck": "551",
+   "h": 444,
+   "idx": 15,
+   "path": "tiles/F16.webp",
+   "w": 512
+  },
+  "F17": {
+   "bytes": 17650,
+   "deck": "551",
+   "h": 444,
+   "idx": 16,
+   "path": "tiles/F17.webp",
+   "w": 512
+  },
+  "F18": {
+   "bytes": 18622,
+   "deck": "551",
+   "h": 444,
+   "idx": 17,
+   "path": "tiles/F18.webp",
+   "w": 512
+  },
+  "N01": {
+   "bytes": 17114,
+   "deck": "550",
+   "h": 444,
+   "idx": 0,
+   "path": "tiles/N01.webp",
+   "w": 512
+  },
+  "N02": {
+   "bytes": 18014,
+   "deck": "550",
+   "h": 444,
+   "idx": 1,
+   "path": "tiles/N02.webp",
+   "w": 512
+  },
+  "N03": {
+   "bytes": 17822,
+   "deck": "550",
+   "h": 444,
+   "idx": 2,
+   "path": "tiles/N03.webp",
+   "w": 512
+  },
+  "N04": {
+   "bytes": 16982,
+   "deck": "550",
+   "h": 444,
+   "idx": 3,
+   "path": "tiles/N04.webp",
+   "w": 512
+  },
+  "N05": {
+   "bytes": 17526,
+   "deck": "550",
+   "h": 444,
+   "idx": 4,
+   "path": "tiles/N05.webp",
+   "w": 512
+  },
+  "N06": {
+   "bytes": 17084,
+   "deck": "550",
+   "h": 444,
+   "idx": 5,
+   "path": "tiles/N06.webp",
+   "w": 512
+  },
+  "N07": {
+   "bytes": 16786,
+   "deck": "550",
+   "h": 444,
+   "idx": 6,
+   "path": "tiles/N07.webp",
+   "w": 512
+  },
+  "N08": {
+   "bytes": 16610,
+   "deck": "550",
+   "h": 444,
+   "idx": 7,
+   "path": "tiles/N08.webp",
+   "w": 512
+  },
+  "N09": {
+   "bytes": 13804,
+   "deck": "550",
+   "h": 444,
+   "idx": 8,
+   "path": "tiles/N09.webp",
+   "w": 512
+  },
+  "N10": {
+   "bytes": 16910,
+   "deck": "550",
+   "h": 444,
+   "idx": 9,
+   "path": "tiles/N10.webp",
+   "w": 512
+  },
+  "N11": {
+   "bytes": 15744,
+   "deck": "550",
+   "h": 444,
+   "idx": 10,
+   "path": "tiles/N11.webp",
+   "w": 512
+  },
+  "N12": {
+   "bytes": 17094,
+   "deck": "550",
+   "h": 444,
+   "idx": 11,
+   "path": "tiles/N12.webp",
+   "w": 512
+  },
+  "beacon": {
+   "bytes": 13004,
+   "h": 512,
+   "path": "tiles/beacon.webp",
+   "w": 256
+  },
+  "beacon_back": {
+   "bytes": 13982,
+   "h": 512,
+   "path": "tiles/beacon_back.webp",
+   "w": 256
+  },
+  "bunkhouse": {
+   "bytes": 17446,
+   "h": 379,
+   "path": "tiles/bunkhouse.webp",
+   "w": 379
+  },
+  "bunkhouse_back": {
+   "bytes": 15700,
+   "h": 379,
+   "path": "tiles/bunkhouse_back.webp",
+   "w": 379
+  },
+  "care_house": {
+   "bytes": 17154,
+   "h": 379,
+   "path": "tiles/care_house.webp",
+   "w": 379
+  },
+  "cemetery": {
+   "bytes": 20224,
+   "h": 379,
+   "path": "tiles/cemetery.webp",
+   "w": 379
+  },
+  "cemetery_back": {
+   "bytes": 17996,
+   "h": 379,
+   "path": "tiles/cemetery_back.webp",
+   "w": 379
+  },
+  "charcoal_kiln": {
+   "bytes": 15014,
+   "h": 379,
+   "path": "tiles/charcoal_kiln.webp",
+   "w": 379
+  },
+  "charcoal_kiln_back": {
+   "bytes": 15614,
+   "h": 379,
+   "path": "tiles/charcoal_kiln_back.webp",
+   "w": 379
+  },
+  "child_shelter": {
+   "bytes": 22352,
+   "h": 379,
+   "path": "tiles/child_shelter.webp",
+   "w": 379
+  },
+  "coal_mine": {
+   "bytes": 17526,
+   "h": 512,
+   "path": "tiles/coal_mine.webp",
+   "w": 256
+  },
+  "coal_mine_back": {
+   "bytes": 18014,
+   "h": 512,
+   "path": "tiles/coal_mine_back.webp",
+   "w": 256
+  },
+  "coal_thumper": {
+   "bytes": 18804,
+   "h": 512,
+   "path": "tiles/coal_thumper.webp",
+   "w": 256
+  },
+  "coal_thumper_back": {
+   "bytes": 18848,
+   "h": 512,
+   "path": "tiles/coal_thumper_back.webp",
+   "w": 256
+  },
+  "cookhouse": {
+   "bytes": 19198,
+   "h": 379,
+   "path": "tiles/cookhouse.webp",
+   "w": 379
+  },
+  "factory": {
+   "bytes": 16002,
+   "h": 379,
+   "path": "tiles/factory.webp",
+   "w": 379
+  },
+  "faith_keepers": {
+   "bytes": 22634,
+   "h": 512,
+   "path": "tiles/faith_keepers.webp",
+   "w": 256
+  },
+  "faith_keepers_back": {
+   "bytes": 22322,
+   "h": 512,
+   "path": "tiles/faith_keepers_back.webp",
+   "w": 256
+  },
+  "field_kitchen": {
+   "bytes": 15576,
+   "h": 379,
+   "path": "tiles/field_kitchen.webp",
+   "w": 379
+  },
+  "field_kitchen_back": {
+   "bytes": 17944,
+   "h": 379,
+   "path": "tiles/field_kitchen_back.webp",
+   "w": 379
+  },
+  "fighting_arena": {
+   "bytes": 18220,
+   "h": 379,
+   "path": "tiles/fighting_arena.webp",
+   "w": 378
+  },
+  "gathering_post": {
+   "bytes": 16274,
+   "h": 379,
+   "path": "tiles/gathering_post.webp",
+   "w": 379
+  },
+  "gathering_post_back": {
+   "bytes": 16794,
+   "h": 379,
+   "path": "tiles/gathering_post_back.webp",
+   "w": 379
+  },
+  "generator_tile": {
+   "bytes": 43102,
+   "h": 512,
+   "path": "tiles/generator_tile.webp",
+   "w": 493
+  },
+  "heat_range_2nd_ring": {
+   "bytes": 8044,
+   "h": 236,
+   "path": "tiles/heat_range_2nd_ring.webp",
+   "w": 237
+  },
+  "hothouse": {
+   "bytes": 18256,
+   "h": 512,
+   "path": "tiles/hothouse.webp",
+   "w": 256
+  },
+  "hothouse_back": {
+   "bytes": 18278,
+   "h": 512,
+   "path": "tiles/hothouse_back.webp",
+   "w": 256
+  },
+  "house": {
+   "bytes": 16912,
+   "h": 379,
+   "path": "tiles/house.webp",
+   "w": 379
+  },
+  "house_back": {
+   "bytes": 15700,
+   "h": 379,
+   "path": "tiles/house_back.webp",
+   "w": 379
+  },
+  "infirmary": {
+   "bytes": 20222,
+   "h": 512,
+   "path": "tiles/infirmary.webp",
+   "w": 256
+  },
+  "infirmary_back": {
+   "bytes": 20656,
+   "h": 512,
+   "path": "tiles/infirmary_back.webp",
+   "w": 256
+  },
+  "medical_post": {
+   "bytes": 16978,
+   "h": 379,
+   "path": "tiles/medical_post.webp",
+   "w": 379
+  },
+  "medical_post_back": {
+   "bytes": 18726,
+   "h": 379,
+   "path": "tiles/medical_post_back.webp",
+   "w": 379
+  },
+  "public_house": {
+   "bytes": 16550,
+   "h": 379,
+   "path": "tiles/public_house.webp",
+   "w": 379
+  },
+  "rim_strip_1": {
+   "bytes": 15888,
+   "h": 108,
+   "path": "tiles/rim_strip_1.webp",
+   "w": 512
+  },
+  "rim_strip_2": {
+   "bytes": 15506,
+   "h": 108,
+   "path": "tiles/rim_strip_2.webp",
+   "w": 512
+  },
+  "rim_strip_3": {
+   "bytes": 15134,
+   "h": 108,
+   "path": "tiles/rim_strip_3.webp",
+   "w": 512
+  },
+  "rim_strip_4": {
+   "bytes": 16586,
+   "h": 108,
+   "path": "tiles/rim_strip_4.webp",
+   "w": 512
+  },
+  "rim_strip_5": {
+   "bytes": 15010,
+   "h": 108,
+   "path": "tiles/rim_strip_5.webp",
+   "w": 512
+  },
+  "rim_strip_6": {
+   "bytes": 15314,
+   "h": 108,
+   "path": "tiles/rim_strip_6.webp",
+   "w": 512
+  },
+  "sawmill": {
+   "bytes": 16972,
+   "h": 379,
+   "path": "tiles/sawmill.webp",
+   "w": 379
+  },
+  "sawmill_back": {
+   "bytes": 17466,
+   "h": 379,
+   "path": "tiles/sawmill_back.webp",
+   "w": 379
+  },
+  "temple": {
+   "bytes": 17184,
+   "h": 379,
+   "path": "tiles/temple.webp",
+   "w": 379
+  },
+  "temple_back": {
+   "bytes": 14808,
+   "h": 379,
+   "path": "tiles/temple_back.webp",
+   "w": 379
+  },
+  "tent": {
+   "bytes": 14870,
+   "h": 379,
+   "path": "tiles/tent.webp",
+   "w": 379
+  },
+  "tent_back": {
+   "bytes": 15700,
+   "h": 379,
+   "path": "tiles/tent_back.webp",
+   "w": 379
+  },
+  "wall_drill": {
+   "bytes": 19470,
+   "h": 512,
+   "path": "tiles/wall_drill.webp",
+   "w": 256
+  },
+  "wall_drill_back": {
+   "bytes": 19706,
+   "h": 512,
+   "path": "tiles/wall_drill_back.webp",
+   "w": 256
+  },
+  "workshop": {
+   "bytes": 17564,
+   "h": 379,
+   "path": "tiles/workshop.webp",
+   "w": 379
+  }
+ },
+ "tokens": {
+  "anger": {
+   "bytes": 9516,
+   "h": 249,
+   "path": "tokens/anger.webp",
+   "w": 249
+  },
+  "anger_back": {
+   "bytes": 8164,
+   "h": 249,
+   "path": "tokens/anger_back.webp",
+   "w": 249
+  },
+  "apathy": {
+   "bytes": 7474,
+   "h": 249,
+   "path": "tokens/apathy.webp",
+   "w": 250
+  },
+  "apathy_back": {
+   "bytes": 6912,
+   "h": 249,
+   "path": "tokens/apathy_back.webp",
+   "w": 249
+  },
+  "automaton": {
+   "bytes": 10554,
+   "h": 512,
+   "path": "tokens/automaton.webp",
+   "w": 423
+  },
+  "care": {
+   "bytes": 8652,
+   "h": 249,
+   "path": "tokens/care.webp",
+   "w": 250
+  },
+  "care_back": {
+   "bytes": 7568,
+   "h": 249,
+   "path": "tokens/care_back.webp",
+   "w": 249
+  },
+  "child_count": {
+   "bytes": 4752,
+   "h": 178,
+   "path": "tokens/child_count.webp",
+   "w": 178
+  },
+  "child_token": {
+   "bytes": 9826,
+   "h": 307,
+   "path": "tokens/child_token.webp",
+   "w": 512
+  },
+  "cold_marker": {
+   "bytes": 5344,
+   "h": 202,
+   "path": "tokens/cold_marker.webp",
+   "w": 202
+  },
+  "corpse_marker": {
+   "bytes": 7288,
+   "h": 249,
+   "path": "tokens/corpse_marker.webp",
+   "w": 249
+  },
+  "development_token": {
+   "bytes": 4572,
+   "h": 249,
+   "path": "tokens/development_token.webp",
+   "w": 249
+  },
+  "development_token_back": {
+   "bytes": 5206,
+   "h": 249,
+   "path": "tokens/development_token_back.webp",
+   "w": 249
+  },
+  "engineer_count": {
+   "bytes": 5572,
+   "h": 178,
+   "path": "tokens/engineer_count.webp",
+   "w": 178
+  },
+  "engineer_token": {
+   "bytes": 5374,
+   "h": 450,
+   "path": "tokens/engineer_token.webp",
+   "w": 427
+  },
+  "food": {
+   "bytes": 4434,
+   "h": 178,
+   "path": "tokens/food.webp",
+   "w": 179
+  },
+  "food_back": {
+   "bytes": 5102,
+   "h": 178,
+   "path": "tokens/food_back.webp",
+   "w": 178
+  },
+  "greed": {
+   "bytes": 8684,
+   "h": 249,
+   "path": "tokens/greed.webp",
+   "w": 249
+  },
+  "greed_back": {
+   "bytes": 7680,
+   "h": 249,
+   "path": "tokens/greed_back.webp",
+   "w": 249
+  },
+  "heat_marker": {
+   "bytes": 5890,
+   "h": 202,
+   "path": "tokens/heat_marker.webp",
+   "w": 202
+  },
+  "heat_marker_back": {
+   "bytes": 5714,
+   "h": 202,
+   "path": "tokens/heat_marker_back.webp",
+   "w": 201
+  },
+  "hunger": {
+   "bytes": 4560,
+   "h": 178,
+   "path": "tokens/hunger.webp",
+   "w": 178
+  },
+  "hunger_back": {
+   "bytes": 5226,
+   "h": 178,
+   "path": "tokens/hunger_back.webp",
+   "w": 178
+  },
+  "hunter_s_hut": {
+   "bytes": 16368,
+   "h": 379,
+   "path": "tokens/hunter_s_hut.webp",
+   "w": 379
+  },
+  "hunter_s_hut_back": {
+   "bytes": 17624,
+   "h": 379,
+   "path": "tokens/hunter_s_hut_back.webp",
+   "w": 379
+  },
+  "motivation": {
+   "bytes": 8430,
+   "h": 249,
+   "path": "tokens/motivation.webp",
+   "w": 249
+  },
+  "motivation_back": {
+   "bytes": 7262,
+   "h": 249,
+   "path": "tokens/motivation_back.webp",
+   "w": 249
+  },
+  "phase_tracker": {
+   "bytes": 3622,
+   "h": 178,
+   "path": "tokens/phase_tracker.webp",
+   "w": 178
+  },
+  "phase_tracker_back": {
+   "bytes": 2390,
+   "h": 178,
+   "path": "tokens/phase_tracker_back.webp",
+   "w": 179
+  },
+  "scenario_trigger_token": {
+   "bytes": 8474,
+   "h": 249,
+   "path": "tokens/scenario_trigger_token.webp",
+   "w": 249
+  },
+  "scenario_trigger_token_back": {
+   "bytes": 7876,
+   "h": 249,
+   "path": "tokens/scenario_trigger_token_back.webp",
+   "w": 249
+  },
+  "sick_child": {
+   "bytes": 4756,
+   "h": 178,
+   "path": "tokens/sick_child.webp",
+   "w": 178
+  },
+  "sick_child_back": {
+   "bytes": 4348,
+   "h": 178,
+   "path": "tokens/sick_child_back.webp",
+   "w": 179
+  },
+  "sick_engineer": {
+   "bytes": 5414,
+   "h": 178,
+   "path": "tokens/sick_engineer.webp",
+   "w": 179
+  },
+  "sick_engineer_back": {
+   "bytes": 4874,
+   "h": 178,
+   "path": "tokens/sick_engineer_back.webp",
+   "w": 178
+  },
+  "sick_worker": {
+   "bytes": 5238,
+   "h": 178,
+   "path": "tokens/sick_worker.webp",
+   "w": 178
+  },
+  "sick_worker_back": {
+   "bytes": 4800,
+   "h": 178,
+   "path": "tokens/sick_worker_back.webp",
+   "w": 178
+  },
+  "spent_child_token": {
+   "bytes": 5618,
+   "h": 249,
+   "path": "tokens/spent_child_token.webp",
+   "w": 250
+  },
+  "spent_engineer_token": {
+   "bytes": 6642,
+   "h": 249,
+   "path": "tokens/spent_engineer_token.webp",
+   "w": 249
+  },
+  "spent_worker_token": {
+   "bytes": 5894,
+   "h": 249,
+   "path": "tokens/spent_worker_token.webp",
+   "w": 249
+  },
+  "starting_wall_resource_coal": {
+   "bytes": 5382,
+   "h": 214,
+   "path": "tokens/starting_wall_resource_coal.webp",
+   "w": 214
+  },
+  "starting_wall_resource_wood": {
+   "bytes": 5198,
+   "h": 214,
+   "path": "tokens/starting_wall_resource_wood.webp",
+   "w": 213
+  },
+  "stocked_coal": {
+   "bytes": 3752,
+   "h": 178,
+   "path": "tokens/stocked_coal.webp",
+   "w": 178
+  },
+  "stocked_coal_back": {
+   "bytes": 4432,
+   "h": 178,
+   "path": "tokens/stocked_coal_back.webp",
+   "w": 178
+  },
+  "stocked_rations": {
+   "bytes": 4932,
+   "h": 178,
+   "path": "tokens/stocked_rations.webp",
+   "w": 178
+  },
+  "stocked_rations_back": {
+   "bytes": 4432,
+   "h": 178,
+   "path": "tokens/stocked_rations_back.webp",
+   "w": 178
+  },
+  "stocked_wood": {
+   "bytes": 3386,
+   "h": 178,
+   "path": "tokens/stocked_wood.webp",
+   "w": 178
+  },
+  "stocked_wood_back": {
+   "bytes": 4432,
+   "h": 178,
+   "path": "tokens/stocked_wood_back.webp",
+   "w": 178
+  },
+  "storm_marker": {
+   "bytes": 5816,
+   "h": 448,
+   "path": "tokens/storm_marker.webp",
+   "w": 408
+  },
+  "token_generator_home": {
+   "bytes": 15118,
+   "h": 492,
+   "path": "tokens/token_generator_home.webp",
+   "w": 493
+  },
+  "token_platform": {
+   "bytes": 20504,
+   "h": 512,
+   "path": "tokens/token_platform.webp",
+   "w": 337
+  },
+  "tree": {
+   "bytes": 6434,
+   "h": 512,
+   "path": "tokens/tree.webp",
+   "w": 342
+  },
+  "wood": {
+   "bytes": 8120,
+   "h": 462,
+   "path": "tokens/wood.webp",
+   "w": 462
+  },
+  "worker_count": {
+   "bytes": 5126,
+   "h": 178,
+   "path": "tokens/worker_count.webp",
+   "w": 178
+  },
+  "worker_token": {
+   "bytes": 5502,
+   "h": 456,
+   "path": "tokens/worker_token.webp",
+   "w": 500
+  }
+ }
+}

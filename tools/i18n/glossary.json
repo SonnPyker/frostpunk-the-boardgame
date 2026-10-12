@@ -1,0 +1,250 @@
+[
+ {
+  "en": "Hope",
+  "vi": "Chỉ số hy vọng của Công dân, gồm ba loại dấu (Justice, Care, Motivation). Hết Hope là bạn thua."
+ },
+ {
+  "en": "Discontent",
+  "vi": "Chỉ số bất mãn của Công dân, gồm ba loại dấu (Anger, Greed, Apathy). Có sáu dấu Discontent trên bảng là bạn thua."
+ },
+ {
+  "en": "Care",
+  "vi": "Một loại Hope (chăm sóc). Khi dấu Care đang hoạt động, một số hiệu ứng chữa bệnh cho Công dân hiệu quả hơn."
+ },
+ {
+  "en": "Justice",
+  "vi": "Một loại Hope (công lý). Khi dấu Justice đang hoạt động, một số luật và sự kiện mở thêm lựa chọn cho bạn."
+ },
+ {
+  "en": "Motivation",
+  "vi": "Một loại Hope (động lực làm việc). Khi đang hoạt động, Motivation giúp lấy thêm tài nguyên từ bản đồ trong một số sự kiện."
+ },
+ {
+  "en": "Anger",
+  "vi": "Một loại Discontent (giận dữ). Khi đang hoạt động, Anger có thể làm thêm Công dân bị bệnh trong một số sự kiện."
+ },
+ {
+  "en": "Apathy",
+  "vi": "Một loại Discontent (thờ ơ). Khi đang hoạt động, Apathy làm bệnh của Công dân nặng thêm trong một số sự kiện."
+ },
+ {
+  "en": "Greed",
+  "vi": "Một loại Discontent (tham lam). Khi đang hoạt động, Greed làm tăng Đói trong một số sự kiện."
+ },
+ {
+  "en": "Steam Core",
+  "vi": "Tài nguyên dùng để xây và nâng cấp một số công trình, nâng cấp Generator và chế tạo Automaton."
+ },
+ {
+  "en": "Generator",
+  "vi": "Cỗ máy hơi nước ở trung tâm thành phố, đốt Than để sinh nhiệt. Nếu hỏng lần thứ hai thì nó nổ và bạn thua."
+ },
+ {
+  "en": "Meeple",
+  "vi": "Quân cờ đại diện cho một nhóm Công dân, dùng để thực hiện hành động trên bản đồ hoặc công trình."
+ },
+ {
+  "en": "Steam Hub",
+  "vi": "Công trình hơi nước của kịch bản Frozen Grove. Khi chứa Than, nó sưởi ấm ô đặt nó và các ô liền kề."
+ },
+ {
+  "en": "Workshop",
+  "vi": "Công trình nhỏ, chỉ Kỹ sư dùng được. Khi dùng, chọn hai hiệu ứng: nâng cấp một công trình hoặc lùi dấu Phát triển một ô."
+ },
+ {
+  "en": "Gathering Post",
+  "vi": "Công trình nhỏ. Khi dùng, lấy một tài nguyên từ mỗi ô liền kề và đặt vào kho."
+ },
+ {
+  "en": "Expedition",
+  "vi": "Chồng thẻ thám hiểm ngoài bản đồ. Quân Scout đi dọc chồng này, đến cuối thì chọn bỏ qua hoặc khám phá."
+ },
+ {
+  "en": "Law",
+  "vi": "Luật được ban hành qua công trình Platform, thay đổi quy tắc của thành phố và có thể tăng hoặc giảm Hope và Discontent."
+ },
+ {
+  "en": "Future Law",
+  "vi": "Khu vực chứa các luật sẽ có thể ban hành sau này. Khi dùng Platform, bạn chọn một luật từ đây."
+ },
+ {
+  "en": "Law Consequence",
+  "vi": "Thẻ Dusk hệ quả của một luật. Khi luật được ban hành, một trong hai thẻ hệ quả được xáo vào bộ Dusk."
+ },
+ {
+  "en": "Social Dispute",
+  "vi": "Thẻ Dusk đặc biệt, luôn có đúng một lá trong bộ Dusk. Nó áp dụng hiệu ứng cho dấu Hope hoặc Discontent phổ biến nhất."
+ },
+ {
+  "en": "Advisor",
+  "vi": "Vai trò chuyên môn của mỗi người chơi. Mỗi vòng chỉ dùng được một năng lực, bằng cách vô hiệu hóa một dấu Hope."
+ },
+ {
+  "en": "Society",
+  "vi": "Thẻ Xã hội chọn khi chuẩn bị ván, quy định số Công dân và tài nguyên ban đầu của thành phố."
+ },
+ {
+  "en": "Automaton",
+  "vi": "Robot chạy bằng Than, làm việc như Công nhân nhưng không đi thám hiểm được. Mỗi lần dùng tốn 1 Than."
+ },
+ {
+  "en": "Scout",
+  "vi": "Quân cờ Công nhân hoặc Kỹ sư đặt lên chuyến thám hiểm. Mỗi giai đoạn Thời tiết, nó tiến theo số bước trên thẻ."
+ },
+ {
+  "en": "Dreadnought",
+  "vi": "Cỗ máy cũ của kịch bản A New Home: Dreadnought. Dùng một quân cờ trên ô của nó để nhận Thép."
+ },
+ {
+  "en": "Crater",
+  "vi": "Kịch bản cơ bản 'A New Home: Crater' trong sách luật, nên chơi cho ván đầu tiên."
+ },
+ {
+  "en": "Frozen Grove",
+  "vi": "Kịch bản 'A New Home: Frozen Grove'. Các Steam Hub sưởi ấm những khu vực ở xa Generator."
+ },
+ {
+  "en": "Survivalist",
+  "vi": "Bộ thẻ Xã hội thuộc gói mở rộng, dùng thay cho thẻ Xã hội thường khi được bật."
+ },
+ {
+  "en": "Storm",
+  "vi": "Bão tuyết. Khi dấu Storm lùi đến hoặc qua vị trí vòng hiện tại, bão ập vào thành phố và áp dụng thẻ Storm."
+ },
+ {
+  "en": "Corpse marker",
+  "vi": "Dấu đếm số Công dân đã chết trên bảng đếm xác. Nếu dấu này chạm ô cuối cùng, bạn thua."
+ },
+ {
+  "en": "Development token",
+  "vi": "Dấu đặt trên thẻ Công nghệ và trên bảng vòng. Chỉ khi dấu đã được kích hoạt, công nghệ đó mới dùng được."
+ },
+ {
+  "en": "Stockpile",
+  "vi": "Kho dự trữ của kịch bản S03 hoặc S07. Mỗi vòng một lần, bạn tiêu Thực phẩm hoặc Than để đặt dấu vào các ô giới hạn."
+ },
+ {
+  "en": "Heated",
+  "vi": "Công trình hoặc ô bản đồ được Generator sưởi ấm. Hành động ở đó không làm Công dân bị bệnh vì lạnh."
+ },
+ {
+  "en": "Insulation",
+  "vi": "Mức cách nhiệt của công trình, theo màu: đỏ tốt nhất, rồi đến cam và vàng. Mức càng tốt, công trình càng dễ được sưởi ấm."
+ },
+ {
+  "en": "Call to Rise",
+  "vi": "Thẻ chỉ dùng khi chơi đơn. Trong giai đoạn chuẩn bị, bạn rút thêm thẻ Công dân tùy số dấu Hope, rồi loại thẻ khỏi ván."
+ },
+ {
+  "en": "Dusk",
+  "vi": "Bộ bài sự kiện. Mỗi giai đoạn Hoàng hôn, bạn lật một lá và áp dụng hiệu ứng của lá đó."
+ },
+ {
+  "en": "discontent",
+  "vi": "Chỉ số bất mãn của Công dân, gồm ba loại dấu (Anger, Greed, Apathy). Có sáu dấu Discontent trên bảng là bạn thua."
+ },
+ {
+  "en": "steam core",
+  "vi": "Tài nguyên dùng để xây và nâng cấp một số công trình, nâng cấp Generator và chế tạo Automaton."
+ },
+ {
+  "en": "generator",
+  "vi": "Cỗ máy hơi nước ở trung tâm thành phố, đốt Than để sinh nhiệt. Nếu hỏng lần thứ hai thì nó nổ và bạn thua."
+ },
+ {
+  "en": "meeple",
+  "vi": "Quân cờ đại diện cho một nhóm Công dân, dùng để thực hiện hành động trên bản đồ hoặc công trình."
+ },
+ {
+  "en": "steam hub",
+  "vi": "Công trình hơi nước của kịch bản Frozen Grove. Khi chứa Than, nó sưởi ấm ô đặt nó và các ô liền kề."
+ },
+ {
+  "en": "workshop",
+  "vi": "Công trình nhỏ, chỉ Kỹ sư dùng được. Khi dùng, chọn hai hiệu ứng: nâng cấp một công trình hoặc lùi dấu Phát triển một ô."
+ },
+ {
+  "en": "gathering post",
+  "vi": "Công trình nhỏ. Khi dùng, lấy một tài nguyên từ mỗi ô liền kề và đặt vào kho."
+ },
+ {
+  "en": "expedition",
+  "vi": "Chồng thẻ thám hiểm ngoài bản đồ. Quân Scout đi dọc chồng này, đến cuối thì chọn bỏ qua hoặc khám phá."
+ },
+ {
+  "en": "future law",
+  "vi": "Khu vực chứa các luật sẽ có thể ban hành sau này. Khi dùng Platform, bạn chọn một luật từ đây."
+ },
+ {
+  "en": "law consequence",
+  "vi": "Thẻ Dusk hệ quả của một luật. Khi luật được ban hành, một trong hai thẻ hệ quả được xáo vào bộ Dusk."
+ },
+ {
+  "en": "social dispute",
+  "vi": "Thẻ Dusk đặc biệt, luôn có đúng một lá trong bộ Dusk. Nó áp dụng hiệu ứng cho dấu Hope hoặc Discontent phổ biến nhất."
+ },
+ {
+  "en": "advisor",
+  "vi": "Vai trò chuyên môn của mỗi người chơi. Mỗi vòng chỉ dùng được một năng lực, bằng cách vô hiệu hóa một dấu Hope."
+ },
+ {
+  "en": "society",
+  "vi": "Thẻ Xã hội chọn khi chuẩn bị ván, quy định số Công dân và tài nguyên ban đầu của thành phố."
+ },
+ {
+  "en": "automaton",
+  "vi": "Robot chạy bằng Than, làm việc như Công nhân nhưng không đi thám hiểm được. Mỗi lần dùng tốn 1 Than."
+ },
+ {
+  "en": "scout",
+  "vi": "Quân cờ Công nhân hoặc Kỹ sư đặt lên chuyến thám hiểm. Mỗi giai đoạn Thời tiết, nó tiến theo số bước trên thẻ."
+ },
+ {
+  "en": "dreadnought",
+  "vi": "Cỗ máy cũ của kịch bản A New Home: Dreadnought. Dùng một quân cờ trên ô của nó để nhận Thép."
+ },
+ {
+  "en": "crater",
+  "vi": "Kịch bản cơ bản 'A New Home: Crater' trong sách luật, nên chơi cho ván đầu tiên."
+ },
+ {
+  "en": "frozen grove",
+  "vi": "Kịch bản 'A New Home: Frozen Grove'. Các Steam Hub sưởi ấm những khu vực ở xa Generator."
+ },
+ {
+  "en": "survivalist",
+  "vi": "Bộ thẻ Xã hội thuộc gói mở rộng, dùng thay cho thẻ Xã hội thường khi được bật."
+ },
+ {
+  "en": "storm",
+  "vi": "Bão tuyết. Khi dấu Storm lùi đến hoặc qua vị trí vòng hiện tại, bão ập vào thành phố và áp dụng thẻ Storm."
+ },
+ {
+  "en": "corpse marker",
+  "vi": "Dấu đếm số Công dân đã chết trên bảng đếm xác. Nếu dấu này chạm ô cuối cùng, bạn thua."
+ },
+ {
+  "en": "development token",
+  "vi": "Dấu đặt trên thẻ Công nghệ và trên bảng vòng. Chỉ khi dấu đã được kích hoạt, công nghệ đó mới dùng được."
+ },
+ {
+  "en": "stockpile",
+  "vi": "Kho dự trữ của kịch bản S03 hoặc S07. Mỗi vòng một lần, bạn tiêu Thực phẩm hoặc Than để đặt dấu vào các ô giới hạn."
+ },
+ {
+  "en": "heated",
+  "vi": "Công trình hoặc ô bản đồ được Generator sưởi ấm. Hành động ở đó không làm Công dân bị bệnh vì lạnh."
+ },
+ {
+  "en": "insulation",
+  "vi": "Mức cách nhiệt của công trình, theo màu: đỏ tốt nhất, rồi đến cam và vàng. Mức càng tốt, công trình càng dễ được sưởi ấm."
+ },
+ {
+  "en": "call to rise",
+  "vi": "Thẻ chỉ dùng khi chơi đơn. Trong giai đoạn chuẩn bị, bạn rút thêm thẻ Công dân tùy số dấu Hope, rồi loại thẻ khỏi ván."
+ },
+ {
+  "en": "dusk",
+  "vi": "Bộ bài sự kiện. Mỗi giai đoạn Hoàng hôn, bạn lật một lá và áp dụng hiệu ứng của lá đó."
+ }
+]

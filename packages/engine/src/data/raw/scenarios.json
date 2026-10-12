@@ -1,0 +1,156 @@
+{
+"note": "Scenario data transcribed from the TTS scenario cards (deck 552, front = card text, back = I/Sxx) and the Scenario Book pp3-11. Priority when rules disagree: card text > Scenario Book > Rulebook. fx strings use the FX DSL (docs/FX_DSL.md); scenario-specific tokens: scenario:place:<id> (place face up in the Scenario display; a card with `triggers` also places its Scenario Trigger tokens), scenario:resolve:<id> (reveal + resolve now), scenario:remove:<id>, trigger:<round> (place a Scenario Trigger token), expedition:place:<id> (put the card in the Expedition display), exhaustAll:hope, loseHalfFood, scoutsReturnNoReward, victory, defeat. Conditions are strings: beaconBuilt, revealed:<id>, round<=N, round>=N (prefix ! to negate). The engine resolves `triggers` in the Dawn Phase when the Round marker reaches the token's space (token removed first).",
+"start": {
+  "round": 1,
+  "stormMarker": 9,
+  "stormCard": "S08",
+  "scenarioDisplay": ["S01"],
+  "scenarioTriggerTokens": [4, 11],
+  "removeTechnologies": ["T09"],
+  "ruleRef": "Rulebook p13-15 setup 'Round track': S01 face up, Scenario Trigger tokens on 4 and 11 (a third token goes on 12 when S04 is placed)."
+},
+"cards": {
+  "S01": {
+    "id": "S01", "idx": 0, "deck": "552", "title": "Are We Alone?",
+    "triggers": [
+      {"round": 4, "label": "Round 4",
+       "fx": [{"if": "beaconBuilt",
+               "then": ["goto:A"], "else": ["goto:B"]}],
+       "branches": {
+         "A": {"text": "The beacon shines bright!", "fx": [{"choose": [["hope+1"], ["disc-1"]]}, "scenario:resolve:S02"]},
+         "B": {"text": "We have failed...", "fx": ["disc+1:apathy", "scenario:place:S06"]}
+       }},
+      {"round": 11, "label": "Round 11",
+       "fx": ["scenario:place:S04", {"if": "!revealed:S07", "then": ["scenario:place:S03"]}]}
+    ]
+  },
+  "S02": {
+    "id": "S02", "idx": 1, "deck": "552", "title": "Finding Winterhome",
+    "onResolve": ["expedition:place:S05"],
+    "options": [
+      {"id": "A", "text": "Let the refugees enter our city.", "fx": ["hope+1", "gain:worker:5", "gain:engineer:1", "gain:child:3", "scenario:remove:S02"]},
+      {"id": "B", "text": "Send them to look for another place to live.", "fx": ["hope-1", "scenario:remove:S02"]}
+    ]
+  },
+  "S03": {
+    "id": "S03", "idx": 2, "deck": "552", "title": "Prepare for the Storm",
+    "onPlace": ["exhaustAll:hope", "hope-1"],
+    "stockpile": {"slots": 3, "foodPerRation": 3, "coalPerStock": 2},
+    "specialAction": {"id": "stockpile", "phase": "action", "oncePerRound": true, "meeples": ["worker", "engineer"], "heated": true,
+                      "text": "Spend Food and/or Coal; place 1 Food Ration marker per 3 Food and 1 Coal Stock marker per 2 Coal. The total number of Stockpile markers on the card may not exceed `slots`.",
+                      "fx": ["custom:stockpile"]}
+  },
+  "S04": {
+    "id": "S04", "idx": 3, "deck": "552", "title": "Survive the Storm",
+    "onPlace": ["trigger:12"],
+    "triggers": [
+      {"round": 12, "label": "Round 12 - replaces the normal Round",
+       "replacesRound": true,
+       "steps": [
+         {"id": "food", "fx": ["loseHalfFood"], "note": "Lose half of your Food, rounded up (Food = Food - ceil(Food/2))."},
+         {"id": "scouts", "fx": ["scoutsReturnNoReward"], "note": "Return all Scouts from Expeditions without collecting rewards."},
+         {"id": "generator", "fx": ["phase:generator"], "note": "Generator Phase as normal (fuel, sickness from cold, stress, breakdown, Heat marker reset)."},
+         {"id": "hunger", "fx": ["hunger+2:perCitizenMeeple", "gain:food:5:perFoodRation", "phase:hungerSpend", "phase:hungerResolve"],
+          "note": "Hunger +2 for each Citizen Meeple; gain 5 Food per Food Ration marker on S03/S07; you may spend Food to decrease Hunger; resolve the Hunger-marker effect."},
+         {"id": "frostbite", "fx": ["sickAll:12:minus2PerCoalStock", "shelters:allHeated", "nightSleep:sick3PerUnsheltered", "phase:sicknessResolve"],
+          "note": "Gain 12* sick Citizens of each type (*reduce by 2 for each Coal Stock on S03/S07). All Shelters count as heated (Ruins stay unusable unless a Law says otherwise). Each Citizen Meeple without a warm place to sleep gains 3 sick Citizens of its type. Resolve the Sickness markers."},
+         {"id": "end", "fx": ["victory"], "note": "If you have survived (no lose condition triggered) you are victorious."}
+       ]}
+    ]
+  },
+  "S05": {
+    "id": "S05", "idx": 4, "deck": "552", "title": "Winterhome",
+    "kind": "expeditionCard",
+    "expedition": {"name": "Path to Winterhome", "steps": 6, "reward": "?", "startsWhite": true,
+                   "note": "Placed white side (route map, 6 steps) up in the Expedition display by S02. It is a normal expedition stack of one card: Scouts advance with Weather/Deploy movement; when the Scout reaches the end the card flips to its text side."},
+    "onReach": [{"if": "!revealed:S03", "then": ["scenario:place:S07"]}],
+    "options": [
+      {"kind": "return", "id": "R", "fx": [{"if": "round<=7", "then": ["gain:core:1", "gain:wood:3", "gain:coal:4"], "else": ["gain:wood:2", "gain:coal:4"]}, "remove"]}
+    ]
+  },
+  "S06": {
+    "id": "S06", "idx": 5, "deck": "552", "title": "Vox Populi",
+    "dawn": [{"if": "beaconBuilt", "then": ["scenario:resolve:S02", "scenario:remove:S06"], "else": ["disc+1"]}],
+    "note": "Persistent effect while face up: every Dawn Phase. '+1 Discontent' = take 1 Discontent token at random from the bag (type not specified)."
+  },
+  "S07": {
+    "id": "S07", "idx": 6, "deck": "552", "title": "Prepare for the Storm",
+    "stockpile": {"slots": 6, "foodPerRation": 3, "coalPerStock": 2},
+    "specialAction": {"id": "stockpile", "phase": "action", "oncePerRound": true, "meeples": ["worker", "engineer"], "heated": true,
+                      "text": "Same as S03 but 6 slots and no Hope penalty when placed.",
+                      "fx": ["custom:stockpile"]},
+    "note": "S03 and S07 are mutually exclusive (S05 places S07 only if S03 has not been revealed; S01@11 places S03 only if S07 has not been revealed)."
+  },
+  "S08": {
+    "id": "S08", "idx": 7, "deck": "552", "title": "Storm",
+    "kind": "storm",
+    "branches": [
+      {"if": "round<=7", "fx": ["flip:tent:ruins", "stormMarker:set:12"]},
+      {"if": "round>=8", "fx": ["flip:bunkhouse:ruins", "stormMarker:remove"]}
+    ],
+    "note": "Card text decides by Round (the rulebook text says 1st/2nd Storm; the printed card wins). Includes Shelters on the Buildings board. No Event icon => returned face down beside the Weather deck."
+  },
+  "S09": {
+    "id": "S09", "idx": 8, "deck": "552", "title": "Storm (Frozen Grove)",
+    "kind": "storm",
+    "branches": [
+      {"if": "round<=7",
+       "fx": ["flip:tent:ruins", "heatRange:remove:yellow", "heatRange:advance:cold:0", "heatRange:advance:orange:1", "heatRange:advance:red:1", "stormMarker:set:12"]},
+      {"if": "round>=8",
+       "fx": ["flip:bunkhouse:ruins", "heatRange:remove:orange", "heatRange:remove:yellow", "heatRange:advance:cold:0", "heatRange:advance:red:3", "stormMarker:remove"]}
+    ],
+    "note": "Numbers are relative advances (same convention as Weather card section A). A removed indicator ceases to exist: its zone and its insulation colour can no longer be heated by the Heat marker (Steam Hubs, Fuel tokens and scenario effects still can). ASSUMPTION: when the second branch resolves without the first having happened (first Storm at Round >= 8) both yellow and orange are removed, matching the printed picture."
+  }
+},
+"scenarios": {
+  "crater": {
+    "id": "crater", "name": "A New Home: Crater", "status": "playable", "difficulty": 1,
+    "board": "crater",
+    "map": "Rulebook p9 setup: random Wall deposits (3 of 7 tokens) and Near/Far tiles on the 3 empty corners. See map.json boards.crater.",
+    "stormCard": "S08",
+    "scenarioCards": ["S01", "S02", "S03", "S04", "S05", "S06", "S07", "S08"],
+    "technologyDisplay": {"fixed": [], "random": 4, "excluded": ["T09"]},
+    "unlockBuildings": [],
+    "extraRules": [],
+    "win": "S04 resolved and still alive (see S04 steps).",
+    "setupRef": "societies.json + rulebook setup p9-15"
+  },
+  "frozenGrove": {
+    "id": "frozenGrove", "name": "A New Home: Frozen Grove", "status": "playable", "difficulty": 2,
+    "board": "frozenGrove",
+    "stormCard": "S09",
+    "scenarioCards": ["S01", "S02", "S03", "S04", "S05", "S06", "S07", "S09"],
+    "technologyDisplay": {"fixed": ["T09"], "random": 3, "excluded": []},
+    "unlockBuildings": ["steamHub"],
+    "start": {"mapRule": "Generator tile attached to the bottom Rim corner; 8 Near tiles face-up as per map.json boards.frozenGrove; 1 random Wall deposit (Wood or Coal) on the top corner."},
+    "extraRules": [
+      {"id": "FG1", "phase": "action", "text": "A Remove Snow, Gather Resources, Construct or Use a Building action may only be performed on a Map tile that is adjacent to the Generator tile or connected to it by other Map tiles. Heating of tiles/buildings is NOT limited by this."},
+      {"id": "FG2", "text": "Steam Hub (S, White insulation, cost 1 Wood, cannot be upgraded, 3 pieces, unlocked by Technology T09 'Steam Hub' cost 3). Passive: at any time during the round, if the Heat marker level is higher than the RED Insulation level (indicator level), you may place 1 Coal from the supply into the Steam Hub; while it holds a Coal the tile it is on and all adjacent tiles count as heated. Return the Coal to the bank at the end of the Generator Phase."}
+    ],
+    "win": "Same as Crater (S04)."
+  },
+  "dreadnought": {
+    "id": "dreadnought", "name": "A New Home: Dreadnought", "status": "playable", "difficulty": 2,
+    "board": "dreadnought",
+    "stormCard": "S08",
+    "scenarioCards": ["S01", "S02", "S03", "S04", "S05", "S06", "S07", "S08"],
+    "technologyDisplay": {"fixed": [], "random": 4, "excluded": ["T09"]},
+    "unlockBuildings": [],
+    "start": {"steel": 0, "steelLimit": 8, "note": "8 Steel (wooden components) start in the bank."},
+    "extraRules": [
+      {"id": "DN1", "phase": "action", "text": "You may place a Meeple on a Dreadnought tile as a 'Use a Building' action to gain 1 Steel. A Dreadnought tile is a Small Building with Blue insulation (only heated if it is in a heated zone)."},
+      {"id": "DN2", "text": "Steel is a Resource limited to 8 (components). Steel substitutes for Wood in a Build sub-action; mixing Wood and Steel is allowed. If a Building is built by paying its full Wood cost in Steel it is immediately upgraded for free."}
+    ],
+    "win": "Same as Crater (S04)."
+  },
+  "crags": {"id": "crags", "name": "A New Home: Crags", "status": "unavailable", "reason": "The supplied Scenario Book PDF contains only Frozen Grove, Dreadnought and the Glossary (14 of 36 pages); rules/cards for this scenario are not in the provided material."},
+  "flats": {"id": "flats", "name": "A New Home: Flats", "status": "unavailable", "reason": "Not documented in the supplied Scenario Book pages."},
+  "canyon": {"id": "canyon", "name": "A New Home: Canyon", "status": "unavailable", "reason": "Not documented in the supplied Scenario Book pages."},
+  "arks": {"id": "arks", "name": "The Arks", "status": "unavailable", "reason": "Advanced scenario; not documented in the supplied Scenario Book pages."},
+  "winterhome": {"id": "winterhome", "name": "The Fall of Winterhome", "status": "unavailable", "reason": "Advanced scenario; not documented in the supplied Scenario Book pages."},
+  "teslaCity": {"id": "teslaCity", "name": "The Ruins of Tesla City", "status": "unavailable", "reason": "Advanced scenario; not documented in the supplied Scenario Book pages."}
+},
+"optionalRules": {
+  "alternativeGeneratorPlacement": "Scenario Book p2: Generator may be placed outside the map using the reverse side of the Generator tile (middle = Supply) and the reverse Supply board (Spent Citizens). Not implemented in v1."
+}
+}

@@ -1,0 +1,953 @@
+[
+{
+"id": "C01",
+"idx": 0,
+"deck": "541",
+"name": "Matilda Oakwood",
+"type": "worker",
+"start": [
+"spend:coal:1"
+],
+"act": "useBuilding",
+"buildings": [
+"medicalPost",
+"infirmary"
+],
+"text": "Cure 3 of one type of Citizen.",
+"fx": [
+"cure:3:oneType"
+],
+"death": {
+"worker": [
+"hope-1"
+],
+"engineer": [
+"exhaust:care",
+"hope-1"
+],
+"child": [
+"exhaust:motivation",
+"hope-2"
+]
+}
+},
+{
+"id": "C02",
+"idx": 1,
+"deck": "541",
+"name": "Olivia Carebear",
+"type": "worker",
+"start": [
+"spent:worker:1"
+],
+"act": "useBuilding",
+"buildings": [
+"platform"
+],
+"text": "+1 Hope or -1 Discontent.",
+"fx": [
+{
+"choose": [
+[
+"hope+1"
+],
+[
+"disc-1"
+]
+]
+}
+],
+"death": {
+"worker": [
+"hope-1"
+],
+"engineer": [
+"activate:anger",
+"hope-1"
+],
+"child": [
+"activate:anger",
+"hope-2"
+]
+}
+},
+{
+"id": "C03",
+"idx": 2,
+"deck": "541",
+"name": "Dave Tadel",
+"type": "worker",
+"start": [
+"sick:worker:1"
+],
+"act": "deployScouts",
+"buildings": [],
+"text": "Perform this action as normal and then place 2 Wood below the chosen Expedition. Gain the 2 Wood when the Scout returns from that Expedition.",
+"fx": [
+"deployScouts:normal",
+"expeditionBonus:wood:2"
+],
+"death": {
+"worker": [
+"hope-1"
+],
+"engineer": [
+"exhaust:motivation",
+"hope-1"
+],
+"child": [
+"exhaust:care",
+"hope-2"
+]
+}
+},
+{
+"id": "C04",
+"idx": 3,
+"deck": "541",
+"name": "Paolo Feldman",
+"type": "worker",
+"start": [
+"spend:coal:1"
+],
+"act": "gatherResources",
+"buildings": [],
+"text": "Perform this action on an unoccupied space that has 1 or more Trees. Remove 1 Tree from that space and gain 2 Wood. Count this action as heated.",
+"fx": [
+"gatherTree:wood:2",
+"heated"
+],
+"death": {
+"worker": [
+"hope-1"
+],
+"engineer": [
+"activate:greed",
+"hope-1"
+],
+"child": [
+"activate:apathy",
+"hope-2"
+]
+}
+},
+{
+"id": "C05",
+"idx": 4,
+"deck": "541",
+"name": "Greg Bellowsky",
+"type": "worker",
+"start": [
+"spend:wood:1"
+],
+"act": "deployScouts",
+"buildings": [],
+"text": "Replace an unoccupied Expedition stack with a B Expedition card and Deploy a Scout to it.",
+"fx": [
+"deployScouts:replaceWithB"
+],
+"death": {
+"worker": [
+"hope-1"
+],
+"engineer": [
+"exhaust:motivation",
+"hope-1"
+],
+"child": [
+"exhaust:justice",
+"hope-2"
+]
+}
+},
+{
+"id": "C06",
+"idx": 5,
+"deck": "541",
+"name": "Rufus Gladstone",
+"type": "worker",
+"start": [
+"stress+3"
+],
+"act": "construct",
+"buildings": [],
+"text": "Perform this action as normal except you may use 2 sub-actions to move a Small Building without the non-dismantle icon to a valid Build space (remove Resources and Trees as normal).",
+"fx": [
+"constructMoveSmallBuilding:2subactions"
+],
+"death": {
+"worker": [
+"hope-1"
+],
+"engineer": [
+"exhaust:care",
+"hope-1"
+],
+"child": [
+"exhaust:care",
+"hope-2"
+]
+}
+},
+{
+"id": "C07",
+"idx": 6,
+"deck": "541",
+"name": "Caroline O'Hare",
+"type": "worker",
+"start": [
+"hunger+3"
+],
+"act": "deployScouts",
+"buildings": [],
+"text": "Perform this action as normal and then place 2 Coal below the chosen Expedition. Gain the 2 Coal when the Scout returns from that Expedition.",
+"fx": [
+"deployScouts:normal",
+"expeditionBonus:coal:2"
+],
+"death": {
+"worker": [
+"hope-1"
+],
+"engineer": [
+"activate:apathy",
+"hope-1"
+],
+"child": [
+"activate:anger",
+"hope-2"
+]
+}
+},
+{
+"id": "C08",
+"idx": 7,
+"deck": "541",
+"name": "Georgia Taller",
+"type": "worker",
+"start": [
+"mapRemove:wood:1"
+],
+"act": "removeSnow",
+"buildings": [],
+"text": "Perform this action as normal except draw 3 Far tiles and choose 1 to place. Place each of the other 2 on either the top or bottom of the Far tiles stack.",
+"fx": [
+"removeSnow:drawFar3ChooseOne"
+],
+"death": {
+"worker": [
+"hope-1"
+],
+"engineer": [
+"activate:anger",
+"hope-1"
+],
+"child": [
+"activate:greed",
+"hope-2"
+]
+}
+},
+{
+"id": "C09",
+"idx": 8,
+"deck": "541",
+"name": "Pat O'Bara",
+"type": "worker",
+"start": [
+"mapRemove:wood:1"
+],
+"act": "removeSnow",
+"buildings": [],
+"text": "Perform this action as normal except place 1 Near tile and 1 Far tile. If all Near tiles have already been placed, place 2 Far tiles instead.",
+"fx": [
+"removeSnow:nearAndFar"
+],
+"death": {
+"worker": [
+"hope-1"
+],
+"engineer": [
+"exhaust:motivation",
+"hope-1"
+],
+"child": [
+"exhaust:justice",
+"hope-2"
+]
+}
+},
+{
+"id": "C10",
+"idx": 9,
+"deck": "541",
+"name": "Chrissy Klemowsky",
+"type": "worker",
+"start": [
+"mapRemove:coal:2"
+],
+"act": "construct",
+"buildings": [],
+"text": "Perform this action as normal except you may use 2 sub-actions to upgrade a Building by paying its upgrade cost.",
+"fx": [
+"constructUpgrade:2subactions"
+],
+"death": {
+"worker": [
+"hope-1"
+],
+"engineer": [
+"exhaust:justice",
+"hope-1"
+],
+"child": [
+"exhaust:motivation",
+"hope-2"
+]
+}
+},
+{
+"id": "C11",
+"idx": 10,
+"deck": "541",
+"name": "Agnes Hamsterville",
+"type": "engineer",
+"start": [
+"spend:coal:1"
+],
+"act": "useBuilding",
+"buildings": [
+"platform"
+],
+"text": "Perform this action as normal except you may choose which of the 2 Law Consequence cards to shuffle into the Dusk deck.",
+"fx": [
+"platform:chooseConsequence"
+],
+"death": {
+"worker": [
+"activate:anger",
+"hope-1"
+],
+"engineer": [
+"hope-1"
+],
+"child": [
+"activate:greed",
+"hope-2"
+]
+}
+},
+{
+"id": "C12",
+"idx": 11,
+"deck": "541",
+"name": "Rafael Curae",
+"type": "engineer",
+"start": [
+"stress+3"
+],
+"act": "useBuilding",
+"buildings": [
+"medicalPost",
+"infirmary",
+"careHouse"
+],
+"text": "Activate Care. Perform the Building's Cure effect.",
+"fx": [
+"activate:care",
+"buildingCureEffect"
+],
+"death": {
+"worker": [
+"exhaust:motivation",
+"hope-1"
+],
+"engineer": [
+"hope-1"
+],
+"child": [
+"activate:greed",
+"hope-2"
+]
+}
+},
+{
+"id": "C13",
+"idx": 12,
+"deck": "541",
+"name": "Jesse Quackerson",
+"type": "engineer",
+"start": [
+"sick:engineer:1"
+],
+"act": "removeSnow",
+"buildings": [],
+"text": "Perform this action as normal except place 2 Far tiles and, if cold, gain 2 sick Engineers (instead of 1).",
+"fx": [
+"removeSnow:twoFar",
+"coldSick:engineer:2"
+],
+"death": {
+"worker": [
+"exhaust:care",
+"hope-1"
+],
+"engineer": [
+"hope-1"
+],
+"child": [
+"exhaust:justice",
+"hope-2"
+]
+}
+},
+{
+"id": "C14",
+"idx": 13,
+"deck": "541",
+"name": "Paul Unclestone",
+"type": "engineer",
+"start": [
+"mapRemove:coal:2"
+],
+"act": "useBuilding",
+"buildings": [
+"platform"
+],
+"text": "Reuse a Building. This action counts as heated.",
+"fx": [
+"reuseBuilding",
+"heated"
+],
+"death": {
+"worker": [
+"activate:apathy",
+"hope-1"
+],
+"engineer": [
+"hope-1"
+],
+"child": [
+"activate:greed",
+"hope-2"
+]
+}
+},
+{
+"id": "C15",
+"idx": 14,
+"deck": "541",
+"name": "Davetta Hen",
+"type": "engineer",
+"start": [
+"mapRemove:wood:1"
+],
+"act": "useBuilding",
+"buildings": [
+"medicalPost",
+"infirmary"
+],
+"text": "Perform the Building's Cure effect. Treat 1.",
+"fx": [
+"buildingCureEffect",
+"treat:1"
+],
+"death": {
+"worker": [
+"activate:apathy",
+"hope-1"
+],
+"engineer": [
+"hope-1"
+],
+"child": [
+"activate:anger",
+"hope-2"
+]
+}
+},
+{
+"id": "C16",
+"idx": 15,
+"deck": "541",
+"name": "Derek Allgire",
+"type": "engineer",
+"start": [
+"sick:engineer:1"
+],
+"act": "useBuilding",
+"buildings": [
+"generator"
+],
+"text": "Remove up to 8 Stress cubes from the Stress track.",
+"fx": [
+"removeStress:8"
+],
+"death": {
+"worker": [
+"exhaust:justice",
+"hope-1"
+],
+"engineer": [
+"hope-1"
+],
+"child": [
+"exhaust:care",
+"hope-2"
+]
+}
+},
+{
+"id": "C17",
+"idx": 16,
+"deck": "541",
+"name": "Marshal Primislao",
+"type": "engineer",
+"start": [
+"spend:wood:1"
+],
+"act": "useBuilding",
+"buildings": [
+"medicalPost",
+"infirmary"
+],
+"text": "Perform this action as normal. You may then spend 3 Food to Cure 2.",
+"fx": [
+"buildingNormal",
+{
+"ifPay": "spend:food:3",
+"then": [
+"cure:2"
+],
+"else": []
+}
+],
+"death": {
+"worker": [
+"exhaust:care",
+"hope-1"
+],
+"engineer": [
+"hope-1"
+],
+"child": [
+"activate:anger",
+"hope-2"
+]
+}
+},
+{
+"id": "C18",
+"idx": 17,
+"deck": "541",
+"name": "Christina Marchant",
+"type": "engineer",
+"start": [
+"spend:coal:1"
+],
+"act": "construct",
+"buildings": [],
+"text": "Perform this action as normal except you may Build over Ruins (remove the Ruins from the game). Each of these Builds cost 1 fewer Wood.",
+"fx": [
+"constructOverRuins:woodDiscount:1"
+],
+"death": {
+"worker": [
+"activate:greed",
+"hope-1"
+],
+"engineer": [
+"hope-1"
+],
+"child": [
+"activate:apathy",
+"hope-2"
+]
+}
+},
+{
+"id": "C19",
+"idx": 18,
+"deck": "541",
+"name": "Adele Quapinsky",
+"type": "engineer",
+"start": [
+"hunger+3"
+],
+"act": "useBuilding",
+"buildings": [
+"workshop"
+],
+"text": "Perform 3 Workshop effects.",
+"fx": [
+"workshopEffects:3"
+],
+"death": {
+"worker": [
+"exhaust:justice",
+"hope-1"
+],
+"engineer": [
+"hope-1"
+],
+"child": [
+"exhaust:care",
+"hope-2"
+]
+}
+},
+{
+"id": "C20",
+"idx": 19,
+"deck": "541",
+"name": "Pauline Grogan",
+"type": "engineer",
+"start": [
+"stress+3"
+],
+"act": "useBuilding",
+"buildings": [
+"cookhouse"
+],
+"text": "Spend 4 Food. Draw 1 Hope token and activate it, or discard 1 active Discontent token.",
+"fx": [
+{
+"choose": [
+[
+"pay:food:4",
+"drawHope:activate"
+],
+[
+"pay:food:4",
+"disc-discard:1:active"
+]
+]
+}
+],
+"death": {
+"worker": [
+"exhaust:justice",
+"hope-1"
+],
+"engineer": [
+"hope-1"
+],
+"child": [
+"exhaust:motivation",
+"hope-2"
+]
+}
+},
+{
+"id": "C21",
+"idx": 20,
+"deck": "541",
+"name": "Michael Plower",
+"type": "child",
+"start": [
+"hunger+3"
+],
+"act": "removeSnow",
+"buildings": [],
+"text": "Perform this action as normal but only place 1 Near tile. If all Near tiles have already been placed, place 1 Far tile instead.",
+"fx": [
+"removeSnow:oneNearElseFar"
+],
+"death": {
+"worker": [
+"exhaust:justice",
+"hope-1"
+],
+"engineer": [
+"exhaust:justice",
+"hope-1"
+],
+"child": [
+"hope-2"
+]
+}
+},
+{
+"id": "C22",
+"idx": 21,
+"deck": "541",
+"name": "Patick McGretchak",
+"type": "child",
+"start": [
+"hunger+3"
+],
+"act": "removeSnow",
+"buildings": [],
+"text": "Perform this action as normal except, if cold, gain 2 sick Children (instead of 1).",
+"fx": [
+"removeSnow:normal",
+"coldSick:child:2"
+],
+"death": {
+"worker": [
+"exhaust:motivation",
+"hope-1"
+],
+"engineer": [
+"exhaust:motivation",
+"hope-1"
+],
+"child": [
+"hope-2"
+]
+}
+},
+{
+"id": "C23",
+"idx": 22,
+"deck": "541",
+"name": "Michael Ozone",
+"type": "child",
+"start": [
+"mapRemove:coal:2"
+],
+"act": "useBuilding",
+"buildings": [
+"cookhouse"
+],
+"text": "Spend 4 / 8 / 12 Food to reduce Hunger by 6 / 12 / 18.",
+"fx": [
+"cookhouseTiers:4:6:8:12:12:18"
+],
+"death": {
+"worker": [
+"activate:greed",
+"hope-1"
+],
+"engineer": [
+"activate:greed",
+"hope-1"
+],
+"child": [
+"hope-2"
+]
+}
+},
+{
+"id": "C24",
+"idx": 23,
+"deck": "541",
+"name": "Margaret Ozone",
+"type": "child",
+"start": [
+"spent:worker:1"
+],
+"act": "useBuilding",
+"buildings": [
+"medicalPost",
+"infirmary"
+],
+"text": "Cure 2.",
+"fx": [
+"cure:2"
+],
+"death": {
+"worker": [
+"exhaust:care",
+"hope-1"
+],
+"engineer": [
+"exhaust:care",
+"hope-1"
+],
+"child": [
+"hope-2"
+]
+}
+},
+{
+"id": "C25",
+"idx": 24,
+"deck": "541",
+"name": "Jacin Schock",
+"type": "child",
+"start": [
+"mapRemove:coal:2"
+],
+"act": "construct",
+"buildings": [],
+"text": "Perform up to 2 Construct sub-actions.",
+"fx": [
+"constructSubactions:2"
+],
+"death": {
+"worker": [
+"exhaust:motivation",
+"hope-1"
+],
+"engineer": [
+"exhaust:motivation",
+"hope-1"
+],
+"child": [
+"hope-2"
+]
+}
+},
+{
+"id": "C26",
+"idx": 25,
+"deck": "541",
+"name": "Phillipa Bullsky",
+"type": "child",
+"start": [
+"spend:wood:1"
+],
+"act": "removeSnow",
+"buildings": [],
+"text": "Reveal 3 Far tiles and place each on either the top or bottom of the Far tiles stack.",
+"fx": [
+"revealFar3AndReorder"
+],
+"death": {
+"worker": [
+"activate:greed",
+"hope-1"
+],
+"engineer": [
+"activate:greed",
+"hope-1"
+],
+"child": [
+"hope-2"
+]
+}
+},
+{
+"id": "C27",
+"idx": 26,
+"deck": "541",
+"name": "Christina Wardrobe",
+"type": "child",
+"start": [
+"spend:wood:1"
+],
+"act": "useBuilding",
+"buildings": [
+"medicalPost",
+"infirmary"
+],
+"text": "Activate Care or Motivation.",
+"fx": [
+{
+"choose": [
+[
+"activate:care"
+],
+[
+"activate:motivation"
+]
+]
+}
+],
+"death": {
+"worker": [
+"activate:anger",
+"hope-1"
+],
+"engineer": [
+"activate:anger",
+"hope-1"
+],
+"child": [
+"hope-2"
+]
+}
+},
+{
+"id": "C28",
+"idx": 27,
+"deck": "541",
+"name": "Godna Grellak",
+"type": "child",
+"start": [
+"sick:child:1"
+],
+"act": "gatherResources",
+"buildings": [],
+"text": "Perform this action on an unoccupied space on a tile to gain Food equal to the Food bonus on that tile and all adjacent tiles.",
+"fx": [
+"gatherFoodAdjacent"
+],
+"death": {
+"worker": [
+"exhaust:care",
+"hope-1"
+],
+"engineer": [
+"exhaust:care",
+"hope-1"
+],
+"child": [
+"hope-2"
+]
+}
+},
+{
+"id": "C29",
+"idx": 28,
+"deck": "541",
+"name": "Nathaniel Apfel",
+"type": "child",
+"start": [
+"spend:coal:1"
+],
+"act": "useBuilding",
+"buildings": [
+"workshop"
+],
+"text": "Perform 1 Workshop effect.",
+"fx": [
+"workshopEffects:1"
+],
+"death": {
+"worker": [
+"activate:apathy",
+"hope-1"
+],
+"engineer": [
+"activate:apathy",
+"hope-1"
+],
+"child": [
+"hope-2"
+]
+}
+},
+{
+"id": "C30",
+"idx": 29,
+"deck": "541",
+"name": "Peter Byerush",
+"type": "child",
+"start": [
+"stress+3"
+],
+"act": "useBuilding",
+"buildings": [
+"gatheringPost"
+],
+"text": "Perform this action as normal, or take up to 3 Resources from 1 adjacent space and place them in the supply.",
+"fx": [
+"gatheringPostOrAdjacent:3"
+],
+"death": {
+"worker": [
+"exhaust:justice",
+"hope-1"
+],
+"engineer": [
+"exhaust:justice",
+"hope-1"
+],
+"child": [
+"hope-2"
+]
+}
+}
+]

@@ -1,0 +1,15 @@
+{
+"note": "Deck 725 (3x2 sheet, UniqueBack: front = male portrait, back = female portrait; same text on both). One Advisor may be chosen per Round (optional, Preparation phase, Leadership holder has the final word on whose); its ability is used once by exhausting the stated token. Advisors cannot be swapped. Each player takes one Advisor; unused ones return to the box. Responsibility sheets only split bookkeeping between players, the digital game automates them.",
+"advisors": [
+{"id":"ADV_GENERATOR","idx":0,"deck":"725","title":"Generator Advisor","phase":"preparation","cost":["exhaust:hope:1"],"fx":["removeStress:upTo:3"]},
+{"id":"ADV_HEALTH","idx":1,"deck":"725","title":"Health Advisor","phase":"preparation","cost":["exhaust:care"],"fx":["cure:2"]},
+{"id":"ADV_SOCIAL","idx":2,"deck":"725","title":"Social Advisor","phase":"preparation","cost":["exhaust:justice"],"fx":["custom:socialAdvisor"],"text":"Reveal 3 Dusk cards. You may choose 1 to place on the Dusk discard pile without carrying out its effect. Place the other 2 back in the Dusk deck. Cards with the red Dusk discard pile symbol cannot be chosen."},
+{"id":"ADV_FOREMAN","idx":3,"deck":"725","title":"Foreman Advisor","phase":"preparation","cost":["exhaust:motivation"],"fx":["placeTile:nearElseFar"]}
+],
+"callToRise": {
+  "id":"CALL_TO_RISE","soloOnly":true,"phase":"preparation","independentOfAdvisor":true,"removeAfterUse":true,
+  "text":"Draw 1 / 2 / 3 / 4 Citizen cards if you have at least 1 / 2 / 4 / 6 Hope tokens.",
+  "table":[{"minHope":1,"draw":1},{"minHope":2,"draw":2},{"minHope":4,"draw":3},{"minHope":6,"draw":4}]
+},
+"handSize": {"1":7,"2":6,"3":5,"4":4}
+}

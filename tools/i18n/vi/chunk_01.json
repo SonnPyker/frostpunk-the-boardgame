@@ -1,0 +1,934 @@
+[
+ {
+  "key": "-{0} coal",
+  "vi": "-{0} than"
+ },
+ {
+  "key": "-{0} Coal",
+  "vi": "-{0} Than"
+ },
+ {
+  "key": "-{0} core",
+  "vi": "-{0} Steam Core"
+ },
+ {
+  "key": "-{0} Food",
+  "vi": "-{0} Thực phẩm"
+ },
+ {
+  "key": "-{0} Hope",
+  "vi": "-{0} Hope"
+ },
+ {
+  "key": "-{0} Steam Core",
+  "vi": "-{0} Steam Core"
+ },
+ {
+  "key": "-{0} steel",
+  "vi": "-{0} thép"
+ },
+ {
+  "key": "-{0} Stress cube(s)",
+  "vi": "-{0} khối Căng thẳng"
+ },
+ {
+  "key": "-{0} wood",
+  "vi": "-{0} gỗ"
+ },
+ {
+  "key": "-{0} Wood",
+  "vi": "-{0} Gỗ"
+ },
+ {
+  "key": "{0}",
+  "vi": "{0}"
+ },
+ {
+  "key": "{0} a Citizen of your choice die",
+  "vi": "{0} một Công dân tùy chọn chết"
+ },
+ {
+  "key": "{0} child Citizen(s) unfed: +{1} Hunger",
+  "vi": "{0} Công dân trẻ em không được ăn: +{1} Đói"
+ },
+ {
+  "key": "{0} Child Citizens leave the city",
+  "vi": "{0} Công dân Trẻ em rời khỏi thành phố"
+ },
+ {
+  "key": "{0} Child die",
+  "vi": "{0} Trẻ em chết"
+ },
+ {
+  "key": "{0} Child leave the city",
+  "vi": "{0} Trẻ em rời khỏi thành phố"
+ },
+ {
+  "key": "{0} Child Meeple(s)",
+  "vi": "{0} Meeple Trẻ em"
+ },
+ {
+  "key": "{0} Citizens of the current Round type die",
+  "vi": "{0} Công dân thuộc loại của Vòng hiện tại chết"
+ },
+ {
+  "key": "{0} Citizens of the current Round type die (no Citizen card)",
+  "vi": "{0} Công dân thuộc loại của Vòng hiện tại chết (không có thẻ Công dân)"
+ },
+ {
+  "key": "{0} Coal cube(s) dropped into the Generator, {1} fell into the drawer",
+  "vi": "{0} khối Than được thả vào Generator, {1} rơi vào ngăn kéo"
+ },
+ {
+  "key": "{0} Coal removed from M0{1}",
+  "vi": "Đã gỡ bỏ {0} Than khỏi M0{1}"
+ },
+ {
+  "key": "{0} engineer Citizen(s) unfed: +{1} Hunger",
+  "vi": "{0} Công dân kỹ sư không được ăn: +{1} Đói"
+ },
+ {
+  "key": "{0} Engineer Citizens leave the city",
+  "vi": "{0} Công dân Kỹ sư rời khỏi thành phố"
+ },
+ {
+  "key": "{0} Engineer die",
+  "vi": "{0} Kỹ sư chết"
+ },
+ {
+  "key": "{0} Engineer die (no Citizen card)",
+  "vi": "{0} Kỹ sư chết (không có thẻ Công dân)"
+ },
+ {
+  "key": "{0} Engineer die, Add Dusk card D0{1}",
+  "vi": "{0} Kỹ sư chết, thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "{0} Engineer die, Gain {1} Coal, Hope −{2}, Discontent −{3}",
+  "vi": "{0} Kỹ sư chết, nhận {1} Than, Hope −{2}, Discontent −{3}"
+ },
+ {
+  "key": "{0} Engineer leave the city",
+  "vi": "{0} Kỹ sư rời khỏi thành phố"
+ },
+ {
+  "key": "{0} Engineer leave the city, {1} Child leave the city, If !active:justice: Discontent +{2} (Anger)",
+  "vi": "{0} Kỹ sư rời khỏi thành phố, {1} Trẻ em rời khỏi thành phố, Nếu Justice không hoạt động: Discontent +{2} (Anger)"
+ },
+ {
+  "key": "{0} Engineer leave the city, Add Dusk card D0{1}",
+  "vi": "{0} Kỹ sư rời khỏi thành phố, thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "{0} Engineer Meeple(s)",
+  "vi": "{0} Meeple Kỹ sư"
+ },
+ {
+  "key": "{0} Far tile(s) returned to the stack (BB)",
+  "vi": "{0} mảnh Xa được trả về chồng (BB)"
+ },
+ {
+  "key": "{0} Far tile(s) returned to the stack (BT)",
+  "vi": "{0} mảnh Xa được trả về chồng (BT)"
+ },
+ {
+  "key": "{0} Far tile(s) returned to the stack (TB)",
+  "vi": "{0} mảnh Xa được trả về chồng (TB)"
+ },
+ {
+  "key": "{0} Far tile(s) returned to the stack (TT)",
+  "vi": "{0} mảnh Xa được trả về chồng (TT)"
+ },
+ {
+  "key": "{0} Hope token(s) active",
+  "vi": "{0} dấu Hope đang kích hoạt"
+ },
+ {
+  "key": "{0} Meeple(s) returned to the supply",
+  "vi": "{0} Meeple được trả về kho chung"
+ },
+ {
+  "key": "{0} Meeple(s) spend the Night outside",
+  "vi": "{0} Meeple ở ngoài trời suốt Đêm"
+ },
+ {
+  "key": "{0} Near tiles from the Near deck are placed face up at the listed positions (in Lua order: {1} connecting towards the Wall corner, {2} top corners, {3} adjacent to the Generator tile and the Rim, rest per setup image). Action Phase restriction: actions only on map tiles adjacent to or connected to the Generator tile; heating still applies everywhere.",
+  "vi": "{0} mảnh Gần từ bộ Gần được đặt ngửa tại các vị trí đã liệt kê (theo thứ tự Lua: {1} nối về phía góc Tường thành, {2} góc trên, {3} kề với mảnh Generator và Rìa, phần còn lại theo hình thiết lập). Hạn chế Giai đoạn Hành động: hành động chỉ được thực hiện trên các mảnh Bản đồ kề với hoặc nối với mảnh Generator; việc sưởi ấm vẫn áp dụng ở mọi nơi."
+ },
+ {
+  "key": "{0} of {1} Meeple(s) sleep in a warm place",
+  "vi": "{0} trong số {1} Meeple ngủ ở nơi ấm áp"
+ },
+ {
+  "key": "{0} Resource(s) placed on the card",
+  "vi": "{0} Tài nguyên được đặt lên thẻ"
+ },
+ {
+  "key": "{0} Resource(s) removed from the Map",
+  "vi": "{0} Tài nguyên được gỡ bỏ khỏi Bản đồ"
+ },
+ {
+  "key": "{0} Resource(s) taken from the Map",
+  "vi": "{0} Tài nguyên được lấy khỏi Bản đồ"
+ },
+ {
+  "key": "{0} Resources, {1} Trees",
+  "vi": "{0} Tài nguyên, {1} Cây"
+ },
+ {
+  "key": "{0} Rounds",
+  "vi": "{0} Vòng"
+ },
+ {
+  "key": "{0} sick a Citizen of your choice",
+  "vi": "{0} làm một Công dân tùy chọn bị bệnh"
+ },
+ {
+  "key": "{0} sick Child",
+  "vi": "{0} Trẻ em bị bệnh"
+ },
+ {
+  "key": "{0} sick Citizens of one chosen type",
+  "vi": "{0} Công dân thuộc một loại đã chọn bị bệnh"
+ },
+ {
+  "key": "{0} sick Citizens of the current Round type",
+  "vi": "{0} Công dân thuộc loại của Vòng hiện tại bị bệnh"
+ },
+ {
+  "key": "{0} sick Citizens of the current Round type, Add Dusk card D0{1}",
+  "vi": "{0} Công dân thuộc loại của Vòng hiện tại bị bệnh, thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "{0} sick Citizens of the current Round type, Place {1} Spent Engineer token in the supply",
+  "vi": "{0} Công dân thuộc loại của Vòng hiện tại bị bệnh, đặt {1} dấu Kỹ sư đã dùng vào kho chung"
+ },
+ {
+  "key": "{0} sick Engineer",
+  "vi": "{0} Kỹ sư bị bệnh"
+ },
+ {
+  "key": "{0} sick Worker",
+  "vi": "{0} Công nhân bị bệnh"
+ },
+ {
+  "key": "{0} sick Worker  OR  {1} sick Engineer",
+  "vi": "{0} Công nhân bị bệnh  HOẶC  {1} Kỹ sư bị bệnh"
+ },
+ {
+  "key": "{0} Steel (wooden components) start in the bank.",
+  "vi": "{0} Thép (linh kiện gỗ) ban đầu nằm trong kho chung."
+ },
+ {
+  "key": "{0} Wood removed from M0{1}",
+  "vi": "Đã gỡ bỏ {0} Gỗ khỏi M0{1}"
+ },
+ {
+  "key": "{0} wood will be gained when the Scout returns",
+  "vi": "{0} gỗ sẽ được nhận khi Scout trở về"
+ },
+ {
+  "key": "{0} worker Citizen(s) unfed: +{1} Hunger",
+  "vi": "{0} Công dân công nhân không được ăn: +{1} Đói"
+ },
+ {
+  "key": "{0} Worker Citizens leave the city",
+  "vi": "{0} Công dân Công nhân rời khỏi thành phố"
+ },
+ {
+  "key": "{0} Worker die",
+  "vi": "{0} Công nhân chết"
+ },
+ {
+  "key": "{0} Worker die (no Citizen card)",
+  "vi": "{0} Công nhân chết (không có thẻ Công dân)"
+ },
+ {
+  "key": "{0} Worker leave the city",
+  "vi": "{0} Công nhân rời khỏi thành phố"
+ },
+ {
+  "key": "{0} Worker leave the city, {1} Child leave the city",
+  "vi": "{0} Công nhân rời khỏi thành phố, {1} Trẻ em rời khỏi thành phố"
+ },
+ {
+  "key": "{0} Worker leave the city, {1} Engineer leave the city, {2} Child leave the city",
+  "vi": "{0} Công nhân rời khỏi thành phố, {1} Kỹ sư rời khỏi thành phố, {2} Trẻ em rời khỏi thành phố"
+ },
+ {
+  "key": "{0} Worker leave the city, {1} Engineer leave the city, {2} Child leave the city  OR  Add {3} Stress cubes",
+  "vi": "{0} Công nhân rời khỏi thành phố, {1} Kỹ sư rời khỏi thành phố, {2} Trẻ em rời khỏi thành phố  HOẶC  Thêm {3} khối Căng thẳng"
+ },
+ {
+  "key": "{0} Worker leave the city, Add Dusk card D0{1}",
+  "vi": "{0} Công nhân rời khỏi thành phố, thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "{0} Worker Meeple(s)",
+  "vi": "{0} Meeple Công nhân"
+ },
+ {
+  "key": "{0} Worker or Engineer die",
+  "vi": "{0} Công nhân hoặc Kỹ sư chết"
+ },
+ {
+  "key": "{0} Workshop effect",
+  "vi": "{0} hiệu ứng Workshop"
+ },
+ {
+  "key": "{0} Workshop effects",
+  "vi": "{0} hiệu ứng Workshop"
+ },
+ {
+  "key": "{0}×: Upgrade a Building  OR  Move the Development token back {1}",
+  "vi": "{0}×: Nâng cấp một Công trình  HOẶC  Di chuyển Development token lùi {1}"
+ },
+ {
+  "key": "{P} discarded Adele Quapinsky",
+  "vi": "{P} đã bỏ Adele Quapinsky"
+ },
+ {
+  "key": "{P} discarded Caroline O'Hare",
+  "vi": "{P} đã bỏ Caroline O'Hare"
+ },
+ {
+  "key": "{P} discarded Chrissy Klemowsky",
+  "vi": "{P} đã bỏ Chrissy Klemowsky"
+ },
+ {
+  "key": "{P} discarded Christina Marchant",
+  "vi": "{P} đã bỏ Christina Marchant"
+ },
+ {
+  "key": "{P} discarded Christina Wardrobe",
+  "vi": "{P} đã bỏ Christina Wardrobe"
+ },
+ {
+  "key": "{P} discarded Dave Tadel",
+  "vi": "{P} đã bỏ Dave Tadel"
+ },
+ {
+  "key": "{P} discarded Davetta Hen",
+  "vi": "{P} đã bỏ Davetta Hen"
+ },
+ {
+  "key": "{P} discarded Derek Allgire",
+  "vi": "{P} đã bỏ Derek Allgire"
+ },
+ {
+  "key": "{P} discarded Georgia Taller",
+  "vi": "{P} đã bỏ Georgia Taller"
+ },
+ {
+  "key": "{P} discarded Godna Grellak",
+  "vi": "{P} đã bỏ Godna Grellak"
+ },
+ {
+  "key": "{P} discarded Greg Bellowsky",
+  "vi": "{P} đã bỏ Greg Bellowsky"
+ },
+ {
+  "key": "{P} discarded Jacin Schock",
+  "vi": "{P} đã bỏ Jacin Schock"
+ },
+ {
+  "key": "{P} discarded Jesse Quackerson",
+  "vi": "{P} đã bỏ Jesse Quackerson"
+ },
+ {
+  "key": "{P} discarded Margaret Ozone",
+  "vi": "{P} đã bỏ Margaret Ozone"
+ },
+ {
+  "key": "{P} discarded Marshal Primislao",
+  "vi": "{P} đã bỏ Marshal Primislao"
+ },
+ {
+  "key": "{P} discarded Matilda Oakwood",
+  "vi": "{P} đã bỏ Matilda Oakwood"
+ },
+ {
+  "key": "{P} discarded Michael Ozone",
+  "vi": "{P} đã bỏ Michael Ozone"
+ },
+ {
+  "key": "{P} discarded Nathaniel Apfel",
+  "vi": "{P} đã bỏ Nathaniel Apfel"
+ },
+ {
+  "key": "{P} discarded Olivia Carebear",
+  "vi": "{P} đã bỏ Olivia Carebear"
+ },
+ {
+  "key": "{P} discarded Paolo Feldman",
+  "vi": "{P} đã bỏ Paolo Feldman"
+ },
+ {
+  "key": "{P} discarded Pat O'Bara",
+  "vi": "{P} đã bỏ Pat O'Bara"
+ },
+ {
+  "key": "{P} discarded Paul Unclestone",
+  "vi": "{P} đã bỏ Paul Unclestone"
+ },
+ {
+  "key": "{P} discarded Pauline Grogan",
+  "vi": "{P} đã bỏ Pauline Grogan"
+ },
+ {
+  "key": "{P} discarded Peter Byerush",
+  "vi": "{P} đã bỏ Peter Byerush"
+ },
+ {
+  "key": "{P} discarded Phillipa Bullsky",
+  "vi": "{P} đã bỏ Phillipa Bullsky"
+ },
+ {
+  "key": "{P} discarded Rafael Curae",
+  "vi": "{P} đã bỏ Rafael Curae"
+ },
+ {
+  "key": "{P} discarded Rufus Gladstone",
+  "vi": "{P} đã bỏ Rufus Gladstone"
+ },
+ {
+  "key": "{P} discards a Child Citizen card",
+  "vi": "{P} bỏ một thẻ Công dân Trẻ em"
+ },
+ {
+  "key": "{P} discards a Worker Citizen card",
+  "vi": "{P} bỏ một thẻ Công dân Công nhân"
+ },
+ {
+  "key": "{P} discards Adele Quapinsky: death effect (Engineer)",
+  "vi": "{P} bỏ Adele Quapinsky: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "{P} discards Agnes Hamsterville: death effect (Engineer)",
+  "vi": "{P} bỏ Agnes Hamsterville: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "{P} discards an Engineer Citizen card",
+  "vi": "{P} bỏ một thẻ Công dân Kỹ sư"
+ },
+ {
+  "key": "{P} discards Caroline O'Hare: death effect (Worker)",
+  "vi": "{P} bỏ Caroline O'Hare: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "{P} discards Chrissy Klemowsky: death effect (Worker)",
+  "vi": "{P} bỏ Chrissy Klemowsky: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "{P} discards Christina Marchant: death effect (Engineer)",
+  "vi": "{P} bỏ Christina Marchant: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "{P} discards Christina Wardrobe: death effect (Child)",
+  "vi": "{P} bỏ Christina Wardrobe: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "{P} discards Dave Tadel: death effect (Worker)",
+  "vi": "{P} bỏ Dave Tadel: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "{P} discards Davetta Hen: death effect (Engineer)",
+  "vi": "{P} bỏ Davetta Hen: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "{P} discards Derek Allgire: death effect (Engineer)",
+  "vi": "{P} bỏ Derek Allgire: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "{P} discards Georgia Taller: death effect (Worker)",
+  "vi": "{P} bỏ Georgia Taller: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "{P} discards Godna Grellak: death effect (Child)",
+  "vi": "{P} bỏ Godna Grellak: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "{P} discards Greg Bellowsky: death effect (Worker)",
+  "vi": "{P} bỏ Greg Bellowsky: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "{P} discards Jesse Quackerson: death effect (Engineer)",
+  "vi": "{P} bỏ Jesse Quackerson: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "{P} discards Margaret Ozone: death effect (Child)",
+  "vi": "{P} bỏ Margaret Ozone: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "{P} discards Marshal Primislao: death effect (Engineer)",
+  "vi": "{P} bỏ Marshal Primislao: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "{P} discards Matilda Oakwood: death effect (Worker)",
+  "vi": "{P} bỏ Matilda Oakwood: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "{P} discards Michael Ozone: death effect (Child)",
+  "vi": "{P} bỏ Michael Ozone: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "{P} discards Nathaniel Apfel: death effect (Child)",
+  "vi": "{P} bỏ Nathaniel Apfel: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "{P} discards Olivia Carebear: death effect (Worker)",
+  "vi": "{P} bỏ Olivia Carebear: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "{P} discards Paolo Feldman: death effect (Worker)",
+  "vi": "{P} bỏ Paolo Feldman: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "{P} discards Pat O'Bara: death effect (Worker)",
+  "vi": "{P} bỏ Pat O'Bara: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "{P} discards Paul Unclestone: death effect (Engineer)",
+  "vi": "{P} bỏ Paul Unclestone: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "{P} discards Pauline Grogan: death effect (Engineer)",
+  "vi": "{P} bỏ Pauline Grogan: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "{P} discards Peter Byerush: death effect (Child)",
+  "vi": "{P} bỏ Peter Byerush: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "{P} discards Phillipa Bullsky: death effect (Child)",
+  "vi": "{P} bỏ Phillipa Bullsky: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "{P} discards Rafael Curae: death effect (Engineer)",
+  "vi": "{P} bỏ Rafael Curae: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "{P} discards Rufus Gladstone: death effect (Worker)",
+  "vi": "{P} bỏ Rufus Gladstone: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "{P} has no Meeple that can act and passes",
+  "vi": "{P} không có Meeple nào có thể hành động nên bỏ lượt"
+ },
+ {
+  "key": "{P} passes",
+  "vi": "{P} bỏ lượt"
+ },
+ {
+  "key": "{P} plays Adele Quapinsky (Perform {0} Workshop effects.)",
+  "vi": "{P} dùng Adele Quapinsky (Thực hiện {0} hiệu ứng Workshop.)"
+ },
+ {
+  "key": "{P} plays Agnes Hamsterville (Perform this action as normal except you may choose which of the {0} Law Consequence cards to shuffle into the Dusk deck.)",
+  "vi": "{P} dùng Agnes Hamsterville (Thực hiện hành động này như bình thường, ngoại trừ bạn có thể chọn trong số {0} thẻ Law Consequence nào để xáo vào bộ bài Dusk.)"
+ },
+ {
+  "key": "{P} plays Chrissy Klemowsky (Perform this action as normal except you may use {0} sub-actions to upgrade a Building by paying its upgrade cost.)",
+  "vi": "{P} dùng Chrissy Klemowsky (Thực hiện hành động này như bình thường, ngoại trừ bạn có thể dùng {0} hành động phụ để Nâng cấp một Công trình bằng cách trả chi phí nâng cấp của nó.)"
+ },
+ {
+  "key": "{P} plays Christina Marchant (Perform this action as normal except you may Build over Ruins (remove the Ruins from the game). Each of these Builds cost {0} fewer Wood.)",
+  "vi": "{P} dùng Christina Marchant (Thực hiện hành động này như bình thường, ngoại trừ bạn có thể Xây đè lên Tàn tích (loại Tàn tích khỏi trò chơi). Mỗi lần Xây như vậy tốn ít hơn {0} Gỗ.)"
+ },
+ {
+  "key": "{P} plays Davetta Hen (Perform the Building's Cure effect. Treat {0}.)",
+  "vi": "{P} dùng Davetta Hen (Thực hiện hiệu ứng Chữa của Công trình. Điều trị {0}.)"
+ },
+ {
+  "key": "{P} plays Derek Allgire (Remove up to {0} Stress cubes from the Stress track.)",
+  "vi": "{P} dùng Derek Allgire (Gỡ bỏ tối đa {0} khối Căng thẳng khỏi đường Căng thẳng.)"
+ },
+ {
+  "key": "{P} plays Georgia Taller (Perform this action as normal except draw {0} Far tiles and choose {1} to place. Place each of the other {2} on either the top or bottom of the Far tiles stack.)",
+  "vi": "{P} dùng Georgia Taller (Thực hiện hành động này như bình thường, ngoại trừ rút {0} mảnh Xa và chọn {1} để đặt. Đặt mỗi mảnh còn lại trong số {2} lên trên hoặc dưới chồng mảnh Xa.)"
+ },
+ {
+  "key": "{P} plays Godna Grellak (Perform this action on an unoccupied space on a tile to gain Food equal to the Food bonus on that tile and all adjacent tiles.)",
+  "vi": "{P} dùng Godna Grellak (Thực hiện hành động này trên một ô trống của mảnh để nhận Thực phẩm bằng lượng thưởng Thực phẩm trên mảnh đó và các mảnh kề bên.)"
+ },
+ {
+  "key": "{P} plays Jacin Schock (Perform up to {0} Construct sub-actions.)",
+  "vi": "{P} dùng Jacin Schock (Thực hiện tối đa {0} hành động phụ Xây dựng.)"
+ },
+ {
+  "key": "{P} plays Jesse Quackerson (Perform this action as normal except place {0} Far tiles and, if cold, gain {1} sick Engineers (instead of {2}).)",
+  "vi": "{P} dùng Jesse Quackerson (Thực hiện hành động này như bình thường, ngoại trừ đặt {0} mảnh Xa và, nếu đang lạnh, nhận {1} Kỹ sư bị bệnh (thay vì {2}).)"
+ },
+ {
+  "key": "{P} plays Marshal Primislao (Perform this action as normal. You may then spend {0} Food to Cure {1}.)",
+  "vi": "{P} dùng Marshal Primislao (Thực hiện hành động này như bình thường. Sau đó bạn có thể chi {0} Thực phẩm để Chữa {1}.)"
+ },
+ {
+  "key": "{P} plays Michael Ozone (Spend {0} / {1} / {2} Food to reduce Hunger by {3} / {4} / {5}.)",
+  "vi": "{P} dùng Michael Ozone (Chi {0} / {1} / {2} Thực phẩm để giảm Đói {3} / {4} / {5}.)"
+ },
+ {
+  "key": "{P} plays Michael Plower (Perform this action as normal but only place {0} Near tile. If all Near tiles have already been placed, place {1} Far tile instead.)",
+  "vi": "{P} dùng Michael Plower (Thực hiện hành động này như bình thường nhưng chỉ đặt {0} mảnh Gần. Nếu tất cả mảnh Gần đã được đặt, thay vào đó đặt {1} mảnh Xa.)"
+ },
+ {
+  "key": "{P} plays Paolo Feldman (Perform this action on an unoccupied space that has {0} or more Trees. Remove {1} Tree from that space and gain {2} Wood. Count this action as heated.)",
+  "vi": "{P} dùng Paolo Feldman (Thực hiện hành động này trên một ô trống có {0} Cây trở lên. Gỡ bỏ {1} Cây khỏi ô đó và nhận {2} Gỗ. Tính hành động này là heated.)"
+ },
+ {
+  "key": "{P} plays Pat O'Bara (Perform this action as normal except place {0} Near tile and {1} Far tile. If all Near tiles have already been placed, place {2} Far tiles instead.)",
+  "vi": "{P} dùng Pat O'Bara (Thực hiện hành động này như bình thường, ngoại trừ đặt {0} mảnh Gần và {1} mảnh Xa. Nếu tất cả mảnh Gần đã được đặt, thay vào đó đặt {2} mảnh Xa.)"
+ },
+ {
+  "key": "{P} plays Patick McGretchak (Perform this action as normal except, if cold, gain {0} sick Children (instead of {1}).)",
+  "vi": "{P} dùng Patick McGretchak (Thực hiện hành động này như bình thường, ngoại trừ nếu đang lạnh thì nhận {0} Trẻ em bị bệnh (thay vì {1}).)"
+ },
+ {
+  "key": "{P} plays Paul Unclestone (Reuse a Building. This action counts as heated.)",
+  "vi": "{P} dùng Paul Unclestone (Dùng lại một Công trình. Hành động này được tính là heated.)"
+ },
+ {
+  "key": "{P} plays Pauline Grogan (Spend {0} Food. Draw {1} Hope token and activate it, or discard {2} active Discontent token.)",
+  "vi": "{P} dùng Pauline Grogan (Chi {0} Thực phẩm. Rút {1} dấu Hope và kích hoạt nó, hoặc bỏ {2} dấu Discontent đang kích hoạt.)"
+ },
+ {
+  "key": "{P} plays Peter Byerush (Perform this action as normal, or take up to {0} Resources from {1} adjacent space and place them in the supply.)",
+  "vi": "{P} dùng Peter Byerush (Thực hiện hành động này như bình thường, hoặc lấy tối đa {0} Tài nguyên từ {1} ô kề bên và đặt chúng vào kho chung.)"
+ },
+ {
+  "key": "{P} plays Phillipa Bullsky (Reveal {0} Far tiles and place each on either the top or bottom of the Far tiles stack.)",
+  "vi": "{P} dùng Phillipa Bullsky (Lật {0} mảnh Xa và đặt mỗi mảnh lên trên hoặc dưới chồng mảnh Xa.)"
+ },
+ {
+  "key": "{P} plays Rafael Curae (Activate Care. Perform the Building's Cure effect.)",
+  "vi": "{P} dùng Rafael Curae (Kích hoạt Care. Thực hiện hiệu ứng Chữa của Công trình.)"
+ },
+ {
+  "key": "{P} plays Rufus Gladstone (Perform this action as normal except you may use {0} sub-actions to move a Small Building without the non-dismantle icon to a valid Build space (remove Resources and Trees as normal).)",
+  "vi": "{P} dùng Rufus Gladstone (Thực hiện hành động này như bình thường, ngoại trừ bạn có thể dùng {0} hành động phụ để di chuyển một Công trình nhỏ không có biểu tượng không thể tháo dỡ đến một ô Xây hợp lệ (gỡ bỏ Tài nguyên và Cây như bình thường).)"
+ },
+ {
+  "key": "{P}: choose an action",
+  "vi": "{P}: chọn một hành động"
+ },
+ {
+  "key": "+{0} Child Citizens",
+  "vi": "+{0} Công dân Trẻ em"
+ },
+ {
+  "key": "+{0} coal",
+  "vi": "+{0} than"
+ },
+ {
+  "key": "+{0} Coal (nothing left to take)",
+  "vi": "+{0} Than (không còn gì để lấy)"
+ },
+ {
+  "key": "+{0} Coal placed",
+  "vi": "+{0} Than đã đặt"
+ },
+ {
+  "key": "+{0} core",
+  "vi": "+{0} Steam Core"
+ },
+ {
+  "key": "+{0} Engineer Citizens",
+  "vi": "+{0} Công dân Kỹ sư"
+ },
+ {
+  "key": "+{0} food",
+  "vi": "+{0} thực phẩm"
+ },
+ {
+  "key": "+{0} Food",
+  "vi": "+{0} Thực phẩm"
+ },
+ {
+  "key": "+{0} Hope or -{1} Discontent.",
+  "vi": "+{0} Hope hoặc -{1} Discontent."
+ },
+ {
+  "key": "+{0} sick Child",
+  "vi": "+{0} Trẻ em bị bệnh"
+ },
+ {
+  "key": "+{0} sick Engineer",
+  "vi": "+{0} Kỹ sư bị bệnh"
+ },
+ {
+  "key": "+{0} sick Worker",
+  "vi": "+{0} Công nhân bị bệnh"
+ },
+ {
+  "key": "+{0} Steam Core",
+  "vi": "+{0} Steam Core"
+ },
+ {
+  "key": "+{0} steel",
+  "vi": "+{0} thép"
+ },
+ {
+  "key": "+{0} Stress cube(s)",
+  "vi": "+{0} khối Căng thẳng"
+ },
+ {
+  "key": "+{0} wood",
+  "vi": "+{0} gỗ"
+ },
+ {
+  "key": "+{0} Worker Citizens",
+  "vi": "+{0} Công dân Công nhân"
+ },
+ {
+  "key": "+{0} Worker Citizens, +{1} Child Citizens, {2} sick Worker, {3} sick Child, Hunger +{4}, Hope +{5}, Add Dusk card D0{6}",
+  "vi": "+{0} Công dân Công nhân, +{1} Công dân Trẻ em, {2} Công nhân bị bệnh, {3} Trẻ em bị bệnh, Đói +{4}, Hope +{5}, thêm thẻ Dusk D0{6}"
+ },
+ {
+  "key": "+{0} Worker Citizens, +{1} Engineer Citizens, +{2} Child Citizens, Hunger +{3}, If active:care: Hope +{4}, If active:greed: Discontent +{5}",
+  "vi": "+{0} Công dân Công nhân, +{1} Công dân Kỹ sư, +{2} Công dân Trẻ em, Đói +{3}, Nếu Care đang hoạt động: Hope +{4}, Nếu Greed đang hoạt động: Discontent +{5}"
+ },
+ {
+  "key": "A Bellyful of Lies",
+  "vi": "Ngập tràn dối trá"
+ },
+ {
+  "key": "A Bellyful of Lies (L0{0}A)",
+  "vi": "Ngập tràn dối trá (L0{0}A)"
+ },
+ {
+  "key": "A Bellyful of Lies was placed on the Dusk discard pile",
+  "vi": "Ngập tràn dối trá đã được đặt lên chồng bỏ Dusk"
+ },
+ {
+  "key": "A bit of attention and a few creative ideas",
+  "vi": "Một chút chú ý và vài ý tưởng sáng tạo"
+ },
+ {
+  "key": "A Breach of Trust",
+  "vi": "Sự phản bội niềm tin"
+ },
+ {
+  "key": "A Candle in the Wind",
+  "vi": "Ngọn nến trước gió"
+ },
+ {
+  "key": "A Candle in the Wind (L1{0}A)",
+  "vi": "Ngọn nến trước gió (L1{0}A)"
+ },
+ {
+  "key": "A Candle in the Wind was placed on the Dusk discard pile",
+  "vi": "Ngọn nến trước gió đã được đặt lên chồng bỏ Dusk"
+ },
+ {
+  "key": "A card was shuffled into the Dusk deck",
+  "vi": "Một thẻ đã được xáo vào bộ bài Dusk"
+ },
+ {
+  "key": "A Carrion's Feast",
+  "vi": "Bữa tiệc từ xác chết"
+ },
+ {
+  "key": "A Child became a Child Worker/Engineer",
+  "vi": "Một Trẻ em đã trở thành Trẻ em Công nhân/Kỹ sư"
+ },
+ {
+  "key": "A Child became a Child-Engineer on Young Adepts",
+  "vi": "Một Trẻ em đã trở thành Trẻ em-Kỹ sư tại Môn Đồ Trẻ"
+ },
+ {
+  "key": "A Child became a Child-Worker on Young Adepts",
+  "vi": "Một Trẻ em đã trở thành Trẻ em-Công nhân tại Môn Đồ Trẻ"
+ },
+ {
+  "key": "A Child citizen died",
+  "vi": "Một Công dân Trẻ em đã chết"
+ },
+ {
+  "key": "A Child died – discard a matching Citizen card instead of drawing one?",
+  "vi": "Một Trẻ em đã chết – bỏ một thẻ Công dân tương ứng thay vì rút một thẻ?"
+ },
+ {
+  "key": "A Child Meeple becomes a Child-Engineer and is placed on this card",
+  "vi": "Một Meeple Trẻ em trở thành Trẻ em-Kỹ sư và được đặt lên thẻ này"
+ },
+ {
+  "key": "A Child Meeple becomes a Child-Engineer and is placed on this card, Place {0} Spent Engineer token in the supply, Add Dusk card D0{1}",
+  "vi": "Một Meeple Trẻ em trở thành Trẻ em-Kỹ sư và được đặt lên thẻ này, đặt {0} dấu Kỹ sư đã dùng vào kho chung, thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "A Child Meeple becomes a Child-Worker and is placed on this card",
+  "vi": "Một Meeple Trẻ em trở thành Trẻ em-Công nhân và được đặt lên thẻ này"
+ },
+ {
+  "key": "A Child Meeple becomes a Child-Worker and is placed on this card, Place {0} Spent Worker token in the supply, Add Dusk card D0{1}",
+  "vi": "Một Meeple Trẻ em trở thành Trẻ em-Công nhân và được đặt lên thẻ này, đặt {0} dấu Công nhân đã dùng vào kho chung, thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "A child Meeple fills a Spent token (cannot act)",
+  "vi": "Một Meeple trẻ em lấp đầy một dấu đã dùng (không thể hành động)"
+ },
+ {
+  "key": "A Coup...?",
+  "vi": "Một cuộc đảo chính...?"
+ },
+ {
+  "key": "A Coup...? (M0{0})",
+  "vi": "Một cuộc đảo chính...? (M0{0})"
+ },
+ {
+  "key": "A Coup...? was removed from the game",
+  "vi": "Một cuộc đảo chính...? đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "A Day of Appreciation",
+  "vi": "Một ngày tri ân"
+ },
+ {
+  "key": "A engineer Meeple fills a Spent token (cannot act)",
+  "vi": "Một Meeple kỹ sư lấp đầy một dấu đã dùng (không thể hành động)"
+ },
+ {
+  "key": "A Letter in the Snow",
+  "vi": "Lá thư trong tuyết"
+ },
+ {
+  "key": "A Letter in the Snow (A) - X1{0}",
+  "vi": "Lá thư trong tuyết (A) - X1{0}"
+ },
+ {
+  "key": "A Letter in the Snow: choose an option",
+  "vi": "Lá thư trong tuyết: chọn một lựa chọn"
+ },
+ {
+  "key": "A Matter of Life and Death",
+  "vi": "Vấn đề sinh tử"
+ },
+ {
+  "key": "A Matter of Life and Death (A) - X0{0}",
+  "vi": "Vấn đề sinh tử (A) - X0{0}"
+ },
+ {
+  "key": "A mob devastated one of the buildings",
+  "vi": "Một đám đông đã phá nát một công trình"
+ },
+ {
+  "key": "A moment of weakness is a commodity",
+  "vi": "Một khoảnh khắc yếu lòng là một món hàng"
+ },
+ {
+  "key": "A Need for Warmth",
+  "vi": "Nhu cầu được sưởi ấm"
+ },
+ {
+  "key": "A Need for Warmth (M0{0})",
+  "vi": "Nhu cầu được sưởi ấm (M0{0})"
+ },
+ {
+  "key": "A Need for Warmth was removed from the game",
+  "vi": "Nhu cầu được sưởi ấm đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "A New Home: Canyon",
+  "vi": "Mái nhà mới: Hẻm núi"
+ },
+ {
+  "key": "A New Home: Crags",
+  "vi": "Mái nhà mới: Vách đá"
+ },
+ {
+  "key": "A New Home: Crater",
+  "vi": "Ngôi nhà mới: Crater"
+ },
+ {
+  "key": "A New Home: Dreadnought",
+  "vi": "Ngôi nhà mới: Dreadnought"
+ },
+ {
+  "key": "A New Home: Flats",
+  "vi": "Mái nhà mới: Đồng bằng"
+ },
+ {
+  "key": "A New Home: Frozen Grove",
+  "vi": "Ngôi nhà mới: Frozen Grove"
+ },
+ {
+  "key": "A New Project",
+  "vi": "Dự án mới"
+ },
+ {
+  "key": "A New Project (event action)",
+  "vi": "Dự án mới (hành động sự kiện)"
+ },
+ {
+  "key": "A New Project (M0{0})",
+  "vi": "Dự án mới (M0{0})"
+ },
+ {
+  "key": "A New Project was placed in the Event display",
+  "vi": "Dự án mới đã được đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "A New Project was removed from the game",
+  "vi": "Dự án mới đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "A Not-So-Romantic Realism",
+  "vi": "Hiện thực không mấy lãng mạn"
+ },
+ {
+  "key": "A Not-So-Romantic Realism: choose an option",
+  "vi": "Hiện thực không mấy lãng mạn: chọn một lựa chọn"
+ },
+ {
+  "key": "A Poet",
+  "vi": "Một nhà thơ"
+ },
+ {
+  "key": "A Poet (M0{0})",
+  "vi": "Một nhà thơ (M0{0})"
+ },
+ {
+  "key": "A Poet was removed from the game",
+  "vi": "Một nhà thơ đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "A promise was given to the children",
+  "vi": "Một lời hứa đã được trao cho trẻ em"
+ },
+ {
+  "key": "A Prophet",
+  "vi": "Một nhà tiên tri"
+ },
+ {
+  "key": "A Prophet (M0{0})",
+  "vi": "Một nhà tiên tri (M0{0})"
+ },
+ {
+  "key": "A Prophet was removed from the game",
+  "vi": "Một nhà tiên tri đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "A Remove Snow, Gather Resources, Construct or Use a Building action may only be performed on a Map tile that is adjacent to the Generator tile or connected to it by other Map tiles. Heating of tiles/buildings is NOT limited by this.",
+  "vi": "Hành động Gỡ tuyết, Thu thập Tài nguyên, Xây dựng hoặc Sử dụng Công trình chỉ có thể thực hiện trên mảnh Bản đồ kề với mảnh Generator hoặc nối với mảnh đó qua các mảnh Bản đồ khác. Việc sưởi ấm mảnh/công trình KHÔNG bị giới hạn bởi điều này."
+ },
+ {
+  "key": "A Scene of Terrible Beauty",
+  "vi": "Cảnh đẹp đáng sợ"
+ },
+ {
+  "key": "A Scene of Terrible Beauty (A) - X0{0}",
+  "vi": "Cảnh đẹp đáng sợ (A) - X0{0}"
+ },
+ {
+  "key": "A Scene of Terrible Beauty: choose an option",
+  "vi": "Cảnh đẹp đáng sợ: chọn một lựa chọn"
+ },
+ {
+  "key": "A Sickness marker is above {0}: remove {1} Resource from M0{2}, or -{3} Hope",
+  "vi": "Dấu Bệnh nằm trên {0}: gỡ bỏ {1} Tài nguyên khỏi M0{2}, hoặc -{3} Hope"
+ },
+ {
+  "key": "A Spent Child token was placed in the supply",
+  "vi": "Một dấu Trẻ em đã dùng được đặt vào kho chung"
+ }
+]

@@ -1,0 +1,980 @@
+
+=== PAGE 1 ===
+=== PAGE 2 ===
+2
+This Scenario Book contains descriptions of the various scenarios you can choose when playing 
+Frostpunk: The Board Game. Each scenario lists the additional components required, how to 
+set up the game, and any additional rules.
+For your first game we suggest playing the ‘A New Home: Crater’ scenario. This is the scenario 
+described in the Rulebook and is not repeated here, although you can still play this scenario 
+at any time, even beyond your first game.
+Three of the scenarios in this book: ‘The Arks’, ‘The Fall of Winterhome’, and ‘The Ruins of 
+Tesla City’, are advanced scenarios and should be attempted only when you have played the 
+game several times.
+Each section of the Setup is numbered to match the Setup as described in the Rulebook.
+Contents
+Introduction
+Introduction … 2
+A New Home: Frozen Grove … 3
+A New Home: Crags … 6
+A New Home: Flats … 8
+A New Home: Dreadnought … 10
+A New Home: Canyon … 12
+The Arks … 16
+The Fall of Winterhome … 20
+The Ruins of Tesla City … 25
+Glossary … 30
+Author’s note from Adam Kwapiński … 34
+Publisher’s note from Jakub Wiśniewski … 34
+Credits … 36
+Alternative Generator placement
+If you prefer, you can play the game with the Generator placed outside of the map. 
+In this case, use the other side of the Generator tile 1 . The middle of this tile is for the Supply. 
+Also use the other side of the Supply board 2 ; the space that was the Supply is used for Spent Citizens.
+ 1
+ 2
+=== PAGE 3 ===
+3
+The Frozen Grove was supposed to be among the most habitable generator 
+sites. Those who placed the generator along a ravine wall expected that it 
+would be protected against the powerful, freezing winds. Unfortunately, 
+they underestimated the great frost. Once the winter apocalypse was upon 
+us, it turned out the generator wasn’t efficient enough to provide the heat 
+for the entire area. We had to take things into our own hands, and once 
+again, technology proved that we are completely dependent on it. Our 
+engineers produced a solution – a network of steam-powered hubs that 
+will act as small generators providing heat in areas too remote to rely on 
+the actual generator. This solution will also help us gather the resources 
+hidden beneath the snow without endangering our workforce to frostbite. 
+Steam hubs produce heat, but they also consume additional coal, so we 
+need to place them wisely and ensure our most important buildings are 
+concentrated within the generator’s vicinity.
+A New Home: Frozen Grove
+Additional components
+Unlock the Steam Hub Building.
+A Steam Hub costs 1 Wood to Build.
+If the Heat marker level is higher than
+the red Heat Range indicator level:
+You may place 1 Coal from the supply into
+a Steam Hub to count the tile it is on
+and all adjacent tiles as heated.
+Place that Coal in the bank in the Generator Phase.
+STEAM HUB
+3
+T09
+TECHNOLOGY
+I/S09
+– STORM –
+Reveal and resolve this card.
+A New Home:
+Frozen Grove
+SCENARIO I/09
+S09
+STORM
+(FROZEN GROVE)
+If it is Round 7 or earlier:
+Go to 1.
+If it is Round 8 or later:
+Go to 2.
+Flip all Tents to their Ruins side.
+Place the Storm marker on Round 12.
+Remove the Storm marker from the game.
+Flip all Bunkhouses to their Ruins side.
+1
+2
+0
+0
+1
+1
+3
+Remove the yellow Heat Range indicator
+from the game and move the others as shown:
+Remove the orange Heat Range indicator
+from the game and move the others as shown:
+3 Steam Hub 
+Building pieces
+‘Steam Hub’ 
+Technology card
+‘I/09’ Storm 
+Scenario card
+A New Home: Frozen Grove
+=== PAGE 4 ===
+4
+1 Map setup
+Setup
+Follow the setup shown in the Rulebook for the ‘A New Home: Crater’ scenario, 
+except for the Map setup and Technology display sections. For those sections, 
+follow the setup shown here. Then follow the Additional setup instructions.
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 8
+ 9
+ 9
+ 5
+ 1 Create the Rim board by connecting together the 
+6 Rim board pieces to form a hexagon as shown 
+in the image. Use the side depicting a cliff face.
+ 2 Place the Generator tile so it is connected to the 
+bottom corner of the Rim board, oriented as 
+shown.
+ 3 Place the Generator (with the drawer) on the 
+Generator tile. Keep the Generator Upgrade 
+component in the box until required.
+ 4 Place the Cookhouse Building on the Generator 
+tile as shown.
+Note: The Platform and the Generator Building 
+are pre-printed on the Generator tile.
+ 5 Place 5 Wood and 5 Coal on the Generator tile 
+as shown.
+ 6 Take 2 Starting Wall tiles 
+(1 showing a Wood Deposit 
+and 1 showing a Coal De-
+posit) and shuffle them 
+face down. Draw one of 
+these Starting Wall tiles 
+at random, placing it face 
+up on the top corner of 
+the Rim board. Return all 
+other Starting Wall tiles to 
+the box.
+7.  Separate the Map tiles 
+into 2 stacks based on 
+their backs, shuffle each 
+stack separately, and place 
+them face down nearby.
+ 8 Connect the Starting Wall 
+tile with the Generator tile by 
+placing Near tiles face down be-
+tween them.
+ 9 Place 1 Near tile face down in the left top corner 
+and 1 Near tile face down in the right top corner. 
+Place 2 Near tiles face down so they are adjacent 
+to the Generator tile and the Rim board.
+10.  Flip all Near tiles placed in steps 8 & 9 face up. 
+Place Resources and Trees from the bank onto 
+the spaces on the tiles as depicted on those 
+spaces.
+Note: If any of the revealed tiles depicts Food, it will be 
+added to the Population board later in setup.
+A New Home: Frozen Grove
+ 9
+ 9
+=== PAGE 5 ===
+5
+3 Technology display
+15 Additional setup
+Additional rules
+ 1 Place the ‘Steam Hub’ 
+Technology card face 
+up in the Technology 
+display.
+ 2 Shuffle the remaining 
+Technology cards and 
+select 3 at random, plac-
+ing them face up in the 
+Technology display.
+ 3 Place a Development to-
+ken on each card, inac-
+tive side up.
+1. Place the Steam Hub Building pieces below the Buildings board.
+2. Replace the ‘I/08’ Storm Scenario card with the ‘I/09’ Storm Scenario card.
+ACTION PHASE
+You may only perform an Action on a Map tile (Re-
+move Snow, Gather Resources, Construct, or Use 
+a Building) if that Map tile is either adjacent to the 
+Generator tile, or is connected to the Generator tile by 
+other Map tiles. However, Map tiles and Buildings on 
+Map tiles may still be heated even if the tiles are not 
+adjacent to the Generator tile or connected to the Gen-
+erator tile by other Map tiles. 
+STEAM HUBS
+Once the Steam Hub technology has been devel-
+oped, you may build Steam Hub Buildings at a cost of 
+1 Wood each.
+[W] Steam Hub (S)
+Passive: At any time during the round, 
+if the Heat marker level is higher than 
+the Red Insulation level you may place 
+1 Coal from the supply into the Steam 
+Hub. While there is a Coal in the Steam Hub, the tile it 
+is on and all adjacent tiles are heated. Return the Coal 
+to the bank at the end of the Generator Phase.
+Cannot be upgraded.
+STORM CARD
+The Scenario card ‘I/09’ is 
+used as the Storm card for 
+this scenario.
+Unlock the Steam Hub Building.
+A Steam Hub costs 1 Wood to Build.
+If the Heat marker level is higher than
+the red Heat Range indicator level:
+You may place 1 Coal from the supply into
+a Steam Hub to count the tile it is on
+and all adjacent tiles as heated.
+Place that Coal in the bank in the Generator Phase.
+STEAM HUB
+3
+T09
+TECHNOLOGY
+As a Gather Resources action, you may place
+a Worker or Automaton on an unoccupied 
+space that has 1 or more Trees.
+Remove 1 Tree from that space
+and gain 2 Wood.
+STEAMPOWERED 
+CHAINSAW
+3
+T04
+TECHNOLOGY
+Whenever you use a Charcoal Kiln,
+you may remove a Tree from any Map tile
+ instead of spending 1 Wood.
+CHARCOAL KILN 
+UPGRADE
+4
+T03
+TECHNOLOGY
+GENERATOR PHASE:
+Before checking for Generator breakdown,
+if there are 2 or fewer Stress cubes on the overﬂ ow
+space, remove those cubes without any eﬀ ect.
+ACTION PHASE:
+Whenever you use the Generator Building,
+remove an additional Stress cube
+from the Stress track.
+GENERATOR SAFETY 
+SYSTEM
+4
+T06
+TECHNOLOGY
+ 1
+ 3
+ 2
+SCENARIO I/09
+S09
+STORM
+(FROZEN GROVE)
+If it is Round 7 or earlier:
+Go to 1.
+If it is Round 8 or later:
+Go to 2.
+Flip all Tents to their Ruins side.
+Place the Storm marker on Round 12.
+Remove the Storm marker from the game.
+Flip all Bunkhouses to their Ruins side.
+1
+2
+0
+0
+1
+1
+3
+Remove the yellow Heat Range indicator
+from the game and move the others as shown:
+Remove the orange Heat Range indicator
+from the game and move the others as shown:
+A New Home: Frozen Grove
+=== PAGE 6 ===
+10
+It is hard not to feel sad when looking at the Dreadnought that brought us 
+here. This immense machine, powered by steam core technology, was created 
+to deliver refugees safely from the uninhabitable cities in the south. With this 
+steel behemoth’s help, we’ve reached the shelter in the far north where the 
+generators were built. As our convoy traversed the endless white landscape, 
+we consumed the resources that kept us going – fuel for the machine and 
+food for us. The Dreadnought served its purpose. It brought us here, and 
+now it is a gigantic heap of steel and other resources. We must disassemble 
+it to recover whatever we can. It feels like putting down a trusty horse or 
+a mule that grew old and can no longer pull its weight. But by using the 
+industrially manufactured materials from the vehicle, we’ll be able to build 
+structures with better insulation and provide better output. This incredible 
+piece of engineering serves us even in its last moments, and we should make 
+the most out of it.
+A New Home: Dreadnought
+Additional components
+4 Dreadnought tiles
+(The other side of 4 Crags tiles)
+8 Steel
+(wooden component)
+A New Home: Dreadnought
+Setup
+Follow the setup shown in the Rulebook for the ‘A New Home: Crater’ scenario except 
+for the Map setup section. Instead, follow the setup shown here. 
+For this scenario, remove the ‘Steam Hub’ Technology card.
+=== PAGE 7 ===
+11
+A New Home: Dreadnought
+ 1 Place the Generator tile in the middle of the play 
+area, oriented as shown.
+ 2 Create the Rim board by connecting together the 
+6 Rim board pieces to form a hexagon as shown in 
+the image. Use the side depicting a cliff face.
+ 3 Place the Generator (with the drawer) on the Gen-
+erator tile. Keep the Generator Upgrade compo-
+nent in the box until required.
+ 4 Place the Cookhouse Building on the Generator 
+tile as shown.
+Note: The Platform and the Generator Building 
+are pre-printed on the Generator tile.
+ 5 Place 5 Wood and 5 Coal on the Generator 
+tile as shown.
+ 6 Place the 4 Dreadnought tiles 
+next to the top left Rim board 
+piece as shown.
+ 7 Take 2 Starting Wall 
+tiles (1 showing a Wood 
+Deposit and 1 show-
+ing a Coal Deposit) and 
+shuffle them face down. 
+Place them face down on 
+the two corners of the 
+Rim board opposite the 
+Dreadnought tiles, then 
+flip them face up.
+8.  Separate the Map tiles 
+into 2 stacks based on 
+their backs, shuffle each 
+stack separately, and place 
+them face down nearby.
+ 9 Place 3 Near tiles face down, each adjacent to the 
+Generator tile and 2 Dreadnought tiles.
+10 Place 2 Far tiles face down, each adjacent to the 
+Rim board and 1 Dreadnought tile.
+11.  Flip the Map tiles placed in steps 9 & 10 face up. 
+Place Resources and Trees from the bank onto the 
+spaces as depicted on those spaces.
+Note: If any of the revealed tiles depicts Food, it will be 
+added to the Population board later in setup.
+ 1
+ 3
+ 10
+ 10
+ 6
+ 4
+ 9
+ 5
+ 5
+ 2
+ 7
+ 7
+Additional rules
+DREADNOUGHT
+You may place a  Meeple on a  Dreadnought tile as 
+a  ‘Use a  Building’ action to gain 1 Steel. Treat the 
+Dreadnought tile as a Small Building with a Blue In-
+sulation level (it is only heated if it is in a heated zone).
+STEEL
+Place the Steel in the bank at the start of the game. 
+Unlike other Resources, the number of Steel you may 
+have is limited by the components (8).
+Steel can be used as a substitute for Wood when per-
+forming a  Build sub-action. Buildings may be built 
+using a mix of Wood and Steel. If a Building is built 
+by paying its full Wood cost in Steel, it is immediately 
+upgraded for free. 
+1 Map setup
+=== PAGE 8 ===
+30
+Glossary
+ACTIONS
+Construct (p26)
+Always heated. Perform up to three Build or Dis-
+mantle sub-actions.
+Build: Place a Building on a space that does not 
+contain a Meeple or another Building and pay its 
+build cost.
+Dismantle: Destroy a Building, returning it to 
+the Buildings board or the area below the Build-
+ings board.
+May be performed multiple times each Round.
+Deploy Scouts (p26)
+Always heated. Place a Meeple on an Expedition 
+stack as a Scout.
+May only be performed if the Beacon has been 
+built. You may have two active Expeditions only 
+if the Beacon has been upgraded. 
+May be performed multiple times each Round.
+Gather Resources (p25)
+May be heated or cold. Take up to 2 Resources 
+from the space on the Map that the Meeple is 
+placed on.
+May be performed multiple times each Round, 
+but not on the same space.
+Remove Snow (p25)
+Always cold. Place 2 Near tiles or 1 Far tile.
+May be performed multiple times each Round.
+Special Actions (p27)
+Heated unless noted otherwise. Special Actions 
+appear on some Scenario cards and Event cards.
+Use a Building (p26, 39-44)
+May be heated or cold. Perform the action of the 
+Building.
+Small Buildings may be used once each Round.
+Large Buildings may be used twice each Round.
+ASSETS
+Automaton Meeples (p39)
+Coal-powered robots that can be used in a simi-
+lar way to Worker Meeples.
+Buildings (p26, 39-44)
+Once built, provide new actions for your Mee-
+ples as well as other effects.
+Children (p16)
+A type of Citizen.
+Citizen Meeples (p22, 29, 39)
+Used to perform actions. Each Citizen Meeple 
+represents a  group of Citizens of the appropri-
+ate type (Orange = Workers, Blue = Engineers, 
+Green = Children).
+Child Worker: Counts as a Child for all game 
+effects but may perform actions as if they were 
+a Worker.
+Child Engineer: Counts as a Child for all game 
+effects but may perform actions as if they were 
+an Engineer.
+Citizens (p16)
+People who live in your city. There are 3 types: 
+Workers, Engineers, and Children.
+Coal (p16)
+A  Resource. Used to power the Generator and 
+Automatons.
+Engineers (p16)
+A type of Citizen.
+Food (p11, 16, 28)
+Used to feed your Citizens and marked on the 
+Food Track. Food is not a Resource.
+Resources (p16)
+Wood, Coal, Steam Cores, and Steel.
+Steam Cores (p16)
+A  Resource. Used to build and upgrade some 
+Buildings, upgrade the Generator, or build Au-
+tomatons.
+Steel (p16)
+A  Resource. Limited by the number of compo-
+nents. Only used in certain scenarios and setups. 
+A Building built by paying its full Wood cost in 
+Steel is immediately upgraded.
+Trees
+Trees are placed on the map. Can be turned into 
+Wood using a Sawmill. Trees are not a Resource.
+Wood (p16)
+A  Resource. Used to build and upgrade some 
+Buildings.
+Workers (p16)
+A type of Citizen.
+BOARDS & TRACKS
+Buildings board (p12, 26)
+Contains the basic Buildings and shows the cost 
+to build and upgrade them. Scenario and Law 
+specific Buildings are placed below the Build-
+ings board.
+Note: Page numbers contained in this glossary reference the Rulebook.
+=== PAGE 9 ===
+31
+Corpse track (p11, 30)
+Located on the Supply board. Shows the number 
+of Corpses you have.
+Discontent track (p12, 17-18)
+Located on the Hope & Discontent board. Con-
+tains the active and exhausted Discontent tokens 
+you currently have.
+Dusk board (p14, 27)
+Contains the Dusk discard pile, Dusk deck, and 
+Social Dispute cards.
+Round & Morning board (p13, 19)
+Contains the Round track and the Morning deck.
+Food track (p11, 28)
+Located on the Population board. Shows the 
+amount of Food and Hunger you have.
+Generator board (p14, 20)
+Contains the Stress track, Heat track, Generator 
+track, Weather deck, and Weather card discard pile.
+Generator track (p14, 20)
+Located on the Generator board. Contains the 3 
+Heat Range indicators. If the Heat marker on the 
+Heat track is higher than a section of an indica-
+tor, all Buildings / Map tiles represented by that 
+section are heated.
+Heat track (p14, 20, 23-24)
+Located on the Generator board. Contains the 
+Cold and Heat markers. If the Heat marker is 
+more than one space below the Cold marker in 
+the Generator Phase, Citizens will get sick.
+Hope & Discontent board (p12, 17-18)
+Contains the Hope track and the Discontent 
+track.
+Hope track (p12, 17-18)
+Located on the Hope & Discontent board. Con-
+tains the active and exhausted Hope tokens you 
+currently have.
+Population board (p11)
+Contains the Population track and the Food 
+track. 
+Population track (p11, 22)
+Located on the Population board. The bar above 
+the track shows the number of Citizen Meeples 
+you get, according to the position of each Citizen 
+marker. The bar below the track shows the num-
+ber of times you flip the Sickness marker and the 
+number of Spent Citizen tokens you get, accord-
+ing to the position of each Sickness marker.
+Round track (p13, 15, 19)
+Located on the Round & Morning board. Shows 
+the current Round as well as when the next 
+Storm, Scenario Trigger, and Development to-
+kens will be resolved.
+Stress track (p20)
+Located on the Generator board. An area with 10 
+small spaces and 1 large overflow space where 
+Stress cubes are placed. If there are more than 
+10 Stress cubes on this track, the Generator 
+breaks down.
+Supply board (p11-12, 25, 26)
+Contains the Corpse track, the supply of Re-
+sources, Meeples & Spent Citizen tokens, and 
+the Remove Snow & Construction spaces.
+CARDS & DECKS
+Advisor cards (p14, 22, 31-32)
+Each player has one Advisor card, each with 
+a unique ability. At most, one may be used during 
+each Preparation Phase.
+Citizen cards (p14-15, 32-33)
+You may use a  Citizen card for either its main 
+ability (once per player, per Round) or for its 
+death effect.
+Dusk cards (p27, 34-35)
+A  type of Event card. There are four types of 
+Dusk cards: Starting (‘The Inevitable’), Normal, 
+Social Dispute, and Law Consequences.
+Dusk deck (p14, 27)
+Located on the Dusk board. Reveal one card 
+from the deck in each Dusk Phase.
+Event cards (p34-35)
+Morning and Dusk cards.
+Expedition cards (p10, 26, 35-36)
+There are three types: ‘A’, ‘B’, and ‘C’. One or 
+more Expedition cards form an Expedition stack.
+Law cards (p13, 37)
+Represent Laws that you may introduce using 
+the Platform Building.
+Law Consequence cards (p13, 37)
+A type of Dusk card. Shuffle one into the Dusk 
+deck each time a new Law is introduced.
+Morning cards (p19, 34-35)
+A type of Event card.
+Morning deck (p13, 19)
+Located on the Round & Morning board. Reveal 
+one card from the deck in each Morning Phase.
+Scenario cards (p15, 19, 27, 33)
+Arranged in the Scenario display. Scenario cards 
+affect the game in very significant ways.
+Social Dispute cards (p14, 27)
+A type of Dusk card. Located on the Dusk board. 
+There is always exactly one Social Dispute card 
+in the Dusk deck.
+=== PAGE 10 ===
+32
+Society cards (p10)
+One Society card is chosen during setup. It indi-
+cates the starting number of Citizens, Resourc-
+es, etc.
+Storm card (p15, 21)
+Each scenario uses 1 or more Storm cards which 
+detail what happens when a Storm hits your set-
+tlement.
+Technology cards (p10, 19, 38)
+Located in the Technology display. There are 
+always four Technology cards in each game. 
+You may use any Technology card with an active 
+Development token on it.
+Weather cards (p21)
+Show movement of the Heat Range indicators, 
+Hunter’s Traps, Expedition Progress, and move-
+ment of the Storm marker.
+Weather deck (p14, 21)
+Located on the Generator board. Reveal one card 
+from the deck in each Weather Phase.
+DISPLAYS
+Event display (p19, 27)
+An area to the top-left of the map where some 
+Event cards are placed. Some of these cards will 
+have a Special Action space and/or an effect in 
+certain Phases, each Round.
+Expedition display (p10)
+An area to the right of the map where Expedition 
+stacks are placed.
+Future Law display (p13, 37)
+An area where Laws that may be introduced in 
+the future are placed.
+Law display (p37)
+An area to the left of the map where Laws are 
+placed, once introduced. You can only have 
+a maximum of four Laws.
+Scenario display (p15, 27, 33)
+An area to the top-right of the map where Scenario 
+cards are arranged.
+Technology display (p10)
+An area to the bottom-right of the map where 
+four Technology cards are placed.
+GAME TERMS
+Activate (p17)
+Flip an exhausted Hope / Discontent token to its 
+active side.
+Bank (p10)
+An area where game components are kept that 
+are currently unavailable to be used.
+Cure (p30-31)
+Move any Sickness marker one space backward 
+on the Population track.
+Deposit (p40)
+Shown on some Starting Wall tiles. Either Coal 
+or Wood. You can gain Coal from a  Coal Mine 
+placed adjacent to a Coal Deposit, and Wood from 
+a Wall Drill placed adjacent to a Wood Deposit.
+Exhaust (p17)
+Flip an active Hope / Discontent token to its 
+exhausted side.
+Expedition stack (p10, 35-36)
+Located in the Expedition display. Each Expedi-
+tion stack is made up of one or more overlapping 
+Expedition cards.
+Gravely ill (p30-31)
+A Sickness marker on its Skull side represents 
+a  gravely ill Citizen. If the Sickness marker is 
+flipped to its Syringe side, the gravely ill Citizen 
+will die.
+Heated (p23-24, 29, 39)
+A  Heated Building or Map tile will not cause 
+a Citizen Meeple performing an action on it to 
+become sick.
+Map
+The Rim board and the area within it.
+Occupied / Unoccupied
+A Building or a space on a Map tile with a Meeple 
+on, is occupied.
+A  Building or a  space on a  Map tile without 
+a Meeple on, is unoccupied.
+Population
+The total number of Citizens you have (Workers, 
+Engineers, and Children).
+Shelter (p29, 43)
+Tents, Bunkhouses, and Houses are all types 
+of Shelter. When heated, they are places where 
+your Citizens may sleep in the Night Phase with-
+out becoming sick.
+Sick (p16, 22, 30)
+When a Citizen becomes sick, move the corre-
+sponding Sickness marker one space forward on 
+the Population track.
+Supply (p12)
+An area of the Supply board where currently 
+available Resources, Meeples, and Spent Citizen 
+tokens are stored.
+Treat (p31)
+Flip a Sickness marker on its Skull side (gravely 
+ill) to its Syringe side without causing death.
+=== PAGE 11 ===
+33
+Upgrade (p41)
+Flip a Building to its upgraded side by paying its 
+Upgrade cost, normally by using a  Workshop. 
+Buildings with a diamond 
+ on both sides of the 
+name of their Building tile cannot be upgraded.
+MAP
+Far tiles (p9-10)
+A type of Map tile. Cannot be placed adjacent to 
+the Generator tile.
+Generator tile (p9)
+The tile that contains the Generator, the Plat-
+form, and 5 spaces, one of which contains the 
+Cookhouse.
+Map tiles (p9-10)
+There are 3 types of Map tiles in the game: the 
+Generator tile, Near tiles, and Far tiles.
+Near tiles (p9-10)
+A type of Map tile. Must be placed adjacent to the 
+Generator tile.
+Rim board pieces (p9)
+The outer edge of the map.
+Space (on a Map tile) (p9, 26, 40-41, 44)
+A space on a Map tile that may contain Resourc-
+es or Trees and where you can construct a Build-
+ing or perform an Action. Near and Far tiles each 
+have 2 spaces.
+Starting Wall tiles (p9)
+Used to determine where Deposits are.
+MARKERS & TOKENS
+Citizen markers (p11, 16, 22)
+Placed on the Population track. They show the 
+number of Citizens of each type (Workers, Engi-
+neers, and Children).
+Cold marker (p14, 20)
+Placed on the Heat track. The further up the 
+track it is, the colder it is.
+Corpse marker (p11, 30)
+Placed on the Corpse track. Used to count dead 
+Citizens.
+Development tokens (p10)
+Placed on the Technology cards. 
+Discontent tokens (p12, 17-18)
+Tokens that represent the Discontent of the citi-
+zens. There are 3 types: Anger, Greed, and Apa-
+thy. One side of the token is active (white icon), 
+the other is exhausted (dark icon).
+Food marker (p11)
+Placed on the Food track. Used to count Food.
+Heat marker (p14, 20, 23-24)
+Placed on the Heat track. Moves one space up 
+the track each time a  Coal is spent to fuel the 
+generator.
+Heat Range indicators (p14, 20, 23-24)
+Placed on the Generator track. If the Heat mark-
+er on the Heat track is higher than a section of an 
+indicator, all Buildings / Map tiles represented 
+by that section are heated.
+Hope tokens (p12, 17-18)
+Tokens that represent the Hope of the people. 
+There are 3 types: Justice, Care, and Motivation. 
+One side of the token is active (white icon), the 
+other is exhausted (dark icon).
+Hunger marker (p11)
+Placed on the Food track. Used to count Hunger.
+Leadership marker (p15, 19)
+The player with the Leadership marker performs 
+the first action in the Action Phase and makes 
+the final decision when players cannot agree.
+Phase marker (p15, 18)
+Placed on the Phase Tracker card. Tracks which 
+Phase you are currently in.
+Round marker (p13, 19)
+Placed on the Round track. Tracks which Round 
+you are currently in.
+Scenario Trigger tokens (p15, 19)
+Placed on the Round track. Reminds you of the 
+Round in which a Scenario card effect will trig-
+ger (during the Dawn Phase).
+Sickness markers (p11, 16, 22, 30)
+Placed on the Population track. Shows the num-
+ber of sick Citizens of each type (Workers, Engi-
+neers, and Children). If Skull-side up, a Citizen is 
+gravely ill.
+Spent Citizen tokens (p11, 22, 29)
+Placed in the supply. Each will prevent you from 
+using a Meeple for a Round.
+Storm marker (p13, 19, 21)
+Placed on the Round track. Reminds you of the 
+Round in which a Storm will occur. Moves back-
+wards each Round according to the Weather card.
+Stress cubes (p20)
+Coal cubes that fall out of Generator and are 
+placed on the Stress track.
+=== PAGE 12 ===
+34
+To thank everyone who had some impact or just a kind 
+gesture towards this project or myself I  would need 
+a couple of hundred pages… so bear with me for these 
+few paragraphs as I’ll try thanking those without whom 
+this beautiful mess would not have happened.
+Family:
+First and foremost, I would like to thank my lovely wife, 
+Agnieszka, who supported me from the very beginning. 
+If not for her faith in me and what I aspired to I would 
+not have made it.
+To my sunshine – Julia, whose unconditional love saw 
+me through the darkest of times. You are my little 
+Witcher who slays all fears and doubts.
+My mom, Anna, whose love and attitude made me the 
+man I am today.
+The amazing people of Glass Cannon Unplugged:
+Paweł Obara – We walked a rocky road together. We 
+have built this company on trust and friendship. You 
+motivated me to achieve things I did not know I was 
+capable of. I hate it when you are right, but you were 
+right with this one ;)
+Michał Ozon – How do I thank you with such limited 
+space for writing?! You came to me as a  knight on 
+a white horse, slayed the worst dragons we faced and 
+offered what I value most – your friendship. Whatever 
+lies ahead, I only want to face it with you by my side.
+Rafał Pieczyński – If I were a Witcher, you’d be training 
+in Kaer Morhen right now as you were the surprise 
+I didn’t expect. When we met, thanks to Matt Dembek, 
+I did not suspect you would so quickly become a crucial 
+element of this company. With your talent, hard work, 
+Author’s note from
+Adam Kwapiński
+Publisher’s note from 
+Jakub Wiśniewski
+C
+reating this game has been an incredible adventure. It gave me tons of fun and 
+satisfaction. As usual, it is best to gather a party before venturing forth… This time 
+was no different. I am very grateful to the 11 bit studios team for the cooperation, and 
+most of all for creating an inspiring and unique game that provided me with over 200 
+hours of great times. Thanks to the whole Glass Cannon Unplugged team and especially 
+to Kuba Wiśniewski, Michał Ozon, and Rafał Pieczyński for all those months of fruitful 
+collaboration that resulted in the game you are holding.
+Finally, I would like to dedicate this game to two Michałs, whom I met during my career 
+and to both of whom I owe a lot of valuable lessons. They both made a direct impact on the 
+birth of this project. The first of the two is the previously mentioned Michal Ozon, whose 
+input into this project cannot be valued enough. Of course, Michał Ozon is a co-owner of 
+GCU, so his involvement was only natural. What few people know is that he was one of 
+the very first people who gave me advice when I was just beginning my work in the board 
+game industry over 10 years ago. A decade had to pass for us to be able to work together on 
+Frostpunk: The Board Game. This cooperation only solidified my opinion about Michał 
+Ozon; he is one of the most professional and kind people I have had the opportunity of 
+meeting while being a part of the board gaming community and industry. Working with 
+you has been a pure pleasure.
+The second Michał to whom I dedicate this game is among the finest game authors in 
+the world – Michał Oracz. Even though Frostpunk: The Board Game is not a project we 
+collaborated on, it was Michał, among others, who caused me to jump on board with this 
+project. Also, Michał is the person who, together with Jakub Wiśniewski, has pioneered 
+the way with the board game adaptation of This War of Mine, showing that an adaptation 
+can be both faithful to the original and creative. I remain hopeful that Frostpunk: The 
+Board Game achieves the same effect.
+(The note below is written from my perspective, but the gratitude 
+is expressed by the entire team of Glass Cannon Unplugged)
+=== PAGE 13 ===
+35
+and dedication you have played a  major role in this 
+spectacle. Thank you!
+Dawid Tadel – You tricked me with how happy you 
+looked in your profile picture and I  only wanted to 
+work with you because you made cool nerdy things out 
+of wood… All jokes aside, Dawid, you are one of the 
+architects of our success. Your brilliance, dedication, 
+and passion motivated me and drove those ROAS 
+results through the roof!
+Grzegorz, Oliwia, Bartek, Maciek & Łukasz – I couldn’t 
+make it without you.
+Krzysztof “Klema” Klemiński – For your unending pa-
+tience, wisdom and an absolute grandmastery of all 
+things Graphic Design! You’ve been an amazing profes-
+sional to work with and the success of this game, be-
+sides other factors, is due to your dedication. Also for 
+being a Cylon! I mean who wins Dune playing it for the 
+first time as the Bene Gesserit?! We love you and cher-
+ish your friendship and our cooperation!
+Author:
+They say working with people who are smarter than 
+you is the best road to success… well guess what? They 
+are right!
+Adam, thank you for the trust you have shown when 
+you agreed to work on this project. Thank you for 
+your mad presentation skills over a  double espresso 
+and pizza! Thank you for shouting at me! Thank you 
+for inspiring me and thank you for making me want to 
+become a better person. I hope that you will never have 
+to go on vacation in your life, and that your brain will be 
+put in a jar with some state-of-the-art tech to keep up 
+with your thoughts! (Trust me, reader, Adam will enjoy 
+these wishes even if they seem weird to you ;)
+11 bit studios:
+Paweł Feldman – You have given me trust and friendship. 
+Your work ethic proves that you can be a good person 
+and still make good business.
+Patryk Grzeszczuk – What can I say, you are just an 
+amazing human being who has been possessed by an 
+alien cat daemon of uncanny intelligence!
+Rufus Kubica – Rufi, how can so much greatness fit into 
+such a petite frame?! Don’t know, don’t care! You have 
+been a great friend, a helper in all sorts of ASAPs, and 
+a great listener! Love you to bits!
+Piotr Bajraszewski – You are a great dancer!
+Paweł & Grzegorz Miechowscy – Paweł, thank you for 
+all the great ideas, media coverage, and support that 
+you have provided. Grzegorz, thank you for showing us 
+trust and making this project happen. When I grow up 
+I want to be as cool as you! ;)
+Przemek Marszał – Last, but not least! Not many of you 
+know it but Przemek (current CEO of 11 bit studios) 
+is probably the biggest fan of board games in 11 bit 
+studios and probably in Poland! Thank you for trusting 
+me and my team, together with Grzesiek, and I hope 
+you will make some more groundbreaking games that 
+we can adapt!
+Karol Zajączkowski – for being a solid, reliable guy who 
+provides quick and on the point feedback and listens to 
+what the other side has to say.
+Jacek Kuna – for tirelessly pulling all those amazing 
+assets from the deepest dungeons of his archives and 
+his adamant will to help whenever asked for.
+The whole 11 bit studios team – You are beautiful! Keep 
+making those wonderful games and stay true to your 
+indie spirit!
+Michał Oracz, my mentor:
+(If the following words seem familiar do not worry, 
+I  keep saying them whenever someone asks and 
+sometimes even if they don’t)
+You have pulled me out from the depths of despair. You 
+believed in me when no one else did, not even myself. 
+You taught me and tolerated – for some time ;) – my 
+flaws. I will always hold you in my heart as a mentor 
+and a friend. Thank you.
+Kickstarter:
+Michael Liebe, you reached out to me when I needed 
+it the most. You provided support, wise words, a good 
+joke, and a cold beer. Thank you for being a true person 
+and an honest friend.
+Two amazing artists:
+Ścibor Teleszyński – For your art, your dedication and 
+mad talent… Thank you!
+Jakub Różalski, Kuba, Mr. Werewolf, The Stallion That 
+Mounts The Instagram ;) – Thank you so much for 
+breaking that golden rule for me and for this project ;) 
+Thank you for creating that amazing art for all fans of 
+Frostpunk. I value your friendship and your art, keep 
+being the best!
+The backers, the fans,
+the citizens of the last city on Earth:
+To all of you together and to each one of you separately 
+– THANK YOU!
+Your trust gave us wings.
+Your engagement gave us momentum.
+Your hard-earned money gave us the opportunity.
+Your ongoing support gives us life-giving optimism. 
+We cherish each comment with words of kindness or 
+constructive criticism, and we will do whatever is in 
+our power to repay the favour with a game that will 
+hopefully provide you and your friends and families 
+with icebergs of fun as you sit together by the table.
+It is an honour to be crowdfunded by such an amazing 
+community!
+For the thousandth time (most probably not the last!), 
+thank you!
+Jakub & the GCU team
+=== PAGE 14 ===
+Credits
+Game Publisher – Jakub Wiśniewski - glasscannonunplugged.com
+Game Design – Adam Kwapiński
+Game Development – Rafał Pieczyński
+Project Management – Michał Ozon
+Graphic Design – Krzysztof Klemiński
+Illustrations – Adam Śmietański, Bartosz Sobolewski, Daniel Janczewski, 
+Dominik Zieliński, Ewa Dudek, Filip Ogrodowczyk, Jacek Kuna, Jakub Kowalczyk, 
+Jakub Piotrowski, Jan Buczny, Krzysztof Machura, Łukasz Juszczyk, Maciej Rudnicki, Magdalena Katańska, 
+Marcin Kus, Marcin Szambelan, Mateusz Bednarz, Mateusz Malanowski, Norbert Narożnik, Olaf Pożoga, 
+Piotr Chomiak, Piotr Trzebiński, Przemysław Marszał, Szymon Sobański, Tobiasz Żuk, Tomasz Kisilewicz, 
+Yaroslav Nykyforuk, Zuzanna Szabłowska, and Agnieszka Dąbrowiecka
+Rulebook – Paul Grogan of Gaming Rules!
+Proofreading – Phil Pettifer, Bruce Fletcher, Jeremy Harrison
+3D sculpts – Bartłomiej Bogacz, Jakub Mrówczyński, and others
+Generator Interior Design and Calculations – Przemysław Fornal
+Pledge Manager and Logistics – Oliwia Berezik, Maciej Eisler 
+Playtesters – Grzegorz Przytarski, Bartosz Wermiński, Paweł Bandoła, Michał Szewczyk, Joanna Gleń, 
+Marcin Gleń, Rafał Gleń, Radosław Ruszniak, Jakub Wasilewski, Michał Sieńko, Jakub Polkowski, 
+Maciej Matejko, David Turczi, Noralie Lubbers, Tabletop Simulator community.
+Special thanks to – Marcin Żełubowski, Maciej Topolnicki, Małgorzata Ozon, Derek Allgire, 
+Łukasz Jankowski, Tomasz Bar, Maciej Kołakowski, Michael Liebe, Jason Schock, Ścibor Sekunda, 
+Artur “Toczek” Toczyński, Matt Dembek, Mikołaj Śląski, Jesse Anderson from Quackalope, Natanell Apfel, 
+Krzysztof “Szafa” Szafrański, Filip Bulski, Kamil “Sanex” Cieśla, Sebastien Lemay, David Lockwood, 
+Vincent Vergonjeanne, Laurent Laveau, Pascal Munot, Filip Głowacz & Irek Huszcza - Board and Dice, 
+Katia Howatson, Artur Kurasiński, Krzysztof Setkowicz, Maciej & Patrycja Urbaniak, Witek Olejnik, 
+Mark Dainty, Sebastian Grabowski, Michael Kelley, Lucas Staniec, Maciek Hałapacz, Lawrence Baker, 
+Wojtek “Łosiu” Wiśniewski, Joanna Ziomek, and everyone else who contributed.
+© 2022 11 bit studios S.A. Frostpunk™, 11 bit studios™ and respective logos 
+are trademarks of 11 bit studios S.A. All rights reserved.
+© 2022 Glass Cannon Unplugged Sp. z o. o. All rights reserved.

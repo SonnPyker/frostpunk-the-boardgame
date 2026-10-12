@@ -1,0 +1,934 @@
+[
+ {
+  "key": "If allDiscActive: Discontent +{0}, Shuffle back into the Dusk deck else Hope +{1} (Justice), Activate disc mostCommon all, Remove this card",
+  "vi": "Nếu allDiscActive: Discontent +{0}, xáo trộn lại vào bộ Dusk, nếu không thì Hope +{1} (Justice), kích hoạt dấu mostCommon tất cả, gỡ bỏ thẻ này"
+ },
+ {
+  "key": "If allSleepWarm: Activate {0} Hope, Remove this card else For each unsheltered: Hope −{1}, Remove this card",
+  "vi": "Nếu allSleepWarm: Kích hoạt {0} Hope, gỡ bỏ thẻ này, nếu không thì với mỗi công dân không có nơi trú ẩn: Hope −{1}, gỡ bỏ thẻ này"
+ },
+ {
+  "key": "If allTechsDeveloped: Upgrade a Building for free, Remove this card else If devTokenOnRound: Move the Development token back {0}, Remove this card else Remove this card",
+  "vi": "Nếu allTechsDeveloped: Nâng cấp một Công trình miễn phí, gỡ bỏ thẻ này, nếu không thì nếu devTokenOnRound: Di chuyển Development token lùi lại {0}, gỡ bỏ thẻ này, nếu không thì gỡ bỏ thẻ này"
+ },
+ {
+  "key": "If anyCitizenUnsheltered: Discontent +{0}",
+  "vi": "Nếu anyCitizenUnsheltered: Discontent +{0}"
+ },
+ {
+  "key": "If anySicknessSkull: Flip {0} Sickness marker(s) to Syringe (a Citizen dies) else {1} sick Citizens of one chosen type",
+  "vi": "Nếu anySicknessSkull: Lật {0} dấu Bệnh sang Ống tiêm (một Công dân chết), nếu không thì {1} Công dân bị bệnh thuộc một loại đã chọn"
+ },
+ {
+  "key": "If beaconBuilt: goto:A else goto:B",
+  "vi": "Nếu beaconBuilt: goto:A, nếu không thì goto:B"
+ },
+ {
+  "key": "If beaconBuilt: scenario:resolve:S0{0}, scenario:remove:S0{1} else Discontent +{2}",
+  "vi": "Nếu beaconBuilt: scenario:resolve:S0{0}, scenario:remove:S0{1}, nếu không thì Discontent +{2}"
+ },
+ {
+  "key": "If built:careHouse: Hope +{0} (Care / Justice), Remove this card else Hope −{1}, Shuffle back into the Dusk deck",
+  "vi": "Nếu đã xây Nhà chăm sóc: Hope +{0} (Care / Justice), gỡ bỏ thẻ này, nếu không thì Hope −{1}, xáo trộn lại vào bộ Dusk"
+ },
+ {
+  "key": "If built:careHouse: Hunger −{0} else Hope −{1}, Shuffle back into the Dusk deck",
+  "vi": "Nếu đã xây Nhà chăm sóc: Đói −{0}, nếu không thì Hope −{1}, xáo trộn lại vào bộ Dusk"
+ },
+ {
+  "key": "If built:childShelter: Cure {0} per Child Meeple else Hope −{1}, Shuffle back into the Dusk deck",
+  "vi": "Nếu đã xây Nơi trú ẩn cho trẻ em: Chữa {0} cho mỗi Meeple Trẻ em, nếu không thì Hope −{1}, xáo trộn lại vào bộ Dusk"
+ },
+ {
+  "key": "If built:childShelter: Move the Development token back {0}  OR  Upgrade a Building else Hope −{1}, Shuffle back into the Dusk deck",
+  "vi": "Nếu đã xây Nơi trú ẩn cho trẻ em: Di chuyển Development token lùi lại {0}  HOẶC  Nâng cấp một Công trình, nếu không thì Hope −{1}, xáo trộn lại vào bộ Dusk"
+ },
+ {
+  "key": "If built:fightingArena: {0} Worker die (no Citizen card), Exhaust disc all of one type  OR  Discontent −{1}, Remove this card else Discontent +{2}, Shuffle back into the Dusk deck",
+  "vi": "Nếu đã xây Đấu trường: {0} Công nhân chết (không có thẻ Công dân), làm cạn tất cả dấu cùng một loại  HOẶC  Discontent −{1}, gỡ bỏ thẻ này, nếu không thì Discontent +{2}, xáo trộn lại vào bộ Dusk"
+ },
+ {
+  "key": "If built:fightingArena: Exhaust anger, Discontent −{0}, Place {1} Spent Worker token in the supply else Discontent +{2}, Shuffle back into the Dusk deck",
+  "vi": "Nếu đã xây Đấu trường: Làm cạn anger, Discontent −{0}, đặt {1} dấu Công nhân đã dùng vào kho chung, nếu không thì Discontent +{2}, xáo trộn lại vào bộ Dusk"
+ },
+ {
+  "key": "If built:publicHouse: Activate justice, Hope +{0}, Place {1} Spent Worker token in the supply else Hope −{2}, Shuffle back into the Dusk deck",
+  "vi": "Nếu đã xây Quán rượu công cộng: Kích hoạt justice, Hope +{0}, đặt {1} dấu Công nhân đã dùng vào kho chung, nếu không thì Hope −{2}, xáo trộn lại vào bộ Dusk"
+ },
+ {
+  "key": "If built:publicHouse: Discard {0} Hope, Discard {1} Discontent  OR  Discontent +{2}, Hope +{3}, Remove this card else Hope −{4}, Shuffle back into the Dusk deck",
+  "vi": "Nếu đã xây Quán rượu công cộng: Bỏ {0} Hope, bỏ {1} Discontent  HOẶC  Discontent +{2}, Hope +{3}, gỡ bỏ thẻ này, nếu không thì Hope −{4}, xáo trộn lại vào bộ Dusk"
+ },
+ {
+  "key": "If devTokenOnRound: Move the Development token back {0}, Remove this card else Remove this card",
+  "vi": "Nếu devTokenOnRound: Di chuyển Development token lùi lại {0}, gỡ bỏ thẻ này, nếu không thì gỡ bỏ thẻ này"
+ },
+ {
+  "key": "If engineerOnCard: Remove this card",
+  "vi": "Nếu engineerOnCard: Gỡ bỏ thẻ này"
+ },
+ {
+  "key": "If hunger<=food: Hope +{0}, Remove this card else Discontent +{1} (Greed), Remove this card",
+  "vi": "Nếu hunger<=food: Hope +{0}, gỡ bỏ thẻ này, nếu không thì Discontent +{1} (Greed), gỡ bỏ thẻ này"
+ },
+ {
+  "key": "If hunger=={0}: Hope +{1} (Care), Remove this card else If hunger>={2}: Hope −{3} else If hunger>={4}: Hope −{5} else If hunger>={6}: Hope −{7} else If hunger>={8}: Hope −{9} else If hunger>={10}: Hope −{11} else If hunger>={12}: Hope −{13} else If hunger>={14}: Hope −{15} else If hunger>={16}: Hope −{17} else If hunger>={18}: Hope −{19} else If hunger>={20}: Hope −{21}, Remove this card",
+  "vi": "Nếu hunger=={0}: Hope +{1} (Care), gỡ bỏ thẻ này, nếu không thì nếu hunger>={2}: Hope −{3}, nếu không thì nếu hunger>={4}: Hope −{5}, nếu không thì nếu hunger>={6}: Hope −{7}, nếu không thì nếu hunger>={8}: Hope −{9}, nếu không thì nếu hunger>={10}: Hope −{11}, nếu không thì nếu hunger>={12}: Hope −{13}, nếu không thì nếu hunger>={14}: Hope −{15}, nếu không thì nếu hunger>={16}: Hope −{17}, nếu không thì nếu hunger>={18}: Hope −{19}, nếu không thì nếu hunger>={20}: Hope −{21}, gỡ bỏ thẻ này"
+ },
+ {
+  "key": "If hunger>={0}: {1} sick Citizens of the current Round type, Hunger −{2}",
+  "vi": "Nếu hunger>={0}: {1} Công dân bị bệnh thuộc loại của Vòng hiện tại, Đói −{2}"
+ },
+ {
+  "key": "If hunger>={0}: Hope −{1}",
+  "vi": "Nếu hunger>={0}: Hope −{1}"
+ },
+ {
+  "key": "If hunger>={0}: Hope −{1} else If hunger>={2}: Hope −{3}",
+  "vi": "Nếu hunger>={0}: Hope −{1}, nếu không thì nếu hunger>={2}: Hope −{3}"
+ },
+ {
+  "key": "If hunger>={0}: Hope −{1} else If hunger>={2}: Hope −{3} else If hunger>={4}: Hope −{5}",
+  "vi": "Nếu hunger>={0}: Hope −{1}, nếu không thì nếu hunger>={2}: Hope −{3}, nếu không thì nếu hunger>={4}: Hope −{5}"
+ },
+ {
+  "key": "If hunger>={0}: Hope −{1} else If hunger>={2}: Hope −{3} else If hunger>={4}: Hope −{5} else If hunger>={6}: Hope −{7}",
+  "vi": "Nếu hunger>={0}: Hope −{1}, nếu không thì nếu hunger>={2}: Hope −{3}, nếu không thì nếu hunger>={4}: Hope −{5}, nếu không thì nếu hunger>={6}: Hope −{7}"
+ },
+ {
+  "key": "If hunger>={0}: Hope −{1} else If hunger>={2}: Hope −{3} else If hunger>={4}: Hope −{5} else If hunger>={6}: Hope −{7} else If hunger>={8}: Hope −{9}",
+  "vi": "Nếu hunger>={0}: Hope −{1}, nếu không thì nếu hunger>={2}: Hope −{3}, nếu không thì nếu hunger>={4}: Hope −{5}, nếu không thì nếu hunger>={6}: Hope −{7}, nếu không thì nếu hunger>={8}: Hope −{9}"
+ },
+ {
+  "key": "If hunger>={0}: Hope −{1} else If hunger>={2}: Hope −{3} else If hunger>={4}: Hope −{5} else If hunger>={6}: Hope −{7} else If hunger>={8}: Hope −{9} else If hunger>={10}: Hope −{11}",
+  "vi": "Nếu hunger>={0}: Hope −{1}, nếu không thì nếu hunger>={2}: Hope −{3}, nếu không thì nếu hunger>={4}: Hope −{5}, nếu không thì nếu hunger>={6}: Hope −{7}, nếu không thì nếu hunger>={8}: Hope −{9}, nếu không thì nếu hunger>={10}: Hope −{11}"
+ },
+ {
+  "key": "If hunger>={0}: Hope −{1} else If hunger>={2}: Hope −{3} else If hunger>={4}: Hope −{5} else If hunger>={6}: Hope −{7} else If hunger>={8}: Hope −{9} else If hunger>={10}: Hope −{11} else If hunger>={12}: Hope −{13}",
+  "vi": "Nếu hunger>={0}: Hope −{1}, nếu không thì nếu hunger>={2}: Hope −{3}, nếu không thì nếu hunger>={4}: Hope −{5}, nếu không thì nếu hunger>={6}: Hope −{7}, nếu không thì nếu hunger>={8}: Hope −{9}, nếu không thì nếu hunger>={10}: Hope −{11}, nếu không thì nếu hunger>={12}: Hope −{13}"
+ },
+ {
+  "key": "If hunger>={0}: Hope −{1} else If hunger>={2}: Hope −{3} else If hunger>={4}: Hope −{5} else If hunger>={6}: Hope −{7} else If hunger>={8}: Hope −{9} else If hunger>={10}: Hope −{11} else If hunger>={12}: Hope −{13} else If hunger>={14}: Hope −{15}",
+  "vi": "Nếu hunger>={0}: Hope −{1}, nếu không thì nếu hunger>={2}: Hope −{3}, nếu không thì nếu hunger>={4}: Hope −{5}, nếu không thì nếu hunger>={6}: Hope −{7}, nếu không thì nếu hunger>={8}: Hope −{9}, nếu không thì nếu hunger>={10}: Hope −{11}, nếu không thì nếu hunger>={12}: Hope −{13}, nếu không thì nếu hunger>={14}: Hope −{15}"
+ },
+ {
+  "key": "If hunger>={0}: Hope −{1} else If hunger>={2}: Hope −{3} else If hunger>={4}: Hope −{5} else If hunger>={6}: Hope −{7} else If hunger>={8}: Hope −{9} else If hunger>={10}: Hope −{11} else If hunger>={12}: Hope −{13} else If hunger>={14}: Hope −{15} else If hunger>={16}: Hope −{17}",
+  "vi": "Nếu hunger>={0}: Hope −{1}, nếu không thì nếu hunger>={2}: Hope −{3}, nếu không thì nếu hunger>={4}: Hope −{5}, nếu không thì nếu hunger>={6}: Hope −{7}, nếu không thì nếu hunger>={8}: Hope −{9}, nếu không thì nếu hunger>={10}: Hope −{11}, nếu không thì nếu hunger>={12}: Hope −{13}, nếu không thì nếu hunger>={14}: Hope −{15}, nếu không thì nếu hunger>={16}: Hope −{17}"
+ },
+ {
+  "key": "If hunger>={0}: Hope −{1} else If hunger>={2}: Hope −{3} else If hunger>={4}: Hope −{5} else If hunger>={6}: Hope −{7} else If hunger>={8}: Hope −{9} else If hunger>={10}: Hope −{11} else If hunger>={12}: Hope −{13} else If hunger>={14}: Hope −{15} else If hunger>={16}: Hope −{17} else If hunger>={18}: Hope −{19}",
+  "vi": "Nếu hunger>={0}: Hope −{1}, nếu không thì nếu hunger>={2}: Hope −{3}, nếu không thì nếu hunger>={4}: Hope −{5}, nếu không thì nếu hunger>={6}: Hope −{7}, nếu không thì nếu hunger>={8}: Hope −{9}, nếu không thì nếu hunger>={10}: Hope −{11}, nếu không thì nếu hunger>={12}: Hope −{13}, nếu không thì nếu hunger>={14}: Hope −{15}, nếu không thì nếu hunger>={16}: Hope −{17}, nếu không thì nếu hunger>={18}: Hope −{19}"
+ },
+ {
+  "key": "If moreHalfSleepWarm: Remove this card else Discontent +{0} (Apathy), Remove this card",
+  "vi": "Nếu moreHalfSleepWarm: Gỡ bỏ thẻ này, nếu không thì Discontent +{0} (Apathy), gỡ bỏ thẻ này"
+ },
+ {
+  "key": "If mostCommonDisc:",
+  "vi": "Nếu mostCommonDisc:"
+ },
+ {
+  "key": "If noActiveDisc: Exhaust all Hope of one type… else For each active token…",
+  "vi": "Nếu noActiveDisc: Làm cạn tất cả Hope cùng một loại… nếu không thì với mỗi dấu đang kích hoạt…"
+ },
+ {
+  "key": "If noActiveDisc: Remove this card, stop",
+  "vi": "Nếu noActiveDisc: Gỡ bỏ thẻ này, dừng lại"
+ },
+ {
+  "key": "If noActiveHope: Activate all Discontent of one type… else For each active token…",
+  "vi": "Nếu noActiveHope: Kích hoạt tất cả Discontent cùng một loại… nếu không thì với mỗi dấu đang kích hoạt…"
+ },
+ {
+  "key": "If noActiveHope: Discontent +{0} else Exhaust {1} Hope",
+  "vi": "Nếu noActiveHope: Discontent +{0}, nếu không thì làm cạn {1} Hope"
+ },
+ {
+  "key": "If only the circumstances allowed us",
+  "vi": "Giá như hoàn cảnh cho phép chúng ta"
+ },
+ {
+  "key": "If round<={0}:",
+  "vi": "Nếu round<={0}:"
+ },
+ {
+  "key": "If round<={0}: Gain {1} Steam Core, Gain {2} Wood, Gain {3} Coal else Gain {4} Wood, Gain {5} Coal",
+  "vi": "Nếu round<={0}: Nhận {1} Steam Core, nhận {2} Gỗ, nhận {3} Than, nếu không thì nhận {4} Gỗ, nhận {5} Than"
+ },
+ {
+  "key": "If round>={0}:",
+  "vi": "Nếu round>={0}:"
+ },
+ {
+  "key": "If supplyRes<{0}: Discontent +{1} (Apathy), Lose all Resources, Remove this card else Place in the Event display, toCard:supply:{2}, For each active:greed: toCard:supply:{3}",
+  "vi": "Nếu supplyRes<{0}: Discontent +{1} (Apathy), mất toàn bộ Tài nguyên, gỡ bỏ thẻ này, nếu không thì đặt vào bảng Sự kiện, chuyển {2} Tài nguyên từ kho lên thẻ Sự kiện hiện tại, với mỗi Greed đang hoạt động: chuyển {3} Tài nguyên từ kho lên thẻ Sự kiện hiện tại"
+ },
+ {
+  "key": "If They Are Not with Us...",
+  "vi": "Nếu họ không đứng về phía chúng ta..."
+ },
+ {
+  "key": "If They Are Not with Us... (L0{0}B)",
+  "vi": "Nếu họ không đứng về phía chúng ta... (L0{0}B)"
+ },
+ {
+  "key": "If you have survived (no lose condition triggered) you are victorious.",
+  "vi": "Nếu bạn sống sót (không kích hoạt điều kiện thua), bạn chiến thắng."
+ },
+ {
+  "key": "Ignore it and keep the theft a secret",
+  "vi": "Bỏ qua và giữ kín vụ trộm cắp"
+ },
+ {
+  "key": "Ignore this demand",
+  "vi": "Bỏ qua yêu cầu này"
+ },
+ {
+  "key": "Illegal Distillery",
+  "vi": "Xưởng chưng cất lậu"
+ },
+ {
+  "key": "Illegal Distillery (M0{0})",
+  "vi": "Xưởng chưng cất lậu (M0{0})"
+ },
+ {
+  "key": "Illegal Distillery was removed from the game",
+  "vi": "Xưởng chưng cất lậu đã bị gỡ khỏi trò chơi"
+ },
+ {
+  "key": "Imprison him",
+  "vi": "Bỏ tù hắn"
+ },
+ {
+  "key": "Increase Discontent",
+  "vi": "Tăng Discontent"
+ },
+ {
+  "key": "Increase Hope",
+  "vi": "Tăng Hope"
+ },
+ {
+  "key": "Indecision",
+  "vi": "Do dự"
+ },
+ {
+  "key": "Indecision (SD0{0})",
+  "vi": "Do dự (SD0{0})"
+ },
+ {
+  "key": "Indecision resolved and removed from the game",
+  "vi": "Do dự đã được giải quyết và gỡ khỏi trò chơi"
+ },
+ {
+  "key": "Indicators placed on first {0} Generator-track spaces: Red, Orange, Yellow. Each indicator carries an Insulation symbol and a zone symbol: Red=Insulation Red/zone A (Generator tile), Orange=Orange/zone B (adjacent tiles), Yellow=Yellow/zone C (within {1} hexes). Action is heated if Heat marker is ABOVE the indicator for the Building's insulation OR for the tile's zone. Blue buildings need a heated zone; White ignore insulation. Heat marker on space {2} => everything cold.",
+  "vi": "Đặt chỉ báo lên {0} ô đầu tiên trên đường Generator: Đỏ, Cam, Vàng. Mỗi chỉ báo có một ký hiệu Insulation và một ký hiệu vùng: Đỏ=Insulation Đỏ/vùng A (mảnh Generator), Cam=Cam/vùng B (các mảnh liền kề), Vàng=Vàng/vùng C (trong {1} ô lục giác). Hành động heated nếu dấu Nhiệt nằm TRÊN chỉ báo của insulation của công trình HOẶC của vùng của mảnh. Công trình xanh dương cần một vùng heated; công trình trắng bỏ qua insulation. Dấu Nhiệt ở ô {2} => mọi thứ đều lạnh."
+ },
+ {
+  "key": "Infirmary",
+  "vi": "Bệnh xá"
+ },
+ {
+  "key": "Infirmary ({0} Wood + {1} Steam Core)",
+  "vi": "Bệnh xá ({0} Gỗ + {1} Steam Core)"
+ },
+ {
+  "key": "Infirmary at N0{0} top",
+  "vi": "Bệnh xá tại N0{0} phía trên"
+ },
+ {
+  "key": "Infirmary built",
+  "vi": "Bệnh xá đã được xây"
+ },
+ {
+  "key": "Infirmary dismantled",
+  "vi": "Bệnh xá đã được tháo dỡ"
+ },
+ {
+  "key": "Information Overflow",
+  "vi": "Quá tải thông tin"
+ },
+ {
+  "key": "Information Overflow (D0{0})",
+  "vi": "Quá tải thông tin (D0{0})"
+ },
+ {
+  "key": "Information Overflow was removed from the game",
+  "vi": "Quá tải thông tin đã bị gỡ khỏi trò chơi"
+ },
+ {
+  "key": "Institute house arrest",
+  "vi": "Viện quản thúc tại gia"
+ },
+ {
+  "key": "It ends now",
+  "vi": "Kết thúc ngay bây giờ"
+ },
+ {
+  "key": "It is a miracle",
+  "vi": "Đây là một phép màu"
+ },
+ {
+  "key": "It Serves Even in Death",
+  "vi": "Vẫn có ích cả khi đã chết"
+ },
+ {
+  "key": "It's an Automaton!",
+  "vi": "Đây là một Automaton!"
+ },
+ {
+  "key": "It's an Automaton! (D0{0})",
+  "vi": "Đây là một Automaton! (D0{0})"
+ },
+ {
+  "key": "It's an Automaton! was removed from the game",
+  "vi": "Đây là một Automaton! đã bị gỡ khỏi trò chơi"
+ },
+ {
+  "key": "It's Not Healthy, But It Tastes Great!",
+  "vi": "Không tốt cho sức khỏe, nhưng ngon tuyệt!"
+ },
+ {
+  "key": "It's nothing to worry about",
+  "vi": "Không có gì phải lo"
+ },
+ {
+  "key": "It's their responsibility",
+  "vi": "Đó là trách nhiệm của họ"
+ },
+ {
+  "key": "It's time to go back!",
+  "vi": "Đã đến lúc quay về!"
+ },
+ {
+  "key": "Jacin Schock",
+  "vi": "Jacin Schock"
+ },
+ {
+  "key": "Jacin Schock (child)",
+  "vi": "Jacin Schock (trẻ em)"
+ },
+ {
+  "key": "Jesse Quackerson",
+  "vi": "Jesse Quackerson"
+ },
+ {
+  "key": "Jesse Quackerson (engineer)",
+  "vi": "Jesse Quackerson (kỹ sư)"
+ },
+ {
+  "key": "Join us if you keep the past buried",
+  "vi": "Hãy gia nhập chúng tôi nếu bạn giữ quá khứ bị chôn vùi"
+ },
+ {
+  "key": "Justice",
+  "vi": "Justice"
+ },
+ {
+  "key": "Justice (active)",
+  "vi": "Justice (đang kích hoạt)"
+ },
+ {
+  "key": "Justice (exhausted)",
+  "vi": "Justice (đã cạn)"
+ },
+ {
+  "key": "Justice for all! He will be publicly executed",
+  "vi": "Justice cho tất cả! Hắn sẽ bị hành quyết công khai"
+ },
+ {
+  "key": "Justice Hope activated",
+  "vi": "Justice Hope đã được kích hoạt"
+ },
+ {
+  "key": "Justice Hope exhausted",
+  "vi": "Justice Hope đã cạn"
+ },
+ {
+  "key": "Justice Hope token placed on The Virtue of Humanity",
+  "vi": "Đã đặt dấu Justice Hope lên Đức Hạnh Nhân Loại"
+ },
+ {
+  "key": "Justice of the Crowd",
+  "vi": "Justice của đám đông"
+ },
+ {
+  "key": "Justice removed from the track",
+  "vi": "Đã gỡ Justice khỏi đường đếm"
+ },
+ {
+  "key": "Keep it a secret",
+  "vi": "Giữ bí mật"
+ },
+ {
+  "key": "Keep it a secret and investigate",
+  "vi": "Giữ bí mật và điều tra"
+ },
+ {
+  "key": "Keep it for a later Preparation Phase",
+  "vi": "Giữ lại cho Giai đoạn Chuẩn bị sau"
+ },
+ {
+  "key": "Keep the books as public property",
+  "vi": "Giữ sổ sách như tài sản công"
+ },
+ {
+  "key": "Keep this a secret by staging a work accident",
+  "vi": "Giữ bí mật bằng cách dàn dựng một tai nạn lao động"
+ },
+ {
+  "key": "Keep walking.",
+  "vi": "Cứ tiếp tục bước đi."
+ },
+ {
+  "key": "Knowledge Is Power",
+  "vi": "Tri thức là sức mạnh"
+ },
+ {
+  "key": "Law Consequence A",
+  "vi": "Law Consequence A"
+ },
+ {
+  "key": "Law Consequence B",
+  "vi": "Law Consequence B"
+ },
+ {
+  "key": "Leave it to serve as a warning.",
+  "vi": "Để nó làm lời cảnh báo."
+ },
+ {
+  "key": "Leave the machine buried",
+  "vi": "Cứ để cỗ máy bị chôn vùi"
+ },
+ {
+  "key": "Leave them. Follow the star.",
+  "vi": "Bỏ họ lại. Theo ngôi sao."
+ },
+ {
+  "key": "Let her continue",
+  "vi": "Để cô ấy tiếp tục"
+ },
+ {
+  "key": "Let him do it",
+  "vi": "Để anh ta làm"
+ },
+ {
+  "key": "Let him keep the pups",
+  "vi": "Để anh ta giữ lũ chó con"
+ },
+ {
+  "key": "Let our engineers prepare an educational program",
+  "vi": "Để các kỹ sư của chúng ta chuẩn bị một chương trình giáo dục"
+ },
+ {
+  "key": "Let the parents handle the situation",
+  "vi": "Để cha mẹ tự xử lý tình huống"
+ },
+ {
+  "key": "Let the refugees enter our city.",
+  "vi": "Hãy để người tị nạn vào thành phố của chúng ta."
+ },
+ {
+  "key": "Let the sick and the weak stay put",
+  "vi": "Để người ốm và người yếu ở nguyên chỗ"
+ },
+ {
+  "key": "Let them do it",
+  "vi": "Để họ làm"
+ },
+ {
+  "key": "Let them enter our city",
+  "vi": "Để họ vào thành phố của chúng ta"
+ },
+ {
+  "key": "Let them have their moonshine",
+  "vi": "Để họ có rượu lậu của mình"
+ },
+ {
+  "key": "Let them rest",
+  "vi": "Để họ nghỉ ngơi"
+ },
+ {
+  "key": "Let them solve the conflict on their own",
+  "vi": "Để họ tự giải quyết xung đột"
+ },
+ {
+  "key": "Let us forget.",
+  "vi": "Hãy để chúng ta quên đi."
+ },
+ {
+  "key": "Lies shown",
+  "vi": "Lời dối trá được phơi bày"
+ },
+ {
+  "key": "Life will find a way.",
+  "vi": "Sự sống sẽ tìm ra lối đi."
+ },
+ {
+  "key": "Light Under the Snow",
+  "vi": "Ánh sáng dưới tuyết"
+ },
+ {
+  "key": "Light Under the Snow (M0{0})",
+  "vi": "Ánh sáng dưới tuyết (M0{0})"
+ },
+ {
+  "key": "Light Under the Snow was removed from the game",
+  "vi": "Ánh sáng dưới tuyết đã bị gỡ khỏi trò chơi"
+ },
+ {
+  "key": "Lighter Scout Sleds",
+  "vi": "Xe trượt tuyết Scout nhẹ hơn"
+ },
+ {
+  "key": "Location skipped: X2{0} placed on top",
+  "vi": "Bỏ qua địa điểm: X2{0} đã được đặt lên trên"
+ },
+ {
+  "key": "Location skipped: X3{0} placed on top",
+  "vi": "Bỏ qua địa điểm: X3{0} đã được đặt lên trên"
+ },
+ {
+  "key": "Long Hours of Toil",
+  "vi": "Những giờ lao động cực nhọc"
+ },
+ {
+  "key": "Long Hours of Toil (M0{0})",
+  "vi": "Những giờ lao động cực nhọc (M0{0})"
+ },
+ {
+  "key": "Long Hours of Toil was removed from the game",
+  "vi": "Những giờ lao động cực nhọc đã bị gỡ khỏi trò chơi"
+ },
+ {
+  "key": "Look for a set of small sized tracks.",
+  "vi": "Tìm một bộ dấu chân cỡ nhỏ."
+ },
+ {
+  "key": "Look for other prey.",
+  "vi": "Tìm con mồi khác."
+ },
+ {
+  "key": "Look for volunteers to adopt them",
+  "vi": "Tìm tình nguyện viên nhận nuôi họ"
+ },
+ {
+  "key": "Lord of Lies",
+  "vi": "Chúa tể dối trá"
+ },
+ {
+  "key": "Lose {0} Food",
+  "vi": "Mất {0} Thực phẩm"
+ },
+ {
+  "key": "Lose {0} Resource",
+  "vi": "Mất {0} Tài nguyên"
+ },
+ {
+  "key": "Lose {0} Resources",
+  "vi": "Mất {0} Tài nguyên"
+ },
+ {
+  "key": "Lose {0} Resources (each missing: Hunger +{1})",
+  "vi": "Mất {0} Tài nguyên (mỗi thứ thiếu: Đói +{1})"
+ },
+ {
+  "key": "Lose all Resources",
+  "vi": "Mất toàn bộ Tài nguyên"
+ },
+ {
+  "key": "Lose half of your Food, rounded up (Food = Food - ceil(Food/{0})).",
+  "vi": "Mất một nửa Thực phẩm của bạn, làm tròn lên (Thực phẩm = Thực phẩm - ceil(Thực phẩm/{0}))."
+ },
+ {
+  "key": "Love is a luxury few can now afford.",
+  "vi": "Tình yêu là thứ xa xỉ mà ít ai còn đủ khả năng có."
+ },
+ {
+  "key": "Love Thy Neighbour",
+  "vi": "Yêu thương người hàng xóm"
+ },
+ {
+  "key": "Love Thy Neighbour (L0{0}B)",
+  "vi": "Yêu thương người hàng xóm (L0{0}B)"
+ },
+ {
+  "key": "Love Thy Neighbour was removed from the game",
+  "vi": "Yêu thương người hàng xóm đã bị gỡ khỏi trò chơi"
+ },
+ {
+  "key": "Lucky Misstep",
+  "vi": "Bước trượt may mắn"
+ },
+ {
+  "key": "Make a public announcement that her words don't matter",
+  "vi": "Công bố công khai rằng lời cô ấy không đáng kể"
+ },
+ {
+  "key": "Make this public and investigate",
+  "vi": "Công khai việc này và điều tra"
+ },
+ {
+  "key": "Make this public as a warning, don't investigate",
+  "vi": "Công khai việc này như một lời cảnh báo, đừng điều tra"
+ },
+ {
+  "key": "Make this public to warn the citizens",
+  "vi": "Công khai việc này để cảnh báo công dân"
+ },
+ {
+  "key": "Makeshift Shelters",
+  "vi": "Nơi trú ẩn tạm bợ"
+ },
+ {
+  "key": "Makeshift Shelters was introduced",
+  "vi": "Nơi trú ẩn tạm bợ đã được đưa vào"
+ },
+ {
+  "key": "mapRemove:coal:{0}",
+  "vi": "mapRemove:coal:{0}"
+ },
+ {
+  "key": "mapRemove:wood:{0}",
+  "vi": "mapRemove:wood:{0}"
+ },
+ {
+  "key": "Margaret Ozone",
+  "vi": "Margaret Ozone"
+ },
+ {
+  "key": "Margaret Ozone (child)",
+  "vi": "Margaret Ozone (trẻ em)"
+ },
+ {
+  "key": "Marshal Primislao",
+  "vi": "Marshal Primislao"
+ },
+ {
+  "key": "Marshal Primislao (engineer)",
+  "vi": "Marshal Primislao (kỹ sư)"
+ },
+ {
+  "key": "Matilda Oakwood",
+  "vi": "Matilda Oakwood"
+ },
+ {
+  "key": "Matilda Oakwood (worker)",
+  "vi": "Matilda Oakwood (công nhân)"
+ },
+ {
+  "key": "May Exhaust justice:  otherwise Place {0} Spent Worker or Engineer token in the supply",
+  "vi": "Có thể làm cạn justice:  nếu không thì đặt {0} dấu Công nhân hoặc Kỹ sư đã dùng vào kho chung"
+ },
+ {
+  "key": "May Exhaust justice: Remove this card otherwise Lose {0} Resource, For each active:greed: Lose {1} Resource",
+  "vi": "Có thể làm cạn justice: Gỡ bỏ thẻ này, nếu không thì mất {0} Tài nguyên, với mỗi Greed đang hoạt động: mất {1} Tài nguyên"
+ },
+ {
+  "key": "May Spend {0} Food: Cure {1}",
+  "vi": "Có thể chi {0} Thực phẩm: Chữa {1}"
+ },
+ {
+  "key": "May Spend {0} Resources:  otherwise Discontent +{1}",
+  "vi": "Có thể chi {0} Tài nguyên:  nếu không thì Discontent +{1}"
+ },
+ {
+  "key": "Maybe it's time to go back.",
+  "vi": "Có lẽ đã đến lúc quay về."
+ },
+ {
+  "key": "Maybe no one will notice...",
+  "vi": "Có lẽ sẽ chẳng ai nhận ra..."
+ },
+ {
+  "key": "Maybe... but the past matters.",
+  "vi": "Có lẽ... nhưng quá khứ vẫn quan trọng."
+ },
+ {
+  "key": "Medical Education",
+  "vi": "Giáo dục y tế"
+ },
+ {
+  "key": "Medical Post",
+  "vi": "Trạm y tế"
+ },
+ {
+  "key": "Medical Post ({0} Wood)",
+  "vi": "Trạm y tế ({0} Gỗ)"
+ },
+ {
+  "key": "Medical Post (free)",
+  "vi": "Trạm y tế (miễn phí)"
+ },
+ {
+  "key": "Medical Post (upgraded) at Generator tile (UL)",
+  "vi": "Trạm y tế (đã nâng cấp) tại mảnh Generator (UL)"
+ },
+ {
+  "key": "Medical Post (upgraded) at N0{0} bottom",
+  "vi": "Trạm y tế (đã nâng cấp) tại N0{0} phía dưới"
+ },
+ {
+  "key": "Medical Post (upgraded) at N0{0} top",
+  "vi": "Trạm y tế (đã nâng cấp) tại N0{0} phía trên"
+ },
+ {
+  "key": "Medical Post at Generator tile (UL)",
+  "vi": "Trạm y tế tại mảnh Generator (UL)"
+ },
+ {
+  "key": "Medical Post at Generator tile (UR)",
+  "vi": "Trạm y tế tại mảnh Generator (UR)"
+ },
+ {
+  "key": "Medical Post at N0{0} bottom",
+  "vi": "Trạm y tế tại N0{0} phía dưới"
+ },
+ {
+  "key": "Medical Post at N0{0} top",
+  "vi": "Trạm y tế tại N0{0} phía trên"
+ },
+ {
+  "key": "Medical Post at N1{0} bottom",
+  "vi": "Trạm y tế tại N1{0} phía dưới"
+ },
+ {
+  "key": "Medical Post at N1{0} top",
+  "vi": "Trạm y tế tại N1{0} phía trên"
+ },
+ {
+  "key": "Medical Post built",
+  "vi": "Trạm y tế đã được xây"
+ },
+ {
+  "key": "Medical Post dismantled",
+  "vi": "Trạm y tế đã được tháo dỡ"
+ },
+ {
+  "key": "Medical Post upgraded",
+  "vi": "Trạm y tế đã được nâng cấp"
+ },
+ {
+  "key": "Meet with her mother and make a deal",
+  "vi": "Gặp mẹ cô ấy và thỏa thuận"
+ },
+ {
+  "key": "Michael Ozone",
+  "vi": "Michael Ozone"
+ },
+ {
+  "key": "Michael Ozone (child)",
+  "vi": "Michael Ozone (trẻ em)"
+ },
+ {
+  "key": "Michael Plower",
+  "vi": "Michael Plower"
+ },
+ {
+  "key": "Michael Plower (child)",
+  "vi": "Michael Plower (trẻ em)"
+ },
+ {
+  "key": "Misleading Star",
+  "vi": "Ngôi sao gây nhầm lẫn"
+ },
+ {
+  "key": "Misleading Star (A) - X1{0}",
+  "vi": "Ngôi sao gây nhầm lẫn (A) - X1{0}"
+ },
+ {
+  "key": "Mistrust",
+  "vi": "Nghi kỵ"
+ },
+ {
+  "key": "Mistrust (SD0{0})",
+  "vi": "Nghi kỵ (SD0{0})"
+ },
+ {
+  "key": "Mistrust resolved and removed from the game",
+  "vi": "Nghi kỵ đã được giải quyết và gỡ khỏi trò chơi"
+ },
+ {
+  "key": "Mistrust: you may exhaust {0} Hope to gain the matching effect",
+  "vi": "Nghi kỵ: bạn có thể làm cạn {0} Hope để nhận hiệu ứng tương ứng"
+ },
+ {
+  "key": "Morning phase",
+  "vi": "Giai đoạn Buổi sáng"
+ },
+ {
+  "key": "Morning Smog",
+  "vi": "Sương khói buổi sáng"
+ },
+ {
+  "key": "Morning Smog (M0{0})",
+  "vi": "Sương khói buổi sáng (M0{0})"
+ },
+ {
+  "key": "Morning Smog was removed from the game",
+  "vi": "Sương khói buổi sáng đã bị gỡ khỏi trò chơi"
+ },
+ {
+  "key": "mostCommon",
+  "vi": "mostCommon"
+ },
+ {
+  "key": "Motivate them",
+  "vi": "Khích lệ họ"
+ },
+ {
+  "key": "Motivation",
+  "vi": "Motivation"
+ },
+ {
+  "key": "Motivation (active)",
+  "vi": "Motivation (đang kích hoạt)"
+ },
+ {
+  "key": "Motivation (exhausted)",
+  "vi": "Motivation (đã cạn)"
+ },
+ {
+  "key": "Motivation Hope activated",
+  "vi": "Motivation Hope đã được kích hoạt"
+ },
+ {
+  "key": "Motivation Hope exhausted",
+  "vi": "Motivation Hope đã cạn"
+ },
+ {
+  "key": "Motivation removed from the track",
+  "vi": "Đã gỡ Motivation khỏi đường đếm"
+ },
+ {
+  "key": "Move the Corpse marker back {0}",
+  "vi": "Di chuyển Corpse marker lùi lại {0}"
+ },
+ {
+  "key": "Move the Corpse marker back {0} to {1} spaces. If you do, increase Hope.",
+  "vi": "Di chuyển Corpse marker lùi lại {0} đến {1} ô. Nếu làm vậy, tăng Hope."
+ },
+ {
+  "key": "Move the Corpse marker back {0}-{1}",
+  "vi": "Di chuyển Corpse marker lùi lại {0}-{1}"
+ },
+ {
+  "key": "Move the Corpse marker back <min>-<max> Corpse marker back",
+  "vi": "Di chuyển Corpse marker lùi lại <min>-<max> Corpse marker lùi lại"
+ },
+ {
+  "key": "Move the Corpse marker back how far?",
+  "vi": "Di chuyển Corpse marker lùi lại bao xa?"
+ },
+ {
+  "key": "Move the Development token back {0}",
+  "vi": "Di chuyển Development token lùi lại {0}"
+ },
+ {
+  "key": "Move the Development token back {0}  OR  Upgrade a Building",
+  "vi": "Di chuyển Development token lùi lại {0}  HOẶC  Nâng cấp một Công trình"
+ },
+ {
+  "key": "Move the Development token back {0} space",
+  "vi": "Di chuyển Development token lùi lại {0} ô"
+ },
+ {
+  "key": "Move the Development token back <n>            Workshop sub-effect (Development token back on Round track)",
+  "vi": "Di chuyển Development token lùi lại <n>            Hiệu ứng phụ của Workshop (Development token lùi lại trên đường Vòng)"
+ },
+ {
+  "key": "Move which small Building? (dismantle, then build it on a valid space)",
+  "vi": "Di chuyển công trình nhỏ nào? (tháo dỡ, rồi xây lại trên một ô hợp lệ)"
+ },
+ {
+  "key": "Murderer",
+  "vi": "Kẻ giết người"
+ },
+ {
+  "key": "Murderer (M0{0})",
+  "vi": "Kẻ giết người (M0{0})"
+ },
+ {
+  "key": "Murderer Caught!",
+  "vi": "Bắt được kẻ giết người!"
+ },
+ {
+  "key": "Murderer was removed from the game",
+  "vi": "Kẻ giết người đã bị gỡ khỏi trò chơi"
+ },
+ {
+  "key": "Mushroom Kingdom",
+  "vi": "Vương quốc Nấm"
+ },
+ {
+  "key": "Mushroom Kingdom (A) - X1{0}",
+  "vi": "Vương quốc Nấm (A) - X1{0}"
+ },
+ {
+  "key": "Mushroom Kingdom: choose an option",
+  "vi": "Vương quốc Nấm: chọn một lựa chọn"
+ },
+ {
+  "key": "Mysterious Shadows",
+  "vi": "Bóng tối bí ẩn"
+ },
+ {
+  "key": "Mysterious Shadows (M0{0})",
+  "vi": "Bóng tối bí ẩn (M0{0})"
+ },
+ {
+  "key": "Mysterious Shadows was removed from the game",
+  "vi": "Bóng tối bí ẩn đã bị gỡ khỏi trò chơi"
+ },
+ {
+  "key": "N0{0} (both spaces)",
+  "vi": "N0{0} (cả hai ô)"
+ },
+ {
+  "key": "N0{0} bottom",
+  "vi": "N0{0} phía dưới"
+ },
+ {
+  "key": "N0{0} placed at (-{1}, -{2})",
+  "vi": "Đã đặt N0{0} tại (-{1}, -{2})"
+ },
+ {
+  "key": "N0{0} placed at (-{1}, {2})",
+  "vi": "Đã đặt N0{0} tại (-{1}, {2})"
+ },
+ {
+  "key": "N0{0} placed at ({1}, -{2})",
+  "vi": "Đã đặt N0{0} tại ({1}, -{2})"
+ },
+ {
+  "key": "N0{0} placed at ({1}, {2})",
+  "vi": "Đã đặt N0{0} tại ({1}, {2})"
+ },
+ {
+  "key": "N0{0} top",
+  "vi": "N0{0} phía trên"
+ },
+ {
+  "key": "N0{0}:bottom",
+  "vi": "N0{0}:phía dưới"
+ },
+ {
+  "key": "N0{0}:top",
+  "vi": "N0{0}:phía trên"
+ },
+ {
+  "key": "N1{0} (both spaces)",
+  "vi": "N1{0} (cả hai ô)"
+ },
+ {
+  "key": "N1{0} bottom",
+  "vi": "N1{0} phía dưới"
+ },
+ {
+  "key": "N1{0} placed at (-{1}, -{2})",
+  "vi": "Đã đặt N1{0} tại (-{1}, -{2})"
+ },
+ {
+  "key": "N1{0} placed at (-{1}, {2})",
+  "vi": "Đã đặt N1{0} tại (-{1}, {2})"
+ }
+]

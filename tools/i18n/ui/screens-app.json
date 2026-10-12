@@ -1,0 +1,770 @@
+[
+ {
+  "key": "(Survivalist societies, cards M033 to M040, D061 to D074)",
+  "vi": "(Xã hội Survivalist, thẻ M0{0} đến M0{1}, D0{2} đến D0{3})"
+ },
+ {
+  "key": "3D map",
+  "vi": "Bản đồ {0}D"
+ },
+ {
+  "key": "A New Home",
+  "vi": "Ngôi nhà mới"
+ },
+ {
+  "key": "A New Home: Crater",
+  "vi": "Ngôi nhà mới: Crater"
+ },
+ {
+  "key": "A New Home: Dreadnought",
+  "vi": "Ngôi nhà mới: Dreadnought"
+ },
+ {
+  "key": "A New Home: Frozen Grove",
+  "vi": "Ngôi nhà mới: Frozen Grove"
+ },
+ {
+  "key": "Active Discontent tokens",
+  "vi": "Dấu Discontent đang hoạt động"
+ },
+ {
+  "key": "Active Hope tokens",
+  "vi": "Dấu Hope đang hoạt động"
+ },
+ {
+  "key": "Advisor",
+  "vi": "Advisor"
+ },
+ {
+  "key": "Advisors",
+  "vi": "Advisor"
+ },
+ {
+  "key": "Advisors at the table",
+  "vi": "Advisor tại bàn"
+ },
+ {
+  "key": "All 3 seats need at least 3 Advisors, or none.",
+  "vi": "Cả {0} chỗ cần ít nhất {1} Advisor, hoặc không chọn gì."
+ },
+ {
+  "key": "Artwork, sounds, models and rules text belong to their rights holders and are used here only to play the game. Please buy the physical game to support its makers.",
+  "vi": "Hình ảnh, âm thanh, mô hình và nội dung luật thuộc về chủ sở hữu bản quyền và chỉ được dùng ở đây để chơi trò chơi. Hãy mua bản vật lý để ủng hộ nhà sản xuất."
+ },
+ {
+  "key": "Away",
+  "vi": "Vắng mặt"
+ },
+ {
+  "key": "Back",
+  "vi": "Quay lại"
+ },
+ {
+  "key": "Back to menu",
+  "vi": "Quay về menu"
+ },
+ {
+  "key": "Begin",
+  "vi": "Bắt đầu"
+ },
+ {
+  "key": "Buildings standing",
+  "vi": "Công trình còn đứng"
+ },
+ {
+  "key": "Cancel",
+  "vi": "Hủy"
+ },
+ {
+  "key": "Chat",
+  "vi": "Trò chuyện"
+ },
+ {
+  "key": "Checklist",
+  "vi": "Danh mục"
+ },
+ {
+  "key": "Choose 1 to 3 option(s)",
+  "vi": "Chọn {0} đến {1} lựa chọn"
+ },
+ {
+  "key": "Choose 2 option(s)",
+  "vi": "Chọn {0} lựa chọn"
+ },
+ {
+  "key": "Choose at least 2 Advisors for 2 seats, or none (1 chosen).",
+  "vi": "Chọn ít nhất {0} Advisor cho {1} chỗ, hoặc không chọn (đã chọn {2})."
+ },
+ {
+  "key": "Choose one Advisor (the solo game also takes the Call to Rise card). Advisors are optional: one may be used per round in the Preparation phase.",
+  "vi": "Chọn một Advisor (ván chơi đơn cũng dùng thẻ Call to Rise). Advisor là tùy chọn: mỗi vòng có thể dùng một Advisor trong giai đoạn Chuẩn bị."
+ },
+ {
+  "key": "Co-op",
+  "vi": "Hợp tác"
+ },
+ {
+  "key": "Co-op room",
+  "vi": "Phòng hợp tác"
+ },
+ {
+  "key": "Co-op · 2 to 4 seats",
+  "vi": "Hợp tác · {0} đến {1} chỗ"
+ },
+ {
+  "key": "Coal",
+  "vi": "Than"
+ },
+ {
+  "key": "Code",
+  "vi": "Mã"
+ },
+ {
+  "key": "Colour-blind markers: show a shape next to every colour-coded token (Hope, Discontent, sickness)",
+  "vi": "Dấu hiệu cho người mù màu: hiển thị hình dạng bên cạnh mọi dấu có màu (Hope, Discontent, bệnh)"
+ },
+ {
+  "key": "Commander",
+  "vi": "Chỉ huy"
+ },
+ {
+  "key": "Confirm",
+  "vi": "Xác nhận"
+ },
+ {
+  "key": "Connected",
+  "vi": "Đã kết nối"
+ },
+ {
+  "key": "Connecting",
+  "vi": "Đang kết nối"
+ },
+ {
+  "key": "Connecting to the game server…",
+  "vi": "Đang kết nối tới máy chủ game…"
+ },
+ {
+  "key": "Continue",
+  "vi": "Tiếp tục"
+ },
+ {
+  "key": "Continue without waiting",
+  "vi": "Tiếp tục mà không cần chờ"
+ },
+ {
+  "key": "Cores",
+  "vi": "Lõi"
+ },
+ {
+  "key": "Copy the room code",
+  "vi": "Sao chép mã phòng"
+ },
+ {
+  "key": "Crater",
+  "vi": "Crater"
+ },
+ {
+  "key": "Credits",
+  "vi": "Ghi công"
+ },
+ {
+  "key": "Decision panel",
+  "vi": "Bảng quyết định"
+ },
+ {
+  "key": "Default for most machines",
+  "vi": "Mặc định cho phần lớn máy"
+ },
+ {
+  "key": "Defeat",
+  "vi": "Thất bại"
+ },
+ {
+  "key": "Difficulty",
+  "vi": "Độ khó"
+ },
+ {
+  "key": "Difficulty 1 of 3",
+  "vi": "Độ khó {0} trên {1}"
+ },
+ {
+  "key": "Disconnected",
+  "vi": "Đã ngắt kết nối"
+ },
+ {
+  "key": "Discontent",
+  "vi": "Discontent"
+ },
+ {
+  "key": "Done",
+  "vi": "Xong"
+ },
+ {
+  "key": "Dreadnought",
+  "vi": "Dreadnought"
+ },
+ {
+  "key": "Dusk cards and public mood",
+  "vi": "Thẻ Hoàng hôn và tâm trạng công chúng"
+ },
+ {
+  "key": "Every seat must be ready before the game starts",
+  "vi": "Mọi chỗ phải sẵn sàng trước khi ván bắt đầu"
+ },
+ {
+  "key": "Extra pack",
+  "vi": "Gói mở rộng"
+ },
+ {
+  "key": "Extra pack (Survivalist societies and extra cards)",
+  "vi": "Gói mở rộng (xã hội Survivalist và thẻ bổ sung)"
+ },
+ {
+  "key": "Fewer shadows and particles",
+  "vi": "Ít bóng đổ và hạt hơn"
+ },
+ {
+  "key": "Food",
+  "vi": "Thực phẩm"
+ },
+ {
+  "key": "Foreman",
+  "vi": "Quản đốc"
+ },
+ {
+  "key": "Frostpunk",
+  "vi": "Frostpunk"
+ },
+ {
+  "key": "Frostpunk is a trademark of its owners. This page does not claim any of it.",
+  "vi": "Frostpunk là nhãn hiệu của chủ sở hữu. Trang này không tuyên bố bất kỳ quyền nào đối với nhãn hiệu đó."
+ },
+ {
+  "key": "Frostpunk rulebook (PDF)",
+  "vi": "Sách luật Frostpunk (PDF)"
+ },
+ {
+  "key": "Frostpunk: The Board Game, Web Edition is an unofficial fan project. It is not made, endorsed or sponsored by the rights holders of Frostpunk or of the board game.",
+  "vi": "Frostpunk: The Board Game, bản Web là một dự án fan không chính thức. Dự án không được chủ sở hữu bản quyền của Frostpunk hoặc của trò chơi board game sản xuất, xác nhận hay tài trợ."
+ },
+ {
+  "key": "Frozen Grove",
+  "vi": "Frozen Grove"
+ },
+ {
+  "key": "Full detail and fog",
+  "vi": "Đầy đủ chi tiết và sương mù"
+ },
+ {
+  "key": "Game menu",
+  "vi": "Menu trong ván"
+ },
+ {
+  "key": "Game saved in this browser.",
+  "vi": "Đã lưu ván trong trình duyệt này."
+ },
+ {
+  "key": "Game server:",
+  "vi": "Máy chủ game:"
+ },
+ {
+  "key": "Generator",
+  "vi": "Generator"
+ },
+ {
+  "key": "Graphics quality",
+  "vi": "Chất lượng đồ họa"
+ },
+ {
+  "key": "Hauling the board art",
+  "vi": "Đang tải hình ảnh bàn chơi"
+ },
+ {
+  "key": "Health",
+  "vi": "Sức khỏe"
+ },
+ {
+  "key": "HUD",
+  "vi": "HUD"
+ },
+ {
+  "key": "Hope",
+  "vi": "Hope"
+ },
+ {
+  "key": "Host",
+  "vi": "Chủ phòng"
+ },
+ {
+  "key": "Host a room",
+  "vi": "Tạo phòng"
+ },
+ {
+  "key": "I am ready",
+  "vi": "Tôi đã sẵn sàng"
+ },
+ {
+  "key": "Interface scale",
+  "vi": "Tỷ lệ giao diện"
+ },
+ {
+  "key": "Interface scale · 100%",
+  "vi": "Tỷ lệ giao diện · {0}%"
+ },
+ {
+  "key": "Join by code",
+  "vi": "Vào phòng bằng mã"
+ },
+ {
+  "key": "Join room",
+  "vi": "Vào phòng"
+ },
+ {
+  "key": "Keeps the Generator running",
+  "vi": "Giữ cho Generator luôn chạy"
+ },
+ {
+  "key": "High",
+  "vi": "Cao"
+ },
+ {
+  "key": "Last events",
+  "vi": "Sự kiện gần đây"
+ },
+ {
+  "key": "Laws in force",
+  "vi": "Luật đang có hiệu lực"
+ },
+ {
+  "key": "Leave the room",
+  "vi": "Rời phòng"
+ },
+ {
+  "key": "Leave the room for good",
+  "vi": "Rời phòng vĩnh viễn"
+ },
+ {
+  "key": "Leave the table, keep my seat",
+  "vi": "Rời bàn, giữ chỗ của tôi"
+ },
+ {
+  "key": "Loading",
+  "vi": "Đang tải"
+ },
+ {
+  "key": "Loading progress…",
+  "vi": "Đang tải tiến độ…"
+ },
+ {
+  "key": "Local",
+  "vi": "Cục bộ"
+ },
+ {
+  "key": "Low",
+  "vi": "Thấp"
+ },
+ {
+  "key": "Main menu",
+  "vi": "Menu chính"
+ },
+ {
+  "key": "Medical care and sickness",
+  "vi": "Chăm sóc y tế và bệnh tật"
+ },
+ {
+  "key": "Medium",
+  "vi": "Trung bình"
+ },
+ {
+  "key": "Menu",
+  "vi": "Menu"
+ },
+ {
+  "key": "Music volume",
+  "vi": "Âm lượng nhạc"
+ },
+ {
+  "key": "Music volume · 50%",
+  "vi": "Âm lượng nhạc · {0}%"
+ },
+ {
+  "key": "New solo game",
+  "vi": "Ván chơi đơn mới"
+ },
+ {
+  "key": "No checklist progress file was generated for this build.",
+  "vi": "Bản dựng này chưa có tệp tiến độ danh mục."
+ },
+ {
+  "key": "No messages yet.",
+  "vi": "Chưa có tin nhắn."
+ },
+ {
+  "key": "No saved game in this browser yet",
+  "vi": "Chưa có ván nào được lưu trên trình duyệt này"
+ },
+ {
+  "key": "normal",
+  "vi": "Bình thường"
+ },
+ {
+  "key": "hard",
+  "vi": "Khó"
+ },
+ {
+  "key": "Not connected",
+  "vi": "Chưa kết nối"
+ },
+ {
+  "key": "Not ready",
+  "vi": "Chưa sẵn sàng"
+ },
+ {
+  "key": "Open seat",
+  "vi": "Chỗ trống"
+ },
+ {
+  "key": "Open the room",
+  "vi": "Mở phòng"
+ },
+ {
+  "key": "Other scenarios are not covered by the supplied scenario book, so they are not offered here.",
+  "vi": "Các kịch bản khác không có trong sách kịch bản được cung cấp nên không được đưa vào đây."
+ },
+ {
+  "key": "Overlay",
+  "vi": "Lớp phủ"
+ },
+ {
+  "key": "Population",
+  "vi": "Dân số"
+ },
+ {
+  "key": "R",
+  "vi": "V"
+ },
+ {
+  "key": "Random seed",
+  "vi": "Hạt giống ngẫu nhiên"
+ },
+ {
+  "key": "Raising the city models",
+  "vi": "Đang dựng mô hình thành phố"
+ },
+ {
+  "key": "Read only",
+  "vi": "Chỉ xem"
+ },
+ {
+  "key": "Reconnecting",
+  "vi": "Đang kết nối lại"
+ },
+ {
+  "key": "Reconnecting to the room…",
+  "vi": "Đang kết nối lại với phòng…"
+ },
+ {
+  "key": "Rejoin room",
+  "vi": "Vào lại phòng"
+ },
+ {
+  "key": "Reset to defaults",
+  "vi": "Đặt lại mặc định"
+ },
+ {
+  "key": "Resume",
+  "vi": "Tiếp tục chơi"
+ },
+ {
+  "key": "Return to the main menu",
+  "vi": "Quay về menu chính"
+ },
+ {
+  "key": "Room",
+  "vi": "Phòng"
+ },
+ {
+  "key": "Room code",
+  "vi": "Mã phòng"
+ },
+ {
+  "key": "Room code copied.",
+  "vi": "Đã sao chép mã phòng."
+ },
+ {
+  "key": "Room code:",
+  "vi": "Mã phòng:"
+ },
+ {
+  "key": "Room codes have six letters.",
+  "vi": "Mã phòng gồm sáu chữ cái."
+ },
+ {
+  "key": "Room name",
+  "vi": "Tên phòng"
+ },
+ {
+  "key": "Round 1 of 15",
+  "vi": "Vòng {0} trên {1}"
+ },
+ {
+  "key": "Rounds survived",
+  "vi": "Số vòng đã sống sót"
+ },
+ {
+  "key": "Rules",
+  "vi": "Luật chơi"
+ },
+ {
+  "key": "Rules & table",
+  "vi": "Luật & bàn chơi"
+ },
+ {
+  "key": "Rules checklist progress",
+  "vi": "Tiến độ danh mục luật"
+ },
+ {
+  "key": "Rules engine pending",
+  "vi": "Bộ luật chơi chưa sẵn sàng"
+ },
+ {
+  "key": "Save and return to menu",
+  "vi": "Lưu và quay về menu"
+ },
+ {
+  "key": "Say something to the table",
+  "vi": "Nói điều gì đó với cả bàn"
+ },
+ {
+  "key": "Scenario",
+  "vi": "Kịch bản"
+ },
+ {
+  "key": "Seats",
+  "vi": "Chỗ"
+ },
+ {
+  "key": "Seats can be changed in the lobby before the game starts.",
+  "vi": "Có thể đổi số chỗ ở sảnh chờ trước khi ván bắt đầu."
+ },
+ {
+  "key": "Seed",
+  "vi": "Hạt giống"
+ },
+ {
+  "key": "Seed 1. The same settings and seed give the same game.",
+  "vi": "Hạt giống {0}. Cùng cài đặt và hạt giống sẽ cho cùng một ván chơi."
+ },
+ {
+  "key": "Send",
+  "vi": "Gửi"
+ },
+ {
+  "key": "Setting the fonts",
+  "vi": "Đang tải phông chữ"
+ },
+ {
+  "key": "Settings",
+  "vi": "Cài đặt"
+ },
+ {
+  "key": "Settler",
+  "vi": "Người định cư"
+ },
+ {
+  "key": "Shuffle",
+  "vi": "Xáo trộn"
+ },
+ {
+  "key": "Sick citizens",
+  "vi": "Công dân bị bệnh"
+ },
+ {
+  "key": "Skip",
+  "vi": "Bỏ qua"
+ },
+ {
+  "key": "Social",
+  "vi": "Xã hội"
+ },
+ {
+  "key": "Society",
+  "vi": "Society"
+ },
+ {
+  "key": "Society card",
+  "vi": "Thẻ xã hội"
+ },
+ {
+  "key": "Sound effect volume",
+  "vi": "Âm lượng hiệu ứng"
+ },
+ {
+  "key": "Sound effects · 50%",
+  "vi": "Hiệu ứng âm thanh · {0}%"
+ },
+ {
+  "key": "Stoking the generator",
+  "vi": "Đang nạp nhiên liệu cho máy phát"
+ },
+ {
+  "key": "Start the game",
+  "vi": "Bắt đầu ván"
+ },
+ {
+  "key": "Storm card",
+  "vi": "Thẻ Storm"
+ },
+ {
+  "key": "Summary",
+  "vi": "Tổng kết"
+ },
+ {
+  "key": "Technologies completed",
+  "vi": "Công nghệ đã hoàn thành"
+ },
+ {
+  "key": "The Board Game · Web Edition",
+  "vi": "Board game · Bản web"
+ },
+ {
+  "key": "The city endures",
+  "vi": "Thành phố vẫn trụ vững"
+ },
+ {
+  "key": "The city has fallen",
+  "vi": "Thành phố đã sụp đổ"
+ },
+ {
+  "key": "The co-op seat could not be resumed. Join again with the room code.",
+  "vi": "Không thể khôi phục chỗ ngồi hợp tác. Hãy vào lại bằng mã phòng."
+ },
+ {
+  "key": "The engine exports are not complete in this build yet",
+  "vi": "Bản dựng này chưa hoàn thiện phần xuất của bộ luật chơi"
+ },
+ {
+  "key": "The host shares the six-letter code. You take the first free seat.",
+  "vi": "Chủ phòng chia sẻ mã sáu chữ cái. Bạn sẽ vào chỗ trống đầu tiên."
+ },
+ {
+  "key": "The log is empty.",
+  "vi": "Nhật ký trống."
+ },
+ {
+  "key": "The rulebook is not part of this build. It appears here once the asset manifest lists the PDF.",
+  "vi": "Sách luật không có trong bản dựng này. Sách sẽ hiện ở đây khi danh mục tài nguyên liệt kê tệp PDF."
+ },
+ {
+  "key": "The same seed and options give the same deck order and map.",
+  "vi": "Cùng hạt giống và tùy chọn sẽ cho cùng thứ tự bộ bài và bản đồ."
+ },
+ {
+  "key": "The seed must be a whole number up to 10 digits.",
+  "vi": "Hạt giống phải là số nguyên tối đa {0} chữ số."
+ },
+ {
+  "key": "This screen",
+  "vi": "Màn hình này"
+ },
+ {
+  "key": "Turn sound off",
+  "vi": "Tắt âm thanh"
+ },
+ {
+  "key": "Turn sound on",
+  "vi": "Bật âm thanh"
+ },
+ {
+  "key": "Unofficial fan project. Frostpunk and its artwork, sounds and models belong to their rights holders.",
+  "vi": "Dự án fan không chính thức. Frostpunk cùng hình ảnh, âm thanh và mô hình thuộc về chủ sở hữu bản quyền."
+ },
+ {
+  "key": "Victory",
+  "vi": "Chiến thắng"
+ },
+ {
+  "key": "Waiting for another player",
+  "vi": "Đang chờ người chơi khác"
+ },
+ {
+  "key": "Waiting to be seated",
+  "vi": "Đang chờ được xếp chỗ"
+ },
+ {
+  "key": "Wood",
+  "vi": "Gỗ"
+ },
+ {
+  "key": "Workers and construction",
+  "vi": "Công nhân và xây dựng"
+ },
+ {
+  "key": "Workers · Engineers · Children",
+  "vi": "Công nhân · Kỹ sư · Trẻ em"
+ },
+ {
+  "key": "Ready",
+  "vi": "Sẵn sàng"
+ },
+ {
+  "key": "You",
+  "vi": "Bạn"
+ },
+ {
+  "key": "You left the table. Your seat is kept for you.",
+  "vi": "Bạn đã rời bàn. Chỗ của bạn được giữ lại."
+ },
+ {
+  "key": "Your name",
+  "vi": "Tên của bạn"
+ },
+ {
+  "key": "Your name at the table",
+  "vi": "Tên của bạn trên bàn"
+ },
+ {
+  "key": "0 of 1 to 3 chosen",
+  "vi": "Đã chọn {0} trên {1} đến {2}"
+ },
+ {
+  "key": "0 of 2 chosen",
+  "vi": "Đã chọn {0} trên {1}"
+ },
+ {
+  "key": "0 done",
+  "vi": "{0} xong"
+ },
+ {
+  "key": "0 open",
+  "vi": "{0} chưa làm"
+ },
+ {
+  "key": "0 partial",
+  "vi": "{0} một phần"
+ },
+ {
+  "key": "2 players",
+  "vi": "{0} người chơi"
+ },
+ {
+  "key": "0 tokens, 0 active",
+  "vi": "{0} dấu, {1} đang hoạt động"
+ },
+ {
+  "key": "2 players are seated and only 1 Advisor is chosen. Choose at least 2, or none.",
+  "vi": "{0} người đã vào bàn nhưng chỉ chọn {1} Advisor. Hãy chọn ít nhất {2} Advisor, hoặc không chọn gì."
+ },
+ {
+  "key": "3 players are seated and only 2 Advisors are chosen. Choose at least 3, or none.",
+  "vi": "{0} người đã vào bàn nhưng chỉ chọn {1} Advisor. Hãy chọn ít nhất {2} Advisor, hoặc không chọn gì."
+ },
+ {
+  "key": "Host a co-op room",
+  "vi": "Tạo phòng hợp tác"
+ },
+ {
+  "key": "Join a co-op room",
+  "vi": "Vào phòng hợp tác"
+ }
+]

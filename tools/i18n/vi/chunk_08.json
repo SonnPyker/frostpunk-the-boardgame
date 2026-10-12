@@ -1,0 +1,934 @@
+[
+ {
+  "key": "Refugees from the Fallen Settlement",
+  "vi": "Người tị nạn từ khu định cư đổ nát"
+ },
+ {
+  "key": "Refugees from the Fallen Settlement (D0{0})",
+  "vi": "Người tị nạn từ khu định cư đổ nát (D0{0})"
+ },
+ {
+  "key": "Refugees from the Fallen Settlement was removed from the game",
+  "vi": "Người tị nạn từ khu định cư đổ nát đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Refugees was removed from the game",
+  "vi": "Người tị nạn đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Regarded them with disdain",
+  "vi": "Nhìn họ với vẻ khinh miệt"
+ },
+ {
+  "key": "Relentless Rats",
+  "vi": "Bầy chuột dai dẳng"
+ },
+ {
+  "key": "Relentless Rats (M0{0})",
+  "vi": "Bầy chuột dai dẳng (M0{0})"
+ },
+ {
+  "key": "Relentless Rats was removed from the game",
+  "vi": "Bầy chuột dai dẳng đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Relics of the Past",
+  "vi": "Di vật của quá khứ"
+ },
+ {
+  "key": "Relics of the Past (M0{0})",
+  "vi": "Di vật của quá khứ (M0{0})"
+ },
+ {
+  "key": "Relics of the Past was removed from the game",
+  "vi": "Di vật của quá khứ đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Remove {0} Coal from M0{1}",
+  "vi": "Gỡ bỏ {0} Than khỏi M0{1}"
+ },
+ {
+  "key": "Remove {0} Resource(s) from the Map",
+  "vi": "Gỡ bỏ {0} Tài nguyên khỏi Bản đồ"
+ },
+ {
+  "key": "Remove {0} Wood from M0{1}",
+  "vi": "Gỡ bỏ {0} Gỗ khỏi M0{1}"
+ },
+ {
+  "key": "Remove all Stress cubes",
+  "vi": "Gỡ bỏ tất cả khối Căng thẳng"
+ },
+ {
+  "key": "Remove exhausted Anger from the track",
+  "vi": "Gỡ bỏ Anger đã dùng hết khỏi đường đếm"
+ },
+ {
+  "key": "Remove exhausted Apathy from the track",
+  "vi": "Gỡ bỏ Apathy đã dùng hết khỏi đường đếm"
+ },
+ {
+  "key": "Remove exhausted Care from the track",
+  "vi": "Gỡ bỏ Care đã dùng hết khỏi đường đếm"
+ },
+ {
+  "key": "Remove exhausted Greed from the track",
+  "vi": "Gỡ bỏ Greed đã dùng hết khỏi đường đếm"
+ },
+ {
+  "key": "Remove exhausted Justice from the track",
+  "vi": "Gỡ bỏ Justice đã dùng hết khỏi đường đếm"
+ },
+ {
+  "key": "Remove exhausted Motivation from the track",
+  "vi": "Gỡ bỏ Motivation đã dùng hết khỏi đường đếm"
+ },
+ {
+  "key": "Remove M0{0} from the Event display",
+  "vi": "Gỡ bỏ M0{0} khỏi bảng Sự kiện"
+ },
+ {
+  "key": "Remove Snow ({0} Near or {1} Far tile)",
+  "vi": "Gỡ bỏ tuyết ({0} mảnh Gần hoặc {1} mảnh Xa)"
+ },
+ {
+  "key": "Remove Snow: place two Near tiles, or one Far tile?",
+  "vi": "Gỡ bỏ tuyết: đặt hai mảnh Gần, hay một mảnh Xa?"
+ },
+ {
+  "key": "Remove this card",
+  "vi": "Gỡ bỏ thẻ này"
+ },
+ {
+  "key": "Remove up to {0} Stress cubes",
+  "vi": "Gỡ bỏ tối đa {0} khối Căng thẳng"
+ },
+ {
+  "key": "Remove up to {0} Stress cubes  OR  Gain Food equal to the Round",
+  "vi": "Gỡ bỏ tối đa {0} khối Căng thẳng  HOẶC  Nhận Thực phẩm bằng số Vòng"
+ },
+ {
+  "key": "Remove up to {0} Stress cubes  OR  Pay {1} Steam Core, Remove all Stress cubes, Special effect (generatorUpgradeOnFirstCore)",
+  "vi": "Gỡ bỏ tối đa {0} khối Căng thẳng  HOẶC  Trả {1} Steam Core, gỡ bỏ tất cả khối Căng thẳng, hiệu ứng đặc biệt (generatorUpgradeOnFirstCore)"
+ },
+ {
+  "key": "Remove up to {0} Stress cubes  OR  Upgrade a Building for free",
+  "vi": "Gỡ bỏ tối đa {0} khối Căng thẳng  HOẶC  Nâng cấp một Công trình miễn phí"
+ },
+ {
+  "key": "Remove up to {0} Stress cubes from the Stress track.",
+  "vi": "Gỡ bỏ tối đa {0} khối Căng thẳng khỏi đường Căng thẳng."
+ },
+ {
+  "key": "Remove up to <n> | removeStress Stress cubes",
+  "vi": "Gỡ bỏ tối đa <n> | removeStress khối Căng thẳng"
+ },
+ {
+  "key": "Removed a Tree and gained {0} wood",
+  "vi": "Đã chặt một Cây và nhận {0} gỗ"
+ },
+ {
+  "key": "removeSpentUnoccupied:{0}  OR  Reuse a Worker (take another action)",
+  "vi": "removeSpentUnoccupied:{0}  HOẶC  Dùng lại một Công nhân (thực hiện thêm một hành động)"
+ },
+ {
+  "key": "Repair: spend {0} Steam Core, Automaton to the supply",
+  "vi": "Sửa chữa: chi {0} Steam Core, đưa Automaton về kho chung"
+ },
+ {
+  "key": "Replace an unoccupied Expedition stack with a B Expedition card and Deploy a Scout to it.",
+  "vi": "Thay một chồng Expedition trống bằng thẻ Expedition loại B và triển khai một Scout vào đó."
+ },
+ {
+  "key": "Replace the action with a Citizen card?",
+  "vi": "Thay hành động bằng một thẻ Công dân?"
+ },
+ {
+  "key": "Resources gathered",
+  "vi": "Đã thu thập tài nguyên"
+ },
+ {
+  "key": "Resources spent/lost: coal",
+  "vi": "Tài nguyên đã chi/mất: than"
+ },
+ {
+  "key": "Resources spent/lost: coal, coal",
+  "vi": "Tài nguyên đã chi/mất: than, than"
+ },
+ {
+  "key": "Resources spent/lost: coal, coal, coal",
+  "vi": "Tài nguyên đã chi/mất: than, than, than"
+ },
+ {
+  "key": "Resources spent/lost: coal, coal, wood",
+  "vi": "Tài nguyên đã chi/mất: than, than, gỗ"
+ },
+ {
+  "key": "Resources spent/lost: coal, steel, wood",
+  "vi": "Tài nguyên đã chi/mất: than, thép, gỗ"
+ },
+ {
+  "key": "Resources spent/lost: coal, wood",
+  "vi": "Tài nguyên đã chi/mất: than, gỗ"
+ },
+ {
+  "key": "Resources spent/lost: core",
+  "vi": "Tài nguyên đã chi/mất: Steam Core"
+ },
+ {
+  "key": "Resources spent/lost: core, coal",
+  "vi": "Tài nguyên đã chi/mất: Steam Core, than"
+ },
+ {
+  "key": "Resources spent/lost: core, coal, coal",
+  "vi": "Tài nguyên đã chi/mất: Steam Core, than, than"
+ },
+ {
+  "key": "Resources spent/lost: steel",
+  "vi": "Tài nguyên đã chi/mất: thép"
+ },
+ {
+  "key": "Resources spent/lost: wood, core, coal",
+  "vi": "Tài nguyên đã chi/mất: gỗ, Steam Core, than"
+ },
+ {
+  "key": "Resources spent/lost: wood, wood",
+  "vi": "Tài nguyên đã chi/mất: gỗ, gỗ"
+ },
+ {
+  "key": "Resources were placed on A New Project",
+  "vi": "Tài nguyên đã được đặt lên Dự án mới"
+ },
+ {
+  "key": "Resources were placed on Comfort the Sick",
+  "vi": "Tài nguyên đã được đặt lên An ủi người bệnh"
+ },
+ {
+  "key": "Resources were placed on Wooden Toys",
+  "vi": "Tài nguyên đã được đặt lên Đồ chơi gỗ"
+ },
+ {
+  "key": "Rested Mind, Healthy Body",
+  "vi": "Tinh thần thư thái, thân thể khỏe mạnh"
+ },
+ {
+  "key": "Results of the Survey",
+  "vi": "Kết quả khảo sát"
+ },
+ {
+  "key": "return",
+  "vi": "quay về"
+ },
+ {
+  "key": "Return all Scouts from Expeditions without collecting rewards.",
+  "vi": "Đưa tất cả Scout về từ các Expedition mà không nhận phần thưởng."
+ },
+ {
+  "key": "Return to your tribe.",
+  "vi": "Quay về bộ lạc của bạn."
+ },
+ {
+  "key": "returnSpentCitizenTokens:upTo2",
+  "vi": "returnSpentCitizenTokens:upTo2"
+ },
+ {
+  "key": "Reuse a Building",
+  "vi": "Dùng lại một Công trình"
+ },
+ {
+  "key": "Reuse a Building. This action counts as heated.",
+  "vi": "Dùng lại một Công trình. Hành động này được tính là heated."
+ },
+ {
+  "key": "Reuse a Worker (take another action)",
+  "vi": "Dùng lại một Công nhân (thực hiện thêm một hành động)"
+ },
+ {
+  "key": "Reuse which occupied Building?",
+  "vi": "Dùng lại Công trình nào đang có người?"
+ },
+ {
+  "key": "Reuse which Worker?",
+  "vi": "Dùng lại Công nhân nào?"
+ },
+ {
+  "key": "Reveal {0} Dusk cards. You may choose {1} to place on the Dusk discard pile without carrying out its effect. Place the other {2} back in the Dusk deck. Cards with the red Dusk discard pile symbol cannot be chosen.",
+  "vi": "Lật {0} thẻ Dusk. Có thể chọn {1} thẻ để đặt vào chồng bỏ Dusk mà không thực hiện hiệu ứng của thẻ. Đặt {2} thẻ còn lại trở lại bộ Dusk. Không thể chọn các thẻ có biểu tượng chồng bỏ Dusk màu đỏ."
+ },
+ {
+  "key": "Reveal {0} Far tiles and place each on either the top or bottom of the Far tiles stack.",
+  "vi": "Lật {0} mảnh Xa và đặt mỗi mảnh lên trên hoặc dưới chồng mảnh Xa."
+ },
+ {
+  "key": "Revealed Far tiles F0{0}, F0{1}, F0{2}",
+  "vi": "Đã lật các mảnh Xa F0{0}, F0{1}, F0{2}"
+ },
+ {
+  "key": "Revealed Far tiles F0{0}, F0{1}, F1{2}",
+  "vi": "Đã lật các mảnh Xa F0{0}, F0{1}, F1{2}"
+ },
+ {
+  "key": "Revealed Far tiles F0{0}, F1{1}, F0{2}",
+  "vi": "Đã lật các mảnh Xa F0{0}, F1{1}, F0{2}"
+ },
+ {
+  "key": "Revealed Far tiles F0{0}, F1{1}, F1{2}",
+  "vi": "Đã lật các mảnh Xa F0{0}, F1{1}, F1{2}"
+ },
+ {
+  "key": "Revealed Far tiles F1{0}, F0{1}, F0{2}",
+  "vi": "Đã lật các mảnh Xa F1{0}, F0{1}, F0{2}"
+ },
+ {
+  "key": "Revealed Far tiles F1{0}, F0{1}, F1{2}",
+  "vi": "Đã lật các mảnh Xa F1{0}, F0{1}, F1{2}"
+ },
+ {
+  "key": "Revealed Far tiles F1{0}, F1{1}, F0{2}",
+  "vi": "Đã lật các mảnh Xa F1{0}, F1{1}, F0{2}"
+ },
+ {
+  "key": "Reward for each rat tail",
+  "vi": "Phần thưởng cho mỗi đuôi chuột"
+ },
+ {
+  "key": "Rim Deposits: {0}",
+  "vi": "Mỏ ở rìa: {0}"
+ },
+ {
+  "key": "Riot",
+  "vi": "Bạo loạn"
+ },
+ {
+  "key": "Riot (D0{0})",
+  "vi": "Bạo loạn (D0{0})"
+ },
+ {
+  "key": "Riot was removed from the game",
+  "vi": "Bạo loạn đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Round {0}",
+  "vi": "Vòng {0}"
+ },
+ {
+  "key": "Round {0} - replaces the normal Round",
+  "vi": "Vòng {0} - thay thế Vòng thông thường"
+ },
+ {
+  "key": "Round {0} begins",
+  "vi": "Vòng {0} bắt đầu"
+ },
+ {
+  "key": "Rufus Gladstone",
+  "vi": "Rufus Gladstone"
+ },
+ {
+  "key": "Rufus Gladstone (worker)",
+  "vi": "Rufus Gladstone (Công nhân)"
+ },
+ {
+  "key": "Ruins",
+  "vi": "Tàn tích"
+ },
+ {
+  "key": "Rules are rules",
+  "vi": "Luật là luật"
+ },
+ {
+  "key": "Run back!",
+  "vi": "Chạy về!"
+ },
+ {
+  "key": "Rush to help rescue those buried alive.",
+  "vi": "Lao đến giúp cứu những người bị chôn vùi còn sống."
+ },
+ {
+  "key": "S0{0} and S0{1} are mutually exclusive (S0{2} places S0{3} only if S0{4} has not been revealed; S0{5}@{6} places S0{7} only if S0{8} has not been revealed).",
+  "vi": "S0{0} và S0{1} loại trừ lẫn nhau (S0{2} chỉ đặt S0{3} nếu S0{4} chưa được lật; S0{5}@{6} chỉ đặt S0{7} nếu S0{8} chưa được lật)."
+ },
+ {
+  "key": "Salvage: gain {0} Steam Core, Automaton to the bank",
+  "vi": "Thu hồi: nhận {0} Steam Core, đưa Automaton vào kho chung"
+ },
+ {
+  "key": "Same as S0{0} but {1} slots and no Hope penalty when placed.",
+  "vi": "Giống S0{0} nhưng có {1} ô và không bị trừ Hope khi đặt."
+ },
+ {
+  "key": "Sawmill",
+  "vi": "Xưởng cưa"
+ },
+ {
+  "key": "Sawmill ({0} Wood)",
+  "vi": "Xưởng cưa ({0} Gỗ)"
+ },
+ {
+  "key": "Sawmill (free)",
+  "vi": "Xưởng cưa (miễn phí)"
+ },
+ {
+  "key": "Sawmill at Generator tile (UL)",
+  "vi": "Xưởng cưa tại mảnh Generator (UL)"
+ },
+ {
+  "key": "Sawmill at Generator tile (UR)",
+  "vi": "Xưởng cưa tại mảnh Generator (UR)"
+ },
+ {
+  "key": "Sawmill at N0{0} bottom",
+  "vi": "Xưởng cưa ở mép dưới N0{0}"
+ },
+ {
+  "key": "Sawmill at N0{0} top",
+  "vi": "Xưởng cưa ở mép trên N0{0}"
+ },
+ {
+  "key": "Sawmill at N1{0} bottom",
+  "vi": "Xưởng cưa ở mép dưới N1{0}"
+ },
+ {
+  "key": "Sawmill built",
+  "vi": "Đã xây Xưởng cưa"
+ },
+ {
+  "key": "Sawmill dismantled",
+  "vi": "Đã tháo dỡ Xưởng cưa"
+ },
+ {
+  "key": "Scavenge and head back.",
+  "vi": "Lục soát rồi quay về."
+ },
+ {
+  "key": "Scenario A New Home: Crater set up",
+  "vi": "Kịch bản Mái nhà mới: đã thiết lập Crater"
+ },
+ {
+  "key": "Scenario A New Home: Dreadnought set up",
+  "vi": "Kịch bản Mái nhà mới: đã thiết lập Dreadnought"
+ },
+ {
+  "key": "Scenario A New Home: Frozen Grove set up",
+  "vi": "Kịch bản Mái nhà mới: đã thiết lập Frozen Grove"
+ },
+ {
+  "key": "Scout deployed on A Letter in the Snow (A) - X1{0}",
+  "vi": "Scout được triển khai tới Lá thư trong tuyết (A) - X1{0}"
+ },
+ {
+  "key": "Scout deployed on A Matter of Life and Death (A) - X0{0}",
+  "vi": "Scout được triển khai tới Vấn đề sinh tử (A) - X0{0}"
+ },
+ {
+  "key": "Scout deployed on A Scene of Terrible Beauty (A) - X0{0}",
+  "vi": "Scout được triển khai tới Cảnh đẹp đáng sợ (A) - X0{0}"
+ },
+ {
+  "key": "Scout deployed on Black Gold Rush (A) - X0{0}",
+  "vi": "Scout được triển khai tới Cơn sốt vàng đen (A) - X0{0}"
+ },
+ {
+  "key": "Scout deployed on Cabin in the Woods (A) - X0{0}",
+  "vi": "Scout được triển khai tới Nhà gỗ trong rừng (A) - X0{0}"
+ },
+ {
+  "key": "Scout deployed on Hades (A) - X0{0}",
+  "vi": "Scout được triển khai tới Hades (A) - X0{0}"
+ },
+ {
+  "key": "Scout deployed on Mushroom Kingdom (A) - X1{0}",
+  "vi": "Scout được triển khai tới Vương quốc Nấm (A) - X1{0}"
+ },
+ {
+  "key": "Scout deployed on Not a Fairy Tale (A) - X0{0}",
+  "vi": "Scout được triển khai tới Không phải chuyện cổ tích (A) - X0{0}"
+ },
+ {
+  "key": "Scout deployed on The Other Side (A) - X1{0}",
+  "vi": "Scout được triển khai tới Phía bên kia (A) - X1{0}"
+ },
+ {
+  "key": "Scout deployed on The Thing We Found (A) - X0{0}",
+  "vi": "Scout được triển khai tới Thứ chúng ta đã tìm thấy (A) - X0{0}"
+ },
+ {
+  "key": "Scout deployed on Valley of Shadows (B) - X2{0}",
+  "vi": "Scout được triển khai tới Thung lũng bóng tối (B) - X2{0}"
+ },
+ {
+  "key": "Scout deployed on White Lies (B) - X2{0}",
+  "vi": "Scout được triển khai tới Lời nói dối vô hại (B) - X2{0}"
+ },
+ {
+  "key": "Scout reached the last space of X0{0}",
+  "vi": "Scout đã tới ô cuối của X0{0}"
+ },
+ {
+  "key": "Scout reached the last space of X1{0}",
+  "vi": "Scout đã tới ô cuối của X1{0}"
+ },
+ {
+  "key": "Scout reached the last space of X2{0}",
+  "vi": "Scout đã tới ô cuối của X2{0}"
+ },
+ {
+  "key": "Scout reached the last space of X3{0}",
+  "vi": "Scout đã tới ô cuối của X3{0}"
+ },
+ {
+  "key": "Scout returned from X0{0}",
+  "vi": "Scout đã quay về từ X0{0}"
+ },
+ {
+  "key": "Scout returned from X1{0}",
+  "vi": "Scout đã quay về từ X1{0}"
+ },
+ {
+  "key": "Scout returned from X2{0}",
+  "vi": "Scout đã quay về từ X2{0}"
+ },
+ {
+  "key": "Scout returned from X3{0}",
+  "vi": "Scout đã quay về từ X3{0}"
+ },
+ {
+  "key": "Scrap it all for parts",
+  "vi": "Tháo dỡ tất cả lấy linh kiện"
+ },
+ {
+  "key": "Securing cooperation might prove invaluable",
+  "vi": "Đảm bảo sự hợp tác có thể vô giá"
+ },
+ {
+  "key": "Select one street to become the red light district",
+  "vi": "Chọn một con phố để trở thành khu đèn đỏ"
+ },
+ {
+  "key": "Send a rescue team immediately",
+  "vi": "Lập tức cử đội cứu hộ"
+ },
+ {
+  "key": "Send an engineer to reeducate him",
+  "vi": "Cử một Kỹ sư đến tái giáo dục hắn"
+ },
+ {
+  "key": "Send engineers to teach them",
+  "vi": "Cử các Kỹ sư đến dạy họ"
+ },
+ {
+  "key": "Send guards to destroy it",
+  "vi": "Cử lính gác đi phá hủy nó"
+ },
+ {
+  "key": "Send our men to soften him up",
+  "vi": "Cử người của ta đến gây áp lực lên hắn"
+ },
+ {
+  "key": "Send out an expedition",
+  "vi": "Cử một Expedition đi"
+ },
+ {
+  "key": "Send someone sensible to talk with them",
+  "vi": "Cử một người điềm tĩnh đến nói chuyện với họ"
+ },
+ {
+  "key": "Send them away",
+  "vi": "Đuổi họ đi"
+ },
+ {
+  "key": "Send them to look for another place to live.",
+  "vi": "Đưa họ đi tìm nơi ở khác."
+ },
+ {
+  "key": "Send trusted men to take care of the subject",
+  "vi": "Cử những người đáng tin đi xử lý đối tượng"
+ },
+ {
+  "key": "Send workers to dig it out",
+  "vi": "Cử Công nhân đi đào nó lên"
+ },
+ {
+  "key": "Send workers to teach them",
+  "vi": "Cử Công nhân đến dạy họ"
+ },
+ {
+  "key": "Separate the strong from the weak.",
+  "vi": "Tách kẻ mạnh khỏi kẻ yếu."
+ },
+ {
+  "key": "Set fire to this shameful place.",
+  "vi": "Đốt trụi nơi đáng hổ thẹn này."
+ },
+ {
+  "key": "Set up guards at the kitchen",
+  "vi": "Đặt lính gác ở nhà bếp"
+ },
+ {
+  "key": "Set-up complete: Round {0} starts at the Action phase",
+  "vi": "Thiết lập hoàn tất: Vòng {0} bắt đầu ở giai đoạn Hành động"
+ },
+ {
+  "key": "Setup: discard one of your Citizen cards (pay its starting cost)",
+  "vi": "Thiết lập: bỏ một thẻ Công dân của bạn (trả chi phí khởi đầu của thẻ đó)"
+ },
+ {
+  "key": "Shared Knowledge",
+  "vi": "Tri thức chung"
+ },
+ {
+  "key": "She must be stopped",
+  "vi": "Phải ngăn cô ta lại"
+ },
+ {
+  "key": "Show mercy",
+  "vi": "Tỏ lòng thương xót"
+ },
+ {
+  "key": "Shuffle back into the Dusk deck",
+  "vi": "Xáo trộn lại vào bộ Dusk"
+ },
+ {
+  "key": "sickPerChildMeeple",
+  "vi": "sickPerChildMeeple"
+ },
+ {
+  "key": "sickPerChildMeeple  OR  Destroy a Building",
+  "vi": "sickPerChildMeeple  HOẶC  Phá hủy một Công trình"
+ },
+ {
+  "key": "Skip the location",
+  "vi": "Bỏ qua địa điểm"
+ },
+ {
+  "key": "Sleeping arrangement trimmed by {0} to fit the shelters",
+  "vi": "Sắp xếp chỗ ngủ đã được cắt giảm {0} để vừa với các nơi trú ẩn"
+ },
+ {
+  "key": "Small Building dismantled to be moved",
+  "vi": "Công trình nhỏ được tháo dỡ để di chuyển"
+ },
+ {
+  "key": "Smile, and reach out to the boys.",
+  "vi": "Mỉm cười và tiến đến với các chàng trai."
+ },
+ {
+  "key": "Smoke and Mirrors",
+  "vi": "Khói và gương"
+ },
+ {
+  "key": "Smoke and Mirrors (A) - X0{0}",
+  "vi": "Khói và gương (A) - X0{0}"
+ },
+ {
+  "key": "Snow Pit",
+  "vi": "Hố tuyết"
+ },
+ {
+  "key": "Snow Pit (free)",
+  "vi": "Hố tuyết (miễn phí)"
+ },
+ {
+  "key": "Snow Pit built",
+  "vi": "Đã xây Hố tuyết"
+ },
+ {
+  "key": "Social Advisor",
+  "vi": "Advisor Xã hội"
+ },
+ {
+  "key": "Social Advisor ({P})",
+  "vi": "Advisor Xã hội ({P})"
+ },
+ {
+  "key": "Social Advisor (Solo)",
+  "vi": "Advisor Xã hội (Chơi đơn)"
+ },
+ {
+  "key": "Social Advisor is used",
+  "vi": "Advisor Xã hội đã được dùng"
+ },
+ {
+  "key": "Social Advisor: choose {0} card for the Dusk discard pile (no effect). The others go back into the Dusk deck.",
+  "vi": "Advisor Xã hội: chọn {0} thẻ cho chồng bỏ Dusk (không có hiệu ứng). Các thẻ còn lại trở lại bộ Dusk."
+ },
+ {
+  "key": "Social Equality",
+  "vi": "Bình đẳng xã hội"
+ },
+ {
+  "key": "Society card setup (deck {0}, {1}x4 sheet, idx = row-major). pop = starting citizens [worker, engineer, child]; sick = starting sick citizens [worker, engineer, child]; automaton = Automatons placed in supply. discontent/hope = [tokens drawn, how many of them start active (leftmost first), rest exhausted]. corpse = starting Corpse track space. Supplies: food, wood, coal, cores. Hunger starts at {2}. Food is then increased by Food bonuses on map tiles revealed in setup. Survivalist cards are the extra-pack difficulty (snowflake icon).",
+  "vi": "Thiết lập thẻ Society (bộ {0}, bảng {1}x4, idx = theo hàng, row-major). pop = Công dân khởi đầu [Công nhân, Kỹ sư, Trẻ em]; sick = Công dân bị bệnh khởi đầu [Công nhân, Kỹ sư, Trẻ em]; automaton = Automaton đặt trong kho chung. discontent/hope = [số dấu rút ra, bao nhiêu trong số đó bắt đầu ở trạng thái hoạt động (từ trái sang), phần còn lại đã dùng hết]. corpse = ô khởi đầu trên đường Corpse. Kho chung: thực phẩm, gỗ, than, Steam Core. Đói bắt đầu ở {2}. Sau đó Thực phẩm được tăng thêm nhờ các ô thưởng Thực phẩm trên mảnh bản đồ được lật khi thiết lập. Các thẻ Survivalist là độ khó của bộ mở rộng (biểu tượng bông tuyết)."
+ },
+ {
+  "key": "Solitude - The Foe of Sanity",
+  "vi": "Cô độc - Kẻ thù của lý trí"
+ },
+ {
+  "key": "Solo discarded Adele Quapinsky",
+  "vi": "Chơi đơn đã bỏ Adele Quapinsky"
+ },
+ {
+  "key": "Solo discarded Agnes Hamsterville",
+  "vi": "Chơi đơn đã bỏ Agnes Hamsterville"
+ },
+ {
+  "key": "Solo discarded Chrissy Klemowsky",
+  "vi": "Chơi đơn đã bỏ Chrissy Klemowsky"
+ },
+ {
+  "key": "Solo discarded Christina Marchant",
+  "vi": "Chơi đơn đã bỏ Christina Marchant"
+ },
+ {
+  "key": "Solo discarded Christina Wardrobe",
+  "vi": "Chơi đơn đã bỏ Christina Wardrobe"
+ },
+ {
+  "key": "Solo discarded Dave Tadel",
+  "vi": "Chơi đơn đã bỏ Dave Tadel"
+ },
+ {
+  "key": "Solo discarded Davetta Hen",
+  "vi": "Chơi đơn đã bỏ Davetta Hen"
+ },
+ {
+  "key": "Solo discarded Derek Allgire",
+  "vi": "Chơi đơn đã bỏ Derek Allgire"
+ },
+ {
+  "key": "Solo discarded Georgia Taller",
+  "vi": "Chơi đơn đã bỏ Georgia Taller"
+ },
+ {
+  "key": "Solo discarded Godna Grellak",
+  "vi": "Chơi đơn đã bỏ Godna Grellak"
+ },
+ {
+  "key": "Solo discarded Greg Bellowsky",
+  "vi": "Chơi đơn đã bỏ Greg Bellowsky"
+ },
+ {
+  "key": "Solo discarded Jacin Schock",
+  "vi": "Chơi đơn đã bỏ Jacin Schock"
+ },
+ {
+  "key": "Solo discarded Jesse Quackerson",
+  "vi": "Chơi đơn đã bỏ Jesse Quackerson"
+ },
+ {
+  "key": "Solo discarded Marshal Primislao",
+  "vi": "Chơi đơn đã bỏ Marshal Primislao"
+ },
+ {
+  "key": "Solo discarded Matilda Oakwood",
+  "vi": "Chơi đơn đã bỏ Matilda Oakwood"
+ },
+ {
+  "key": "Solo discarded Michael Ozone",
+  "vi": "Chơi đơn đã bỏ Michael Ozone"
+ },
+ {
+  "key": "Solo discarded Michael Plower",
+  "vi": "Chơi đơn đã bỏ Michael Plower"
+ },
+ {
+  "key": "Solo discarded Nathaniel Apfel",
+  "vi": "Chơi đơn đã bỏ Nathaniel Apfel"
+ },
+ {
+  "key": "Solo discarded Olivia Carebear",
+  "vi": "Chơi đơn đã bỏ Olivia Carebear"
+ },
+ {
+  "key": "Solo discarded Paolo Feldman",
+  "vi": "Chơi đơn đã bỏ Paolo Feldman"
+ },
+ {
+  "key": "Solo discarded Pat O'Bara",
+  "vi": "Chơi đơn đã bỏ Pat O'Bara"
+ },
+ {
+  "key": "Solo discarded Paul Unclestone",
+  "vi": "Chơi đơn đã bỏ Paul Unclestone"
+ },
+ {
+  "key": "Solo discarded Pauline Grogan",
+  "vi": "Chơi đơn đã bỏ Pauline Grogan"
+ },
+ {
+  "key": "Solo discarded Peter Byerush",
+  "vi": "Chơi đơn đã bỏ Peter Byerush"
+ },
+ {
+  "key": "Solo discarded Phillipa Bullsky",
+  "vi": "Chơi đơn đã bỏ Phillipa Bullsky"
+ },
+ {
+  "key": "Solo discarded Rafael Curae",
+  "vi": "Chơi đơn đã bỏ Rafael Curae"
+ },
+ {
+  "key": "Solo discarded Rufus Gladstone",
+  "vi": "Chơi đơn đã bỏ Rufus Gladstone"
+ },
+ {
+  "key": "Solo discards a Child Citizen card",
+  "vi": "Chơi đơn bỏ một thẻ Công dân Trẻ em"
+ },
+ {
+  "key": "Solo discards a Worker Citizen card",
+  "vi": "Chơi đơn bỏ một thẻ Công dân Công nhân"
+ },
+ {
+  "key": "Solo discards Adele Quapinsky: death effect (Engineer)",
+  "vi": "Chơi đơn bỏ Adele Quapinsky: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "Solo discards Agnes Hamsterville: death effect (Engineer)",
+  "vi": "Chơi đơn bỏ Agnes Hamsterville: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "Solo discards an Engineer Citizen card",
+  "vi": "Chơi đơn bỏ một thẻ Công dân Kỹ sư"
+ },
+ {
+  "key": "Solo discards Caroline O'Hare: death effect (Worker)",
+  "vi": "Chơi đơn bỏ Caroline O'Hare: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "Solo discards Chrissy Klemowsky: death effect (Worker)",
+  "vi": "Chơi đơn bỏ Chrissy Klemowsky: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "Solo discards Christina Marchant: death effect (Engineer)",
+  "vi": "Chơi đơn bỏ Christina Marchant: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "Solo discards Christina Wardrobe: death effect (Child)",
+  "vi": "Chơi đơn bỏ Christina Wardrobe: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "Solo discards Dave Tadel: death effect (Worker)",
+  "vi": "Chơi đơn bỏ Dave Tadel: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "Solo discards Davetta Hen: death effect (Engineer)",
+  "vi": "Chơi đơn bỏ Davetta Hen: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "Solo discards Derek Allgire: death effect (Engineer)",
+  "vi": "Chơi đơn bỏ Derek Allgire: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "Solo discards Georgia Taller: death effect (Worker)",
+  "vi": "Chơi đơn bỏ Georgia Taller: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "Solo discards Godna Grellak: death effect (Child)",
+  "vi": "Chơi đơn bỏ Godna Grellak: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "Solo discards Greg Bellowsky: death effect (Worker)",
+  "vi": "Chơi đơn bỏ Greg Bellowsky: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "Solo discards Jesse Quackerson: death effect (Engineer)",
+  "vi": "Chơi đơn bỏ Jesse Quackerson: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "Solo discards Margaret Ozone: death effect (Child)",
+  "vi": "Chơi đơn bỏ Margaret Ozone: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "Solo discards Marshal Primislao: death effect (Engineer)",
+  "vi": "Chơi đơn bỏ Marshal Primislao: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "Solo discards Matilda Oakwood: death effect (Worker)",
+  "vi": "Chơi đơn bỏ Matilda Oakwood: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "Solo discards Michael Ozone: death effect (Child)",
+  "vi": "Chơi đơn bỏ Michael Ozone: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "Solo discards Michael Plower: death effect (Child)",
+  "vi": "Chơi đơn bỏ Michael Plower: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "Solo discards Nathaniel Apfel: death effect (Child)",
+  "vi": "Chơi đơn bỏ Nathaniel Apfel: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "Solo discards Olivia Carebear: death effect (Worker)",
+  "vi": "Chơi đơn bỏ Olivia Carebear: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "Solo discards Paolo Feldman: death effect (Worker)",
+  "vi": "Chơi đơn bỏ Paolo Feldman: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "Solo discards Pat O'Bara: death effect (Worker)",
+  "vi": "Chơi đơn bỏ Pat O'Bara: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "Solo discards Patick McGretchak: death effect (Child)",
+  "vi": "Chơi đơn bỏ Patick McGretchak: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "Solo discards Paul Unclestone: death effect (Engineer)",
+  "vi": "Chơi đơn bỏ Paul Unclestone: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "Solo discards Pauline Grogan: death effect (Engineer)",
+  "vi": "Chơi đơn bỏ Pauline Grogan: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "Solo discards Peter Byerush: death effect (Child)",
+  "vi": "Chơi đơn bỏ Peter Byerush: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "Solo discards Phillipa Bullsky: death effect (Child)",
+  "vi": "Chơi đơn bỏ Phillipa Bullsky: hiệu ứng khi chết (Trẻ em)"
+ },
+ {
+  "key": "Solo discards Rafael Curae: death effect (Engineer)",
+  "vi": "Chơi đơn bỏ Rafael Curae: hiệu ứng khi chết (Kỹ sư)"
+ },
+ {
+  "key": "Solo discards Rufus Gladstone: death effect (Worker)",
+  "vi": "Chơi đơn bỏ Rufus Gladstone: hiệu ứng khi chết (Công nhân)"
+ },
+ {
+  "key": "Solo passes",
+  "vi": "Chơi đơn bỏ lượt"
+ },
+ {
+  "key": "Solo plays Adele Quapinsky (Perform {0} Workshop effects.)",
+  "vi": "Chơi đơn đánh thẻ Adele Quapinsky (Thực hiện {0} hiệu ứng Workshop.)"
+ },
+ {
+  "key": "Solo plays Agnes Hamsterville (Perform this action as normal except you may choose which of the {0} Law Consequence cards to shuffle into the Dusk deck.)",
+  "vi": "Chơi đơn đánh thẻ Agnes Hamsterville (Thực hiện hành động này như bình thường, ngoại trừ có thể chọn trong số {0} thẻ Law Consequence để xáo vào bộ Dusk.)"
+ },
+ {
+  "key": "Solo plays Chrissy Klemowsky (Perform this action as normal except you may use {0} sub-actions to upgrade a Building by paying its upgrade cost.)",
+  "vi": "Chơi đơn đánh thẻ Chrissy Klemowsky (Thực hiện hành động này như bình thường, ngoại trừ có thể dùng {0} hành động phụ để nâng cấp một Công trình bằng cách trả chi phí nâng cấp của nó.)"
+ },
+ {
+  "key": "Solo plays Christina Marchant (Perform this action as normal except you may Build over Ruins (remove the Ruins from the game). Each of these Builds cost {0} fewer Wood.)",
+  "vi": "Chơi đơn đánh thẻ Christina Marchant (Thực hiện hành động này như bình thường, ngoại trừ có thể Xây đè lên Tàn tích (loại Tàn tích khỏi trò chơi). Mỗi lần Xây như vậy tốn ít hơn {0} Gỗ.)"
+ },
+ {
+  "key": "Solo plays Dave Tadel (Perform this action as normal and then place {0} Wood below the chosen Expedition. Gain the {1} Wood when the Scout returns from that Expedition.)",
+  "vi": "Chơi đơn đánh thẻ Dave Tadel (Thực hiện hành động này như bình thường, sau đó đặt {0} Gỗ dưới Expedition đã chọn. Nhận {1} Gỗ khi Scout quay về từ Expedition đó.)"
+ },
+ {
+  "key": "Solo plays Davetta Hen (Perform the Building's Cure effect. Treat {0}.)",
+  "vi": "Chơi đơn đánh thẻ Davetta Hen (Thực hiện hiệu ứng Chữa của Công trình. Điều trị {0}.)"
+ },
+ {
+  "key": "Solo plays Derek Allgire (Remove up to {0} Stress cubes from the Stress track.)",
+  "vi": "Chơi đơn đánh thẻ Derek Allgire (Gỡ bỏ tối đa {0} khối Căng thẳng khỏi đường Căng thẳng.)"
+ }
+]

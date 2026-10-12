@@ -1,0 +1,934 @@
+[
+ {
+  "key": "N1{0} placed at ({1}, -{2})",
+  "vi": "N1{0} được đặt tại ({1}, -{2})"
+ },
+ {
+  "key": "N1{0} placed at ({1}, {2})",
+  "vi": "N1{0} được đặt tại ({1}, {2})"
+ },
+ {
+  "key": "N1{0} top",
+  "vi": "N1{0} trên"
+ },
+ {
+  "key": "N1{0}:top",
+  "vi": "N1{0}:trên"
+ },
+ {
+  "key": "Nathaniel Apfel",
+  "vi": "Nathaniel Apfel"
+ },
+ {
+  "key": "Nathaniel Apfel (child)",
+  "vi": "Nathaniel Apfel (trẻ em)"
+ },
+ {
+  "key": "Natural Fertiliser",
+  "vi": "Phân bón tự nhiên"
+ },
+ {
+  "key": "near",
+  "vi": "gần"
+ },
+ {
+  "key": "Near space (-{0}, -{1})",
+  "vi": "Ô gần (-{0}, -{1})"
+ },
+ {
+  "key": "Near space (-{0}, {1})",
+  "vi": "Ô gần (-{0}, {1})"
+ },
+ {
+  "key": "Near space ({0}, -{1})",
+  "vi": "Ô gần ({0}, -{1})"
+ },
+ {
+  "key": "Near space ({0}, {1})",
+  "vi": "Ô gần ({0}, {1})"
+ },
+ {
+  "key": "Near tile (adjacent to the Generator)",
+  "vi": "Mảnh gần (kề Generator)"
+ },
+ {
+  "key": "Needs {0} Food",
+  "vi": "Cần {0} Thực phẩm"
+ },
+ {
+  "key": "Needs {0} Resources",
+  "vi": "Cần {0} Tài nguyên"
+ },
+ {
+  "key": "Needs {0} Resources or {1} Food",
+  "vi": "Cần {0} Tài nguyên hoặc {1} Thực phẩm"
+ },
+ {
+  "key": "Needs {0} Wood",
+  "vi": "Cần {0} Gỗ"
+ },
+ {
+  "key": "Needs an active Care token",
+  "vi": "Cần một dấu Care đang kích hoạt"
+ },
+ {
+  "key": "Needs an active Hope token",
+  "vi": "Cần một dấu Hope đang kích hoạt"
+ },
+ {
+  "key": "Needs an active Justice token",
+  "vi": "Cần một dấu Justice đang kích hoạt"
+ },
+ {
+  "key": "Needs an active motivation or justice",
+  "vi": "Cần motivation hoặc justice đang kích hoạt"
+ },
+ {
+  "key": "Needs an active Motivation token",
+  "vi": "Cần một dấu Motivation đang kích hoạt"
+ },
+ {
+  "key": "Needs the Beacon",
+  "vi": "Cần Trạm tín hiệu"
+ },
+ {
+  "key": "Neophytes and Sceptics",
+  "vi": "Tín đồ mới và kẻ hoài nghi"
+ },
+ {
+  "key": "Neophytes and Sceptics (L0{0}A)",
+  "vi": "Tín đồ mới và kẻ hoài nghi (L0{0}A)"
+ },
+ {
+  "key": "Neophytes and Sceptics was placed on the Dusk discard pile",
+  "vi": "Tín đồ mới và kẻ hoài nghi đã được đặt vào chồng bỏ Dusk"
+ },
+ {
+  "key": "New Faith",
+  "vi": "Đức tin mới"
+ },
+ {
+  "key": "New Faith was introduced",
+  "vi": "Đức tin mới đã được ban hành"
+ },
+ {
+  "key": "New Hope",
+  "vi": "Hope mới"
+ },
+ {
+  "key": "New Order",
+  "vi": "Trật tự mới"
+ },
+ {
+  "key": "New Order was introduced",
+  "vi": "Trật tự mới đã được ban hành"
+ },
+ {
+  "key": "Night Care",
+  "vi": "Care ban đêm"
+ },
+ {
+  "key": "Night phase",
+  "vi": "Giai đoạn Đêm"
+ },
+ {
+  "key": "Nip the disease in the bud",
+  "vi": "Dập tắt dịch bệnh ngay từ đầu"
+ },
+ {
+  "key": "No",
+  "vi": "Không"
+ },
+ {
+  "key": "No Advisor this Round",
+  "vi": "Không có Advisor vòng này"
+ },
+ {
+  "key": "No Building this Meeple can use",
+  "vi": "Không có Công trình nào Meeple này dùng được"
+ },
+ {
+  "key": "No Building to destroy",
+  "vi": "Không có Công trình nào để phá hủy"
+ },
+ {
+  "key": "No Coal to add or the Generator is full",
+  "vi": "Không có Than để thêm, hoặc Generator đã đầy"
+ },
+ {
+  "key": "No Far tile for the Automaton",
+  "vi": "Không có mảnh xa cho Automaton"
+ },
+ {
+  "key": "No free Meeple can take this action",
+  "vi": "Không có Meeple rảnh nào thực hiện được hành động này"
+ },
+ {
+  "key": "No free Worker or Engineer for this card",
+  "vi": "Không có Công nhân hoặc Kỹ sư rảnh cho thẻ này"
+ },
+ {
+  "key": "No Sleep 'Til Hammersmith!",
+  "vi": "Không ngủ đến khi tới Hammersmith!"
+ },
+ {
+  "key": "No Sleep 'Til Hammersmith! (D0{0})",
+  "vi": "Không ngủ đến khi tới Hammersmith! (D0{0})"
+ },
+ {
+  "key": "No Sleep 'Til Hammersmith! was placed on the Dusk discard pile",
+  "vi": "Không ngủ đến khi tới Hammersmith! đã được đặt vào chồng bỏ Dusk"
+ },
+ {
+  "key": "No Sleep 'Til Hammersmith! was removed from the game",
+  "vi": "Không ngủ đến khi tới Hammersmith! đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "No small building can be moved",
+  "vi": "Không công trình nhỏ nào có thể di chuyển"
+ },
+ {
+  "key": "No Steam Hub built",
+  "vi": "Chưa xây Steam Hub nào"
+ },
+ {
+  "key": "No tent to flip to Ruins",
+  "vi": "Không có Lều nào để lật thành Tàn tích"
+ },
+ {
+  "key": "No time for this now",
+  "vi": "Lúc này không có thời gian cho việc này"
+ },
+ {
+  "key": "No time to investigate",
+  "vi": "Không có thời gian để điều tra"
+ },
+ {
+  "key": "No unoccupied space with Resources or Trees",
+  "vi": "Không có ô trống nào có Tài nguyên hoặc Cây"
+ },
+ {
+  "key": "No work means no food",
+  "vi": "Không làm việc thì không có thực phẩm"
+ },
+ {
+  "key": "No Worker or Engineer in the supply",
+  "vi": "Không có Công nhân hoặc Kỹ sư nào trong kho chung"
+ },
+ {
+  "key": "noActiveDisc",
+  "vi": "noActiveDisc"
+ },
+ {
+  "key": "Normal action",
+  "vi": "Hành động thường"
+ },
+ {
+  "key": "Not a Fairy Tale",
+  "vi": "Không phải chuyện cổ tích"
+ },
+ {
+  "key": "Not a Fairy Tale (A) - X0{0}",
+  "vi": "Không phải chuyện cổ tích (A) - X0{0}"
+ },
+ {
+  "key": "Not enough Resources in the supply for Wooden Toys",
+  "vi": "Không đủ Tài nguyên trong kho chung cho Đồ chơi gỗ"
+ },
+ {
+  "key": "Not going to risk making people sick",
+  "vi": "Sẽ không mạo hiểm khiến người dân bị bệnh"
+ },
+ {
+  "key": "Not seeing any real change, critics left",
+  "vi": "Không thấy thay đổi thực sự nào, những người chỉ trích đã bỏ đi"
+ },
+ {
+  "key": "Numbers are relative advances (same convention as Weather card section A). A removed indicator ceases to exist: its zone and its insulation colour can no longer be heated by the Heat marker (Steam Hubs, Fuel tokens and scenario effects still can). ASSUMPTION: when the second branch resolves without the first having happened (first Storm at Round >= {0}) both yellow and orange are removed, matching the printed picture.",
+  "vi": "Các số là mức tiến triển tương đối (cùng quy ước với phần A của thẻ Thời tiết). Một chỉ báo đã bị gỡ bỏ sẽ không còn tồn tại: vùng và màu insulation của nó không còn có thể bị heated bởi dấu Nhiệt (Steam Hubs, dấu Nhiên liệu và hiệu ứng kịch bản vẫn có thể). GIẢ ĐỊNH: khi nhánh thứ hai được giải quyết mà nhánh thứ nhất chưa xảy ra (Storm đầu tiên ở Vòng >= {0}) thì cả màu vàng lẫn màu cam đều bị gỡ bỏ, khớp với hình in."
+ },
+ {
+  "key": "Nutrition Education",
+  "vi": "Giáo dục dinh dưỡng"
+ },
+ {
+  "key": "Of Mice and Men",
+  "vi": "Chuột và người"
+ },
+ {
+  "key": "Official intervention",
+  "vi": "Can thiệp chính thức"
+ },
+ {
+  "key": "Old Man Logan",
+  "vi": "Old Man Logan"
+ },
+ {
+  "key": "Old Man Logan (C) - X2{0}",
+  "vi": "Old Man Logan (C) - X2{0}"
+ },
+ {
+  "key": "Olivia Carebear",
+  "vi": "Olivia Carebear"
+ },
+ {
+  "key": "Olivia Carebear (worker)",
+  "vi": "Olivia Carebear (công nhân)"
+ },
+ {
+  "key": "One of our citizens was stomped to death",
+  "vi": "Một trong những công dân của chúng ta đã bị giẫm đến chết"
+ },
+ {
+  "key": "Only cowards are afraid to show mercy.",
+  "vi": "Chỉ kẻ hèn nhát mới sợ tỏ lòng thương xót."
+ },
+ {
+  "key": "Only personal belongings can be used",
+  "vi": "Chỉ được dùng đồ dùng cá nhân"
+ },
+ {
+  "key": "Only the frost can scare us. Onward!",
+  "vi": "Chỉ có băng giá mới làm ta sợ. Tiến lên!"
+ },
+ {
+  "key": "Only the strong will survive.",
+  "vi": "Chỉ kẻ mạnh mới sống sót."
+ },
+ {
+  "key": "Order her to stop",
+  "vi": "Ra lệnh cho cô ấy dừng lại"
+ },
+ {
+  "key": "Order them to stop",
+  "vi": "Ra lệnh cho họ dừng lại"
+ },
+ {
+  "key": "Organise a night watch",
+  "vi": "Tổ chức canh gác ban đêm"
+ },
+ {
+  "key": "Orphans",
+  "vi": "Trẻ mồ côi"
+ },
+ {
+  "key": "Orphans (M0{0})",
+  "vi": "Trẻ mồ côi (M0{0})"
+ },
+ {
+  "key": "Orphans was removed from the game",
+  "vi": "Trẻ mồ côi đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Our engineers should investigate",
+  "vi": "Kỹ sư của chúng ta nên điều tra"
+ },
+ {
+  "key": "Our help was sufficient",
+  "vi": "Sự giúp đỡ của chúng ta là đủ"
+ },
+ {
+  "key": "Overcrowded",
+  "vi": "Quá đông đúc"
+ },
+ {
+  "key": "Paolo Feldman",
+  "vi": "Paolo Feldman"
+ },
+ {
+  "key": "Paolo Feldman (worker)",
+  "vi": "Paolo Feldman (công nhân)"
+ },
+ {
+  "key": "Parents' Rights",
+  "vi": "Quyền của phụ huynh"
+ },
+ {
+  "key": "Parents' Rights (L0{0}B)",
+  "vi": "Quyền của phụ huynh (L0{0}B)"
+ },
+ {
+  "key": "Parents' Rights was placed on the Dusk discard pile",
+  "vi": "Quyền của phụ huynh đã được đặt vào chồng bỏ Dusk"
+ },
+ {
+  "key": "Pass",
+  "vi": "Bỏ lượt"
+ },
+ {
+  "key": "Pass (do not discard)",
+  "vi": "Bỏ lượt (không bỏ thẻ)"
+ },
+ {
+  "key": "Pat O'Bara",
+  "vi": "Pat O'Bara"
+ },
+ {
+  "key": "Pat O'Bara (worker)",
+  "vi": "Pat O'Bara (công nhân)"
+ },
+ {
+  "key": "Path to Winterhome",
+  "vi": "Con đường đến Winterhome"
+ },
+ {
+  "key": "Patick McGretchak",
+  "vi": "Patick McGretchak"
+ },
+ {
+  "key": "Patick McGretchak (child)",
+  "vi": "Patick McGretchak (trẻ em)"
+ },
+ {
+  "key": "Paul Unclestone",
+  "vi": "Paul Unclestone"
+ },
+ {
+  "key": "Paul Unclestone (engineer)",
+  "vi": "Paul Unclestone (kỹ sư)"
+ },
+ {
+  "key": "Pauline Grogan",
+  "vi": "Pauline Grogan"
+ },
+ {
+  "key": "Pauline Grogan (engineer)",
+  "vi": "Pauline Grogan (kỹ sư)"
+ },
+ {
+  "key": "Pay {0} Food",
+  "vi": "Trả {0} Thực phẩm"
+ },
+ {
+  "key": "Pay {0} Food (each missing: Hunger +{1})",
+  "vi": "Trả {0} Thực phẩm (mỗi phần thiếu: Đói +{1})"
+ },
+ {
+  "key": "Pay {0} Food, Discard {1} active Discontent",
+  "vi": "Trả {0} Thực phẩm, Bỏ {1} Discontent đang kích hoạt"
+ },
+ {
+  "key": "Pay {0} Food, Draw {1} Hope token and activate it",
+  "vi": "Trả {0} Thực phẩm, Rút {1} dấu Hope và kích hoạt nó"
+ },
+ {
+  "key": "Pay {0} Food, Draw {1} Hope token and activate it  OR  Pay {2} Food, Discard {3} active Discontent",
+  "vi": "Trả {0} Thực phẩm, Rút {1} dấu Hope và kích hoạt nó  HOẶC  Trả {2} Thực phẩm, Bỏ {3} Discontent đang kích hoạt"
+ },
+ {
+  "key": "Pay {0} Steam Core",
+  "vi": "Trả {0} Steam Core"
+ },
+ {
+  "key": "Pay {0} Steam Core, Remove all Stress cubes, Special effect (generatorUpgradeOnFirstCore)",
+  "vi": "Trả {0} Steam Core, Gỡ bỏ tất cả khối Căng thẳng, Hiệu ứng đặc biệt (generatorUpgradeOnFirstCore)"
+ },
+ {
+  "key": "Pay {0} Wood",
+  "vi": "Trả {0} Gỗ"
+ },
+ {
+  "key": "Pay {0} Wood (Steel may replace Wood)",
+  "vi": "Trả {0} Gỗ (Thép có thể thay thế Gỗ)"
+ },
+ {
+  "key": "Pay <n>          spend resource/food from supply <res>",
+  "vi": "Trả <n>          chi tài nguyên/thực phẩm từ kho <res>"
+ },
+ {
+  "key": "Pay: Spend {0} Food?",
+  "vi": "Trả: chi {0} Thực phẩm?"
+ },
+ {
+  "key": "People drink the words from her lips",
+  "vi": "Mọi người uống từng lời từ môi cô ấy"
+ },
+ {
+  "key": "People from Our Convoy",
+  "vi": "Người từ đoàn xe của chúng ta"
+ },
+ {
+  "key": "People from Our Convoy (M0{0})",
+  "vi": "Người từ đoàn xe của chúng ta (M0{0})"
+ },
+ {
+  "key": "People from Our Convoy was removed from the game",
+  "vi": "Người từ đoàn xe của chúng ta đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Perform {0} Workshop effect.",
+  "vi": "Thực hiện {0} hiệu ứng Workshop."
+ },
+ {
+  "key": "Perform {0} Workshop effects.",
+  "vi": "Thực hiện {0} hiệu ứng Workshop."
+ },
+ {
+  "key": "Perform the Building's Cure effect. Treat {0}.",
+  "vi": "Thực hiện hiệu ứng Chữa của công trình. Điều trị {0}."
+ },
+ {
+  "key": "Perform this action as normal and then place {0} Coal below the chosen Expedition. Gain the {1} Coal when the Scout returns from that Expedition.",
+  "vi": "Thực hiện hành động như bình thường, sau đó đặt {0} Than dưới Expedition đã chọn. Nhận {1} Than khi Scout trở về từ Expedition đó."
+ },
+ {
+  "key": "Perform this action as normal and then place {0} Wood below the chosen Expedition. Gain the {1} Wood when the Scout returns from that Expedition.",
+  "vi": "Thực hiện hành động như bình thường, sau đó đặt {0} Gỗ dưới Expedition đã chọn. Nhận {1} Gỗ khi Scout trở về từ Expedition đó."
+ },
+ {
+  "key": "Perform this action as normal but only place {0} Near tile. If all Near tiles have already been placed, place {1} Far tile instead.",
+  "vi": "Thực hiện hành động như bình thường nhưng chỉ đặt {0} mảnh gần. Nếu tất cả mảnh gần đã được đặt, thay vào đó đặt {1} mảnh xa."
+ },
+ {
+  "key": "Perform this action as normal except draw {0} Far tiles and choose {1} to place. Place each of the other {2} on either the top or bottom of the Far tiles stack.",
+  "vi": "Thực hiện hành động như bình thường, ngoại trừ rút {0} mảnh xa và chọn {1} để đặt. Đặt mỗi mảnh còn lại trong số {2} mảnh lên trên hoặc dưới chồng mảnh xa."
+ },
+ {
+  "key": "Perform this action as normal except place {0} Far tiles and, if cold, gain {1} sick Engineers (instead of {2}).",
+  "vi": "Thực hiện hành động như bình thường, ngoại trừ đặt {0} mảnh xa và, nếu lạnh, nhận {1} Kỹ sư bị bệnh (thay vì {2})."
+ },
+ {
+  "key": "Perform this action as normal except place {0} Near tile and {1} Far tile. If all Near tiles have already been placed, place {2} Far tiles instead.",
+  "vi": "Thực hiện hành động như bình thường, ngoại trừ đặt {0} mảnh gần và {1} mảnh xa. Nếu tất cả mảnh gần đã được đặt, thay vào đó đặt {2} mảnh xa."
+ },
+ {
+  "key": "Perform this action as normal except you may Build over Ruins (remove the Ruins from the game). Each of these Builds cost {0} fewer Wood.",
+  "vi": "Thực hiện hành động như bình thường, ngoại trừ bạn có thể Xây đè lên Tàn tích (loại Tàn tích khỏi trò chơi). Mỗi lần Xây này tốn ít hơn {0} Gỗ."
+ },
+ {
+  "key": "Perform this action as normal except you may choose which of the {0} Law Consequence cards to shuffle into the Dusk deck.",
+  "vi": "Thực hiện hành động như bình thường, ngoại trừ bạn có thể chọn {0} thẻ Law Consequence nào sẽ xáo vào bộ thẻ Dusk."
+ },
+ {
+  "key": "Perform this action as normal except you may use {0} sub-actions to move a Small Building without the non-dismantle icon to a valid Build space (remove Resources and Trees as normal).",
+  "vi": "Thực hiện hành động như bình thường, ngoại trừ bạn có thể dùng {0} hành động phụ để di chuyển một Công trình nhỏ không có biểu tượng không thể tháo dỡ đến một ô Xây hợp lệ (gỡ bỏ Tài nguyên và Cây như bình thường)."
+ },
+ {
+  "key": "Perform this action as normal except you may use {0} sub-actions to upgrade a Building by paying its upgrade cost.",
+  "vi": "Thực hiện hành động như bình thường, ngoại trừ bạn có thể dùng {0} hành động phụ để Nâng cấp một Công trình bằng cách trả chi phí nâng cấp của nó."
+ },
+ {
+  "key": "Perform this action as normal except, if cold, gain {0} sick Children (instead of {1}).",
+  "vi": "Thực hiện hành động như bình thường, ngoại trừ nếu lạnh, nhận {0} Trẻ em bị bệnh (thay vì {1})."
+ },
+ {
+  "key": "Perform this action as normal, or take up to {0} Resources from {1} adjacent space and place them in the supply.",
+  "vi": "Thực hiện hành động như bình thường, hoặc lấy tối đa {0} Tài nguyên từ {1} ô kề và đặt chúng vào kho chung."
+ },
+ {
+  "key": "Perform this action as normal. You may then spend {0} Food to Cure {1}.",
+  "vi": "Thực hiện hành động như bình thường. Sau đó bạn có thể chi {0} Thực phẩm để Chữa {1}."
+ },
+ {
+  "key": "Perform this action on an unoccupied space on a tile to gain Food equal to the Food bonus on that tile and all adjacent tiles.",
+  "vi": "Thực hiện hành động trên một ô trống của mảnh để nhận Thực phẩm bằng lượng thưởng Thực phẩm trên mảnh đó và các mảnh kề."
+ },
+ {
+  "key": "Perform this action on an unoccupied space that has {0} or more Trees. Remove {1} Tree from that space and gain {2} Wood. Count this action as heated.",
+  "vi": "Thực hiện hành động trên ô trống có {0} Cây trở lên. Gỡ bỏ {1} Cây khỏi ô đó và nhận {2} Gỗ. Tính hành động này là heated."
+ },
+ {
+  "key": "Perform up to {0} Construct sub-actions.",
+  "vi": "Thực hiện tối đa {0} hành động phụ Xây dựng."
+ },
+ {
+  "key": "Persistent effect while face up: every Dawn Phase. '+{0} Discontent' = take {1} Discontent token at random from the bag (type not specified).",
+  "vi": "Hiệu ứng liên tục khi đang ngửa: mỗi giai đoạn Bình minh. '+{0} Discontent' = lấy ngẫu nhiên {1} dấu Discontent từ túi (không chỉ rõ loại)."
+ },
+ {
+  "key": "Peter Byerush",
+  "vi": "Peter Byerush"
+ },
+ {
+  "key": "Peter Byerush (child)",
+  "vi": "Peter Byerush (trẻ em)"
+ },
+ {
+  "key": "Phillipa Bullsky",
+  "vi": "Phillipa Bullsky"
+ },
+ {
+  "key": "Phillipa Bullsky (child)",
+  "vi": "Phillipa Bullsky (trẻ em)"
+ },
+ {
+  "key": "Place {0} Resource(s) from the supply onto the card",
+  "vi": "Đặt {0} Tài nguyên từ kho chung lên thẻ"
+ },
+ {
+  "key": "Place {0} Spent Child token in the supply",
+  "vi": "Đặt {0} dấu Trẻ em đã dùng vào kho chung"
+ },
+ {
+  "key": "Place {0} Spent Child tokens in the supply",
+  "vi": "Đặt {0} dấu Trẻ em đã dùng vào kho chung"
+ },
+ {
+  "key": "Place {0} Spent Engineer token in the supply",
+  "vi": "Đặt {0} dấu Kỹ sư đã dùng vào kho chung"
+ },
+ {
+  "key": "Place {0} Spent Engineer token in the supply, Add Dusk card D0{1}",
+  "vi": "Đặt {0} dấu Kỹ sư đã dùng vào kho chung, Thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "Place {0} Spent Engineer token in the supply, Gain {1} Steam Core",
+  "vi": "Đặt {0} dấu Kỹ sư đã dùng vào kho chung, Nhận {1} Steam Core"
+ },
+ {
+  "key": "Place {0} Spent Worker or Engineer token in the supply",
+  "vi": "Đặt {0} dấu Công nhân hoặc Kỹ sư đã dùng vào kho chung"
+ },
+ {
+  "key": "Place {0} Spent Worker or Engineer token in the supply, {1} sick Child",
+  "vi": "Đặt {0} dấu Công nhân hoặc Kỹ sư đã dùng vào kho chung, {1} Trẻ em bị bệnh"
+ },
+ {
+  "key": "Place {0} Spent Worker or Engineer token in the supply, Add Dusk card D0{1}",
+  "vi": "Đặt {0} dấu Công nhân hoặc Kỹ sư đã dùng vào kho chung, Thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "Place {0} Spent Worker or Engineer token in the supply, For each active:apathy: Place {1} Spent Worker or Engineer token in the supply",
+  "vi": "Đặt {0} dấu Công nhân hoặc Kỹ sư đã dùng vào kho chung, Với mỗi apathy đang kích hoạt: đặt {1} dấu Công nhân hoặc Kỹ sư đã dùng vào kho chung"
+ },
+ {
+  "key": "Place {0} Spent Worker or Engineer token in the supply, Hunger +{1}, Add Dusk card D0{2}",
+  "vi": "Đặt {0} dấu Công nhân hoặc Kỹ sư đã dùng vào kho chung, Đói +{1}, Thêm thẻ Dusk D0{2}"
+ },
+ {
+  "key": "Place {0} Spent Worker or Engineer tokens in the supply",
+  "vi": "Đặt {0} dấu Công nhân hoặc Kỹ sư đã dùng vào kho chung"
+ },
+ {
+  "key": "Place {0} Spent Worker token in the supply",
+  "vi": "Đặt {0} dấu Công nhân đã dùng vào kho chung"
+ },
+ {
+  "key": "Place {0} Spent Worker token in the supply, Add Dusk card D0{1}",
+  "vi": "Đặt {0} dấu Công nhân đã dùng vào kho chung, Thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "Place {0} Spent Worker token in the supply, Place a Far tile, {1} sick Worker, Gain {2} Food",
+  "vi": "Đặt {0} dấu Công nhân đã dùng vào kho chung, Đặt một mảnh xa, {1} Công nhân bị bệnh, Nhận {2} Thực phẩm"
+ },
+ {
+  "key": "Place a Far tile",
+  "vi": "Đặt một mảnh xa"
+ },
+ {
+  "key": "Place a Near or Far tile",
+  "vi": "Đặt một mảnh gần hoặc mảnh xa"
+ },
+ {
+  "key": "Place a Near tile (else Far)",
+  "vi": "Đặt một mảnh gần (nếu không thì mảnh xa)"
+ },
+ {
+  "key": "Place a Near tile or a Far tile?",
+  "vi": "Đặt một mảnh gần hay mảnh xa?"
+ },
+ {
+  "key": "Place a Spent token of which type?",
+  "vi": "Đặt dấu đã dùng thuộc loại nào?"
+ },
+ {
+  "key": "Place Beacon",
+  "vi": "Đặt Trạm tín hiệu"
+ },
+ {
+  "key": "Place Bunkhouse",
+  "vi": "Đặt Nhà tập thể"
+ },
+ {
+  "key": "Place Charcoal Kiln",
+  "vi": "Đặt Lò than củi"
+ },
+ {
+  "key": "Place Child Shelter",
+  "vi": "Đặt Nơi trú ẩn cho trẻ em"
+ },
+ {
+  "key": "Place Coal on a Steam Hub (free)",
+  "vi": "Đặt Than lên Steam Hub (miễn phí)"
+ },
+ {
+  "key": "Place Coal Thumper",
+  "vi": "Đặt Máy đập than"
+ },
+ {
+  "key": "Place Factory",
+  "vi": "Đặt Nhà máy"
+ },
+ {
+  "key": "Place Far tile F0{0} on the top or the bottom of the Far tiles stack",
+  "vi": "Đặt mảnh xa F0{0} lên trên hoặc dưới chồng mảnh xa"
+ },
+ {
+  "key": "Place Far tile F1{0} on the top or the bottom of the Far tiles stack",
+  "vi": "Đặt mảnh xa F1{0} lên trên hoặc dưới chồng mảnh xa"
+ },
+ {
+  "key": "Place Field Kitchen",
+  "vi": "Đặt Bếp dã chiến"
+ },
+ {
+  "key": "Place Gathering Post",
+  "vi": "Đặt Gathering Post"
+ },
+ {
+  "key": "Place her under house arrest",
+  "vi": "Quản thúc cô ấy tại gia"
+ },
+ {
+  "key": "Place Hothouse",
+  "vi": "Đặt Nhà kính"
+ },
+ {
+  "key": "Place House",
+  "vi": "Đặt Nhà ở"
+ },
+ {
+  "key": "Place Hunter's Hut",
+  "vi": "Đặt Lều Thợ Săn"
+ },
+ {
+  "key": "Place in the Event display",
+  "vi": "Đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "Place Infirmary",
+  "vi": "Đặt Bệnh xá"
+ },
+ {
+  "key": "Place Medical Post",
+  "vi": "Đặt Trạm y tế"
+ },
+ {
+  "key": "Place one Far tile",
+  "vi": "Đặt một mảnh xa"
+ },
+ {
+  "key": "Place Sawmill",
+  "vi": "Đặt Xưởng cưa"
+ },
+ {
+  "key": "Place Snow Pit",
+  "vi": "Đặt Hố tuyết"
+ },
+ {
+  "key": "Place Tent",
+  "vi": "Đặt Lều"
+ },
+ {
+  "key": "Place the Far tile next to a connected tile",
+  "vi": "Đặt mảnh xa cạnh một mảnh đã nối"
+ },
+ {
+  "key": "Place the Near tile next to the Generator",
+  "vi": "Đặt mảnh gần cạnh Generator"
+ },
+ {
+  "key": "Place the other two Far tiles on the top or the bottom of the stack",
+  "vi": "Đặt hai mảnh xa còn lại lên trên hoặc dưới chồng"
+ },
+ {
+  "key": "Place two Near tiles",
+  "vi": "Đặt hai mảnh gần"
+ },
+ {
+  "key": "Place up to {0} Coal from the bank on each of N different adjacent spaces (spaces must already hold Coal or be empty of Resources/Trees/Buildings; {1} Coal max per space). Tech T1{2}: also gain {3} Coal.",
+  "vi": "Đặt tối đa {0} Than từ kho chung lên mỗi ô trong N ô kề khác nhau (ô phải đã có Than hoặc không có Tài nguyên/Cây/Công trình; tối đa {1} Than cho mỗi ô). Công nghệ T1{2}: cũng nhận {3} Than."
+ },
+ {
+  "key": "Place Workshop",
+  "vi": "Đặt Workshop"
+ },
+ {
+  "key": "Placed white side (route map, {0} steps) up in the Expedition display by S0{1}. It is a normal expedition stack of one card: Scouts advance with Weather/Deploy movement; when the Scout reaches the end the card flips to its text side.",
+  "vi": "Đặt mặt trắng (bản đồ tuyến đường, {0} bước) ngửa lên trong bảng Expedition bởi S0{1}. Đây là một chồng Expedition thông thường gồm một thẻ: Scout tiến theo chuyển động Thời tiết/Triển khai; khi Scout đến cuối, thẻ lật sang mặt chữ."
+ },
+ {
+  "key": "Platform",
+  "vi": "Bệ đỡ"
+ },
+ {
+  "key": "Platform built",
+  "vi": "Đã xây Bệ đỡ"
+ },
+ {
+  "key": "Play Call to Rise (draw {0} Citizen card)",
+  "vi": "Chơi Call to Rise (rút {0} thẻ Công dân)"
+ },
+ {
+  "key": "Play Call to Rise (draw {0} Citizen cards)",
+  "vi": "Chơi Call to Rise (rút {0} thẻ Công dân)"
+ },
+ {
+  "key": "Point of No Return",
+  "vi": "Điểm không quay lại"
+ },
+ {
+  "key": "Post-Treatment Complications",
+  "vi": "Biến chứng sau điều trị"
+ },
+ {
+  "key": "Post-Treatment Complications (D0{0})",
+  "vi": "Biến chứng sau điều trị (D0{0})"
+ },
+ {
+  "key": "Post-Treatment Complications was removed from the game",
+  "vi": "Biến chứng sau điều trị đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Preparation phase",
+  "vi": "Giai đoạn chuẩn bị"
+ },
+ {
+  "key": "Prepare emergency supplies only for those in greatest need",
+  "vi": "Chỉ chuẩn bị vật tư khẩn cấp cho những người cần nhất"
+ },
+ {
+  "key": "Prepare for the Storm",
+  "vi": "Chuẩn bị cho Storm"
+ },
+ {
+  "key": "Pressure or Oppression?",
+  "vi": "Áp lực hay Đàn áp?"
+ },
+ {
+  "key": "Prison",
+  "vi": "Nhà tù"
+ },
+ {
+  "key": "Promise a reward to anyone who reports plots",
+  "vi": "Hứa thưởng cho ai tố giác âm mưu"
+ },
+ {
+  "key": "Promise that hunger will never be a problem",
+  "vi": "Hứa rằng cái đói sẽ không bao giờ là vấn đề"
+ },
+ {
+  "key": "Promise that most of the citizens will have heated shelters",
+  "vi": "Hứa rằng phần lớn công dân sẽ có nơi trú ẩn heated"
+ },
+ {
+  "key": "Promise that no one will ever sleep in the cold",
+  "vi": "Hứa rằng sẽ không ai phải ngủ trong cái lạnh"
+ },
+ {
+  "key": "Promise that there will be enough food supplies",
+  "vi": "Hứa rằng sẽ đủ thực phẩm"
+ },
+ {
+  "key": "Promise that you will take care of it",
+  "vi": "Hứa rằng bạn sẽ lo việc đó"
+ },
+ {
+  "key": "Promise there will be enough supplies for every household",
+  "vi": "Hứa rằng sẽ đủ vật tư cho mọi hộ gia đình"
+ },
+ {
+  "key": "Propaganda Centre",
+  "vi": "Trung tâm tuyên truyền"
+ },
+ {
+  "key": "Propaganda Centre ({0} Wood)",
+  "vi": "Trung tâm tuyên truyền ({0} Gỗ)"
+ },
+ {
+  "key": "Prostitution",
+  "vi": "Mại dâm"
+ },
+ {
+  "key": "Prostitution (M0{0})",
+  "vi": "Mại dâm (M0{0})"
+ },
+ {
+  "key": "Prostitution was removed from the game",
+  "vi": "Mại dâm đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Provide safe working conditions",
+  "vi": "Đảm bảo điều kiện làm việc an toàn"
+ },
+ {
+  "key": "Provide Shelter",
+  "vi": "Cung cấp nơi trú ẩn"
+ },
+ {
+  "key": "Provide Shelter (M0{0})",
+  "vi": "Cung cấp nơi trú ẩn (M0{0})"
+ },
+ {
+  "key": "Provide Shelter was removed from the game",
+  "vi": "Cung cấp nơi trú ẩn đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Public Council",
+  "vi": "Hội đồng công cộng"
+ },
+ {
+  "key": "Public Dispute",
+  "vi": "Tranh chấp công cộng"
+ },
+ {
+  "key": "Public House",
+  "vi": "Quán rượu công cộng"
+ },
+ {
+  "key": "Public House ({0} Wood)",
+  "vi": "Quán rượu công cộng ({0} Gỗ)"
+ },
+ {
+  "key": "Public House was introduced",
+  "vi": "Quán rượu công cộng đã được ban hành"
+ },
+ {
+  "key": "Punish the crowd with longer working hours",
+  "vi": "Trừng phạt đám đông bằng giờ làm việc dài hơn"
+ },
+ {
+  "key": "Put out some strychnine",
+  "vi": "Rải một ít strychnin"
+ },
+ {
+  "key": "Put them down and make use of the meat",
+  "vi": "Hạ chúng xuống và tận dụng thịt"
+ },
+ {
+  "key": "Radical Treatment",
+  "vi": "Điều trị triệt để"
+ },
+ {
+  "key": "Radical Treatment was introduced",
+  "vi": "Điều trị triệt để đã được ban hành"
+ },
+ {
+  "key": "Rafael Curae",
+  "vi": "Rafael Curae"
+ },
+ {
+  "key": "Rafael Curae (engineer)",
+  "vi": "Rafael Curae (kỹ sư)"
+ },
+ {
+  "key": "Reality Check",
+  "vi": "Kiểm tra thực tế"
+ },
+ {
+  "key": "red Dusk discard symbol: cannot be chosen",
+  "vi": "Biểu tượng chồng bỏ Dusk màu đỏ: không thể chọn"
+ },
+ {
+  "key": "Reduce Hunger by {0}. The meeple stays in Prison during the Night phase (uses it as Shelter if heated, otherwise becomes sick).",
+  "vi": "Giảm Đói đi {0}. Trong giai đoạn Đêm, meeple ở lại Nhà tù (dùng nó làm nơi trú ẩn nếu heated, nếu không thì bị bệnh)."
+ },
+ {
+  "key": "Refugees",
+  "vi": "Người tị nạn"
+ },
+ {
+  "key": "Refugees (M0{0})",
+  "vi": "Người tị nạn (M0{0})"
+ }
+]

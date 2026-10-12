@@ -1,0 +1,934 @@
+[
+ {
+  "key": "A Spent Engineer token was placed in the supply",
+  "vi": "Dấu Kỹ sư đã dùng được đặt vào kho"
+ },
+ {
+  "key": "A Spent Worker token was placed in the supply",
+  "vi": "Dấu Công nhân đã dùng được đặt vào kho"
+ },
+ {
+  "key": "A Storm hits (Storm (Frozen Grove))",
+  "vi": "Một Storm ập đến (Storm (Frozen Grove))"
+ },
+ {
+  "key": "A Tripod: Repair (spend {0} Steam Core) or Salvage (gain {1} Steam Core)?",
+  "vi": "Một Tripod: Sửa chữa (chi {0} Steam Core) hay Thu hồi (nhận {1} Steam Core)?"
+ },
+ {
+  "key": "A Tripod!",
+  "vi": "Một Tripod!"
+ },
+ {
+  "key": "A Tripod! (D0{0})",
+  "vi": "Một Tripod! (D0{0})"
+ },
+ {
+  "key": "A Tripod! (event action)",
+  "vi": "Một Tripod! (hành động sự kiện)"
+ },
+ {
+  "key": "A Tripod! left the Event display",
+  "vi": "Một Tripod! đã rời bảng Sự kiện"
+ },
+ {
+  "key": "A Tripod! was placed in the Event display",
+  "vi": "Một Tripod! đã được đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "A wolf is a hunter's best companion",
+  "vi": "Sói là người bạn tốt nhất của thợ săn"
+ },
+ {
+  "key": "A Worker citizen died",
+  "vi": "Một công dân Công nhân đã chết"
+ },
+ {
+  "key": "A Worker died – discard a matching Citizen card instead of drawing one?",
+  "vi": "Một Công nhân đã chết – bỏ một thẻ Công dân cùng loại thay vì rút một thẻ?"
+ },
+ {
+  "key": "A worker Meeple fills a Spent token (cannot act)",
+  "vi": "Meeple Công nhân lấp đầy một dấu đã dùng (không thể hành động)"
+ },
+ {
+  "key": "Abandon All Hope Ye Who Enter Here",
+  "vi": "Từ bỏ mọi Hope, kẻ nào bước vào đây"
+ },
+ {
+  "key": "Abandoned settlement",
+  "vi": "Khu định cư bị bỏ hoang"
+ },
+ {
+  "key": "Accept the gift and never come back.",
+  "vi": "Nhận món quà và đừng bao giờ quay lại."
+ },
+ {
+  "key": "Accept their conditions",
+  "vi": "Chấp nhận điều kiện của họ"
+ },
+ {
+  "key": "Accidents happen",
+  "vi": "Tai nạn vẫn xảy ra"
+ },
+ {
+  "key": "Account for the sick",
+  "vi": "Tính đến người bệnh"
+ },
+ {
+  "key": "Act like a civilised human.",
+  "vi": "Hãy cư xử như một con người văn minh."
+ },
+ {
+  "key": "Act officially and thank the kids",
+  "vi": "Hành động chính thức và cảm ơn bọn trẻ"
+ },
+ {
+  "key": "Action phase",
+  "vi": "Giai đoạn Hành động"
+ },
+ {
+  "key": "Action phase begins",
+  "vi": "Giai đoạn Hành động bắt đầu"
+ },
+ {
+  "key": "Action phase ends",
+  "vi": "Giai đoạn Hành động kết thúc"
+ },
+ {
+  "key": "Action requires a Tree to remove; Tech T1{0} gives +{1} Wood.",
+  "vi": "Hành động cần một Cây để gỡ bỏ; Công nghệ T1{0} cho +{1} Gỗ."
+ },
+ {
+  "key": "Activate {0} Discontent",
+  "vi": "Kích hoạt {0} Discontent"
+ },
+ {
+  "key": "Activate {0} Hope",
+  "vi": "Kích hoạt {0} Hope"
+ },
+ {
+  "key": "Activate all Discontent of one type",
+  "vi": "Kích hoạt tất cả Discontent cùng một loại"
+ },
+ {
+  "key": "Activate anger",
+  "vi": "Kích hoạt anger"
+ },
+ {
+  "key": "Activate apathy",
+  "vi": "Kích hoạt apathy"
+ },
+ {
+  "key": "Activate care",
+  "vi": "Kích hoạt care"
+ },
+ {
+  "key": "Activate care  OR  Activate motivation",
+  "vi": "Kích hoạt care  HOẶC  Kích hoạt motivation"
+ },
+ {
+  "key": "Activate care all",
+  "vi": "Kích hoạt tất cả care"
+ },
+ {
+  "key": "Activate Care or Motivation.",
+  "vi": "Kích hoạt Care hoặc Motivation."
+ },
+ {
+  "key": "Activate Care. Perform the Building's Cure effect.",
+  "vi": "Kích hoạt Care. Thực hiện hiệu ứng Chữa của Công trình."
+ },
+ {
+  "key": "Activate disc mostCommon all",
+  "vi": "Kích hoạt tất cả disc mostCommon"
+ },
+ {
+  "key": "Activate exhausted Anger",
+  "vi": "Kích hoạt Anger đã kiệt sức"
+ },
+ {
+  "key": "Activate exhausted Apathy",
+  "vi": "Kích hoạt Apathy đã kiệt sức"
+ },
+ {
+  "key": "Activate exhausted Care",
+  "vi": "Kích hoạt Care đã kiệt sức"
+ },
+ {
+  "key": "Activate exhausted Greed",
+  "vi": "Kích hoạt Greed đã kiệt sức"
+ },
+ {
+  "key": "Activate exhausted Justice",
+  "vi": "Kích hoạt Justice đã kiệt sức"
+ },
+ {
+  "key": "Activate exhausted Motivation",
+  "vi": "Kích hoạt Motivation đã kiệt sức"
+ },
+ {
+  "key": "Activate greed",
+  "vi": "Kích hoạt greed"
+ },
+ {
+  "key": "Activate greed all",
+  "vi": "Kích hoạt tất cả greed"
+ },
+ {
+  "key": "Activate hope all of one type",
+  "vi": "Kích hoạt tất cả hope cùng một loại"
+ },
+ {
+  "key": "Activate hope oneOfEachType",
+  "vi": "Kích hoạt hope, mỗi loại một"
+ },
+ {
+  "key": "Activate justice",
+  "vi": "Kích hoạt justice"
+ },
+ {
+  "key": "Activate motivation",
+  "vi": "Kích hoạt motivation"
+ },
+ {
+  "key": "Activate which Discontent token?",
+  "vi": "Kích hoạt dấu Discontent nào?"
+ },
+ {
+  "key": "Activate which Hope token?",
+  "vi": "Kích hoạt dấu Hope nào?"
+ },
+ {
+  "key": "activate:hope:oneOfEachType",
+  "vi": "activate:hope:oneOfEachType"
+ },
+ {
+  "key": "Add {0} Stress cubes",
+  "vi": "Thêm {0} khối Căng thẳng"
+ },
+ {
+  "key": "Add Dusk card D0{0}",
+  "vi": "Thêm thẻ Dusk D0{0}"
+ },
+ {
+  "key": "Adele Quapinsky",
+  "vi": "Adele Quapinsky"
+ },
+ {
+  "key": "Adele Quapinsky (engineer)",
+  "vi": "Adele Quapinsky (kỹ sư)"
+ },
+ {
+  "key": "Advanced Automatons",
+  "vi": "Automatons nâng cao"
+ },
+ {
+  "key": "Aggressive towards the refugees",
+  "vi": "Hung hăng với người tị nạn"
+ },
+ {
+  "key": "Agitator",
+  "vi": "Kẻ kích động"
+ },
+ {
+  "key": "Agnes Hamsterville",
+  "vi": "Agnes Hamsterville"
+ },
+ {
+  "key": "Agnes Hamsterville (engineer)",
+  "vi": "Agnes Hamsterville (kỹ sư)"
+ },
+ {
+  "key": "Agree to shorter working hours",
+  "vi": "Đồng ý rút ngắn giờ làm việc"
+ },
+ {
+  "key": "Agree to their terms",
+  "vi": "Đồng ý với điều khoản của họ"
+ },
+ {
+  "key": "All {0} Resources in the supply were lost",
+  "vi": "Tất cả {0} Tài nguyên trong kho đã bị mất"
+ },
+ {
+  "key": "All praise the technology!",
+  "vi": "Ca ngợi công nghệ!"
+ },
+ {
+  "key": "allHopeTypes",
+  "vi": "allHopeTypes"
+ },
+ {
+  "key": "Already fueled this turn",
+  "vi": "Đã nạp than trong lượt này"
+ },
+ {
+  "key": "Already used this Round",
+  "vi": "Đã dùng trong Vòng này"
+ },
+ {
+  "key": "An Adept of Life",
+  "vi": "Một Người tinh thông sự sống"
+ },
+ {
+  "key": "An Automaton joins the city",
+  "vi": "Một Automaton gia nhập thành phố"
+ },
+ {
+  "key": "An Automaton needs {0} Coal",
+  "vi": "Automaton cần {0} Than"
+ },
+ {
+  "key": "An Automaton was laid on Far tile F0{0}",
+  "vi": "Automaton được đặt lên mảnh Xa F0{0}"
+ },
+ {
+  "key": "An Automaton was laid on Far tile F1{0}",
+  "vi": "Automaton được đặt lên mảnh Xa F1{0}"
+ },
+ {
+  "key": "An Engineer citizen died",
+  "vi": "Một công dân Kỹ sư đã chết"
+ },
+ {
+  "key": "An Engineer died – discard a matching Citizen card instead of drawing one?",
+  "vi": "Một Kỹ sư đã chết – bỏ một thẻ Công dân cùng loại thay vì rút một thẻ?"
+ },
+ {
+  "key": "An Epic Deed",
+  "vi": "Chiến công hiển hách"
+ },
+ {
+  "key": "An Epic Deed (C) - X3{0}",
+  "vi": "Chiến công hiển hách (C) - X3{0}"
+ },
+ {
+  "key": "Angel's Share",
+  "vi": "Phần của Thiên thần"
+ },
+ {
+  "key": "Angel's Share (L1{0}B)",
+  "vi": "Phần của Thiên thần (L1{0}B)"
+ },
+ {
+  "key": "Angel's Share was shuffled back into the Dusk deck",
+  "vi": "Phần của Thiên thần đã được xáo trở lại bộ bài Dusk"
+ },
+ {
+  "key": "Anger (exhausted)",
+  "vi": "Anger (đã kiệt sức)"
+ },
+ {
+  "key": "Anger Discontent activated",
+  "vi": "Anger Discontent đã được kích hoạt"
+ },
+ {
+  "key": "Anger Discontent exhausted",
+  "vi": "Anger Discontent đã kiệt sức"
+ },
+ {
+  "key": "Anger removed from the track",
+  "vi": "Anger đã được gỡ bỏ khỏi đường đếm"
+ },
+ {
+  "key": "Another relic of the past. Let's move on.",
+  "vi": "Thêm một di vật của quá khứ. Đi tiếp thôi."
+ },
+ {
+  "key": "Another Settlement",
+  "vi": "Khu định cư khác"
+ },
+ {
+  "key": "Another Settlement (event action)",
+  "vi": "Khu định cư khác (hành động sự kiện)"
+ },
+ {
+  "key": "Another Settlement (M0{0})",
+  "vi": "Khu định cư khác (M0{0})"
+ },
+ {
+  "key": "Another Settlement left the Event display",
+  "vi": "Khu định cư khác đã rời bảng Sự kiện"
+ },
+ {
+  "key": "Another Settlement was placed in the Event display",
+  "vi": "Khu định cư khác đã được đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "Another Settlement was removed from the game",
+  "vi": "Khu định cư khác đã được loại khỏi trò chơi"
+ },
+ {
+  "key": "Another Victim - Public",
+  "vi": "Nạn nhân khác - Công khai"
+ },
+ {
+  "key": "Another Victim - Secret",
+  "vi": "Nạn nhân khác - Bí mật"
+ },
+ {
+  "key": "Another Victim - Secret (D0{0})",
+  "vi": "Nạn nhân khác - Bí mật (D0{0})"
+ },
+ {
+  "key": "Apathy (exhausted)",
+  "vi": "Apathy (đã kiệt sức)"
+ },
+ {
+  "key": "Apathy Discontent activated",
+  "vi": "Apathy Discontent đã được kích hoạt"
+ },
+ {
+  "key": "Apathy Discontent exhausted",
+  "vi": "Apathy Discontent đã kiệt sức"
+ },
+ {
+  "key": "Apathy removed from the track",
+  "vi": "Apathy đã được gỡ bỏ khỏi đường đếm"
+ },
+ {
+  "key": "Apply treatment as soon as possible",
+  "vi": "Áp dụng điều trị càng sớm càng tốt"
+ },
+ {
+  "key": "Are We Alone?",
+  "vi": "Chúng ta có đơn độc không?"
+ },
+ {
+  "key": "Are We Alone? placed face up",
+  "vi": "Chúng ta có đơn độc không? đã được đặt ngửa"
+ },
+ {
+  "key": "Are We Alone?: Round {0}",
+  "vi": "Chúng ta có đơn độc không?: Vòng {0}"
+ },
+ {
+  "key": "Argument",
+  "vi": "Tranh cãi"
+ },
+ {
+  "key": "Argument (SD0{0})",
+  "vi": "Tranh cãi (SD0{0})"
+ },
+ {
+  "key": "Argument resolved and removed from the game",
+  "vi": "Tranh cãi đã được giải quyết và loại khỏi trò chơi"
+ },
+ {
+  "key": "As a Gather Resources action, you may place a Worker or Automaton on an unoccupied space that has {0} or more Trees. Remove {1} Tree from that space and gain {2} Wood.",
+  "vi": "Với hành động Thu thập tài nguyên, bạn có thể đặt một Công nhân hoặc Automaton lên một ô chưa có ai đứng và có từ {0} Cây trở lên. Gỡ bỏ {1} Cây khỏi ô đó và nhận {2} Gỗ."
+ },
+ {
+  "key": "Ask who wants to live.",
+  "vi": "Hỏi xem ai muốn sống."
+ },
+ {
+  "key": "At any time, if the Heat marker is above the red indicator level, place {0} Coal from the supply here: this tile and all adjacent tiles count as heated until the end of the Generator phase (Coal returns to the bank).",
+  "vi": "Bất cứ lúc nào, nếu dấu Nhiệt ở trên mức chỉ báo đỏ, hãy đặt {0} Than từ kho vào đây: mảnh này và mọi mảnh liền kề được tính là heated cho đến hết Giai đoạn Generator (Than trả về kho chung)."
+ },
+ {
+  "key": "At the Threshold",
+  "vi": "Ở ngưỡng"
+ },
+ {
+  "key": "Automaton",
+  "vi": "Automaton"
+ },
+ {
+  "key": "Automaton uses {0} Coal",
+  "vi": "Automaton dùng {0} Than"
+ },
+ {
+  "key": "Away with you",
+  "vi": "Biến đi"
+ },
+ {
+  "key": "Banish both immediately",
+  "vi": "Trục xuất cả hai ngay lập tức"
+ },
+ {
+  "key": "Beacon",
+  "vi": "Đèn hiệu"
+ },
+ {
+  "key": "Beacon ({0} Wood)",
+  "vi": "Đèn hiệu ({0} Gỗ)"
+ },
+ {
+  "key": "Beacon built",
+  "vi": "Đèn hiệu đã được xây"
+ },
+ {
+  "key": "Beacon upgraded",
+  "vi": "Đèn hiệu đã được nâng cấp"
+ },
+ {
+  "key": "Bear Favour",
+  "vi": "Ân huệ của gấu"
+ },
+ {
+  "key": "Because you're long dead. Let's go.",
+  "vi": "Vì các người đã chết từ lâu rồi. Đi thôi."
+ },
+ {
+  "key": "Black Gold Rush",
+  "vi": "Cơn sốt vàng đen"
+ },
+ {
+  "key": "Black Gold Rush (A) - X0{0}",
+  "vi": "Cơn sốt vàng đen (A) - X0{0}"
+ },
+ {
+  "key": "Black Gold Rush: choose an option",
+  "vi": "Cơn sốt vàng đen: chọn một lựa chọn"
+ },
+ {
+  "key": "Blood Games",
+  "vi": "Trò chơi đẫm máu"
+ },
+ {
+  "key": "Blowing Off Steam",
+  "vi": "Xả hơi"
+ },
+ {
+  "key": "Blowing Off Steam (D0{0})",
+  "vi": "Xả hơi (D0{0})"
+ },
+ {
+  "key": "Blowing Off Steam was removed from the game",
+  "vi": "Xả hơi đã được loại khỏi trò chơi"
+ },
+ {
+  "key": "Both on bottom",
+  "vi": "Cả hai ở dưới cùng"
+ },
+ {
+  "key": "Both on top",
+  "vi": "Cả hai ở trên cùng"
+ },
+ {
+  "key": "Bottom of the stack",
+  "vi": "Đáy chồng bài"
+ },
+ {
+  "key": "Break their signs and give them a choice",
+  "vi": "Phá biển hiệu của họ và cho họ một lựa chọn"
+ },
+ {
+  "key": "Broken Noses and Bruised Ribs",
+  "vi": "Mũi gãy và sườn bầm"
+ },
+ {
+  "key": "Broken Noses and Bruised Ribs (L1{0}A)",
+  "vi": "Mũi gãy và sườn bầm (L1{0}A)"
+ },
+ {
+  "key": "Broken Noses and Bruised Ribs was shuffled back into the Dusk deck",
+  "vi": "Mũi gãy và sườn bầm đã được xáo trở lại bộ bài Dusk"
+ },
+ {
+  "key": "Brothers are causing trouble",
+  "vi": "Hai anh em đang gây rắc rối"
+ },
+ {
+  "key": "Build a Building",
+  "vi": "Xây một Công trình"
+ },
+ {
+  "key": "Build a Building for free",
+  "vi": "Xây một Công trình miễn phí"
+ },
+ {
+  "key": "Build Child Shelter ({0} Wood)",
+  "vi": "Xây Nơi trú ẩn cho trẻ em ({0} Gỗ)"
+ },
+ {
+  "key": "buildingNormal",
+  "vi": "Xây công trình thông thường"
+ },
+ {
+  "key": "Bunkhouse",
+  "vi": "Nhà tập thể"
+ },
+ {
+  "key": "Bunkhouse ({0} Wood)",
+  "vi": "Nhà tập thể ({0} Gỗ)"
+ },
+ {
+  "key": "Bunkhouse at Generator tile (UL)",
+  "vi": "Nhà tập thể tại mảnh Generator (UL)"
+ },
+ {
+  "key": "Bunkhouse at Generator tile (UR)",
+  "vi": "Nhà tập thể tại mảnh Generator (UR)"
+ },
+ {
+  "key": "Bunkhouse at N0{0} bottom",
+  "vi": "Nhà tập thể tại N0{0} phía dưới"
+ },
+ {
+  "key": "Bunkhouse built",
+  "vi": "Nhà tập thể đã được xây"
+ },
+ {
+  "key": "Bunkhouse dismantled",
+  "vi": "Nhà tập thể đã được tháo dỡ"
+ },
+ {
+  "key": "Cabin in the Woods",
+  "vi": "Túp lều trong rừng"
+ },
+ {
+  "key": "Cabin in the Woods (A) - X0{0}",
+  "vi": "Túp lều trong rừng (A) - X0{0}"
+ },
+ {
+  "key": "Cabin in the Woods: choose an option",
+  "vi": "Túp lều trong rừng: chọn một lựa chọn"
+ },
+ {
+  "key": "Call of the Wild",
+  "vi": "Tiếng gọi hoang dã"
+ },
+ {
+  "key": "Call of the Wild (D0{0})",
+  "vi": "Tiếng gọi hoang dã (D0{0})"
+ },
+ {
+  "key": "Call of the Wild was removed from the game",
+  "vi": "Tiếng gọi hoang dã đã được loại khỏi trò chơi"
+ },
+ {
+  "key": "Call to Rise: {0} Citizen card(s) drawn",
+  "vi": "Call to Rise: đã rút {0} thẻ Công dân"
+ },
+ {
+  "key": "Call to Rise: play the card now, or keep it for a later Preparation Phase?",
+  "vi": "Call to Rise: chơi thẻ ngay bây giờ, hay giữ lại cho Giai đoạn Chuẩn bị sau?"
+ },
+ {
+  "key": "Cannot pay the starting cost",
+  "vi": "Không thể trả chi phí khởi đầu"
+ },
+ {
+  "key": "Card text decides by Round (the rulebook text says {0}st/{1}nd Storm; the printed card wins). Includes Shelters on the Buildings board. No Event icon => returned face down beside the Weather deck.",
+  "vi": "Nội dung thẻ quyết định theo Vòng (sách luật ghi Storm thứ {0}/thứ {1}; thẻ in được ưu tiên). Bao gồm Nơi trú ẩn trên bảng Công trình. Không có biểu tượng Sự kiện => trả úp bên cạnh bộ bài Thời tiết."
+ },
+ {
+  "key": "Care",
+  "vi": "Care"
+ },
+ {
+  "key": "Care (active)",
+  "vi": "Care (đang hoạt động)"
+ },
+ {
+  "key": "Care (exhausted)",
+  "vi": "Care (đã kiệt sức)"
+ },
+ {
+  "key": "Care Hope activated",
+  "vi": "Care Hope đã được kích hoạt"
+ },
+ {
+  "key": "Care Hope exhausted",
+  "vi": "Care Hope đã kiệt sức"
+ },
+ {
+  "key": "Care Hope token from The Virtue of Humanity swapped with an active Care Hope token",
+  "vi": "Dấu Care Hope từ Đức hạnh của nhân loại đã được đổi chỗ với dấu Care Hope đang hoạt động"
+ },
+ {
+  "key": "Care Hope token placed on The Virtue of Humanity",
+  "vi": "Dấu Care Hope đã được đặt lên Đức hạnh của nhân loại"
+ },
+ {
+  "key": "Care House",
+  "vi": "Nhà chăm sóc"
+ },
+ {
+  "key": "Care House was introduced",
+  "vi": "Care House đã được ban hành"
+ },
+ {
+  "key": "Care removed from the track",
+  "vi": "Care đã được gỡ bỏ khỏi đường đếm"
+ },
+ {
+  "key": "Caroline O'Hare",
+  "vi": "Caroline O'Hare"
+ },
+ {
+  "key": "Caroline O'Hare (worker)",
+  "vi": "Caroline O'Hare (công nhân)"
+ },
+ {
+  "key": "Carrier Sledge",
+  "vi": "Xe trượt chở hàng"
+ },
+ {
+  "key": "Carry the prize back home.",
+  "vi": "Mang phần thưởng về nhà."
+ },
+ {
+  "key": "Catch them all",
+  "vi": "Bắt hết chúng"
+ },
+ {
+  "key": "Cemetery",
+  "vi": "Nghĩa địa"
+ },
+ {
+  "key": "Cemetery ({0} Wood)",
+  "vi": "Nghĩa địa ({0} Gỗ)"
+ },
+ {
+  "key": "Ceremony for the Dead",
+  "vi": "Nghi lễ tưởng niệm người chết"
+ },
+ {
+  "key": "Ceremony for the Dead (M0{0})",
+  "vi": "Nghi lễ tưởng niệm người chết (M0{0})"
+ },
+ {
+  "key": "Ceremony for the Dead was removed from the game",
+  "vi": "Nghi lễ tưởng niệm người chết đã được loại khỏi trò chơi"
+ },
+ {
+  "key": "Charcoal Kiln",
+  "vi": "Lò than củi"
+ },
+ {
+  "key": "Charcoal Kiln ({0} Wood)",
+  "vi": "Lò than củi ({0} Gỗ)"
+ },
+ {
+  "key": "Charcoal Kiln (free)",
+  "vi": "Lò than củi (miễn phí)"
+ },
+ {
+  "key": "Charcoal Kiln at Generator tile (UL)",
+  "vi": "Lò than củi tại mảnh Generator (UL)"
+ },
+ {
+  "key": "Charcoal Kiln at Generator tile (UR)",
+  "vi": "Lò than củi tại mảnh Generator (UR)"
+ },
+ {
+  "key": "Charcoal Kiln at N0{0} bottom",
+  "vi": "Lò than củi tại N0{0} phía dưới"
+ },
+ {
+  "key": "Charcoal Kiln at N0{0} top",
+  "vi": "Lò than củi tại N0{0} phía trên"
+ },
+ {
+  "key": "Charcoal Kiln at N1{0} bottom",
+  "vi": "Lò than củi tại N1{0} phía dưới"
+ },
+ {
+  "key": "Charcoal Kiln at N1{0} top",
+  "vi": "Lò than củi tại N1{0} phía trên"
+ },
+ {
+  "key": "Charcoal Kiln built",
+  "vi": "Lò than củi đã được xây"
+ },
+ {
+  "key": "Charcoal Kiln dismantled",
+  "vi": "Lò than củi đã được tháo dỡ"
+ },
+ {
+  "key": "Charcoal Kiln Upgrade",
+  "vi": "Nâng cấp Lò than củi"
+ },
+ {
+  "key": "Charcoal Kiln upgraded",
+  "vi": "Lò than củi đã được nâng cấp"
+ },
+ {
+  "key": "Child",
+  "vi": "Trẻ em"
+ },
+ {
+  "key": "Child (board)",
+  "vi": "Trẻ em (trên bàn)"
+ },
+ {
+  "key": "Child (Engineer)",
+  "vi": "Trẻ em (Kỹ sư)"
+ },
+ {
+  "key": "Child (sick {0}, skull)",
+  "vi": "Trẻ em (bệnh {0}, đầu lâu)"
+ },
+ {
+  "key": "Child (sick {0})",
+  "vi": "Trẻ em (bệnh {0})"
+ },
+ {
+  "key": "Child (Skull)",
+  "vi": "Trẻ em (Đầu lâu)"
+ },
+ {
+  "key": "Child (supply)",
+  "vi": "Trẻ em (kho)"
+ },
+ {
+  "key": "Child (Syringe)",
+  "vi": "Trẻ em (Ống tiêm)"
+ },
+ {
+  "key": "Child Education - Bright Minds",
+  "vi": "Giáo dục trẻ em - Trí tuệ sáng"
+ },
+ {
+  "key": "Child Education - Bright Minds (L0{0}B)",
+  "vi": "Giáo dục trẻ em - Trí tuệ sáng (L0{0}B)"
+ },
+ {
+  "key": "Child Education - Bright Minds was shuffled back into the Dusk deck",
+  "vi": "Giáo dục trẻ em - Trí tuệ sáng đã được xáo trở lại bộ bài Dusk"
+ },
+ {
+  "key": "Child Education - Young Medics",
+  "vi": "Giáo dục trẻ em - Nhân viên y tế trẻ"
+ },
+ {
+  "key": "Child Education - Young Medics (L0{0}A)",
+  "vi": "Giáo dục trẻ em - Nhân viên y tế trẻ (L0{0}A)"
+ },
+ {
+  "key": "Child Education - Young Medics was placed on the Dusk discard pile",
+  "vi": "Giáo dục trẻ em - Nhân viên y tế trẻ đã được đặt lên chồng bỏ Dusk"
+ },
+ {
+  "key": "Child Labour",
+  "vi": "Lao động trẻ em"
+ },
+ {
+  "key": "Child Labour was introduced",
+  "vi": "Lao động trẻ em đã được ban hành"
+ },
+ {
+  "key": "Child Shelter",
+  "vi": "Nơi trú ẩn cho trẻ em"
+ },
+ {
+  "key": "Child Shelter ({0} Wood)",
+  "vi": "Nơi trú ẩn cho trẻ em ({0} Gỗ)"
+ },
+ {
+  "key": "Child Shelter at Generator tile (UL)",
+  "vi": "Nơi trú ẩn cho trẻ em tại mảnh Generator (UL)"
+ },
+ {
+  "key": "Child Shelter at N0{0} bottom",
+  "vi": "Nơi trú ẩn cho trẻ em tại N0{0} phía dưới"
+ },
+ {
+  "key": "Child Shelter built",
+  "vi": "Nơi trú ẩn cho trẻ em đã được xây"
+ },
+ {
+  "key": "Child Shelter dismantled",
+  "vi": "Nơi trú ẩn cho trẻ em đã được tháo dỡ"
+ },
+ {
+  "key": "Child Shelter was introduced",
+  "vi": "Nơi trú ẩn cho trẻ em đã được ban hành"
+ },
+ {
+  "key": "Child Shelter: you may immediately build the Child Shelter by paying its cost",
+  "vi": "Nơi trú ẩn cho trẻ em: bạn có thể xây ngay Nơi trú ẩn cho trẻ em bằng cách trả chi phí của nó"
+ },
+ {
+  "key": "Child sickness band: {0} spent, {1} flip(s)",
+  "vi": "Dải bệnh của trẻ em: đã dùng {0}, lật {1} lần"
+ },
+ {
+  "key": "Child sickness marker flipped back – a citizen dies",
+  "vi": "Dấu bệnh của trẻ em bị lật ngược – một công dân chết"
+ },
+ {
+  "key": "Child sickness marker flipped to the Skull side",
+  "vi": "Dấu bệnh của trẻ em đã lật sang mặt Đầu lâu"
+ },
+ {
+  "key": "Child's Play",
+  "vi": "Trò chơi của trẻ em"
+ },
+ {
+  "key": "Child's Play (event action)",
+  "vi": "Trò chơi của trẻ em (hành động sự kiện)"
+ },
+ {
+  "key": "Child's Play (M0{0})",
+  "vi": "Trò chơi của trẻ em (M0{0})"
+ },
+ {
+  "key": "Child's Play was placed in the Event display",
+  "vi": "Trò chơi của trẻ em đã được đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "Child's Play was removed from the game",
+  "vi": "Trò chơi của trẻ em đã được loại khỏi trò chơi"
+ },
+ {
+  "key": "Children",
+  "vi": "Trẻ em"
+ },
+ {
+  "key": "Children need care, not punishment",
+  "vi": "Trẻ em cần được chăm sóc, không phải trừng phạt"
+ },
+ {
+  "key": "Choose a Building to build",
+  "vi": "Chọn một Công trình để xây"
+ },
+ {
+  "key": "Choose a Far tile for the Automaton",
+  "vi": "Chọn một mảnh Xa cho Automaton"
+ },
+ {
+  "key": "Choose a Law from the Future Law display",
+  "vi": "Chọn một Law từ bảng Future Law"
+ },
+ {
+  "key": "Choose any Building with a Citizen Meeple on it and perform its action (counts as heated).",
+  "vi": "Chọn một Công trình có Meeple Công dân trên đó và thực hiện hành động của nó (được tính là heated)."
+ },
+ {
+  "key": "Choose one",
+  "vi": "Chọn một"
+ },
+ {
+  "key": "Choose the Law Consequence of Care House to shuffle into the Dusk deck (the other is removed unseen)",
+  "vi": "Chọn Law Consequence của Care House để xáo vào bộ bài Dusk (lá còn lại bị loại mà không ai thấy)"
+ },
+ {
+  "key": "Choose the Law Consequence of Child Labour to shuffle into the Dusk deck (the other is removed unseen)",
+  "vi": "Chọn Law Consequence của Lao động trẻ em để xáo vào bộ bài Dusk (lá còn lại bị loại mà không ai thấy)"
+ },
+ {
+  "key": "Choose the Law Consequence of Child Shelter to shuffle into the Dusk deck (the other is removed unseen)",
+  "vi": "Chọn Law Consequence của Nơi trú ẩn cho trẻ em để xáo vào bộ bài Dusk (lá còn lại bị loại mà không ai thấy)"
+ },
+ {
+  "key": "Choose the Law Consequence of Crowded Quarters to shuffle into the Dusk deck (the other is removed unseen)",
+  "vi": "Chọn Law Consequence của Khu nhà chật chội để xáo vào bộ bài Dusk (lá còn lại bị loại mà không ai thấy)"
+ },
+ {
+  "key": "Choose the Law Consequence of Makeshift Shelters to shuffle into the Dusk deck (the other is removed unseen)",
+  "vi": "Chọn Law Consequence của Nơi trú ẩn tạm bợ để xáo vào bộ bài Dusk (lá còn lại bị loại mà không ai thấy)"
+ },
+ {
+  "key": "Choose the Law Consequence of New Faith to shuffle into the Dusk deck (the other is removed unseen)",
+  "vi": "Chọn Law Consequence của Đức tin mới để xáo vào bộ bài Dusk (lá còn lại bị loại mà không ai thấy)"
+ },
+ {
+  "key": "Choose the Law Consequence of The Virtue of Humanity to shuffle into the Dusk deck (the other is removed unseen)",
+  "vi": "Chọn Law Consequence của Đức hạnh của nhân loại để xáo vào bộ bài Dusk (lá còn lại bị loại mà không ai thấy)"
+ }
+]

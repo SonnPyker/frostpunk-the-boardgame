@@ -1,0 +1,130 @@
+[
+ {
+  "key": "Action: spend 3 Food to raise Hope or lower Discontent.",
+  "vi": "Hành động: chi {0} Thực phẩm để tăng Hope hoặc giảm Discontent."
+ },
+ {
+  "key": "Action: introduce a new Law. Printed on the Generator tile. Engineers only.",
+  "vi": "Hành động: đưa vào một Law mới. In sẵn trên mảnh Generator. Chỉ Kỹ sư."
+ },
+ {
+  "key": "Action: remove up to 5 Stress cubes, or spend 1 Steam Core to remove them all. Engineers only.",
+  "vi": "Hành động: gỡ tối đa {0} khối Căng thẳng, hoặc chi {1} Steam Core để gỡ hết. Chỉ Kỹ sư."
+ },
+ {
+  "key": "Action: choose two effects (the same one twice is allowed): upgrade a Building, or move the Development token one space back on the Round track. Engineers only.",
+  "vi": "Hành động: chọn hai hiệu ứng (có thể chọn cùng một hiệu ứng hai lần): nâng cấp một Công trình, hoặc lùi Development token một ô trên đường Vòng. Chỉ Kỹ sư."
+ },
+ {
+  "key": "Action: spend 1 Wood to gain 4 Coal. Upgraded: spend 1 Wood to gain 5 Coal.",
+  "vi": "Hành động: chi {0} Gỗ để nhận {1} Than. Đã nâng cấp: chi {2} Gỗ để nhận {3} Than."
+ },
+ {
+  "key": "Passive: 1 Food each Weather phase (2 when upgraded). Action: gain 4 Food (5 when upgraded).",
+  "vi": "Bị động: {0} Thực phẩm mỗi giai đoạn Thời tiết ({1} khi đã nâng cấp). Hành động: nhận {2} Thực phẩm ({3} khi đã nâng cấp)."
+ },
+ {
+  "key": "Action: take 1 Resource from each adjacent space into the supply. Upgraded: only better Insulation.",
+  "vi": "Hành động: lấy {0} Tài nguyên từ mỗi ô liền kề đưa vào kho. Đã nâng cấp: chỉ tăng Insulation."
+ },
+ {
+  "key": "Action: spend 1 Steam Core to gain 1 Automaton. Engineers only.",
+  "vi": "Hành động: chi {0} Steam Core để nhận {1} Automaton. Chỉ Kỹ sư."
+ },
+ {
+  "key": "Action: remove 1 Tree from the Sawmill tile to gain 3 Wood. Upgraded: the Tree may also be on an adjacent space.",
+  "vi": "Hành động: gỡ {0} Cây trên mảnh có Xưởng cưa để nhận {1} Gỗ. Đã nâng cấp: Cây cũng có thể nằm ở ô liền kề."
+ },
+ {
+  "key": "Action: Cure 3. Upgraded: Cure 4, or Treat 1. Engineers only.",
+  "vi": "Hành động: Chữa {0}. Đã nâng cấp: Chữa {1}, hoặc Điều trị {2}. Chỉ Kỹ sư."
+ },
+ {
+  "key": "Passive: up to 1 Expedition may be active. Upgraded: up to 2.",
+  "vi": "Bị động: tối đa {0} Expedition được hoạt động cùng lúc. Đã nâng cấp: tối đa {1}."
+ },
+ {
+  "key": "Action: place up to 3 Coal on each of 3 different adjacent spaces (5 Coal max per space). A space must already hold Coal or have no Resources, Trees or Buildings. Upgraded: 4 different spaces.",
+  "vi": "Hành động: đặt tối đa {0} Than lên mỗi ô trong {1} ô liền kề khác nhau (tối đa {2} Than mỗi ô). Ô phải đã có Than, hoặc không có Tài nguyên, Cây hay Công trình. Đã nâng cấp: {3} ô khác nhau."
+ },
+ {
+  "key": "Action: Cure 4 or Treat 2. Upgraded: Cure 5 or Treat 3. Engineers only.",
+  "vi": "Hành động: Chữa {0} hoặc Điều trị {1}. Đã nâng cấp: Chữa {2} hoặc Điều trị {3}. Chỉ Kỹ sư."
+ },
+ {
+  "key": "Action: gain 7 Food. Upgraded: gain 9 Food.",
+  "vi": "Hành động: nhận {0} Thực phẩm. Đã nâng cấp: nhận {1} Thực phẩm."
+ },
+ {
+  "key": "Action: gain 4 Coal. Upgraded: gain 5 Coal. Can only be built next to a Coal deposit on the Rim.",
+  "vi": "Hành động: nhận {0} Than. Đã nâng cấp: nhận {1} Than. Chỉ xây được cạnh một mỏ Than ở rìa."
+ },
+ {
+  "key": "Action: gain 3 Wood. Can only be built next to a Wood deposit on the Rim. Upgraded: only better Insulation.",
+  "vi": "Hành động: nhận {0} Gỗ. Chỉ xây được cạnh một mỏ Gỗ ở rìa. Đã nâng cấp: chỉ tăng Insulation."
+ },
+ {
+  "key": "Shelter for 2 Citizens.",
+  "vi": "Nơi trú ẩn cho {0} Công dân."
+ },
+ {
+  "key": "The flip side of a House, Bunkhouse or Tent. No Shelter in the Night Phase unless a Law says otherwise, and then only if heated.",
+  "vi": "Mặt lật của Nhà, Nhà tập thể hoặc Lều. Không làm Nơi trú ẩn trong giai đoạn Đêm, trừ khi một Law nói khác, và khi đó vẫn phải được heated."
+ },
+ {
+  "key": "Shelter for 4 Children.",
+  "vi": "Nơi trú ẩn cho {0} trẻ em."
+ },
+ {
+  "key": "Action: Cure 2, or Cure 5 if you exhaust an active Care token.",
+  "vi": "Hành động: Chữa {0}, hoặc Chữa {1} nếu tiêu hao một dấu Care đang kích hoạt."
+ },
+ {
+  "key": "Action: decrease Discontent.",
+  "vi": "Hành động: giảm Discontent."
+ },
+ {
+  "key": "Action: increase Hope.",
+  "vi": "Hành động: tăng Hope."
+ },
+ {
+  "key": "Passive: actions and Buildings on this tile count as heated, and so do Shelters here at Night. Cannot be built on the Generator tile.",
+  "vi": "Bị động: hành động và Công trình trên mảnh này được tính là heated, Nơi trú ẩn ở đây cũng vậy trong giai đoạn Đêm. Không thể xây trên mảnh Generator."
+ },
+ {
+  "key": "Action: move the Corpse marker back 1 to 2 spaces. If you do, increase Hope.",
+  "vi": "Hành động: lùi Corpse marker {0} đến {1} ô. Nếu làm vậy, tăng Hope."
+ },
+ {
+  "key": "Action: activate all Hope tokens of one type. Engineers only.",
+  "vi": "Hành động: kích hoạt tất cả dấu Hope của một loại. Chỉ Kỹ sư."
+ },
+ {
+  "key": "Action: draw 3 Dusk cards. You may discard one of them without its effect (not a Social Dispute card), then shuffle the other 2 back into the Dusk deck.",
+  "vi": "Hành động: rút {0} thẻ Dusk. Bạn có thể bỏ một thẻ mà không có hiệu ứng (không phải Social Dispute), rồi xáo {1} thẻ còn lại vào Dusk deck."
+ },
+ {
+  "key": "When built, move the Corpse marker back 1 to 3 spaces.",
+  "vi": "Khi xây, lùi Corpse marker {0} đến {1} ô."
+ },
+ {
+  "key": "Action: choose a Building with a Citizen on it and perform its action (it counts as heated). Engineers only.",
+  "vi": "Hành động: chọn một Công trình có Công dân trên đó và thực hiện hành động của nó (được tính là heated). Chỉ Kỹ sư."
+ },
+ {
+  "key": "Action: exhaust all active Discontent tokens of one type.",
+  "vi": "Hành động: tiêu hao tất cả dấu Discontent đang hoạt động của một loại."
+ },
+ {
+  "key": "Action: reduce Hunger by 4. A Meeple that uses it stays in the Prison at Night: it is a Shelter if heated, otherwise the Meeple falls sick.",
+  "vi": "Hành động: giảm Đói {0}. Meeple dùng hành động này ở lại Nhà tù trong giai đoạn Đêm: nếu được heated thì là Nơi trú ẩn, không thì Meeple bị bệnh."
+ },
+ {
+  "key": "Passive: at any time, if Heat is above the red level, you may place 1 Coal here. While it holds Coal, this tile and its adjacent tiles count as heated. Return the Coal to the bank at the end of the Generator phase.",
+  "vi": "Bị động: bất cứ lúc nào, nếu dấu Nhiệt ở trên mức đỏ, bạn có thể đặt {0} Than vào đây. Khi đang giữ Than, mảnh này và các mảnh liền kề được tính là heated. Trả Than về kho chung vào cuối giai đoạn Generator."
+ },
+ {
+  "key": "Dreadnought. A Small Building with Blue insulation. Use a Building action: gain 1 Steel.",
+  "vi": "Dreadnought. Công trình nhỏ có insulation Xanh dương. Hành động Sử dụng một Công trình: nhận {0} Thép."
+ }
+]

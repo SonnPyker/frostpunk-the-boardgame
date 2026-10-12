@@ -1,0 +1,19 @@
+# Supabase CLI project config (used by `supabase start` / `supabase db push`).
+# Everything not listed keeps Supabase defaults. The game uses its own seat tokens, not Supabase auth.
+
+project_id = "frostpunk-web"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+
+# Loads supabase/seed.sql on `supabase start` and `supabase db reset` (idempotent sample finished game).
+[db.seed]
+enabled = true
+sql_paths = ["./seed.sql"]

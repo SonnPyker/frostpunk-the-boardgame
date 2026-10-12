@@ -1,0 +1,366 @@
+[
+ {
+  "key": "Actions",
+  "vi": "Hành động"
+ },
+ {
+  "key": "Generator and resources",
+  "vi": "Generator và tài nguyên"
+ },
+ {
+  "key": "Build and use",
+  "vi": "Xây và sử dụng"
+ },
+ {
+  "key": "Expedition",
+  "vi": "Expedition"
+ },
+ {
+  "key": "Special",
+  "vi": "Đặc biệt"
+ },
+ {
+  "key": "Other",
+  "vi": "Khác"
+ },
+ {
+  "key": "0 of 2",
+  "vi": "{0} trên {1}"
+ },
+ {
+  "key": "Remove one",
+  "vi": "Gỡ bỏ một"
+ },
+ {
+  "key": "Add one",
+  "vi": "Thêm một"
+ },
+ {
+  "key": "0 of 2 assigned",
+  "vi": "Đã phân bổ {0} trên {1}"
+ },
+ {
+  "key": "0 of 2 to 3 assigned",
+  "vi": "Đã phân bổ {0} trên {1} đến {2}"
+ },
+ {
+  "key": "Confirm",
+  "vi": "Xác nhận"
+ },
+ {
+  "key": "Continue",
+  "vi": "Tiếp tục"
+ },
+ {
+  "key": "Return",
+  "vi": "Quay về"
+ },
+ {
+  "key": "Explore",
+  "vi": "Khám phá"
+ },
+ {
+  "key": "Skip",
+  "vi": "Bỏ qua"
+ },
+ {
+  "key": "Heat",
+  "vi": "Nhiệt"
+ },
+ {
+  "key": "Coal",
+  "vi": "Than"
+ },
+ {
+  "key": "Cold",
+  "vi": "Lạnh"
+ },
+ {
+  "key": "Coal to burn",
+  "vi": "Than cần đốt"
+ },
+ {
+  "key": "Heat 2",
+  "vi": "Nhiệt {0}"
+ },
+ {
+  "key": "Do not fuel",
+  "vi": "Không nạp than"
+ },
+ {
+  "key": "Waiting for",
+  "vi": "Đang chờ"
+ },
+ {
+  "key": "another player",
+  "vi": "người chơi khác"
+ },
+ {
+  "key": "Sending the answer...",
+  "vi": "Đang gửi lựa chọn..."
+ },
+ {
+  "key": "Choose 2",
+  "vi": "Chọn {0}"
+ },
+ {
+  "key": "Choose 2 to 3",
+  "vi": "Chọn {0} đến {1}"
+ },
+ {
+  "key": "0 of 2 chosen",
+  "vi": "Đã chọn {0} trên {1}"
+ },
+ {
+  "key": "0 of 2 to 3 chosen",
+  "vi": "Đã chọn {0} trên {1} đến {2}"
+ },
+ {
+  "key": "Sending...",
+  "vi": "Đang gửi..."
+ },
+ {
+  "key": "Asked because",
+  "vi": "Được hỏi vì"
+ },
+ {
+  "key": "Workshop",
+  "vi": "Workshop"
+ },
+ {
+  "key": "Workshop effect 2 of 3",
+  "vi": "Hiệu ứng Workshop thứ {0} trên {1}"
+ },
+ {
+  "key": "Your last decisions",
+  "vi": "Quyết định gần đây của bạn"
+ },
+ {
+  "key": "R",
+  "vi": "V"
+ },
+ {
+  "key": "Skipped",
+  "vi": "Đã bỏ qua"
+ },
+ {
+  "key": "Continued",
+  "vi": "Đã tiếp tục"
+ },
+ {
+  "key": "Action",
+  "vi": "Hành động"
+ },
+ {
+  "key": "Generator",
+  "vi": "Generator"
+ },
+ {
+  "key": "Meeple",
+  "vi": "Meeple"
+ },
+ {
+  "key": "Citizen card",
+  "vi": "Thẻ công dân"
+ },
+ {
+  "key": "Space",
+  "vi": "Ô"
+ },
+ {
+  "key": "Gather",
+  "vi": "Thu thập"
+ },
+ {
+  "key": "Building",
+  "vi": "Công trình"
+ },
+ {
+  "key": "Adjacent space",
+  "vi": "Ô liền kề"
+ },
+ {
+  "key": "Move building",
+  "vi": "Di chuyển công trình"
+ },
+ {
+  "key": "Reuse building",
+  "vi": "Tái sử dụng công trình"
+ },
+ {
+  "key": "Reuse worker",
+  "vi": "Tái sử dụng công nhân"
+ },
+ {
+  "key": "Event card",
+  "vi": "Thẻ sự kiện"
+ },
+ {
+  "key": "Technology",
+  "vi": "Công nghệ"
+ },
+ {
+  "key": "Law",
+  "vi": "Law"
+ },
+ {
+  "key": "Type",
+  "vi": "Loại"
+ },
+ {
+  "key": "Advisor",
+  "vi": "Advisor"
+ },
+ {
+  "key": "Scenario",
+  "vi": "Kịch bản"
+ },
+ {
+  "key": "Stockpile",
+  "vi": "Stockpile"
+ },
+ {
+  "key": "Night",
+  "vi": "Đêm"
+ },
+ {
+  "key": "Scout",
+  "vi": "Scout"
+ },
+ {
+  "key": "Choice",
+  "vi": "Lựa chọn"
+ },
+ {
+  "key": "Distribute",
+  "vi": "Phân bổ"
+ },
+ {
+  "key": "Payment",
+  "vi": "Thanh toán"
+ },
+ {
+  "key": "Build site",
+  "vi": "Vị trí xây dựng"
+ },
+ {
+  "key": "Construction",
+  "vi": "Xây dựng"
+ },
+ {
+  "key": "Citizen",
+  "vi": "Công dân"
+ },
+ {
+  "key": "Citizens",
+  "vi": "Các công dân"
+ },
+ {
+  "key": "Corpse marker",
+  "vi": "Corpse marker"
+ },
+ {
+  "key": "Destroy",
+  "vi": "Phá hủy"
+ },
+ {
+  "key": "Dismantle",
+  "vi": "Tháo dỡ"
+ },
+ {
+  "key": "Far tiles",
+  "vi": "Các mảnh xa"
+ },
+ {
+  "key": "Map resources",
+  "vi": "Tài nguyên trên bản đồ"
+ },
+ {
+  "key": "Snow",
+  "vi": "Tuyết"
+ },
+ {
+  "key": "Setup",
+  "vi": "Thiết lập"
+ },
+ {
+  "key": "Tile",
+  "vi": "Mảnh"
+ },
+ {
+  "key": "Tile placement",
+  "vi": "Đặt mảnh"
+ },
+ {
+  "key": "Trees",
+  "vi": "Cây"
+ },
+ {
+  "key": "Upgrade",
+  "vi": "Nâng cấp"
+ },
+ {
+  "key": "Dusk",
+  "vi": "Hoàng hôn"
+ },
+ {
+  "key": "Dreadnought",
+  "vi": "Dreadnought"
+ },
+ {
+  "key": "Action phase",
+  "vi": "Giai đoạn Hành động"
+ },
+ {
+  "key": "Citizen death",
+  "vi": "Cái chết của công dân"
+ },
+ {
+  "key": "Phase",
+  "vi": "Giai đoạn"
+ },
+ {
+  "key": "Call to Rise",
+  "vi": "Call to Rise"
+ },
+ {
+  "key": "Build as normal: pay its cost, then get its effect",
+  "vi": "Xây như thường: trả chi phí, rồi nhận hiệu ứng của nó"
+ },
+ {
+  "key": "Each Child falls sick",
+  "vi": "Mỗi trẻ em mắc bệnh"
+ },
+ {
+  "key": "Place the next letter's card on top and keep the Scout moving.",
+  "vi": "Đặt thẻ chữ cái tiếp theo lên trên cùng và giữ Scout di chuyển."
+ },
+ {
+  "key": "Flip this card over and choose one of its outcomes.",
+  "vi": "Lật thẻ này lên và chọn một trong các kết quả của nó."
+ },
+ {
+  "key": "Pay the cost to upgrade one Building that has no worker on it. Its upgraded effect applies from now on.",
+  "vi": "Trả chi phí để nâng cấp một Công trình chưa có công nhân. Hiệu ứng đã nâng cấp có tác dụng từ nay."
+ },
+ {
+  "key": "The Technology in development moves one Round nearer completion. Only possible while one is in development.",
+  "vi": "Công nghệ đang phát triển tiến gần hoàn thành thêm một Vòng. Chỉ dùng được khi có công nghệ đang phát triển."
+ },
+ {
+  "key": "Back to actions",
+  "vi": "Quay lại chọn hành động"
+ },
+ {
+  "key": "Go back to the action menu. Nothing from this action is kept.",
+  "vi": "Quay lại menu hành động. Không giữ lại gì từ hành động này."
+ },
+ {
+  "key": "Click a highlighted hex on the map",
+  "vi": "Nhấn vào ô được tô sáng trên bản đồ"
+ },
+ {
+  "key": "No map? Pick from a list",
+  "vi": "Không thấy bản đồ? Chọn từ danh sách"
+ }
+]

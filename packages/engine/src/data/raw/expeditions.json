@@ -1,0 +1,1188 @@
+{
+"rules": "continue fx is deferred until the Scout returns; return resolves chosen fx plus continue fx of every black-side card below it in the stack. next: B/C = draw from that deck, newA = remove stack and start a new A stack. Skip only on letter A/B cards (draw next letter, overlay).",
+"cards": [
+{
+"id": "X01",
+"idx": 0,
+"deck": "553",
+"letter": "A",
+"location": "campsite",
+"reward": "res",
+"steps": 2,
+"title": "The Thing We Found",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "Run back!",
+"fx": [
+"gain:food:6"
+]
+},
+{
+"kind": "continue",
+"next": "B",
+"label": "Only the frost can scare us. Onward!",
+"fx": [
+"gain:food:6"
+]
+}
+]
+},
+{
+"id": "X02",
+"idx": 1,
+"deck": "553",
+"letter": "A",
+"location": "campsite",
+"reward": "res",
+"steps": 2,
+"title": "A Scene of Terrible Beauty",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "I miss my family. Let's go back.",
+"fx": [
+"gain:coal:2",
+"gain:food:2"
+]
+},
+{
+"kind": "continue",
+"next": "B",
+"label": "Love is a luxury few can now afford.",
+"fx": [
+"gain:coal:2",
+"gain:food:2"
+]
+}
+]
+},
+{
+"id": "X03",
+"idx": 2,
+"deck": "553",
+"letter": "A",
+"location": "campsite",
+"reward": "cit",
+"steps": 3,
+"title": "Smoke and Mirrors",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "Come with us or die. The machinery stays.",
+"fx": [
+"gain:engineer:3"
+]
+},
+{
+"kind": "return",
+"next": "B",
+"label": "We can take your precious stuff, but you carry it.",
+"fx": [
+"hope+1",
+"gain:engineer:3",
+"sick:engineer:2",
+"gain:core:1"
+]
+}
+]
+},
+{
+"id": "X04",
+"idx": 3,
+"deck": "553",
+"letter": "A",
+"location": "campsite",
+"reward": "cit",
+"steps": 3,
+"title": "A Matter of Life and Death",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "Take only the strong. Swallow the tears.",
+"fx": [
+"gain:worker:3"
+]
+},
+{
+"kind": "return",
+"next": "B",
+"label": "We must stay together.",
+"fx": [
+"hope+1",
+"gain:worker:4",
+"gain:child:2",
+"sick:worker:1"
+]
+}
+]
+},
+{
+"id": "X05",
+"idx": 4,
+"deck": "553",
+"letter": "A",
+"location": "ruins",
+"reward": "res",
+"steps": 3,
+"title": "Not a Fairy Tale",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "Let us forget.",
+"fx": [
+"gain:wood:3",
+"gain:food:2"
+]
+},
+{
+"kind": "continue",
+"next": "B",
+"label": "Look for a set of small sized tracks.",
+"fx": [
+"gain:wood:3",
+"gain:food:2"
+]
+}
+]
+},
+{
+"id": "X06",
+"idx": 5,
+"deck": "553",
+"letter": "A",
+"location": "ruins",
+"reward": "res",
+"steps": 3,
+"title": "Heart of Steam",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "Hurry back with the findings and a tale.",
+"fx": [
+"gain:core:1",
+"gain:coal:1"
+]
+},
+{
+"kind": "continue",
+"next": "B",
+"label": "Another relic of the past. Let's move on.",
+"fx": [
+"gain:core:1",
+"gain:coal:1"
+]
+}
+]
+},
+{
+"id": "X07",
+"idx": 6,
+"deck": "553",
+"letter": "A",
+"location": "ruins",
+"reward": "cit",
+"steps": 3,
+"title": "Hades",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "Gather the few survivors.",
+"fx": [
+"gain:worker:3"
+]
+},
+{
+"kind": "return",
+"next": "B",
+"label": "Rush to help rescue those buried alive.",
+"fx": [
+"hope+1",
+"gain:worker:4",
+"gain:engineer:2",
+"sick:worker:1",
+"sick:engineer:1"
+]
+}
+]
+},
+{
+"id": "X08",
+"idx": 7,
+"deck": "553",
+"letter": "A",
+"location": "snow",
+"reward": "any",
+"steps": 2,
+"title": "Black Gold Rush",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "We must get some rest.",
+"fx": [
+"gain:coal:3"
+]
+},
+{
+"kind": "continue",
+"next": "B",
+"label": "Focus and push forward!",
+"fx": [
+"gain:coal:3"
+]
+}
+]
+},
+{
+"id": "X09",
+"idx": 8,
+"deck": "553",
+"letter": "A",
+"location": "snow",
+"reward": "any",
+"steps": 2,
+"title": "Cabin in the Woods",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "Head home. That's enough!",
+"fx": [
+"gain:wood:2",
+"gain:food:2"
+]
+},
+{
+"kind": "continue",
+"next": "B",
+"label": "The hell with it! People depend on us.",
+"fx": [
+"gain:wood:2",
+"gain:food:2"
+]
+}
+]
+},
+{
+"id": "X10",
+"idx": 9,
+"deck": "553",
+"letter": "A",
+"location": "snow",
+"reward": "any",
+"steps": 3,
+"title": "A Letter in the Snow",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "Maybe it's time to go back.",
+"fx": [
+"gain:wood:2",
+"gain:coal:2"
+]
+},
+{
+"kind": "continue",
+"next": "B",
+"label": "Keep walking.",
+"fx": [
+"gain:wood:2",
+"gain:coal:2"
+]
+}
+]
+},
+{
+"id": "X11",
+"idx": 10,
+"deck": "553",
+"letter": "A",
+"location": "snow",
+"reward": "any",
+"steps": 3,
+"title": "The Other Side",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "Turn away from the light.",
+"fx": [
+"gain:worker:2",
+"gain:engineer:2"
+]
+},
+{
+"kind": "return",
+"next": "B",
+"label": "Walk towards the light.",
+"fx": [
+"hope+1",
+"gain:worker:3",
+"gain:engineer:2",
+"gain:child:1",
+"sick:child:1"
+]
+}
+]
+},
+{
+"id": "X12",
+"idx": 11,
+"deck": "553",
+"letter": "A",
+"location": "cave",
+"reward": "res",
+"steps": 3,
+"title": "Misleading Star",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "It's time to go back!",
+"fx": [
+"gain:coal:3",
+"gain:food:2"
+]
+},
+{
+"kind": "continue",
+"next": "B",
+"label": "Leave them. Follow the star.",
+"fx": [
+"gain:coal:3",
+"gain:food:2"
+]
+}
+]
+},
+{
+"id": "X13",
+"idx": 12,
+"deck": "553",
+"letter": "A",
+"location": "cave",
+"reward": "res",
+"steps": 3,
+"title": "Mushroom Kingdom",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "It's time to go back!",
+"fx": [
+"gain:core:1",
+"gain:food:3"
+]
+},
+{
+"kind": "continue",
+"next": "B",
+"label": "What? Why? Let's just go.",
+"fx": [
+"gain:core:1",
+"gain:food:3"
+]
+}
+]
+},
+{
+"id": "X14",
+"idx": 13,
+"deck": "553",
+"letter": "A",
+"location": "cave",
+"reward": "any",
+"steps": 3,
+"title": "Devil's Crossroads",
+"options": [
+{
+"kind": "return",
+"next": "B",
+"label": "Grab the loot and run!",
+"fx": [
+"gain:wood:2",
+"gain:coal:2"
+]
+},
+{
+"kind": "return",
+"next": "B",
+"label": "Act like a civilised human.",
+"fx": [
+"hope+1",
+"gain:worker:4",
+"gain:child:3",
+"sick:child:1"
+]
+},
+{
+"kind": "continue",
+"next": "B",
+"label": "Take it and simply walk away.",
+"fx": [
+"gain:wood:2",
+"gain:coal:2"
+]
+}
+]
+},
+{
+"id": "X15",
+"idx": 14,
+"deck": "553",
+"letter": "B",
+"location": "ruins",
+"reward": "res",
+"steps": 3,
+"title": "Humanity's Long Fall",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "Their loss, our gain.",
+"fx": [
+"gain:wood:2",
+"gain:coal:3"
+]
+},
+{
+"kind": "continue",
+"next": "C",
+"label": "Gather what's left and continue.",
+"fx": [
+"gain:wood:2",
+"gain:coal:3"
+]
+}
+]
+},
+{
+"id": "X16",
+"idx": 15,
+"deck": "553",
+"letter": "B",
+"location": "ruins",
+"reward": "res",
+"steps": 3,
+"title": "The King and His Subjects",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "The man ate the mice.",
+"fx": [
+"gain:wood:3",
+"gain:food:4"
+]
+},
+{
+"kind": "continue",
+"next": "C",
+"label": "The mice ate the man.",
+"fx": [
+"gain:wood:3",
+"gain:food:4"
+]
+}
+]
+},
+{
+"id": "X17",
+"idx": 16,
+"deck": "553",
+"letter": "B",
+"location": "ruins",
+"reward": "cit",
+"steps": 3,
+"title": "Desperate Measures",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "The dead don't need it. We do.",
+"fx": [
+"gain:wood:3",
+"gain:coal:2"
+]
+},
+{
+"kind": "return",
+"next": "C",
+"label": "We can save them! We must!",
+"fx": [
+"hope+1",
+"gain:worker:5",
+"gain:engineer:2",
+"sick:worker:1"
+]
+}
+]
+},
+{
+"id": "X18",
+"idx": 17,
+"deck": "553",
+"letter": "B",
+"location": "ruins",
+"reward": "cit",
+"steps": 3,
+"title": "Of Mice and Men",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "Take. Take. Take!",
+"fx": [
+"gain:wood:1",
+"gain:coal:3"
+]
+},
+{
+"kind": "return",
+"next": "C",
+"label": "Don't be afraid. We won't hurt you.",
+"fx": [
+"hope+1",
+"gain:engineer:4",
+"gain:child:3",
+"sick:child:1"
+]
+}
+]
+},
+{
+"id": "X19",
+"idx": 18,
+"deck": "553",
+"letter": "B",
+"location": "snow",
+"reward": "any",
+"steps": 2,
+"title": "Fool's Gold",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "Carry the prize back home.",
+"fx": [
+"gain:coal:4"
+]
+},
+{
+"kind": "continue",
+"next": "C",
+"label": "The hunt continues.",
+"fx": [
+"gain:coal:4"
+]
+}
+]
+},
+{
+"id": "X20",
+"idx": 19,
+"deck": "553",
+"letter": "B",
+"location": "snow",
+"reward": "any",
+"steps": 2,
+"title": "A Carrion's Feast",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "Return to your tribe.",
+"fx": [
+"gain:core:1",
+"gain:coal:2"
+]
+},
+{
+"kind": "continue",
+"next": "C",
+"label": "Look for other prey.",
+"fx": [
+"gain:core:1",
+"gain:coal:2"
+]
+}
+]
+},
+{
+"id": "X21",
+"idx": 20,
+"deck": "553",
+"letter": "B",
+"location": "snow",
+"reward": "any",
+"steps": 2,
+"title": "Why We Fail",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "Ask who wants to live.",
+"fx": [
+"gain:engineer:3",
+"sick:engineer:1"
+]
+},
+{
+"kind": "return",
+"next": "C",
+"label": "Throw the idol into a fire.",
+"fx": [
+"hope+1",
+"gain:worker:2",
+"gain:engineer:3",
+"gain:child:2",
+"sick:worker:1",
+"sick:engineer:1",
+"sick:child:1"
+]
+}
+]
+},
+{
+"id": "X22",
+"idx": 21,
+"deck": "553",
+"letter": "B",
+"location": "cave",
+"reward": "res",
+"steps": 3,
+"title": "The Beginning and the End",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "Maybe... but the past matters.",
+"fx": [
+"gain:wood:2",
+"gain:coal:3"
+]
+},
+{
+"kind": "continue",
+"next": "C",
+"label": "Because you're long dead. Let's go.",
+"fx": [
+"gain:wood:2",
+"gain:coal:3"
+]
+}
+]
+},
+{
+"id": "X23",
+"idx": 22,
+"deck": "553",
+"letter": "B",
+"location": "cave",
+"reward": "res",
+"steps": 3,
+"title": "Solitude - The Foe of Sanity",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "Sweet dreams.",
+"fx": [
+"gain:core:1",
+"gain:coal:2",
+"gain:food:2"
+]
+},
+{
+"kind": "continue",
+"next": "C",
+"label": "Dream on.",
+"fx": [
+"gain:core:1",
+"gain:coal:2",
+"gain:food:2"
+]
+}
+]
+},
+{
+"id": "X24",
+"idx": 23,
+"deck": "553",
+"letter": "B",
+"location": "cave",
+"reward": "cit",
+"steps": 3,
+"title": "Lord of Lies",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "Fear you should, adults are all liars!",
+"fx": [
+"gain:automaton:1"
+]
+},
+{
+"kind": "return",
+"next": "C",
+"label": "Smile, and reach out to the boys.",
+"fx": [
+"hope+1",
+"gain:child:4",
+"sick:child:2",
+"gain:automaton:1"
+]
+}
+]
+},
+{
+"id": "X25",
+"idx": 24,
+"deck": "553",
+"letter": "B",
+"location": "campsite",
+"reward": "any",
+"steps": 2,
+"title": "A Not-So-Romantic Realism",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "We should be ashamed and suffer penance.",
+"fx": [
+"gain:wood:2",
+"gain:food:6"
+]
+},
+{
+"kind": "continue",
+"next": "C",
+"label": "Maybe no one will notice...",
+"fx": [
+"gain:wood:2",
+"gain:food:6"
+]
+}
+]
+},
+{
+"id": "X26",
+"idx": 25,
+"deck": "553",
+"letter": "B",
+"location": "campsite",
+"reward": "any",
+"steps": 2,
+"title": "Valley of Shadows",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "Only the strong will survive.",
+"fx": [
+"gain:worker:4"
+]
+},
+{
+"kind": "return",
+"next": "C",
+"label": "Only cowards are afraid to show mercy.",
+"fx": [
+"hope+1",
+"gain:worker:7",
+"sick:worker:2",
+"hunger+2"
+]
+}
+]
+},
+{
+"id": "X27",
+"idx": 26,
+"deck": "553",
+"letter": "B",
+"location": "campsite",
+"reward": "res",
+"steps": 3,
+"title": "Humankind's Last Battle",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "Set fire to this shameful place.",
+"fx": [
+"gain:core:1",
+"gain:wood:2",
+"gain:food:1"
+]
+},
+{
+"kind": "continue",
+"next": "C",
+"label": "Leave it to serve as a warning.",
+"fx": [
+"gain:core:1",
+"gain:wood:2",
+"gain:food:1"
+]
+}
+]
+},
+{
+"id": "X28",
+"idx": 27,
+"deck": "553",
+"letter": "B",
+"location": "campsite",
+"reward": "cit",
+"steps": 3,
+"title": "White Lies",
+"options": [
+{
+"kind": "return",
+"next": "C",
+"label": "Heed their words.",
+"fx": [
+"gain:engineer:3"
+]
+},
+{
+"kind": "return",
+"next": "C",
+"label": "Who'd trust a Dalton?! Help them all.",
+"fx": [
+"hope+1",
+"gain:engineer:5",
+"sick:engineer:1",
+"hunger+3"
+]
+}
+]
+},
+{
+"id": "X29",
+"idx": 28,
+"deck": "553",
+"letter": "C",
+"location": "ruins",
+"reward": "res",
+"steps": 3,
+"title": "Old Man Logan",
+"options": [
+{
+"kind": "return",
+"next": "newA",
+"label": "Honour him, keep going.",
+"fx": [
+"gain:wood:4",
+"gain:food:6"
+]
+}
+]
+},
+{
+"id": "X30",
+"idx": 29,
+"deck": "553",
+"letter": "C",
+"location": "ruins",
+"reward": "res",
+"steps": 3,
+"title": "Down to Earth",
+"options": [
+{
+"kind": "return",
+"next": "newA",
+"label": "Scavenge and head back.",
+"fx": [
+"gain:core:1",
+"gain:wood:4"
+]
+}
+]
+},
+{
+"id": "X31",
+"idx": 30,
+"deck": "553",
+"letter": "C",
+"location": "ruins",
+"reward": "cit",
+"steps": 3,
+"title": "At the Threshold",
+"options": [
+{
+"kind": "return",
+"next": "newA",
+"label": "Accept the gift and never come back.",
+"fx": [
+"gain:coal:2",
+"gain:food:10"
+]
+},
+{
+"kind": "return",
+"next": "newA",
+"label": "Help them escape the lurking danger.",
+"fx": [
+"hope+1",
+"gain:worker:4",
+"gain:engineer:5",
+"gain:child:3",
+"sick:worker:1",
+"sick:engineer:1"
+]
+}
+]
+},
+{
+"id": "X32",
+"idx": 31,
+"deck": "553",
+"letter": "C",
+"location": "snow",
+"reward": "any",
+"steps": 3,
+"title": "That Could Have Been Us",
+"options": [
+{
+"kind": "return",
+"next": "newA",
+"label": "Go home.",
+"fx": [
+"gain:core:1",
+"gain:food:8"
+]
+}
+]
+},
+{
+"id": "X33",
+"idx": 32,
+"deck": "553",
+"letter": "C",
+"location": "snow",
+"reward": "any",
+"steps": 3,
+"title": "It Serves Even in Death",
+"options": [
+{
+"kind": "return",
+"next": "newA",
+"label": "All praise the technology!",
+"fx": [
+"gain:core:2",
+"gain:coal:2"
+]
+}
+]
+},
+{
+"id": "X34",
+"idx": 33,
+"deck": "553",
+"letter": "C",
+"location": "snow",
+"reward": "any",
+"steps": 3,
+"title": "New Hope",
+"options": [
+{
+"kind": "return",
+"next": "newA",
+"label": "Separate the strong from the weak.",
+"fx": [
+"gain:worker:4",
+"gain:engineer:2"
+]
+},
+{
+"kind": "return",
+"next": "newA",
+"label": "United we stand. Divided we fall.",
+"fx": [
+"hope+1",
+"gain:worker:6",
+"gain:engineer:4",
+"gain:child:2",
+"sick:worker:1",
+"sick:engineer:1",
+"sick:child:2"
+]
+}
+]
+},
+{
+"id": "X35",
+"idx": 34,
+"deck": "553",
+"letter": "C",
+"location": "campsite",
+"reward": "res",
+"steps": 4,
+"title": "Fear of the Dark",
+"options": [
+{
+"kind": "return",
+"next": "newA",
+"label": "Superstition was a luxury of days gone by.",
+"fx": [
+"gain:core:1",
+"gain:wood:3",
+"gain:coal:3"
+]
+}
+]
+},
+{
+"id": "X36",
+"idx": 35,
+"deck": "553",
+"letter": "C",
+"location": "campsite",
+"reward": "cit",
+"steps": 4,
+"title": "Hippocratic Oath",
+"options": [
+{
+"kind": "return",
+"next": "newA",
+"label": "Grab their children and they will follow.",
+"fx": [
+"gain:engineer:3",
+"gain:child:3"
+]
+},
+{
+"kind": "return",
+"next": "newA",
+"label": "Embrace your humanity.",
+"fx": [
+"hope+1",
+"gain:engineer:7",
+"gain:child:4",
+"sick:engineer:2",
+"sick:child:1"
+]
+}
+]
+},
+{
+"id": "X37",
+"idx": 36,
+"deck": "553",
+"letter": "C",
+"location": "campsite",
+"reward": "cit",
+"steps": 4,
+"title": "Who Are We?",
+"options": [
+{
+"kind": "return",
+"next": "newA",
+"label": "We don't know them. Our people need supplies.",
+"fx": [
+"gain:coal:4",
+"gain:food:7"
+]
+},
+{
+"kind": "return",
+"next": "newA",
+"label": "We can't. That food would taste of blood.",
+"fx": [
+"hope+1",
+"gain:engineer:5",
+"gain:child:3",
+"sick:engineer:1",
+"sick:child:1"
+]
+}
+]
+},
+{
+"id": "X38",
+"idx": 37,
+"deck": "553",
+"letter": "C",
+"location": "cave",
+"reward": "res",
+"steps": 4,
+"title": "An Epic Deed",
+"options": [
+{
+"kind": "return",
+"next": "newA",
+"label": "With steam technology comes great responsibility.",
+"fx": [
+"gain:core:2",
+"gain:wood:3"
+]
+}
+]
+},
+{
+"id": "X39",
+"idx": 38,
+"deck": "553",
+"letter": "C",
+"location": "cave",
+"reward": "res",
+"steps": 4,
+"title": "Forgotten Stash",
+"options": [
+{
+"kind": "return",
+"next": "newA",
+"label": "We will remember.",
+"fx": [
+"gain:coal:4",
+"gain:food:7"
+]
+}
+]
+},
+{
+"id": "X40",
+"idx": 39,
+"deck": "553",
+"letter": "C",
+"location": "cave",
+"reward": "cit",
+"steps": 4,
+"title": "Bear Favour",
+"options": [
+{
+"kind": "return",
+"next": "newA",
+"label": "They are already dead; they just don't know it.",
+"fx": [
+"gain:wood:6",
+"gain:coal:2"
+]
+},
+{
+"kind": "return",
+"next": "newA",
+"label": "Life will find a way.",
+"fx": [
+"hope+1",
+"gain:worker:6",
+"gain:engineer:5",
+"sick:engineer:2"
+]
+}
+]
+}
+]
+}

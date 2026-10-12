@@ -1,0 +1,951 @@
+{
+ "note": "Hex frame: flat-top, axial (q,r), x=1.5q, y_down=sqrt3*(r+q/2). Origin = centre of the Generator tile in the standard layout. Directions N(0,-1) NE(1,-1) SE(1,0) S(0,1) SW(-1,1) NW(-1,0). Generator tile = centre + ring 1 (7 hexes) but only 5 SPACES (see generatorTile). Map tiles have 2 spaces: top and bottom. Tile art is never rotated. Near tiles: ring 2 (12 positions) in standard layout, must be adjacent to the Generator tile; Far tiles: ring 3 (18 positions), adjacent to a tile connected to the Generator tile but never to the Generator tile itself. Zones by hex distance from the Generator tile (7-hex flower): Generator tile = zone A; zone B (Orange) = Generator tile + tiles adjacent to it; zone C (Yellow) = Generator tile + all tiles within 2 hexes. Placing a building on a space returns any Resources/Trees there to the bank (rulebook p26). Rim board: hexagon around the map, corner hexes of ring 4 hold the Starting Wall tokens; a tile is adjacent to a Rim Deposit if it shares an edge with the Rim edge next to the token (= the ring-3 corner Far tile).",
+ "hex": {
+  "orientation": "flat-top",
+  "directions": [
+   [
+    0,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    -1,
+    0
+   ]
+  ]
+ },
+ "generatorTile": {
+  "flower": [
+   [
+    0,
+    0
+   ],
+   [
+    0,
+    -1
+   ],
+   [
+    1,
+    -1
+   ],
+   [
+    1,
+    0
+   ],
+   [
+    0,
+    1
+   ],
+   [
+    -1,
+    1
+   ],
+   [
+    -1,
+    0
+   ]
+  ],
+  "spaces": {
+   "T": {
+    "hex": [
+     0,
+     -1
+    ],
+    "start": "cookhouse"
+   },
+   "UR": {
+    "hex": [
+     1,
+     -1
+    ],
+    "start": "coal5"
+   },
+   "LR": {
+    "hex": [
+     1,
+     0
+    ],
+    "start": "generatorBuilding",
+    "printed": true
+   },
+   "LL": {
+    "hex": [
+     -1,
+     1
+    ],
+    "start": "platform",
+    "printed": true
+   },
+   "UL": {
+    "hex": [
+     -1,
+     0
+    ],
+    "start": "wood5"
+   }
+  },
+  "nonSpace": {
+   "hex": [
+    0,
+    1
+   ],
+   "note": "Generator drawer / road, not a space"
+  },
+  "adjacency": "A Generator-tile space (outer hex) is adjacent to every map-tile space on tiles sharing an edge with that outer hex; a map tile is adjacent to the Generator-tile spaces whose outer hex it shares an edge with (0-2). Generator spaces are not adjacent to each other."
+ },
+ "tiles": [
+  {
+   "id": "F01",
+   "tileNo": 15,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 0,
+   "cardId": 55100,
+   "top": {
+    "tree": 3
+   },
+   "bottom": {
+    "tree": 2
+   },
+   "food": 0
+  },
+  {
+   "id": "F02",
+   "tileNo": 13,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 1,
+   "cardId": 55101,
+   "top": {
+    "coal": 3
+   },
+   "bottom": {
+    "coal": 2
+   },
+   "food": 0
+  },
+  {
+   "id": "F03",
+   "tileNo": 25,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 2,
+   "cardId": 55102,
+   "top": {
+    "wood": 2
+   },
+   "bottom": {},
+   "food": 5
+  },
+  {
+   "id": "F04",
+   "tileNo": 27,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 3,
+   "cardId": 55103,
+   "top": {
+    "wood": 4
+   },
+   "bottom": {},
+   "food": 0
+  },
+  {
+   "id": "F05",
+   "tileNo": 18,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 4,
+   "cardId": 55104,
+   "top": {
+    "coal": 4
+   },
+   "bottom": {},
+   "food": 0
+  },
+  {
+   "id": "F06",
+   "tileNo": 24,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 5,
+   "cardId": 55105,
+   "top": {
+    "coal": 3
+   },
+   "bottom": {},
+   "food": 2
+  },
+  {
+   "id": "F07",
+   "tileNo": 21,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 6,
+   "cardId": 55106,
+   "top": {
+    "coal": 3
+   },
+   "bottom": {},
+   "food": 2
+  },
+  {
+   "id": "F08",
+   "tileNo": 19,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 7,
+   "cardId": 55107,
+   "top": {
+    "tree": 2
+   },
+   "bottom": {
+    "coal": 3
+   },
+   "food": 0
+  },
+  {
+   "id": "F09",
+   "tileNo": 20,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 8,
+   "cardId": 55108,
+   "top": {
+    "tree": 2
+   },
+   "bottom": {
+    "coal": 3
+   },
+   "food": 0
+  },
+  {
+   "id": "F10",
+   "tileNo": 17,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 9,
+   "cardId": 55109,
+   "top": {
+    "tree": 4
+   },
+   "bottom": {},
+   "food": 0
+  },
+  {
+   "id": "F11",
+   "tileNo": 16,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 10,
+   "cardId": 55110,
+   "top": {
+    "tree": 3
+   },
+   "bottom": {
+    "coal": 2
+   },
+   "food": 0
+  },
+  {
+   "id": "F12",
+   "tileNo": 30,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 11,
+   "cardId": 55111,
+   "top": {
+    "tree": 3
+   },
+   "bottom": {},
+   "food": 3
+  },
+  {
+   "id": "F13",
+   "tileNo": 26,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 12,
+   "cardId": 55112,
+   "top": {
+    "core": 1
+   },
+   "bottom": {},
+   "food": 3
+  },
+  {
+   "id": "F14",
+   "tileNo": 28,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 13,
+   "cardId": 55113,
+   "top": {
+    "core": 1
+   },
+   "bottom": {},
+   "food": 3
+  },
+  {
+   "id": "F15",
+   "tileNo": 23,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 14,
+   "cardId": 55114,
+   "top": {
+    "core": 1
+   },
+   "bottom": {
+    "coal": 2
+   },
+   "food": 0
+  },
+  {
+   "id": "F16",
+   "tileNo": 29,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 15,
+   "cardId": 55115,
+   "top": {
+    "core": 1
+   },
+   "bottom": {
+    "coal": 2
+   },
+   "food": 0
+  },
+  {
+   "id": "F17",
+   "tileNo": 22,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 16,
+   "cardId": 55116,
+   "top": {
+    "core": 1
+   },
+   "bottom": {
+    "tree": 2
+   },
+   "food": 0
+  },
+  {
+   "id": "F18",
+   "tileNo": 14,
+   "deck": "far",
+   "sheet": "551",
+   "idx": 17,
+   "cardId": 55117,
+   "top": {
+    "core": 1
+   },
+   "bottom": {
+    "tree": 2
+   },
+   "food": 0
+  },
+  {
+   "id": "N01",
+   "tileNo": 2,
+   "deck": "near",
+   "sheet": "550",
+   "idx": 0,
+   "cardId": 55000,
+   "top": {
+    "wood": 3
+   },
+   "bottom": {},
+   "food": 0
+  },
+  {
+   "id": "N02",
+   "tileNo": 1,
+   "deck": "near",
+   "sheet": "550",
+   "idx": 1,
+   "cardId": 55001,
+   "top": {
+    "wood": 3
+   },
+   "bottom": {},
+   "food": 0
+  },
+  {
+   "id": "N03",
+   "tileNo": 3,
+   "deck": "near",
+   "sheet": "550",
+   "idx": 2,
+   "cardId": 55002,
+   "top": {
+    "wood": 2
+   },
+   "bottom": {
+    "wood": 1
+   },
+   "food": 0
+  },
+  {
+   "id": "N04",
+   "tileNo": 7,
+   "deck": "near",
+   "sheet": "550",
+   "idx": 3,
+   "cardId": 55003,
+   "top": {
+    "wood": 2
+   },
+   "bottom": {
+    "coal": 1
+   },
+   "food": 0
+  },
+  {
+   "id": "N05",
+   "tileNo": 5,
+   "deck": "near",
+   "sheet": "550",
+   "idx": 4,
+   "cardId": 55004,
+   "top": {
+    "wood": 2
+   },
+   "bottom": {
+    "coal": 1
+   },
+   "food": 0
+  },
+  {
+   "id": "N06",
+   "tileNo": 6,
+   "deck": "near",
+   "sheet": "550",
+   "idx": 5,
+   "cardId": 55005,
+   "top": {
+    "wood": 2
+   },
+   "bottom": {
+    "coal": 1
+   },
+   "food": 0
+  },
+  {
+   "id": "N07",
+   "tileNo": 9,
+   "deck": "near",
+   "sheet": "550",
+   "idx": 6,
+   "cardId": 55006,
+   "top": {
+    "wood": 1
+   },
+   "bottom": {
+    "coal": 2
+   },
+   "food": 0
+  },
+  {
+   "id": "N08",
+   "tileNo": 8,
+   "deck": "near",
+   "sheet": "550",
+   "idx": 7,
+   "cardId": 55007,
+   "top": {
+    "wood": 1
+   },
+   "bottom": {
+    "coal": 2
+   },
+   "food": 0
+  },
+  {
+   "id": "N09",
+   "tileNo": 10,
+   "deck": "near",
+   "sheet": "550",
+   "idx": 8,
+   "cardId": 55008,
+   "top": {
+    "coal": 4
+   },
+   "bottom": {},
+   "food": 0
+  },
+  {
+   "id": "N10",
+   "tileNo": 4,
+   "deck": "near",
+   "sheet": "550",
+   "idx": 9,
+   "cardId": 55009,
+   "top": {
+    "tree": 2
+   },
+   "bottom": {
+    "coal": 2
+   },
+   "food": 0
+  },
+  {
+   "id": "N11",
+   "tileNo": 11,
+   "deck": "near",
+   "sheet": "550",
+   "idx": 10,
+   "cardId": 55010,
+   "top": {
+    "tree": 2
+   },
+   "bottom": {},
+   "food": 3
+  },
+  {
+   "id": "N12",
+   "tileNo": 12,
+   "deck": "near",
+   "sheet": "550",
+   "idx": 11,
+   "cardId": 55011,
+   "top": {
+    "core": 1
+   },
+   "bottom": {},
+   "food": 2
+  }
+ ],
+ "standardPositions": {
+  "near": [
+   {
+    "slot": 1,
+    "q": 0,
+    "r": -2
+   },
+   {
+    "slot": 2,
+    "q": 1,
+    "r": -2
+   },
+   {
+    "slot": 3,
+    "q": 2,
+    "r": -2
+   },
+   {
+    "slot": 4,
+    "q": 2,
+    "r": -1
+   },
+   {
+    "slot": 5,
+    "q": 2,
+    "r": 0
+   },
+   {
+    "slot": 6,
+    "q": 1,
+    "r": 1
+   },
+   {
+    "slot": 7,
+    "q": 0,
+    "r": 2
+   },
+   {
+    "slot": 8,
+    "q": -1,
+    "r": 2
+   },
+   {
+    "slot": 9,
+    "q": -2,
+    "r": 2
+   },
+   {
+    "slot": 10,
+    "q": -2,
+    "r": 1
+   },
+   {
+    "slot": 11,
+    "q": -2,
+    "r": 0
+   },
+   {
+    "slot": 12,
+    "q": -1,
+    "r": -1
+   }
+  ],
+  "far": [
+   {
+    "slot": 1,
+    "q": 0,
+    "r": -3
+   },
+   {
+    "slot": 2,
+    "q": 1,
+    "r": -3
+   },
+   {
+    "slot": 3,
+    "q": 2,
+    "r": -3
+   },
+   {
+    "slot": 4,
+    "q": 3,
+    "r": -3
+   },
+   {
+    "slot": 5,
+    "q": 3,
+    "r": -2
+   },
+   {
+    "slot": 6,
+    "q": 3,
+    "r": -1
+   },
+   {
+    "slot": 7,
+    "q": 3,
+    "r": 0
+   },
+   {
+    "slot": 8,
+    "q": 2,
+    "r": 1
+   },
+   {
+    "slot": 9,
+    "q": 1,
+    "r": 2
+   },
+   {
+    "slot": 10,
+    "q": 0,
+    "r": 3
+   },
+   {
+    "slot": 11,
+    "q": -1,
+    "r": 3
+   },
+   {
+    "slot": 12,
+    "q": -2,
+    "r": 3
+   },
+   {
+    "slot": 13,
+    "q": -3,
+    "r": 3
+   },
+   {
+    "slot": 14,
+    "q": -3,
+    "r": 2
+   },
+   {
+    "slot": 15,
+    "q": -3,
+    "r": 1
+   },
+   {
+    "slot": 16,
+    "q": -3,
+    "r": 0
+   },
+   {
+    "slot": 17,
+    "q": -2,
+    "r": -1
+   },
+   {
+    "slot": 18,
+    "q": -1,
+    "r": -2
+   }
+  ]
+ },
+ "rim": {
+  "corners": [
+   {
+    "corner": 1,
+    "q": 0,
+    "r": -4
+   },
+   {
+    "corner": 2,
+    "q": 4,
+    "r": -4
+   },
+   {
+    "corner": 3,
+    "q": 4,
+    "r": 0
+   },
+   {
+    "corner": 4,
+    "q": 0,
+    "r": 4
+   },
+   {
+    "corner": 5,
+    "q": -4,
+    "r": 4
+   },
+   {
+    "corner": 6,
+    "q": -4,
+    "r": 0
+   }
+  ],
+  "wallTokens": {
+   "blank": 3,
+   "wood": 2,
+   "coal": 2
+  },
+  "adjacentFarTileOfCorner": {
+   "1": [
+    0,
+    -3
+   ],
+   "2": [
+    3,
+    -3
+   ],
+   "3": [
+    3,
+    0
+   ],
+   "4": [
+    0,
+    3
+   ],
+   "5": [
+    -3,
+    3
+   ],
+   "6": [
+    -3,
+    0
+   ]
+  }
+ },
+ "boards": {
+  "crater": {
+   "name": "A New Home: Crater",
+   "generatorCentre": [
+    0,
+    0
+   ],
+   "wallSetup": "Shuffle the 7 Starting Wall tokens; from a chosen corner go clockwise placing a drawn token on each corner until 3 Deposit tokens (Wood/Coal) are placed; blanks are discarded; remaining corners stay empty.",
+   "cornerTiles": "For every corner without a Deposit: place a Far tile at that corner Far position and a Near tile between it and the Generator tile; flip face up and place Resources/Trees (Food bonus is gained).",
+   "corners": [
+    {
+     "corner": 1,
+     "q": 0,
+     "r": -4,
+     "nearPos": [
+      0,
+      -2
+     ],
+     "farPos": [
+      0,
+      -3
+     ]
+    },
+    {
+     "corner": 2,
+     "q": 4,
+     "r": -4,
+     "nearPos": [
+      2,
+      -2
+     ],
+     "farPos": [
+      3,
+      -3
+     ]
+    },
+    {
+     "corner": 3,
+     "q": 4,
+     "r": 0,
+     "nearPos": [
+      2,
+      0
+     ],
+     "farPos": [
+      3,
+      0
+     ]
+    },
+    {
+     "corner": 4,
+     "q": 0,
+     "r": 4,
+     "nearPos": [
+      0,
+      2
+     ],
+     "farPos": [
+      0,
+      3
+     ]
+    },
+    {
+     "corner": 5,
+     "q": -4,
+     "r": 4,
+     "nearPos": [
+      -2,
+      2
+     ],
+     "farPos": [
+      -3,
+      3
+     ]
+    },
+    {
+     "corner": 6,
+     "q": -4,
+     "r": 0,
+     "nearPos": [
+      -2,
+      0
+     ],
+     "farPos": [
+      -3,
+      0
+     ]
+    }
+   ]
+  },
+  "frozenGrove": {
+   "name": "A New Home: Frozen Grove",
+   "generatorCentre": [
+    0,
+    2
+   ],
+   "wallSetup": "Only the top corner has a Starting Wall token: draw 1 of {Wood Deposit, Coal Deposit} at random; all other Wall tokens return to the box. Generator tile touches the bottom corner of the Rim.",
+   "nearTiles": [
+    [
+     -2,
+     3
+    ],
+    [
+     2,
+     1
+    ],
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     -1
+    ],
+    [
+     0,
+     -2
+    ],
+    [
+     0,
+     -3
+    ],
+    [
+     -3,
+     0
+    ],
+    [
+     3,
+     -3
+    ]
+   ],
+   "note": "8 Near tiles from the Near deck are placed face up at the listed positions (in Lua order: 2 connecting towards the Wall corner, 2 top corners, 2 adjacent to the Generator tile and the Rim, rest per setup image). Action Phase restriction: actions only on map tiles adjacent to or connected to the Generator tile; heating still applies everywhere.",
+   "steamHubTech": "T09 is always displayed + 3 random techs; Storm card is S09 instead of S08."
+  },
+  "dreadnought": {
+   "name": "A New Home: Dreadnought",
+   "generatorCentre": [
+    0,
+    0
+   ],
+   "wallSetup": "Two Starting Wall tokens (1 Wood Deposit, 1 Coal Deposit), shuffled, placed at corners 3 and 4 (the two corners opposite the Dreadnought tiles).",
+   "wallCorners": [
+    3,
+    4
+   ],
+   "dreadnoughtTiles": [
+    [
+     -3,
+     0
+    ],
+    [
+     -2,
+     -1
+    ],
+    [
+     -1,
+     -2
+    ],
+    [
+     0,
+     -3
+    ]
+   ],
+   "dreadnoughtMarkerTts": [
+    -0.71,
+    0.66,
+    4.07
+   ],
+   "nearTiles": [
+    [
+     -2,
+     0
+    ],
+    [
+     -1,
+     -1
+    ],
+    [
+     0,
+     -2
+    ]
+   ],
+   "farTiles": [
+    [
+     1,
+     -3
+    ],
+    [
+     -3,
+     1
+    ]
+   ],
+   "note": "Dreadnought tiles act as Small Buildings with Blue insulation: a Meeple on one is a Use a Building action gaining 1 Steel. Steel can replace Wood when building."
+  }
+ }
+}

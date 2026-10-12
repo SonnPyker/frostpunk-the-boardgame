@@ -1,0 +1,16 @@
+[
+{"id":"D030","title":"Successful Project","deck":"727","idx":30,"top":["custom:D030","remove"],"opts":[]},
+{"id":"D031","title":"Successful Education","deck":"727","idx":31,"top":["custom:D031","removeCard:M016","remove"],"opts":[]},
+{"id":"D032","title":"Explosion of the Distillery","deck":"727","idx":32,"top":["custom:D032","die:engineer:1","remove"],"opts":[]},
+{"id":"D033","title":"Venereal Diseases Spread","deck":"727","idx":33,"top":["hope-1","sick:worker:2","sick:engineer:2","remove"],"opts":[]},
+{"id":"D034","title":"Hunger Is No Game","deck":"727","idx":34,"top":["exhaustHope:1","die:worker:1","remove"],"opts":[]},
+{"id":"D035","title":"Knowledge Is Power","deck":"727","idx":35,"top":[{"if":"allTechsDeveloped","then":["upgradeFree:any:ignoreUsed","remove"],"else":[{"if":"devTokenOnRound","then":["devTokenBack:2","remove"],"else":["remove"]}]}],"opts":[]},
+{"id":"D036","title":"Unworthy Successor","deck":"727","idx":36,"top":["custom:D036","remove"],"opts":[]},
+{"id":"D037","title":"Epidemic","deck":"727","idx":37,"top":["exhaust:care","event"],
+ "eventAction":{"acts":["engineer"],"freq":"round","custom":"D037"},
+ "eventDusk":[{"if":"engineerOnCard","then":["remove"]}],
+ "eventNight":[{"custom":"D037"}],"opts":[]},
+{"id":"D038","title":"Did You Talk to the Children?","deck":"727","idx":38,"branch":{"if":"active:anger","then":1,"else":2},"opts":[
+  {"label":"The anger is not only in the kids","fx":["sick:worker:2","dusk:D039","remove"]},
+  {"label":"A bit of attention and a few creative ideas","fx":["activate:care","remove"]}]}
+]

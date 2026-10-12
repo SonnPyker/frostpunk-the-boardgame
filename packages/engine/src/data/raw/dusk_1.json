@@ -1,0 +1,39 @@
+[
+{"id":"D000","title":"The Inevitable","deck":"727","idx":0,"top":["flipSickness:toSyringe:all","gainSickPerCorpse"],"opts":[],"pile":"start"},
+{"id":"D001","title":"We've Got Him!","deck":"727","idx":1,"top":["hope+1:motivation","cardResToSupply:M001","removeCard:M001"],"opts":[
+  {"label":"Show mercy","fx":["disc+1","dusk:D003","remove"]},
+  {"label":"Stigmatise him","fx":["disc-1","dusk:D004","remove"]},
+  {"label":"Exile him and his family","req":["active:justice"],"fx":["lose:worker:2","lose:child:1","remove"]}]},
+{"id":"D002","title":"We've Found the Thief","deck":"727","idx":2,"top":["cardResOneToSupplyRestBank:M001","removeCard:M001"],"opts":[
+  {"label":"Show mercy","fx":["disc+1","dusk:D003","remove"]},
+  {"label":"Stigmatise him","fx":["disc-1","dusk:D004","remove"]},
+  {"label":"Exile him and his family","req":["active:justice"],"fx":["lose:worker:2","lose:child:1","remove"]}]},
+{"id":"D003","title":"Thievery Problem","deck":"727","idx":3,"top":["event"],"eventDusk":[
+  {"ifPay":"exhaust:justice","then":["remove"],"else":["lose:res:1",{"each":"active:greed","fx":["lose:res:1"]}]}],"opts":[]},
+{"id":"D004","title":"Justice of the Crowd","deck":"727","idx":4,"top":["die:worker:1","sick:worker:1",{"if":"active:anger","then":["sick:child:1"]}],"opts":[
+  {"label":"They got what they deserved","fx":["hope-1","remove"]},
+  {"label":"Punish the crowd with longer working hours","fx":["disc+1:anger","reuseWorker","remove"]}]},
+{"id":"D005","title":"Have We Found Them?","deck":"727","idx":5,"branch":{"if":"hasScout","then":1,"else":2},"opts":[
+  {"label":"Abandoned settlement","fx":["custom:D005","remove"],"cond":[{"if":"active:justice","then":["exhaust:disc:1"]}]},
+  {"label":"Brothers are causing trouble","fx":["activate:apathy","disc+1:anger","remove"]}]},
+{"id":"D006","title":"The Brothers Return","deck":"727","idx":6,"branch":{"if":"round:odd","then":1,"else":2},"opts":[
+  {"label":"Found their family","fx":["gain:worker:2","gain:engineer:3","gain:child:2","sick:engineer:2","sick:child:1","remove"]},
+  {"label":"Sorrow and loss","fx":["gain:worker:2","sick:worker:2","disc+1:apathy","remove"]}]},
+{"id":"D007","title":"Did You Stay True to Your Word?","deck":"727","idx":7,"branch":{"if":"cardNoRes:M004","then":1,"else":2},"opts":[
+  {"label":"Lies shown","fx":["disc+1:greed","exhaustHope:all","removeCard:M004","remove"]},
+  {"label":"Account for the sick","fx":["custom:D007","remove"]}]},
+{"id":"D008","title":"Have You Provided Heated Shelters for Everyone?","deck":"727","idx":8,"top":["event"],"eventNight":[
+  {"atEnd":true,"if":"allSleepWarm","then":["activateHope:1","remove"],"else":[{"each":"unsheltered","fx":["hope-1"]},"remove"]}],"opts":[]},
+{"id":"D009","title":"Have You Provided Heated Shelters?","deck":"727","idx":9,"top":["event"],"eventNight":[
+  {"atEnd":true,"if":"moreHalfSleepWarm","then":["remove"],"else":["disc+1:apathy","remove"]}],"opts":[]},
+{"id":"D010","title":"The Comfort of Warmth","deck":"727","idx":10,"top":["event"],"eventNight":[
+  {"custom":"D010"}],"opts":[]},
+{"id":"D011","title":"Warmth for Those in Need","deck":"727","idx":11,"top":["event"],"eventNight":[
+  {"custom":"D011"}],"opts":[]},
+{"id":"D012","title":"Have You Solved the Food Crisis?","deck":"727","idx":12,"top":[{"if":"hunger==0","then":["hope+1:care","remove"],"else":[{"if":"hunger>=46","then":["hope-10"],"else":[{"if":"hunger>=41","then":["hope-9"],"else":[{"if":"hunger>=36","then":["hope-8"],"else":[{"if":"hunger>=31","then":["hope-7"],"else":[{"if":"hunger>=26","then":["hope-6"],"else":[{"if":"hunger>=21","then":["hope-5"],"else":[{"if":"hunger>=16","then":["hope-4"],"else":[{"if":"hunger>=11","then":["hope-3"],"else":[{"if":"hunger>=6","then":["hope-2"],"else":[{"if":"hunger>=1","then":["hope-1"]}]}]}]}]}]}]}]}]}]},"remove"]}],"opts":[]},
+{"id":"D013","title":"Have You Saved Enough Food for the Hungry?","deck":"727","idx":13,"top":[{"if":"hunger<=food","then":["hope+1","remove"],"else":["disc+1:greed","remove"]}],"opts":[]},
+{"id":"D014","title":"Tragic Accident","deck":"727","idx":14,"top":[{"if":"active:apathy","then":["die:worker:1","remove"],"else":["sick:worker:1","remove"]}],"opts":[]},
+{"id":"D015","title":"Freedom?","deck":"727","idx":15,"top":["lose:worker:2","lose:child:1","lose:res:3","dusk:D018","remove"],"opts":[]},
+{"id":"D016","title":"Consensus","deck":"727","idx":16,"top":["custom:D016","remove"],"opts":[]},
+{"id":"D017","title":"Endless Vigil","deck":"727","idx":17,"top":["activate:anger","die:worker:1","remove"],"opts":[]}
+]

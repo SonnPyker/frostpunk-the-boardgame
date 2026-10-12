@@ -1,0 +1,53 @@
+{
+"note": "Generator board (TTS CardCustom 98b69b, image 1750x3000, assets_src/images/...4960747B009018D9...png). Read from the board art + Rulebook pp20-21. The Heat track and the Cold marker share the same 16 spaces. Citizen icons: green = Child, orange = Worker, blue = Engineer (confirmed by the rulebook p20 example: 1 Child + 1 Engineer get sick).",
+"heatTrack": {
+  "length": 16,
+  "heatStart": 1,
+  "coldStart": 5,
+  "spaces": [
+    {"pos": 1,  "cubes": 2, "icon": null},
+    {"pos": 2,  "cubes": 2, "icon": "child"},
+    {"pos": 3,  "cubes": 3, "icon": "worker"},
+    {"pos": 4,  "cubes": 3, "icon": "engineer"},
+    {"pos": 5,  "cubes": 4, "icon": "child"},
+    {"pos": 6,  "cubes": 4, "icon": "worker"},
+    {"pos": 7,  "cubes": 4, "icon": "engineer"},
+    {"pos": 8,  "cubes": 5, "icon": "child"},
+    {"pos": 9,  "cubes": 5, "icon": "worker"},
+    {"pos": 10, "cubes": 6, "icon": "engineer"},
+    {"pos": 11, "cubes": 6, "icon": "child"},
+    {"pos": 12, "cubes": 7, "icon": "worker"},
+    {"pos": 13, "cubes": 7, "icon": "engineer"},
+    {"pos": 14, "cubes": 8, "icon": "child"},
+    {"pos": 15, "cubes": 8, "icon": "worker"},
+    {"pos": 16, "cubes": 9, "icon": null}
+  ],
+  "sickRule": "Generator Phase, after the optional fuelling: for each icon on spaces STRICTLY between the Heat marker and the Cold marker (neither the Heat space nor the Cold space counts), move that citizen type's Sickness marker one step (flip it to the Skull side instead if it would pass the citizen count, see sickness rules). Start: Heat 1, Cold 5 => spaces 2,3,4 = Child + Worker + Engineer get sick if you do not fuel.",
+  "fuel": "Spend any number of Coal (supply -> bank) before the stress check; Heat marker +1 per Coal; it may reach the Cold marker space but not beyond.",
+  "cubesDropped": "= `cubes` of the space the Heat marker is on when the stress check is made. Afterwards the Heat marker returns to space 1 (even when the Generator broke down)."
+},
+"generatorTrack": {
+  "length": 16,
+  "indicatorStart": {"red": 1, "orange": 2, "yellow": 3},
+  "note": "Heat Range indicators (Red, Orange, Yellow) sit on the Generator track whose level numbers 1..16 are the same as the Heat-track space numbers. A building/zone is heated when the Heat marker level is STRICTLY above the matching indicator level (Rulebook p26/p31 example: Heat marker on 5, above Red 1 and Orange 2). Weather section A and the Generator breakdown advance indicators (clamped to 16). Weather cards list [cold, yellow, orange, red]."
+},
+"stress": {
+  "slots": 10,
+  "overflow": true,
+  "dropRule": "Take `cubes` Coal cubes from the bank, drop them in the top of the Generator tower, pull the drawer, place the cubes that fell into it on the Stress track (10 single slots first, then the overflow space). Cubes that fall out while the drawer is being re-inserted stay in the drawer and count NEXT round (digital: carry-over counter).",
+  "digitalSimulation": {
+    "note": "The physical tower is a random device. The web port approximates it: every dropped cube independently falls into the drawer with probability pDrawer; a fraction of fallers is deferred to next round with probability pDeferred (cubes that fall out when closing). Generator Upgrade (Generator building upgraded) lowers pDrawer.",
+    "pDrawer": 0.55,
+    "pDrawerUpgraded": 0.4,
+    "pDeferred": 0.25,
+    "pDeferredNote": "Design choice, not printed in the rulebook: the value is a house approximation of the cubes that fall out again while the drawer is closed (p21). Tune here; 0 disables the deferral and its RNG draws.",
+    "calibration": "Rulebook example: 3 cubes dropped -> 2 fell out (mean ~0.55-0.67)."
+  },
+  "breakdown": {
+    "trigger": "Any Stress cube in the overflow space (i.e. more than 10 cubes on the track).",
+    "first": ["Flip the Heat marker to the overheated side", "Cold marker +1 space and all 3 Heat Range indicators +1 space", "Return all Stress cubes (incl. overflow) to the bank"],
+    "second": "Heat marker already overheated and overflow again: the Generator explodes => LOSE.",
+    "note": "The Heat marker still resets to space 1 afterwards (even after a breakdown)."
+  }
+}
+}

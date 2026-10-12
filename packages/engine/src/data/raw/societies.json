@@ -1,0 +1,23 @@
+{
+"note": "Society card setup (deck 544, 5x4 sheet, idx = row-major). pop = starting citizens [worker, engineer, child]; sick = starting sick citizens [worker, engineer, child]; automaton = Automatons placed in supply. discontent/hope = [tokens drawn, how many of them start active (leftmost first), rest exhausted]. corpse = starting Corpse track space. Supplies: food, wood, coal, cores. Hunger starts at 0. Food is then increased by Food bonuses on map tiles revealed in setup. Survivalist cards are the extra-pack difficulty (snowflake icon).",
+"cards": [
+{"id":"S1N","idx":0,"deck":"544","society":1,"difficulty":"normal","pop":[22,12,8],"sick":[0,0,0],"automaton":0,"discontent":[2,1],"hope":[2,2],"corpse":1,"food":8,"wood":4,"coal":5,"cores":0},
+{"id":"S1H","idx":1,"deck":"544","society":1,"difficulty":"hard","pop":[22,12,8],"sick":[1,0,0],"automaton":0,"discontent":[2,1],"hope":[2,2],"corpse":1,"food":5,"wood":4,"coal":2,"cores":0},
+{"id":"S2N","idx":2,"deck":"544","society":2,"difficulty":"normal","pop":[13,13,4],"sick":[0,0,0],"automaton":0,"discontent":[2,0],"hope":[3,0],"corpse":1,"food":6,"wood":6,"coal":8,"cores":1},
+{"id":"S2H","idx":3,"deck":"544","society":2,"difficulty":"hard","pop":[13,13,4],"sick":[0,0,0],"automaton":0,"discontent":[2,0],"hope":[3,0],"corpse":2,"food":4,"wood":5,"coal":7,"cores":1},
+{"id":"S3N","idx":4,"deck":"544","society":3,"difficulty":"normal","pop":[14,9,6],"sick":[2,0,1],"automaton":2,"discontent":[3,2],"hope":[2,2],"corpse":1,"food":9,"wood":4,"coal":6,"cores":0},
+{"id":"S3H","idx":5,"deck":"544","society":3,"difficulty":"hard","pop":[14,9,6],"sick":[2,0,2],"automaton":2,"discontent":[3,2],"hope":[2,2],"corpse":1,"food":6,"wood":4,"coal":3,"cores":0},
+{"id":"S4N","idx":6,"deck":"544","society":4,"difficulty":"normal","pop":[13,16,12],"sick":[0,0,0],"automaton":0,"discontent":[2,0],"hope":[2,1],"corpse":1,"food":11,"wood":4,"coal":5,"cores":1},
+{"id":"S4H","idx":7,"deck":"544","society":4,"difficulty":"hard","pop":[13,16,12],"sick":[0,2,0],"automaton":0,"discontent":[2,0],"hope":[2,1],"corpse":2,"food":9,"wood":3,"coal":5,"cores":1},
+{"id":"S5N","idx":8,"deck":"544","society":5,"difficulty":"normal","pop":[26,8,7],"sick":[0,0,0],"automaton":0,"discontent":[2,0],"hope":[3,2],"corpse":0,"food":0,"wood":7,"coal":7,"cores":0},
+{"id":"S5H","idx":9,"deck":"544","society":5,"difficulty":"hard","pop":[26,8,7],"sick":[0,1,0],"automaton":0,"discontent":[2,1],"hope":[3,2],"corpse":1,"food":0,"wood":6,"coal":6,"cores":0},
+{"id":"S6N","idx":10,"deck":"544","society":6,"difficulty":"normal","pop":[12,23,3],"sick":[0,0,0],"automaton":1,"discontent":[3,0],"hope":[2,1],"corpse":0,"food":20,"wood":3,"coal":0,"cores":0},
+{"id":"S6H","idx":11,"deck":"544","society":6,"difficulty":"hard","pop":[12,23,3],"sick":[1,1,0],"automaton":1,"discontent":[3,0],"hope":[2,1],"corpse":0,"food":15,"wood":3,"coal":0,"cores":0},
+{"id":"S1S","idx":12,"deck":"544","society":1,"difficulty":"survivalist","pack":"extra","pop":[22,12,8],"sick":[2,0,2],"automaton":0,"discontent":[2,1],"hope":[2,1],"corpse":1,"food":4,"wood":3,"coal":2,"cores":0},
+{"id":"S2S","idx":13,"deck":"544","society":2,"difficulty":"survivalist","pack":"extra","pop":[13,13,4],"sick":[0,0,0],"automaton":0,"discontent":[2,1],"hope":[2,1],"corpse":2,"food":3,"wood":4,"coal":4,"cores":1},
+{"id":"S3S","idx":14,"deck":"544","society":3,"difficulty":"survivalist","pack":"extra","pop":[14,9,6],"sick":[3,1,3],"automaton":2,"discontent":[3,2],"hope":[2,1],"corpse":1,"food":5,"wood":3,"coal":3,"cores":0},
+{"id":"S4S","idx":15,"deck":"544","society":4,"difficulty":"survivalist","pack":"extra","pop":[13,16,12],"sick":[0,3,0],"automaton":0,"discontent":[3,0],"hope":[2,1],"corpse":2,"food":8,"wood":2,"coal":3,"cores":1},
+{"id":"S5S","idx":16,"deck":"544","society":5,"difficulty":"survivalist","pack":"extra","pop":[26,8,7],"sick":[0,1,1],"automaton":0,"discontent":[2,1],"hope":[2,1],"corpse":1,"food":0,"wood":5,"coal":5,"cores":0},
+{"id":"S6S","idx":17,"deck":"544","society":6,"difficulty":"survivalist","pack":"extra","pop":[12,23,3],"sick":[2,2,0],"automaton":1,"discontent":[3,0],"hope":[2,1],"corpse":0,"food":12,"wood":1,"coal":0,"cores":0}
+]
+}

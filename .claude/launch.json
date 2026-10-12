@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "hud-harness",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "-w", "apps/web", "--", "--port", "5174", "--strictPort"],
+      "port": 5174
+    },
+    {
+      "name": "web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "-w", "apps/web", "--", "--port", "5175", "--strictPort"],
+      "port": 5175
+    }
+  ]
+}

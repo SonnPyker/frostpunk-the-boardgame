@@ -1,0 +1,666 @@
+[
+ {
+  "key": "Society",
+  "vi": "Society"
+ },
+ {
+  "key": "Co-op",
+  "vi": "Hợp tác"
+ },
+ {
+  "key": "Solo",
+  "vi": "Chơi đơn"
+ },
+ {
+  "key": "Hard",
+  "vi": "Khó"
+ },
+ {
+  "key": "Normal",
+  "vi": "Thường"
+ },
+ {
+  "key": "Population",
+  "vi": "Dân số"
+ },
+ {
+  "key": "Citizens in the city: 5",
+  "vi": "Công dân trong thành phố: {0}"
+ },
+ {
+  "key": "Workers",
+  "vi": "Công nhân"
+ },
+ {
+  "key": "Engineers",
+  "vi": "Kỹ sư"
+ },
+ {
+  "key": "Children",
+  "vi": "Trẻ em"
+ },
+ {
+  "key": "Worker",
+  "vi": "Công nhân"
+ },
+ {
+  "key": "Engineer",
+  "vi": "Kỹ sư"
+ },
+ {
+  "key": "Child",
+  "vi": "Trẻ em"
+ },
+ {
+  "key": "3 citizens, 1 sick (Sickness marker on the Skull side), 2 spent this Round.",
+  "vi": "{0} công dân, {1} bệnh (dấu Bệnh ở mặt Đầu lâu), {2} đã chi trong Vòng này."
+ },
+ {
+  "key": "3 citizens, 1 sick (Sickness marker on the Syringe side), 2 spent this Round.",
+  "vi": "{0} công dân, {1} bệnh (dấu Bệnh ở mặt Ống tiêm), {2} đã chi trong Vòng này."
+ },
+ {
+  "key": "Healthy",
+  "vi": "Khỏe mạnh"
+ },
+ {
+  "key": "Sick",
+  "vi": "Bệnh"
+ },
+ {
+  "key": "Spent",
+  "vi": "Đã chi"
+ },
+ {
+  "key": "Sickness marker on the Skull side: the next flip back to Syringe kills a citizen.",
+  "vi": "Dấu Bệnh ở mặt Đầu lâu: lần lật về mặt Ống tiêm tiếp theo sẽ giết một công dân."
+ },
+ {
+  "key": "Sickness marker on the Syringe side: sick citizens. Overflow flips it to Skull; a second flip kills a citizen.",
+  "vi": "Dấu Bệnh ở mặt Ống tiêm: công dân bị bệnh. Tràn sẽ lật dấu sang mặt Đầu lâu; lần lật thứ hai sẽ giết một công dân."
+ },
+ {
+  "key": "Hunger",
+  "vi": "Đói"
+ },
+ {
+  "key": "Hunger marker. Spend 1 Food per point before the Hunger table applies. 25 or more loses the game.",
+  "vi": "Dấu Đói. Chi {0} Thực phẩm cho mỗi điểm trước khi áp dụng bảng Đói. Từ {1} trở lên sẽ thua ván."
+ },
+ {
+  "key": "Food stock: spend Food to lower Hunger one point per Food.",
+  "vi": "Kho Thực phẩm: chi Thực phẩm để giảm Đói một điểm cho mỗi Thực phẩm."
+ },
+ {
+  "key": "Hunger 5",
+  "vi": "Đói {0}"
+ },
+ {
+  "key": "Now:",
+  "vi": "Hiện tại:"
+ },
+ {
+  "key": "Hunger 25+: the city starves. Defeat.",
+  "vi": "Đói {0}+: thành phố chết đói. Thất bại."
+ },
+ {
+  "key": "No consequence.",
+  "vi": "Không có hậu quả."
+ },
+ {
+  "key": "+1 Discontent.",
+  "vi": "+{0} Discontent."
+ },
+ {
+  "key": "+1 Discontent, 1 citizen dies.",
+  "vi": "+{0} Discontent, {1} công dân chết."
+ },
+ {
+  "key": "+1 Discontent, 2 citizens die.",
+  "vi": "+{0} Discontent, {1} công dân chết."
+ },
+ {
+  "key": "Feeding with 3 Food:",
+  "vi": "Cho ăn bằng {0} Thực phẩm:"
+ },
+ {
+  "key": "Feeding:",
+  "vi": "Cho ăn:"
+ },
+ {
+  "key": "Hunger 5.",
+  "vi": "Đói {0}."
+ },
+ {
+  "key": "Corpses",
+  "vi": "Xác chết"
+ },
+ {
+  "key": "Last space of the Corpse track: reaching it loses the game.",
+  "vi": "Ô cuối đường Xác chết: đến đó sẽ thua ván."
+ },
+ {
+  "key": "Corpse track space 4",
+  "vi": "Ô {0} trên đường Xác chết"
+ },
+ {
+  "key": "Hope",
+  "vi": "Hope"
+ },
+ {
+  "key": "Discontent",
+  "vi": "Discontent"
+ },
+ {
+  "key": "Hope track: active Hope can be exhausted for its effect; exhausted Hope is activated again by Hope effects.",
+  "vi": "Đường Hope: Hope đang hoạt động có thể dùng hết để kích hoạt hiệu ứng; Hope đã dùng hết được kích hoạt lại bởi hiệu ứng Hope."
+ },
+ {
+  "key": "Discontent track: active Discontent is a threat that can be exhausted; the track fills with the bag draws.",
+  "vi": "Đường Discontent: Discontent đang hoạt động là mối đe dọa có thể dùng hết; đường được lấp đầy bởi các lần rút từ túi."
+ },
+ {
+  "key": "active",
+  "vi": "đang hoạt động"
+ },
+ {
+  "key": "exhausted",
+  "vi": "đã dùng hết"
+ },
+ {
+  "key": "tokens still in the bag:",
+  "vi": "dấu còn trong túi:"
+ },
+ {
+  "key": "Active: can be exhausted for its effect.",
+  "vi": "Đang hoạt động: có thể dùng hết để kích hoạt hiệu ứng."
+ },
+ {
+  "key": "Exhausted: activate it again to use it.",
+  "vi": "Đã dùng hết: kích hoạt lại để sử dụng."
+ },
+ {
+  "key": "Active: a threat in the city.",
+  "vi": "Đang hoạt động: một mối đe dọa trong thành phố."
+ },
+ {
+  "key": "Exhausted: no longer active until activated again.",
+  "vi": "Đã dùng hết: không còn hoạt động cho đến khi được kích hoạt lại."
+ },
+ {
+  "key": "Care",
+  "vi": "Care"
+ },
+ {
+  "key": "Justice",
+  "vi": "Justice"
+ },
+ {
+  "key": "Motivation",
+  "vi": "Motivation"
+ },
+ {
+  "key": "Anger",
+  "vi": "Anger"
+ },
+ {
+  "key": "Apathy",
+  "vi": "Apathy"
+ },
+ {
+  "key": "Greed",
+  "vi": "Greed"
+ },
+ {
+  "key": "Supply",
+  "vi": "Nguồn cung"
+ },
+ {
+  "key": "Wood",
+  "vi": "Gỗ"
+ },
+ {
+  "key": "Coal",
+  "vi": "Than"
+ },
+ {
+  "key": "Steam Core",
+  "vi": "Steam Core"
+ },
+ {
+  "key": "Steel",
+  "vi": "Thép"
+ },
+ {
+  "key": "Automatons",
+  "vi": "Automaton"
+ },
+ {
+  "key": "no limit",
+  "vi": "không giới hạn"
+ },
+ {
+  "key": "max 8",
+  "vi": "tối đa {0}"
+ },
+ {
+  "key": "of 5 max",
+  "vi": "tối đa {0}"
+ },
+ {
+  "key": "Wood: unlimited supply.",
+  "vi": "Gỗ: nguồn cung không giới hạn."
+ },
+ {
+  "key": "Coal: fuels the Generator and powers buildings.",
+  "vi": "Than: cấp nhiên liệu cho Generator và cấp năng lượng cho các công trình."
+ },
+ {
+  "key": "Steam Cores: built into upgraded buildings and Steam Hubs.",
+  "vi": "Steam Cores: được lắp vào các công trình đã nâng cấp và Steam Hub."
+ },
+ {
+  "key": "Steel: at most 8 in the supply.",
+  "vi": "Thép: tối đa {0} trong nguồn cung."
+ },
+ {
+  "key": "Automatons available: 3 of 5. 2 in play or in the supply.",
+  "vi": "Automatons sẵn có: {0} trên {1}. {2} đang trong cuộc chơi hoặc trong nguồn cung."
+ },
+ {
+  "key": "Weather & Storm",
+  "vi": "Thời tiết & Storm"
+ },
+ {
+  "key": "No weather yet",
+  "vi": "Chưa có thời tiết"
+ },
+ {
+  "key": "Weather",
+  "vi": "Thời tiết"
+ },
+ {
+  "key": "Cold",
+  "vi": "Lạnh"
+ },
+ {
+  "key": "Yellow",
+  "vi": "Vàng"
+ },
+ {
+  "key": "Orange",
+  "vi": "Cam"
+ },
+ {
+  "key": "Red",
+  "vi": "Đỏ"
+ },
+ {
+  "key": "the Cold marker moves up the Heat track.",
+  "vi": "dấu Lạnh tăng lên trên đường Nhiệt."
+ },
+ {
+  "key": "the Yellow Heat Range indicator moves up.",
+  "vi": "chỉ báo Phạm vi nhiệt Vàng tăng lên."
+ },
+ {
+  "key": "the Orange Heat Range indicator moves up.",
+  "vi": "chỉ báo Phạm vi nhiệt Cam tăng lên."
+ },
+ {
+  "key": "the Red Heat Range indicator moves up.",
+  "vi": "chỉ báo Phạm vi nhiệt Đỏ tăng lên."
+ },
+ {
+  "key": "Advances 1 space.",
+  "vi": "Tiến {0} ô."
+ },
+ {
+  "key": "Advances 2 spaces.",
+  "vi": "Tiến {0} ô."
+ },
+ {
+  "key": "No change.",
+  "vi": "Không đổi."
+ },
+ {
+  "key": "Hunt",
+  "vi": "Săn"
+ },
+ {
+  "key": "Food / symbol",
+  "vi": "Thực phẩm / biểu tượng"
+ },
+ {
+  "key": "Hunting: Food gained per Hunting symbol on the Hunter Huts.",
+  "vi": "Săn bắt: nhận Thực phẩm cho mỗi biểu tượng Săn bắt trên Lều thợ săn."
+ },
+ {
+  "key": "Scouts",
+  "vi": "Scouts"
+ },
+ {
+  "key": "Scouts on expeditions move this many spaces.",
+  "vi": "Scouts trong Expeditions di chuyển bấy nhiêu ô."
+ },
+ {
+  "key": "space",
+  "vi": "ô"
+ },
+ {
+  "key": "spaces",
+  "vi": "ô"
+ },
+ {
+  "key": "Storm",
+  "vi": "Storm"
+ },
+ {
+  "key": "back",
+  "vi": "lùi"
+ },
+ {
+  "key": "The Storm marker moves back this many Rounds.",
+  "vi": "Dấu Storm lùi lại bấy nhiêu Vòng."
+ },
+ {
+  "key": "The Weather deck reveals a card in this phase.",
+  "vi": "Bộ bài Thời tiết lật một thẻ trong giai đoạn này."
+ },
+ {
+  "key": "Storm marker on Round 3 of 15.",
+  "vi": "Dấu Storm ở Vòng {0} trên {1}."
+ },
+ {
+  "key": "No Storm marker left on the Round track.",
+  "vi": "Không còn dấu Storm nào trên đường Vòng."
+ },
+ {
+  "key": "Storms hit so far:",
+  "vi": "Số lần Storm đã ập đến cho đến nay:"
+ },
+ {
+  "key": "Hunt gained this Weather:",
+  "vi": "Săn bắt nhận được trong Thời tiết này:"
+ },
+ {
+  "key": "Generator",
+  "vi": "Generator"
+ },
+ {
+  "key": "Heat Range indicator was removed. Buildings in this zone stay unheated.",
+  "vi": "Chỉ báo Phạm vi nhiệt đã bị gỡ bỏ. Công trình trong vùng này vẫn chưa được sưởi."
+ },
+ {
+  "key": "Heat Range indicator on space 5. Zone is heated while the Heat marker is above 5 (currently 3).",
+  "vi": "Chỉ báo Phạm vi nhiệt ở ô {0}. Vùng được sưởi khi dấu Nhiệt ở trên {1} (hiện tại {2})."
+ },
+ {
+  "key": "Stress",
+  "vi": "Căng thẳng"
+ },
+ {
+  "key": "Heat",
+  "vi": "Nhiệt"
+ },
+ {
+  "key": "Heat 3, Cold 8",
+  "vi": "Nhiệt {0}, Lạnh {1}"
+ },
+ {
+  "key": "Broken",
+  "vi": "Hỏng"
+ },
+ {
+  "key": "Upgraded",
+  "vi": "Đã nâng cấp"
+ },
+ {
+  "key": "The Generator broke down once. A second overflow of the Stress track makes it explode and the game is lost.",
+  "vi": "Generator đã hỏng một lần. Tràn lần thứ hai trên đường Căng thẳng sẽ làm nó nổ và thua ván."
+ },
+ {
+  "key": "Generator Upgrade placed: the drawer catches more Stress cubes.",
+  "vi": "Đã đặt Nâng cấp Generator: ngăn kéo hứng được nhiều khối Căng thẳng hơn."
+ },
+ {
+  "key": "1 Coal cube fell out of the Generator when the drawer was inserted. It is placed on the Stress track at the next Generator phase.",
+  "vi": "{0} khối Than rơi khỏi Generator khi lắp ngăn kéo. Khối này được đặt lên đường Căng thẳng ở giai đoạn Generator tiếp theo."
+ },
+ {
+  "key": "2 Coal cubes fell out of the Generator when the drawer was inserted. They are placed on the Stress track at the next Generator phase.",
+  "vi": "{0} khối Than rơi khỏi Generator khi lắp ngăn kéo. Các khối này được đặt lên đường Căng thẳng ở giai đoạn Generator tiếp theo."
+ },
+ {
+  "key": "cube",
+  "vi": "khối"
+ },
+ {
+  "key": "cubes",
+  "vi": "khối"
+ },
+ {
+  "key": "carried to next round",
+  "vi": "chuyển sang Vòng sau"
+ },
+ {
+  "key": "Space 3: 1 Coal cube drop on the stress check",
+  "vi": "Ô {0}: rơi {1} khối Than khi kiểm tra căng thẳng"
+ },
+ {
+  "key": "Space 3: 2 Coal cubes drop on the stress check",
+  "vi": "Ô {0}: rơi {1} khối Than khi kiểm tra căng thẳng"
+ },
+ {
+  "key": "icon: sickness if the Heat marker is below it and not fuelled.",
+  "vi": "biểu tượng: gây bệnh nếu dấu Nhiệt nằm dưới nó và chưa được cấp nhiên liệu."
+ },
+ {
+  "key": "Heat marker is here.",
+  "vi": "Dấu Nhiệt ở đây."
+ },
+ {
+  "key": "Cold marker is here.",
+  "vi": "Dấu Lạnh ở đây."
+ },
+ {
+  "key": "Stress cubes on the track. Overflow beyond 10 breaks the Generator.",
+  "vi": "Khối Căng thẳng trên đường. Tràn quá {0} sẽ phá hỏng Generator."
+ },
+ {
+  "key": "Overflow space: any cube here breaks the Generator.",
+  "vi": "Ô tràn: khối nào đặt ở đây cũng phá hỏng Generator."
+ },
+ {
+  "key": "Fuel: spend Coal into the Generator (Heat +1 per Coal, never above Cold). Fuelling protects the citizens between Heat and Cold.",
+  "vi": "Nhiên liệu: chi Than vào Generator (Nhiệt +{0} cho mỗi Than, không bao giờ vượt Lạnh). Việc cấp nhiên liệu bảo vệ công dân nằm giữa Nhiệt và Lạnh."
+ },
+ {
+  "key": "Fuel room",
+  "vi": "Chỗ nhiên liệu"
+ },
+ {
+  "key": "coal",
+  "vi": "than"
+ },
+ {
+  "key": "Cubes dropped at the stress check: the space the Heat marker is on.",
+  "vi": "Khối rơi khi kiểm tra căng thẳng: ô mà dấu Nhiệt đang nằm trên."
+ },
+ {
+  "key": "Drop",
+  "vi": "Rơi"
+ },
+ {
+  "key": "Coal on the stress check",
+  "vi": "Than khi kiểm tra căng thẳng"
+ },
+ {
+  "key": "No citizen icon between Heat and Cold: no cold sickness.",
+  "vi": "Không có biểu tượng công dân giữa Nhiệt và Lạnh: không có bệnh do lạnh."
+ },
+ {
+  "key": "Cold sickness if not fuelled:",
+  "vi": "Bệnh do lạnh nếu không được cấp nhiên liệu:"
+ },
+ {
+  "key": "Laws",
+  "vi": "Laws"
+ },
+ {
+  "key": "Consequence card covering this Law:",
+  "vi": "Thẻ Law Consequence che phủ Law này:"
+ },
+ {
+  "key": "No consequence card has been revealed for this Law yet.",
+  "vi": "Chưa lộ thẻ Law Consequence nào cho Law này."
+ },
+ {
+  "key": "Covered",
+  "vi": "Đã che phủ"
+ },
+ {
+  "key": "Uncovered",
+  "vi": "Chưa che phủ"
+ },
+ {
+  "key": "Law slot",
+  "vi": "Ô Law"
+ },
+ {
+  "key": "Future Law display",
+  "vi": "Bảng hiển thị Future Law"
+ },
+ {
+  "key": "No Laws left to introduce.",
+  "vi": "Không còn Law nào để đưa vào."
+ },
+ {
+  "key": "Future Law:",
+  "vi": "Future Law:"
+ },
+ {
+  "key": "Its two Law Consequence cards stay face down.",
+  "vi": "Hai thẻ Law Consequence của nó vẫn úp xuống."
+ },
+ {
+  "key": "Expeditions",
+  "vi": "Expeditions"
+ },
+ {
+  "key": "out",
+  "vi": "đang đi"
+ },
+ {
+  "key": "Expedition stack",
+  "vi": "Chồng Expedition"
+ },
+ {
+  "key": "3 cards left in the deck.",
+  "vi": "{0} thẻ còn lại trong bộ bài."
+ },
+ {
+  "key": "Stack",
+  "vi": "Chồng"
+ },
+ {
+  "key": "left",
+  "vi": "còn lại"
+ },
+ {
+  "key": "Empty",
+  "vi": "Trống"
+ },
+ {
+  "key": "Black side up: the Continue effects of this card resolve when the Scouts return.",
+  "vi": "Mặt đen hướng lên: hiệu ứng Tiếp tục của thẻ này được giải quyết khi Scouts quay về."
+ },
+ {
+  "key": "White side up.",
+  "vi": "Mặt trắng hướng lên."
+ },
+ {
+  "key": "Scout on step 2 of 4",
+  "vi": "Scout ở bước {0} trên {1}"
+ },
+ {
+  "key": "(scenario Expedition: cannot be skipped)",
+  "vi": "(Expedition kịch bản: không thể bỏ qua)"
+ },
+ {
+  "key": "No Scout on this Expedition.",
+  "vi": "Không có Scout trên Expedition này."
+ },
+ {
+  "key": "3 cards in this stack",
+  "vi": "{0} thẻ trong chồng này"
+ },
+ {
+  "key": "Step 2/4",
+  "vi": "Bước {0}/{1}"
+ },
+ {
+  "key": "No Scout",
+  "vi": "Không có Scout"
+ },
+ {
+  "key": "wood",
+  "vi": "gỗ"
+ },
+ {
+  "key": "on return",
+  "vi": "khi trở về"
+ },
+ {
+  "key": "Black",
+  "vi": "Đen"
+ },
+ {
+  "key": "Technologies",
+  "vi": "Công nghệ"
+ },
+ {
+  "key": "developed",
+  "vi": "đã phát triển"
+ },
+ {
+  "key": "Technologies appear once the first Workshop is built.",
+  "vi": "Công nghệ xuất hiện khi Workshop đầu tiên được xây."
+ },
+ {
+  "key": "completes this Round",
+  "vi": "hoàn thành trong Vòng này"
+ },
+ {
+  "key": "1 Round left",
+  "vi": "còn {0} Vòng"
+ },
+ {
+  "key": "2 Rounds left",
+  "vi": "còn {0} Vòng"
+ },
+ {
+  "key": "No Technology in development. The next inactive one starts with a Workshop.",
+  "vi": "Không có Công nghệ nào đang phát triển. Công nghệ không hoạt động tiếp theo bắt đầu khi có Workshop."
+ },
+ {
+  "key": "Cold marker: sickness icons between Heat and Cold strike when the Generator phase is not fuelled.",
+  "vi": "Dấu Lạnh: các biểu tượng bệnh nằm giữa Nhiệt và Lạnh sẽ gây tác động khi giai đoạn Generator không được cấp nhiên liệu."
+ },
+ {
+  "key": "removed",
+  "vi": "đã gỡ"
+ },
+ {
+  "key": "above",
+  "vi": "trên"
+ },
+ {
+  "key": "heated",
+  "vi": "đã sưởi"
+ },
+ {
+  "key": "unheated",
+  "vi": "chưa sưởi"
+ }
+]

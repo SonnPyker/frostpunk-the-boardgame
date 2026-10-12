@@ -1,0 +1,1239 @@
+/* Screen-level layout: backdrop, main menu, new game, co-op lobby, settings/rules/credits, end screen, game
+   layers, decision dock. Tokens come from theme.css, primitives from components.css. */
+
+/* ---- app layers ------------------------------------------------------------ */
+
+.app {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  background: var(--bg-0);
+}
+
+.app-layer {
+  position: absolute;
+  inset: 0;
+}
+
+.app-layer--map {
+  z-index: 0;
+}
+
+.game-view {
+  position: absolute;
+  inset: 0;
+}
+
+/* The HUD floats over the 3D map. Everything passes pointer events through except what is clearly interactive. */
+.hud-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.hud-layer button,
+.hud-layer input,
+.hud-layer select,
+.hud-layer textarea,
+.hud-layer label,
+.hud-layer a,
+.hud-layer .panel,
+.hud-layer [data-ui] {
+  pointer-events: auto;
+}
+
+.map-fallback {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse at 50% 38%, #1e3442 0%, #0e1a23 52%, #070b0e 100%);
+}
+
+.map-fallback__label {
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--steel);
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+/* ---- backdrop -------------------------------------------------------------- */
+
+.backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.backdrop__sky {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #0a141c 0%, #10202b 58%, #070b0e 100%);
+}
+
+.backdrop__ember {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 88% 96%, rgba(214, 120, 40, 0.22), transparent 56%);
+}
+
+.backdrop--glow-center .backdrop__ember {
+  background: radial-gradient(ellipse at 50% 62%, rgba(214, 120, 40, 0.2), transparent 60%);
+}
+
+.backdrop__vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, transparent 42%, rgba(0, 0, 0, 0.72) 100%);
+}
+
+.backdrop__ground {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 24%;
+  background: linear-gradient(to top, #0b1319, transparent);
+}
+
+/* The backdrop is a positioned layer (z 0). Positioned layers paint over static blocks, so a plain (static) block on a
+   screen, such as the Society column of New game, was hidden under the sky gradient. Every direct child of a screen is
+   therefore positioned above the backdrop. */
+.setup > :not(.backdrop),
+.lobby > :not(.backdrop),
+.end > :not(.backdrop),
+.boot > :not(.backdrop),
+.menu > :not(.backdrop) {
+  position: relative;
+  z-index: 1;
+}
+
+/* ---- main menu ------------------------------------------------------------- */
+
+.menu {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--gutter);
+  overflow: auto;
+}
+
+.menu__content {
+  position: relative;
+  z-index: 1;
+  width: min(440px, 100%);
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  margin-left: clamp(0px, 6vw, 96px);
+}
+
+.menu__title-block {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.menu__kicker {
+  color: var(--ember-hi);
+}
+
+.menu__title {
+  font-size: clamp(52px, 9vw, 104px);
+  line-height: 0.92;
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 36px rgba(120, 190, 230, 0.25);
+}
+
+.menu__subtitle {
+  color: var(--steel-hi);
+  font-size: 16px;
+  letter-spacing: 0.04em;
+}
+
+.menu__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu__group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.menu__group-label {
+  color: var(--steel);
+  font-size: 12px;
+}
+
+.menu__group-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.menu__utility {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 8px;
+}
+
+.menu__legal {
+  display: flex;
+  gap: 6px;
+  align-items: flex-start;
+  font-size: 12px;
+  color: var(--steel);
+  opacity: 0.85;
+}
+
+/* ---- new game (setup) ------------------------------------------------------ */
+
+.setup {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 18px var(--gutter);
+  gap: 14px;
+  overflow: hidden;
+}
+
+.setup__head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.setup__head-spacer {
+  flex: 1;
+}
+
+.setup__title {
+  font-size: 30px;
+}
+
+.setup__form {
+  flex: 1;
+  min-height: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(280px, 1fr);
+  gap: 16px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
+/* Tall screens (1080p and up): the body wrapper is transparent, so the head, the three sections and the footer sit in
+   the form grid exactly as before. */
+.setup__body {
+  display: contents;
+}
+
+/* Short screens (1280x720, 1366x768 and similar): the head and the action row stay pinned, and only the sections
+   scroll. The Begin / Open / Join button is never pushed below the fold. */
+@media (max-height: 1000px) {
+  .setup__form {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    overflow: hidden;
+    padding-right: 0;
+  }
+
+  .setup__head,
+  .setup__foot {
+    flex: none;
+  }
+
+  .setup__body {
+    flex: 1;
+    min-height: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(280px, 1fr);
+    grid-auto-rows: max-content;
+    align-content: start;
+    gap: 16px;
+    overflow-y: auto;
+    padding: 0 6px 0 0;
+  }
+
+  .setup__scenarios {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .setup__society {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .setup__options {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+
+  .setup__body > .setup__join {
+    grid-column: 1 / -1;
+  }
+
+  /* The six society facts run as three columns so the Society block is shorter. */
+  .setup__society .society-facts {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 6px 12px;
+  }
+
+  .setup__society .society-facts > div {
+    min-width: 0;
+  }
+}
+
+.setup__section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.setup__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 12px;
+}
+
+.setup__stack {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.setup__options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.setup__note {
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+/* Inline validation message (a blocked action names the rule and the fix). */
+.setup__warn {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  margin: 8px 0 0;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--ember-hi);
+}
+
+.setup__warn svg {
+  flex: none;
+  margin-top: 2px;
+}
+
+.setup__warn--soft {
+  color: var(--steel-hi);
+}
+
+/* ---- loading screen (screens/Boot.tsx) ---------------------------------- */
+
+.boot {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--gutter);
+  background: var(--bg-0);
+  overflow: hidden;
+}
+
+.boot__content {
+  position: relative;
+  z-index: 1;
+  width: min(420px, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  text-align: center;
+}
+
+.boot__kicker {
+  color: var(--steel-hi);
+  margin: 0;
+}
+
+.boot__title {
+  margin: 0;
+  font-size: clamp(44px, 7vw, 76px);
+  line-height: 0.95;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-shadow: 0 0 30px rgba(120, 190, 230, 0.25);
+}
+
+.boot__bar {
+  position: relative;
+  width: 100%;
+  height: 10px;
+  margin-top: 18px;
+  background: #0a1117;
+  border: var(--edge);
+  overflow: hidden;
+}
+
+.boot__fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  background: linear-gradient(90deg, var(--ember-lo), var(--ember) 70%, var(--ember-hi));
+  box-shadow: var(--glow);
+  transition: width 0.35s ease-out;
+}
+
+.boot__label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 0;
+  color: var(--steel-hi);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+.boot__skip {
+  margin-top: 8px;
+  background: none;
+  border: 0;
+  color: var(--steel);
+  font: inherit;
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.boot__skip:hover,
+.boot__skip:focus-visible {
+  color: var(--frost);
+}
+
+/* static splash in index.html: visible only until React mounts */
+.boot-static {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #070b0e;
+  color: #b9cdd8;
+  font: 600 14px "Barlow Condensed", sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+.setup__join {
+  display: flex;
+  gap: 8px;
+  align-items: stretch;
+}
+
+.setup__join .input {
+  flex: 1;
+}
+
+.setup__foot {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-top: 12px;
+  border-top: 1px solid var(--edge);
+}
+
+.setup__foot-spacer {
+  flex: 1;
+}
+
+.fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+.fieldset > legend {
+  padding: 0;
+  margin-bottom: 6px;
+}
+
+.scenario-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0;
+  min-height: 150px;
+  color: inherit;
+  background: var(--panel);
+  border: 1px solid var(--edge);
+  cursor: pointer;
+  clip-path: polygon(10px 0, 100% 0, 100% calc(100% - 10px), calc(100% - 10px) 100%, 0 100%, 0 10px);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.scenario-card:hover {
+  border-color: var(--steel-hi);
+  transform: translateY(-1px);
+}
+
+.scenario-card:focus-visible {
+  outline: 2px solid var(--frost);
+  outline-offset: 2px;
+}
+
+.scenario-card--on {
+  border-color: var(--ember);
+  box-shadow: var(--glow);
+}
+
+.scenario-card__art {
+  height: 92px;
+  background:
+    linear-gradient(180deg, rgba(10, 20, 28, 0.1), rgba(10, 20, 28, 0.85)),
+    radial-gradient(ellipse at 60% 30%, #2a4a5c, #0c1820 70%);
+  background-size: cover;
+  background-position: center;
+}
+
+.scenario-card__body {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 12px 12px;
+}
+
+.scenario-card__name {
+  font-size: 17px;
+}
+
+.scenario-card__meta {
+  font-size: 13px;
+  color: var(--steel-hi);
+}
+
+.stars {
+  display: inline-flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.star {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  border: 1px solid var(--steel);
+  background: transparent;
+}
+
+.star--on {
+  background: var(--ember);
+  border-color: var(--ember);
+}
+
+.society-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(116px, 1fr));
+  gap: 8px;
+}
+
+.society-chip {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 8px 10px;
+  color: inherit;
+  text-align: left;
+  background: var(--bg-1);
+  border: 1px solid var(--edge);
+  cursor: pointer;
+}
+
+.society-chip:hover {
+  border-color: var(--steel-hi);
+}
+
+.society-chip--on {
+  border-color: var(--ember);
+  background: rgba(214, 120, 40, 0.1);
+}
+
+.society-chip__num {
+  font-family: var(--font-display);
+  font-size: 18px;
+  letter-spacing: 0.06em;
+}
+
+.society-chip__count,
+.society-chip__pop {
+  font-size: 12px;
+  color: var(--steel-hi);
+}
+
+.society-facts {
+  padding: 10px 12px;
+  font-size: 13px;
+  line-height: 1.5;
+  background: var(--bg-1);
+  border-left: 2px solid var(--ember);
+}
+
+.advisor-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px 12px;
+}
+
+.advisor-check {
+  align-items: center;
+}
+
+.seed-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.seed-row .field {
+  flex: 1;
+}
+
+.input--code {
+  font-family: var(--font-display);
+  font-size: 22px;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* ---- co-op lobby ----------------------------------------------------------- */
+
+.lobby {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: auto;
+  padding: 18px var(--gutter) 28px;
+}
+
+.lobby--wait {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lobby__wait {
+  position: relative;
+  z-index: 1;
+  width: min(420px, 100%);
+}
+
+.lobby__wait-text {
+  margin-bottom: 12px;
+}
+
+.lobby__error {
+  color: var(--danger);
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.lobby__wait-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.lobby__grid {
+  position: relative;
+  z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(260px, 330px) minmax(280px, 1fr) minmax(260px, 330px);
+  grid-template-areas:
+    'head head head'
+    'seats settings chat';
+  gap: 16px;
+  align-items: start;
+}
+
+.lobby__head {
+  grid-area: head;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.lobby__title {
+  font-size: 28px;
+}
+
+.lobby__seats {
+  grid-area: seats;
+}
+
+.lobby__settings {
+  grid-area: settings;
+}
+
+.lobby__chat {
+  grid-area: chat;
+}
+
+.room-code {
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 14px;
+  color: inherit;
+  background: var(--bg-1);
+  border: 1px solid var(--edge-hi);
+  cursor: pointer;
+}
+
+.room-code:hover {
+  border-color: var(--ember);
+}
+
+.room-code__value {
+  font-family: var(--font-display);
+  font-size: 26px;
+  letter-spacing: 0.2em;
+}
+
+.seat-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.seat {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: rgba(255, 255, 255, 0.015);
+  border: 1px dashed var(--edge);
+}
+
+.seat--taken {
+  border-style: solid;
+  border-color: var(--edge-hi);
+  background: var(--bg-1);
+}
+
+.seat--me {
+  border-color: var(--ember);
+}
+
+.seat__num {
+  width: 20px;
+  color: var(--steel);
+  font-size: 14px;
+}
+
+.seat__name {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.seat__host,
+.seat__you {
+  font-size: 11px;
+  padding: 1px 6px;
+}
+
+.seat__state {
+  font-size: 13px;
+  color: var(--steel);
+  white-space: nowrap;
+}
+
+.seat__state--ready {
+  color: var(--ok);
+}
+
+.lobby__ready,
+.lobby__start,
+.lobby__leave {
+  margin-top: 12px;
+}
+
+.lobby__leave {
+  display: flex;
+  justify-content: center;
+}
+
+.chat-list {
+  list-style: none;
+  margin: 0 0 10px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 120px;
+  max-height: 46vh;
+  overflow-y: auto;
+}
+
+.chat-line {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.chat-line__name {
+  color: var(--ember-hi);
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+.chat-form {
+  display: flex;
+  gap: 8px;
+}
+
+.chat-form .input {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ---- settings, rules, credits, in-game menu ------------------------------- */
+
+.settings__hint {
+  display: block;
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+.rules {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 16px;
+  height: min(72vh, 760px);
+}
+
+.rules__pdf {
+  min-height: 0;
+  display: flex;
+}
+
+.rules__frame {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--edge);
+  background: #111820;
+}
+
+.rules__check {
+  min-height: 0;
+  overflow: auto;
+  padding-left: 14px;
+  border-left: 1px solid var(--edge);
+}
+
+.rules__check-title {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+
+.rules__counts {
+  margin: 8px 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.rules__section {
+  padding: 4px 0;
+  border-bottom: 1px solid var(--edge);
+}
+
+.rules__section summary {
+  cursor: pointer;
+  padding: 6px 0;
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 14px;
+}
+
+.rules__section ul {
+  list-style: none;
+  margin: 0 0 8px;
+  padding: 0 0 0 2px;
+}
+
+.rules__item {
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+
+.rules__item--done {
+  color: var(--ok);
+}
+
+.rules__item--partial {
+  color: var(--ember-hi);
+}
+
+.rules__item--open {
+  color: var(--frost-dim);
+}
+
+.rules__item-id {
+  font-size: 11px;
+  color: var(--steel);
+  margin-right: 4px;
+}
+
+.credits p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.ingame-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* ---- end screen ------------------------------------------------------------ */
+
+.end {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  overflow: auto;
+  padding: 22px var(--gutter) 32px;
+}
+
+.end__grid {
+  position: relative;
+  z-index: 1;
+  max-width: 1080px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  grid-template-areas:
+    'head head'
+    'stats log'
+    'actions actions';
+  gap: 16px;
+}
+
+.end__head {
+  grid-area: head;
+  text-align: center;
+  padding: 16px 0 8px;
+}
+
+.end__title {
+  font-size: clamp(56px, 9vw, 120px);
+  line-height: 1;
+}
+
+.end--won .end__title {
+  color: var(--hope);
+  text-shadow: 0 0 40px rgba(120, 200, 150, 0.3);
+}
+
+.end--lost .end__title {
+  color: var(--danger);
+  text-shadow: 0 0 40px rgba(200, 70, 60, 0.3);
+}
+
+.end__reason {
+  margin-top: 8px;
+  font-size: 18px;
+  color: var(--steel-hi);
+}
+
+.end__stats {
+  grid-area: stats;
+}
+
+.end__log {
+  grid-area: log;
+}
+
+.end__actions {
+  grid-area: actions;
+  display: flex;
+  justify-content: center;
+}
+
+.stat-list {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-list__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 7px 0;
+  border-bottom: 1px solid var(--edge);
+}
+
+.stat-list__row dt {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--steel-hi);
+  font-size: 14px;
+}
+
+.stat-list__row dd {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.stat-list__icon {
+  color: var(--ember);
+}
+
+.end-log {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.end-log__row {
+  display: flex;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--edge);
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.end-log__round {
+  min-width: 34px;
+  color: var(--steel);
+}
+
+/* ---- game chrome: menu buttons, turn banner, decision dock ----------------- */
+
+.game-menu-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* The dock fills the centre column of the bottom band (.hud-bottom-c, position: relative in hud.css). It grows upward over
+   the map, so the resource strip, seats and hand beside it stay readable. Tall decisions (long card texts, many options)
+   scroll inside the dock instead of covering the whole screen. */
+.decision-dock {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 40vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  pointer-events: auto;
+}
+
+/* Short screens (720-860px tall): the dock may use more of the map so the action menu fits, and its last group (Pass,
+   which sits after the other action groups) stays pinned to the bottom edge of the dock while the rest scrolls. */
+@media (max-height: 860px) {
+  .decision-dock {
+    max-height: 62vh;
+    gap: 6px;
+  }
+
+  .decision-dock .dec-cmd-group--end {
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+    background: #0b1318;
+  }
+}
+
+.decision {
+  pointer-events: auto;
+}
+
+.decision__options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.decision__label {
+  display: block;
+}
+
+.decision__hint {
+  display: block;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--steel-hi);
+  opacity: 0.9;
+}
+
+.decision__checks {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 6px;
+}
+
+.decision__foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* ---- narrow screens -------------------------------------------------------- */
+
+@media (max-width: 900px) {
+  .lobby__grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      'head'
+      'seats'
+      'settings'
+      'chat';
+  }
+
+  .setup__form {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .end__grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      'head'
+      'stats'
+      'log'
+      'actions';
+  }
+
+  .rules {
+    grid-template-columns: minmax(0, 1fr);
+    height: auto;
+  }
+
+  .rules__frame {
+    height: 50vh;
+  }
+
+  .rules__check {
+    border-left: 0;
+    padding-left: 0;
+  }
+
+  .decision-dock {
+    bottom: 8px;
+  }
+}
+
+@media (max-width: 640px) {
+  .menu {
+    align-items: flex-start;
+    padding-top: 28px;
+  }
+
+  .menu__content {
+    margin-left: 0;
+    gap: 20px;
+  }
+
+  .menu__group-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .setup__cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .advisor-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .room-code {
+    margin-left: 0;
+  }
+}
+
+/* ---- placeholder HUD top bar (used only when the HUD module is missing from the build) ---- */
+
+.hud-fallback-top {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px var(--gutter);
+  pointer-events: auto;
+}
+
+.hud-fallback-phase {
+  font-family: var(--font-display);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--steel-hi);
+}
+
+.hud-fallback-top .hud-menu {
+  margin-left: auto;
+}

@@ -1,0 +1,26 @@
+{
+"rules": {
+  "setup": "Remove Steam Hub unless the scenario uses it (not in A New Home: Crater). Shuffle the rest, display 4 at random face up, each with an inactive Development token.",
+  "develop": "When the first Workshop is built choose a Technology and place its Development token on the Round track `cost` spaces ahead of the Round marker (max space 15). When the Round marker reaches the token the Technology is developed (token flips active). Then choose the next inactive Technology. Only one at a time. If all Workshops are gone, the in-progress token returns inactive (progress lost); developed Technologies stay.",
+  "note": "hook names: weather = Weather phase section; generator = Generator phase before breakdown check; action = Action phase; mod = persistent modifier flag read by the rules code."
+},
+"cards": [
+{"id":"T01","idx":0,"deck":"713","title":"Lighter Scout Sleds","cost":4,"text":"Whenever you Deploy Scouts on an Expedition or Continue an Expedition, move the Scout 1 space forward.","mod":["scoutBonusMoveOnDeployOrContinue:1"]},
+{"id":"T02","idx":1,"deck":"713","title":"Hunting Tactics","cost":4,"text":"WEATHER PHASE: Gain an additional 1 Food for every 2 Hunting symbols.","weather":["gain:food:perTwoHuntingSymbols:1"]},
+{"id":"T03","idx":2,"deck":"713","title":"Charcoal Kiln Upgrade","cost":4,"text":"Whenever you use a Charcoal Kiln, you may remove a Tree from any Map tile instead of spending 1 Wood.","mod":["charcoalKilnTreeInsteadOfWood"]},
+{"id":"T04","idx":3,"deck":"713","title":"Steampowered Chainsaw","cost":3,"text":"As a Gather Resources action, you may place a Worker or Automaton on an unoccupied space that has 1 or more Trees. Remove 1 Tree from that space and gain 2 Wood.","mod":["gatherTreeWood:2"]},
+{"id":"T05","idx":4,"deck":"713","title":"Medical Education","cost":5,"text":"Whenever you use a Medical Post, you may Treat 2 instead of its normal effect.","mod":["medicalPostMayTreat:2"]},
+{"id":"T06","idx":5,"deck":"713","title":"Generator Safety System","cost":4,"text":"GENERATOR PHASE: Before checking for Generator breakdown, if there are 2 or fewer Stress cubes on the overflow space, remove those cubes without any effect. ACTION PHASE: Whenever you use the Generator Building, remove an additional Stress cube from the Stress track.","generator":["removeOverflowStressIfAtMost:2"],"mod":["generatorBuildingExtraStressRemoval:1"]},
+{"id":"T07","idx":6,"deck":"713","title":"Carrier Sledge","cost":5,"text":"Whenever you perform the Gather Resources action, you may take up to 3 Resources, and you may take them from any spaces on the tile, in any combination.","mod":["gatherUpTo3ResourcesAnySpacesOnTile"]},
+{"id":"T08","idx":7,"deck":"713","title":"Construction Planning","cost":6,"text":"Whenever you perform the Construct action, you may perform up to 4 Construct sub-actions. Whenever you Dismantle a Building, gain 1 Wood.","mod":["constructSubactions:4","dismantleGainWood:1"]},
+{"id":"T09","idx":8,"deck":"713","title":"Steam Hub","cost":3,"text":"Unlock the Steam Hub Building. A Steam Hub costs 1 Wood to Build. If the Heat marker level is higher than the red Heat Range indicator level: You may place 1 Coal from the supply into a Steam Hub to count the tile it is on and all adjacent tiles as heated. Place that Coal in the bank in the Generator Phase.","scenarioOnly":true,"unlock":[{"building":"steamHub","woodCost":1}],"mod":["steamHubCoalHeatsTileAndAdjacentIfHeatAboveRed"]},
+{"id":"T10","idx":9,"deck":"713","title":"Wood Processing","cost":6,"pack":"extra","text":"Whenever you use a Sawmill or Wall Drill, gain an additional 1 Wood.","mod":["sawmillWallDrillExtraWood:1"]},
+{"id":"T11","idx":10,"deck":"713","title":"Heating Lamps","cost":4,"pack":"extra","text":"The Remove Snow action is always heated.","mod":["removeSnowAlwaysHeated"]},
+{"id":"T12","idx":11,"deck":"713","title":"Night Care","cost":4,"pack":"extra","text":"Each heated Medical Post and Infirmary provides 1 sleeping slot for an Engineer Meeple.","mod":["heatedMedicalSleepingSlotEngineer:1"]},
+{"id":"T13","idx":12,"deck":"713","title":"Equipment Upgrade","cost":3,"pack":"extra","text":"Whenever you use a Coal Thumper, also gain 2 Coal.","mod":["coalThumperExtraCoal:2"]},
+{"id":"T14","idx":13,"deck":"713","title":"Tracking Techniques","cost":5,"pack":"extra","text":"WEATHER PHASE: Gain 1 Food for each Map tile depicting a Food Bonus.","weather":["gain:food:perMapTileWithFoodBonus:1"]},
+{"id":"T15","idx":14,"deck":"713","title":"Natural Fertiliser","cost":4,"pack":"extra","text":"Whenever you use a Hothouse with an Engineer Meeple, you may move the Corpse marker backwards 1 space on the Corpse track to gain an additional 3 Food.","mod":["hothouseEngineerMayLowerCorpseFor3Food"]},
+{"id":"T16","idx":15,"deck":"713","title":"Nutrition Education","cost":4,"pack":"extra","text":"You may use the Cookhouse with a Child Meeple.","mod":["cookhouseChildMeepleAllowed"]},
+{"id":"T17","idx":16,"deck":"713","title":"Advanced Automatons","cost":5,"pack":"extra","text":"You may use any Building with an Automaton Meeple. If the Heat marker level is higher than the red Heat Range indicator level: Automatons do not cost Coal to use.","mod":["automatonMayUseAnyBuilding","automatonFreeIfHeatAboveRed"]}
+]
+}

@@ -1,0 +1,4658 @@
+
+
+=== PAGE 1 ===
+
+
+=== PAGE 2 ===
+2
+Introduction  .  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  3
+Components  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   5
+Game Setup  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  8
+How to Win and Lose  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    16
+Important Rules  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  16
+	
+– RULES PRIORITY  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  16
+	
+– DECISION MAKING  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  16
+	
+– GAINING, LOSING, AND SPENDING  .  .   .   .   .   .   .   .   .   .   .   .   .   .   .    16
+	
+– DISCARD PILES  .  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    16
+Hope and Discontent  .  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    17
+Gameplay  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  18
+	
+1. DAWN PHASE  .  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    19
+	
+2. MORNING PHASE  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    19
+	
+	
+– REVEAL A MORNING CARD  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  19
+	
+3. GENERATOR PHASE  .  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    20
+	
+	
+– FUEL THE GENERATOR  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    20
+	
+	
+– GENERATOR STRESS LEVEL  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  20
+	
+	
+– GENERATOR BREAKDOWN  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    20
+	
+4. WEATHER PHASE  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    21
+	
+	
+A. MOVE THE HEAT RANGE INDICATORS  .   .   .   .   .   .   .   .    21
+	
+	
+B. HUNTER’S TRAPS  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  21
+	
+	
+C. EXPEDITION PROGRESS  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  21
+	
+	
+D. MOVE THE STORM MARKER  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    21
+	
+5. PREPARATION PHASE  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    22
+	
+	
+– CHOOSING AN ADVISOR  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    22
+	
+	
+– RESOLVING SICKNESS  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    22
+	
+6. ACTION PHASE  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    22
+	
+	
+– PLAYER TURNS  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  22
+	
+	
+– TAKING ACTIONS IN HEATED 
+OR COLD CONDITIONS  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  23
+	
+	
+– INSULATION LEVELS  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  23
+	
+	
+– ACTION DESCRIPTIONS  .  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    25
+	
+	 	
+ REMOVE SNOW  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    25
+	
+	 	
+ GATHER RESOURCES  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  25
+	
+	 	
+ CONSTRUCT  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    26
+	
+	 	
+	
+- BUILD .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  26
+	
+	 	
+	
+- DISMANTLE  .  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    26
+	
+	 	
+ USE A BUILDING  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    26
+	
+	 	
+ DEPLOY SCOUTS  .  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    26
+	
+	 	
+ SPECIAL ACTIONS  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  27
+	
+7. DUSK PHASE  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  27
+	
+	
+– SOCIAL DISPUTE CARDS  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    27
+	
+8. HUNGER PHASE  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  28
+	
+	
+– DECREASING PREVIOUS HUNGER  .   .   .   .   .   .   .   .   .   .   .   .   .   .  28
+	
+	
+– FEEDING CITIZENS  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    28
+	
+9. NIGHT PHASE  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  29
+	
+	
+– HEATED SHELTERS  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    29
+End of Game  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    30
+Sickness & Death  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  30
+Curing and Treating Citizens  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  30
+	
+– CURING  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    30
+	
+– TREATING  .  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    31
+Advisors  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    31
+Citizen cards  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    32
+	
+– USING CITIZEN ABILITIES  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    32
+	
+– CITIZEN DECK AND DISCARD PILE  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    33
+Scenario cards  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    33
+	
+– SCENARIO CARD TRIGGERED EFFECTS  .   .   .   .   .   .   .   .   .   .   .  33
+	
+– ANATOMY OF A SCENARIO CARD  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  33
+Event cards  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  34
+	
+– ANATOMY OF AN EVENT CARD  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  34
+Card clarifications  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    34
+Expeditions  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  35
+	
+– STARTING AN EXPEDITION  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  35
+	
+– EXPEDITION MOVEMENT  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    35
+	
+– SKIP THE LOCATION  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    36
+	
+– EXPLORE THE LOCATION  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    36
+	
+– CONTINUE THE EXPEDITION  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  36
+	
+– RETURN TO THE CITY  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    36
+Law cards  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  37
+	
+– ANATOMY OF A LAW CARD  .  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    37
+Technology cards  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  38
+	
+– ANATOMY OF A TECHNOLOGY CARD  .   .   .   .   .   .   .   .   .   .   .   .   .  38
+Automatons  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    39
+Child Worker and Child Engineer  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  39
+Appendix - Buildings  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    39
+Limits 	
+ .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  44
+	
+– POPULATION  .  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    44
+	
+– AUTOMATONS  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    44
+	
+– FOOD  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    44
+	
+– HUNGER  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  44
+	
+– RESOURCES  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    44
+	
+– TREES  .  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    44
+	
+– SPACE (ON A MAP TILE)  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .    44
+Contents
+
+
+=== PAGE 3 ===
+3
+Introduction
+Foreword
+Frostpunk: The Board Game is a cooperative table-
+top game for 1 to 4 players set in a cold, post-apocalyp-
+tic, 19th-century world. Survival is only possible due 
+to advanced steam technology, the pinnacle of which 
+is the Generator, which provides life-giving heat to 
+what remains of humanity. 
+As the Advisors of what may be the last city on 
+Earth, your main objective in Frostpunk: The Board 
+Game is for the City and its Citizens to survive. Each 
+scenario has its own objectives that you must fulfill 
+in order to win the game. The task placed upon your 
+shoulders is not an easy one.  The world of Frostpunk 
+is a hostile and dangerous place, and if you are unable 
+to manage your city well, you will lose.
+This board game is a licensed adaptation of the video 
+game “Frostpunk” created by 11 bit studios S.A.
+The World of Frostpunk
+In the summer of 1886 of Frostpunk’s alternative history, the snowstorms began. Crops failed; people starved. 
+Millions fled south. They met only chaos, famine, and death. In the farthest reaches of the resource-rich north, 
+the British Empire began construction of heat-bearing generators, where a chosen few could survive, safe from 
+the chaos of crumbling civilisation. But they ran out of time. An apocalyptic ice storm came from the north, de-
+vouring everything in its path. 
+Some survivors managed to cross the seas and reach the site of a generator only to find it frozen solid. The 
+generator was designed to power a city capable of weathering the end of the world... It falls to us to build that 
+city… and so New London is established.
+
+
+=== PAGE 4 ===
+4
+The things that define 
+Frostpunk: The Board Game
+In Frostpunk: The Board Game, in order to survive, 
+you will need to constantly balance your decisions be-
+tween managing and growing the city, and maintaining 
+the morale and mood of its citizens. After the apocalyp-
+tic global cooling, the only heat comes from the Gener-
+ator in the centre of the city. If you neglect it, everyone 
+will freeze to death. The people who rely on your de-
+cisions are all that remains of humanity… Many lost 
+their loved ones, and all of them were ripped from their 
+previous lives and thrown into this new, harsh reality. 
+They are the survivors, the ones that made it, but this 
+does not mean they are dispassionate machines.
+The decisions you make have  consequences, both 
+immediate and long term. Your choices might go 
+against your own moral code and some laws you enact 
+may seem strict or even cruel. How far will you go to 
+ensure the survival of the last city on Earth? 
+To help you in this tremendous task you will re-
+search new technologies, scout the frozen wasteland 
+for extra resources and perhaps more survivors, de-
+velop automatons that can work tirelessly, and push 
+through the all-encompassing winter.
+Optimisation and resource management often clash 
+with empathy and thoughtful decision-making. While 
+managing the city and social order will consume most 
+of your time, at some point exploration of the outside 
+world is necessary to understand its history and pres-
+ent state.
+ 
+Main features of 
+ Frostpunk: The Board Game 
+Make the laws
+Establish laws that regulate the existence of your growing society. Decide on your citizens’ working rou-
+tine, healthcare, food provision, and other crucial aspects of everyday life. Maintain their hope and con-
+tentment – the moral condition of your society is as important as securing the basic means to keeping your 
+people fed and safe.
+Shape your society
+When you reach a turning point, do not hesitate to determine the path of your people. Should you rule 
+them with an iron fist... or show them a way of compassion and faith? Reach for extremes or try to find a fair 
+balance? Whichever you choose, remember - there’s no turning back.
+ 
+Weigh your choices
+Some of your decisions will seem small – like deciding the fate of a troubled citizen or meeting the de-
+mands of a newborn faction – but be aware that the sum of your actions can lead to unexpected results. 
+Your people put their faith in you, but their devotion is not limitless. Leadership can be a burden.
+Develop new technologies
+Survival demands progress. React to current events, but do not forget about the long term and investing 
+in development and technological progress. Providing a highly advanced infrastructure with self-powered 
+automatons, airships, and other technical wonders is difficult, but achievable. It all depends on your man-
+agement and leadership skills.
+Explore the Frostland
+While New London is your main focus, there is much more to the world than what lies within the limits of 
+your city. Expeditions, while risky, can bring you valuable intel, and precious supplies. There may even be 
+people out there, and their fate lies solely in your hands.
+4
+
+
+=== PAGE 5 ===
+5
+Generator tile
+Generator board
+Generator (including drawer)
+Generator upgrade
+Components
+Hope & Discontent board
+Supply board
+Round & Morning board
+Population board
+Dusk board
+30 Map tiles 
+(12 Near, 18 Far)
+5 Crags tiles 
+(4 showing 
+the Dreadnought 
+on the back)
+4 Responsibility sheets
+Rulebook
+Scenario Book
+12 Rim board pieces (6 long, 2 long mirrored, 2 short, 2 small)
+Buildings board
+ REMOVE SNOW
+This action is always cold.
+Place an available Meeple on the Remove 
+Snow space of the Supply board, then 
+choose one of the following options:
+ 
+•  Place two Near tiles (they do not have 
+to be adjacent to each other) 
+ 
+  Near tiles must be placed adjacent to 
+the Generator tile 
+ 
+•  Place one Far tile 
+ 
+  Far tiles must be placed adjacent to 
+a tile that is connected to the Generator 
+tile (directly, or through other adjacent 
+tiles)  Far tiles cannot be placed 
+adjacent to the Generator tile 
+Draw your chosen tile(s) from their 
+respective stacks and place them face down 
+(without looking at the opposite side) onto 
+the board 
+Once all tiles have been placed, fl ip them 
+face up  On each space, place the depicted 
+number of Trees or Resources from the 
+bank  If the tile depicts a Food bonus, 
+immediately gain that much Food 
+ GATHER RESOURCES
+This action may be heated or cold.
+To perform this action, place an available 
+Meeple on an unoccupied space on a Map tile 
+that has Coal, Wood, or Steam Cores  Take 
+up to 2 Resources from that space and place 
+them into the supply  You may only use each 
+space once per Round (i e  you cannot choose 
+a space that already has a Meeple on it) 
+ DEPLOY SCOUTS
+This action is always heated. May be 
+performed only if the Beacon is built.
+When you perform this action, take one 
+Meeple (Worker or Engineer only) from 
+the supply and place it on an Expedition 
+stack that doesn’t have a Meeple on it, on 
+the fi rst (bottommost) space of that stack  
+The Meeple you place is now a Scout  There 
+can only be one active Expedition until the 
+Beacon has been upgraded, at which point 
+there can be two active Expeditions 
+ CONSTRUCT
+This action is always heated.
+To perform this action, place an available 
+Meeple on the Construction space of the 
+Supply board  
+Each Construct action allows you to perform 
+up to 3 Construct sub-actions (Build or 
+Dismantle), which may be taken in any 
+order and combination 
+BUILD
+To Build, choose a Building from the 
+Buildings board and spend the amount 
+of Wood and/or Steam Cores depicted in 
+the circle at the bottom of the column the 
+Building is in  
+Alternatively, you may choose a Building 
+below the Buildings board if it has been 
+unlocked by a card  The cost to Build the 
+Building is shown on that card  
+Place the Building on a space of the Map 
+that does not contain a Meeple or another 
+Building  If you place a Building on a space 
+with Resources or Trees, return the 
+Resources / Trees to the bank 
+DISMANTLE
+To Dismantle, choose a Building on the 
+map without any Meeples on it and place 
+it back onto the Buildings board in the 
+corresponding space 
+ SPECIAL ACTIONS
+This action is heated unless noted 
+otherwise.
+During the game, you may reveal Scenario 
+cards and Event cards that contain Special 
+Actions that can be used in the Action Phase 
+(the cards will have ‘ACTION PHASE:’ on 
+them to show this) 
+To perform a Special Action, place your 
+Meeple in the Special Action area on the 
+card  Some cards require you to spend Food 
+or Resources when you perform the action, 
+others require you to place Resources on the 
+card  Meeples placed on the Special Action 
+are returned to the supply in the Night Phase, 
+but any Resources placed on the card remain 
+on the card  
+Each Special Action may only be performed 
+once per Round  Some Special Actions 
+can only be performed once per game (as 
+indicated on the card) 
+ USE A BUILDING
+This action may be heated or cold.
+To perform this action, place an available 
+Meeple on any Building on the Map  Each 
+Small Building can only have 1 Meeple on it; 
+each Large Building can have up to 2 Meeples 
+on it (placed as two separate actions) 
+STARTING BUILDINGS
+ Cookhouse (Small)
+Action: Spend 3 Food to increase Hope or 
+decrease Discontent 
+Cannot be upgraded 
+ Platform (Small) [Engineer only]
+Action: Introduce a new Law to the game 
+Pre-printed on the Generator tile  Cannot be 
+upgraded 
+ Generator (Small) [Engineer only]
+Action: Remove up to 5 Stress cubes from the 
+Stress track or spend 1 Steam Core to remove all 
+Stress cubes from the Stress track 
+Pre-printed on the Generator tile 
+BASIC BUILDINGS
+SMALL BUILDINGS THAT COST
+1 WOOD TO BUILD:
+ Workshop (Small) [Engineer only]
+Action: Choose two of the following effects:
+ •  Upgrade one Building by paying its upgrade 
+cost 
+ •  Move the Development token one space 
+backward on the Round track 
+Cannot be upgraded  
+ Charcoal Kiln (Small)
+Action: Spend 1 Wood to gain 4 Coal 
+ UPGRADED:
+Action: Spend 1 Wood to gain 5 Coal 
+ Hunter’s Hut (Small)
+Passive: One Hunting symbol (provides 1 Food 
+in each Weather Phase) 
+Action: Gain 4 Food 
+ UPGRADED:
+Passive: Two Hunting symbols (provides 2 
+Food in each Weather Phase) 
+Action: Gain 5 Food 
+ Gathering Post (Small)
+Action: Take 1 Resource from each adjacent 
+space and place them in the supply 
+ UPGRADED:
+Increased Insulation level only 
+SMALL BUILDINGS THAT COST
+2 WOOD TO BUILD:
+ Factory (Small) [Engineer only]
+Action: Spend 1 Steam Core to gain 1 Autom-
+aton 
+Cannot be upgraded 
+ Sawmill (Small)
+Action: Remove 1 Tree from the same tile as the 
+Sawmill to gain 3 Wood 
+ UPGRADED:
+Action: Remove 1 Tree from the Sawmill tile or 
+an adjacent space to gain 3 Wood 
+ Medical Post (Small) [Engineer only] 
+Action: Cure 3 
+ UPGRADED:
+Action: Cure 4 or Treat 1 
+LARGE BUILDINGS THAT COST
+3 WOOD TO BUILD:
+ Beacon (Large)
+Passive: Up to 1 Expedition may be active 
+ UPGRADED:
+Passive: Up to 2 Expeditions may be active 
+ Coal Thumper (Large)
+Action: Place up to 3 Coal from the bank on 
+each of 3 different adjacent spaces  Spaces 
+chosen must either already have Coal on them, 
+or have no Resources, Trees, or Buildings  Each 
+space has a limit of 5 Coal 
+ UPGRADED:
+Action: As above, but increase the number of 
+different adjacent spaces that Coal is placed on 
+from 3 to 4 
+LARGE BUILDINGS THAT COST
+4 WOOD AND 1 STEAM CORE TO BUILD:
+ Infi rmary (Large) [Engineer only]
+Action: Cure 4 or Treat 2 
+ UPGRADED:
+Action: Cure 5 or Treat 3 
+ Hothouse (Large)
+Action: Gain 7 Food 
+ UPGRADED:
+Action: Gain 9 Food 
+LARGE BUILDINGS THAT COST
+5 WOOD AND 1 STEAM CORE TO BUILD:
+ Coal Mine (Large) Can only be built on a tile 
+adjacent to a Coal Deposit on the Rim board 
+Action: Gain 4 Coal  
+ UPGRADED:
+Action: Gain 5 Coal 
+ Wall Drill (Large) Can only be built on a tile 
+adjacent to a Wood Deposit on the Rim board 
+Action: Gain 3 Wood  
+ UPGRADED:
+Increased Insulation level only 
+ACTION DESCRIPTIONS 
+© 2022 11 bit studios S.A. Frostpunk™, 11 bit studios™ and respective logos are trademarks of 11 bit studios S.A. All rights reserved.
+© 2022 Glass Cannon Unplugged Sp. z o. o. All rights reserved.
+1. DAWN PHASE
+If you have the Leadership marker, pass it 
+clockwise to the next player 
+Move the Round marker one space 
+forward on the Round track  If the Round 
+marker reaches:
+•  A Development token - remove that token 
+from the Round track and place it, active-
+side up, on the Technology card that 
+currently does not have a Development 
+token on it  Then, choose any Technology 
+card with an inactive Development 
+token on it and place that token on the 
+Round track (a number of spaces ahead 
+of the Round marker as depicted on the 
+Technology card) 
+•  A Scenario Trigger token - remove the 
+Scenario Trigger token and refer to the 
+Scenario card(s) related to that token, 
+following the instructions on them 
+2. MORNING PHASE
+Reveal the top card from the Morning deck, 
+and read its text  A Morning card may have:
+•  An Instant effect: resolve it immediately  
+•  Numbered options: choose one of the 
+available options and resolve its effects  
+Some options have a prerequisite condition 
+in red text  You can only choose one of 
+these options if you meet its prerequisite 
+condition 
+Icons on the Morning cards:
+ =  Remove the card from the game 
+(place it back in the box)   Any 
+Resources on the card are placed in 
+the bank  Any Meeples on the card 
+are placed in the supply 
+ = Place the card in the Event display 
+3. GENERATOR PHASE
+4. WEATHER PHASE
+  
+1
+   Move the Storm marker 
+backward on the Round 
+track a number of spaces 
+as indicated at the bottom 
+of the Weather card 
+revealed by the Generator 
+Advisor 
+After moving the Storm marker, if it is now 
+on or before the space with the Round 
+marker, a Storm hits your settlement  When 
+this happens, tell the Generator Advisor 
+to reveal the relevant Storm card for the 
+chosen scenario and resolve its effects 
+5. PREPARATION PHASE
+Choose an Advisor.
+Discuss which Advisor to use this Round, 
+if any  You may only use one Advisor in 
+a Round, but the same Advisor may be chosen 
+each Round  The player with the Leadership 
+marker has the fi nal word on whose Advisor 
+should be used this Round, if any  
+6. ACTION PHASE
+Fuel the Generator.
+On your turn, you may fi rst tell the 
+Generator Advisor to fuel the Generator 
+Whenever a new Law is introduced:  
+•  Choose a Law card from the Future Law 
+display and place it in the Law display  
+Take the 2 Law Consequence cards with 
+the same identifi cation code as the Law 
+card, choose one at random and shuffl e 
+it into the Dusk deck without looking at 
+it  Remove the other card from the game 
+without looking at it 
+•  Immediately increase or decrease your Hope 
+and Discontent as shown on the Law card 
+7. DUSK PHASE
+Check cards in the Event and Scenario 
+displays and resolve any of their effects that 
+happen in the DUSK PHASE in any order 
+8. HUNGER PHASE
+9. NIGHT PHASE
+ADDITIONAL INFO
+Take care of Hope and Discontent tokens and 
+track them on the Hope & Discontent board  
+Hope and Discontent tokens are double-
+sided; both have an active (light) and 
+exhausted (dark) side  There are 3 types of 
+Hope token and 3 types of Discontent token 
+•  Activate a Hope or a Discontent token  
+–   Flip over an exhausted token to the 
+active side 
+•  Exhaust a Hope or a Discontent token  
+–   Flip over an active token to the 
+exhausted side 
+•  Increase Hope and Discontent
+– Choose one of the following options:
+ 
+–   Draw a random token from the 
+appropriate bag and place it 
+exhausted side up on the leftmost 
+empty space on the corresponding 
+track, or
+ 
+–   Activate any one exhausted token on 
+the corresponding track 
+•  Decrease Hope and Discontent
+– Choose one of the following options:
+ 
+–   Exhaust any one active token on the 
+corresponding track, or
+ 
+–   Remove any one exhausted token on 
+the corresponding track and place it 
+back in its bag  Slide any remaining 
+tokens on the track to the left to fi ll 
+any gaps 
+•  Discard Hope and Discontent tokens
+–  Remove a Hope or Discontent token 
+from the board and place it back in the 
+appropriate bag 
+•  Special rules:
+ 
+–   If you are instructed to Activate or 
+Exhaust a token but are unable to do 
+so, ignore that effect 
+ 
+–   Whenever you increase your Hope 
+or Discontent of a specifi c token 
+type, draw a random token from 
+the appropriate bag and place it 
+exhausted-side up on the leftmost 
+empty space of the corresponding 
+track  Then activate one exhausted 
+token of the indicated type 
+People can endure any hardships as long as they feel there’s hope.
+As a Social Advisor you are responsible for the mood of the society. 
+You will: take care of Hope and Discontent, read Scenario and Morning cards, check 
+cards in the Event and Scenario displays over the course of the game, suggest which 
+Laws could or should be introduced, and add their consequences to the Dusk deck.
+SOCIAL ADVISOR
+Care
+Anger
+Justice
+Apathy
+Motivation
+Greed
+Discontent bag
+Hope bag
+5
+
+
+=== PAGE 6 ===
+6
+Cards
+THE INEVITABLE
+DUSK
+D000
+Every day we fi ght a bitter struggle
+against hunger, cold, and disease.
+There will be losses. 
+Flip every Sickness marker on its Skull side
+to its Syringe side.
+For each Corpse you have, gain 1 sick Citizen.
+WE’VE FOUND
+THE THIEF
+DUSK
+D002
+Because we kept it a secret it took longer
+to fi nd the thief. He had time to fence some
+of the goods. When apprehended he was playing 
+with his child, who recently recovered from
+malnourishment. His wife begs for forgiveness.
+Show mercy.
++1 Discontent.
+Add #D003 to the Dusk deck.
+Exile him and his family.
+Only if you have active Justice.
+Lose 2 Workers and 1 Child.
+Stigmatise him.
+-1 Discontent.
+Add #D004 to the Dusk deck.
+Place 1 of the Resources on #M001 into
+the supply and the rest into the bank.
+Remove #M001 from the game.
+1
+2
+3
+SOCIAL DISPUTE
+SD01
+“I don’t think we should tell them what we’re 
+going to do in advance. Let them think.
+And worry.”
+If you have any active Hope or Discontent: For your 
+most common active token (or for all tied for most 
+common), perform the corresponding eﬀ ect(s):
+Greed: 
+For each active Greed,
+ 
+increase Hunger by 3.
+Apathy: 
+For each active Apathy,
+ 
+ﬂ ip 1 Sickness marker.
+Anger: 
+ For each active Anger,
+gain 2 sick Citizens.
+Motivation: Take 1 Resource from the Map
+ 
+and place it in the supply.
+ 
+Then, for each active Motivation,
+ 
+take another 1 Resource from
+ 
+the Map and place it in the supply.
+ 
+For each Resource you cannot take,
+ 
+gain 1 Coal.
+Care: 
+For each active Care, Cure 2.
+Justice: 
+For each active Justice, exhaust
+ 
+1 Discontent or activate 1 Hope.
+UNCERTAINTY
+WORK ACCIDENTS
+DUSK
+   L01 A
+The children are now exposed to accidents
+at work. If we don’t provide good medical 
+care, some might even pay the price with
+their young lives.
+If you have active Care:
+For each Child Meeple used to perform
+an action this Round, gain 1 sick Child.
+Otherwise:
+For each Child Meeple used to perform
+an action this Round, gain 2 sick Children.
+THEFT
+1
+MORNING
+M001
+Desperation spreads like a sickness.
+Someone stole supplies.
+Ignore it and keep the theft a secret.
++1 Greed.
+2
+Expose and investigate.
+-1 Hope.
+Place 1 Spent Worker / Engineer
+token in the supply.
+Add #D001 to the Dusk deck.
+If you have fewer than 2 Resources in the supply:
++1 Apathy. Remove all Resources from the supply.
+Otherwise:
+Place this card in the Event display.
+Take 2 Resources from the supply and place them
+on this card. Then, for each active Greed, take another
+2 Resources from the supply and place them on this card.
+3
+Keep it a secret and investigate.
+Place 1 Spent Worker / Engineer
+token in the supply.
+Add #D002 to the Dusk deck.
+I/S01
+A New Home
+A
+Campsite
+Only if you exhaust 1 Hope:
+Remove up to 3 Stress cubes
+from the Stress track.
+PREPARATION PHASE:
+EXPEDITION
+THE THING WE FOUND
+Campsite
+Travelling through the endless, white wastes 
+does not fi ll you with hope, but it does bring 
+a sense of serenity. We lost that sense when 
+we stumbled upon a campsite that had 
+been abandoned in a hurry. Food, personal 
+belongings, and other useful items were left 
+behind… as well as bloodstains on the snow. 
+What happened here?!
+Gain 6 Food.
+Run back!
+Gain 6 Food.
+Only the frost can scare us. Onward!
+B
+B
+X01
+WEATHER
+1
+1
+0
+1
+1
+1
+W01
+4
+WEATHER PHASE:
+Gain an additional 1 Food
+for every 2 Hunting symbols.
+HUNTING TACTICS
+4
+T02
+TECHNOLOGY
+Only if you exhaust 1 Hope:
+Remove up to 3 Stress cubes
+from the Stress track.
+PREPARATION PHASE:
+Perform 3 Workshop eﬀ ects.
+[Use a Building]: Workshop
+C19
+Increase Hunger by 3.
+Adele Quapinsky
+Engineer
+Exhaust Justice
+-1 Hope
+-1 Hope
+Exhaust Care
+-2 Hope
+LAW
+L02
+L01
+There aren’t enough hands to do
+all the work. We’ll allow children 
+to be employed in certain workplaces.
+ACTION PHASE:
+You may use Child Meeples to:
+• Perform the Gather Resources action.
+• Use Gathering Post Buildings
+(up to 3 Resources).
+CHILD LABOUR
+{
+{
+This card may be played independently of your Advisor card.
+Draw  1 / 2 / 3 / 4  Citizen cards 
+ if you have at least  1 / 2 / 4 / 6  Hope tokens.
+PREPARATION PHASE:
+SOCIETY I
+NORMAL
+Along the way we’ve lost people and 
+found new companions. We’re a motley 
+crew, but the hardships of the journey 
+gave us a sense of unity. There is hope 
+for us. We even managed to preserve 
+enough food to be able to feed our 
+children… at least for now.
+SOCIETY
+SUPPLIES
+8
+5
+4
+0
+22
+12
+0
+0
+8
+0
+0
+2/2
+2/1
+1
+DAWN PHASE
+Pass Leadership marker (clockwise)
+Move Round marker
+Resolve Development and Scenario Trigger tokens
+MORNING PHASE
+Reveal & resolve a Morning card
+GENERATOR PHASE
+Fuel the Generator
+Gain sick Citizens based on the Heat and Cold markers
+Drop Coal (from the bank) into the top of the Generator
+ Place any cubes in the Drawer onto the Stress track
+Check for Generator breakdown and reset the Heat marker
+WEATHER PHASE
+Reveal a Weather card
+Advance the Cold marker and Heat Range indicators
+Gain Food (based on the Hunting symbols on Hunter’s Huts)
+Advance Scouts on Expedition stacks
+Move Storm marker (and possibly resolve a Storm)
+PREPARATION PHASE
+Choose Advisor (optional)
+Resolve Sickness markers’ eﬀ ects
+ACTION PHASE
+Adjust the number of Citizen Meeples in the supply
+Place Citizen Meeples on Spent Citizen tokens
+Perform Actions
+DUSK PHASE
+Resolve Scenario and Event display cards (DUSK PHASE)
+Reveal & resolve a Dusk card
+HUNGER PHASE
+Decrease Hunger by spending Food (as much as possible)
+Resolve & reset Hunger marker
+Feed Citizens indicated by the current Round
+NIGHT PHASE
+Return Spent Citizen tokens and Meeples
+Lay down Citizen Meeples in heated Shelters
+Each Citizen Meeple without a warm place to sleep gets sick
+SCENARIO I/01
+S01
+Civilization has fallen. We – the survivors – 
+travelled in a convoy that split into several 
+groups to increase the chances of reaching 
+a functional generator. Our group succeeded. 
+What fate has befallen the others? Lighting up 
+a signal to guide the lost souls will help
+to answer that question.
+ Round 4:
+If the Beacon is built: Go to A.
+Otherwise: Go to B.
+ Round 11:
+Place #S04 face up in the Scenario display.
+If #S07 has not been revealed:
+Place #S03 face up in the Scenario display.
+ARE WE ALONE?
+The beacon shines bright!
+ +1 Hope or -1 Discontent.
+Reveal and resolve #S02.
+We have failed...
++1 Apathy. Place #S06 face up
+in the Scenario display.
+A
+B
+135 Event cards
+103 Dusk cards
+16 Law cards
+1 Call to Rise card
+12 Society cards 
+(6 different Societies, 
+each with 2 difficulties)
+1 Phase tracker 
+card
+44 Scenario cards
+40 Expedition cards
+13 Weather cards
+9 Technology cards
+4 Advisor cards
+30 Citizen cards
+1 Starting
+60 Normal
+10 Social Dispute
+32 Law Consequence
+32 Morning cards
+6
+
+
+=== PAGE 7 ===
+7
+Outpost Depot
+          OUTPOST DEPOT:
+You may unlock Outpost Depot Buildings
+by completing Outpost Expedition cards.
+Each Outpost Depot Building costs 2 Wood to build.
+When the ﬁ rst Outpost Depot Building is built:
+Place the Stockpile marker on the
+0 space of the Supplies Transport track.
+WEATHER PHASE:
+Move the Stockpile marker a number
+of spaces equal to the Expedition progress
+shown on the revealed Weather card.
+Unlocked Outpost Depots:
+SUPPLIES TRANSPORT TRACK:
+Each time the Stockpile 
+marker reaches the Outpost 
+space (           ):
+Gain the Food or Resources 
+shown on each Outpost 
+Depot and place the Stockpile 
+marker onto space 0
+on this track.
+OUTPOST
+3
+0
+1
+2
+4 Outpost Expedition 
+cards
+1 Outpost card
+1 Heat 
+marker
+1 Storm 
+marker
+1 Food 
+marker
+1 Hunger 
+marker
+1 Corpse 
+marker
+3 Feed Citizens 
+Type markers
+(Worker, Engineer, 
+Child)
+7 Starting Wall tiles 
+(3 blank, 2 Wood, 2 Coal)
+7 Scenario 
+Trigger tokens
+9 Hope tokens
+5 Knowledge 
+/ Discovery 
+tokens
+1 Seedlings 
+Condition 
+marker
+1 Generator 
+Condition 
+marker
+1 Study 
+marker
+9 Discontent 
+tokens
+4 Electrostatic 
+Discharge 
+Point tokens
+4 Develop-
+ment tokens
+4 Generator 
+Damage 
+tokens
+1 Dreadnought marker
+11 Large Basic 
+Building tiles
+42 Small Basic 
+Building tiles
+1 Large Special 
+Building tile
+10 Small Special 
+Building tiles
+18 Destroyed Building / 
+Survivor tiles
+7 Large Scenario 
+Building tiles
+4 Small Scenario 
+Building tiles
+3 Heat Range indicators
+1 Evacuation 
+marker
+15 Spent Citizen tokens 
+(5 each of Worker, 
+Engineer, Child)
+1 Round 
+marker
+1 Cold 
+marker
+1 Phase 
+marker
+3 Citizen markers 
+(Worker, Engineer, 
+Child)
+30 Citizen Meeples 
+(10 Workers, 10 Engineers, 8 Children, 1 Child Worker, 1 Child Engineer)
+6 Automaton 
+Meeples
+40 Wood
+10 Steam 
+Cores
+30 Trees
+3 Steam Hub 
+pieces
+50 Coal
+8 Steel
+3 Sickness markers 
+(Worker, Engineer, 
+Child)
+1 Leadership 
+marker
+3 Stockpile 
+markers
+19 Large Building tiles
+74 Small Building tiles
+OUTPOST
+SOURCE OF COAL
+What fi rst seemed like a cave turned out to be 
+a recently abandoned mine. The equipment,
+a pile of coal, and the miners; it was all there… 
+undisturbed for weeks, maybe months.
+Place this card beneath the Outpost card
+with only the information shown below visible:
+Prepare the site.
+Unlock the Coal Outpost Depot Building.
+The Coal Outpost Depot costs 2 Wood to Build.
+Gain 1 Steam Core and 2 Coal.
+We should take whatever we can salvage 
+and leave this place be.
+It’s a tomb and shall remain one.
+[         ]
+Outpost
+7
+
+
+=== PAGE 8 ===
+8
+Choose a scenario to play. The following instructions are for setting up the game 
+using the ‘A New Home: Crater’ scenario which is recommended for your first game. 
+Refer to the Scenario Book for instructions on how to set up the other scenarios. 
+Game Setup
+Round & Morning 
+board
+Morning 
+deck 
+The setup steps in this Rulebook are either shown as a number in a circle  1 , or a number on its own 7. The num-
+bers in a circle correspond to a number shown in a setup image, whereas the numbers on their own are not shown 
+in a setup image.
+Starting Society 
+card
+Citizen 
+deck
+Citizen  
+cards
+Advisor  
+card
+Phase 
+Tracker 
+card
+Law 
+Consequence 
+cards
+Hope & Discontent 
+board
+Event display
+Law display
+Generator 
+board
+Dusk 
+board
+Dusk 
+deck
+Supply 
+board
+Buildings 
+board
+Technology 
+display
+Future Law 
+display
+Social Dispute 
+cards
+Population 
+board
+Scenario 
+display
+Expedition 
+display
+Bank
+Weather 
+deck
+
+
+=== PAGE 9 ===
+9
+ 1  	 Place the Generator tile in the middle of the 
+play area, oriented as shown.
+ 2 	 Create the Rim board by connecting togeth-
+er the 6 Rim board pieces to form a hexagon 
+as shown in the image. Use the side depict-
+ing a cliff face.
+ 3 	 Place the Generator (with the drawer) on 
+the Generator tile. Keep the Generator Up-
+grade component in the box until required.
+ 4 	 Place the Cookhouse Building on the Gen-
+erator tile as shown.
+Note: The Platform and the Generator Building are 
+pre-printed on the Generator tile. 
+ 5 	 Place 5 Wood and 5 Coal on the Generator 
+tile as shown.
+ 6 	 Shuffle the Starting Wall tiles face down. 
+Choose any corner of the Rim board and 
+draw one Starting Wall tile at random, plac-
+ing it face up on the chosen corner. Repeat 
+this procedure for each of the corners of the 
+Rim board, going clockwise until you have 
+placed a total of 3 tiles depicting Deposits 
+(Coal or Wood). You should now have De-
+posits on 3 of the corners, and the other 3 
+should have blank tiles or be empty. Return 
+the blank tiles, along with any tiles not cho-
+sen to the box.
+7. 	 Separate the Map tiles into 2 stacks based 
+on their backs, shuffle each stack separate-
+ly, and place them face down nearby.
+ 8 	 Place a Far tile face down in each corner of 
+the map where there is no Wood or Coal tile.
+ 9 	 Place a Near tile face down between each 
+Far tile and the Generator tile.
+10  	 Flip the Map tiles placed in steps 8 & 9 face 
+up. We recommend you orientate the Map 
+tiles in the same direction as the Generator 
+tile as it makes it easier to see your options 
+when playing the game. Place Resources 
+and Trees from the bank onto the spaces of 
+the tiles as depicted on those spaces. 
+Note: If any of the revealed tiles depicts Food, it will 
+be added to the Population board later in setup.
+1  Map setup
+ 1
+ 2
+6
+6
+6
+6
+6
+6
+ 3
+4
+ 5
+ 5
+1 Wood 
+is placed 
+here
+4 Trees 
+are placed 
+here
+2 Coal 
+is placed 
+here
+Nothing 
+is placed 
+here
+10
+ 9
+ 9
+8
+ 8
+8
+ 9
+
+
+=== PAGE 10 ===
+10
+10
+1 Coal
+2 Trees
+3 Food
+2 Wood
+1 Steam Core
+Map tile icons
+2  Expedition display
+3  Technology display 
+4  Society card
+1. Remove any Expedition cards not used in your cho-
+sen scenario.
+For the ‘A New Home: Crater’ scenario, 
+use all Expedition cards.
+2. Separate the remaining Expedition cards by type 
+(A, B, C). Shuffle the A, B, and C cards separately to 
+make 3 decks and place them white side up nearby.
+3. Take the top 3 cards from the A deck and place them face up along the right edge of the Map. Each of these cards is 
+the start of an Expedition stack (Expedition cards may be added to each stack later), and all of the Expedition stacks 
+form the Expedition display.
+1. 	 Remove any Technology cards not 
+used in your chosen scenario.
+For the ‘A New Home: Crater’ scenar-
+io, do not use the ‘Steam Hub’ card.
+2. 	 Shuffle the remaining Techno- 
+logy cards and select 4 at random, 
+placing them face up along the bot-
+tom-right edge of the Map. This forms 
+the Technology display. Return the rest of the Technology cards to the box.
+ 3  	 Place a Development token on each card, inactive side up. 
+Choose a Society card (I - VI) and your chosen difficulty level (Normal or Hard).
+For your first game, it is recommended to use 
+the ‘Society I - Normal’ card.
+This card indicates the starting number of Citizens, Resources, etc. These will be add-
+ed to various boards later in the setup.
+A
+Campsite
+B
+Ruins
+C
+Ruins
+WEATHER PHASE:
+Gain an additional 1 Food
+for every 2 Hunting symbols.
+HUNTING TACTICS
+4
+T02
+TECHNOLOGY
+Whenever you Deploy Scouts on an Expedition
+or Continue an Expedition,
+move the Scout 1 space forward.
+LIGHTER SCOUT 
+SLEDS
+4
+T01
+TECHNOLOGY
+GENERATOR PHASE:
+Before checking for Generator breakdown,
+if there are 2 or fewer Stress cubes on the overﬂ ow
+space, remove those cubes without any eﬀ ect.
+ACTION PHASE:
+Whenever you use the Generator Building,
+remove an additional Stress cube
+from the Stress track.
+GENERATOR SAFETY 
+SYSTEM
+4
+T06
+TECHNOLOGY
+Whenever you use a Medical Post,
+you may Treat 2 instead
+of its normal eﬀ ect.
+MEDICAL 
+EDUCATION
+5
+T05
+TECHNOLOGY
+ 3
+ 3
+ 3
+ 3
+SOCIETY I
+NORMAL
+Along the way we’ve lost people and 
+found new companions. We’re a motley 
+crew, but the hardships of the journey 
+gave us a sense of unity. There is hope 
+for us. We even managed to preserve 
+enough food to be able to feed our 
+children… at least for now.
+SOCIETY
+SUPPLIES
+8
+5
+4
+0
+22
+12
+0
+0
+8
+0
+0
+2/2
+2/1
+1
+Bank
+Place any Wood, Coal, Steam Cores, Trees, 
+Citizen Meeples, and Automatons not currently being 
+used beside the board in an area known as the bank. Also 
+include Steel if the scenario you are playing requires it.
+‘A New Home: Crater’ scenario 
+doesn’t require Steel.
+Inactive 
+side
+Active 
+side
+
+
+=== PAGE 11 ===
+11
+11
+5  Population board
+6  Supply board
+1. 	 Place the Population board above the Map.
+ 2 	 Place the Citizen and Sickness markers on the corre-
+sponding spaces of the Population track (the upper 
+track on the Population board) as per the Society card.
+ 
+ 
+22
+12
+0
+0
+8
+0
+ 
+For Society I - Normal, you begin the game 
+with 22 Workers, 12 Engineers, and 8 Children 
+(none of whom are sick). Place the markers 
+on the Population board as shown.
+	
+Place the Food marker on the correspond-
+ing space of the Food track (the lower 
+track on the Population board) based on the amount 
+of Food you start with (shown on the Society card).
+For Society I - Normal, 
+place the Food marker on space 8.
+ 4 	 Increase your starting Food for any Map tile bo-
+nuses on Map tiles revealed during setup (see Map 
+tile icons on page 10).
+ 5 	 Place the Hunger marker on space 0 
+of the Food track.
+1.	 Place the Supply board to the right of the Map.
+ 2 	 Place the Corpse marker on the cor-
+responding space of the Corpse track 
+(shown on the Society card).
+For Society I - Normal, 
+place the Corpse marker on space 1.
+3 	 Place the starting num-
+ber of Wood, Coal, and 
+Steam Cores from the bank onto the Supply board 
+as shown on the Society card.
+For Society I - Normal, you begin the game 
+with 4 Wood, 5 Coal, and 0 Steam Cores.
+4 	 For each type of Citizen, place a number of Citizen 
+Meeples based on the position of the correspond-
+ing Citizen marker on the Population track (look 
+at the bar above the section where the correspond-
+ing marker is located).
+For Society I - Normal, you begin the game  
+with 2 Child Meeples, 3 Engineer Meeples, 
+and 5 Worker Meeples.
+ 5 	 Place a number of Automatons from the 
+bank on the Supply board as shown on 
+the Society card.
+For Society I - Normal, you begin the game 
+with 0 Automatons.
+ 6 	 Place the Spent Citizen tokens beside the Supply 
+board.
+5
+4
+0
+1
+0
+ 3
+ 2
+ 4
+ 5
+ 6
+8
+ 3
+ 2
+5
+ 3
+ 4
+
+
+=== PAGE 12 ===
+12
+Supply
+Anything on the Supply board represents what you currently have available to you and is referred to as the 
+supply. You will spend Wood from the supply to construct Buildings, use Coal from the supply to fuel the 
+Generator, etc. Players do not have their own individual supply areas; there is just one for the City.
+7  Buildings board
+8  Hope & Discontent board
+1.	
+Place the Buildings board below the Supply board.
+2.	
+Sort all of the Buildings by type and place the types 
+depicted on the Building board on their corre-
+sponding spaces as shown. Ensure that the tiles are 
+placed with their non-upgraded side face up.
+Exception: the Workshop and Factory buildings are 
+the same on both sides, and the shelters (House, Bunk-
+house and Tent) have Ruins on the opposite side.
+3.	
+Buildings not depicted on the Buildings board will 
+be dealt with later in the setup.
+1.	 Place the Hope & Discontent board to the left of 
+the Population board.
+2.	 Place all of the Discontent tokens into the Discon-
+tent bag and mix them up.
+ 3 	 Draw a number of to-
+kens from the bag in-
+dicated by the Society 
+card, placing them on the leftmost spaces of the 
+Discontent track. The number before the ‘/’ indi-
+cates how many tokens to draw and the number 
+after the ‘/’ indicates how many of these tokens to 
+place active side up (starting with the leftmost); 
+place the others exhausted side up.
+For Society I - Normal, draw 2 Discontent to-
+kens. Place the leftmost one on its active side, 
+and the other on its exhausted side.
+4 	 Repeat steps 2 & 3 with the Hope tokens and the 
+Hope bag.
+For Society I - Normal, draw 2 Hope tokens. 
+Place them both on their active side.
+Non-upgraded side
+Upgraded side
+2/2
+2/1
+ 3
+4
+
+
+=== PAGE 13 ===
+13
+9  Round & Morning board
+10  Future Law display
+1.	 Place the Round & Morning board above the Hope 
+& Discontent board.
+ 2 	 Place the Round marker on space 1 of the Round 
+track.
+ 3 	 Shuffle the Morning cards and place them face 
+down on the indicated space to form the Morning 
+deck.
+4 	 Place the Storm marker on the appropriate space 
+as described in the Scenario Book.
+For the ‘A New Home: Crater’ scenario, 
+the Storm marker is placed on space 9.
+ 1 	 From the Law cards, separate out the cards with 
+the identification codes L01-L08 and place them 
+face up in a pile in the Future Law display.
+ 2 	 Shuffle the remaining Law cards (L09-L16) toge-
+ther and choose 4 at random, placing them with 
+the other 8 Law cards. Return any unused Law 
+cards to the box; they are not needed in this game.
+ 3 	 Place the Law Consequence cards face down in 
+a pile next to the Law cards.
+4 	 Place any required Law-specific Buildings below 
+the Buildings board. The Child Shelter and the 
+4 Faith / Order Buildings are always required 
+(these Buildings are double-sided with Faith on 
+one side, and Order on the other). Other Build-
+ings are required based on the Laws chosen.
+For example: If the Fighting Arena Law is in the Future 
+Law display, place the Fighting Arena Building below 
+the Buildings board. Return any Buildings that aren’t re-
+quired to the box.
+ 2
+ 3
+4
+LAW
+L02
+L01
+There aren’t enough hands to do
+all the work. We’ll allow children 
+to be employed in certain workplaces.
+ACTION PHASE:
+You may use Child Meeples to:
+• Perform the Gather Resources action.
+• Use Gathering Post Buildings
+(up to 3 Resources).
+CHILD LABOUR
+{
+{
+ 1
+ 2
+ 3
+4
+
+
+=== PAGE 14 ===
+14
+12  Generator board
+13  Advisors & Citizens
+1.	 Place the Generator board to the left of the Map.
+ 2 	 Place the Heat marker on its normal side on the 
+first space of the Heat track.
+ 3 	 Place the 3 Heat Range indicators on the first 3 
+spaces of the Generator track: Red, then Orange, 
+then Yellow, as shown here.
+4 	 Place the Cold marker on the fifth space of the 
+Heat track.
+5.	 Remove any Weather cards not used in your cho-
+sen scenario. 
+For the ‘A New Home: Crater’ scenario, 
+use all Weather cards.
+6 	 Shuffle the remaining Weather cards and place 
+them face down on the indicated space of the Gen-
+erator board to form the Weather deck.
+11  Dusk board
+1.	 Place the Dusk board above the Population board.
+ 2 	 Place the ‘Inevitable’ Dusk card (D000) face down 
+on the middle space.
+ 3 	 Shuffle the Social Dispute cards and place them 
+face up on the rightmost space of the board.
+4 	 Read through the top Social Dispute card so that 
+you know what to expect and then flip it face down 
+and shuffle it with the ‘Inevitable’ card to create 
+the Dusk deck.
+5.	 Keep the rest of the Dusk cards in the box until 
+they are required.
+SOCIAL DISPUTE
+SD01
+“I don’t think we should tell them what we’re 
+going to do in advance. Let them think.
+And worry.”
+If you have any active Hope or Discontent: For your 
+most common active token (or for all tied for most 
+common), perform the corresponding eﬀ ect(s):
+Greed: 
+For each active Greed,
+ 
+increase Hunger by 3.
+Apathy: 
+For each active Apathy,
+ 
+ﬂ ip 1 Sickness marker.
+Anger: 
+ For each active Anger,
+gain 2 sick Citizens.
+Motivation: Take 1 Resource from the Map
+ 
+and place it in the supply.
+ 
+Then, for each active Motivation,
+ 
+take another 1 Resource from
+ 
+the Map and place it in the supply.
+ 
+For each Resource you cannot take,
+ 
+gain 1 Coal.
+Care: 
+For each active Care, Cure 2.
+Justice: 
+For each active Justice, exhaust
+ 
+1 Discontent or activate 1 Hope.
+UNCERTAINTY
+ 2
+4
+ 3
+ 2
+4
+ 6
+ 3
+Each player chooses one Advisor card. If play-
+ers cannot agree on which Advisor cards to 
+take, assign them randomly. Return any Advi-
+sor cards not chosen to the box; they are not 
+used in this game.
+In the solo game, also take the ‘Call to Rise’ 
+card in addition to your chosen Advisor.
+Remove any Citizen cards not used in your 
+chosen scenario. 
+For the ‘A New Home: Crater’ scenario, 
+use all Citizen cards.
+Shuffle the remaining Citizen cards and place 
+them face down as the Citizen deck next to 
+the bottom left edge of the Map. Each player 
+draws the following number of Citizen cards 
+from this deck to their hand: 
+Solo game = 7 Citizen cards
+2 players = 6 Citizen cards each
+3 players = 5 Citizen cards each
+4 players = 4 Citizen cards each
+Only if you exhaust 1 Hope:
+Remove up to 3 Stress cubes
+from the Stress track.
+PREPARATION PHASE:
+
+
+=== PAGE 15 ===
+15
+14  Other setup
+Each player must choose and dis-
+card one of their Citizen cards (plac-
+ing it face up in a discard pile to the 
+right of the Citizen deck). A player 
+must pay the starting cost of the 
+card (shown in the upper-right cor-
+ner) to discard a  card in this way. 
+A  card cannot be discarded if its 
+starting cost cannot be paid (the 
+player must choose another card instead).
+In the situation where two or more players want to dis-
+card Citizen cards of the same starting cost, and the 
+combined starting cost cannot be paid, choose at random 
+which one gets discarded; the other player must choose 
+a different card.
+If a player is unable to discard any card (because they 
+cannot pay any of the starting costs), they discard any 
+one Citizen card from their hand, ignoring the cost, but 
+add 1 sick Citizen of the discarded Citizen card type in-
+stead. See page 30 for the rules on adding sick Citizens.
+For example: In a 3-player game, each player draws 5 Cit-
+izen cards. John decides to discard ‘Chrissy Klemowsky’, 
+removing 1 coal from each of 2 revealed tiles on the board. 
+Elizabeth discards ‘Rafael Curae’, adding 3 Stress cubes to 
+the Stress track. Luke discards ‘Phillipa Bullsky’, remov-
+ing 1 Wood from the supply. Each player starts the game 
+with 4 Citizen cards in their hand.
+Place the Phase tracker card 
+nearby with the Phase marker on 
+the Action Phase space. 
+Take the Scenario cards for the 
+chosen scenario and place them 
+in the Scenario display along the 
+top-right edge of the map as indi-
+cated in the Scenario Book. Read 
+each face-up Scenario card carefully.
+For the ‘A New Home: Crater’ scenario, place 
+Scenario card I/01 face up in the Scenario dis-
+play and the rest face down nearby.
+Place any Scenario Trigger tokens on the appropriate spac-
+es on the Round track, as shown on the Scenario cards.
+For the ‘A New Home: Crater’ scenario, place the 
+Scenario Trigger tokens on spaces 4 and 11.
+Place the Storm card for your 
+chosen scenario face down to the 
+left of the Weather deck. 
+For the ‘A New Home: Cra-
+ter’ scenario, use Scenario 
+card I/08 as the Storm card.
+Place the Stockpile markers near the Sce-
+nario display.
+    Give the Leadership marker to 
+a player chosen at random. 
+Give each player the Responsibility sheet corresponding 
+to their Advisor card. If playing with fewer than 4 players, 
+distribute the remaining Responsibility sheets between 
+the players as evenly as possible. In a solo game, take all 
+the Responsibility sheets.
+Any components not required for the chosen scenario 
+should be returned to the box.
+Perform 3 Workshop eﬀ ects.
+[Use a Building]: Workshop
+C19
+Increase Hunger by 3.
+Adele Quapinsky
+Engineer
+Exhaust Justice
+-1 Hope
+-1 Hope
+Exhaust Care
+-2 Hope
+C10
+Chrissy Klemowsky
+Worker
+Remove 2 Coal
+from the Map.
+C12
+Place 3 Stress cubes
+on the Stress track.
+Rafael Curae
+Engineer
+C26
+Spend 1 Wood.
+Phillipa Bullsky
+Child
+DAWN PHASE
+Pass Leadership marker (clockwise)
+Move Round marker
+Resolve Development and Scenario Trigger tokens
+MORNING PHASE
+Reveal & resolve a Morning card
+GENERATOR PHASE
+Fuel the Generator
+Gain sick Citizens based on the Heat and Cold markers
+Drop Coal (from the bank) into the top of the Generator
+ Place any cubes in the Drawer onto the Stress track
+Check for Generator breakdown and reset the Heat marker
+WEATHER PHASE
+Reveal a Weather card
+Advance the Cold marker and Heat Range indicators
+Gain Food (based on the Hunting symbols on Hunter’s Huts)
+Advance Scouts on Expedition stacks
+Move Storm marker (and possibly resolve a Storm)
+PREPARATION PHASE
+Choose Advisor (optional)
+Resolve Sickness markers’ eﬀ ects
+ACTION PHASE
+Adjust the number of Citizen Meeples in the supply
+Place Citizen Meeples on Spent Citizen tokens
+Perform Actions
+DUSK PHASE
+Resolve Scenario and Event display cards (DUSK PHASE)
+Reveal & resolve a Dusk card
+HUNGER PHASE
+Decrease Hunger by spending Food (as much as possible)
+Resolve & reset Hunger marker
+Feed Citizens indicated by the current Round
+NIGHT PHASE
+Return Spent Citizen tokens and Meeples
+Lay down Citizen Meeples in heated Shelters
+Each Citizen Meeple without a warm place to sleep gets sick
+SCENARIO I/08
+S08
+If it is Round 7 or earlier:
+Go to 1.
+If it is Round 8 or later:
+Go to 2.
+We’re hit by heavy snowfall.
+Flip all Tents to their Ruins side
+(on the Map and the Buildings board).
+Place the Storm marker on Round 12.
+Brace Yourselves. The frost is here!
+Flip all Bunkhouses to their Ruins side
+(on the Map and the Buildings board).
+Remove the Storm marker
+from the game.
+1
+2
+STORM
+Responsibility sheets
+These sheets divide the 
+main aspects of the game 
+into 4 areas. Any player who 
+has a sheet should fully un-
+derstand how that part of 
+the game works. This will 
+help players learn the game 
+as they only have to learn 
+the rules for the aspects for 
+which they have responsibility. It will also help to 
+encourage all players to be involved in the game.
+For example: The player with the Generator Ad-
+visor Responsibility sheet needs to understand 
+how the Generator board, Generator Stress level, 
+Weather cards, and Heat Range indicators work.
+1. DAWN PHASE
+If you have the Leadership marker, pass it 
+clockwise to the next player 
+2. MORNING PHASE
+3. GENERATOR PHASE
+Gain sick Citizens from the cold.
+Move the Sickness markers as instructed by 
+the Generator Advisor 
+4. WEATHER PHASE
+Gain Food from the Weather card revealed 
+by the Generator Advisor by moving the 
+Food marker 1 space to the right for each 
+Hunting symbol on your Hunter’s Huts 
+5. PREPARATION PHASE
+Choose an Advisor.
+Discuss which Advisor to use this Round, 
+if any  You may only use one Advisor in 
+a Round, but the same Advisor may be 
+chosen each Round  The player with the 
+Leadership marker has the fi nal word on 
+whose Advisor should be used this Round, 
+if any 
+Resolve Sickness markers.
+Resolve the effect of each Sickness marker 
+on the Population track from lowest to 
+highest  For each Sickness marker, resolve 
+the effect of each icon in the section the 
+marker is in 
+1
+  
+Place the indicated number of Spent 
+Citizen tokens of the corresponding 
+type in the supply  
+1
+  Flip the Sickness marker to its other 
+side a number of times as indicated  
+6. ACTION PHASE
+Check the number of Citizen Meeples.
+Based on the positions of the Citizen 
+markers, tell the Foreman Advisor to adjust 
+the number of Citizen Meeples as needed  
+Fuel the Generator.
+On your turn, you may fi rst tell the 
+Generator Advisor to fuel the Generator 
+Remove Snow.
+After a Near or Far tile is placed, gain Food 
+equal to any Food bonus on the placed tile 
+Gain sick Citizens of the corresponding 
+type, if the action performed by the Meeple 
+is cold  You should be told if the action is 
+cold by the Generator Advisor 
+7. DUSK PHASE
+8. HUNGER PHASE
+Decrease previous Hunger.
+At the start of this Phase, if your Hunger 
+level is 1 or more (the Hunger marker is on 
+position 1 or higher), you must spend Food 
+to decrease the Hunger level as much as you 
+are able  For each Food spent, decrease the 
+Hunger level by 1 
+Check the Hunger level.
+If it is between 1 and 24, resolve the effects 
+depicted in the section directly below the 
+position of the Hunger marker 
+  Increase Discontent  
+  The indicated number of your 
+Citizens die  The type of Citizen 
+that dies is depicted at the top of the 
+column for the previous Round on 
+the Round & Morning board 
+If it is 25 or more, you lose the game from 
+overwhelming hunger 
+Feed Citizens.
+Feed the Citizens by spending 1 Food for 
+each Citizen you have of the type indicated 
+by the current Round (the position of the 
+Citizen marker)  If you do not have enough 
+Food, increase the Hunger by 1 for each 
+Food that you lack  
+If the Hunger level increases to 25 or more, 
+fl ip the Hunger marker over to the 25+ side 
+and place it back at the start of the track 
+9. NIGHT PHASE
+At the end of the Night Phase, for each 
+Meeple in the supply that is still standing 
+(has nowhere warm to sleep), gain 1 sick 
+Citizen of the matching type 
+ADDITIONAL INFO
+Sickness
+Whenever a Citizen gets sick, move the 
+corresponding Sickness marker 1 space 
+forward on the Population track  If the type 
+of sick Citizen is not specifi ed, you may 
+choose the type of each of those Citizens 
+There can never be more sick Citizens of 
+a particular type than there are Citizens of 
+that type  If moving the Sickness marker 
+would move it to a space beyond the 
+corresponding Citizen marker, instead of 
+moving that Sickness marker, fl ip it over 
+If a Sickness marker is fl ipped from the 
+Syringe side to the Skull side, a Citizen is 
+now gravely ill, but there is no additional 
+game effect 
+If a Sickness marker is fl ipped from the 
+Skull side to the Syringe side, 1 Citizen of 
+that type dies  You also move that Sickness 
+marker one space backward 
+Death
+When a Citizen dies:
+1   Tell the Foreman Advisor to move the 
+Corpse marker 1 space forward 
+2   Move the corresponding Citizen marker
+1 space back on the Population track  
+3   Draw a Citizen card from the Citizen deck, 
+place it face up on the discard pile, and 
+apply the death effect printed on it based 
+on the type of Citizen that died 
+Note: Instead of drawing a Citizen card from 
+the deck, any player may discard a Citizen 
+card matching the type of Citizen that died.
+If they do, apply the death effect of the 
+discarded Citizen card.
+Curing Citizens
+Various game effects allow you to 
+Cure some of your Citizens  
+These are denoted by the word ‘Cure’ 
+followed by a number, or by the Cure icon 
+,
+preceded by a number  The number is 
+how many Cure points you get to use 
+Each Cure point allows you to move any one 
+Sickness marker 1 space to the left  Any Cure 
+points you cannot immediately use are lost  
+Note: A Sickness marker on its Skull side cannot 
+be moved to space 0 on the Population track (the 
+gravely ill Citizen must be Treated (see below) 
+before the marker is moved to space 0).
+Treating Citizens
+Various game effects allow you 
+to Treat some of your Citizens  These are 
+denoted by the word ‘Treat’ followed by 
+a number, or by the Treat icon 
+, preceded 
+by a number  The number is how many 
+Treat points you get to use 
+Each Treat point allows you to fl ip 
+a Sickness marker on its Skull side to 
+its Syringe side without applying the 
+death effect  Any Treat points you cannot 
+immediately use are lost 
+Some might like me, but many spit in my face. I just know that I prefer
+distributing food more than arranging burials and amputations.
+As a Health Advisor you are responsible for the state of health in the society. 
+You will: track Citizen, Sickness, Food and Hunger markers, apply Hunger
+and Sickness eﬀ ects, feed Citizens, and update the number of Citizen Meeples.
+HEALTH ADVISOR
+
+
+=== PAGE 16 ===
+16
+How to Win and Lose
+Important Rules
+You win the game if you complete the goal of the sce-
+nario (detailed on the Scenario cards).
+You lose the game if one or more of the following con-
+ditions are met:
+PEOPLE LOSE THEIR WILL 
+TO SURVIVE
+This occurs when your last Hope token is removed 
+from the Hope track.
+PEOPLE BANISH YOU 
+FROM THE CITY
+This occurs when you place a 6th Discontent token 
+onto the Discontent track (whether those tokens are 
+active or not).
+EXPLOSION OF THE GENERATOR
+This occurs when the Generator breaks down for 
+a second time.
+OVERWHELMING SICKNESS
+This occurs if any of the Sickness markers on the Pop-
+ulation track is on space 26 or higher in the Prepara-
+tion Phase. 
+OVERWHELMING HUNGER
+This occurs when your Hunger level is 25 or more af-
+ter feeding your people in the Hunger Phase.
+OVERWHELMING DEATHS
+This occurs when the Corpse marker moves to the last 
+space of the Corpse track.
+   The red skull and crossbones symbol is shown on 
+various components as a reminder of these lose 
+conditions.
+RULES PRIORITY 
+Any rule from the Scenario Book takes precedence 
+over anything in the Rulebook.
+Any text on a card takes precedence over anything in 
+the Rulebook or Scenario Book.
+DECISION MAKING
+In Frostpunk: The Board Game, players need to work 
+together to win. Whenever a decision needs to be 
+made in the game, if players cannot agree, the player 
+with the Leadership marker has the final say.
+GAINING, LOSING, AND SPENDING
+During the game, you will be instructed to gain, lose, 
+or spend certain things.
+Food is tracked with the Food marker. Whenever you 
+gain Food, move the marker to the right. Whenever 
+you lose or spend Food, move it to the left. 
+Citizens (Workers, Engineers, and Children) are 
+tracked with the 3 Citizen markers. Whenever you 
+gain Citizens, move the corresponding marker to the 
+right. Whenever you lose Citizens, move it to the left.
+Sick Citizens are tracked with the 3 Sickness markers. 
+Whenever you gain sick Citizens, move the corre-
+sponding marker to the right. Whenever you lose sick 
+Citizens, move it to the left.
+If the type of Citizen or sick Citizen you gain or lose 
+is not specified, you may choose the type of each of 
+those Citizens.
+Wood, Coal, Steam Cores, and Steel are known as 
+Resources. When you gain them, take them from the 
+bank and place them in the supply. When you lose or 
+spend them, move them from the supply to the bank.
+The difference between losing and spending is as fol-
+lows:
+Lose: If you are instructed to lose something that you 
+don’t have, just lose what you can and perform the cor-
+responding effect as normal.
+For example: If an effect causes you to lose 3 Wood from 
+the supply, and you only have 1 Wood, just lose the 1 Wood. 
+Similarly, if an effect causes you to lose 3 Engineers, and 
+you only have 2 Engineers, just lose those 2 Engineers.
+Spend: If an effect requires you to spend something, 
+you must pay the full amount in order to resolve that 
+effect. You cannot choose an effect for which you do not 
+have the full amount to satisfy the spend requirement. 
+For example: If you need to spend 2 Wood to use an ability, 
+and you only have 1 Wood, you cannot use that ability.
+DISCARD PILES
+The contents of all discard piles are open information; 
+players may look through them at any time.
+
+
+=== PAGE 17 ===
+17
+Hope and Discontent
+Understanding and managing Hope and Discontent is 
+an important aspect of the game. Not only will you 
+lose the game if you lose all Hope or have too much 
+Discontent, but many game effects are modified 
+based on whether you have a certain type of Hope or 
+Discontent.
+Hope and Discontent tokens are double-sided; both 
+have an active (light) and exhausted (dark) side. 
+There are 3 types of Hope token and 3 types of Dis-
+content token.
+Care
+Anger
+Justice
+Apathy
+Motivation
+Greed
+ACTIVATING 
+AND EXHAUSTING TOKENS
+Whenever you are instructed to Activate a token, flip 
+over one exhausted token to the active side.
+Whenever you are instructed to Exhaust a token, flip 
+over one active token to the exhausted side.
+If you are instructed to Activate or Exhaust a token but 
+are unable to do so, ignore that effect.
+However, if you are required to Exhaust a token to re-
+solve an effect, you can only resolve that effect if you 
+are able to Exhaust a token.
+INCREASING AND DECREASING 
+HOPE / DISCONTENT
+During the game, you will sometimes be instructed to 
+increase or decrease your Hope or Discontent.
+Whenever you increase Hope or Discontent (and no 
+specific type is listed), you must choose one of the fol-
+lowing options:
+•	Draw a random token from the appropriate bag 
+and place it exhausted side up on the leftmost 
+empty space on the corresponding track, or
+•	Activate any one exhausted token from the ap-
+propriate track.
+Whenever you increase your Hope or Discontent of 
+a  specific token type, perform the following two 
+steps, in order:
+1.	
+Draw a  random token from the appropriate 
+bag and place it exhausted-side up on the 
+leftmost empty space of the corresponding 
+track. (This token may or may not be of the 
+type specified - it does not matter).
+2.	
+If possible, Activate one exhausted token of 
+the indicated type.
+COMFORT THE SICK
+1
+M004
+There’s been talk among our people.
+They want better conditions for those in need. 
+It is probably what helped us survive in the fi rst 
+place; we took care of the weak and the sick.
+Promise that you will
+take care of it.
++1 Care.
+Add #D007 to the Dusk deck.
+Place this card in the Event display.
+ACTION PHASE:
+Each time you perform this action,
+take 1 or more Wood and / or
+Coal from the supply and place it
+on this card.
+2
+Ignore this demand.
++1 Discontent.
+MORNING
+Once per Round.
+1
+Promise that you wi
+take care of it.
++1 Care.
+Add #D007 to the Du
+Place this card in the
+For example: This effect instructs you to increase your 
+Care, which is a specific type of Hope. You first draw 
+a  new Hope token from the bag and place it on the 
+track, exhausted-side up (in this case it is a Justice to-
+ken). None of the current Hope tokens are of the Care 
+type, so none of them are flipped over.
+Card effects
+The shorthand no-
+tation used on cards 
+for increasing and 
+decreasing Hope is 
+shown as + or –, then a number, followed by ei-
+ther “Hope” or “Discontent”, or a specific type 
+of token.
+A + symbol means you increase, and a – sym-
+bol means you decrease.
+The number shown is how many times you re-
+peat the process.
+For example: 
+-2 Hope means to decrease Hope twice.
+2
+Ignore this demand.
++1 Discontent.
+
+
+=== PAGE 18 ===
+18
+A PROPHET
+1
+M011
+A child is having intense visions. Some people 
+believe that she is a prophet, that her words provide 
+hope and should guide us in these terrible times – 
+not yours. Others say that she is controlled by her 
+mother to coax food and fuel donations from her 
+followers. What will you do?
+As long as she speaks our words we can allow it. 
+We will meet with her mother and make a deal 
+about what exactly needs to be said.
+Only if you spend 3 Resources or 6 Food.
+-1 Discontent. 
+She must be stopped. We will meet with her 
+mother and order her to put an end to this 
+pitiful charade. 
++1 Anger.
+Add #D023 to the Dusk deck.
+The impossible is possible. We shall let her 
+continue for the sake of those who fi nd comfort 
+in her prophecies.
++1 Hope.
+Add #D022 to the Dusk deck.
+2
+3
+MORNING
+mother and order her 
+pitiful charade. 
++1 Anger.
+Add #D023 to the Du
+3
+For example: This effect instructs you to increase your 
+Anger, which is a specific type of Discontent. You first 
+draw a new Discontent token from the bag and place it 
+on the track, exhausted-side up (in this case it is a Greed 
+token). Then, because there is an exhausted Anger token 
+already on the track, it is flipped over to its active side.
+Note: The maximum amount of Hope is 6. Once you have 6 
+active Hope tokens, you cannot increase Hope further.
+Each time you decrease Hope or Discontent, you 
+must choose one of the following options:
+•	Exhaust any one active token on the correspond-
+ing track, or
+•	Remove any one exhausted token on the corre-
+sponding track and place it back in its bag. Slide 
+any remaining tokens on the track to the left to fill 
+any gaps.
+If you are unable to perform the first option (because 
+there are no active tokens), you must choose the oth-
+er option.
+A PROPHET
+1
+M011
+A child is having intense visions. Some people 
+believe that she is a prophet, that her words provide 
+hope and should guide us in these terrible times – 
+not yours. Others say that she is controlled by her 
+mother to coax food and fuel donations from her 
+followers. What will you do?
+As long as she speaks our words we can allow it. 
+We will meet with her mother and make a deal 
+about what exactly needs to be said.
+Only if you spend 3 Resources or 6 Food.
+-1 Discontent. 
+She must be stopped. We will meet with her 
+mother and order her to put an end to this 
+pitiful charade. 
++1 Anger.
+Add #D023 to the Dusk deck.
+The impossible is possible. We shall let her 
+continue for the sake of those who fi nd comfort 
+in her prophecies.
++1 Hope.
+Add #D022 to the Dusk deck.
+2
+3
+MORNING
+about what exactly need
+Only if you spend 3 Re
+-1 Discontent. 
+The impossible is possib
+continue for the sake of
+2
+For example: An effect instructs you to decrease Discon-
+tent. Because there are no active Discontent tokens, you 
+must choose to remove one of the exhausted tokens from 
+the track and place it back in its bag.
+Remember: If your last Hope token is removed from 
+the Hope track, or you place a 6th Discontent token onto 
+the Discontent track, you lose the game.
+DISCARDING HOPE & DISCONTENT 
+TOKENS
+Whenever you are instructed to discard a token, re-
+move it from the Hope & Discontent Board and place 
+it back in the appropriate bag. The discarded token 
+can be either active or exhausted.
+A game of Frostpunk: The Board Game is played over several Rounds. Each Round is divided into 9 Phases, carried 
+out in order. Use the Phase marker to track which Phase you are currently in.
+Note: Phases 1-5 are skipped in the first Round of the game.
+1. DAWN PHASE: Pass the Leadership marker. Advance the Round marker, triggering any events.
+2. MORNING PHASE: Resolve the top card from the Morning deck.
+3. GENERATOR PHASE: Citizens may become sick because of the cold. Check for Generator stress.
+4. WEATHER PHASE: Resolve the top Weather card (Storm moves closer, Heat Range indicators advance, 
+Hunter’s Huts provide food, and Expeditions progress).
+5. PREPARATION PHASE: Use Advisors, resolve Sickness markers.
+6. ACTION PHASE: Perform actions with Meeples.
+7. DUSK PHASE: Resolve the top card of the Dusk deck.
+8. HUNGER PHASE: Resolve Hunger from the previous Round and then feed Citizens.
+9. NIGHT PHASE: Place Meeples in heated Shelters. Citizens with nowhere warm to sleep get sick.
+Gameplay
+
+
+=== PAGE 19 ===
+19
+1. DAWN PHASE
+2. MORNING PHASE
+If the Round marker reaches a Scenario Trigger token, re-
+move the Scenario Trigger token and refer to the Scenario card(s) 
+related to that token, following the instructions on them. For more 
+details of these cards, see page 33.
+For example: The Round marker is moved forward onto a space 
+containing a Scenario Trigger token. You remove the token, then 
+follow its corresponding instructions found on the Scenario card.
+Note: If the Round marker moves onto a space with the Storm marker, 
+this will be resolved in the Weather Phase.
+At the start of this Phase, pass the Leadership marker 
+clockwise to the next player. Then, move the Round 
+marker one space forward on the Round track.
+If the Round marker reaches a Development 
+token, remove that token from the Round track and 
+place it, active-side up, on the Technology card that 
+currently does not have a Development token on it. 
+Then, choose any Technology card with an inactive 
+Development token on it (if any) and place that token 
+on the Round track (a number of spaces ahead of the 
+Round marker as depicted on the Technology card). 
+For more details of these cards, see page 38.
+REVEAL 
+A MORNING CARD
+Reveal the top card from the Morn-
+ing deck, and read its text.  The card 
+may have an instant effect which 
+is resolved immediately. The card 
+may also have some numbered 
+options; if so, choose one of the available options and 
+resolve its effects. Some options have a prerequisite 
+condition in red text. You can only choose one of these 
+options if you meet its prerequisite condition.
+For example: To choose the first option of the card ‘The 
+Birth of Gambling’, you must have an active Justice 
+Hope token.
+After fully resolving the card, remove it from the game, 
+or place it in the Event display (as stated next to the 
+option chosen). 
+  = Remove the card from the game (place it back 
+in the box). Any Resources on the card are 
+placed in the bank. Any Meeples on the card 
+are placed in the supply.
+ = Place the card in the Event display (along the 
+top-left edge of the Map).
+A new day begins and the burden of leadership passes on.
+A new day brings another challenge for us to solve.
+For example: The Round marker moves to Round 6 where there is a Development token. The token is flipped to the ac-
+tive side and placed on the ‘Steampowered Chainsaw’ Technology card. Then, you choose to start developing ‘Hunting 
+Tactics’, removing the token and placing it on Round 10 (4 spaces ahead of the current Round marker).
+As a Gather Resources action, you may place
+a Worker or Automaton on an unoccupied 
+space that has 1 or more Trees.
+Remove 1 Tree from that space
+and gain 2 Wood.
+STEAMPOWERED 
+CHAINSAW
+3
+T04
+TECHNOLOGY
+GENERATOR PHASE:
+Before checking for Generator breakdown,
+if there are 2 or fewer Stress cubes on the overﬂ ow
+space, remove those cubes without any eﬀ ect.
+ACTION PHASE:
+Whenever you use the Generator Building,
+remove an additional Stress cube
+from the Stress track.
+GENERATOR SAFETY 
+SYSTEM
+4
+T06
+TECHNOLOGY
+WEATHER PHASE:
+Gain an additional 1 Food
+for every 2 Hunting symbols.
+HUNTING TACTICS
+4
+T02
+TECHNOLOGY
+Whenever you use a Medical Post,
+you may Treat 2 instead
+of its normal eﬀ ect.
+MEDICAL 
+EDUCATION
+5
+T05
+TECHNOLOGY
+SCENARIO I/01
+S01
+Civilization has fallen. We – the survivors – 
+travelled in a convoy that split into several 
+groups to increase the chances of reaching 
+a functional generator. Our group succeeded. 
+What fate has befallen the others? Lighting up 
+a signal to guide the lost souls will help
+to answer that question.
+ Round 4:
+If the Beacon is built: Go to A.
+Otherwise: Go to B.
+ Round 11:
+Place #S04 face up in the Scenario display.
+If #S07 has not been revealed:
+Place #S03 face up in the Scenario display.
+ARE WE ALONE?
+The beacon shines bright!
+ +1 Hope or -1 Discontent.
+Reveal and resolve #S02.
+We have failed...
++1 Apathy. Place #S06 face up
+in the Scenario display.
+A
+B
+1
+M025
+There were plenty of things to take the burden
+off one’s mind back in the old world. There’s far
+fewer now, but some citizens have started to
+organise gambling nights. They bet everything –
+personal belongings, food rations, sleeping spots,
+and even their work duties.
+Let them have their thrills but under
+one condition: only personal belongings
+can be used for gambling.
+Only if you have active Justice.
+Add #D044 to the Dusk deck.
+2
+3
+Let them do it. They are adults.
+-1 Discontent.
+Add #D045 to the Dusk deck.
+Gambling will not do any good.
+Order them to stop.
++1 Anger.
+THE BIRTH
+OF GAMBLING
+Activate Greed.
+MORNING
+
+
+=== PAGE 20 ===
+20
+3. GENERATOR PHASE
+If we don’t provide enough heating, some of our citizens get sick,  
+but if we use the generator too much, it may break down.
+At the start of this Phase, you may fuel the Generator 
+to increase the amount of heat it is providing.
+Then, check how many Citizens become sick because 
+of the cold (indicated by the position of the Cold mark-
+er). To do this, for each icon depicted on the Heat track 
+between the Cold marker and the Heat marker, move 
+the corresponding Sickness marker one space forward. 
+If the Sickness marker would move to a space beyond 
+the corresponding Citizen marker, flip it over instead of 
+moving it (see Sickness & Death on page 30).
+For example: In the image above, 1 Child and 1 En-
+gineer get sick; add 1 sick Engineer and 1 sick Child.
+Once you have chosen whether or not to fuel the gen-
+erator in this Phase, check the Generators Stress level.
+GENERATOR STRESS LEVEL
+Take a number of Coal cubes from the 
+bank, as shown by the position of the 
+Heat marker on the Heat track, and 
+drop them into the top of the Generator.
+For example: Here, you take 3 cubes 
+from the bank and drop them into the top 
+of the Generator. 
+After the cubes 
+have 
+fallen, 
+carefully pull 
+out the Generator drawer. 
+Place any cubes in the draw-
+er onto the Stress track. Then, 
+carefully close the drawer.
+The 10 small spaces on the Stress track hold 1 cube 
+each. When placing cubes on this track, fill these 10 
+spaces first, then place any remaining cubes into the 
+overflow space (the large space at the top of the track, 
+which can hold any number of cubes). Cubes on the 
+Stress track are known as Stress cubes.
+If there are any Stress cubes in the overflow space, the 
+Generator breaks down.
+Whether the Generator broke down or 
+not, reset the Heat marker by moving it 
+back to the first space of the Heat Track.
+For example: Based on the position of the 
+Heat marker, 3 cubes are dropped into the 
+top of the tower. 2 cubes fall out and are 
+added to the Stress track. There were al-
+ready 9 cubes on the Stress track, so now 
+there are more than 10 cubes on the Stress 
+track, and the Generator breaks down.
+GENERATOR BREAKDOWN
+The first time that the Generator breaks down, per-
+form the following steps, in order:
+1.	
+Flip the Heat marker to the overheated side.
+2.	
+Advance the Cold marker one space on the 
+Heat track, and all 3 Heat Range indicators 
+one space on the Genera-
+tor track.
+3. Return all Stress cubes 
+from the Stress track 
+(including those on the 
+overflow space) back to 
+the bank.
+The second time that 
+the 
+Generator 
+breaks 
+down (i.e., when the Heat 
+marker is on the over-
+heated side and there are 
+one or more cubes on the 
+overflow space), the Gen-
+erator explodes and you 
+lose the game.
+Fuel the Generator
+You may spend any number of 
+Coal (moving them from the 
+supply to the bank) to fuel the 
+Generator. Advance the Heat 
+marker one space for each Coal 
+spent. The Heat marker may be 
+moved onto the Cold marker, 
+but not beyond.
+Any cubes that fall out of the Generator when 
+removing the drawer are also placed on the 
+Stress track. Any cubes that fall out of the 
+Generator when inserting the drawer remain 
+in the drawer (and will be placed on the Stress 
+track next round).
+Normal
+Overheated
+
+
+=== PAGE 21 ===
+21
+4. WEATHER PHASE
+It gets colder each day, requiring more heat to keep everyone warm.
+Reveal the top card from 
+the Weather deck, resolve 
+it, and then place it face up 
+in the Weather card dis-
+card pile. Each Weather 
+card has 4 sections that 
+are resolved in order from 
+top to bottom. 
+A. Move the Heat 
+Range indicators
+B. Hunter’s Traps
+C. Expedition Progress
+D. Move the Storm 
+marker
+A. MOVE THE HEAT RANGE 
+INDICATORS
+Advance the Cold marker and each Heat Range indica-
+tor the indicated number of spaces up the track as de-
+picted in the first section of the Weather card, but not 
+beyond the last space 
+on the track.
+For example: For this 
+Weather card, move the 
+Cold marker and the 
+yellow Heat Range indi-
+cator forward one space.
+B. HUNTER’S TRAPS
+Gain 1 Food for each Hunting 
+symbol  
+ on your Hunter’s 
+Huts (a  basic hut provides 
+one symbol, an upgraded hut 
+provides two).
+For example: If you have 3 Hunter’s Huts, one of which 
+is upgraded, you gain 4 Food. 
+C. EXPEDITION PROGRESS
+Advance each of your Scouts 
+the indicated number of 
+spaces forward on their re-
+spective Expedition stack(s). 
+More information about the Expedition movement 
+can be found on page 35.
+For example: For this Weather card, you move each of 
+your Scouts 2 spaces forward on their respective Expe-
+dition stacks.
+D. MOVE THE STORM MARKER
+Move the Storm marker backward on 
+the Round track a number of spaces as 
+indicated at the bottom of the card. 
+For example: For the card depicted 
+above, move the Storm marker two spaces backwards. 
+After moving the Storm marker, if it is now on or before 
+the space with the Round marker, a Storm hits your set-
+tlement. When this happens, reveal the relevant Storm 
+card for the chosen scenario and 
+resolve its effects. If the effects do 
+not include the 
+ icon, return the 
+Storm card face down to the left of 
+the Weather deck.
+For the ‘A  New Home: Cra-
+ter’ scenario, the effect of the 
+Storm depends on how many 
+Storms have hit your settle-
+ment this game:
+• 1st Storm to hit 
+your settlement:
+	
+Move the Storm 
+marker to space 12 
+of the Round track 
+and flip all Tents to 
+their cold side (Ru-
+ins), including ones on the Buildings board.
+• 2nd Storm to hit 
+your settlement:
+	
+Remove the Storm 
+marker from the 
+game and flip all 
+Bunkhouses 
+to 
+their cold side (Ru-
+ins), including any on the Buildings board. 
+Once a Shelter (Tent / Bunkhouse / House) 
+has been flipped to its Ruins side, it may no 
+longer be used as a Shelter during the Night 
+Phase unless a  specific Law has been passed. For 
+more details on the Night Phase, see page 29.
+WEATHER
+0
+1
+2
+0
+1
+1
+W11
+2
+0
+1
+0
+1
+1
+2
+2
+A
+B
+C
+D
+– STORM –
+Reveal and resolve this card.
+I/S08
+A New Home
+
+
+=== PAGE 22 ===
+22
+5. PREPARATION PHASE
+6. ACTION PHASE
+We look to our advisors for help.
+Get to work! Move, people! There’s plenty to do.
+CHOOSING AN ADVISOR
+At the start of the Preparation Phase, players discuss 
+which Advisor to use this Round, if any. You may only 
+use one Advisor in a Round, but the same Advisor may 
+be chosen each Round. The player with the Leadership 
+marker has the final word on whose Advisor should be 
+used this Round, if any.
+Immediately after an Advisor has been chosen, the 
+ability of that Advisor may then be used by exhausting 
+the indicated Hope token. See page 31 for the full rules 
+on Advisors.
+RESOLVING SICKNESS
+After resolving the Advisor’s ability (or choosing not 
+to), check the Sickness markers. If any of the Sick-
+ness markers are on space 26 or higher, you lose the 
+game due to overwhelming sickness. Otherwise, re-
+solve the effect of each Sickness marker on the Pop-
+ulation track from lowest to highest. For each Sick-
+ness marker, resolve the effect of each icon in the 
+section the marker is in.
+Note: There is no effect if the Sickness marker 
+is on spaces 0-4. 
+The effects are as follows:
+1
+    Place the indicated number of Spent Citizen 
+tokens of the corresponding type in the sup-
+At the start of the Action Phase, check that you have 
+the correct number of Meeples in the supply based on 
+the position of the corresponding Citizen markers on 
+the Population track. Adjust the number of Meeples of 
+each type in the supply as needed.
+Note: Meeples placed on Expedition stacks as Scouts still 
+count towards this total as if they were in your supply.
+For example: Here, you have 3 Child Meeples, 4 Engi-
+neer Meeples, and 5 Worker Meeples.
+Then, if there are any Spent Citizen tokens in the sup-
+ply, place a  corresponding Meeple from the supply 
+onto each of them. If there are not enough Meeples of 
+a given type, leave the remaining Spent Citizen tokens 
+of that type without a Meeple on.
+Note: You cannot use a Meeple placed on a Spent Citizen 
+token to perform an action with this Round.
+PLAYER TURNS
+Beginning with the player with the Leadership mark-
+er and going clockwise, each player takes a turn. Play 
+continues in this way until you run out of available 
+Meeples or do not want to take any more actions.
+ply. Each Spent Citizen token means you have 
+one fewer Meeple to use in the next Action 
+Phase (see page 22).
+1
+    Flip this Sickness marker to its other side 
+a number of times as indicated. Whenever you 
+flip a marker from the Syringe side to the Skull 
+side, it represents that a Citizen is now grave-
+ly ill, but there is no additional game effect. 
+Whenever a  token is flipped from the Skull 
+side to the Syringe side, one of your Citizens 
+dies, and the token is moved backwards one 
+space (see Sickness & Death on page 30).
+For example: Here, you have 15 sick Workers. You must 
+place 2 Spent Worker tokens into the supply. You then 
+flip the Citizen Sickness marker twice. The first time, 
+the marker flips from Syringe side to Skull side. The sec-
+ond time flips it back to Syringe side and a Worker dies.
+
+
+=== PAGE 23 ===
+23
+On your turn, you may first choose to fuel the Gener-
+ator (as per the rules on page 20). The Heat marker 
+may be moved onto the Cold marker, but not beyond.
+Note: Do not check for Generator Stress when you fuel 
+the Generator during this Phase; that only happens 
+in the Generator Phase.
+For example: Before performing an ac-
+tion, you spend 2 Coal to fuel the Gen-
+erator and move the Heat marker two 
+spaces up.
+Then, you choose one available Meeple from the sup-
+ply to perform one of the following Main actions:
+ Remove Snow 
+ Gather Resources
+ Construct
+ Use a Building
+ Deploy Scouts
+ Perform a  Special Action on a  Scenario 
+card or Event card
+Note: You cannot use Child Meeples to take actions 
+unless a specific Law has been introduced or another 
+effect allows you to do this.
+TAKING ACTIONS IN HEATED 
+OR COLD CONDITIONS
+Every action that you perform is taken in either heat-
+ed or cold conditions.
+Some actions are always heated actions; the Citizens 
+you use will suffer no ill effects from the action.
+Some are always cold actions; the Citizens you use 
+will suffer ill effects from the cold.
+Other actions may be either heated or cold depend-
+ing on whether the Generator is providing heat to the 
+Building or Map tile where the action is being taken.
+Always heated: 	 Construct, Deploy Scouts, 
+Special Actions
+Always cold: 	
+Remove Snow
+Heated or Cold: 	Gather Resources, Use a Building
+Note: A useful thing to remember is that you only need to 
+check the heating provided by the Generator when you place 
+Meeples on the map. All other actions are heated, except for 
+the Remove Snow action (which depicts the syringe icon). 
+Each time you take an action, first check whether the 
+action is heated or cold. If it is heated, there are no 
+additional effects. If it is cold, before resolving the ac-
+tion, increase the number of sick Citizens of the Mee-
+ple type used for the action by 1. If the Sickness mark-
+er would move to a space beyond the corresponding 
+Citizen marker, flip it over instead of moving it (see 
+Sickness & Death on page 30).
+To determine if the Gather Resources and Use a Build-
+ing action is heated or cold, look at the position of the 
+Heat marker. 
+The symbols on the Heat Range indicators depict either 
+an Insulation level of a Building or a zone of the map.
+Insulation levels
+Each Building has an Insulation level associat-
+ed with it, based on the colour of the stripe on 
+the bottom of the tile.
+Red Buildings have the highest insulation, 
+then Orange, then Yellow.
+Blue Buildings cannot be heated unless they 
+are in a heated zone or with special Buildings 
+/ Laws.
+White Buildings are special and their Insula-
+tion level does not matter.
+Buildings with 
+a Red Insulation 
+level
+The Generator 
+tile
+Buildings with 
+an Orange 
+Insulation level
+The Generator tile 
+and all tiles 
+adjacent to it
+Buildings with 
+a Yellow Insulation 
+level
+The Generator tile 
+and all tiles within 
+2 hexes of it
+
+
+=== PAGE 24 ===
+24
+If the Generator has not been started (the Heat mark-
+er is on the first space of the Heat Track), all Gather 
+Resources and Use a Building actions are cold actions.
+•	
+If a zone symbol on a Heat Range indicator 
+is lower than the level of the Heat marker, all 
+actions in that zone are heated.
+Additionally, 
+•	
+If an Insulation level on a Heat Range indica-
+tor is lower than the level of the Heat marker, 
+actions in a Building with that Insulation level 
+are heated, regardless of where that Building 
+is on the map.
+Either of the conditions above are required for an ac-
+tion to be considered heated.
+For example: The Heat marker is on space 5; it is above the Red and Orange Heat Range indicators, meaning that all 
+Red and Orange Buildings are heated, no matter what zone they are in. It is also above the first two zone-specific Heat 
+Range indicators, meaning that all actions carried out on the Generator tile and all tiles adjacent to it are heated, no 
+matter what the Insulation level of the Building is.
+A
+B
+C
+A
+B
+C
+
+
+=== PAGE 25 ===
+25
+ REMOVE SNOW 
+You must clear the area to find new resources and  give 
+you room to expand.
+This action is always cold.
+Place an available Meeple on the Remove 
+Snow space of the Supply board, then choose 
+one of the following options:
+•	
+Place two Near tiles (they do not have 
+to be adjacent to each other), or
+•	
+Place one Far tile.
+Note: If there is only space for one Near tile, 
+only place one.
+This action may be performed multiple times 
+each Round.
+Draw your chosen tile(s) from their respec-
+tive stacks and place them face down (with-
+out looking at the opposite side) onto the 
+board as follows:
+•	
+Near tiles must be placed adjacent to the Gen-
+erator tile.
+•	
+Far tiles must be placed adjacent to a tile that 
+is connected to the Generator tile (directly, or 
+through other adjacent tiles). Far tiles cannot 
+be placed adjacent to the Generator tile.
+Once all tiles have been placed, flip them face up. On 
+each space, place the depicted number of Trees or Re-
+sources from the bank. If the tile depicts a Food bonus, 
+immediately gain that much Food.
+For example: You choose to remove snow and place 
+a Far tile between a Near tile and the Rim board. After 
+placing it, you flip it over. As depicted on the tile, you 
+then place 3 Trees and 2 Coal from the bank onto it.
+ACTION DESCRIPTIONS 
+ GATHER RESOURCES
+Our supplies are running dangerously low, we need to 
+gather more resources.
+This action may be either heated or cold depend-
+ing on the location of the tile selected, and the 
+Heating provided by the Generator.
+To perform this action, place an available Meeple on an 
+unoccupied space on a Map tile that has Coal, Wood, 
+or Steam Cores. Take up to 2 Resources from that 
+space and place them into the supply. You may only use 
+each space once per Round (i.e., you cannot choose 
+a space that already has a Meeple on it). This action 
+may be performed multiple times each Round.
+Note:  Near and Far Map tiles have 2 spaces. The Genera-
+tor tile has 5 spaces. With this action, you place a Meeple 
+on a specific space and take Resources from that space only.
+For example: You place a Meeple on a space containing 
+4 Coal and gather 2 of those Coal.
+
+
+=== PAGE 26 ===
+26
+ CONSTRUCT
+Buildings are essential for your survival.
+This action is always heated.
+The Construct action 
+allows you to Build 
+Buildings and/or Dis-
+mantle Buildings.
+To perform this action, place an available Meeple on 
+the Construction space of the Supply board. 
+Each Construct action allows you to perform up to 3 
+Construct sub-actions (Build or Dismantle), which 
+may be taken in any order and combination.
+For example: You could build one Building, dismantle 
+another, and then build a new Building on the space 
+where you dismantled the previous one.
+This action may be performed multiple times each 
+Round.
+BUILD
+To Build, choose a Building from the Buildings board 
+and spend the amount of Wood and/or Steam Cores 
+depicted in the circle at the bottom of the column the 
+Building is in.
+Alternatively, you may choose a  Building below the 
+Buildings board if it has been unlocked by a card. The 
+cost to Build the Building is shown on that card.
+Place the Building on a space of the Map that does 
+not contain a Meeple or another Building. If you place 
+a Building on a space with Resources or Trees, return 
+the Resources / Trees to the bank. 
+Notes: 
+• Buildings with a Red Build icon 
+(
+) cannot be built.
+• Large Buildings must be built 
+on two spaces of the same Map 
+tile.
+• The Buildings below the Build-
+ings board can only be built once 
+a certain Law or Event has hap-
+pened. The cost to build them is 
+shown on the corresponding Law 
+/ Event.
+• The Generator tile has 5 spaces. 
+The place where the Generator 
+drawer goes is not a space.
+DISMANTLE
+To Dismantle, choose a Building on the map without 
+any Meeples on it and place it back onto the Buildings 
+board in the corresponding space.
+Notes:
+• Buildings with a Red Dismantle icon (
+) 
+cannot be dismantled or destroyed in any way.
+• If a Ruin is dismantled, remove it from the game.
+ USE A BUILDING
+You will need to utilise the advantages that Buildings 
+provide to ensure that your city functions effectively.
+This action is heated or cold depending on the 
+position of the Heat marker, the zone the Build-
+ing is in, and the Insulation level of the Building.
+To perform this action, place an available Meeple on 
+(or next to if using the miniatures) any Building on 
+the map (a starting Building or one that has been con-
+structed). Each Small Building can only have 1 Meeple 
+on it; each Large Building can have up to 2 Meeples on 
+it (placed as two separate actions). 
+The individual actions of each Building are described 
+in the Appendix.
+Note: If a Building 
+depicts an Engineer symbol 
+, 
+only Engineer Meeples can be sent there 
+to perform the action.
+ DEPLOY SCOUTS
+It’s a dangerous journey, but one we must make.
+This action is always heated.
+You may only perform this action if the Beacon 
+has been built.
+When you perform this action, take one Meeple 
+(Worker or Engineer only) from the supply and place 
+it on an Expedition stack that doesn’t have a Meeple 
+on it, on the first (bottommost) space of that stack. 
+The Meeple you place is now a Scout. 
+There can only be one active Expedition (an 
+Expedition stack with a  Scout on it) until 
+the Beacon has been upgraded, at which 
+point there can be two active Expeditions. 
+Therefore, if you have an upgraded Beacon 
+and currently do not 
+have any Expeditions, 
+this action may be performed 
+twice during a Round.
+Spaces
+A
+Campsite
+
+
+=== PAGE 27 ===
+27
+ SPECIAL ACTIONS
+This action is heated unless noted otherwise on 
+the card.
+During the game, you may reveal Scenario cards and 
+Event cards that contain Special Actions that can be 
+used in the Action Phase.
+You may use the Special Action on any Scenario cards 
+in your Scenario display.
+Event cards may be placed into your Event display, 
+depending on the card text and choice you make. If 
+an Event card is in the Event display, you may use the 
+Special Action on it.
+Place your Meeple in the Special Action area on the 
+card. Some cards require you to spend Food or Re-
+sources when you perform the action, others require 
+At the start of this Phase, if any cards in the Scenario dis-
+play or the Event display have any effects with “DUSK 
+PHASE:” on them, resolve them now, in any order.
+Then, shuffle the Dusk deck, reveal the top card, 
+and read its text.  The card may have an instant ef-
+fect which is resolved immediately. The card may also 
+have some numbered options; if so, choose one of the 
+available options and resolve its effects. Some options 
+have a prerequisite condition in red text. You can only 
+choose one of these options if you meet its prerequi-
+site condition.
+Then either remove the card from the game or place it 
+on the Event display or Dusk discard pile (as instruct-
+ed by the card).
+  = Remove the card from the game (place it back in 
+the box). Any Resources on the card are placed 
+in the bank. Any Meeples on the card are placed 
+in the supply.
+  = Place the card in the Event display.
+[No icon] = Unless instructed otherwise by the card, 
+place this card on the Dusk discard pile (the leftmost 
+space on the Dusk board, showing 
+ ). It may be re-
+shuffled into the Dusk deck later in the game.
+you to place Resources on 
+the card. Meeples placed 
+on the Special Action are 
+removed as normal in the 
+Night Phase but any Re-
+sources placed on the card 
+remain on the card.
+For example: This Event 
+card allows you to place an 
+Engineer and 1 Wood on it 
+during the Action Phase.
+Each Special Action may 
+only be performed once 
+per Round. Some Special 
+Actions are only once per 
+game (as indicated on the card).
+SOCIAL DISPUTE 
+CARDS
+There will always be exact-
+ly one Social Dispute card 
+in the Dusk deck. After 
+resolving a Social Dispute 
+card, remove it from the 
+game (place it back in the 
+box). Then take the top 
+card from the Social Dis-
+pute deck and shuffle it to-
+gether with both the Dusk 
+deck and Dusk discard pile 
+to create a new Dusk deck 
+(face down).
+If the Social Dispute deck runs out, do not add a new 
+Social Dispute card.
+Note: Remember to read the Social Dispute card carefully 
+before shuffling it into the deck so that you can be 
+prepared for it. 
+ Cards depicting this red icon can never be discarded 
+due to an effect or placed on the Dusk discard pile.
+1
+M015
+One of our engineers has an idea that may 
+help us provide more food each day for the city. 
+He needs some resources, but perhaps it would 
+prove worth the investment?
+Give him what he needs.
+Place this card in the Event display.
+ACTION PHASE:
+Each time you perform this action,
+take 1 Wood from the supply and place
+it on this card.
+DUSK PHASE:
+If there is no Engineer Meeple
+on this card: +1 Apathy.
+If there is 2 Wood on this card:
+Add #D030 to the Dusk deck.
+2
+We can’t afford to spend our valuable 
+supplies on something so uncertain.
++1 Discontent.
+A NEW PROJECT
+MORNING
+Once per Round.
+7. DUSK PHASE
+As the day draws to a close, you must face the consequences of your actions.
+SOCIAL DISPUTE
+SD01
+“I don’t think we should tell them what we’re 
+going to do in advance. Let them think.
+And worry.”
+If you have any active Hope or Discontent: For your 
+most common active token (or for all tied for most 
+common), perform the corresponding eﬀ ect(s):
+Greed: 
+For each active Greed,
+ 
+increase Hunger by 3.
+Apathy: 
+For each active Apathy,
+ 
+ﬂ ip 1 Sickness marker.
+Anger: 
+ For each active Anger,
+gain 2 sick Citizens.
+Motivation: Take 1 Resource from the Map
+ 
+and place it in the supply.
+ 
+Then, for each active Motivation,
+ 
+take another 1 Resource from
+ 
+the Map and place it in the supply.
+ 
+For each Resource you cannot take,
+ 
+gain 1 Coal.
+Care: 
+For each active Care, Cure 2.
+Justice: 
+For each active Justice, exhaust
+ 
+1 Discontent or activate 1 Hope.
+UNCERTAINTY
+
+
+=== PAGE 28 ===
+28
+DECREASING PREVIOUS HUNGER
+At the start of this Phase, if your Hunger level is 1 or 
+more (the Hunger marker is on position 1 or higher), 
+you must spend Food to decrease the Hunger level as 
+much as you are able. For each Food spent, decrease 
+the Hunger level by 1.
+After spending your Food, check your Hunger level:
+•	
+If it is between 1 and 24 resolve the effects 
+depicted in the section directly below the po-
+sition of the Hunger marker.
+•	
+If it is 25 or more, you lose the game from 
+overwhelming hunger.
+	 Increase Discontent.
+	 The indicated number of your Citizens die. The 
+type of Citizen that dies is depicted at the top 
+of the column for the previous Round on the 
+Round & Morning board (see Citizen Death 
+on page 30).
+Note: If any Citizens die in 
+the first Round from hunger, 
+use the type of Citizen from 
+the current Round instead.
+After resolving the effects 
+of Hunger, move the Hun-
+ger marker back to position 0 on the Food Track.
+F o r 
+e x -
+a m -
+p l e : 
+It is 
+Round 8. Your Hunger level is 12 and you have 4 Food. 
+You must spend the Food to reduce your Hunger level 
+to 8. Your Discontent increases and 1 Child dies. Then, 
+reset the Hunger marker to 0.
+FEEDING CITIZENS
+Next, you must feed your Citizens by spending 1 Food 
+for each Citizen you have of the type indicated by the 
+current Round (the position of the Citizen marker). 
+If you do not have enough Food, add 1 Hunger lev-
+el (move the Hunger marker one space forward) for 
+each Food that you lack. If the Hunger level increas-
+es to 25 or more, flip the Hunger marker over to the 
+25+ side and place it back at the start of the track. 
+Note: You do not lose the game from overwhelming hunger 
+at this point; only if the Hunger level is 25 or more after 
+feeding your Citizens in the next Hunger Phase.
+For example: It is Round 6 and time for the Workers 
+to be fed. You have 32 Workers but only 24 Food. You 
+spend all of your Food, and your Hunger level rises to 8.
+8. HUNGER PHASE
+Hungry citizens from yesterday must be fed first.
+As darkness falls, we need to find a place to sleep.
+
+
+=== PAGE 29 ===
+29
+In this Phase, you have to provide heated Shelters to 
+your Citizens. Follow these steps:
+1.	
+Return all Spent Citizen tokens that have 
+Meeples on them back to the bank, placing 
+the Meeples on them back into the supply. 
+Any Spent Citizen tokens without Meeples 
+on them are not returned to the bank (each 
+one will reduce the number of available Mee-
+ples next Round).
+2.	
+Return all Meeples placed this Round back to 
+the supply, including Meeples on cards in the 
+Event display (unless indicated otherwise). 
+Do not return Scouts on Expedition stacks.
+3.	
+You may choose to fuel the Generator (as per 
+the rules on page 20) if required to heat your 
+Shelters.
+4.	
+Count the number of available sleeping slots 
+in heated Shelters. For each one, choose 
+a Meeple in the supply and lay it down; this 
+indicates this Meeple has somewhere warm 
+to sleep.
+5.	
+For each Meeple in the supply that is still 
+standing (has nowhere warm to sleep), gain 
+1 sick Citizen of the matching type (see Sick-
+ness & Death on page 30).
+HEATED SHELTERS
+Tents, Bunkhouses, and Hous-
+es provide shelter for 2 Citi-
+zen Meeples during the Night 
+Phase but only if the Shelter is 
+heated (unless another game 
+effect allows it).
+If a Shelter has been flipped to 
+a  Ruin (the side with  the 
+ 
+icon), it cannot be used as a Shelter during the Night 
+Phase unless a  specific Law has been passed. Even 
+then, it must still be heated to be used.
+The positions of the Heat marker and the Heat Range 
+indicators, the Insulation level of the Shelter, and the 
+zone the Shelter is in determine whether the Shelter is 
+heated or not, just as with other Buildings.
+For example: You can only use the shelter provided by 
+a Tent (Yellow Insulation level) if the position of the 
+Heat marker indicates that Yellow Buildings are heat-
+ed or if the Tent is in a heated zone.
+Note: Some Special Buildings and Laws change the rules 
+for Shelters, either by changing the number of Meeples you 
+can place in Shelters, or by allowing certain other Buildings 
+to provide shelter for specific types of Meeples.
+For example: You have the following Meeples: 5 Work-
+ers, 3 Engineers, 2 Children (10 in total). You have 
+2 Tents, but the first Storm has already hit, so they 
+have been flipped over and cannot be used. You also 
+have 3 Bunkhouses and a Child Shelter. You place the 
+Children in the Child Shelter, but then you must decide 
+which 2 of the other Meeples are left without somewhere 
+to sleep. You choose one of each, so 1 Worker and 1 
+Engineer get sick; the corresponding Sickness markers 
+are increased by 1.
+9. NIGHT PHASE
+As darkness falls, we need to find a place to sleep.
+Have nowhere 
+warm to sleep
+
+
+=== PAGE 30 ===
+30
+The game ends when you either lose the game because one of the game lose conditions has been met, or win the 
+game because you completed the goal of the scenario (detailed on the Scenario cards).
+END OF GAME
+Sickness & Death
+Curing and Treating Citizens
+SICKNESS
+The Sickness markers track how many of each type of 
+Citizen are sick.
+Whenever a Citizen gets sick, move the correspond-
+ing Sickness marker one space forward on the Popu-
+lation track. If the type of sick Citizen is not specified, 
+you may choose the type of each of those Citizens.
+There can never be more sick Citizens of a particular 
+type than there are Citizens of that type. If moving the 
+Sickness marker would move it to a space beyond the 
+corresponding Citizen marker, instead of moving that 
+Sickness marker, flip it over.
+If a Sickness marker is flipped from the Syringe side to 
+the Skull side, it represents that a Citizen is now grave-
+ly ill, but there is no additional game effect.
+If a Sickness marker is flipped from the Skull side to 
+the Syringe side, one Citizen of that type dies (see 
+‘Death’ below). You also move that Sickness marker 
+one space backward (the number of sick Citizens re-
+duces because a sick Citizen just died).
+If reducing the number of Citizens moves the Citizen 
+marker to a space before the corresponding Sickness 
+marker, you must move the Sickness marker back-
+wards until the number of sick Citizens is equal to the 
+total number of Citizens of the same type.
+DEATH
+When one of your Citizens dies, follow these steps:
+1.	 Move the Corpse marker one space forward 
+on the Corpse track. If the Corpse marker 
+moves onto the last space of the track, you 
+lose the game from overwhelming deaths.
+CURING
+Various game effects (including some 
+Building actions) allow you to Cure some of 
+your Citizens. These are denoted by the word “Cure” 
+followed by a number, or by the Cure icon 
+ preced-
+ed by a number. The number is how many Cure points 
+you then get to use.
+Each Cure point allows you to move any one Sickness 
+marker 1 space to the left. Any Cure points you cannot 
+immediately use are lost.
+2.	 Move the corresponding Citizen marker one 
+space back on the Population track. If the cor-
+responding Sickness marker is on a higher 
+position than the Citizen marker, or if the Cit-
+izen died due to sickness (a Sickness mark-
+er on its Skull side was flipped to its Syringe 
+side), also move the corresponding Sickness 
+marker one space backward.
+3.	 Draw a Citizen card from the Citizen deck, 
+place it face up on the discard pile, and ap-
+ply the death effect printed on it based on the 
+type of Citizen that died.
+	
+Instead of drawing a Citizen card from the 
+deck, any player may discard a Citizen card 
+matching the type of Citizen that died. If they 
+do, apply the death effect of the discarded Cit-
+izen card.
+In either case, apply as much of the death effect of the 
+card as you are able, as depicted on the bottom of the 
+card corresponding to the type of Citizen who died.
+For example: A Child 
+dies, and the card drawn 
+is ‘Pauline Grogan’. The 
+death effect at the bottom 
+of the card is applied and 
+you must exhaust Motiva-
+tion (if able), and then 
+decrease Hope by 2.
+Spend 4 Food. Draw 1 Hope token
+and activate it, or discard 1 active 
+Discontent token.
+[Use a Building]: Cookhouse
+C20
+Place 3 Stress cubes
+on  the Stress track.
+Pauline Grogan
+Engineer
+Exhaust Justice
+-1 Hope
+-1 Hope
+Exhaust Motivation
+-2 Hope
+
+
+=== PAGE 31 ===
+31
+Advisors
+Players take the role of 
+one of the Advisors in 
+4 categories of exper-
+tise: Generator Advisor, 
+Health Advisor, Social Ad-
+visor, Foreman Advisor.
+Each Advisor has a spe-
+cial ability available only 
+to the assigned player.
+Advisor cards cannot be 
+exchanged or swapped 
+with other players during 
+the game.
+As described on page 22, one Advisor may be chosen 
+each Round. The ability of the chosen Advisor may be 
+used once during the Preparation Phase by exhaust-
+ing the indicated Hope token.
+SOLO GAME
+The ‘Call to Rise’ card 
+may be used in the 
+Preparation 
+Phase, 
+allowing you to draw 
+Citizen cards based 
+on how many Hope 
+tokens you current-
+ly have. Once used, 
+remove it from the 
+game.
+Note: A Sickness marker on its Skull side cannot be 
+moved to space 0 on the Population track 
+(the gravely ill Citizen must be Treated before the marker 
+is moved to space 0).
+For example: You are resolving a Dusk card, and since 
+you have an active Care token, you resolve a Cure 3 
+effect. You choose to Cure 2 Workers and 1 Child.
+For example: The Infirmary is a Building that can only 
+be used by an Engineer. When used, you can either Cure 
+up to 4 Citizens, or Treat up to 2 gravely ill Citizens.
+TREATING
+Various game effects (including some 
+Building actions) allow you to Treat some 
+of your Citizens. These are denoted by the 
+word “Treat” followed by a number, or by the Treat 
+icon 
+ preceded by a number. The number is how 
+many Treat points you then get to use.
+Each Treat point allows you to flip a Sickness marker 
+on its Skull side to its Syringe side without applying 
+the death effect. Any Treat points you cannot immedi-
+ately use are lost.
+Only if you exhaust 1 Hope:
+Remove up to 3 Stress cubes
+from the Stress track.
+PREPARATION PHASE:
+This card may be played independently of your Advisor card.
+Draw  1 / 2 / 3 / 4  Citizen cards 
+ if you have at least  1 / 2 / 4 / 6  Hope tokens.
+PREPARATION PHASE:
+Otherwise:
+Cure 2.
+If you have active Care:
+Cure 3.
+DUSK
+AN ADEPT OF LIFE
+Animals are strong, clever, or swift.
+We humans adapt. The transformation that 
+took root in the quack’s behaviour and even 
+attire is astonishing. He looks like a man who 
+has found his purpose. His newly acquired skills 
+and dedication have helped a great deal
+in the efforts to keep our citizens healthy.
+
+
+=== PAGE 32 ===
+32
+For example: There are currently 6 sick Workers. During the Preparation Phase, one of them would become gravely 
+ill (the marker would flip to its Skull side). Therefore, the player with the Health Advisor suggests their ability be used 
+this Round. The other players agree, so the Health Advisor exhausts a Care token to Cure 2 sick Workers, moving the 
+Sickness marker from 6 to 4.
+Only if you exhaust Care:
+Cure 2.
+PREPARATION PHASE:
+Citizen cards
+Citizen cards represent special individuals capable of 
+performing unique and heroic actions. Each Citizen 
+card consists of:
+A -– Name
+B -– Type of Citizen
+C -– Starting cost
+D -– Main ability
+E -– Death effect
+Players may share information about their Citizen 
+cards with other players, but Citizen cards cannot be 
+exchanged or used by other players.
+Note: The starting cost of a Citizen card 
+only applies during setup.
+USING CITIZEN ABILITIES
+Citizen cards have one-time use abilities. They may be 
+used in one of two ways:
+1) For its main ability: 
+When performing an action, immediately before plac-
+ing a Meeple, you may play a Citizen card face up in 
+front of you if it meets the following requirements:
+•	
+The Citizen type on the card must match the 
+type of Meeple to be placed.
+•	
+The action you are performing must be listed 
+on the card. In the case of the ‘Use a Building’ 
+action, you must be performing the action in 
+one of the Buildings listed on the card.
+Note: The Citizen card’s main ability may allow you to use 
+a Meeple that you would not normally be able to use for the 
+chosen action. 
+ 
+For example: The Mar-
+garet Ozone card lets you 
+perform the ‘Use a Build-
+ing’ action with a Medical 
+Post or Infirmary using 
+a Child Meeple, even 
+though Child Meeples 
+cannot normally use these 
+Buildings.
+The ability on the card 
+completely replaces the 
+normal effect of the ac-
+tion. Whether the action is in heated or cold conditions 
+is determined as normal.
+Only one Citizen card can be played for each action 
+performed, and each player may only play one Citizen 
+Perform this action as normal except place
+1 Near tile and 1 Far tile. If all Near tiles have
+already been placed, place 2 Far tiles instead.
+[Remove Snow]:
+C09
+Remove 1 Wood
+from the Map.
+Pat O’Bara
+Worker
+-1 Hope
+Exhaust Motivation
+-1 Hope
+Exhaust Justice
+-2 Hope
+A
+B
+D
+E
+C
+Cure 2.
+[Use a Building]: Medical Post / Inﬁ rmary
+C24
+Place 1 Spent Worker 
+token in the supply.
+Margaret Ozone
+Child
+Exhaust Care
+-1 Hope
+Exhaust Care
+-1 Hope
+-2 Hope
+
+
+=== PAGE 33 ===
+33
+Scenario cards
+card for its main ability each Round. After resolving 
+the ability of the card, leave it in front of you as a re-
+minder that you have played a Citizen card for its main 
+ability this Round. At the end of the Round, place the 
+card on the Citizen discard pile.
+For example: You play the 
+Citizen card ‘Paolo Feld-
+man’ and place a  Work-
+er Meeple on a space on 
+a  Map Tile with a  Tree 
+on it. Paolo’s ability al-
+lows you to remove the 
+Tree and gain 2 Wood in-
+stead of the normal effect 
+of the Gather Resourc-
+es Action. This action 
+counts as heated as stated 
+on the card.
+The Scenario cards are placed in the Scenario display 
+at the start of the game. You may read any of the face 
+up Scenario cards at any time. Scenario cards affect 
+the game in very significant ways.
+SCENARIO CARD TRIGGERED 
+EFFECTS
+Some Scenario cards have effects that trigger in spe-
+cific rounds, indicated by the Scenario Trigger symbol 
+shown on the card. When a Scenario card showing 
+this symbol is revealed (including at the start of the 
+game), place Scenario Trigger tokens on the appropri-
+ate spaces on the Round track.
+For example: Scenario card I/01 shows that 2 Scenario 
+Trigger tokens should be placed on spaces 4 and 11 of 
+the Round track.
+ANATOMY OF A SCENARIO CARD
+A -– Scenario & card number
+B -– Edition (base game)
+C -– Title
+D -– Flavour text
+E -– Effect
+F -– Card ID
+See also Card Clarifications on page 34 for an explana-
+tion of some of the more complex card effects.
+2) For its death effect:
+When a Citizen dies, any one player may discard 1 Cit-
+izen card of the same type as the Citizen who just died 
+and resolve its death effect instead of drawing a ran-
+dom Citizen card (see ‘Death’ on page 30).
+CITIZEN DECK AND DISCARD PILE
+If the Citizen deck ever runs out, shuffle the Citizen 
+discard pile and create a new Citizen deck.
+Perform this action on an unoccupied space that
+has 1 or more Trees. Remove 1 Tree from that space 
+and gain 2 Wood. Count this action as heated.
+[Gather Resources]:
+C04
+Spend 1 Coal.
+Paolo Feldman
+Worker
+-1 Hope
+Activate Greed
+-1 Hope
+Activate Apathy
+-2 Hope
+SCENARIO I/01
+S01
+Civilization has fallen. We – the survivors – 
+travelled in a convoy that split into several 
+groups to increase the chances of reaching 
+a functional generator. Our group succeeded. 
+What fate has befallen the others? Lighting up 
+a signal to guide the lost souls will help
+to answer that question.
+ Round 4:
+If the Beacon is built: Go to A.
+Otherwise: Go to B.
+ Round 11:
+Place #S04 face up in the Scenario display.
+If #S07 has not been revealed:
+Place #S03 face up in the Scenario display.
+ARE WE ALONE?
+The beacon shines bright!
+ +1 Hope or -1 Discontent.
+Reveal and resolve #S02.
+We have failed...
++1 Apathy. Place #S06 face up
+in the Scenario display.
+A
+B
+S01
+ Round 4:
+If the Beacon is built: Go to A.
+Otherwise: Go to B.
+ Round 11:
+Place #S04 face up in the Scenario display.
+If #S07 has not been revealed:
+Place #S03 face up in the Scenario display.
+The beacon shines bright!
+ +1 Hope or -1 Discontent.
+Reveal and resolve #S02.
+We have failed...
++1 Apathy. Place #S06 face up
+in the Scenario display.
+A
+B
+A
+C
+D
+E
+F
+B
+
+
+=== PAGE 34 ===
+34
+Event cards
+Card clarifications
+The Event cards (Morning cards and Dusk cards) 
+used in a scenario are shuffled into 2 separate decks 
+at the start of the game but are used in similar ways. 
+A Morning card is revealed during every Morning 
+Phase, and a Dusk card is revealed during every 
+Dusk Phase.
+When an Event card is revealed, read its text. The card 
+may have an instant effect which is resolved immedi-
+ately. The card may also have some numbered options; 
+if so, choose one of the available options and resolve its 
+effects. Some options have a prerequisite condition in 
+red text. You can only choose one of these options if 
+you meet its prerequisite condition.
+Then either remove the card from the game, or place 
+it in the appropriate place (as instructed by the card).
+  = Remove the card from the game (place it back in 
+the box). Any Resources on the card are placed 
+in the bank. Any Meeples on the card are placed 
+in the supply.
+  = Place the card in the Event display.
+[No icon] = Applies to Dusk cards only. Unless in-
+structed otherwise by the card, place this card on the 
+Dusk discard pile (the leftmost space on the Dusk 
+board, showing 
+ ). It may be reshuffled into the 
+Dusk deck later in the game.
+ANATOMY OF AN EVENT CARD
+A -– Card type
+B -– Edition (base game)
+C -– Event title
+This section clarifies the more complex Citizen, Sce-
+nario and Event card effects.
+A (Citizen / Worker / Engineer / Child) dies: See 
+‘Death’ on page 30. If the type of Citizen is not speci-
+fied, you may choose the type.
+A Citizen (of the current Round’s type): The type 
+of Citizen as depicted at the top of the column for the 
+current Round on the Round & Morning board.
+Add a card to the Dusk deck: Find the Dusk card 
+from those in the box using the specified Dusk card 
+ID (#D followed by 3 digits). This same code will be on 
+the bottom right edge of the new Dusk card. Without 
+reading the new Dusk card, add it to the Dusk deck 
+and shuffle the Dusk deck.
+Build a Building for free: Build a Building following 
+the normal restrictions but do not pay its cost.
+Destroy a Building: Destroy a Building, returning it 
+to the Buildings board or the area below the Buildings 
+board. You may not choose to destroy a Building with 
+the Red Dismantle icon (
+).
+ Cards depicting this red icon can never be discard-
+ed due to an effect or placed on the Dusk discard pile.
+D -– Flavour text
+E -– Instant effect (if any) 
+Something that happens at the moment of draw-
+ing the card.
+F -– Special Action area (if any)
+G -– Options reacting to the Event (up to 3) 
+Each option contains flavour text as well as an 
+instant effect. Sometimes an option has a condi-
+tion/requirement which is shown in red.
+H -– Card ID
+See also Card Clarifications (see below) for an expla-
+nation of some of the more complex card effects.
+A
+C
+D
+E
+G
+H
+F
+B
+COMFORT THE SICK
+1
+M004
+There’s been talk among our people.
+They want better conditions for those in need. 
+It is probably what helped us survive in the fi rst 
+place; we took care of the weak and the sick.
+Promise that you will
+take care of it.
++1 Care.
+Add #D007 to the Dusk deck.
+Place this card in the Event display.
+ACTION PHASE:
+Each time you perform this action,
+take 1 or more Wood and / or
+Coal from the supply and place it
+on this card.
+2
+Ignore this demand.
++1 Discontent.
+MORNING
+Once per Round.
+THEFT
+1
+MORNING
+M001
+Desperation spreads like a sickness.
+Someone stole supplies.
+Ignore it and keep the theft a secret.
++1 Greed.
+2
+Expose and investigate.
+-1 Hope.
+Place 1 Spent Worker / Engineer
+token in the supply.
+Add #D001 to the Dusk deck.
+If you have fewer than 2 Resources in the supply:
++1 Apathy. Remove all Resources from the supply.
+Otherwise:
+Place this card in the Event display.
+Take 2 Resources from the supply and place them
+on this card. Then, for each active Greed, take another
+2 Resources from the supply and place them on this card.
+3
+Keep it a secret and investigate.
+Place 1 Spent Worker / Engineer
+token in the supply.
+Add #D002 to the Dusk deck.
+
+
+=== PAGE 35 ===
+35
+Expeditions
+Three Expedition cards are added to the Expedition 
+display at the start of the game. Each of these rep-
+resents an Expedition stack to which more cards 
+might be added during the game.
+STARTING AN EXPEDITION
+To start an Expedition, you must have built the Bea-
+con. Only then can you use the ‘Deploy Scouts’ action.
+You can only have 1 active Expedition (an Expedition 
+stack with a scout on it) until the Beacon is upgraded. 
+Once the Beacon is upgraded, you can have up to 2 
+active Expeditions.
+EXPEDITION MOVEMENT
+Scouts on Expedition stacks move during the Weath-
+er Phase according to the Weather card drawn. The 
+number in the expedition progress section of the 
+Weather card shows how many spaces to move each 
+Scout. Each Scout moves on the circular spaces on 
+the Expedition cards of its Expedition stack along the 
+dotted lines towards the top space of the topmost Ex-
+pedition card.
+When a Scout reaches the last (topmost) space of its 
+Expedition stack, players must choose whether they 
+want to Skip the location or Explore it.
+Note: You may only choose to Skip a location on an A or B 
+Expedition card, not on a C or Scenario Expedition card.
+Place a (Near/Far) Map tile: Place a Near or Far 
+Map tile as if performing a Remove Snow action, plac-
+ing Trees & Resources and gaining Food as normal.
+Remove an Event card from the game: Find the 
+Event card in the Event display using the specified 
+card ID (#M or #D, followed by 3 digits), and remove 
+that card from the game.
+Reuse a Building: Choose any Building with a Citi-
+zen Meeple on it and perform that Building’s normal 
+action, modified by any Laws or Technologies that 
+may apply (that action counts as heated).
+Reuse a Worker: Choose a Worker Meeple that has 
+been used to perform an action this Round. Perform an 
+action on the Building, space on the Supply board, or 
+space on a Map tile that the Worker Meeple is on (that 
+action counts as heated).
+Note: You may not Reuse a Worker on Scenario cards or 
+Event cards.
+DUSK PHASE: Follow the given instructions at the 
+start of each Dusk Phase.
+ACTION PHASE: If placed in the Event display, you 
+may use the action on the card as a Special Action 
+during the Action Phase (see ‘Special Actions’ on 
+page 27).
+OTHER PHASES: Follow the given instructions at 
+the relevant time in the stated Phase.
+WEATHER
+1
+1
+0
+1
+1
+1
+W03
+3
+B
+Ruins
+B
+Ruins
+Expected Rewards
+The upper right of each Expedition card depicts 
+an icon indicating the expected rewards avail-
+able on that card. Note that these are only rough 
+guidelines, the actual rewards may include other 
+things... 
+For example: This Weather card indicates that Scouts 
+advance 3 spaces.
+Food 
+or Resources: 
+Wood, Coal, 
+Steam Cores
+Citizens 
+(some of whom 
+might be sick 
+or hungry)
+Food, 
+Resources, 
+and/or
+Citizens
+
+
+=== PAGE 36 ===
+36
+SKIP THE LOCATION
+If you choose to skip a location on an A or B Expedition 
+card, draw an Expedition card from the next deck (if 
+you skip an A location, draw from the B deck; if you 
+skip a B location, draw from the C deck). Place the card 
+so that it covers most of the previous Expedition card, 
+leaving only the first space visible. Then, place the 
+Scout on the first (bottommost) space of the new card.
+If you had any remaining movement left over, use it to 
+move on the new card.
+For example: The Weather card indicates that your 
+Scout moves 2 spaces. The first space moves you to the 
+last space on an A Expedition card. You choose to skip 
+the location, so you take a card from the next deck (the 
+B deck) and overlay it onto the A card, placing your 
+Scout onto the first space of the new card. You then use 
+the leftover movement to advance on the new card.
+EXPLORE THE LOCATION
+If you choose to explore the location, place the Scout 
+beside the topmost Expedition card in the Expedition 
+stack and flip the card over to its black side. Do not flip 
+over any other cards in the stack. 
+Then resolve the text on the black side of the card. If 
+the card offers a choice, choose one option to resolve. 
+Each option is either to Continue or Return. While all 
+Expedition cards have one or more Return options, 
+only some have a Continue option.
+CONTINUE THE EXPEDITION
+If you choose the Continue option, follow 
+these steps:
+1.	
+Leave the Expedition card black side up.
+2.	
+Take a new Expedition card from the corre-
+sponding deck (B or C - as depicted under the 
+arrow on the card). Extend the Expedition 
+stack by placing the new card on top of the 
+previous card in such a way that the bottom 
+part of the previous card is still visible (the 
+part showing the Continue option). Then, 
+place the set-aside Scout on the first space 
+on the new Expedition card. Any remaining 
+movement this Scout had left is lost.
+Note: You do not gain any of the Food, Resources, or Citi-
+zens shown in the Continue option yet; you will gain them 
+when the Scout returns.
+For example: You choose to Con-
+tinue the Expedition and draw 
+a new card from the B deck, plac-
+ing it on top of the previous card. 
+You then place the Scout at the 
+start of the new card.
+When these Scouts return, you will 
+resolve the effect shown on the 
+bottom of the original card (and 
+any other cards on which you also 
+chose to Continue) as well as the 
+current card.
+RETURN TO THE CITY
+If you choose a Return option, follow these 
+steps:
+1.	
+Return the set-aside Scout to the supply. 
+2.	
+Resolve the effect of your chosen Return op-
+tion on the current card.
+3.	
+Resolve the effect of the Continue option on 
+any other cards in this Expedition stack that 
+are black side up.
+If “New A” is shown under the arrow for the chosen 
+Return option, remove the Expedition stack from the 
+game and start a  new Expedition stack by placing 
+a new card from the A Expedition deck, white-side up.
+If “B” or “C” is shown below the arrow for the chosen 
+Return option, follow these steps:
+1.	
+Take an Expedition card from the deck that 
+corresponds to the letter depicted and set it 
+aside, white side up.
+2.	
+Flip all cards in this Expedition stack back to 
+their white side and stack them so the first 
+space of each card is visible.
+3.	
+Place the set-aside card so that it covers most 
+of the previous Expedition card, leaving the 
+first space visible.
+For example: Your Scouts have reached the last space 
+on their Expedition card and flip it over to reveal ‘Not 
+a Fairy Tale’. If you choose to return to the city, you 
+return the Scout to your supply and gain 3 Wood and 
+2 Food. Then, flip the card over and place a new B card 
+on top of it, leaving the bottom space of the previous 
+card still visible.
+A
+Ruins
+A
+Campsite
+B
+Ruins
+EXPEDITION
+NOT A FAIRY TALE
+Ruins
+The landscape must have been beautiful here 
+before everything froze. Even now, the rows of 
+thick pine trees still show a speck of green.
+There was a hut deeper in the woods, a narrow 
+path leading up to it. A wolf’s pelt welcomed us 
+on the doorstep. A red cape hung above the cold 
+fi replace inside and a dead man lay on a bed 
+with his woodcutter’s axe held tight.
+Gain 3 Wood and 2 Food.
+Let us forget.
+Gain 3 Wood and 2 Food.
+Look for a set of small sized tracks.
+B
+X05
+B
+B
+Ruins
+A
+Ruins
+A
+Campsite
+B
+Ruins
+EXPEDITION
+NOT A FAIRY TALE
+Ruins
+The landscape must have been beautiful here 
+before everything froze. Even now, the rows of 
+thick pine trees still show a speck of green.
+There was a hut deeper in the woods, a narrow 
+path leading up to it. A wolf’s pelt welcomed us 
+on the doorstep. A red cape hung above the cold 
+fi replace inside and a dead man lay on a bed 
+with his woodcutter’s axe held tight.
+Gain 3 Wood and 2 Food.
+Let us forget.
+Gain 3 Wood and 2 Food.
+Look for a set of small sized tracks.
+B
+X05
+B
+
+
+=== PAGE 37 ===
+37
+The Future Law display consists of 2 stacks of cards: 
+Law cards and Law Consequence cards. You may look 
+through the Law cards at any time, but not the Law 
+Consequence cards.
+The action of the Platform Building (pre-printed on 
+the Generator tile) allows you to introduce a new Law. 
+When you do this, choose a Law card from the Future 
+Law display and place it in the Law display along the left 
+edge of the Map. Take the 2 Law Consequence cards 
+with the same identification code as the Law card, 
+choose one at random and shuffle it into the Dusk deck 
+without looking at it. Remove the other card from the 
+game without looking at it.
+When you introduce a new Law, immediately increase 
+or decrease your Hope and Discontent as shown on the 
+Law card.
+Law cards
+LAW
+L05
+We could house more people
+if we cut the space allowance a little, 
+although nobody is going to be
+happy about it.
+NIGHT PHASE: 
+Each of your heated Shelters provides
+1 additional sleeping slot.
+CROWDED QUARTERS
+{
+{
+L06
+DUSK
+   L05 A
+Place this card on the Crowded Quarters Law card.
+Ignore the Crowded Quarters Law card
+while this card is covering it.
+NIGHT PHASE:
+At the end of the Night Phase:
+If there are any Citizen Meeples
+without a warm place to sleep:
++1 Discontent.
+Place this card on the Dusk discard pile.
+OVERCROWDED
+Everyone wants a speck of privacy and 
+comfort. The crowded quarters have robbed 
+our people of this. If they have to endure both 
+the cold and the lack of this essential comfort, 
+they will protest.
+LOVE THY
+NEIGHBOUR
+DUSK
+   L05 B
+The overcrowded quarters are the cause
+of violence and abuse among the occupants.
+There are accusations of theft, adultery,
+and many others. After all, our decision has 
+forced people to live with strangers
+in a confi ned space.
++1 Anger.
+Gain 1 sick Citizen.
+Then, for each active Anger,
+gain another 2 sick Citizens.
+There aren’t enough hands to do
+all the work. We’ll allow children 
+to be employed in certain workplaces.
+CHILD LABOUR
+{
+{
+A
+D
+F
+G
+B
+E
+H
+C
+LAW
+L02
+L01
+There aren’t enough hands to do
+all the work. We’ll allow children 
+to be employed in certain workplaces.
+ACTION PHASE:
+You may use Child Meeples to:
+• Perform the Gather Resources action.
+• Use Gathering Post Buildings
+(up to 3 Resources).
+CHILD LABOUR
+{
+{
+For example: The ‘Crowded Quarters’ Law card 
+has the Law Consequence cards ‘Overcrowded’ 
+and ‘Love Thy Neighbour’.
+For example: When you introduce the Child Labour 
+law, decrease Hope and increase Discontent.
+The 8 Starting Laws come in 4 pairs: L01 & L02, L03 & 
+L04, L05 & L06, L07 & L08. Only 1 Law of each pair can 
+be introduced. When one of these Starting Laws is in-
+troduced, remove the other paired Law from the game.
+You can only have a maximum of 4 Laws. Once 
+introduced, a Law cannot be discarded.
+ANATOMY OF A LAW CARD
+A -– Card type
+B -– Edition (base game)
+C -– Remove paired Law ID 
+After introducing this Law, remove the paired 
+Law with this ID from the game.
+D -– Instant effect (if any) 
+Increase and/or Decrease Hope and/or Discon-
+tent.
+E -– Name
+F -– Flavour text
+G -– Effect (permanent effect)
+H -– Card ID + Law Consequence ID 
+Which Law Consequence should added to the 
+Dusk deck at random.
+
+
+=== PAGE 38 ===
+38
+In each game, you have 4 Technology cards that are 
+face up. Each of them has an inactive Development to-
+ken on it when the game begins.
+When you build your first Workshop, choose one 
+of your Technology cards and place its Development 
+token on the Round track a number of spaces ahead 
+of the Round marker as depicted on the Technology 
+card. If this would mean placing the Development to-
+ken beyond space 15 on the Round track, place it on 
+space 15 instead.
+Note: Building additional Workshops does not allow you to 
+place additional Development tokens on the Round track; 
+only one Technology may be developed at a time.
+When the Round marker reaches the Development 
+token, the Technology is developed. The token is re-
+turned to the card, active-side up. You may now use 
+that Technology for the rest of the game.
+Choose another Technology with an inactive token on 
+it (if any) and place it on the Round track using the 
+same rules described above.
+Note: If all the Workshops on the map get dismantled or 
+destroyed, return the Development token (inactive) to the 
+Technology card that currently does not have a token. 
+All progress made is lost.
+Technologies already developed are unaffected.
+If you build another Workshop you will be able to start 
+developing a Technology again, as described above.
+Technology cards
+GENERATOR PHASE:
+Before checking for Generator breakdown,
+if there are 2 or fewer Stress cubes on the overﬂ ow
+space, remove those cubes without any eﬀ ect.
+ACTION PHASE:
+Whenever you use the Generator Building,
+remove an additional Stress cube
+from the Stress track.
+GENERATOR SAFETY 
+SYSTEM
+4
+T06
+TECHNOLOGY
+GENERATOR PHASE:
+Before checking for Generator breakdown,
+if there are 2 or fewer Stress cubes on the overﬂ ow
+space, remove those cubes without any eﬀ ect.
+ACTION PHASE:
+Whenever you use the Generator Building,
+remove an additional Stress cube
+from the Stress track.
+GENERATOR SAFETY 
+SYSTEM
+4
+T06
+TECHNOLOGY
+As a Gather Resources action, you may place
+a Worker or Automaton on an unoccupied 
+space that has 1 or more Trees.
+Remove 1 Tree from that space
+and gain 2 Wood.
+STEAMPOWERED 
+CHAINSAW
+3
+T04
+TECHNOLOGY
+As a Gather Resources action, you may place
+a Worker or Automaton on an unoccupied 
+space that has 1 or more Trees.
+Remove 1 Tree from that space
+and gain 2 Wood.
+STEAMPOWERED 
+CHAINSAW
+3
+T04
+TECHNOLOGY
+1
+4
+3
+2
+4
+GENERATOR PHASE:
+Before checking for Generator breakdown,
+if there are 2 or fewer Stress cubes on the overﬂ ow
+space, remove those cubes without any eﬀ ect.
+ACTION PHASE:
+Whenever you use the Generator Building,
+remove an additional Stress cube
+from the Stress track.
+GENERATOR SAFETY 
+SYSTEM
+4
+T06
+TECHNOLOGY
+C
+A
+B
+G
+D
+E
+F
+ANATOMY OF 
+A TECHNOLOGY CARD
+A -– Card type
+B -– Edition (base game)
+C -– Card ID
+D -– Card name
+E -– Effect (when developed)
+F -– Development cost (in Rounds) 
+The number of spaces for the De-
+velopment token to be placed away 
+from the Round marker.
+G -– Development token slot 
+Placed inactive (black side) during 
+Setup. The Workshop building is 
+required to develop Technologies.
+
+
+=== PAGE 39 ===
+39
+Automatons can be created in the Factory or gained 
+through other means.
+When you gain an Automaton, take an Automaton 
+Meeple from the bank and put it in the supply.
+During the Action Phase, an Automaton may perform 
+an action as if they were a Worker, with the following 
+exceptions:
+•	Automatons cannot go on Expeditions.
+•	Automatons cannot be used for Event cards that 
+specifically require a Worker/Engineer.
+Each time you use an Automaton, you must 
+spend 1 Coal. Automatons do not count as Citizens, 
+do not get sick, and do not need Food or Shelter.
+Note: There is a limit of 6 Automatons in a game. If there 
+are no Automatons in the bank, you cannot gain a new one. 
+Also, if an Event card instructs you to place an Automaton 
+and there are none left in the bank, you must take one from 
+the supply instead.
+You may gain a Child Worker or Child Engineer Meeple during the course of the game, depending on certain Event 
+cards. These Meeples count as Child Meeples in all respects except that they may be used to perform an action as 
+if they were a Worker/Engineer Meeple (as appropriate).
+Buildings come in two sizes: Small Buildings (S) take one space on a Map tile and can only be used once per Round 
+(one Meeple placed on them), Large Buildings (L) take both spaces on one Map tile and can be used twice per 
+Round (two Meeples placed on them).
+Buildings come in 5 different colours which indicate their Insulation level: [W], [B], [Y], [O], [R]
+White Buildings 
+have either an 
+immediate or pas-
+sive effect. Their 
+Insulation level is 
+irrelevant as no 
+Building action is 
+available on these 
+Buildings.
+Yellow Build-
+ings have poor 
+Insulation levels. 
+They are heated if 
+the Heat marker 
+is beyond the Yel-
+low Building icon 
+on the third Heat 
+Range indicator 
+(or the Building is 
+in a heated zone).
+Orange Buildings 
+have average 
+Insulation levels. 
+They are heated if 
+the Heat marker 
+is beyond the 
+Orange Building 
+icon on the sec-
+ond Heat Range 
+indicator (or the 
+Building is in 
+a heated zone).
+Red Buildings 
+have very good 
+Insulation levels. 
+They are heated if 
+the Heat marker 
+is beyond the 
+Red Building icon 
+on the first Heat 
+Range indicator 
+(or the Building is 
+in a heated zone).
+Blue Buildings 
+are only heated if 
+they are in a heat-
+ed zone.
+Automatons
+Child Worker and Child Engineer
+Appendix - Buildings 
+
+
+=== PAGE 40 ===
+40
+ADJACENT SPACES
+Some of the Buildings have effects that refer to adja-
+cent spaces.
+A space on a Map tile is adjacent to:
+•	Another space on the same tile.
+•	All spaces on Map tiles that share a straight edge 
+with this space’s Map tile.
+•	Spaces on the Generator tile (see box on the right).
+For example: This Gathering Post 1  is adjacent to all 
+the spaces indicated here 
+ .
+ADJACENCY WITH THE RIM BOARD
+A  tile is adjacent to any Resources or a  Deposit on 
+a Rim board if it shares a straight edge with the edge 
+of the Rim board closest to the Resources/Deposit.
+A space on the Generator tile is adjacent to all spaces 
+on Map tiles that share a straight edge with the 3 edg-
+es of the Generator tile closest to the space.
+For example: This Gathering Post on the Generator tile 
+2  is adjacent to the indicated spaces 
+ . 
+For example, tile 3  is adjacent 
+to the Coal Deposit.
+Generator tile Adjacency
+If a Map tile shares a straight edge with the Gen-
+erator tile, there may be 0-2 adjacent spaces on 
+the Generator tile.
+For example: 
+Gathering Post A  is adjacent to two spaces on the 
+Generator tile.
+Gathering Post B  is adjacent to one space on the 
+Generator tile.
+Gathering Post C  is adjacent to one space on the 
+Generator tile.
+Gathering Post D  is adjacent to no spaces on the 
+Generator tile.
+A
+B
+C
+D
+1
+2
+3
+Remember, 
+this part 
+of the 
+Generator 
+tile is not 
+considered 
+a space.
+
+
+=== PAGE 41 ===
+41
+UPGRADING A BUILDING
+A Building can be upgraded by using the Workshop 
+and paying the Building’s Upgrade cost (see ‘Work-
+shop’ on page 41). Buildings with a diamond 
+ on 
+both sides of the name on their Building tile cannot 
+be upgraded.
+SMALL BUILDINGS THAT COST
+1 WOOD TO BUILD:
+[R] Workshop (S) [Engineer only]
+Note: When you build your first Workshop 
+you start developing a new Technology 
+(see ‘Technology Cards’ on page 38).
+Action: Choose two of the following effects (you 
+may choose the same effect twice):
+•	
+Upgrade one Building by paying its upgrade 
+cost (1 Wood, or 1/2 Steam Cores - as depicted 
+below the Build cost on the Buildings board). 
+To upgrade a Building, flip it to the other side. 
+An upgraded Building cannot be upgraded 
+further. Buildings with a diamond 
+ on both 
+sides of the name on their Building tile cannot 
+be upgraded.
+Note: You cannot upgrade a Building with a Meeple on it, 
+although you may upgrade a Building and then use that 
+upgraded Building in the same Round.
+•	
+Move the Development token one space 
+backward on the Round track. If it reaches 
+the Round marker, you immediately develop 
+that Technology, following the same rules 
+as if the Round marker reached it during the 
+Dawn Phase (see page 19).
+Note: If a Technology was developed as a result of using the 
+first of your two Workshop effect choices, you may choose to 
+use your second effect to move the newly placed Develop-
+ment token if you wish.
+Cannot be upgraded.
+For example:
+Tile 4  is adjacent 
+to both Resources.
+4
+STARTING BUILDINGS
+BASIC BUILDINGS
+[O] Cookhouse (S)
+Action: Spend 3 Food to increase 
+Hope or decrease Discontent.
+Cannot be upgraded.
+[Y] Platform (S) [Engineer only]
+Action: Introduce a new Law to the 
+game (see page 37).
+Pre-printed on the Generator tile. 
+Cannot be upgraded.
+[R] Generator (S) [Engineer only]
+Action: Remove up to 5 Stress 
+cubes from the Stress track or spend 
+1 Steam Core to remove all Stress 
+cubes from the Stress track.
+Pre-printed on the Generator tile. Can only be up-
+graded as described to the right.
+The first time you spend a Steam Core when per-
+forming the Generator Building action, place the 
+Generator Upgrade component in the top of the Gen-
+erator. This will make it more likely for the Generator 
+to retain Coal cubes.
+
+
+=== PAGE 42 ===
+42
+[O] Charcoal Kiln (S)
+Action: Spend 1 Wood to gain 
+4 Coal.
+[R] UPGRADED:
+Action: Spend 1 Wood to gain 
+5 Coal.
+[Y] Hunter’s Hut (S)
+Passive: One Hunting symbol 
+(provides 1 Food in each Weather 
+Phase).
+Action: Gain 4 Food.
+[R] UPGRADED:
+Passive: Two Hunting symbols 
+(provides 2 Food in each Weather 
+Phase). 
+Action: Gain 5 Food.
+[Y] Gathering Post (S)
+Action: Take 1 Resource from each 
+adjacent space and place them in the 
+supply.
+[R] UPGRADED:
+Increased Insulation level only.
+SMALL BUILDINGS THAT COST
+2 WOOD TO BUILD:
+[R] Factory (S) [Engineer only]
+Action: Spend 1 Steam Core to gain 
+1 Automaton.
+Cannot be upgraded.
+[O] Sawmill (S)
+Action: Remove 1 Tree from the 
+same tile as the Sawmill to gain 
+3 Wood.
+[R] UPGRADED:
+Action: Remove 1 Tree from the 
+Sawmill tile or an adjacent space 
+to gain 3 Wood.
+[Y] Medical Post (S)
+[Engineer only] 
+Action: Cure 3.
+[R] UPGRADED:
+Action: Cure 4 or Treat 1.
+LARGE BUILDINGS THAT COST
+3 WOOD TO BUILD:
+[W] Beacon (L)
+Passive: Up to 1 Expedition 
+may be active.
+[W] UPGRADED:
+Passive: Up to 2 Expeditions 
+may be active.
+[O] Coal Thumper (L)
+Action: Place up to 3 Coal from the 
+bank on each of 3 different adjacent 
+spaces (placing up to 9 Coal in total). 
+Spaces chosen must either already 
+have Coal on them, or have no 
+Resources, Trees, or Buildings. Each 
+space has a limit of 5 Coal.
+[R] UPGRADED:
+Action: As above, but increase the number of differ-
+ent adjacent spaces that Coal is placed on from 3 to 4 
+(placing up to 12 Coal in total).
+LARGE BUILDINGS THAT COST
+4 WOOD AND 1 STEAM CORE TO BUILD:
+[O] Infirmary (L) [Engineer only]
+Action: Cure 4 or Treat 2.
+[R] UPGRADED:
+Action: Cure 5 or Treat 3.
+[O] Hothouse (L)
+Action: Gain 7 Food.
+[R] UPGRADED:
+Action: Gain 9 Food.
+ 
+LARGE BUILDINGS THAT COST
+5 WOOD AND 1 STEAM CORE
+TO BUILD:
+[Y] Coal Mine (L)
+Can only be built on a tile adjacent to 
+a Coal Deposit on the Rim board.
+Action: Gain 4 Coal. 
+[R] UPGRADED:
+Action: Gain 5 Coal.
+
+
+=== PAGE 43 ===
+43
+[Y] Wall Drill (L)
+Can only be built on a tile adjacent to 
+a Wood Deposit on the Rim board.
+Action: Gain 3 Wood. 
+[R] UPGRADED:
+Increased Insulation level only.
+SHELTERS:
+[R] House (S)
+Costs 4 Wood to build. 
+Provides Shelter for 2 Citizen Meeples.
+[O] Bunkhouse (S)
+Costs 3 Wood to build. 
+Provides Shelter for 2 Citizen Meeples.
+[Y] Tent (S)
+Costs 2 Wood to build. 
+Provides Shelter for 2 Citizen Meeples.
+[B] Ruins (S)
+Does not provide Shelter in the 
+Night Phase. Cannot be built.
+[O] Child Shelter (S)
+Provides Shelter for 4 Children.
+Cannot be upgraded.
+[O] Care House (S)
+Action: Cure 2, or Cure 5 if you 
+exhaust an active Care token.
+Cannot be upgraded.
+[O] Fighting Arena (S)
+Action: Decrease Discontent.
+Cannot be upgraded.
+	 	
+	
+	
+[O] Public House (S)
+Action: Increase Hope.
+Cannot be upgraded.
+FAITH LAW BUILDINGS:
+[W] Field Kitchen (S)
+Cannot be built on the Generator tile.
+Passive: Any action or Building on 
+the same tile as the Field Kitchen is 
+considered heated. Also, any Building that provides 
+Shelter on the same tile as the Field Kitchen is con-
+sidered heated during the Night Phase.
+Cannot be upgraded.
+[Y] Cemetery (S)
+Action: Move the Corpse marker 
+backwards 1 to 2 spaces on the Corpse 
+track. If you do, increase Hope. 
+Cannot be upgraded.
+[Y] Temple (S) [Engineer only]
+Action: Activate all Hope tokens 
+of one type.
+Cannot be upgraded.
+[R] Faith Keepers (L)
+Action: Draw 3 Dusk Cards. You may 
+choose one to place on the Dusk dis-
+card pile without carrying out its effect. 
+Place the other 2 Dusk cards back in 
+the Dusk deck and shuffle the deck.
+Note: Cards with the red Dusk discard 
+pile symbol 
+ cannot be chosen 
+(Social Dispute cards).
+Cannot be upgraded.
+ORDER LAW BUILDINGS:
+[W] Snow Pit (S)
+When built, move the Corpse marker 
+backwards 1 to 3 spaces on the 
+Corpse track.
+Cannot be upgraded.
+BUILDINGS UNLOCKED BY LAWS
+
+
+=== PAGE 44 ===
+44
+[O] Propaganda Centre (S)  
+[Engineer only]
+Action: Choose any Building with 
+a Citizen Meeple on it and perform 
+that Building’s action (that action 
+counts as heated).
+	
+Cannot be upgraded.
+[Y] Agitator (S)
+Action: Exhaust all active Discontent 
+tokens of one type.
+Cannot be upgraded.
+[R] Prison (L)
+Action: Reduce Hunger by 4. A Mee-
+ple who performs this action stays 
+in Prison during the Night Phase 
+(using this Building as a Shelter if it’s 
+heated, and becoming sick if it isn’t).
+Cannot be upgraded.
+The effects of the Seedling Arks, Guard Post, Ventilation Plant, Evacuation Centre, Steel Factory, Steam Core 
+Factory, Library, Electrostatic Precipitators, Repair Station, Steam Hubs, and Outpost Depots will be explained 
+by certain Scenario cards or in the Scenario book.
+POPULATION
+The maximum number of Citizens of each type 
+(Worker/Engineer/Child) is 50. If you would exceed 
+this limit, add Citizens of a different type instead.
+For example: You have 45 Workers and resolve an ef-
+fect that gains you 7 Workers. You add 5 Workers, put-
+ting you at the limit. You may then add 2 Engineers, 2 
+Children, or 1 of each.
+AUTOMATONS
+There is a limit of 6 Automatons in a game. If there 
+are no Automatons in the bank, you cannot gain a 
+new one. If an Event card instructs you to place an 
+Automaton and there are none left in the bank, you 
+must take one from the supply instead.
+FOOD
+The maximum amount of Food you can have is 50. 
+Any Food gained in excess of this is lost.
+HUNGER
+The maximum amount of Hunger you can have is 50. 
+Any Hunger gained in excess of this is ignored.
+RESOURCES
+Wood, Coal, and Steam Cores are unlimited. If you run 
+out of any of them, please use a suitable substitute.
+Steel is limited by the number of components in the 
+game. Any Steel gained after reaching the limit is ig-
+nored.
+TREES
+Trees are limited by the number of components in 
+the game. If you need to add a Tree to the board and 
+there are none left, do not add any more Trees onto 
+the board.
+SPACE (ON A MAP TILE):
+Every Map tile consists of 2 spaces. Each space may 
+hold up to 5 Resources of any one type. No more than 
+1 Building may be placed on a single space.
+SCENARIO SPECIFIC BUILDINGS
+Limits
+© 2022 11 bit studios S.A. Frostpunk™, 11 bit studios™ and respective logos 
+are trademarks of 11 bit studios S.A. All rights reserved.
+© 2022 Glass Cannon Unplugged Sp. z o. o. All rights reserved.

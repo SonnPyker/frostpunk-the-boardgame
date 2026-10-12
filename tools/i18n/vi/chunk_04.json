@@ -1,0 +1,934 @@
+[
+ {
+  "key": "Dismantle which Building?",
+  "vi": "Tháo dỡ công trình nào?"
+ },
+ {
+  "key": "Dissidents",
+  "vi": "Người bất đồng"
+ },
+ {
+  "key": "Dissidents (M0{0})",
+  "vi": "Người bất đồng (M0{0})"
+ },
+ {
+  "key": "Dissidents was removed from the game",
+  "vi": "Người bất đồng đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Distribute them among our citizens",
+  "vi": "Phân bổ họ cho các công dân của chúng ta"
+ },
+ {
+  "key": "Distrust",
+  "vi": "Sự nghi kỵ"
+ },
+ {
+  "key": "Distrust (SD0{0})",
+  "vi": "Sự nghi kỵ (SD0{0})"
+ },
+ {
+  "key": "Distrust resolved and removed from the game",
+  "vi": "Sự nghi kỵ đã được giải quyết và loại khỏi trò chơi"
+ },
+ {
+  "key": "Distrust: you may exhaust {0} Hope to gain the matching effect",
+  "vi": "Sự nghi kỵ: bạn có thể tiêu hao {0} Hope để nhận hiệu ứng tương ứng"
+ },
+ {
+  "key": "DN1 top",
+  "vi": "DN1 phía trên"
+ },
+ {
+  "key": "DN2 top",
+  "vi": "DN2 phía trên"
+ },
+ {
+  "key": "DN3 top",
+  "vi": "DN3 phía trên"
+ },
+ {
+  "key": "DN4 top",
+  "vi": "DN4 phía trên"
+ },
+ {
+  "key": "Do not build now",
+  "vi": "Không xây bây giờ"
+ },
+ {
+  "key": "Do not fuel",
+  "vi": "Không nạp than"
+ },
+ {
+  "key": "Do not swap",
+  "vi": "Không hoán đổi"
+ },
+ {
+  "key": "Do not use",
+  "vi": "Không sử dụng"
+ },
+ {
+  "key": "Do nothing",
+  "vi": "Không làm gì"
+ },
+ {
+  "key": "Don't be afraid. We won't hurt you.",
+  "vi": "Đừng sợ. Chúng tôi sẽ không làm hại bạn."
+ },
+ {
+  "key": "Donations for the Poorest",
+  "vi": "Quyên góp cho người nghèo nhất"
+ },
+ {
+  "key": "Doomsayer",
+  "vi": "Kẻ rao ngày tận thế"
+ },
+ {
+  "key": "Doomsayer (M0{0})",
+  "vi": "Kẻ rao ngày tận thế (M0{0})"
+ },
+ {
+  "key": "Doomsayer was removed from the game",
+  "vi": "Kẻ rao ngày tận thế đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Double rations",
+  "vi": "Khẩu phần gấp đôi"
+ },
+ {
+  "key": "Double Rations for the Ill",
+  "vi": "Khẩu phần gấp đôi cho người bệnh"
+ },
+ {
+  "key": "Double Rations for the Ill was introduced",
+  "vi": "Khẩu phần gấp đôi cho người bệnh đã được ban hành"
+ },
+ {
+  "key": "Doubt",
+  "vi": "Sự hoài nghi"
+ },
+ {
+  "key": "Doubt (SD0{0})",
+  "vi": "Sự hoài nghi (SD0{0})"
+ },
+ {
+  "key": "Doubt resolved and removed from the game",
+  "vi": "Sự hoài nghi đã được giải quyết và loại khỏi trò chơi"
+ },
+ {
+  "key": "Down to Earth",
+  "vi": "Chân đạp đất"
+ },
+ {
+  "key": "Draw {0} / {1} / {2} / {3} Citizen cards if you have at least {4} / {5} / {6} / {7} Hope tokens.",
+  "vi": "Rút {0} / {1} / {2} / {3} thẻ Công dân nếu bạn có ít nhất {4} / {5} / {6} / {7} dấu Hope."
+ },
+ {
+  "key": "Draw {0} Dusk cards, may choose {1} (not Social Dispute) to discard without effect, shuffle the other {2} back.",
+  "vi": "Rút {0} thẻ Dusk, có thể chọn {1} thẻ (không phải Social Dispute) để bỏ mà không có hiệu ứng, trả {2} thẻ còn lại về bộ bài rồi xáo."
+ },
+ {
+  "key": "Draw {0} Far tiles: choose one to place. The other two go on the top or bottom of the Far tiles stack.",
+  "vi": "Rút {0} mảnh xa: chọn một mảnh để đặt. Hai mảnh còn lại đặt lên trên cùng hoặc dưới cùng của chồng mảnh xa."
+ },
+ {
+  "key": "Draw {0} Hope token and activate it",
+  "vi": "Rút {0} dấu Hope và kích hoạt nó"
+ },
+ {
+  "key": "Draw a random Discontent token",
+  "vi": "Rút ngẫu nhiên một dấu Discontent"
+ },
+ {
+  "key": "Draw a random Hope token",
+  "vi": "Rút ngẫu nhiên một dấu Hope"
+ },
+ {
+  "key": "Dreadnought",
+  "vi": "Dreadnought"
+ },
+ {
+  "key": "Dreadnought tiles act as Small Buildings with Blue insulation: a Meeple on one is a Use a Building action gaining {0} Steel. Steel can replace Wood when building.",
+  "vi": "Mảnh Dreadnought hoạt động như Công trình nhỏ có insulation Xanh dương: một Meeple trên đó là hành động Dùng một Công trình, nhận {0} Thép. Thép có thể thay Gỗ khi xây."
+ },
+ {
+  "key": "Dream on.",
+  "vi": "Cứ mơ đi."
+ },
+ {
+  "key": "Dusk phase",
+  "vi": "Giai đoạn Hoàng hôn"
+ },
+ {
+  "key": "Each heated Medical Post and Infirmary provides {0} sleeping slot for an Engineer Meeple.",
+  "vi": "Mỗi Trạm y tế và Bệnh xá heated cung cấp {0} chỗ ngủ cho một Meeple Kỹ sư."
+ },
+ {
+  "key": "Elevated Above Others",
+  "vi": "Đứng trên người khác"
+ },
+ {
+  "key": "Embrace your humanity.",
+  "vi": "Hãy giữ lấy nhân tính của bạn."
+ },
+ {
+  "key": "Emergency Shift",
+  "vi": "Ca khẩn cấp"
+ },
+ {
+  "key": "End Construction",
+  "vi": "Kết thúc xây dựng"
+ },
+ {
+  "key": "Endless Vigil",
+  "vi": "Canh gác bất tận"
+ },
+ {
+  "key": "Engineer",
+  "vi": "Kỹ sư"
+ },
+ {
+  "key": "Engineer (sick {0}, skull)",
+  "vi": "Kỹ sư (bệnh {0}, Đầu lâu)"
+ },
+ {
+  "key": "Engineer (sick {0})",
+  "vi": "Kỹ sư (bệnh {0})"
+ },
+ {
+  "key": "Engineer (Skull)",
+  "vi": "Kỹ sư (Đầu lâu)"
+ },
+ {
+  "key": "Engineer (Syringe)",
+  "vi": "Kỹ sư (Ống tiêm)"
+ },
+ {
+  "key": "Engineer sickness band: {0} spent, {1} flip(s)",
+  "vi": "Dải bệnh của Kỹ sư: {0} đã dùng, {1} lần lật"
+ },
+ {
+  "key": "Engineer sickness marker flipped back – a citizen dies",
+  "vi": "Dấu bệnh của Kỹ sư được lật lại – một công dân chết"
+ },
+ {
+  "key": "Engineer sickness marker flipped to the Skull side",
+  "vi": "Dấu bệnh của Kỹ sư được lật sang mặt Đầu lâu"
+ },
+ {
+  "key": "Engineers",
+  "vi": "Kỹ sư"
+ },
+ {
+  "key": "Engineers' Strike",
+  "vi": "Cuộc đình công của Kỹ sư"
+ },
+ {
+  "key": "Epidemic",
+  "vi": "Dịch bệnh"
+ },
+ {
+  "key": "Equip them and let them seek the group on their own",
+  "vi": "Trang bị cho họ và để họ tự đi tìm nhóm của mình"
+ },
+ {
+  "key": "Equipment Upgrade",
+  "vi": "Nâng cấp trang bị"
+ },
+ {
+  "key": "Equipment Upgrade was developed",
+  "vi": "Nâng cấp trang bị đã được phát triển"
+ },
+ {
+  "key": "Ethical Revival",
+  "vi": "Phục hưng đạo đức"
+ },
+ {
+  "key": "Every pair of hands is needed",
+  "vi": "Mọi đôi tay đều cần thiết"
+ },
+ {
+  "key": "Exhaust {0} Hope",
+  "vi": "Tiêu hao {0} Hope"
+ },
+ {
+  "key": "Exhaust all Hope",
+  "vi": "Tiêu hao tất cả Hope"
+ },
+ {
+  "key": "Exhaust all Hope of one type Hope",
+  "vi": "Tiêu hao tất cả Hope thuộc một loại Hope"
+ },
+ {
+  "key": "Exhaust all Hope of which type?",
+  "vi": "Tiêu hao tất cả Hope thuộc loại nào?"
+ },
+ {
+  "key": "Exhaust all Hope, Discontent +{0} (Greed)",
+  "vi": "Tiêu hao tất cả Hope, Discontent +{0} (Greed)"
+ },
+ {
+  "key": "Exhaust anger",
+  "vi": "Tiêu hao anger"
+ },
+ {
+  "key": "Exhaust Anger",
+  "vi": "Tiêu hao Anger"
+ },
+ {
+  "key": "Exhaust Apathy",
+  "vi": "Tiêu hao Apathy"
+ },
+ {
+  "key": "Exhaust apathy all",
+  "vi": "Tiêu hao apathy tất cả"
+ },
+ {
+  "key": "Exhaust care",
+  "vi": "Tiêu hao care"
+ },
+ {
+  "key": "Exhaust Care",
+  "vi": "Tiêu hao Care"
+ },
+ {
+  "key": "Exhaust Care: Build a Building for free",
+  "vi": "Tiêu hao Care: Xây một công trình miễn phí"
+ },
+ {
+  "key": "Exhaust Care: Cure {0} or Treat {1}",
+  "vi": "Tiêu hao Care: Chữa {0} hoặc Điều trị {1}"
+ },
+ {
+  "key": "Exhaust disc {0}",
+  "vi": "Tiêu hao Discontent {0}"
+ },
+ {
+  "key": "Exhaust disc {0}  OR  exhaustHopeActive:{1}:apply",
+  "vi": "Tiêu hao Discontent {0}  HOẶC  exhaustHopeActive:{1}:apply"
+ },
+ {
+  "key": "Exhaust disc all of one type",
+  "vi": "Tiêu hao tất cả Discontent thuộc một loại"
+ },
+ {
+  "key": "Exhaust disc all of one type  OR  Discontent −{0}",
+  "vi": "Tiêu hao tất cả Discontent thuộc một loại  HOẶC  Discontent −{0}"
+ },
+ {
+  "key": "Exhaust disc one of each type",
+  "vi": "Tiêu hao mỗi loại một Discontent"
+ },
+ {
+  "key": "Exhaust Greed",
+  "vi": "Tiêu hao Greed"
+ },
+ {
+  "key": "Exhaust hope {0}",
+  "vi": "Tiêu hao hope {0}"
+ },
+ {
+  "key": "Exhaust justice",
+  "vi": "Tiêu hao justice"
+ },
+ {
+  "key": "Exhaust Justice",
+  "vi": "Tiêu hao Justice"
+ },
+ {
+  "key": "Exhaust Justice: Discard {0} Discontent",
+  "vi": "Tiêu hao Justice: Bỏ {0} Discontent"
+ },
+ {
+  "key": "Exhaust Justice: introduceLawOrExhaustDisc",
+  "vi": "Tiêu hao Justice: introduceLawOrExhaustDisc"
+ },
+ {
+  "key": "Exhaust motivation",
+  "vi": "Tiêu hao motivation"
+ },
+ {
+  "key": "Exhaust Motivation",
+  "vi": "Tiêu hao Motivation"
+ },
+ {
+  "key": "Exhaust motivation all",
+  "vi": "Tiêu hao motivation tất cả"
+ },
+ {
+  "key": "Exhaust Motivation: Build a Building for free",
+  "vi": "Tiêu hao Motivation: Xây một công trình miễn phí"
+ },
+ {
+  "key": "Exhaust Motivation: Reuse a Worker (take another action)",
+  "vi": "Tiêu hao Motivation: Dùng lại một Công nhân (thực hiện thêm một hành động)"
+ },
+ {
+  "key": "Exhaust motivation|justice",
+  "vi": "Tiêu hao motivation|justice"
+ },
+ {
+  "key": "Exhaust which Hope token?",
+  "vi": "Tiêu hao dấu Hope nào?"
+ },
+ {
+  "key": "exhaust:disc:oneOfEachType",
+  "vi": "exhaust:disc:oneOfEachType"
+ },
+ {
+  "key": "Exhausted all justice",
+  "vi": "Đã tiêu hao tất cả justice"
+ },
+ {
+  "key": "Exile him and his family",
+  "vi": "Trục xuất hắn và gia đình hắn"
+ },
+ {
+  "key": "Exodus",
+  "vi": "Đại di cư"
+ },
+ {
+  "key": "Exodus (D0{0})",
+  "vi": "Đại di cư (D0{0})"
+ },
+ {
+  "key": "Exodus was removed from the game",
+  "vi": "Đại di cư đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Expedition continued with X1{0}",
+  "vi": "Expedition tiếp tục với X1{0}"
+ },
+ {
+  "key": "Expedition continued with X2{0}",
+  "vi": "Expedition tiếp tục với X2{0}"
+ },
+ {
+  "key": "Expedition continued with X3{0}",
+  "vi": "Expedition tiếp tục với X3{0}"
+ },
+ {
+  "key": "Expedition limit reached",
+  "vi": "Đã đạt giới hạn Expedition"
+ },
+ {
+  "key": "Expedition stack replaced by X2{0}",
+  "vi": "Chồng Expedition được thay bằng X2{0}"
+ },
+ {
+  "key": "Expedition Winterhome placed",
+  "vi": "Expedition Winterhome đã được đặt"
+ },
+ {
+  "key": "expeditionCard",
+  "vi": "expeditionCard"
+ },
+ {
+  "key": "Explore the location",
+  "vi": "Khám phá địa điểm"
+ },
+ {
+  "key": "Exploring A Letter in the Snow",
+  "vi": "Đang khám phá Lá thư trong tuyết"
+ },
+ {
+  "key": "Exploring A Not-So-Romantic Realism",
+  "vi": "Đang khám phá Hiện thực chẳng mấy lãng mạn"
+ },
+ {
+  "key": "Exploring A Scene of Terrible Beauty",
+  "vi": "Đang khám phá Cảnh tượng của vẻ đẹp khủng khiếp"
+ },
+ {
+  "key": "Exploring Black Gold Rush",
+  "vi": "Đang khám phá Cơn sốt vàng đen"
+ },
+ {
+  "key": "Exploring Cabin in the Woods",
+  "vi": "Đang khám phá Nhà gỗ trong rừng"
+ },
+ {
+  "key": "Exploring Fear of the Dark",
+  "vi": "Đang khám phá Nỗi sợ bóng tối"
+ },
+ {
+  "key": "Exploring Fool's Gold",
+  "vi": "Đang khám phá Vàng giả"
+ },
+ {
+  "key": "Exploring Mushroom Kingdom",
+  "vi": "Đang khám phá Vương quốc Nấm"
+ },
+ {
+  "key": "Exploring Old Man Logan",
+  "vi": "Đang khám phá Old Man Logan"
+ },
+ {
+  "key": "Exploring The Beginning and the End",
+  "vi": "Đang khám phá Khởi đầu và kết thúc"
+ },
+ {
+  "key": "Exploring The Thing We Found",
+  "vi": "Đang khám phá Thứ chúng ta đã tìm thấy"
+ },
+ {
+  "key": "Exploring White Lies",
+  "vi": "Đang khám phá Lời nói dối vô hại"
+ },
+ {
+  "key": "Explosion of the Distillery",
+  "vi": "Vụ nổ xưởng chưng cất"
+ },
+ {
+  "key": "Explosion of the Distillery (D0{0})",
+  "vi": "Vụ nổ xưởng chưng cất (D0{0})"
+ },
+ {
+  "key": "Explosion of the Distillery was removed from the game",
+  "vi": "Vụ nổ xưởng chưng cất đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Expose and investigate",
+  "vi": "Phơi bày và điều tra"
+ },
+ {
+  "key": "Extended Shift",
+  "vi": "Ca kéo dài"
+ },
+ {
+  "key": "F0{0} (both spaces)",
+  "vi": "F0{0} (cả hai ô)"
+ },
+ {
+  "key": "F0{0} bottom",
+  "vi": "F0{0} phía dưới"
+ },
+ {
+  "key": "F0{0} placed at (-{1}, -{2})",
+  "vi": "F0{0} đã đặt tại (-{1}, -{2})"
+ },
+ {
+  "key": "F0{0} placed at (-{1}, {2})",
+  "vi": "F0{0} đã đặt tại (-{1}, {2})"
+ },
+ {
+  "key": "F0{0} placed at ({1}, -{2})",
+  "vi": "F0{0} đã đặt tại ({1}, -{2})"
+ },
+ {
+  "key": "F0{0} placed at ({1}, {2})",
+  "vi": "F0{0} đã đặt tại ({1}, {2})"
+ },
+ {
+  "key": "F0{0} top",
+  "vi": "F0{0} phía trên"
+ },
+ {
+  "key": "F1{0} (both spaces)",
+  "vi": "F1{0} (cả hai ô)"
+ },
+ {
+  "key": "F1{0} bottom",
+  "vi": "F1{0} phía dưới"
+ },
+ {
+  "key": "F1{0} placed at (-{1}, -{2})",
+  "vi": "F1{0} đã đặt tại (-{1}, -{2})"
+ },
+ {
+  "key": "F1{0} placed at (-{1}, {2})",
+  "vi": "F1{0} đã đặt tại (-{1}, {2})"
+ },
+ {
+  "key": "F1{0} placed at ({1}, -{2})",
+  "vi": "F1{0} đã đặt tại ({1}, -{2})"
+ },
+ {
+  "key": "F1{0} placed at ({1}, {2})",
+  "vi": "F1{0} đã đặt tại ({1}, {2})"
+ },
+ {
+  "key": "F1{0} top",
+  "vi": "F1{0} phía trên"
+ },
+ {
+  "key": "F1{0}:bottom",
+  "vi": "F1{0}:phía dưới"
+ },
+ {
+  "key": "Face that man in a public debate",
+  "vi": "Đối mặt với người đàn ông đó trong một cuộc tranh luận công khai"
+ },
+ {
+  "key": "Factory",
+  "vi": "Nhà máy"
+ },
+ {
+  "key": "Factory ({0} Wood)",
+  "vi": "Nhà máy ({0} Gỗ)"
+ },
+ {
+  "key": "Factory (free)",
+  "vi": "Nhà máy (miễn phí)"
+ },
+ {
+  "key": "Factory at Generator tile (UL)",
+  "vi": "Nhà máy tại mảnh Generator (UL)"
+ },
+ {
+  "key": "Factory at Generator tile (UR)",
+  "vi": "Nhà máy tại mảnh Generator (UR)"
+ },
+ {
+  "key": "Factory at N0{0} bottom",
+  "vi": "Nhà máy tại N0{0} phía dưới"
+ },
+ {
+  "key": "Factory at N0{0} top",
+  "vi": "Nhà máy tại N0{0} phía trên"
+ },
+ {
+  "key": "Factory built",
+  "vi": "Đã xây Nhà máy"
+ },
+ {
+  "key": "Factory dismantled",
+  "vi": "Đã tháo dỡ Nhà máy"
+ },
+ {
+  "key": "Faith Keepers",
+  "vi": "Người giữ đức tin"
+ },
+ {
+  "key": "Fanatics",
+  "vi": "Những kẻ cuồng tín"
+ },
+ {
+  "key": "Fanatics (M0{0})",
+  "vi": "Những kẻ cuồng tín (M0{0})"
+ },
+ {
+  "key": "Fanatics was removed from the game",
+  "vi": "Những kẻ cuồng tín đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "far",
+  "vi": "xa"
+ },
+ {
+  "key": "Far space (-{0}, -{1})",
+  "vi": "Ô xa (-{0}, -{1})"
+ },
+ {
+  "key": "Far space (-{0}, {1})",
+  "vi": "Ô xa (-{0}, {1})"
+ },
+ {
+  "key": "Far space ({0}, -{1})",
+  "vi": "Ô xa ({0}, -{1})"
+ },
+ {
+  "key": "Far space ({0}, {1})",
+  "vi": "Ô xa ({0}, {1})"
+ },
+ {
+  "key": "Far tile (adjacent to a connected tile)",
+  "vi": "Mảnh xa (kề một mảnh đã kết nối)"
+ },
+ {
+  "key": "Far tile {0} from the top (face down)",
+  "vi": "Mảnh xa {0} tính từ trên cùng (úp xuống)"
+ },
+ {
+  "key": "Far tile F0{0}",
+  "vi": "Mảnh xa F0{0}"
+ },
+ {
+  "key": "Far tile F1{0}",
+  "vi": "Mảnh xa F1{0}"
+ },
+ {
+  "key": "Favour the engineers",
+  "vi": "Ưu ái các kỹ sư"
+ },
+ {
+  "key": "Favour the workers",
+  "vi": "Ưu ái các công nhân"
+ },
+ {
+  "key": "Fear",
+  "vi": "Nỗi sợ"
+ },
+ {
+  "key": "Fear (SD0{0})",
+  "vi": "Nỗi sợ (SD0{0})"
+ },
+ {
+  "key": "Fear Is the Mind Killer",
+  "vi": "Nỗi sợ là kẻ giết chết tâm trí"
+ },
+ {
+  "key": "Fear Is the Mind Killer (D0{0})",
+  "vi": "Nỗi sợ là kẻ giết chết tâm trí (D0{0})"
+ },
+ {
+  "key": "Fear Is the Mind Killer was removed from the game",
+  "vi": "Nỗi sợ là kẻ giết chết tâm trí đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Fear of a Food Crisis",
+  "vi": "Nỗi sợ khủng hoảng thực phẩm"
+ },
+ {
+  "key": "Fear of a Food Crisis (M0{0})",
+  "vi": "Nỗi sợ khủng hoảng thực phẩm (M0{0})"
+ },
+ {
+  "key": "Fear of a Food Crisis was removed from the game",
+  "vi": "Nỗi sợ khủng hoảng thực phẩm đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Fear of the Dark",
+  "vi": "Nỗi sợ bóng tối"
+ },
+ {
+  "key": "Fear of the Dark (D0{0})",
+  "vi": "Nỗi sợ bóng tối (D0{0})"
+ },
+ {
+  "key": "Fear of the Dark was removed from the game",
+  "vi": "Nỗi sợ bóng tối đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Fear resolved and removed from the game",
+  "vi": "Nỗi sợ đã được giải quyết và loại khỏi trò chơi"
+ },
+ {
+  "key": "Fear you should, adults are all liars!",
+  "vi": "Nên sợ đi, người lớn toàn là kẻ nói dối!"
+ },
+ {
+  "key": "Fed {0} child Citizen(s) with Food",
+  "vi": "Đã cho {0} Công dân trẻ em ăn Thực phẩm"
+ },
+ {
+  "key": "Fed {0} engineer Citizen(s) with Food",
+  "vi": "Đã cho {0} Công dân kỹ sư ăn Thực phẩm"
+ },
+ {
+  "key": "Fed {0} worker Citizen(s) with Food",
+  "vi": "Đã cho {0} Công dân công nhân ăn Thực phẩm"
+ },
+ {
+  "key": "Field Kitchen",
+  "vi": "Bếp dã chiến"
+ },
+ {
+  "key": "Field Kitchen (free)",
+  "vi": "Bếp dã chiến (miễn phí)"
+ },
+ {
+  "key": "Field Kitchen built",
+  "vi": "Đã xây Bếp dã chiến"
+ },
+ {
+  "key": "Field Kitchen destroyed",
+  "vi": "Bếp dã chiến đã bị phá hủy"
+ },
+ {
+  "key": "Fields: heat = [cold marker, yellow indicator, orange indicator, red indicator] spaces to advance (not beyond last space); hunt = Food per Hunting symbol on Hunter's Huts; scout = spaces each Scout advances; storm = spaces the Storm marker moves BACK on the Round track. Sections resolved A (heat) -> B (hunt) -> C (scouts) -> D (storm).",
+  "vi": "Cánh đồng: nhiệt = [dấu lạnh, chỉ báo vàng, chỉ báo cam, chỉ báo đỏ] ô để tiến (không vượt ô cuối); săn = Thực phẩm theo mỗi biểu tượng Săn trên Lều Thợ Săn; scout = số ô mỗi Scout tiến; storm = số ô dấu Storm LÙI trên đường Vòng. Các phần được giải quyết theo thứ tự A (nhiệt) -> B (săn) -> C (scouts) -> D (storm)."
+ },
+ {
+  "key": "Fight for Offal",
+  "vi": "Tranh giành phụ phẩm"
+ },
+ {
+  "key": "Fight for Offal (M0{0})",
+  "vi": "Tranh giành phụ phẩm (M0{0})"
+ },
+ {
+  "key": "Fight for Offal was removed from the game",
+  "vi": "Tranh giành phụ phẩm đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Fighting Arena",
+  "vi": "Đấu trường"
+ },
+ {
+  "key": "Fighting Arena ({0} Wood)",
+  "vi": "Đấu trường ({0} Gỗ)"
+ },
+ {
+  "key": "Fighting Arena was introduced",
+  "vi": "Đấu trường đã được ban hành"
+ },
+ {
+  "key": "Finding Winterhome",
+  "vi": "Tìm Winterhome"
+ },
+ {
+  "key": "Finding Winterhome removed from the Scenario display",
+  "vi": "Tìm Winterhome đã bị gỡ khỏi bảng Kịch bản"
+ },
+ {
+  "key": "Finding Winterhome resolved",
+  "vi": "Tìm Winterhome đã được giải quyết"
+ },
+ {
+  "key": "Finding Winterhome: choose one option",
+  "vi": "Tìm Winterhome: chọn một lựa chọn"
+ },
+ {
+  "key": "First time a Steam Core is spent here place the Generator Upgrade piece (raises cube retention). Tech T0{0} adds one extra Stress cube removal when this building is used.",
+  "vi": "Lần đầu tiên một Steam Core được chi tại đây, đặt mảnh nâng cấp Generator (tăng khả năng giữ khối). Công nghệ T0{0} thêm một lần gỡ bỏ khối Căng thẳng khi công trình này được sử dụng."
+ },
+ {
+  "key": "First Workshop built starts Technology development. Cannot upgrade a building that has a meeple on it. Same on both sides. Law L1{0} lets Workers use Workshops.",
+  "vi": "Workshop đầu tiên được xây sẽ bắt đầu phát triển Công nghệ. Không thể nâng cấp công trình có meeple trên đó. Giống nhau ở cả hai mặt. Law L1{0} cho phép Công nhân sử dụng Workshops."
+ },
+ {
+  "key": "Fix the machine",
+  "vi": "Sửa máy"
+ },
+ {
+  "key": "Flames of the New Faith",
+  "vi": "Ngọn lửa của đức tin mới"
+ },
+ {
+  "key": "Flip {0} Sickness marker(s)",
+  "vi": "Lật {0} dấu Bệnh"
+ },
+ {
+  "key": "Flip {0} Sickness marker(s) to Skull",
+  "vi": "Lật {0} dấu Bệnh sang Đầu lâu"
+ },
+ {
+  "key": "Flip {0} Sickness marker(s) to Syringe (a Citizen dies)",
+  "vi": "Lật {0} dấu Bệnh sang Ống tiêm (một Công dân chết)"
+ },
+ {
+  "key": "Flip all Sickness marker(s) to Syringe (a Citizen dies)",
+  "vi": "Lật tất cả dấu Bệnh sang Ống tiêm (một Công dân chết)"
+ },
+ {
+  "key": "Flip side of House/Bunkhouse/Tent. No effect, no shelter (unless Law L0{0}). Occupies its space.",
+  "vi": "Mặt lật của Nhà/Nhà tập thể/Lều. Không có hiệu ứng, không có chỗ trú (trừ khi có Law L0{0}). Chiếm ô của nó."
+ },
+ {
+  "key": "Flip which Sickness marker?",
+  "vi": "Lật dấu Bệnh nào?"
+ },
+ {
+  "key": "Focus and push forward!",
+  "vi": "Tập trung và tiến lên!"
+ },
+ {
+  "key": "Food Additives",
+  "vi": "Phụ gia thực phẩm"
+ },
+ {
+  "key": "Food Additives (L0{0}): use it this Hunger phase?",
+  "vi": "Phụ gia thực phẩm (L0{0}): có dùng trong giai đoạn Đói này không?"
+ },
+ {
+  "key": "Food Additives was introduced",
+  "vi": "Phụ gia thực phẩm đã được ban hành"
+ },
+ {
+  "key": "Fool's Gold",
+  "vi": "Vàng giả"
+ },
+ {
+  "key": "Fool's Gold: choose an option",
+  "vi": "Vàng giả: chọn một lựa chọn"
+ },
+ {
+  "key": "For each active:anger: {0} sick a Citizen of your choice",
+  "vi": "Với mỗi Anger đang hoạt động: làm {0} Công dân tùy chọn bị bệnh"
+ },
+ {
+  "key": "For each active:anger: {0} Worker or Engineer die",
+  "vi": "Với mỗi Anger đang hoạt động: {0} Công nhân hoặc Kỹ sư chết"
+ },
+ {
+  "key": "For each active:anger: Place {0} Spent Worker token in the supply",
+  "vi": "Với mỗi Anger đang hoạt động: đặt {0} dấu Công nhân đã dùng vào kho"
+ },
+ {
+  "key": "For each active:apathy: Place {0} Spent Worker or Engineer token in the supply",
+  "vi": "Với mỗi Apathy đang hoạt động: đặt {0} dấu Công nhân hoặc Kỹ sư đã dùng vào kho"
+ },
+ {
+  "key": "For each active:care: Hunger −{0}",
+  "vi": "Với mỗi Care đang hoạt động: Đói −{0}"
+ },
+ {
+  "key": "For each active:greed: Hunger +{0}",
+  "vi": "Với mỗi Greed đang hoạt động: Đói +{0}"
+ },
+ {
+  "key": "For each active:greed: Lose {0} Resource",
+  "vi": "Với mỗi Greed đang hoạt động: Mất {0} Tài nguyên"
+ },
+ {
+  "key": "For each active:greed: toCard:supply:{0}",
+  "vi": "Với mỗi Greed đang hoạt động: chuyển {0} Tài nguyên từ kho lên thẻ Sự kiện hiện tại"
+ },
+ {
+  "key": "For each spentCitizenInSupply: Cure {0}",
+  "vi": "Với mỗi spentCitizenInSupply: Chữa {0}"
+ },
+ {
+  "key": "For each unsheltered: Hope −{0}",
+  "vi": "Với mỗi công dân không có chỗ trú: Hope −{0}"
+ },
+ {
+  "key": "Forbid him from his activities",
+  "vi": "Cấm hắn tham gia các hoạt động của mình"
+ },
+ {
+  "key": "Force them to work",
+  "vi": "Bắt họ làm việc"
+ },
+ {
+  "key": "Foreman Advisor",
+  "vi": "Quản đốc Advisor"
+ },
+ {
+  "key": "Foreman Advisor ({P})",
+  "vi": "Quản đốc Advisor ({P})"
+ },
+ {
+  "key": "Foreman Advisor (Solo)",
+  "vi": "Quản đốc Advisor (Chơi đơn)"
+ },
+ {
+  "key": "Foreman Advisor is used",
+  "vi": "Quản đốc Advisor đã được sử dụng"
+ },
+ {
+  "key": "Forget about them",
+  "vi": "Quên họ đi"
+ },
+ {
+  "key": "Forgotten Stash",
+  "vi": "Kho bị lãng quên"
+ },
+ {
+  "key": "Found some survivors",
+  "vi": "Tìm thấy một số người sống sót"
+ },
+ {
+  "key": "Found steam technology",
+  "vi": "Tìm thấy công nghệ hơi nước"
+ },
+ {
+  "key": "Found their family",
+  "vi": "Tìm thấy gia đình của họ"
+ },
+ {
+  "key": "Freedom?",
+  "vi": "Tự do?"
+ }
+]

@@ -1,0 +1,934 @@
+[
+ {
+  "key": "Solo plays Georgia Taller (Perform this action as normal except draw {0} Far tiles and choose {1} to place. Place each of the other {2} on either the top or bottom of the Far tiles stack.)",
+  "vi": "Chơi đơn đánh thẻ Georgia Taller (Thực hiện hành động này như bình thường, trừ việc rút {0} mảnh Xa và chọn {1} để đặt. Đặt từng mảnh còn lại trong số {2} mảnh lên trên hoặc dưới chồng mảnh Xa.)"
+ },
+ {
+  "key": "Solo plays Godna Grellak (Perform this action on an unoccupied space on a tile to gain Food equal to the Food bonus on that tile and all adjacent tiles.)",
+  "vi": "Chơi đơn đánh thẻ Godna Grellak (Thực hiện hành động này trên một ô trống của mảnh để nhận Thực phẩm bằng thưởng Thực phẩm trên mảnh đó và tất cả các mảnh liền kề.)"
+ },
+ {
+  "key": "Solo plays Greg Bellowsky (Replace an unoccupied Expedition stack with a B Expedition card and Deploy a Scout to it.)",
+  "vi": "Chơi đơn đánh thẻ Greg Bellowsky (Thay một chồng Expedition trống bằng thẻ Expedition loại B và Triển khai một Scout vào đó.)"
+ },
+ {
+  "key": "Solo plays Jacin Schock (Perform up to {0} Construct sub-actions.)",
+  "vi": "Chơi đơn đánh thẻ Jacin Schock (Thực hiện tối đa {0} hành động phụ Xây dựng.)"
+ },
+ {
+  "key": "Solo plays Jesse Quackerson (Perform this action as normal except place {0} Far tiles and, if cold, gain {1} sick Engineers (instead of {2}).)",
+  "vi": "Chơi đơn đánh thẻ Jesse Quackerson (Thực hiện hành động này như bình thường, trừ việc đặt {0} mảnh Xa và, nếu đang lạnh, nhận {1} Kỹ sư bị bệnh (thay vì {2}).)"
+ },
+ {
+  "key": "Solo plays Michael Ozone (Spend {0} / {1} / {2} Food to reduce Hunger by {3} / {4} / {5}.)",
+  "vi": "Chơi đơn đánh thẻ Michael Ozone (Chi {0} / {1} / {2} Thực phẩm để giảm Đói {3} / {4} / {5}.)"
+ },
+ {
+  "key": "Solo plays Michael Plower (Perform this action as normal but only place {0} Near tile. If all Near tiles have already been placed, place {1} Far tile instead.)",
+  "vi": "Chơi đơn đánh thẻ Michael Plower (Thực hiện hành động này như bình thường nhưng chỉ đặt {0} mảnh Gần. Nếu tất cả mảnh Gần đã được đặt, thay vào đó đặt {1} mảnh Xa.)"
+ },
+ {
+  "key": "Solo plays Paolo Feldman (Perform this action on an unoccupied space that has {0} or more Trees. Remove {1} Tree from that space and gain {2} Wood. Count this action as heated.)",
+  "vi": "Chơi đơn đánh thẻ Paolo Feldman (Thực hiện hành động này trên một ô trống có từ {0} Cây trở lên. Gỡ bỏ {1} Cây khỏi ô đó và nhận {2} Gỗ. Tính hành động này là heated.)"
+ },
+ {
+  "key": "Solo plays Pat O'Bara (Perform this action as normal except place {0} Near tile and {1} Far tile. If all Near tiles have already been placed, place {2} Far tiles instead.)",
+  "vi": "Chơi đơn đánh thẻ Pat O'Bara (Thực hiện hành động này như bình thường, trừ việc đặt {0} mảnh Gần và {1} mảnh Xa. Nếu tất cả mảnh Gần đã được đặt, thay vào đó đặt {2} mảnh Xa.)"
+ },
+ {
+  "key": "Solo plays Patick McGretchak (Perform this action as normal except, if cold, gain {0} sick Children (instead of {1}).)",
+  "vi": "Chơi đơn đánh thẻ Patick McGretchak (Thực hiện hành động này như bình thường, trừ việc nếu đang lạnh, nhận {0} Trẻ em bị bệnh (thay vì {1}).)"
+ },
+ {
+  "key": "Solo plays Paul Unclestone (Reuse a Building. This action counts as heated.)",
+  "vi": "Chơi đơn đánh thẻ Paul Unclestone (Dùng lại một Công trình. Hành động này được tính là heated.)"
+ },
+ {
+  "key": "Solo plays Pauline Grogan (Spend {0} Food. Draw {1} Hope token and activate it, or discard {2} active Discontent token.)",
+  "vi": "Chơi đơn đánh thẻ Pauline Grogan (Chi {0} Thực phẩm. Rút {1} dấu Hope và kích hoạt nó, hoặc bỏ {2} dấu Discontent đang kích hoạt.)"
+ },
+ {
+  "key": "Solo plays Peter Byerush (Perform this action as normal, or take up to {0} Resources from {1} adjacent space and place them in the supply.)",
+  "vi": "Chơi đơn đánh thẻ Peter Byerush (Thực hiện hành động này như bình thường, hoặc lấy tối đa {0} Tài nguyên từ {1} ô liền kề và đặt chúng vào kho chung.)"
+ },
+ {
+  "key": "Solo plays Phillipa Bullsky (Reveal {0} Far tiles and place each on either the top or bottom of the Far tiles stack.)",
+  "vi": "Chơi đơn đánh thẻ Phillipa Bullsky (Lật {0} mảnh Xa và đặt từng mảnh lên trên hoặc dưới chồng mảnh Xa.)"
+ },
+ {
+  "key": "Solo plays Rafael Curae (Activate Care. Perform the Building's Cure effect.)",
+  "vi": "Chơi đơn đánh thẻ Rafael Curae (Kích hoạt Care. Thực hiện hiệu ứng Chữa của Công trình.)"
+ },
+ {
+  "key": "Solo plays Rufus Gladstone (Perform this action as normal except you may use {0} sub-actions to move a Small Building without the non-dismantle icon to a valid Build space (remove Resources and Trees as normal).)",
+  "vi": "Chơi đơn đánh thẻ Rufus Gladstone (Thực hiện hành động này như bình thường, trừ việc bạn có thể dùng {0} hành động phụ để di chuyển một Công trình nhỏ không có biểu tượng không thể tháo dỡ đến một ô Xây hợp lệ (gỡ bỏ Tài nguyên và Cây như bình thường).)"
+ },
+ {
+  "key": "Solo: choose an action",
+  "vi": "Chơi đơn: chọn một hành động"
+ },
+ {
+  "key": "Something Is Out There!",
+  "vi": "Có thứ gì đó ngoài kia!"
+ },
+ {
+  "key": "Something Is Out There! (D0{0})",
+  "vi": "Có thứ gì đó ngoài kia! (D0{0})"
+ },
+ {
+  "key": "Something Is Out There! was removed from the game",
+  "vi": "Có thứ gì đó ngoài kia! đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Sorrow and loss",
+  "vi": "Nỗi buồn và mất mát"
+ },
+ {
+  "key": "Spare some resources in memory",
+  "vi": "Dành chút tài nguyên để tưởng nhớ"
+ },
+ {
+  "key": "Special effect (cemetery)",
+  "vi": "Hiệu ứng đặc biệt (nghĩa địa)"
+ },
+ {
+  "key": "Special effect (D0{0})",
+  "vi": "Hiệu ứng đặc biệt (D0{0})"
+ },
+ {
+  "key": "Special effect (duskPeek3)",
+  "vi": "Hiệu ứng đặc biệt (duskPeek3)"
+ },
+ {
+  "key": "Special effect (generatorSick)",
+  "vi": "Hiệu ứng đặc biệt (generatorSick)"
+ },
+ {
+  "key": "Special effect (generatorUpgradeOnFirstCore)",
+  "vi": "Hiệu ứng đặc biệt (generatorUpgradeOnFirstCore)"
+ },
+ {
+  "key": "Special effect (introduceLaw)",
+  "vi": "Hiệu ứng đặc biệt (introduceLaw)"
+ },
+ {
+  "key": "Special effect (prisonStay)",
+  "vi": "Hiệu ứng đặc biệt (prisonStay)"
+ },
+ {
+  "key": "Special effect (socialAdvisor)",
+  "vi": "Hiệu ứng đặc biệt (socialAdvisor)"
+ },
+ {
+  "key": "Special effect (stockpile)",
+  "vi": "Hiệu ứng đặc biệt (stockpile)"
+ },
+ {
+  "key": "Spend {0} / {1} / {2} Food to reduce Hunger by {3} / {4} / {5}.",
+  "vi": "Chi {0} / {1} / {2} Thực phẩm để giảm Đói {3} / {4} / {5}."
+ },
+ {
+  "key": "Spend {0} Coal",
+  "vi": "Chi {0} Than"
+ },
+ {
+  "key": "Spend {0} Coal (Heat {1} → {2})",
+  "vi": "Chi {0} Than (Nhiệt {1} → {2})"
+ },
+ {
+  "key": "Spend {0} food",
+  "vi": "Chi {0} thực phẩm"
+ },
+ {
+  "key": "Spend {0} Food",
+  "vi": "Chi {0} Thực phẩm"
+ },
+ {
+  "key": "Spend {0} Food, Hunger −{1}",
+  "vi": "Chi {0} Thực phẩm, Đói −{1}"
+ },
+ {
+  "key": "Spend {0} Food, Hunger −{1}, Discontent +{2} (Greed)",
+  "vi": "Chi {0} Thực phẩm, Đói −{1}, Discontent +{2} (Greed)"
+ },
+ {
+  "key": "Spend {0} food, or suffer the consequence",
+  "vi": "Chi {0} thực phẩm, hoặc chịu hậu quả"
+ },
+ {
+  "key": "Spend {0} Food. Draw {1} Hope token and activate it, or discard {2} active Discontent token.",
+  "vi": "Chi {0} Thực phẩm. Rút {1} dấu Hope và kích hoạt nó, hoặc bỏ {2} dấu Discontent đang kích hoạt."
+ },
+ {
+  "key": "Spend {0} Resources",
+  "vi": "Chi {0} Tài nguyên"
+ },
+ {
+  "key": "Spend {0} Resources or {1} Food",
+  "vi": "Chi {0} Tài nguyên hoặc {1} Thực phẩm"
+ },
+ {
+  "key": "Spend {0} Wood",
+  "vi": "Chi {0} Gỗ"
+ },
+ {
+  "key": "Spend Food and/or Coal; place {0} Food Ration marker per {1} Food and {2} Coal Stock marker per {3} Coal. The total number of Stockpile markers on the card may not exceed `slots`.",
+  "vi": "Chi Thực phẩm và/hoặc Than; đặt {0} dấu Khẩu phần Thực phẩm cho mỗi {1} Thực phẩm và {2} dấu Dự trữ Than cho mỗi {3} Than. Tổng số dấu Stockpile trên thẻ không được vượt quá `slots`."
+ },
+ {
+  "key": "Spent {0} Food to reduce Hunger",
+  "vi": "Đã chi {0} Thực phẩm để giảm Đói"
+ },
+ {
+  "key": "spentPerSkull",
+  "vi": "spentPerSkull"
+ },
+ {
+  "key": "Start a public campaign",
+  "vi": "Phát động chiến dịch công khai"
+ },
+ {
+  "key": "Start a public campaign about morality",
+  "vi": "Phát động chiến dịch công khai về đạo đức"
+ },
+ {
+  "key": "Started developing Carrier Sledge (Round {0})",
+  "vi": "Bắt đầu phát triển Xe trượt chở hàng (Vòng {0})"
+ },
+ {
+  "key": "Started developing Charcoal Kiln Upgrade (Round {0})",
+  "vi": "Bắt đầu phát triển Nâng cấp lò than củi (Vòng {0})"
+ },
+ {
+  "key": "Started developing Construction Planning (Round {0})",
+  "vi": "Bắt đầu phát triển Lập kế hoạch xây dựng (Vòng {0})"
+ },
+ {
+  "key": "Started developing Equipment Upgrade (Round {0})",
+  "vi": "Bắt đầu phát triển Nâng cấp thiết bị (Vòng {0})"
+ },
+ {
+  "key": "Started developing Generator Safety System (Round {0})",
+  "vi": "Bắt đầu phát triển Hệ thống an toàn Generator (Vòng {0})"
+ },
+ {
+  "key": "Started developing Heating Lamps (Round {0})",
+  "vi": "Bắt đầu phát triển Đèn sưởi (Vòng {0})"
+ },
+ {
+  "key": "Started developing Hunting Tactics (Round {0})",
+  "vi": "Bắt đầu phát triển Chiến thuật săn bắn (Vòng {0})"
+ },
+ {
+  "key": "Started developing Lighter Scout Sleds (Round {0})",
+  "vi": "Bắt đầu phát triển Xe trượt tuyết Scout nhẹ hơn (Vòng {0})"
+ },
+ {
+  "key": "Started developing Medical Education (Round {0})",
+  "vi": "Bắt đầu phát triển Giáo dục y tế (Vòng {0})"
+ },
+ {
+  "key": "Started developing Natural Fertiliser (Round {0})",
+  "vi": "Bắt đầu phát triển Phân bón tự nhiên (Vòng {0})"
+ },
+ {
+  "key": "Started developing Night Care (Round {0})",
+  "vi": "Bắt đầu phát triển Care ban đêm (Vòng {0})"
+ },
+ {
+  "key": "Started developing Nutrition Education (Round {0})",
+  "vi": "Bắt đầu phát triển Giáo dục dinh dưỡng (Vòng {0})"
+ },
+ {
+  "key": "Started developing Steam Hub (Round {0})",
+  "vi": "Bắt đầu phát triển Steam Hub (Vòng {0})"
+ },
+ {
+  "key": "Started developing Steampowered Chainsaw (Round {0})",
+  "vi": "Bắt đầu phát triển Cưa xích chạy hơi nước (Vòng {0})"
+ },
+ {
+  "key": "Started developing Tracking Techniques (Round {0})",
+  "vi": "Bắt đầu phát triển Kỹ thuật theo dấu (Vòng {0})"
+ },
+ {
+  "key": "Started developing Wood Processing (Round {0})",
+  "vi": "Bắt đầu phát triển Chế biến gỗ (Vòng {0})"
+ },
+ {
+  "key": "Starvation Rations",
+  "vi": "Khẩu phần nạn đói"
+ },
+ {
+  "key": "Starvation Rations was introduced",
+  "vi": "Khẩu phần nạn đói đã được đưa vào"
+ },
+ {
+  "key": "Steam Core – F1{0} top ({1})",
+  "vi": "Steam Core – F1{0} mặt trên ({1})"
+ },
+ {
+  "key": "Steam Core – N1{0} top ({1})",
+  "vi": "Steam Core – N1{0} mặt trên ({1})"
+ },
+ {
+  "key": "Steam Core ({0})",
+  "vi": "Steam Core ({0})"
+ },
+ {
+  "key": "Steam Hub",
+  "vi": "Steam Hub"
+ },
+ {
+  "key": "Steam Hub (S, White insulation, cost {0} Wood, cannot be upgraded, {1} pieces, unlocked by Technology T0{2} 'Steam Hub' cost {3}). Passive: at any time during the round, if the Heat marker level is higher than the RED Insulation level (indicator level), you may place {4} Coal from the supply into the Steam Hub; while it holds a Coal the tile it is on and all adjacent tiles count as heated. Return the Coal to the bank at the end of the Generator Phase.",
+  "vi": "Steam Hub (S, insulation trắng, chi phí {0} Gỗ, không thể nâng cấp, {1} thành phần, được mở khóa bởi Công nghệ T0{2} 'Steam Hub' chi phí {3}). Bị động: bất cứ lúc nào trong vòng, nếu mức dấu Nhiệt cao hơn mức Insulation ĐỎ (mức chỉ báo), bạn có thể đặt {4} Than từ kho chung vào Steam Hub; khi nó đang giữ một Than, mảnh chứa nó và tất cả mảnh liền kề đều được tính là heated. Trả Than về kho chung vào cuối Giai đoạn Generator."
+ },
+ {
+  "key": "Steam Hub was developed",
+  "vi": "Steam Hub đã được phát triển"
+ },
+ {
+  "key": "Steampowered Chainsaw",
+  "vi": "Cưa xích chạy hơi nước"
+ },
+ {
+  "key": "Steampowered Chainsaw was developed",
+  "vi": "Cưa xích chạy hơi nước đã được phát triển"
+ },
+ {
+  "key": "Steel",
+  "vi": "Thép"
+ },
+ {
+  "key": "Steel ({0})",
+  "vi": "Thép ({0})"
+ },
+ {
+  "key": "Steel is a Resource limited to {0} (components). Steel substitutes for Wood in a Build sub-action; mixing Wood and Steel is allowed. If a Building is built by paying its full Wood cost in Steel it is immediately upgraded for free.",
+  "vi": "Thép là Tài nguyên giới hạn {0} (thành phần). Thép thay thế Gỗ trong một hành động phụ Xây; được phép trộn Gỗ và Thép. Nếu một Công trình được xây bằng cách trả đủ chi phí Gỗ bằng Thép, nó lập tức được nâng cấp miễn phí."
+ },
+ {
+  "key": "Stigmatise him",
+  "vi": "Kỳ thị hắn"
+ },
+ {
+  "key": "storm",
+  "vi": "storm"
+ },
+ {
+  "key": "Storm",
+  "vi": "Storm"
+ },
+ {
+  "key": "Storm (Frozen Grove)",
+  "vi": "Storm (Frozen Grove)"
+ },
+ {
+  "key": "Storm marker moved {0} back to {1}",
+  "vi": "Dấu Storm đã lùi {0} về {1}"
+ },
+ {
+  "key": "Strange Noises",
+  "vi": "Tiếng động lạ"
+ },
+ {
+  "key": "Strange Noises (M0{0})",
+  "vi": "Tiếng động lạ (M0{0})"
+ },
+ {
+  "key": "Strange Noises was removed from the game",
+  "vi": "Tiếng động lạ đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Strength in Unity",
+  "vi": "Sức mạnh trong đoàn kết"
+ },
+ {
+  "key": "Strictly limit the spectrum of opinion",
+  "vi": "Hạn chế nghiêm ngặt phạm vi quan điểm"
+ },
+ {
+  "key": "Strike!",
+  "vi": "Đình công!"
+ },
+ {
+  "key": "Successful Education",
+  "vi": "Giáo dục thành công"
+ },
+ {
+  "key": "Successful Education (D0{0})",
+  "vi": "Giáo dục thành công (D0{0})"
+ },
+ {
+  "key": "Successful Education was placed on the Dusk discard pile",
+  "vi": "Giáo dục thành công đã được đặt lên chồng bỏ Dusk"
+ },
+ {
+  "key": "Successful Education was removed from the game",
+  "vi": "Giáo dục thành công đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Successful Experiment!",
+  "vi": "Thí nghiệm thành công!"
+ },
+ {
+  "key": "Successful Project",
+  "vi": "Dự án thành công"
+ },
+ {
+  "key": "Superstition was a luxury of days gone by.",
+  "vi": "Mê tín từng là thứ xa xỉ của những ngày đã qua."
+ },
+ {
+  "key": "Survival is all that counts",
+  "vi": "Sinh tồn mới là điều quan trọng"
+ },
+ {
+  "key": "Survival of the Fittest",
+  "vi": "Mạnh được yếu thua"
+ },
+ {
+  "key": "Survive the Storm",
+  "vi": "Sống sót qua Storm"
+ },
+ {
+  "key": "Suspicion",
+  "vi": "Nghi ngờ"
+ },
+ {
+  "key": "Suspicion (SD0{0})",
+  "vi": "Nghi ngờ (SD0{0})"
+ },
+ {
+  "key": "Suspicion resolved and removed from the game",
+  "vi": "Nghi ngờ đã được giải quyết và loại khỏi trò chơi"
+ },
+ {
+  "key": "Suspicion: you may exhaust {0} Hope to gain the matching effect",
+  "vi": "Nghi ngờ: bạn có thể tiêu hao {0} Hope để nhận hiệu ứng tương ứng"
+ },
+ {
+  "key": "Swap one of your Child meeples with the Child Worker/Engineer on M0{0}",
+  "vi": "Hoán đổi một meeple Trẻ em của bạn với Trẻ em Công nhân/Kỹ sư trên M0{0}"
+ },
+ {
+  "key": "Swap with active Care",
+  "vi": "Hoán đổi với Care đang kích hoạt"
+ },
+ {
+  "key": "Swap with active Motivation",
+  "vi": "Hoán đổi với Motivation đang kích hoạt"
+ },
+ {
+  "key": "Sweet dreams.",
+  "vi": "Chúc ngủ ngon."
+ },
+ {
+  "key": "Take {0} Resource(s) from the map",
+  "vi": "Lấy {0} Tài nguyên từ bản đồ"
+ },
+ {
+  "key": "Take {0} Resource(s) from the Map",
+  "vi": "Lấy {0} Tài nguyên từ Bản đồ"
+ },
+ {
+  "key": "Take how many Resources from the supply onto Comfort the Sick?",
+  "vi": "Lấy bao nhiêu Tài nguyên từ kho chung đặt lên An ủi người bệnh?"
+ },
+ {
+  "key": "Take how many Resources from the supply onto Wooden Toys?",
+  "vi": "Lấy bao nhiêu Tài nguyên từ kho chung đặt lên Đồ chơi gỗ?"
+ },
+ {
+  "key": "Take it and simply walk away.",
+  "vi": "Cứ lấy rồi bỏ đi."
+ },
+ {
+  "key": "Take only the strong. Swallow the tears.",
+  "vi": "Chỉ giữ lại kẻ mạnh. Nuốt nước mắt vào."
+ },
+ {
+  "key": "Take the steam core",
+  "vi": "Lấy steam core"
+ },
+ {
+  "key": "Take. Take. Take!",
+  "vi": "Lấy. Lấy. Lấy!"
+ },
+ {
+  "key": "Talk to this man about wasting the wood",
+  "vi": "Nói chuyện với người đàn ông này về việc lãng phí gỗ"
+ },
+ {
+  "key": "Tech T0{0}: may remove a Tree from any map tile instead of paying {1} Wood.",
+  "vi": "Công nghệ T0{0}: có thể gỡ bỏ một Cây khỏi bất kỳ mảnh bản đồ nào thay vì trả {1} Gỗ."
+ },
+ {
+  "key": "Tech T0{0}: may Treat {1} instead of the normal effect. Law L1{2} lets it convert Food into Cure.",
+  "vi": "Công nghệ T0{0}: có thể Điều trị {1} thay vì hiệu ứng thường. Law L1{2} cho phép chuyển Thực phẩm thành Chữa bệnh."
+ },
+ {
+  "key": "Tech T1{0}: with an Engineer meeple may move the Corpse marker back {1} for +{2} Food.",
+  "vi": "Công nghệ T1{0}: với một meeple Kỹ sư, có thể di chuyển Corpse marker lùi {1} để nhận +{2} Thực phẩm."
+ },
+ {
+  "key": "Temple",
+  "vi": "Đền thờ"
+ },
+ {
+  "key": "Tent",
+  "vi": "Lều"
+ },
+ {
+  "key": "Tent ({0} Wood)",
+  "vi": "Lều ({0} Gỗ)"
+ },
+ {
+  "key": "Tent (free)",
+  "vi": "Lều (miễn phí)"
+ },
+ {
+  "key": "Tent at F1{0} top",
+  "vi": "Lều ở F1{0} mặt trên"
+ },
+ {
+  "key": "Tent at Generator tile (UL)",
+  "vi": "Lều ở mảnh Generator (UL)"
+ },
+ {
+  "key": "Tent at Generator tile (UR)",
+  "vi": "Lều ở mảnh Generator (UR)"
+ },
+ {
+  "key": "Tent at N0{0} bottom",
+  "vi": "Lều ở N0{0} mặt dưới"
+ },
+ {
+  "key": "Tent at N0{0} top",
+  "vi": "Lều ở N0{0} mặt trên"
+ },
+ {
+  "key": "Tent at N1{0} bottom",
+  "vi": "Lều ở N1{0} mặt dưới"
+ },
+ {
+  "key": "Tent built",
+  "vi": "Đã xây Lều"
+ },
+ {
+  "key": "Tent dismantled",
+  "vi": "Đã tháo dỡ Lều"
+ },
+ {
+  "key": "That Could Have Been Us",
+  "vi": "Lẽ ra là chúng ta"
+ },
+ {
+  "key": "The anger is not only in the kids",
+  "vi": "Cơn anger không chỉ nằm ở lũ trẻ"
+ },
+ {
+  "key": "The Arks",
+  "vi": "Những con tàu Ark"
+ },
+ {
+  "key": "The Beacon must be built first",
+  "vi": "Phải xây Đèn hiệu trước đã"
+ },
+ {
+  "key": "The beacon shines bright!",
+  "vi": "Đèn hiệu tỏa sáng rực rỡ!"
+ },
+ {
+  "key": "The Beginning and the End",
+  "vi": "Khởi đầu và kết thúc"
+ },
+ {
+  "key": "The Beginning and the End: choose an option",
+  "vi": "Khởi đầu và kết thúc: chọn một lựa chọn"
+ },
+ {
+  "key": "The Birth of Distrust",
+  "vi": "Khởi nguồn của sự nghi kỵ"
+ },
+ {
+  "key": "The Birth of Gambling",
+  "vi": "Khởi nguồn của cờ bạc"
+ },
+ {
+  "key": "The Birth of Gambling (M0{0})",
+  "vi": "Khởi nguồn của cờ bạc (M0{0})"
+ },
+ {
+  "key": "The Birth of Gambling was removed from the game",
+  "vi": "Khởi nguồn của cờ bạc đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "The Brothers Return",
+  "vi": "Hai anh em trở về"
+ },
+ {
+  "key": "The children look happier",
+  "vi": "Lũ trẻ trông vui vẻ hơn"
+ },
+ {
+  "key": "The Cobra Effect",
+  "vi": "Hiệu ứng Rắn hổ mang"
+ },
+ {
+  "key": "The cold hits: child",
+  "vi": "Cái lạnh ập đến: trẻ em"
+ },
+ {
+  "key": "The cold hits: child, worker",
+  "vi": "Cái lạnh ập đến: trẻ em, công nhân"
+ },
+ {
+  "key": "The cold hits: child, worker, engineer",
+  "vi": "Cái lạnh ập đến: trẻ em, công nhân, kỹ sư"
+ },
+ {
+  "key": "The cold hits: child, worker, engineer, child",
+  "vi": "Cái lạnh ập đến: trẻ em, công nhân, kỹ sư, trẻ em"
+ },
+ {
+  "key": "The cold hits: child, worker, engineer, child, worker",
+  "vi": "Cái lạnh ập đến: trẻ em, công nhân, kỹ sư, trẻ em, công nhân"
+ },
+ {
+  "key": "The cold hits: child, worker, engineer, child, worker, engineer",
+  "vi": "Cái lạnh ập đến: trẻ em, công nhân, kỹ sư, trẻ em, công nhân, kỹ sư"
+ },
+ {
+  "key": "The cold hits: engineer",
+  "vi": "Cái lạnh ập đến: kỹ sư"
+ },
+ {
+  "key": "The cold hits: engineer, child",
+  "vi": "Cái lạnh ập đến: kỹ sư, trẻ em"
+ },
+ {
+  "key": "The cold hits: engineer, child, worker",
+  "vi": "Cái lạnh ập đến: kỹ sư, trẻ em, công nhân"
+ },
+ {
+  "key": "The cold hits: worker",
+  "vi": "Cái lạnh ập đến: công nhân"
+ },
+ {
+  "key": "The cold hits: worker, engineer",
+  "vi": "Cái lạnh ập đến: công nhân, kỹ sư"
+ },
+ {
+  "key": "The cold hits: worker, engineer, child",
+  "vi": "Cái lạnh ập đến: công nhân, kỹ sư, trẻ em"
+ },
+ {
+  "key": "The cold hits: worker, engineer, child, worker",
+  "vi": "Cái lạnh ập đến: công nhân, kỹ sư, trẻ em, công nhân"
+ },
+ {
+  "key": "The cold hits: worker, engineer, child, worker, engineer",
+  "vi": "Cái lạnh ập đến: công nhân, kỹ sư, trẻ em, công nhân, kỹ sư"
+ },
+ {
+  "key": "The collection belongs to his family",
+  "vi": "Bộ sưu tập thuộc về gia đình ông ấy"
+ },
+ {
+  "key": "The Comfort of Warmth",
+  "vi": "Hơi ấm dễ chịu"
+ },
+ {
+  "key": "The Comfort of Warmth (D0{0})",
+  "vi": "Hơi ấm dễ chịu (D0{0})"
+ },
+ {
+  "key": "The Comfort of Warmth left the Event display",
+  "vi": "Hơi ấm dễ chịu đã rời khỏi bảng Sự kiện"
+ },
+ {
+  "key": "The Comfort of Warmth was placed in the Event display",
+  "vi": "Hơi ấm dễ chịu đã được đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "The dead don't need it. We do.",
+  "vi": "Người chết không cần nữa. Chúng ta thì cần."
+ },
+ {
+  "key": "The debate turned into an open riot",
+  "vi": "Cuộc tranh luận biến thành bạo loạn công khai"
+ },
+ {
+  "key": "The End of Conflict",
+  "vi": "Kết thúc xung đột"
+ },
+ {
+  "key": "The End of Conflict (D0{0})",
+  "vi": "Kết thúc xung đột (D0{0})"
+ },
+ {
+  "key": "The End of Conflict was removed from the game",
+  "vi": "Kết thúc xung đột đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "The Fall of Winterhome",
+  "vi": "Sự sụp đổ của Winterhome"
+ },
+ {
+  "key": "The family didn't have enough time or love",
+  "vi": "Gia đình không có đủ thời gian hay tình thương"
+ },
+ {
+  "key": "The Generator Accident!",
+  "vi": "Tai nạn Generator!"
+ },
+ {
+  "key": "The Generator broke down! Cold +{0}, all Heat Range indicators +{1}, Stress cubes removed.",
+  "vi": "Generator bị hỏng! Lạnh +{0}, tất cả chỉ báo Dải Nhiệt +{1}, gỡ bỏ các khối Căng thẳng."
+ },
+ {
+  "key": "The Generator is upgraded",
+  "vi": "Generator đã được nâng cấp"
+ },
+ {
+  "key": "The Heat marker still resets to space {0} afterwards (even after a breakdown).",
+  "vi": "Dấu Nhiệt vẫn được đặt lại về ô {0} sau đó (kể cả sau khi hỏng)."
+ },
+ {
+  "key": "The hell with it! People depend on us.",
+  "vi": "Mặc kệ! Người dân đang trông cậy vào chúng ta."
+ },
+ {
+  "key": "The hunt continues.",
+  "vi": "Cuộc săn vẫn tiếp tục."
+ },
+ {
+  "key": "The Inevitable",
+  "vi": "Điều tất yếu"
+ },
+ {
+  "key": "The Inevitable (D0{0})",
+  "vi": "Điều tất yếu (D0{0})"
+ },
+ {
+  "key": "The Inevitable was placed on the Dusk discard pile",
+  "vi": "Điều tất yếu đã được đặt lên chồng bỏ Dusk"
+ },
+ {
+  "key": "The King and His Subjects",
+  "vi": "Nhà vua và thần dân"
+ },
+ {
+  "key": "The last Workshop is gone: the Technology in development returns to inactive",
+  "vi": "Workshop cuối cùng đã biến mất: Công nghệ đang phát triển trở về trạng thái chưa kích hoạt"
+ },
+ {
+  "key": "The Loud Cry of the Society",
+  "vi": "Tiếng hô vang của Society"
+ },
+ {
+  "key": "The man ate the mice.",
+  "vi": "Người đàn ông ăn chuột."
+ },
+ {
+  "key": "The man must be eliminated",
+  "vi": "Phải loại bỏ người đàn ông này"
+ },
+ {
+  "key": "The mice ate the man.",
+  "vi": "Chuột đã ăn thịt người đàn ông."
+ },
+ {
+  "key": "The most terrible things can happen to a man",
+  "vi": "Những điều kinh hoàng nhất có thể xảy đến với con người"
+ },
+ {
+  "key": "The Order's Iron Fist",
+  "vi": "Bàn tay sắt của Trật tự"
+ },
+ {
+  "key": "The Other Side",
+  "vi": "Phía bên kia"
+ },
+ {
+  "key": "The Other Side (A) - X1{0}",
+  "vi": "Phía bên kia (A) - X1{0}"
+ },
+ {
+  "key": "The parents are to be blamed",
+  "vi": "Cha mẹ phải bị đổ lỗi"
+ },
+ {
+  "key": "The people on duty should be punished",
+  "vi": "Những người đang trực nên bị trừng phạt"
+ },
+ {
+  "key": "The people were indeed plotting",
+  "vi": "Người dân quả thật đang âm mưu"
+ },
+ {
+  "key": "The physical tower is a random device. The web port approximates it: every dropped cube independently falls into the drawer with probability pDrawer; a fraction of fallers is deferred to next round with probability pDeferred (cubes that fall out when closing). Generator Upgrade (Generator building upgraded) lowers pDrawer.",
+  "vi": "Tháp vật lý là một thiết bị ngẫu nhiên. Phiên bản web chỉ xấp xỉ nó: mỗi khối rơi xuống độc lập lọt vào ngăn kéo với xác suất pDrawer; một phần các khối rơi bị hoãn sang vòng sau với xác suất pDeferred (các khối rơi ra khi đóng lại). Nâng cấp Generator (công trình Generator đã được nâng cấp) làm giảm pDrawer."
+ },
+ {
+  "key": "The Prophecy Is Tested",
+  "vi": "Lời tiên tri được thử thách"
+ },
+ {
+  "key": "The Prophecy Is Tested (D0{0})",
+  "vi": "Lời tiên tri được thử thách (D0{0})"
+ },
+ {
+  "key": "The Prophecy Is Tested was placed in the Event display",
+  "vi": "Lời tiên tri được thử thách đã được đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "The Prophet Rises",
+  "vi": "Nhà tiên tri trỗi dậy"
+ },
+ {
+  "key": "The Prophet Rises (D0{0})",
+  "vi": "Nhà tiên tri trỗi dậy (D0{0})"
+ },
+ {
+  "key": "The Prophet Rises was placed in the Event display",
+  "vi": "Nhà tiên tri trỗi dậy đã được đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "The Prophet's wishes must be fulfilled",
+  "vi": "Nguyện vọng của nhà tiên tri phải được thực hiện"
+ },
+ {
+  "key": "The pups ended up in the wrong hands",
+  "vi": "Lũ chó con rơi vào tay nhầm người"
+ },
+ {
+  "key": "The pups provide comfort",
+  "vi": "Lũ chó con mang lại sự an ủi"
+ },
+ {
+  "key": "The Quack from the Burrow",
+  "vi": "Lang băm từ hang"
+ },
+ {
+  "key": "The Quack from the Burrow (M0{0})",
+  "vi": "Lang băm từ hang (M0{0})"
+ },
+ {
+  "key": "The Quack from the Burrow was removed from the game",
+  "vi": "Lang băm từ hang đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "The quack must be punished",
+  "vi": "Lang băm phải bị trừng phạt"
+ },
+ {
+  "key": "The Remove Snow action is always heated.",
+  "vi": "Hành động Dọn tuyết luôn là heated."
+ },
+ {
+  "key": "The rioters saw the chaos as a chance",
+  "vi": "Những kẻ bạo loạn coi hỗn loạn là cơ hội"
+ },
+ {
+  "key": "The Ruins of Tesla City",
+  "vi": "Tàn tích thành phố Tesla"
+ },
+ {
+  "key": "The Scout reached the last space of A Carrion's Feast: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Bữa tiệc từ xác chết: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of A Letter in the Snow: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Lá thư trong tuyết: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of A Matter of Life and Death: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Vấn đề sinh tử: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of A Not-So-Romantic Realism: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Hiện thực không mấy lãng mạn: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of A Scene of Terrible Beauty: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Cảnh đẹp đáng sợ: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of Black Gold Rush: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Cơn sốt vàng đen: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of Cabin in the Woods: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Nhà gỗ trong rừng: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of Desperate Measures: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Biện pháp tuyệt vọng: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of Fool's Gold: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Vàng giả: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of Lord of Lies: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Chúa tể dối trá: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of Mushroom Kingdom: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Vương quốc Nấm: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of The Beginning and the End: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Khởi đầu và kết thúc: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of The Other Side: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Phía bên kia: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of The Thing We Found: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Thứ chúng ta tìm thấy: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of Valley of Shadows: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Thung lũng bóng tối: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Scout reached the last space of White Lies: Skip the location or Explore it?",
+  "vi": "Scout đã đến ô cuối cùng của Lời nói dối vô hại: bỏ qua địa điểm hay khám phá nó?"
+ },
+ {
+  "key": "The Soul of Our Society",
+  "vi": "Linh hồn của Society chúng ta"
+ },
+ {
+  "key": "The Soul of Our Society (L1{0}B)",
+  "vi": "Linh hồn của Society chúng ta (L1{0}B)"
+ },
+ {
+  "key": "The Soul of Our Society was removed from the game",
+  "vi": "Linh hồn của Society chúng ta đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "The source must be found",
+  "vi": "Phải tìm ra nguồn gốc"
+ },
+ {
+  "key": "The Spirit of Elise",
+  "vi": "Linh hồn của Elise"
+ },
+ {
+  "key": "The Story of a Smile",
+  "vi": "Câu chuyện về một nụ cười"
+ },
+ {
+  "key": "The Story of a Smile (L1{0}A)",
+  "vi": "Câu chuyện về một nụ cười (L1{0}A)"
+ },
+ {
+  "key": "The Story of a Smile was placed on the Dusk discard pile",
+  "vi": "Câu chuyện về một nụ cười đã được đặt lên chồng bỏ Dusk"
+ }
+]

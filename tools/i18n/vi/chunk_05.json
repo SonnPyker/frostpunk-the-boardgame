@@ -1,0 +1,934 @@
+[
+ {
+  "key": "Frozen Heart",
+  "vi": "Trái Tim Băng Giá"
+ },
+ {
+  "key": "Frozen Heart (D0{0})",
+  "vi": "Trái Tim Băng Giá (D0{0})"
+ },
+ {
+  "key": "Frozen Heart was removed from the game",
+  "vi": "Trái Tim Băng Giá đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Fuel the Generator (free)",
+  "vi": "Nạp than vào Generator (miễn phí)"
+ },
+ {
+  "key": "Fuel the Generator?",
+  "vi": "Nạp than vào Generator?"
+ },
+ {
+  "key": "Fuelled the Generator with {0} Coal (Heat {1})",
+  "vi": "Đã nạp {0} Than vào Generator (Nhiệt {1})"
+ },
+ {
+  "key": "Fulfil their demands and let them go",
+  "vi": "Đáp ứng yêu cầu của họ và để họ đi"
+ },
+ {
+  "key": "Fur and Fang",
+  "vi": "Lông Và Nanh"
+ },
+ {
+  "key": "Gain {0} Automaton",
+  "vi": "Nhận {0} Automaton"
+ },
+ {
+  "key": "Gain {0} Automaton, Place {1} Spent Engineer token in the supply",
+  "vi": "Nhận {0} Automaton, đặt {1} dấu Kỹ sư đã dùng vào kho chung"
+ },
+ {
+  "key": "Gain {0} Coal",
+  "vi": "Nhận {0} Than"
+ },
+ {
+  "key": "Gain {0} Food",
+  "vi": "Nhận {0} Thực phẩm"
+ },
+ {
+  "key": "Gain {0} Food per Food Ration",
+  "vi": "Nhận {0} Thực phẩm mỗi Khẩu phần"
+ },
+ {
+  "key": "Gain {0} Food, Add Dusk card D0{1}",
+  "vi": "Nhận {0} Thực phẩm, thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "Gain {0} Food, Discontent +{1} (Apathy)",
+  "vi": "Nhận {0} Thực phẩm, Discontent +{1} (Apathy)"
+ },
+ {
+  "key": "Gain {0} Steam Core",
+  "vi": "Nhận {0} Steam Core"
+ },
+ {
+  "key": "Gain {0} Steam Core, Place {1} Spent Engineer token in the supply",
+  "vi": "Nhận {0} Steam Core, đặt {1} dấu Kỹ sư đã dùng vào kho chung"
+ },
+ {
+  "key": "Gain {0} Steel",
+  "vi": "Nhận {0} Thép"
+ },
+ {
+  "key": "Gain {0} Wood",
+  "vi": "Nhận {0} Gỗ"
+ },
+ {
+  "key": "Gain {0}* sick Citizens of each type (*reduce by {1} for each Coal Stock on S0{2}/S0{3}). All Shelters count as heated (Ruins stay unusable unless a Law says otherwise). Each Citizen Meeple without a warm place to sleep gains {4} sick Citizens of its type. Resolve the Sickness markers.",
+  "vi": "Nhận {0}* Công dân bị bệnh của mỗi loại (*giảm {1} cho mỗi dấu Dự trữ Than trên S0{2}/S0{3}). Mọi Nơi trú ẩn được tính là heated (Tàn tích vẫn không dùng được trừ khi một Law nói khác). Mỗi Meeple Công dân không có chỗ ngủ ấm sẽ nhận thêm {4} Công dân bị bệnh cùng loại. Giải quyết các dấu Bệnh."
+ },
+ {
+  "key": "Gain <n>         gain resource/food/automaton/etc (see FX_DSL) <res>",
+  "vi": "Nhận <n>         nhận tài nguyên/thực phẩm/automaton/v.v. (xem FX_DSL) <res>"
+ },
+ {
+  "key": "Gain Food equal to the Round",
+  "vi": "Nhận Thực phẩm bằng Vòng hiện tại"
+ },
+ {
+  "key": "Gain perMapTileWithFoodBonus Food per Food Ration",
+  "vi": "Nhận perMapTileWithFoodBonus Thực phẩm mỗi Khẩu phần"
+ },
+ {
+  "key": "Gain perTwoHuntingSymbols Food per Food Ration",
+  "vi": "Nhận perTwoHuntingSymbols Thực phẩm mỗi Khẩu phần"
+ },
+ {
+  "key": "Gained {0} Food from {1} tile(s)",
+  "vi": "Đã nhận {0} Thực phẩm từ {1} mảnh"
+ },
+ {
+  "key": "Gambling is prohibited",
+  "vi": "Cờ bạc bị cấm"
+ },
+ {
+  "key": "Gambling with Others' Lives",
+  "vi": "Đánh Cược Mạng Sống Của Người Khác"
+ },
+ {
+  "key": "Gambling with Their Legacy",
+  "vi": "Đánh Cược Di Sản Của Họ"
+ },
+ {
+  "key": "Gambling with Their Lives",
+  "vi": "Đánh Cược Mạng Sống Của Họ"
+ },
+ {
+  "key": "Gambling with Their Lives (D0{0})",
+  "vi": "Đánh Cược Mạng Sống Của Họ (D0{0})"
+ },
+ {
+  "key": "Gambling with Their Lives was removed from the game",
+  "vi": "Đánh Cược Mạng Sống Của Họ đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Gather at which space?",
+  "vi": "Thu thập tại ô nào?"
+ },
+ {
+  "key": "Gather Resources",
+  "vi": "Thu thập tài nguyên"
+ },
+ {
+  "key": "Gather the few survivors.",
+  "vi": "Tập hợp số ít người sống sót."
+ },
+ {
+  "key": "Gather what's left and continue.",
+  "vi": "Thu gom phần còn lại và tiếp tục."
+ },
+ {
+  "key": "gatherAdjacentSpace:{0}",
+  "vi": "gatherAdjacentSpace:{0}"
+ },
+ {
+  "key": "Gathering Post",
+  "vi": "Gathering Post"
+ },
+ {
+  "key": "Gathering Post ({0} Wood)",
+  "vi": "Gathering Post ({0} Gỗ)"
+ },
+ {
+  "key": "Gathering Post (free)",
+  "vi": "Gathering Post (miễn phí)"
+ },
+ {
+  "key": "Gathering Post (upgraded) at Generator tile (UL)",
+  "vi": "Gathering Post (nâng cấp) tại mảnh Generator (UL)"
+ },
+ {
+  "key": "Gathering Post (upgraded) at Generator tile (UR)",
+  "vi": "Gathering Post (nâng cấp) tại mảnh Generator (UR)"
+ },
+ {
+  "key": "Gathering Post at F1{0} top",
+  "vi": "Gathering Post tại F1{0} phía trên"
+ },
+ {
+  "key": "Gathering Post at Generator tile (UL)",
+  "vi": "Gathering Post tại mảnh Generator (UL)"
+ },
+ {
+  "key": "Gathering Post at Generator tile (UR)",
+  "vi": "Gathering Post tại mảnh Generator (UR)"
+ },
+ {
+  "key": "Gathering Post at N0{0} bottom",
+  "vi": "Gathering Post tại N0{0} phía dưới"
+ },
+ {
+  "key": "Gathering Post at N0{0} top",
+  "vi": "Gathering Post tại N0{0} phía trên"
+ },
+ {
+  "key": "Gathering Post at N1{0} bottom",
+  "vi": "Gathering Post tại N1{0} phía dưới"
+ },
+ {
+  "key": "Gathering Post built",
+  "vi": "Đã xây Gathering Post"
+ },
+ {
+  "key": "Gathering Post destroyed",
+  "vi": "Gathering Post đã bị phá hủy"
+ },
+ {
+  "key": "Gathering Post dismantled",
+  "vi": "Đã tháo dỡ Gathering Post"
+ },
+ {
+  "key": "Gathering Post upgraded",
+  "vi": "Đã nâng cấp Gathering Post"
+ },
+ {
+  "key": "GEN:LL",
+  "vi": "GEN:LL"
+ },
+ {
+  "key": "GEN:LR",
+  "vi": "GEN:LR"
+ },
+ {
+  "key": "GEN:T",
+  "vi": "GEN:T"
+ },
+ {
+  "key": "GEN:UL",
+  "vi": "GEN:UL"
+ },
+ {
+  "key": "Generator",
+  "vi": "Generator"
+ },
+ {
+  "key": "Generator Advisor",
+  "vi": "Generator Advisor"
+ },
+ {
+  "key": "Generator Advisor ({P})",
+  "vi": "Generator Advisor ({P})"
+ },
+ {
+  "key": "Generator Advisor (Solo)",
+  "vi": "Generator Advisor (Chơi đơn)"
+ },
+ {
+  "key": "Generator Advisor is used",
+  "vi": "Generator Advisor đã được sử dụng"
+ },
+ {
+  "key": "Generator board (TTS CardCustom {0}b6{1}b, image {2}x3{3}, assets_src/images/...{4}B0{5}D9...png). Read from the board art + Rulebook pp2{6}-{7}. The Heat track and the Cold marker share the same {8} spaces. Citizen icons: green = Child, orange = Worker, blue = Engineer (confirmed by the rulebook p2{9} example: {10} Child + {11} Engineer get sick).",
+  "vi": "Bảng Generator (TTS CardCustom {0}b6{1}b, hình ảnh {2}x3{3}, assets_src/images/...{4}B0{5}D9...png). Đọc từ hình ảnh bảng và Rulebook trang 2{6}-{7}. Thang Nhiệt và dấu Lạnh dùng chung {8} ô. Biểu tượng công dân: xanh lá = Trẻ em, cam = Công nhân, xanh dương = Kỹ sư (xác nhận bởi ví dụ trang 2{9} của rulebook: {10} Trẻ em + {11} Kỹ sư bị bệnh)."
+ },
+ {
+  "key": "Generator built",
+  "vi": "Đã xây Generator"
+ },
+ {
+  "key": "Generator drawer / road, not a space",
+  "vi": "Ngăn kéo / đường của Generator, không phải ô"
+ },
+ {
+  "key": "Generator phase",
+  "vi": "Giai đoạn Generator"
+ },
+ {
+  "key": "Generator Phase as normal (fuel, sickness from cold, stress, breakdown, Heat marker reset).",
+  "vi": "Giai đoạn Generator như bình thường (nạp than, bệnh do lạnh, căng thẳng, hỏng hóc, đặt lại dấu Nhiệt)."
+ },
+ {
+  "key": "GENERATOR PHASE: Before checking for Generator breakdown, if there are {0} or fewer Stress cubes on the overflow space, remove those cubes without any effect. ACTION PHASE: Whenever you use the Generator Building, remove an additional Stress cube from the Stress track.",
+  "vi": "GIAI ĐOẠN GENERATOR: Trước khi kiểm tra hỏng hóc của Generator, nếu có {0} khối Căng thẳng trở xuống trên ô tràn, hãy gỡ bỏ các khối đó mà không có tác dụng gì. GIAI ĐOẠN HÀNH ĐỘNG: Mỗi khi bạn sử dụng công trình Generator, gỡ bỏ thêm một khối Căng thẳng khỏi thang Căng thẳng."
+ },
+ {
+  "key": "Generator Safety System",
+  "vi": "Hệ Thống An Toàn Generator"
+ },
+ {
+  "key": "Generator tile (LL)",
+  "vi": "Mảnh Generator (LL)"
+ },
+ {
+  "key": "Generator tile (LR)",
+  "vi": "Mảnh Generator (LR)"
+ },
+ {
+  "key": "Generator tile (T)",
+  "vi": "Mảnh Generator (T)"
+ },
+ {
+  "key": "Generator tile (UL)",
+  "vi": "Mảnh Generator (UL)"
+ },
+ {
+  "key": "Generator tile (UR)",
+  "vi": "Mảnh Generator (UR)"
+ },
+ {
+  "key": "Georgia Taller",
+  "vi": "Georgia Taller"
+ },
+ {
+  "key": "Georgia Taller (worker)",
+  "vi": "Georgia Taller (công nhân)"
+ },
+ {
+  "key": "Give him more wood",
+  "vi": "Đưa thêm gỗ cho anh ấy"
+ },
+ {
+  "key": "Give him what he needs",
+  "vi": "Cho anh ấy những thứ anh ấy cần"
+ },
+ {
+  "key": "Give them to our engineers",
+  "vi": "Giao chúng cho các kỹ sư của chúng ta"
+ },
+ {
+  "key": "Go home.",
+  "vi": "Về nhà đi."
+ },
+ {
+  "key": "Godna Grellak",
+  "vi": "Godna Grellak"
+ },
+ {
+  "key": "Godna Grellak (child)",
+  "vi": "Godna Grellak (trẻ em)"
+ },
+ {
+  "key": "Grab the loot and run!",
+  "vi": "Lấy chiến lợi phẩm và chạy!"
+ },
+ {
+  "key": "Grab their children and they will follow.",
+  "vi": "Bắt lấy con cái của họ, và họ sẽ đi theo."
+ },
+ {
+  "key": "Greed (exhausted)",
+  "vi": "Greed (đã tiêu hao)"
+ },
+ {
+  "key": "Greed Discontent activated",
+  "vi": "Greed Discontent đã được kích hoạt"
+ },
+ {
+  "key": "Greed Discontent exhausted",
+  "vi": "Greed Discontent đã tiêu hao"
+ },
+ {
+  "key": "Greed removed from the track",
+  "vi": "Greed đã được gỡ bỏ khỏi thang"
+ },
+ {
+  "key": "Greg Bellowsky",
+  "vi": "Greg Bellowsky"
+ },
+ {
+  "key": "Greg Bellowsky (worker)",
+  "vi": "Greg Bellowsky (công nhân)"
+ },
+ {
+  "key": "Hades",
+  "vi": "Hades"
+ },
+ {
+  "key": "Hades (A) - X0{0}",
+  "vi": "Hades (A) - X0{0}"
+ },
+ {
+  "key": "Hard work will allow them to forget",
+  "vi": "Làm việc chăm chỉ sẽ giúp họ quên đi"
+ },
+ {
+  "key": "Have a concert",
+  "vi": "Tổ chức một buổi hòa nhạc"
+ },
+ {
+  "key": "Have the Refugees Assimilated?",
+  "vi": "Người Tị Nạn Đã Được Hòa Nhập Chưa?"
+ },
+ {
+  "key": "Have the watchmen barge in on a meeting",
+  "vi": "Cho lính canh xông vào một cuộc họp"
+ },
+ {
+  "key": "Have We Found Them?",
+  "vi": "Chúng Ta Đã Tìm Thấy Họ Chưa?"
+ },
+ {
+  "key": "Have You Helped Them Survive?",
+  "vi": "Bạn Đã Giúp Họ Sống Sót Chưa?"
+ },
+ {
+  "key": "Have You Helped Them Survive? (D0{0})",
+  "vi": "Bạn Đã Giúp Họ Sống Sót Chưa? (D0{0})"
+ },
+ {
+  "key": "Have You Helped Them Survive? was removed from the game",
+  "vi": "Bạn Đã Giúp Họ Sống Sót Chưa? đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Have You Provided Heated Shelters for Everyone?",
+  "vi": "Bạn Đã Cung Cấp Nơi Trú Ẩn Heated Cho Mọi Người Chưa?"
+ },
+ {
+  "key": "Have You Provided Heated Shelters?",
+  "vi": "Bạn Đã Cung Cấp Nơi Trú Ẩn Heated Chưa?"
+ },
+ {
+  "key": "Have You Saved Enough Food for the Hungry?",
+  "vi": "Bạn Đã Để Dành Đủ Thực Phẩm Cho Những Người Đói Chưa?"
+ },
+ {
+  "key": "Have You Solved the Food Crisis?",
+  "vi": "Bạn Đã Giải Quyết Khủng Hoảng Thực Phẩm Chưa?"
+ },
+ {
+  "key": "Have You Solved the Food Crisis? (D0{0})",
+  "vi": "Bạn Đã Giải Quyết Khủng Hoảng Thực Phẩm Chưa? (D0{0})"
+ },
+ {
+  "key": "Have You Solved the Food Crisis? was removed from the game",
+  "vi": "Bạn Đã Giải Quyết Khủng Hoảng Thực Phẩm Chưa? đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "He is a broken man",
+  "vi": "Anh ta là một người đã tan vỡ"
+ },
+ {
+  "key": "He is to be left alone",
+  "vi": "Hãy để anh ta yên"
+ },
+ {
+  "key": "He must repent by working longer shifts",
+  "vi": "Anh ta phải sám hối bằng cách làm việc những ca dài hơn"
+ },
+ {
+  "key": "Head home. That's enough!",
+  "vi": "Về nhà đi. Thế là đủ rồi!"
+ },
+ {
+  "key": "Health Advisor",
+  "vi": "Advisor Y tế"
+ },
+ {
+  "key": "Health Advisor ({P})",
+  "vi": "Advisor Y tế ({P})"
+ },
+ {
+  "key": "Health Advisor (Solo)",
+  "vi": "Advisor Y tế (Chơi đơn)"
+ },
+ {
+  "key": "Health Advisor is used",
+  "vi": "Advisor Y tế đã được sử dụng"
+ },
+ {
+  "key": "Heart of Steam",
+  "vi": "Trái Tim Hơi Nước"
+ },
+ {
+  "key": "Heart of Steam (A) - X0{0}",
+  "vi": "Trái Tim Hơi Nước (A) - X0{0}"
+ },
+ {
+  "key": "Heat range advanced",
+  "vi": "Dải Nhiệt đã tăng"
+ },
+ {
+  "key": "Heat Range indicators (Red, Orange, Yellow) sit on the Generator track whose level numbers {0}..{1} are the same as the Heat-track space numbers. A building/zone is heated when the Heat marker level is STRICTLY above the matching indicator level (Rulebook p2{2}/p3{3} example: Heat marker on {4}, above Red {5} and Orange {6}). Weather section A and the Generator breakdown advance indicators (clamped to {7}). Weather cards list [cold, yellow, orange, red].",
+  "vi": "Các chỉ báo Dải Nhiệt (Đỏ, Cam, Vàng) nằm trên thang Generator, có số mức {0}..{1} trùng với số ô của thang Nhiệt. Một công trình/khu vực được heated khi mức dấu Nhiệt phải cao hơn (không được bằng) mức chỉ báo tương ứng (ví dụ trong Rulebook trang 2{2}/3{3}: dấu Nhiệt ở {4}, cao hơn Đỏ {5} và Cam {6}). Phần Thời tiết A và các chỉ báo tiến triển hỏng hóc của Generator (giới hạn ở {7}). Thẻ Thời tiết liệt kê [lạnh, vàng, cam, đỏ]."
+ },
+ {
+  "key": "Heated Meals",
+  "vi": "Bữa Ăn Heated"
+ },
+ {
+  "key": "Heated Meals was introduced",
+  "vi": "Bữa Ăn Heated đã được đưa vào"
+ },
+ {
+  "key": "Heating Lamps",
+  "vi": "Đèn Sưởi"
+ },
+ {
+  "key": "Heed their words.",
+  "vi": "Hãy lắng nghe lời họ."
+ },
+ {
+  "key": "Help them escape the lurking danger.",
+  "vi": "Giúp họ thoát khỏi mối nguy đang rình rập."
+ },
+ {
+  "key": "Hippocratic Oath",
+  "vi": "Lời Thề Hippocrates"
+ },
+ {
+  "key": "Honour him, keep going.",
+  "vi": "Tôn vinh anh ấy, cứ tiếp tục đi."
+ },
+ {
+  "key": "hook names: weather = Weather phase section; generator = Generator phase before breakdown check; action = Action phase; mod = persistent modifier flag read by the rules code.",
+  "vi": "tên hook: weather = phần Thời tiết của giai đoạn Thời tiết; generator = giai đoạn Generator trước bước kiểm tra hỏng hóc; action = giai đoạn Hành động; mod = cờ điều chỉnh bền vững mà mã luật chơi đọc."
+ },
+ {
+  "key": "Hope +{0}",
+  "vi": "Hope +{0}"
+ },
+ {
+  "key": "Hope +{0}  OR  Discontent −{1}",
+  "vi": "Hope +{0}  HOẶC  Discontent −{1}"
+ },
+ {
+  "key": "Hope +{0} (Care / Justice)",
+  "vi": "Hope +{0} (Care / Justice)"
+ },
+ {
+  "key": "Hope +{0} (Care)",
+  "vi": "Hope +{0} (Care)"
+ },
+ {
+  "key": "Hope +{0} (Care), Add Dusk card D0{1}",
+  "vi": "Hope +{0} (Care), thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "Hope +{0} (Care), hungerPerMeeple:workerEngineer:{1}",
+  "vi": "Hope +{0} (Care), hungerPerMeeple:workerEngineer:{1}"
+ },
+ {
+  "key": "Hope +{0} (Justice)",
+  "vi": "Hope +{0} (Justice)"
+ },
+ {
+  "key": "Hope +{0} (Justice), Add Dusk card D0{1}",
+  "vi": "Hope +{0} (Justice), thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "Hope +{0} (Motivation)",
+  "vi": "Hope +{0} (Motivation)"
+ },
+ {
+  "key": "Hope +{0} (Motivation), Add Dusk card D0{1}",
+  "vi": "Hope +{0} (Motivation), thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "Hope +{0}, Add Dusk card D0{1}",
+  "vi": "Hope +{0}, thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "Hope +{0}, Discontent −{1}",
+  "vi": "Hope +{0}, Discontent −{1}"
+ },
+ {
+  "key": "Hope +{0}, Place {1} Spent Worker token in the supply",
+  "vi": "Hope +{0}, đặt {1} dấu Công nhân đã dùng vào kho chung"
+ },
+ {
+  "key": "Hope +{0}, Place {1} Spent Worker token in the supply, Add Dusk card D0{2}",
+  "vi": "Hope +{0}, đặt {1} dấu Công nhân đã dùng vào kho chung, thêm thẻ Dusk D0{2}"
+ },
+ {
+  "key": "Hope +{0}, Place {1} Spent Worker token in the supply, Place {2} Spent Child tokens in the supply",
+  "vi": "Hope +{0}, đặt {1} dấu Công nhân đã dùng vào kho chung, đặt {2} dấu Trẻ em đã dùng vào kho chung"
+ },
+ {
+  "key": "Hope −{0}",
+  "vi": "Hope −{0}"
+ },
+ {
+  "key": "Hope −{0}, {1} Citizens of the current Round type die (no Citizen card)",
+  "vi": "Hope −{0}, {1} Công dân thuộc loại của Vòng hiện tại chết (không có thẻ Công dân)"
+ },
+ {
+  "key": "Hope −{0}, {1} Worker leave the city",
+  "vi": "Hope −{0}, {1} Công nhân rời khỏi thành phố"
+ },
+ {
+  "key": "Hope −{0}, Add Dusk card D0{1}",
+  "vi": "Hope −{0}, thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "Hope −{0}, Discontent +{1}",
+  "vi": "Hope −{0}, Discontent +{1}"
+ },
+ {
+  "key": "Hope −{0}, Place {1} Spent Worker or Engineer token in the supply, Add Dusk card D0{2}",
+  "vi": "Hope −{0}, đặt {1} dấu Công nhân hoặc Kỹ sư đã dùng vào kho chung, thêm thẻ Dusk D0{2}"
+ },
+ {
+  "key": "hope-{0}",
+  "vi": "hope-{0}"
+ },
+ {
+  "key": "Hope: drew Care",
+  "vi": "Hope: đã rút Care"
+ },
+ {
+  "key": "Hope: drew Care (active)",
+  "vi": "Hope: đã rút Care (đang kích hoạt)"
+ },
+ {
+  "key": "Hope: drew Justice",
+  "vi": "Hope: đã rút Justice"
+ },
+ {
+  "key": "Hope: drew Justice (active)",
+  "vi": "Hope: đã rút Justice (đang kích hoạt)"
+ },
+ {
+  "key": "Hope: drew Motivation",
+  "vi": "Hope: đã rút Motivation"
+ },
+ {
+  "key": "Hope: drew Motivation (active)",
+  "vi": "Hope: đã rút Motivation (đang kích hoạt)"
+ },
+ {
+  "key": "hope+{0}",
+  "vi": "hope+{0}"
+ },
+ {
+  "key": "hope+{0}:care",
+  "vi": "hope+{0}:care"
+ },
+ {
+  "key": "hopeMoreThanDisc",
+  "vi": "hopeMoreThanDisc"
+ },
+ {
+  "key": "hopeVsDisc",
+  "vi": "hopeVsDisc"
+ },
+ {
+  "key": "Hothouse",
+  "vi": "Nhà kính"
+ },
+ {
+  "key": "Hothouse ({0} Wood + {1} Steam Core)",
+  "vi": "Nhà kính ({0} Gỗ + {1} Steam Core)"
+ },
+ {
+  "key": "Hothouse at N0{0} top",
+  "vi": "Nhà kính tại N0{0} phía trên"
+ },
+ {
+  "key": "Hothouse built",
+  "vi": "Đã xây Nhà kính"
+ },
+ {
+  "key": "Hothouse dismantled",
+  "vi": "Đã tháo dỡ Nhà kính"
+ },
+ {
+  "key": "House",
+  "vi": "Nhà"
+ },
+ {
+  "key": "House ({0} Wood)",
+  "vi": "Nhà ({0} Gỗ)"
+ },
+ {
+  "key": "House at Generator tile (UL)",
+  "vi": "Nhà tại mảnh Generator (UL)"
+ },
+ {
+  "key": "House at Generator tile (UR)",
+  "vi": "Nhà tại mảnh Generator (UR)"
+ },
+ {
+  "key": "House built",
+  "vi": "Đã xây Nhà"
+ },
+ {
+  "key": "House dismantled",
+  "vi": "Đã tháo dỡ Nhà"
+ },
+ {
+  "key": "Human Limits",
+  "vi": "Giới Hạn Con Người"
+ },
+ {
+  "key": "Humanity's Long Fall",
+  "vi": "Cuộc Rơi Dài Của Nhân Loại"
+ },
+ {
+  "key": "Humankind's Last Battle",
+  "vi": "Trận Chiến Cuối Cùng Của Nhân Loại"
+ },
+ {
+  "key": "Hunger -{0} (now {1})",
+  "vi": "Đói -{0} (hiện {1})"
+ },
+ {
+  "key": "Hunger {0}: +{1} Discontent",
+  "vi": "Đói {0}: +{1} Discontent"
+ },
+ {
+  "key": "Hunger {0}: +{1} Discontent, {2} child Citizen(s) die",
+  "vi": "Đói {0}: +{1} Discontent, {2} Công dân trẻ em chết"
+ },
+ {
+  "key": "Hunger {0}: +{1} Discontent, {2} engineer Citizen(s) die",
+  "vi": "Đói {0}: +{1} Discontent, {2} Công dân kỹ sư chết"
+ },
+ {
+  "key": "Hunger {0}: +{1} Discontent, {2} worker Citizen(s) die",
+  "vi": "Đói {0}: +{1} Discontent, {2} Công dân công nhân chết"
+ },
+ {
+  "key": "Hunger {0}: no effect",
+  "vi": "Đói {0}: không có tác dụng"
+ },
+ {
+  "key": "Hunger +{0}",
+  "vi": "Đói +{0}"
+ },
+ {
+  "key": "Hunger +{0} (now {1})",
+  "vi": "Đói +{0} (hiện {1})"
+ },
+ {
+  "key": "Hunger +{0} for each Citizen Meeple; gain {1} Food per Food Ration marker on S0{2}/S0{3}; you may spend Food to decrease Hunger; resolve the Hunger-marker effect.",
+  "vi": "Đói +{0} cho mỗi Meeple Công dân; nhận {1} Thực phẩm cho mỗi dấu Khẩu phần trên S0{2}/S0{3}; bạn có thể chi Thực phẩm để giảm Đói; giải quyết hiệu ứng của dấu Đói."
+ },
+ {
+  "key": "Hunger +{0} per Citizen Meeple",
+  "vi": "Đói +{0} mỗi Meeple Công dân"
+ },
+ {
+  "key": "Hunger +{0}, Add Dusk card D0{1}",
+  "vi": "Đói +{0}, thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "Hunger −{0}",
+  "vi": "Đói −{0}"
+ },
+ {
+  "key": "Hunger for Work",
+  "vi": "Cơn Đói Việc Làm"
+ },
+ {
+  "key": "Hunger Is No Game",
+  "vi": "Đói Không Phải Là Trò Chơi"
+ },
+ {
+  "key": "Hunger phase",
+  "vi": "Giai đoạn Đói"
+ },
+ {
+  "key": "Hungry for Work",
+  "vi": "Khao Khát Việc Làm"
+ },
+ {
+  "key": "Hungry for Work (L0{0}B)",
+  "vi": "Khao Khát Việc Làm (L0{0}B)"
+ },
+ {
+  "key": "Hungry for Work was removed from the game",
+  "vi": "Khao Khát Việc Làm đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Hunter's Hut",
+  "vi": "Lều Thợ Săn"
+ },
+ {
+  "key": "Hunter's Hut ({0} Wood)",
+  "vi": "Lều Thợ Săn ({0} Gỗ)"
+ },
+ {
+  "key": "Hunter's Hut (free)",
+  "vi": "Lều Thợ Săn (miễn phí)"
+ },
+ {
+  "key": "Hunter's Hut (upgraded) at Generator tile (UL)",
+  "vi": "Lều Thợ Săn (nâng cấp) tại mảnh Generator (UL)"
+ },
+ {
+  "key": "Hunter's Hut (upgraded) at N0{0} bottom",
+  "vi": "Lều Thợ Săn (nâng cấp) tại N0{0} phía dưới"
+ },
+ {
+  "key": "Hunter's Hut (upgraded) at N0{0} top",
+  "vi": "Lều Thợ Săn (nâng cấp) tại N0{0} phía trên"
+ },
+ {
+  "key": "Hunter's Hut at F0{0} bottom",
+  "vi": "Lều Thợ Săn tại F0{0} phía dưới"
+ },
+ {
+  "key": "Hunter's Hut at F0{0} top",
+  "vi": "Lều Thợ Săn tại F0{0} phía trên"
+ },
+ {
+  "key": "Hunter's Hut at F1{0} bottom",
+  "vi": "Lều Thợ Săn tại F1{0} phía dưới"
+ },
+ {
+  "key": "Hunter's Hut at F1{0} top",
+  "vi": "Lều Thợ Săn tại F1{0} phía trên"
+ },
+ {
+  "key": "Hunter's Hut at Generator tile (UL)",
+  "vi": "Lều Thợ Săn tại mảnh Generator (UL)"
+ },
+ {
+  "key": "Hunter's Hut at Generator tile (UR)",
+  "vi": "Lều Thợ Săn tại mảnh Generator (UR)"
+ },
+ {
+  "key": "Hunter's Hut at N0{0} bottom",
+  "vi": "Lều Thợ Săn tại N0{0} phía dưới"
+ },
+ {
+  "key": "Hunter's Hut at N0{0} top",
+  "vi": "Lều Thợ Săn tại N0{0} phía trên"
+ },
+ {
+  "key": "Hunter's Hut at N1{0} bottom",
+  "vi": "Lều Thợ Săn tại N1{0} phía dưới"
+ },
+ {
+  "key": "Hunter's Hut at N1{0} top",
+  "vi": "Lều Thợ Săn tại N1{0} phía trên"
+ },
+ {
+  "key": "Hunter's Hut built",
+  "vi": "Đã xây Lều Thợ Săn"
+ },
+ {
+  "key": "Hunter's Hut destroyed",
+  "vi": "Lều Thợ Săn đã bị phá hủy"
+ },
+ {
+  "key": "Hunter's Hut dismantled",
+  "vi": "Đã tháo dỡ Lều Thợ Săn"
+ },
+ {
+  "key": "Hunter's Hut upgraded",
+  "vi": "Đã nâng cấp Lều Thợ Săn"
+ },
+ {
+  "key": "Hunter's Hut was destroyed",
+  "vi": "Lều Thợ Săn đã bị phá hủy"
+ },
+ {
+  "key": "Hunting symbols pay {0} Food each in every Weather phase.",
+  "vi": "Biểu tượng săn bắn trả {0} Thực phẩm mỗi biểu tượng trong mỗi giai đoạn Thời tiết."
+ },
+ {
+  "key": "Hunting Tactics",
+  "vi": "Chiến Thuật Săn Bắn"
+ },
+ {
+  "key": "Hurry back with the findings and a tale.",
+  "vi": "Vội vã quay về với những phát hiện và một câu chuyện."
+ },
+ {
+  "key": "I miss my family. Let's go back.",
+  "vi": "Tôi nhớ gia đình. Quay về thôi."
+ },
+ {
+  "key": "If !active:justice: Discontent +{0} (Anger)",
+  "vi": "Nếu Justice không hoạt động: Discontent +{0} (Anger)"
+ },
+ {
+  "key": "If !built:fightingArena: {0} sick Worker, {1} sick Engineer",
+  "vi": "Nếu chưa xây Đấu trường: {0} Công nhân bị bệnh, {1} Kỹ sư bị bệnh"
+ },
+ {
+  "key": "If !revealed:S0{0}: scenario:place:S0{1}",
+  "vi": "Nếu !revealed:S0{0}: scenario:place:S0{1}"
+ },
+ {
+  "key": "If active:anger: {0} Citizens of the current Round type die",
+  "vi": "Nếu Anger đang hoạt động: {0} Công dân thuộc loại của Vòng hiện tại chết"
+ },
+ {
+  "key": "If active:anger: {0} sick Child",
+  "vi": "Nếu Anger đang hoạt động: {0} Trẻ em bị bệnh"
+ },
+ {
+  "key": "If active:anger: Discontent +{0}",
+  "vi": "Nếu Anger đang hoạt động: Discontent +{0}"
+ },
+ {
+  "key": "If active:anger: Place {0} Spent Worker or Engineer token in the supply, Place {1} Spent Child tokens in the supply else Place {2} Spent Worker or Engineer token in the supply, Place {3} Spent Child token in the supply",
+  "vi": "Nếu Anger đang hoạt động: đặt {0} dấu Công nhân hoặc Kỹ sư đã dùng vào kho chung, đặt {1} dấu Trẻ em đã dùng vào kho chung; nếu không thì đặt {2} dấu Công nhân hoặc Kỹ sư đã dùng vào kho chung, đặt {3} dấu Trẻ em đã dùng vào kho chung"
+ },
+ {
+  "key": "If active:apathy: {0} Worker die, Remove this card else {1} sick Worker, Remove this card",
+  "vi": "Nếu Apathy đang hoạt động: {0} Công nhân chết, gỡ bỏ thẻ này; nếu không thì {1} Công nhân bị bệnh, gỡ bỏ thẻ này"
+ },
+ {
+  "key": "If active:apathy: Place {0} Spent Worker or Engineer tokens in the supply else Place {1} Spent Worker or Engineer token in the supply",
+  "vi": "Nếu Apathy đang hoạt động: đặt {0} dấu Công nhân hoặc Kỹ sư đã dùng vào kho chung; nếu không thì đặt {1} dấu Công nhân hoặc Kỹ sư đã dùng vào kho chung"
+ },
+ {
+  "key": "If active:care: {0} sick Engineer",
+  "vi": "Nếu Care đang hoạt động: {0} Kỹ sư bị bệnh"
+ },
+ {
+  "key": "If active:care: Cure {0}, Remove this card else Cure {1}, Remove this card",
+  "vi": "Nếu Care đang hoạt động: Chữa {0}, gỡ bỏ thẻ này; nếu không thì Chữa {1}, gỡ bỏ thẻ này"
+ },
+ {
+  "key": "If active:care: Hope +{0}",
+  "vi": "Nếu Care đang hoạt động: Hope +{0}"
+ },
+ {
+  "key": "If active:care: sickPerActedChildMeeple:{0} else sickPerActedChildMeeple:{1}",
+  "vi": "Nếu Care đang hoạt động: sickPerActedChildMeeple:{0}; nếu không thì sickPerActedChildMeeple:{1}"
+ },
+ {
+  "key": "If active:greed: Discontent +{0}",
+  "vi": "Nếu Greed đang hoạt động: Discontent +{0}"
+ },
+ {
+  "key": "If active:justice: Discontent +{0} else Discontent +{1}, Activate justice",
+  "vi": "Nếu Justice đang hoạt động: Discontent +{0}; nếu không thì Discontent +{1}, kích hoạt justice"
+ },
+ {
+  "key": "If active:justice: Exhaust disc {0}",
+  "vi": "Nếu Justice đang hoạt động: Tiêu hao Discontent {0}"
+ },
+ {
+  "key": "If activeDisc>={0}: Discontent +{1} else Exhaust disc {2}  OR  exhaustHopeActive:{3}:apply",
+  "vi": "Nếu activeDisc>={0}: Discontent +{1}; nếu không thì Tiêu hao Discontent {2}  HOẶC  exhaustHopeActive:{3}:apply"
+ },
+ {
+  "key": "If activeDisc>={0}: Discontent +{1} else virtueEffect",
+  "vi": "Nếu activeDisc>={0}: Discontent +{1}; nếu không thì virtueEffect"
+ },
+ {
+  "key": "If allCitizensWarm: Discontent −{0}",
+  "vi": "Nếu allCitizensWarm: Discontent −{0}"
+ },
+ {
+  "key": "If allCitizensWarmNoRuins: Hope +{0} else Exhaust care, Hope −{1}",
+  "vi": "Nếu allCitizensWarmNoRuins: Hope +{0}; nếu không thì Tiêu hao care, Hope −{1}"
+ }
+]

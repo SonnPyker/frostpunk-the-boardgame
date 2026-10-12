@@ -1,0 +1,622 @@
+[
+ {
+  "key": "Society",
+  "vi": "Society"
+ },
+ {
+  "key": "Generator and city",
+  "vi": "Generator và thành phố"
+ },
+ {
+  "key": "A New Home: Crater",
+  "vi": "Ngôi nhà mới: Crater"
+ },
+ {
+  "key": "A New Home: Frozen Grove",
+  "vi": "Ngôi nhà mới: Frozen Grove"
+ },
+ {
+  "key": "A New Home: Dreadnought",
+  "vi": "Ngôi nhà mới: Dreadnought"
+ },
+ {
+  "key": "Society 3",
+  "vi": "Society {0}"
+ },
+ {
+  "key": "Hard",
+  "vi": "Khó"
+ },
+ {
+  "key": "Normal",
+  "vi": "Thường"
+ },
+ {
+  "key": "Co-op",
+  "vi": "Hợp tác"
+ },
+ {
+  "key": "Solo",
+  "vi": "Chơi đơn"
+ },
+ {
+  "key": "Round",
+  "vi": "Vòng"
+ },
+ {
+  "key": "round",
+  "vi": "vòng"
+ },
+ {
+  "key": "worker",
+  "vi": "công nhân"
+ },
+ {
+  "key": "engineer",
+  "vi": "kỹ sư"
+ },
+ {
+  "key": "child",
+  "vi": "trẻ em"
+ },
+ {
+  "key": "Round marker is here.",
+  "vi": "Mốc vòng đang ở đây."
+ },
+ {
+  "key": "Storm marker: the Storm card strikes on this Round.",
+  "vi": "Mốc Storm: thẻ Storm đánh vào vòng này."
+ },
+ {
+  "key": "Technology",
+  "vi": "Công nghệ"
+ },
+ {
+  "key": "completes this Round.",
+  "vi": "hoàn thành trong vòng này."
+ },
+ {
+  "key": "Scenario trigger:",
+  "vi": "Kích hoạt kịch bản:"
+ },
+ {
+  "key": "The Round marker advances each Round. The Round type icon is the Citizen type that feeds this Round.",
+  "vi": "Mốc vòng tiến lên sau mỗi vòng. Biểu tượng loại vòng là loại công dân cung cấp cho vòng này."
+ },
+ {
+  "key": "Storm marker on Round 3. Storms hit so far: 2.",
+  "vi": "Mốc Storm ở vòng {0}. Số lần Storm đã đánh cho đến nay: {1}."
+ },
+ {
+  "key": "No Storm marker left on the Round track. Storms hit so far: 2.",
+  "vi": "Không còn mốc Storm trên đường vòng. Số lần Storm đã đánh cho đến nay: {0}."
+ },
+ {
+  "key": "Storm at 3",
+  "vi": "Storm tại vòng {0}"
+ },
+ {
+  "key": "No storm left",
+  "vi": "Không còn Storm"
+ },
+ {
+  "key": "Technology under development:",
+  "vi": "Công nghệ đang phát triển:"
+ },
+ {
+  "key": "Developing",
+  "vi": "Đang phát triển"
+ },
+ {
+  "key": "Scenario triggers: scenario events that fire when the Round marker reaches their space.",
+  "vi": "Kích hoạt kịch bản: các sự kiện kịch bản xảy ra khi mốc vòng đến ô của chúng."
+ },
+ {
+  "key": "trigger",
+  "vi": "điểm kích hoạt"
+ },
+ {
+  "key": "triggers",
+  "vi": "điểm kích hoạt"
+ },
+ {
+  "key": "Round track",
+  "vi": "Đường vòng"
+ },
+ {
+  "key": "Phases",
+  "vi": "Các giai đoạn"
+ },
+ {
+  "key": "Dawn",
+  "vi": "Bình minh"
+ },
+ {
+  "key": "Morning",
+  "vi": "Buổi sáng"
+ },
+ {
+  "key": "Generator",
+  "vi": "Generator"
+ },
+ {
+  "key": "Weather",
+  "vi": "Thời tiết"
+ },
+ {
+  "key": "Preparation",
+  "vi": "Chuẩn bị"
+ },
+ {
+  "key": "Action",
+  "vi": "Hành động"
+ },
+ {
+  "key": "Dusk",
+  "vi": "Hoàng hôn"
+ },
+ {
+  "key": "Hunger",
+  "vi": "Đói"
+ },
+ {
+  "key": "Night",
+  "vi": "Đêm"
+ },
+ {
+  "key": "Dawn: scenario triggers fire and the Round begins.",
+  "vi": "Bình minh: kích hoạt kịch bản chạy và vòng bắt đầu."
+ },
+ {
+  "key": "Morning: draw and resolve the Morning event card.",
+  "vi": "Buổi sáng: rút và giải quyết thẻ sự kiện Buổi sáng."
+ },
+ {
+  "key": "Generator: optional fuelling, cold sickness, then Stress cubes drop.",
+  "vi": "Generator: tùy chọn nạp nhiên liệu, bệnh do lạnh, rồi các khối Căng thẳng rơi xuống."
+ },
+ {
+  "key": "Weather: heat, hunting, scouts and the Storm card.",
+  "vi": "Thời tiết: nhiệt, săn bắn, trinh sát và thẻ Storm."
+ },
+ {
+  "key": "Preparation: sickness is resolved, advisors and Call to Rise.",
+  "vi": "Chuẩn bị: giải quyết bệnh tật, các advisor và Call to Rise."
+ },
+ {
+  "key": "Action: players place Citizens on buildings, spaces and expeditions.",
+  "vi": "Hành động: người chơi đặt công dân lên công trình, ô và Expedition."
+ },
+ {
+  "key": "Dusk: draw the Dusk card and resolve its event.",
+  "vi": "Hoàng hôn: rút thẻ Dusk và giải quyết sự kiện của thẻ."
+ },
+ {
+  "key": "Hunger: spend Food, then apply the Hunger table.",
+  "vi": "Đói: chi Thực phẩm, rồi áp dụng bảng Đói."
+ },
+ {
+  "key": "Night: citizens find shelter; unsheltered citizens fall ill.",
+  "vi": "Đêm: công dân tìm nơi trú ẩn; công dân không có chỗ trú sẽ bị bệnh."
+ },
+ {
+  "key": "Players",
+  "vi": "Người chơi"
+ },
+ {
+  "key": "(leader: has the final word on advisors)",
+  "vi": "(lãnh đạo: có quyết định cuối cùng về advisor)"
+ },
+ {
+  "key": ", to act now",
+  "vi": ", đến lượt đi"
+ },
+ {
+  "key": "Hand: 1 Citizen card.",
+  "vi": "Trên tay: {0} thẻ công dân."
+ },
+ {
+  "key": "Hand: 2 Citizen cards.",
+  "vi": "Trên tay: {0} thẻ công dân."
+ },
+ {
+  "key": "You",
+  "vi": "Bạn"
+ },
+ {
+  "key": "Turn",
+  "vi": "Lượt"
+ },
+ {
+  "key": "Advisor:",
+  "vi": "Advisor:"
+ },
+ {
+  "key": "No advisor chosen.",
+  "vi": "Chưa chọn advisor."
+ },
+ {
+  "key": "Advisor",
+  "vi": "Advisor"
+ },
+ {
+  "key": "No advisor",
+  "vi": "Chưa có advisor"
+ },
+ {
+  "key": "Played",
+  "vi": "Đã đánh"
+ },
+ {
+  "key": "Nothing played",
+  "vi": "Chưa đánh thẻ"
+ },
+ {
+  "key": "Citizen card played this Round: its main ability is available.",
+  "vi": "Thẻ công dân đã đánh trong vòng này: khả năng chính của thẻ đã sẵn sàng."
+ },
+ {
+  "key": "No Citizen card played this Round.",
+  "vi": "Chưa đánh thẻ công dân nào trong vòng này."
+ },
+ {
+  "key": "Game log",
+  "vi": "Nhật ký trò chơi"
+ },
+ {
+  "key": "Log",
+  "vi": "Nhật ký"
+ },
+ {
+  "key": "Showing key events only. Click to show every line.",
+  "vi": "Chỉ hiện sự kiện chính. Bấm để hiện mọi dòng."
+ },
+ {
+  "key": "Hide routine draws, activations and exhausts.",
+  "vi": "Ẩn các lượt rút, kích hoạt và kiệt sức thường lệ."
+ },
+ {
+  "key": "Key events",
+  "vi": "Sự kiện chính"
+ },
+ {
+  "key": "All lines",
+  "vi": "Mọi dòng"
+ },
+ {
+  "key": "The log is empty.",
+  "vi": "Nhật ký trống."
+ },
+ {
+  "key": "R",
+  "vi": "V"
+ },
+ {
+  "key": "City stock",
+  "vi": "Kho của thành phố"
+ },
+ {
+  "key": "Food",
+  "vi": "Thực phẩm"
+ },
+ {
+  "key": "Wood",
+  "vi": "Gỗ"
+ },
+ {
+  "key": "Coal",
+  "vi": "Than"
+ },
+ {
+  "key": "Steam Core",
+  "vi": "Steam Core"
+ },
+ {
+  "key": "Steel",
+  "vi": "Thép"
+ },
+ {
+  "key": "Automatons",
+  "vi": "Automaton"
+ },
+ {
+  "key": "Corpses",
+  "vi": "Xác chết"
+ },
+ {
+  "key": "Stress",
+  "vi": "Căng thẳng"
+ },
+ {
+  "key": "Heat",
+  "vi": "Nhiệt"
+ },
+ {
+  "key": "Food stock. Spend it in the Hunger phase; 1 Food = -1 Hunger.",
+  "vi": "Kho thực phẩm. Chi trong giai đoạn Đói; {0} Thực phẩm = -{1} Đói."
+ },
+ {
+  "key": "Wood in the supply.",
+  "vi": "Gỗ trong kho."
+ },
+ {
+  "key": "Coal in the supply. Fuels the Generator and powers buildings.",
+  "vi": "Than trong kho. Làm nhiên liệu cho Generator và cấp điện cho công trình."
+ },
+ {
+  "key": "Steam Cores in the supply.",
+  "vi": "Steam Core trong kho."
+ },
+ {
+  "key": "Steel in the supply (max 8).",
+  "vi": "Thép trong kho (tối đa {0})."
+ },
+ {
+  "key": "Automatons available out of the maximum.",
+  "vi": "Automaton sẵn sàng trên tổng số tối đa."
+ },
+ {
+  "key": "Hunger marker. 25 or more loses the game.",
+  "vi": "Mốc Đói. Từ {0} trở lên sẽ thua ván đấu."
+ },
+ {
+  "key": "Corpses on the Corpse track. Reaching the last space loses the game.",
+  "vi": "Xác chết trên đường theo dõi xác chết. Đến ô cuối cùng sẽ thua ván đấu."
+ },
+ {
+  "key": "Stress cubes on the Generator track. Overflow breaks the Generator.",
+  "vi": "Khối Căng thẳng trên đường Generator. Tràn sẽ làm hỏng Generator."
+ },
+ {
+  "key": "Heat marker over the Cold marker. Citizens between them fall ill if the Generator is not fuelled.",
+  "vi": "Mốc Nhiệt nằm trên mốc Lạnh. Công dân nằm giữa hai mốc sẽ bị bệnh nếu Generator không được nạp nhiên liệu."
+ },
+ {
+  "key": "Decks",
+  "vi": "Bộ bài"
+ },
+ {
+  "key": "deck:",
+  "vi": "bộ bài:"
+ },
+ {
+  "key": "unknown",
+  "vi": "không rõ"
+ },
+ {
+  "key": "cards left. The cards themselves are hidden.",
+  "vi": "lá còn lại. Chính các lá bài bị ẩn."
+ },
+ {
+  "key": "Citizen",
+  "vi": "Công dân"
+ },
+ {
+  "key": "Social",
+  "vi": "Xã hội"
+ },
+ {
+  "key": "2 in play",
+  "vi": "{0} đang trên bàn"
+ },
+ {
+  "key": "Event display",
+  "vi": "Bảng sự kiện"
+ },
+ {
+  "key": "No events in play.",
+  "vi": "Chưa có sự kiện nào trên bàn."
+ },
+ {
+  "key": "Used this Round",
+  "vi": "Đã dùng trong vòng này"
+ },
+ {
+  "key": "Ready",
+  "vi": "Sẵn sàng"
+ },
+ {
+  "key": "This event has been used before.",
+  "vi": "Sự kiện này đã dùng trước đó."
+ },
+ {
+  "key": "This event has not been used yet.",
+  "vi": "Sự kiện này chưa được dùng."
+ },
+ {
+  "key": "used before",
+  "vi": "đã dùng trước đó"
+ },
+ {
+  "key": "No resources on this card",
+  "vi": "Thẻ này không có tài nguyên"
+ },
+ {
+  "key": "on this card: taken by the card's option.",
+  "vi": "trên thẻ này: được lấy theo lựa chọn của thẻ."
+ },
+ {
+  "key": "Meeples",
+  "vi": "Meeple"
+ },
+ {
+  "key": "meeple (#3) on this event.",
+  "vi": "meeple (#{0}) trên sự kiện này."
+ },
+ {
+  "key": "automaton",
+  "vi": "automaton"
+ },
+ {
+  "key": "childWorker",
+  "vi": "trẻ em công nhân"
+ },
+ {
+  "key": "childEngineer",
+  "vi": "trẻ em kỹ sư"
+ },
+ {
+  "key": "Hand",
+  "vi": "Trên tay"
+ },
+ {
+  "key": "'s Citizen cards",
+  "vi": "'s thẻ công dân"
+ },
+ {
+  "key": "No seat",
+  "vi": "Chưa có chỗ"
+ },
+ {
+  "key": "card",
+  "vi": "thẻ"
+ },
+ {
+  "key": "cards",
+  "vi": "thẻ"
+ },
+ {
+  "key": "No Citizen cards in hand.",
+  "vi": "Không có thẻ công dân nào trên tay."
+ },
+ {
+  "key": "Laws",
+  "vi": "Laws"
+ },
+ {
+  "key": "Tech",
+  "vi": "Công nghệ"
+ },
+ {
+  "key": "Events",
+  "vi": "Sự kiện"
+ },
+ {
+  "key": "Expeditions",
+  "vi": "Expeditions"
+ },
+ {
+  "key": "–",
+  "vi": "–"
+ },
+ {
+  "key": "Weather & Storm: no Storm marker left on the Round track.",
+  "vi": "Thời tiết & Storm: không còn mốc Storm trên đường vòng."
+ },
+ {
+  "key": "Weather & Storm: the Storm marker is on Round 3.",
+  "vi": "Thời tiết & Storm: mốc Storm đang ở vòng {0}."
+ },
+ {
+  "key": "Laws in play: 2 of 4 slots.",
+  "vi": "Laws đang có: {0} trên {1} ô."
+ },
+ {
+  "key": "Technologies developed: 3 of 12.",
+  "vi": "Công nghệ đã phát triển: {0} trên {1}."
+ },
+ {
+  "key": "Event cards in play: 2.",
+  "vi": "Thẻ sự kiện đang có: {0}."
+ },
+ {
+  "key": "Expedition stacks out: 2.",
+  "vi": "Chồng Expedition đang ra ngoài: {0}."
+ },
+ {
+  "key": "A decision is waiting for you here.",
+  "vi": "Có quyết định đang chờ bạn ở đây."
+ },
+ {
+  "key": "Collapse City",
+  "vi": "Thu gọn Thành phố"
+ },
+ {
+  "key": "Expand City",
+  "vi": "Mở rộng Thành phố"
+ },
+ {
+  "key": "City",
+  "vi": "Thành phố"
+ },
+ {
+  "key": "City sections",
+  "vi": "Các mục Thành phố"
+ },
+ {
+  "key": "Worker card",
+  "vi": "Thẻ công nhân"
+ },
+ {
+  "key": "Engineer card",
+  "vi": "Thẻ kỹ sư"
+ },
+ {
+  "key": "Child card",
+  "vi": "Thẻ trẻ em"
+ },
+ {
+  "key": "Citizen card",
+  "vi": "Thẻ công dân"
+ },
+ {
+  "key": "Morning event",
+  "vi": "Sự kiện Buổi sáng"
+ },
+ {
+  "key": "Dusk event",
+  "vi": "Sự kiện Dusk"
+ },
+ {
+  "key": "Law",
+  "vi": "Law"
+ },
+ {
+  "key": "Law consequence",
+  "vi": "Hệ quả Law"
+ },
+ {
+  "key": "Social Dispute",
+  "vi": "Social Dispute"
+ },
+ {
+  "key": "Scenario",
+  "vi": "Kịch bản"
+ },
+ {
+  "key": "Storm",
+  "vi": "Storm"
+ },
+ {
+  "key": "Expedition A",
+  "vi": "Expedition A"
+ },
+ {
+  "key": "Expedition B",
+  "vi": "Expedition B"
+ },
+ {
+  "key": "Expedition C",
+  "vi": "Expedition C"
+ },
+ {
+  "key": "Card",
+  "vi": "Thẻ"
+ },
+ {
+  "key": "hard society",
+  "vi": "xã hội khó"
+ },
+ {
+  "key": "normal society",
+  "vi": "xã hội thường"
+ },
+ {
+  "key": "Collapse",
+  "vi": "Thu gọn"
+ },
+ {
+  "key": "Expand",
+  "vi": "Mở rộng"
+ }
+]

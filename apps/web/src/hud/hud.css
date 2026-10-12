@@ -1,0 +1,2209 @@
+/* HUD styles. Theme tokens come from src/styles/theme.css (SHELL); every var() carries a fallback so the HUD renders standalone. */
+
+/* ---------- Layout -------------------------------------------------------------------------------------- */
+
+.hud {
+  position: absolute;
+  inset: 0;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: 360px minmax(0, 1fr) 360px;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  pointer-events: none;
+  color: var(--frost, #dff1f8);
+  font-family: 'Barlow Condensed', 'Barlow', 'Arial Narrow', sans-serif;
+  font-size: 14px;
+  line-height: 1.3;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hud-top {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  pointer-events: auto;
+  min-width: 0;
+}
+
+.hud-left,
+.hud-right {
+  grid-row: 2;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  pointer-events: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #33464f transparent;
+}
+.hud-left {
+  grid-column: 1;
+  padding: 8px 0 8px 8px;
+}
+.hud-right {
+  grid-column: 3;
+  /* Generator stays put; the City section takes the remaining height and scrolls inside its own body. */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 8px 8px 8px 0;
+}
+.hud-right > .hud-generator {
+  flex: none;
+}
+.hud-right > .hud-city {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+
+.hud-center {
+  grid-column: 2;
+  grid-row: 2;
+  pointer-events: none;
+}
+
+.hud-bottom {
+  grid-column: 1 / -1;
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(380px, 560px) 330px;
+  gap: 10px;
+  align-items: stretch;
+  padding: 8px 10px 10px;
+  border-top: 1px solid #2b3d49;
+  background: linear-gradient(0deg, rgba(5, 9, 12, 0.97), rgba(5, 9, 12, 0.78));
+  pointer-events: none;
+}
+.hud-bottom > * {
+  pointer-events: auto;
+  min-width: 0;
+}
+.hud-bottom-c {
+  /* the decision panel is mounted here (absolutely placed over the map, see .decision-dock); the gaps let the map show */
+  position: relative;
+  pointer-events: none;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.hud-bottom-c > * {
+  pointer-events: auto;
+  max-width: 100%;
+}
+.hud-bottom-l {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.hud-bottom-r {
+  height: 196px;
+  max-height: 32vh;
+}
+
+/* ---------- Tooltip --------------------------------------------------------------------------------------- */
+
+.hud-tip {
+  position: fixed;
+  z-index: 80;
+  max-width: 320px;
+  padding: 7px 10px;
+  background: rgba(8, 13, 17, 0.97);
+  border: 1px solid #3b5566;
+  border-left: 2px solid var(--ember, #ff9b2f);
+  color: var(--frost, #dff1f8);
+  font: 500 13px/1.35 'Barlow Condensed', 'Barlow', sans-serif;
+  white-space: pre-line;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(3px);
+  transition: opacity 0.12s ease, transform 0.12s ease;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+.hud-tip.on {
+  opacity: 1;
+  transform: none;
+}
+
+/* ---------- Panel frame ------------------------------------------------------------------------------------ */
+
+.hud-panel {
+  position: relative;
+  margin: 0 0 10px;
+  padding: 0 12px 12px;
+  background: linear-gradient(180deg, rgba(20, 31, 39, 0.94), rgba(10, 16, 21, 0.92));
+  border: 1px solid var(--steel-dim, #2b3d49);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+.hud-panel::before,
+.hud-panel::after {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border: 0 solid var(--steel-hi, #b9cdd8);
+  pointer-events: none;
+}
+.hud-panel::before {
+  top: -1px;
+  left: -1px;
+  border-top-width: 2px;
+  border-left-width: 2px;
+}
+.hud-panel::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+}
+
+.hud-panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 34px;
+  margin: 0 -12px 8px;
+  padding: 0 12px;
+  background: linear-gradient(90deg, #1b2a33, #111b21 70%);
+  border-bottom: 1px solid #2b3d49;
+}
+.hud-panel.is-collapsed .hud-panel-head {
+  margin-bottom: 0;
+  border-bottom-color: transparent;
+}
+.hud-panel-toggle {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  height: 34px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--steel-hi, #b9cdd8);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.hud-panel-title {
+  font-family: Oswald, 'Barlow Condensed', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.hud-caret {
+  margin-left: auto;
+  color: var(--steel, #7c93a1);
+  font-size: 12px;
+}
+.hud-panel-aside {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  color: var(--steel, #7c93a1);
+  white-space: nowrap;
+}
+.hud-panel-toggle:focus-visible,
+.hud-chip-btn:focus-visible {
+  outline: 2px solid var(--ember-hi, #ffc766);
+  outline-offset: 2px;
+}
+
+.hud-ico {
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vertical-align: middle;
+}
+.hud-ico .f {
+  fill: currentColor;
+  stroke: none;
+}
+
+.hud-muted {
+  color: var(--steel, #7c93a1);
+}
+.hud-small {
+  font-size: 11px;
+}
+.hud-empty {
+  margin: 6px 0;
+  color: var(--steel, #7c93a1);
+  font-style: italic;
+  font-size: 12px;
+}
+.hud-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-family: Oswald, sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--steel, #7c93a1);
+}
+.hud-divider {
+  height: 1px;
+  margin: 10px 0;
+  background: linear-gradient(90deg, transparent, #2b3d49, transparent);
+}
+.hud-num {
+  margin-left: auto;
+  font-family: Oswald, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--frost, #dff1f8);
+}
+
+/* ---------- Cards ----------------------------------------------------------------------------------------- */
+
+.hud-card {
+  position: relative;
+  flex: none;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid #33464f;
+  background: #0b1217;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+  container-type: inline-size;
+}
+.hud-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.7);
+  border-color: var(--steel-hi, #b9cdd8);
+}
+.hud-card.has-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hud-card.is-dim {
+  filter: grayscale(0.7) brightness(0.6);
+}
+.hud-card.is-pick {
+  cursor: pointer;
+  outline: 2px solid var(--ember, #ff9b2f);
+  outline-offset: 2px;
+  animation: hud-pulse 1.6s ease-in-out infinite;
+}
+.hud-card.is-pick:hover {
+  transform: translateY(-4px);
+}
+.hud-card-badge {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 0 5px;
+  background: rgba(5, 9, 12, 0.9);
+  border: 1px solid #4a6372;
+  color: var(--ember-hi, #ffc766);
+  font-family: Oswald, sans-serif;
+  font-size: 11px;
+}
+
+@keyframes hud-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 155, 47, 0.4), 0 0 8px rgba(255, 155, 47, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 0 4px rgba(255, 155, 47, 0.12), 0 0 22px rgba(255, 155, 47, 0.9);
+  }
+}
+
+/* Text card fallback (no art): sizes follow --w */
+.hud-face {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: calc(var(--w, 120px) * 0.07) calc(var(--w, 120px) * 0.08);
+  border-top: calc(var(--w, 120px) * 0.035) solid var(--accent, #7c93a1);
+  background: radial-gradient(120% 70% at 50% 0%, #243540 0%, #0e171d 60%, #081015 100%);
+  color: #dff1f8;
+  overflow: hidden;
+}
+.hud-face-kind {
+  display: flex;
+  align-items: center;
+  gap: calc(var(--w, 120px) * 0.03);
+  color: var(--accent, #7c93a1);
+  font-size: calc(var(--w, 120px) * 0.068);
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.hud-face-title {
+  margin: calc(var(--w, 120px) * 0.04) 0 calc(var(--w, 120px) * 0.04);
+  font-family: Oswald, 'Barlow Condensed', sans-serif;
+  font-size: calc(var(--w, 120px) * 0.12);
+  line-height: 1.02;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.hud-face-rule {
+  height: 1px;
+  margin-bottom: calc(var(--w, 120px) * 0.05);
+  background: linear-gradient(90deg, var(--accent, #7c93a1), transparent);
+}
+.hud-face-body {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  color: #b9cdd8;
+  font-size: calc(var(--w, 120px) * 0.075);
+  line-height: 1.3;
+}
+.hud-face-body p {
+  margin: 0 0 calc(var(--w, 120px) * 0.045);
+}
+.hud-face-id {
+  position: absolute;
+  right: calc(var(--w, 120px) * 0.06);
+  bottom: calc(var(--w, 120px) * 0.04);
+  color: #4a6372;
+  font-family: Oswald, sans-serif;
+  font-size: calc(var(--w, 120px) * 0.07);
+  letter-spacing: 0.1em;
+}
+/* small cards: keep the title and kind only */
+@container (max-width: 80px) {
+  .hud-face-body,
+  .hud-face-rule {
+    display: none;
+  }
+}
+
+/* Zoom preview (portal) */
+.hud-zoom {
+  position: fixed;
+  z-index: 60;
+  overflow: hidden;
+  pointer-events: none;
+  border-radius: 10px;
+  border: 1px solid var(--steel, #7c93a1);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.75), 0 0 28px rgba(255, 155, 47, 0.25);
+  background: #0b1217;
+  animation: hud-zoom-in 0.12s ease-out;
+}
+.hud-zoom .hud-face {
+  border-radius: 10px;
+}
+.hud-zoom-art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hud-zoom-text {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  max-height: 58%;
+  padding: 36px 14px 12px;
+  overflow: hidden;
+  background: linear-gradient(transparent, rgba(4, 8, 11, 0.96) 30%);
+  font-size: 15px;
+  line-height: 1.3;
+  color: #c9dbe4;
+}
+.hud-zoom-text p {
+  margin: 0 0 6px;
+}
+.hud-zoom-kind {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ember-hi, #ffc766);
+}
+.hud-zoom-title {
+  margin: 2px 0 6px;
+  font-family: Oswald, sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #fff;
+}
+@keyframes hud-zoom-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.hud-empty-slot {
+  display: grid;
+  place-items: center;
+  padding: 6px;
+  border: 1px dashed #33464f;
+  border-radius: 4px;
+  color: var(--steel, #7c93a1);
+  font-size: 11px;
+  text-align: center;
+}
+
+.hud-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 6px;
+  border: 1px solid #33464f;
+  color: var(--frost, #dff1f8);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+/* ---------- Society board ---------------------------------------------------------------------------------- */
+
+.hud-block {
+  margin: 10px 0 2px;
+}
+.hud-block:first-of-type {
+  margin-top: 6px;
+}
+.hud-block-head {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+  font-family: Oswald, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--steel-hi, #b9cdd8);
+}
+.hud-block-head .hud-num {
+  font-size: 18px;
+}
+
+.hud-cit {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: 1px dashed #22333d;
+  --c: #c9b98a;
+}
+.hud-cit-icon {
+  color: var(--c);
+  filter: drop-shadow(0 0 3px var(--c));
+  width: 24px;
+  height: 24px;
+}
+.hud-cit-main {
+  flex: 1;
+  min-width: 0;
+}
+.hud-cit-top {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.hud-cit-name {
+  color: var(--c);
+  font-family: Oswald, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hud-cit-count {
+  margin-left: auto;
+  font-family: Oswald, sans-serif;
+  font-size: 22px;
+  line-height: 1;
+}
+.hud-cit-figs {
+  display: inline-flex;
+  align-items: flex-end;
+  gap: 2px;
+  height: 12px;
+}
+.hud-cit-figs i {
+  width: 4px;
+  height: 10px;
+  border-radius: 2px 2px 1px 1px;
+  background: var(--c);
+  opacity: 0.7;
+}
+.hud-bar {
+  position: relative;
+  height: 7px;
+  margin: 5px 0 4px;
+  background: #081015;
+  border: 1px solid #22333d;
+}
+.hud-bar-fill {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: var(--c);
+  opacity: 0.55;
+}
+.hud-bar-sick {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: repeating-linear-gradient(45deg, #d8483f 0 3px, #6e1b16 3px 6px);
+}
+.hud-cit-foot {
+  display: flex;
+  gap: 12px;
+  font-size: 11px;
+  color: var(--steel, #7c93a1);
+}
+.hud-cit-foot b {
+  color: var(--frost, #dff1f8);
+  font-weight: 600;
+}
+
+.hud-sick {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 1px 6px 1px 4px;
+  border: 1px solid;
+  border-radius: 10px;
+  font-size: 11px;
+}
+.hud-sick b {
+  font-weight: 600;
+}
+.hud-sick.is-syringe {
+  color: #b9cdd8;
+  border-color: #4a6372;
+  background: #0f1a21;
+}
+.hud-sick.is-skull {
+  color: #ffb3a8;
+  border-color: #d8483f;
+  background: #2a0f0c;
+}
+
+.hud-food {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-left: auto;
+  color: var(--food, #e8d9a0);
+  font-size: 12px;
+}
+.hud-food b {
+  font-family: Oswald, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.hud-hunger-track {
+  display: grid;
+  grid-template-columns: repeat(25, minmax(0, 1fr));
+  gap: 2px;
+  height: 14px;
+}
+.hud-hcell {
+  display: block;
+  background: #15222a;
+  border-radius: 1px;
+}
+.hud-hcell.tier-1 { background: rgba(184, 134, 47, 0.16); }
+.hud-hcell.tier-2 { background: rgba(209, 99, 42, 0.16); }
+.hud-hcell.tier-3 { background: rgba(216, 72, 63, 0.18); }
+.hud-hcell.tier-4 { background: rgba(255, 77, 61, 0.3); }
+.hud-hcell.is-on.tier-1 { background: #b8862f; }
+.hud-hcell.is-on.tier-2 { background: #d1632a; }
+.hud-hcell.is-on.tier-3 { background: #d8483f; }
+.hud-hcell.is-on.tier-4 { background: #ff4d3d; box-shadow: 0 0 6px #ff4d3d; }
+.hud-hcell.is-marker {
+  box-shadow: 0 0 0 1px #fff, 0 0 8px #ffffffaa;
+}
+.hud-hunger-scale {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2px;
+  font-size: 10px;
+  color: var(--steel, #7c93a1);
+}
+.hud-consequence {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: var(--frost-dim, #8fb2c2);
+}
+.hud-consequence b {
+  color: var(--steel-hi, #b9cdd8);
+  font-weight: 600;
+}
+.hud-consequence.tier-1 { color: #e0b874; }
+.hud-consequence.tier-2 { color: #f09a6a; }
+.hud-consequence.tier-3 { color: #ff8a7a; }
+.hud-consequence.tier-4 { color: #ff4d3d; font-weight: 600; }
+
+.hud-corpse-track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 2px;
+}
+.hud-ccell {
+  height: 10px;
+  background: #14202a;
+  border: 1px solid #22333d;
+  border-radius: 1px;
+}
+.hud-ccell.is-on {
+  background: #7d6a5a;
+  border-color: #9b8571;
+}
+.hud-ccell.is-last {
+  border-color: var(--danger, #ff4d3d);
+}
+
+.hud-slots {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 6px;
+  justify-items: center;
+}
+.hud-tokens.disc .hud-slots {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.hud-slot {
+  width: 40px;
+  height: 40px;
+  border: 1px dashed #2b3d49;
+  border-radius: 50%;
+}
+.hud-token {
+  width: 42px;
+  height: 42px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  border: 2px solid var(--c, #888);
+  background: radial-gradient(circle at 35% 30%, #2a3b46, #0b1216 80%);
+  color: var(--c, #888);
+  font-family: Oswald, sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+  overflow: hidden;
+}
+.hud-token img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hud-token.is-active {
+  background: radial-gradient(circle at 35% 30%, var(--c, #888), #0b1216 85%);
+  color: #071015;
+  box-shadow: 0 0 10px var(--c, #888);
+}
+.hud-token.is-exhausted {
+  border-style: dashed;
+  filter: grayscale(0.75) brightness(0.6);
+}
+.hud-token.is-active b {
+  color: #071015;
+}
+.hud-bag {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 10px;
+  margin-top: 8px;
+}
+.hud-bag-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: var(--steel, #7c93a1);
+}
+.hud-bag-chip i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--c, #888);
+}
+.hud-bag-chip b {
+  color: var(--frost, #dff1f8);
+  font-weight: 600;
+}
+
+.hud-supply {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 6px;
+}
+.hud-supply-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  background: rgba(5, 9, 12, 0.55);
+  border: 1px solid #22333d;
+  border-radius: 3px;
+  color: var(--steel-hi, #b9cdd8);
+}
+.hud-supply-val {
+  font-family: Oswald, sans-serif;
+  font-size: 20px;
+  line-height: 1;
+  color: var(--frost, #dff1f8);
+}
+.hud-supply-label {
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.hud-supply-sub {
+  font-size: 10px;
+  color: var(--steel, #7c93a1);
+}
+
+/* ---------- Generator ------------------------------------------------------------------------------------- */
+
+.hud-flags {
+  display: inline-flex;
+  gap: 4px;
+}
+.hud-flag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 6px;
+  border: 1px solid #4a6372;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--steel-hi, #b9cdd8);
+}
+.hud-flag.is-bad {
+  color: #ff8a7a;
+  border-color: #8a2a22;
+  background: #2a0f0c;
+}
+.hud-flag.is-good {
+  color: #9be3ad;
+  border-color: #2f6b43;
+}
+.hud-flag.is-carry {
+  white-space: nowrap;
+  color: var(--ember-hi);
+  border-color: var(--ember-lo);
+  background: #14202a;
+}
+
+.hud-heat-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.hud-heat-read {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: Oswald, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ember-hi, #ffc766);
+}
+.hud-heat-read b {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+.hud-heat-read.is-cold {
+  color: var(--care, #8bd2ff);
+}
+
+.hud-heat-track {
+  display: grid;
+  grid-template-columns: repeat(var(--n, 16), minmax(0, 1fr));
+  gap: 2px;
+  padding: 6px 4px 4px;
+  background: linear-gradient(180deg, #2a1a16, #170d0b);
+  border: 1px solid #4a2d24;
+  border-radius: 3px;
+}
+.hud-hc {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  min-height: 66px;
+  padding: 4px 0 4px;
+  background: rgba(0, 0, 0, 0.28);
+  border-radius: 2px;
+  font-size: 10px;
+  line-height: 1;
+}
+.hud-hc-num {
+  font-family: Oswald, sans-serif;
+  font-size: 11px;
+  color: var(--ember-hi, #ffc766);
+}
+.hud-hc-cubes {
+  font-size: 10px;
+  color: #b59b84;
+}
+.hud-hc-icon {
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid var(--c, transparent);
+  color: var(--c, transparent);
+}
+.hud-hc.is-between {
+  background: rgba(139, 210, 255, 0.07);
+}
+.hud-hc.is-cold {
+  box-shadow: inset 0 -3px 0 #8bd2ff;
+}
+.hud-hc.is-beyond {
+  opacity: 0.55;
+}
+.hud-hc.is-heat {
+  background: linear-gradient(180deg, #ffc766, #ff7a1a);
+  color: #140a05;
+  box-shadow: 0 0 14px rgba(255, 155, 47, 0.6);
+}
+.hud-hc.is-heat .hud-hc-num,
+.hud-hc.is-heat .hud-hc-cubes {
+  color: #140a05;
+}
+.hud-zone-pin {
+  position: absolute;
+  top: -7px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  color: #0b0a08;
+  font-family: Oswald, sans-serif;
+  font-size: 9px;
+  line-height: 13px;
+  text-align: center;
+  font-weight: 600;
+}
+.hud-zone-pin.is-red { background: #e5533d; }
+.hud-zone-pin.is-orange { background: #ff9b2f; }
+.hud-zone-pin.is-yellow { background: #f2d15a; }
+
+.hud-zones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 10px 0 4px;
+}
+.hud-zone {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 6px;
+  border: 1px solid;
+  border-radius: 2px;
+  font-size: 11px;
+  color: var(--steel, #7c93a1);
+}
+.hud-zone b {
+  font-weight: 600;
+}
+.hud-zone i {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+}
+.hud-zone.is-red { color: #e5533d; border-color: #6e2a22; }
+.hud-zone.is-orange { color: #ff9b2f; border-color: #6e4a1c; }
+.hud-zone.is-yellow { color: #f2d15a; border-color: #6e6428; }
+.hud-zone.is-heated { background: rgba(255, 155, 47, 0.12); color: #ffc766; }
+.hud-zone.is-removed {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+.hud-stress {
+  margin-top: 8px;
+}
+.hud-stress-slots {
+  display: grid;
+  grid-template-columns: repeat(10, minmax(0, 1fr)) minmax(20px, 26px);
+  gap: 4px;
+  align-items: center;
+}
+.hud-cube {
+  height: 18px;
+  background: #14202a;
+  border: 1px solid #33464f;
+  border-radius: 2px;
+}
+.hud-cube.is-on {
+  background: linear-gradient(#ffc766, #ff9b2f);
+  border-color: #ff9b2f;
+  box-shadow: 0 0 6px rgba(255, 155, 47, 0.45);
+}
+.hud-cube.is-overflow {
+  margin-left: 4px;
+  background: #1d0e0c;
+  border-color: #8a2a22;
+}
+.hud-cube.is-overflow.is-on {
+  background: #ff4d3d;
+  box-shadow: 0 0 10px #ff4d3d;
+}
+
+.hud-gen-foot {
+  display: grid;
+  gap: 6px;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.hud-fuel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--ember-hi, #ffc766);
+}
+.hud-drop {
+  color: var(--steel-hi, #b9cdd8);
+}
+.hud-cold-hit {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+.hud-cold-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 6px;
+  border: 1px solid var(--c, #888);
+  color: var(--c, #888);
+  font-size: 11px;
+}
+
+/* ---------- Top bar: scenario, round track, phases --------------------------------------------------------- */
+
+.hud-topbar {
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr) auto;
+  align-items: stretch;
+  gap: 12px;
+  min-height: 64px;
+  padding: 6px 12px;
+  background: linear-gradient(180deg, rgba(8, 13, 17, 0.97), rgba(8, 13, 17, 0.8));
+  border-bottom: 1px solid #2b3d49;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+.hud-scenario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+.hud-scenario-name {
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--frost, #dff1f8);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hud-scenario-sub {
+  font-size: 12px;
+  color: var(--steel, #7c93a1);
+  white-space: nowrap;
+}
+.hud-scenario-sub b {
+  color: var(--frost, #dff1f8);
+}
+
+.hud-rounds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 0;
+}
+.hud-rounds-cells {
+  display: grid;
+  grid-template-columns: repeat(var(--n, 15), minmax(0, 1fr));
+  gap: 3px;
+}
+.hud-round {
+  position: relative;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+  background: rgba(5, 9, 12, 0.7);
+  border: 1px solid #2b3d49;
+  border-radius: 2px;
+}
+.hud-round-num {
+  font-family: Oswald, sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  color: var(--steel-hi, #b9cdd8);
+}
+.hud-round-type {
+  line-height: 0;
+}
+.hud-round-type.is-child { color: #8fd16a; }
+.hud-round-type.is-engineer { color: #5fb6e6; }
+.hud-round-type.is-worker { color: #e89a3c; }
+.hud-round.is-past {
+  opacity: 0.45;
+}
+.hud-round.has-storm {
+  border-color: #9fb4c4;
+}
+.hud-round.is-current {
+  background: linear-gradient(180deg, #ffc766, #ff9b2f);
+  border-color: #ffc766;
+  box-shadow: 0 0 16px rgba(255, 155, 47, 0.55);
+}
+.hud-round.is-current .hud-round-num,
+.hud-round.is-current .hud-round-type {
+  color: #120a03;
+}
+.hud-round-storm {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  line-height: 0;
+  color: #9fb4c4;
+}
+.hud-round-dev {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  padding: 0 3px;
+  background: #6fd3ff;
+  color: #04121a;
+  font-family: Oswald, sans-serif;
+  font-size: 9px;
+  line-height: 12px;
+  border-radius: 2px;
+}
+.hud-round-trig {
+  position: absolute;
+  bottom: 3px;
+  right: 3px;
+  width: 6px;
+  height: 6px;
+  background: #d98cff;
+  transform: rotate(45deg);
+}
+.hud-rounds-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  margin-top: 5px;
+  font-size: 11px;
+  color: var(--steel, #7c93a1);
+}
+.hud-rounds-legend > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.hud-trig-key {
+  width: 6px;
+  height: 6px;
+  background: #d98cff;
+  transform: rotate(45deg);
+}
+
+.hud-topbar-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 5px;
+}
+.hud-phases {
+  display: flex;
+  gap: 3px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hud-phase {
+  padding: 4px 7px;
+  border: 1px solid #2b3d49;
+  background: rgba(5, 9, 12, 0.7);
+  color: var(--steel, #7c93a1);
+  font-family: Oswald, sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: help;
+}
+.hud-phase.is-current {
+  background: linear-gradient(90deg, #ffc766, #ff9b2f);
+  border-color: #ffc766;
+  color: #120a03;
+  box-shadow: 0 0 14px rgba(255, 155, 47, 0.5);
+}
+.hud-menu {
+  pointer-events: auto;
+}
+
+/* ---------- Weather & Storm ------------------------------------------------------------------------------- */
+
+.hud-weather {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+.hud-weather-title {
+  margin: 2px 0 6px;
+  font-family: Oswald, sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+.hud-heat-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.hud-heat-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 1px 5px;
+  border: 1px solid #33464f;
+  color: var(--frost-dim, #8fb2c2);
+  font-size: 11px;
+}
+.hud-heat-chip b {
+  color: #fff;
+  font-weight: 600;
+}
+.hud-heat-chip.is-cold { color: #8bd2ff; border-color: #2a4a5c; }
+.hud-heat-chip.is-yellow { color: #f2d15a; border-color: #6e6428; }
+.hud-heat-chip.is-orange { color: #ff9b2f; border-color: #6e4a1c; }
+.hud-heat-chip.is-red { color: #e5533d; border-color: #6e2a22; }
+
+.hud-kv {
+  margin: 6px 0 0;
+  font-size: 12px;
+}
+.hud-kv > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 2px 0;
+  border-bottom: 1px dashed #22333d;
+}
+.hud-kv dt {
+  font-family: Oswald, sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--steel, #7c93a1);
+}
+.hud-kv dd {
+  margin: 0;
+  color: var(--frost, #dff1f8);
+}
+
+/* ---------- Laws ----------------------------------------------------------------------------------------- */
+
+.hud-laws {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+.hud-law {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  min-width: 0;
+}
+.hud-law-info {
+  min-width: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.hud-law-title {
+  font-family: Oswald, sans-serif;
+  font-size: 13px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.hud-law-state {
+  font-size: 11px;
+}
+.hud-covered {
+  color: var(--ok, #74d08a);
+}
+.hud-law-cover {
+  margin-top: 4px;
+}
+.hud-future {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.hud-future-title {
+  font-family: Oswald, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.hud-future-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.hud-future-card {
+  width: 64px;
+  min-width: 0;
+}
+.hud-future-name {
+  font-size: 10px;
+  line-height: 1.1;
+  margin-top: 2px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ---------- Technologies ----------------------------------------------------------------------------------- */
+
+.hud-dev-line {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+  padding: 6px 8px 8px;
+  background: rgba(111, 211, 255, 0.06);
+  border: 1px solid #1f4456;
+  color: var(--hope, #6fd3ff);
+  font-size: 12px;
+}
+.hud-dev-name {
+  color: var(--frost, #dff1f8);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.hud-dev-bar {
+  grid-column: 1 / -1;
+  position: relative;
+  height: 4px;
+  background: #081015;
+}
+.hud-dev-bar i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: calc(var(--p, 0) * 100%);
+  background: var(--hope, #6fd3ff);
+  box-shadow: 0 0 8px var(--hope, #6fd3ff);
+}
+.hud-techs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px;
+}
+.hud-tech {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-height: 46px;
+  padding: 5px 6px 7px;
+  background: rgba(5, 9, 12, 0.55);
+  border: 1px solid #22333d;
+  font-size: 11px;
+  overflow: hidden;
+}
+.hud-tech-id {
+  font-family: Oswald, sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--steel, #7c93a1);
+}
+.hud-tech-name {
+  line-height: 1.1;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.hud-tech-bar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: calc(var(--p, 0) * 100%);
+  background: var(--hope, #6fd3ff);
+}
+.hud-tech.is-done {
+  border-color: #2f6b43;
+}
+.hud-tech.is-done .hud-tech-name {
+  color: #9be3ad;
+}
+.hud-tech.is-developing {
+  border-color: #1f5a73;
+}
+.hud-tech.is-inactive {
+  opacity: 0.5;
+}
+.hud-tech-done {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  color: var(--ok, #74d08a);
+}
+
+/* ---------- Event display ---------------------------------------------------------------------------------- */
+
+.hud-events {
+  display: grid;
+  gap: 8px;
+}
+.hud-event {
+  display: grid;
+  grid-template-columns: 84px minmax(0, 1fr);
+  gap: 10px;
+  align-items: start;
+}
+.hud-event.is-used {
+  opacity: 0.65;
+}
+.hud-event-info {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.hud-event-title {
+  font-family: Oswald, sans-serif;
+  font-size: 13px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.hud-event-status {
+  font-size: 11px;
+  color: var(--steel, #7c93a1);
+}
+.hud-event-res,
+.hud-event-meeples {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+.hud-meeple {
+  display: grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #33464f;
+  border-radius: 50%;
+  color: var(--steel-hi, #b9cdd8);
+}
+.hud-meeple.is-worker { color: #e89a3c; border-color: #6e4a1c; }
+.hud-meeple.is-engineer { color: #5fb6e6; border-color: #2a4a5c; }
+.hud-meeple.is-child,
+.hud-meeple.is-childWorker,
+.hud-meeple.is-childEngineer { color: #8fd16a; border-color: #3b5a2a; }
+.hud-meeple.is-automaton { color: #c9d3da; }
+
+/* ---------- Expeditions ------------------------------------------------------------------------------------ */
+
+.hud-exp-cols {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+.hud-exp-col {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.hud-exp-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 4px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #22333d;
+  font-family: Oswald, sans-serif;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--steel-hi, #b9cdd8);
+}
+.hud-exp-head .hud-muted {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 11px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.hud-exp-empty {
+  display: grid;
+  place-items: center;
+  height: 120px;
+  border: 1px dashed #2b3d49;
+  color: var(--steel, #7c93a1);
+  font-size: 11px;
+}
+.hud-exp {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.hud-exp-card {
+  position: relative;
+  width: fit-content;
+}
+.hud-exp.is-black .hud-card {
+  filter: brightness(0.62) grayscale(0.55);
+}
+.hud-exp.is-waiting .hud-card {
+  outline: 1px dashed var(--ember, #ff9b2f);
+  outline-offset: 2px;
+}
+.hud-exp-depth {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  padding: 0 4px;
+  background: rgba(10, 17, 22, 0.85);
+  border: 1px solid #33464f;
+  font-size: 10px;
+  z-index: 1;
+}
+.hud-exp-black {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  padding: 1px 5px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #d8d8e0;
+  font-family: Oswald, sans-serif;
+  font-size: 9px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.hud-exp-steps {
+  display: grid;
+  grid-template-columns: repeat(var(--n, 2), minmax(0, 1fr));
+  gap: 3px;
+}
+.hud-step {
+  height: 6px;
+  background: #14202a;
+  border: 1px solid #2b3d49;
+}
+.hud-step.is-passed {
+  background: #3d5a68;
+}
+.hud-step.is-scout {
+  background: var(--ember, #ff9b2f);
+  border-color: var(--ember-hi, #ffc766);
+  box-shadow: 0 0 8px rgba(255, 155, 47, 0.7);
+}
+.hud-exp-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  color: var(--steel, #7c93a1);
+}
+
+/* ---------- Bottom: resources, seats, hand -------------------------------------------------------------- */
+
+.hud-resources {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.hud-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 7px;
+  border: 1px solid #2b3d49;
+  background: rgba(8, 13, 17, 0.85);
+  color: var(--steel, #7c93a1);
+  font-size: 12px;
+  white-space: nowrap;
+}
+.hud-pill b {
+  font-family: Oswald, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--frost, #dff1f8);
+}
+.hud-pill-label {
+  font-size: 11px;
+}
+.hud-pill.is-warn {
+  border-color: #8a6a2a;
+}
+.hud-pill.is-warn b {
+  color: var(--ember-hi, #ffc766);
+}
+.hud-pill.is-bad {
+  border-color: #8a2a22;
+}
+.hud-pill.is-bad b {
+  color: #ff8a7a;
+}
+
+.hud-seats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.hud-seat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 150px;
+  padding: 5px 7px;
+  background: rgba(8, 13, 17, 0.88);
+  border: 1px solid #2b3d49;
+  border-top: 2px solid var(--c, #888);
+}
+.hud-seat.is-you {
+  box-shadow: inset 0 0 0 1px rgba(185, 205, 216, 0.55);
+}
+.hud-seat.is-turn {
+  box-shadow: 0 0 12px rgba(255, 199, 102, 0.4);
+}
+.hud-seat-head {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-width: 0;
+  font-family: Oswald, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.hud-seat-swatch {
+  width: 7px;
+  height: 7px;
+  background: var(--c, #888);
+  transform: rotate(45deg);
+  flex: none;
+}
+.hud-seat-crown {
+  color: var(--ember-hi, #ffc766);
+}
+.hud-seat-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+}
+.hud-tag {
+  padding: 0 4px;
+  border: 1px solid #4a6372;
+  color: var(--frost-dim, #8fb2c2);
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.hud-tag.is-turn {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  color: #120a03;
+  background: var(--ember, #ff9b2f);
+  border-color: var(--ember, #ff9b2f);
+}
+.hud-seat-cards {
+  display: flex;
+  gap: 6px;
+}
+.hud-seat-slot {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.hud-seat-label {
+  font-size: 9px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--steel, #7c93a1);
+}
+.hud-seat-empty {
+  display: grid;
+  place-items: center;
+  padding: 2px;
+  border: 1px dashed #2b3d49;
+  color: var(--steel, #7c93a1);
+  font-size: 9px;
+  text-align: center;
+}
+
+.hud-hand {
+  min-width: 0;
+}
+.hud-hand-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+/* The hand fans its cards: HandPanel measures the strip and sets each slot's left, so cards overlap only as far as the
+   width needs. The hovered (or focused) card rises above its neighbours and zooms, so all seven stay reachable. */
+.hud-hand-cards {
+  position: relative;
+  box-sizing: border-box;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0;
+  scrollbar-width: thin;
+  scrollbar-color: #33464f transparent;
+}
+/* The hand stays left of the centre decision dock, so no card sits under the dock's options. */
+.hud-bottom-l > .hud-hand {
+  max-width: calc(50vw - min(370px, 31vw) - 24px);
+}
+.hud-hand-fan {
+  position: relative;
+  margin: 8px auto 0;
+}
+.hud-hand-slot {
+  position: absolute;
+  top: 0;
+  z-index: var(--z, 1);
+}
+.hud-hand-slot:hover,
+.hud-hand-slot:focus-within {
+  z-index: 200;
+}
+.hud-hand-slot .hud-card {
+  flex: none;
+}
+.hud-hand .hud-empty {
+  margin: 8px 0 0;
+}
+
+/* ---------- City (tabbed right-column section) ------------------------------------------------------------ */
+
+.hud-city {
+  padding-bottom: 12px;
+}
+.hud-tabs {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 4px;
+  margin: 0 0 8px;
+  flex: none;
+}
+.hud-tab {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-areas:
+    'ico count'
+    'label label';
+  align-items: center;
+  gap: 2px 4px;
+  min-width: 0;
+  padding: 5px 5px 4px;
+  background: rgba(8, 13, 17, 0.85);
+  border: 1px solid #2b3d49;
+  color: var(--steel, #7c93a1);
+  font: 500 11px/1.1 'Barlow Condensed', 'Barlow', sans-serif;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+.hud-tab > :not(.hud-tab-label):not(.hud-tab-count) {
+  grid-area: ico;
+}
+.hud-tab:hover {
+  color: var(--steel-hi, #b9cdd8);
+  border-color: #4a6372;
+}
+.hud-tab.is-on {
+  color: var(--frost, #dff1f8);
+  border-color: var(--steel-hi, #b9cdd8);
+  background: linear-gradient(180deg, #223540, #111b21);
+}
+.hud-tab.is-on::after {
+  content: '';
+  position: absolute;
+  left: -1px;
+  right: -1px;
+  bottom: -1px;
+  height: 2px;
+  background: var(--ember, #ff9b2f);
+}
+.hud-tab:focus-visible {
+  outline: 2px solid var(--ember-hi, #ffc766);
+  outline-offset: 2px;
+}
+.hud-tab-label {
+  grid-area: label;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  font-size: 10px;
+}
+.hud-tab-count {
+  grid-area: count;
+  justify-self: end;
+  font-family: Oswald, sans-serif;
+  font-size: 11px;
+  line-height: 1;
+  color: var(--ember-hi, #ffc766);
+}
+.hud-tab.is-needed {
+  border-color: var(--ember, #ff9b2f);
+  animation: hud-tab-pulse 1.6s ease-in-out infinite;
+}
+@keyframes hud-tab-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 155, 47, 0.35);
+  }
+  50% {
+    box-shadow: 0 0 14px 2px rgba(255, 155, 47, 0.55);
+  }
+}
+.hud-city-body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scrollbar-width: thin;
+  scrollbar-color: #33464f transparent;
+}
+/* Panels rendered inside the City body: the body supplies the frame, so the panel shows only its content. */
+.hud-embedded {
+  min-width: 0;
+}
+
+/* ---------- Log ----------------------------------------------------------------------------------------- */
+
+.hud-log {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  padding: 6px 8px;
+  background: rgba(8, 13, 17, 0.9);
+  border: 1px solid #2b3d49;
+}
+.hud-log-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.hud-chip-btn {
+  padding: 2px 9px;
+  background: transparent;
+  border: 1px solid #33464f;
+  color: var(--steel-hi, #b9cdd8);
+  font: 500 11px 'Barlow Condensed', sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  clip-path: polygon(6px 0, 100% 0, calc(100% - 6px) 100%, 0 100%);
+}
+.hud-chip-btn.is-on {
+  background: var(--ember, #ff9b2f);
+  border-color: var(--ember, #ff9b2f);
+  color: #120a03;
+}
+.hud-log-list {
+  flex: 1;
+  min-height: 0;
+  margin: 0;
+  padding: 0 4px 0 0;
+  overflow-y: auto;
+  list-style: none;
+  font-size: 12px;
+  scrollbar-width: thin;
+}
+.hud-log-row {
+  display: grid;
+  grid-template-columns: 14px 30px minmax(0, 1fr);
+  align-items: start;
+  gap: 4px;
+  padding: 2px 0;
+  border-bottom: 1px solid #14202a;
+  color: var(--frost-dim, #8fb2c2);
+}
+.hud-log-ico {
+  margin-top: 2px;
+  color: var(--steel, #7c93a1);
+}
+.hud-log-r {
+  font-family: Oswald, sans-serif;
+  font-size: 11px;
+  color: var(--steel, #7c93a1);
+}
+.hud-log-msg {
+  line-height: 1.25;
+}
+.hud-log-row.cat-sick .hud-log-ico,
+.hud-log-row.cat-cure .hud-log-ico { color: #8fd16a; }
+.hud-log-row.cat-die .hud-log-msg,
+.hud-log-row.cat-die .hud-log-ico { color: #ffb3a8; }
+.hud-log-row.cat-hope .hud-log-ico { color: var(--hope, #6fd3ff); }
+.hud-log-row.cat-disc .hud-log-ico { color: var(--disc, #d8483f); }
+.hud-log-row.cat-gen .hud-log-ico,
+.hud-log-row.cat-fuel .hud-log-ico,
+.hud-log-row.cat-stress .hud-log-ico { color: var(--ember, #ff9b2f); }
+.hud-log-row.cat-storm .hud-log-ico { color: #9fb4c4; }
+.hud-log-row.cat-law .hud-log-ico,
+.hud-log-row.cat-tech .hud-log-ico { color: #d9c27a; }
+
+/* ---------- Motion & accessibility -------------------------------------------------------------------------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .hud-card,
+  .hud-card.is-pick,
+  .hud-zoom,
+  .hud-tip {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Narrower windows: the side columns shrink so the map keeps the centre. */
+@media (max-width: 1500px) {
+  .hud {
+    grid-template-columns: 320px minmax(0, 1fr) 320px;
+  }
+  .hud-bottom {
+    grid-template-columns: minmax(0, 1fr) minmax(360px, 480px) 300px;
+  }
+  .hud-tab-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  .hud-tab {
+    grid-template-areas: 'ico count';
+    grid-template-columns: auto minmax(0, 1fr);
+    padding: 5px 4px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .hud {
+    grid-template-columns: 296px minmax(0, 1fr) 296px;
+  }
+  .hud-bottom {
+    grid-template-columns: minmax(0, 1fr) minmax(340px, 440px) 280px;
+  }
+  .hud-topbar {
+    grid-template-columns: 180px minmax(0, 1fr) auto;
+  }
+}
+
+/* Society column at 1080p and below. Its full height is about 780px and the column gets about 715px, so the blocks are
+   denser here: Population, Hunger, Hope, Discontent, Corpses and Supply all stay visible without a scroll. The per-citizen
+   Healthy / Sick / Spent line is collapsed (the same figures are in each row's tooltip), Supply runs as two columns,
+   and the column keeps bottom padding so its last line clears the resource strip. Tall screens keep the full layout. */
+@media (max-height: 1100px) {
+  .hud-left {
+    padding-bottom: 14px;
+  }
+  .hud-society {
+    padding-bottom: 8px;
+  }
+  .hud-society .hud-panel-head {
+    min-height: 28px;
+    margin-bottom: 6px;
+  }
+  .hud-left .hud-block {
+    margin: 2px 0 0;
+  }
+  .hud-left .hud-block-head {
+    margin-bottom: 3px;
+  }
+  .hud-left .hud-cit {
+    gap: 8px;
+    padding: 3px 0;
+  }
+  .hud-left .hud-cit-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .hud-left .hud-bar {
+    margin: 3px 0 2px;
+  }
+  .hud-society .hud-cit-foot {
+    display: none;
+  }
+  .hud-left .hud-consequence {
+    margin-top: 3px;
+  }
+  .hud-left .hud-slot,
+  .hud-left .hud-token {
+    width: 32px;
+    height: 32px;
+  }
+  .hud-left .hud-bag {
+    margin-top: 4px;
+  }
+  .hud-left .hud-supply {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px;
+  }
+  .hud-left .hud-supply-item {
+    gap: 6px;
+    padding: 4px 8px;
+  }
+  .hud-left .hud-supply-item > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    column-gap: 5px;
+    min-width: 0;
+  }
+  .hud-left .hud-supply-val {
+    font-size: 18px;
+  }
+  /* Order: Population, Hunger, Hope and Discontent (the numbers that matter most), then Corpses and Supply. */
+  .hud-society .hud-panel-body {
+    display: flex;
+    flex-direction: column;
+  }
+  .hud-society .hud-panel-body > :nth-child(2) {
+    order: 2;
+  }
+  .hud-society .hud-panel-body > :nth-child(4) {
+    order: 3;
+  }
+  .hud-society .hud-panel-body > :nth-child(5) {
+    order: 4;
+  }
+  .hud-society .hud-panel-body > :nth-child(3) {
+    order: 5;
+  }
+  .hud-society .hud-panel-body > :nth-child(6) {
+    order: 6;
+  }
+
+  /* Right column at 1080p: the Generator gives up about 50px so the City section's Weather card (about 290px of
+     content, plus the tab strip) is fully visible by default. The Generator keeps its full content; only the spacing
+     is tighter. */
+  .hud-generator {
+    padding-bottom: 8px;
+  }
+  .hud-generator > .hud-panel-head {
+    min-height: 28px;
+    margin-bottom: 6px;
+  }
+  .hud-heat-head {
+    margin-bottom: 4px;
+  }
+  .hud-heat-track {
+    padding: 4px 4px 3px;
+  }
+  .hud-hc {
+    min-height: 52px;
+  }
+  .hud-zones {
+    margin: 6px 0 2px;
+  }
+  .hud-stress {
+    margin-top: 5px;
+  }
+  .hud-cube {
+    height: 14px;
+  }
+  .hud-gen-foot {
+    gap: 4px;
+    margin-top: 6px;
+  }
+  .hud-city {
+    padding-bottom: 8px;
+  }
+  .hud-tabs {
+    margin-bottom: 6px;
+  }
+  /* The two Weather cards (current Weather and Storm) are drawn narrower here, 74px wide at the 1.42 card ratio, so the
+     Weather card's content is about 60px shorter. The card art keeps its ratio. */
+  .hud-weather {
+    grid-template-columns: 74px minmax(0, 1fr);
+  }
+  .hud-weather-card > * {
+    width: 74px !important;
+    height: 105px !important;
+  }
+}
+
+/* Short screens (1366x768 and similar): shrink the bottom band and the topbar so the side columns keep room. The hand
+   sizes its own cards (HandPanel), so no card size is forced here. */
+@media (max-height: 860px) {
+  .hud-topbar {
+    min-height: 56px;
+  }
+  .hud-bottom {
+    gap: 8px;
+    padding: 6px 8px 8px;
+  }
+  /* Bottom-left: resource strip on top, players bar and hand side by side. This keeps the band short enough that the
+     Generator and City column keeps its height. */
+  .hud-bottom-l {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: start;
+    gap: 4px 10px;
+  }
+  .hud-bottom-l > .hud-resources {
+    grid-column: 1 / -1;
+  }
+  .hud-bottom-l > .hud-seats {
+    grid-column: 1;
+  }
+  /* The hand is the grid's second column: it takes what the seats column leaves. The bottom-centre column (the decision
+     dock) is its own grid track, so the hand cannot run under the dock. */
+  .hud-bottom-l > .hud-hand {
+    grid-column: 2;
+    min-width: 0;
+    max-width: none;
+  }
+  .hud-bottom-r {
+    height: 150px;
+  }
+  .hud-hand-cards {
+    padding: 0;
+  }
+  /* Generator and City share the right column evenly. Each scrolls inside its own body, so the Generator's foot
+     (fuel, drop, cold) stays reachable and City keeps a usable height. */
+  .hud-right > .hud-generator {
+    flex: 1 1 0;
+    min-height: 0;
+    max-height: none;
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
+  .hud-right > .hud-city {
+    flex: 1 1 0;
+    min-height: 0;
+  }
+  /* No decorative meeple row on short screens (the society density rules are in the block above). */
+  .hud-left .hud-cit-figs {
+    display: none;
+  }
+  .hud-left .hud-panel {
+    margin-bottom: 6px;
+  }
+}
+
+/* ---------- Board art and face-down decks (PLT-02) ----------------------------------------------------------- */
+
+/* Board art sits behind the panel content: faint, so the procedural layout and its text stay readable. With no art
+   the element is absent and the panel is unchanged. */
+.hud-panel.has-board-art,
+.hud-embedded.has-board-art {
+  position: relative;
+  isolation: isolate;
+}
+.hud-board-art {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: center / cover no-repeat;
+  opacity: 0.2;
+}
+
+.hud-decks {
+  display: flex;
+  gap: 10px;
+  margin: 2px 0 8px;
+  flex-wrap: wrap;
+}
+.hud-deck {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  font-size: 11px;
+  color: var(--steel-hi, #b9cdd8);
+}
+.hud-deck-stack {
+  display: block;
+  width: 26px;
+  aspect-ratio: 1 / 1.42;
+  border-radius: 3px;
+  background: linear-gradient(160deg, #2a3a46, #101920) center / cover no-repeat;
+  border: 1px solid var(--steel-dim, #2b3d49);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.45);
+}
+.hud-deck-name {
+  opacity: 0.8;
+}
+.hud-deck b {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hud-tab.is-needed {
+    animation: none !important;
+  }
+}

@@ -1,0 +1,170 @@
+[
+ {
+  "key": "3D map unavailable",
+  "vi": "Bản đồ {0}D không khả dụng"
+ },
+ {
+  "key": "Large building",
+  "vi": "Công trình lớn"
+ },
+ {
+  "key": "Small building",
+  "vi": "Công trình nhỏ"
+ },
+ {
+  "key": "Insulation",
+  "vi": "Insulation"
+ },
+ {
+  "key": "White",
+  "vi": "Trắng"
+ },
+ {
+  "key": "Blue",
+  "vi": "Xanh dương"
+ },
+ {
+  "key": "Yellow",
+  "vi": "Vàng"
+ },
+ {
+  "key": "Orange",
+  "vi": "Cam"
+ },
+ {
+  "key": "Red",
+  "vi": "Đỏ"
+ },
+ {
+  "key": "Upgraded",
+  "vi": "Đã nâng cấp"
+ },
+ {
+  "key": "Ruins",
+  "vi": "Tàn tích"
+ },
+ {
+  "key": "ruins",
+  "vi": "đổ nát"
+ },
+ {
+  "key": "Printed on the Generator tile",
+  "vi": "In sẵn trên mảnh Generator"
+ },
+ {
+  "key": "On",
+  "vi": "Ở"
+ },
+ {
+  "key": "Off map",
+  "vi": "Ngoài bản đồ"
+ },
+ {
+  "key": "Already acted this round",
+  "vi": "Đã hành động trong vòng này"
+ },
+ {
+  "key": "Asleep",
+  "vi": "Đang ngủ"
+ },
+ {
+  "key": "Generator",
+  "vi": "Generator"
+ },
+ {
+  "key": "near tile",
+  "vi": "Mảnh gần"
+ },
+ {
+  "key": "far tile",
+  "vi": "Mảnh xa"
+ },
+ {
+  "key": "dread tile",
+  "vi": "Mảnh Dreadnought"
+ },
+ {
+  "key": "wood",
+  "vi": "gỗ"
+ },
+ {
+  "key": "coal",
+  "vi": "than"
+ },
+ {
+  "key": "core",
+  "vi": "Steam Core"
+ },
+ {
+  "key": "No resources",
+  "vi": "Không có tài nguyên"
+ },
+ {
+  "key": "Trees",
+  "vi": "Cây"
+ },
+ {
+  "key": "Building",
+  "vi": "Công trình"
+ },
+ {
+  "key": "Empty space",
+  "vi": "Ô trống"
+ },
+ {
+  "key": "Outside the heat zones",
+  "vi": "Ngoài các vùng sưởi ấm"
+ },
+ {
+  "key": "Zone",
+  "vi": "Vùng"
+ },
+ {
+  "key": "heated",
+  "vi": "đã sưởi"
+ },
+ {
+  "key": "cold",
+  "vi": "lạnh"
+ },
+ {
+  "key": "top",
+  "vi": "phía trên"
+ },
+ {
+  "key": "bottom",
+  "vi": "phía dưới"
+ },
+ {
+  "key": "Worker",
+  "vi": "Công nhân"
+ },
+ {
+  "key": "Engineer",
+  "vi": "Kỹ sư"
+ },
+ {
+  "key": "Child",
+  "vi": "Trẻ em"
+ },
+ {
+  "key": "Automaton",
+  "vi": "Automaton"
+ },
+ {
+  "key": "Child (worker)",
+  "vi": "Trẻ em (công nhân)"
+ },
+ {
+  "key": "Child (engineer)",
+  "vi": "Trẻ em (kỹ sư)"
+ },
+ {
+  "key": "Free hex",
+  "vi": "Ô trống"
+ },
+ {
+  "key": "Coordinates",
+  "vi": "Tọa độ"
+ }
+]

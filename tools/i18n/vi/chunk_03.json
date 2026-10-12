@@ -1,0 +1,934 @@
+[
+ {
+  "key": "Choose the Law Consequence of Time to Rest to shuffle into the Dusk deck (the other is removed unseen)",
+  "vi": "Chọn Law Consequence của Đã Đến Lúc Nghỉ Ngơi để xáo vào bộ Dusk (lá còn lại bị loại mà không ai thấy)"
+ },
+ {
+  "key": "Choose the next Technology to develop",
+  "vi": "Chọn Công nghệ tiếp theo để phát triển"
+ },
+ {
+  "key": "Choose which Citizen type gets sick ({0} left)",
+  "vi": "Chọn loại Công dân nào sẽ bị bệnh (còn {0})"
+ },
+ {
+  "key": "Chrissy Klemowsky",
+  "vi": "Chrissy Klemowsky"
+ },
+ {
+  "key": "Chrissy Klemowsky (worker)",
+  "vi": "Chrissy Klemowsky (công nhân)"
+ },
+ {
+  "key": "Christina Marchant",
+  "vi": "Christina Marchant"
+ },
+ {
+  "key": "Christina Marchant (engineer)",
+  "vi": "Christina Marchant (kỹ sư)"
+ },
+ {
+  "key": "Christina Wardrobe",
+  "vi": "Christina Wardrobe"
+ },
+ {
+  "key": "Christina Wardrobe (child)",
+  "vi": "Christina Wardrobe (trẻ em)"
+ },
+ {
+  "key": "Coal",
+  "vi": "Than"
+ },
+ {
+  "key": "Coal – F0{0} bottom ({1})",
+  "vi": "Than – F0{0} dưới ({1})"
+ },
+ {
+  "key": "Coal – F0{0} top ({1})",
+  "vi": "Than – F0{0} trên ({1})"
+ },
+ {
+  "key": "Coal – F1{0} bottom ({1})",
+  "vi": "Than – F1{0} dưới ({1})"
+ },
+ {
+  "key": "Coal – Generator UR ({0})",
+  "vi": "Than – Generator UR ({0})"
+ },
+ {
+  "key": "Coal – N0{0} bottom ({1})",
+  "vi": "Than – N0{0} dưới ({1})"
+ },
+ {
+  "key": "Coal – N0{0} top ({1})",
+  "vi": "Than – N0{0} trên ({1})"
+ },
+ {
+  "key": "Coal – N1{0} bottom ({1})",
+  "vi": "Than – N1{0} dưới ({1})"
+ },
+ {
+  "key": "Coal ({0})",
+  "vi": "Than ({0})"
+ },
+ {
+  "key": "Coal Mine",
+  "vi": "Mỏ than"
+ },
+ {
+  "key": "Coal Mine ({0} Wood + {1} Steam Core)",
+  "vi": "Mỏ than ({0} Gỗ + {1} Steam Core)"
+ },
+ {
+  "key": "Coal Thumper",
+  "vi": "Máy đập than"
+ },
+ {
+  "key": "Coal Thumper ({0} Wood)",
+  "vi": "Máy đập than ({0} Gỗ)"
+ },
+ {
+  "key": "Coal Thumper at N0{0} top",
+  "vi": "Máy đập than tại N0{0} trên"
+ },
+ {
+  "key": "Coal Thumper at N1{0} top",
+  "vi": "Máy đập than tại N1{0} trên"
+ },
+ {
+  "key": "Coal Thumper built",
+  "vi": "Đã xây Máy đập than"
+ },
+ {
+  "key": "Coal Thumper dismantled",
+  "vi": "Đã tháo dỡ Máy đập than"
+ },
+ {
+  "key": "Cold action: +{0} sick child",
+  "vi": "Hành động lạnh: +{0} trẻ em bị bệnh"
+ },
+ {
+  "key": "Cold action: +{0} sick engineer",
+  "vi": "Hành động lạnh: +{0} kỹ sư bị bệnh"
+ },
+ {
+  "key": "Cold action: +{0} sick worker",
+  "vi": "Hành động lạnh: +{0} công nhân bị bệnh"
+ },
+ {
+  "key": "Collect them and search for other berries",
+  "vi": "Thu thập chúng và tìm kiếm quả mọng khác"
+ },
+ {
+  "key": "Come with us or die. The machinery stays.",
+  "vi": "Đi cùng chúng tôi hoặc chết. Máy móc ở lại."
+ },
+ {
+  "key": "Comfort the Sick",
+  "vi": "An ủi người bệnh"
+ },
+ {
+  "key": "Comfort the Sick (event action)",
+  "vi": "An ủi người bệnh (hành động sự kiện)"
+ },
+ {
+  "key": "Comfort the Sick (M0{0})",
+  "vi": "An ủi người bệnh (M0{0})"
+ },
+ {
+  "key": "Comfort the Sick left the Event display",
+  "vi": "An ủi người bệnh đã rời bảng Sự kiện"
+ },
+ {
+  "key": "Comfort the Sick was placed in the Event display",
+  "vi": "An ủi người bệnh đã được đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "Comfort the Sick was removed from the game",
+  "vi": "An ủi người bệnh đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Conduct a survey",
+  "vi": "Tiến hành khảo sát"
+ },
+ {
+  "key": "Confiscate the toys and the wood",
+  "vi": "Tịch thu đồ chơi và gỗ"
+ },
+ {
+  "key": "Confront him publicly",
+  "vi": "Đối chất công khai với hắn"
+ },
+ {
+  "key": "Confusion",
+  "vi": "Hoang mang"
+ },
+ {
+  "key": "Confusion (SD0{0})",
+  "vi": "Hoang mang (SD0{0})"
+ },
+ {
+  "key": "Confusion resolved and removed from the game",
+  "vi": "Hoang mang đã được giải quyết và loại khỏi trò chơi"
+ },
+ {
+  "key": "Confusion: you may exhaust {0} Hope to gain the matching effect",
+  "vi": "Hoang mang: bạn có thể tiêu hao {0} Hope để nhận hiệu ứng tương ứng"
+ },
+ {
+  "key": "Consensus",
+  "vi": "Đồng thuận"
+ },
+ {
+  "key": "Construct",
+  "vi": "Xây dựng"
+ },
+ {
+  "key": "Construct: {0} sub-action(s) left",
+  "vi": "Xây dựng: còn {0} hành động phụ"
+ },
+ {
+  "key": "Construction Planning",
+  "vi": "Lập kế hoạch xây dựng"
+ },
+ {
+  "key": "continue",
+  "vi": "tiếp tục"
+ },
+ {
+  "key": "Convince them that our situation is not doomed",
+  "vi": "Thuyết phục họ rằng tình hình của chúng ta không vô vọng"
+ },
+ {
+  "key": "Cookhouse",
+  "vi": "Nhà bếp"
+ },
+ {
+  "key": "Cookhouse built",
+  "vi": "Đã xây Nhà bếp"
+ },
+ {
+  "key": "Corner {0}",
+  "vi": "Góc {0}"
+ },
+ {
+  "key": "Corpse marker moved back {0}",
+  "vi": "Corpse marker lùi lại {0}"
+ },
+ {
+  "key": "Counts as heated",
+  "vi": "Được tính là heated"
+ },
+ {
+  "key": "Crater: choose the Rim corner to start placing the Starting Wall tokens from (then clockwise)",
+  "vi": "Crater: chọn góc rìa để bắt đầu đặt các dấu Tường khởi đầu (sau đó theo chiều kim đồng hồ)"
+ },
+ {
+  "key": "Criticising the Leaders",
+  "vi": "Chỉ trích giới lãnh đạo"
+ },
+ {
+  "key": "Criticising the Leaders (M0{0})",
+  "vi": "Chỉ trích giới lãnh đạo (M0{0})"
+ },
+ {
+  "key": "Criticising the Leaders was removed from the game",
+  "vi": "Chỉ trích giới lãnh đạo đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Crowded Quarters",
+  "vi": "Khu dân cư chật chội"
+ },
+ {
+  "key": "Crowded Quarters was introduced",
+  "vi": "Khu dân cư chật chội đã được ban hành"
+ },
+ {
+  "key": "Cure {0}",
+  "vi": "Chữa {0}"
+ },
+ {
+  "key": "Cure {0}  OR  Exhaust care, Cure {1}",
+  "vi": "Chữa {0}  HOẶC  Tiêu hao care, Chữa {1}"
+ },
+ {
+  "key": "Cure {0}  OR  Treat {1}",
+  "vi": "Chữa {0}  HOẶC  Điều trị {1}"
+ },
+ {
+  "key": "Cure {0} – distribute over Citizen types",
+  "vi": "Chữa {0} – phân bổ cho các loại Công dân"
+ },
+ {
+  "key": "Cure {0} (one type)",
+  "vi": "Chữa {0} (một loại)"
+ },
+ {
+  "key": "Cure {0} of one type of Citizen.",
+  "vi": "Chữa {0} của một loại Công dân."
+ },
+ {
+  "key": "Cure {0} or Treat {1}",
+  "vi": "Chữa {0} hoặc Điều trị {1}"
+ },
+ {
+  "key": "Cure {0} per Child Meeple",
+  "vi": "Chữa {0} cho mỗi Meeple Trẻ em"
+ },
+ {
+  "key": "Cure {0}, Hunger +{1}, Add Dusk card D0{2}",
+  "vi": "Chữa {0}, Đói +{1}, thêm thẻ Dusk D0{2}"
+ },
+ {
+  "key": "Cure {0}.",
+  "vi": "Chữa {0}."
+ },
+ {
+  "key": "Cure <n> | treat",
+  "vi": "Chữa <n> | điều trị"
+ },
+ {
+  "key": "Cured {0} Child",
+  "vi": "Đã chữa {0} Trẻ em"
+ },
+ {
+  "key": "Cured {0} Engineer",
+  "vi": "Đã chữa {0} Kỹ sư"
+ },
+ {
+  "key": "Cured {0} Worker",
+  "vi": "Đã chữa {0} Công nhân"
+ },
+ {
+  "key": "Dave Tadel",
+  "vi": "Dave Tadel"
+ },
+ {
+  "key": "Dave Tadel (worker)",
+  "vi": "Dave Tadel (công nhân)"
+ },
+ {
+  "key": "Davetta Hen",
+  "vi": "Davetta Hen"
+ },
+ {
+  "key": "Davetta Hen (engineer)",
+  "vi": "Davetta Hen (kỹ sư)"
+ },
+ {
+  "key": "Dawn phase",
+  "vi": "Giai đoạn Bình minh"
+ },
+ {
+  "key": "Deadly Fumes",
+  "vi": "Khói độc"
+ },
+ {
+  "key": "Deadly Fumes (D0{0})",
+  "vi": "Khói độc (D0{0})"
+ },
+ {
+  "key": "Deal with them publicly and put under house arrest",
+  "vi": "Xử lý họ công khai và quản thúc tại gia"
+ },
+ {
+  "key": "Death effect of Adele Quapinsky (Child)",
+  "vi": "Hiệu ứng khi chết của Adele Quapinsky (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Adele Quapinsky (Engineer)",
+  "vi": "Hiệu ứng khi chết của Adele Quapinsky (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Adele Quapinsky (Worker)",
+  "vi": "Hiệu ứng khi chết của Adele Quapinsky (Công nhân)"
+ },
+ {
+  "key": "Death effect of Agnes Hamsterville (Child)",
+  "vi": "Hiệu ứng khi chết của Agnes Hamsterville (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Agnes Hamsterville (Engineer)",
+  "vi": "Hiệu ứng khi chết của Agnes Hamsterville (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Agnes Hamsterville (Worker)",
+  "vi": "Hiệu ứng khi chết của Agnes Hamsterville (Công nhân)"
+ },
+ {
+  "key": "Death effect of Caroline O'Hare (Child)",
+  "vi": "Hiệu ứng khi chết của Caroline O'Hare (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Caroline O'Hare (Engineer)",
+  "vi": "Hiệu ứng khi chết của Caroline O'Hare (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Caroline O'Hare (Worker)",
+  "vi": "Hiệu ứng khi chết của Caroline O'Hare (Công nhân)"
+ },
+ {
+  "key": "Death effect of Chrissy Klemowsky (Child)",
+  "vi": "Hiệu ứng khi chết của Chrissy Klemowsky (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Chrissy Klemowsky (Engineer)",
+  "vi": "Hiệu ứng khi chết của Chrissy Klemowsky (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Chrissy Klemowsky (Worker)",
+  "vi": "Hiệu ứng khi chết của Chrissy Klemowsky (Công nhân)"
+ },
+ {
+  "key": "Death effect of Christina Marchant (Child)",
+  "vi": "Hiệu ứng khi chết của Christina Marchant (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Christina Marchant (Engineer)",
+  "vi": "Hiệu ứng khi chết của Christina Marchant (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Christina Marchant (Worker)",
+  "vi": "Hiệu ứng khi chết của Christina Marchant (Công nhân)"
+ },
+ {
+  "key": "Death effect of Christina Wardrobe (Child)",
+  "vi": "Hiệu ứng khi chết của Christina Wardrobe (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Christina Wardrobe (Engineer)",
+  "vi": "Hiệu ứng khi chết của Christina Wardrobe (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Christina Wardrobe (Worker)",
+  "vi": "Hiệu ứng khi chết của Christina Wardrobe (Công nhân)"
+ },
+ {
+  "key": "Death effect of Dave Tadel (Child)",
+  "vi": "Hiệu ứng khi chết của Dave Tadel (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Dave Tadel (Engineer)",
+  "vi": "Hiệu ứng khi chết của Dave Tadel (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Dave Tadel (Worker)",
+  "vi": "Hiệu ứng khi chết của Dave Tadel (Công nhân)"
+ },
+ {
+  "key": "Death effect of Davetta Hen (Child)",
+  "vi": "Hiệu ứng khi chết của Davetta Hen (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Davetta Hen (Engineer)",
+  "vi": "Hiệu ứng khi chết của Davetta Hen (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Davetta Hen (Worker)",
+  "vi": "Hiệu ứng khi chết của Davetta Hen (Công nhân)"
+ },
+ {
+  "key": "Death effect of Derek Allgire (Child)",
+  "vi": "Hiệu ứng khi chết của Derek Allgire (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Derek Allgire (Engineer)",
+  "vi": "Hiệu ứng khi chết của Derek Allgire (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Derek Allgire (Worker)",
+  "vi": "Hiệu ứng khi chết của Derek Allgire (Công nhân)"
+ },
+ {
+  "key": "Death effect of Georgia Taller (Child)",
+  "vi": "Hiệu ứng khi chết của Georgia Taller (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Georgia Taller (Engineer)",
+  "vi": "Hiệu ứng khi chết của Georgia Taller (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Georgia Taller (Worker)",
+  "vi": "Hiệu ứng khi chết của Georgia Taller (Công nhân)"
+ },
+ {
+  "key": "Death effect of Godna Grellak (Child)",
+  "vi": "Hiệu ứng khi chết của Godna Grellak (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Godna Grellak (Engineer)",
+  "vi": "Hiệu ứng khi chết của Godna Grellak (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Greg Bellowsky (Child)",
+  "vi": "Hiệu ứng khi chết của Greg Bellowsky (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Greg Bellowsky (Engineer)",
+  "vi": "Hiệu ứng khi chết của Greg Bellowsky (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Greg Bellowsky (Worker)",
+  "vi": "Hiệu ứng khi chết của Greg Bellowsky (Công nhân)"
+ },
+ {
+  "key": "Death effect of Jacin Schock (Engineer)",
+  "vi": "Hiệu ứng khi chết của Jacin Schock (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Jacin Schock (Worker)",
+  "vi": "Hiệu ứng khi chết của Jacin Schock (Công nhân)"
+ },
+ {
+  "key": "Death effect of Jesse Quackerson (Child)",
+  "vi": "Hiệu ứng khi chết của Jesse Quackerson (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Jesse Quackerson (Engineer)",
+  "vi": "Hiệu ứng khi chết của Jesse Quackerson (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Jesse Quackerson (Worker)",
+  "vi": "Hiệu ứng khi chết của Jesse Quackerson (Công nhân)"
+ },
+ {
+  "key": "Death effect of Margaret Ozone (Child)",
+  "vi": "Hiệu ứng khi chết của Margaret Ozone (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Margaret Ozone (Engineer)",
+  "vi": "Hiệu ứng khi chết của Margaret Ozone (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Margaret Ozone (Worker)",
+  "vi": "Hiệu ứng khi chết của Margaret Ozone (Công nhân)"
+ },
+ {
+  "key": "Death effect of Marshal Primislao (Child)",
+  "vi": "Hiệu ứng khi chết của Marshal Primislao (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Marshal Primislao (Engineer)",
+  "vi": "Hiệu ứng khi chết của Marshal Primislao (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Marshal Primislao (Worker)",
+  "vi": "Hiệu ứng khi chết của Marshal Primislao (Công nhân)"
+ },
+ {
+  "key": "Death effect of Matilda Oakwood (Child)",
+  "vi": "Hiệu ứng khi chết của Matilda Oakwood (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Matilda Oakwood (Engineer)",
+  "vi": "Hiệu ứng khi chết của Matilda Oakwood (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Matilda Oakwood (Worker)",
+  "vi": "Hiệu ứng khi chết của Matilda Oakwood (Công nhân)"
+ },
+ {
+  "key": "Death effect of Michael Ozone (Child)",
+  "vi": "Hiệu ứng khi chết của Michael Ozone (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Michael Ozone (Worker)",
+  "vi": "Hiệu ứng khi chết của Michael Ozone (Công nhân)"
+ },
+ {
+  "key": "Death effect of Michael Plower (Child)",
+  "vi": "Hiệu ứng khi chết của Michael Plower (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Michael Plower (Engineer)",
+  "vi": "Hiệu ứng khi chết của Michael Plower (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Michael Plower (Worker)",
+  "vi": "Hiệu ứng khi chết của Michael Plower (Công nhân)"
+ },
+ {
+  "key": "Death effect of Nathaniel Apfel (Child)",
+  "vi": "Hiệu ứng khi chết của Nathaniel Apfel (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Nathaniel Apfel (Worker)",
+  "vi": "Hiệu ứng khi chết của Nathaniel Apfel (Công nhân)"
+ },
+ {
+  "key": "Death effect of Olivia Carebear (Child)",
+  "vi": "Hiệu ứng khi chết của Olivia Carebear (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Olivia Carebear (Engineer)",
+  "vi": "Hiệu ứng khi chết của Olivia Carebear (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Olivia Carebear (Worker)",
+  "vi": "Hiệu ứng khi chết của Olivia Carebear (Công nhân)"
+ },
+ {
+  "key": "Death effect of Paolo Feldman (Child)",
+  "vi": "Hiệu ứng khi chết của Paolo Feldman (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Paolo Feldman (Engineer)",
+  "vi": "Hiệu ứng khi chết của Paolo Feldman (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Paolo Feldman (Worker)",
+  "vi": "Hiệu ứng khi chết của Paolo Feldman (Công nhân)"
+ },
+ {
+  "key": "Death effect of Pat O'Bara (Child)",
+  "vi": "Hiệu ứng khi chết của Pat O'Bara (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Pat O'Bara (Engineer)",
+  "vi": "Hiệu ứng khi chết của Pat O'Bara (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Pat O'Bara (Worker)",
+  "vi": "Hiệu ứng khi chết của Pat O'Bara (Công nhân)"
+ },
+ {
+  "key": "Death effect of Patick McGretchak (Engineer)",
+  "vi": "Hiệu ứng khi chết của Patick McGretchak (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Patick McGretchak (Worker)",
+  "vi": "Hiệu ứng khi chết của Patick McGretchak (Công nhân)"
+ },
+ {
+  "key": "Death effect of Paul Unclestone (Child)",
+  "vi": "Hiệu ứng khi chết của Paul Unclestone (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Paul Unclestone (Engineer)",
+  "vi": "Hiệu ứng khi chết của Paul Unclestone (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Pauline Grogan (Engineer)",
+  "vi": "Hiệu ứng khi chết của Pauline Grogan (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Pauline Grogan (Worker)",
+  "vi": "Hiệu ứng khi chết của Pauline Grogan (Công nhân)"
+ },
+ {
+  "key": "Death effect of Peter Byerush (Child)",
+  "vi": "Hiệu ứng khi chết của Peter Byerush (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Peter Byerush (Engineer)",
+  "vi": "Hiệu ứng khi chết của Peter Byerush (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Peter Byerush (Worker)",
+  "vi": "Hiệu ứng khi chết của Peter Byerush (Công nhân)"
+ },
+ {
+  "key": "Death effect of Phillipa Bullsky (Child)",
+  "vi": "Hiệu ứng khi chết của Phillipa Bullsky (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Phillipa Bullsky (Engineer)",
+  "vi": "Hiệu ứng khi chết của Phillipa Bullsky (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Phillipa Bullsky (Worker)",
+  "vi": "Hiệu ứng khi chết của Phillipa Bullsky (Công nhân)"
+ },
+ {
+  "key": "Death effect of Rafael Curae (Child)",
+  "vi": "Hiệu ứng khi chết của Rafael Curae (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Rafael Curae (Engineer)",
+  "vi": "Hiệu ứng khi chết của Rafael Curae (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Rafael Curae (Worker)",
+  "vi": "Hiệu ứng khi chết của Rafael Curae (Công nhân)"
+ },
+ {
+  "key": "Death effect of Rufus Gladstone (Child)",
+  "vi": "Hiệu ứng khi chết của Rufus Gladstone (Trẻ em)"
+ },
+ {
+  "key": "Death effect of Rufus Gladstone (Engineer)",
+  "vi": "Hiệu ứng khi chết của Rufus Gladstone (Kỹ sư)"
+ },
+ {
+  "key": "Death effect of Rufus Gladstone (Worker)",
+  "vi": "Hiệu ứng khi chết của Rufus Gladstone (Công nhân)"
+ },
+ {
+  "key": "Deck {0} ({1}x2 sheet, UniqueBack: front = male portrait, back = female portrait; same text on both). One Advisor may be chosen per Round (optional, Preparation phase, Leadership holder has the final word on whose); its ability is used once by exhausting the stated token. Advisors cannot be swapped. Each player takes one Advisor; unused ones return to the box. Responsibility sheets only split bookkeeping between players, the digital game automates them.",
+  "vi": "Bộ bài {0} ({1}x2 tờ, UniqueBack: mặt trước = chân dung nam, mặt sau = chân dung nữ; cùng nội dung ở cả hai mặt). Mỗi Vòng có thể chọn một Advisor (tùy chọn, giai đoạn Chuẩn bị; người giữ Lãnh đạo có tiếng nói cuối cùng về việc chọn ai); khả năng của Advisor chỉ dùng được một lần bằng cách tiêu hao dấu được nêu. Advisor không thể hoán đổi. Mỗi người chơi nhận một Advisor; những Advisor không dùng đến được trả về hộp. Các tờ trách nhiệm chỉ chia việc ghi chép giữa người chơi, còn bản chơi kỹ thuật số tự động hóa việc này."
+ },
+ {
+  "key": "Decrease Discontent",
+  "vi": "Giảm Discontent"
+ },
+ {
+  "key": "Decrease Hope",
+  "vi": "Giảm Hope"
+ },
+ {
+  "key": "DEFEAT: All Hope has been lost.",
+  "vi": "THẤT BẠI: Đã mất toàn bộ Hope."
+ },
+ {
+  "key": "DEFEAT: Discontent overflowed: a sixth Discontent token was drawn.",
+  "vi": "THẤT BẠI: Discontent tràn: đã rút dấu Discontent thứ sáu."
+ },
+ {
+  "key": "DEFEAT: Hunger reached {0} or more after spending Food.",
+  "vi": "THẤT BẠI: Đói đạt {0} trở lên sau khi chi Thực phẩm."
+ },
+ {
+  "key": "DEFEAT: The Corpse marker reached the last space of the Corpse track.",
+  "vi": "THẤT BẠI: Corpse marker đã đến ô cuối cùng của đường Corpse."
+ },
+ {
+  "key": "Deploy Scouts",
+  "vi": "Triển khai Scout"
+ },
+ {
+  "key": "Deploy the Scout on which Expedition stack?",
+  "vi": "Triển khai Scout lên chồng Expedition nào?"
+ },
+ {
+  "key": "Derek Allgire",
+  "vi": "Derek Allgire"
+ },
+ {
+  "key": "Derek Allgire (engineer)",
+  "vi": "Derek Allgire (kỹ sư)"
+ },
+ {
+  "key": "Desperate Measures",
+  "vi": "Biện pháp tuyệt vọng"
+ },
+ {
+  "key": "Desperation",
+  "vi": "Tuyệt vọng"
+ },
+ {
+  "key": "Desperation (SD1{0})",
+  "vi": "Tuyệt vọng (SD1{0})"
+ },
+ {
+  "key": "Desperation resolved and removed from the game",
+  "vi": "Tuyệt vọng đã được giải quyết và loại khỏi trò chơi"
+ },
+ {
+  "key": "Destroy a Building",
+  "vi": "Phá hủy một Công trình"
+ },
+ {
+  "key": "Destroy which Building?",
+  "vi": "Phá hủy Công trình nào?"
+ },
+ {
+  "key": "Development token of Carrier Sledge moved to Round {0}",
+  "vi": "Development token của Xe trượt chở hàng đã chuyển sang Vòng {0}"
+ },
+ {
+  "key": "Development token of Construction Planning moved to Round {0}",
+  "vi": "Development token của Lập kế hoạch xây dựng đã chuyển sang Vòng {0}"
+ },
+ {
+  "key": "Development token of Generator Safety System moved to Round {0}",
+  "vi": "Development token của Hệ thống an toàn Generator đã chuyển sang Vòng {0}"
+ },
+ {
+  "key": "Development token of Medical Education moved to Round {0}",
+  "vi": "Development token của Giáo dục y tế đã chuyển sang Vòng {0}"
+ },
+ {
+  "key": "Devil's Crossroads",
+  "vi": "Ngã ba quỷ dữ"
+ },
+ {
+  "key": "Devil's Crossroads (A) - X1{0}",
+  "vi": "Ngã ba quỷ dữ (A) - X1{0}"
+ },
+ {
+  "key": "Did You Find a Family for the Children?",
+  "vi": "Bạn đã tìm được gia đình cho bọn trẻ chưa?"
+ },
+ {
+  "key": "Did You Find a Family for the Children? (D0{0})",
+  "vi": "Bạn đã tìm được gia đình cho bọn trẻ chưa? (D0{0})"
+ },
+ {
+  "key": "Did You Stay True to Your Word?",
+  "vi": "Bạn có giữ đúng lời hứa không?"
+ },
+ {
+  "key": "Did You Stay True to Your Word? (D0{0})",
+  "vi": "Bạn có giữ đúng lời hứa không? (D0{0})"
+ },
+ {
+  "key": "Did You Stay True to Your Word? was removed from the game",
+  "vi": "Bạn có giữ đúng lời hứa không? đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Did You Talk to the Children?",
+  "vi": "Bạn đã nói chuyện với bọn trẻ chưa?"
+ },
+ {
+  "key": "Didn't welcome them with empathy",
+  "vi": "Không đón tiếp họ bằng sự thấu cảm"
+ },
+ {
+  "key": "disc-{0}",
+  "vi": "disc-{0}"
+ },
+ {
+  "key": "disc+{0}",
+  "vi": "disc+{0}"
+ },
+ {
+  "key": "disc+{0}:anger",
+  "vi": "disc+{0}:anger"
+ },
+ {
+  "key": "disc+{0}:apathy",
+  "vi": "disc+{0}:apathy"
+ },
+ {
+  "key": "Discard",
+  "vi": "Bỏ"
+ },
+ {
+  "key": "Discard {0} active Discontent",
+  "vi": "Bỏ {0} Discontent đang kích hoạt"
+ },
+ {
+  "key": "Discard {0} Discontent",
+  "vi": "Bỏ {0} Discontent"
+ },
+ {
+  "key": "Discard {0} Discontent  OR  Activate care, Activate motivation",
+  "vi": "Bỏ {0} Discontent  HOẶC  Kích hoạt care, Kích hoạt motivation"
+ },
+ {
+  "key": "Discard {0} Hope",
+  "vi": "Bỏ {0} Hope"
+ },
+ {
+  "key": "Discard {0} Hope, Discard {1} Discontent  OR  Discontent +{2}, Hope +{3}",
+  "vi": "Bỏ {0} Hope, Bỏ {1} Discontent  HOẶC  Discontent +{2}, Hope +{3}"
+ },
+ {
+  "key": "Discard a Child Citizen card for its death effect",
+  "vi": "Bỏ một thẻ Công dân Trẻ em để kích hoạt hiệu ứng khi chết của thẻ đó"
+ },
+ {
+  "key": "Discard a Worker Citizen card for its death effect",
+  "vi": "Bỏ một thẻ Công dân Công nhân để kích hoạt hiệu ứng khi chết của thẻ đó"
+ },
+ {
+  "key": "Discard an Engineer Citizen card for its death effect",
+  "vi": "Bỏ một thẻ Công dân Kỹ sư để kích hoạt hiệu ứng khi chết của thẻ đó"
+ },
+ {
+  "key": "Discard which Discontent token?",
+  "vi": "Bỏ dấu Discontent nào?"
+ },
+ {
+  "key": "Disconnect the power source",
+  "vi": "Ngắt nguồn điện"
+ },
+ {
+  "key": "Discontent +{0}",
+  "vi": "Discontent +{0}"
+ },
+ {
+  "key": "Discontent +{0} (Anger)",
+  "vi": "Discontent +{0} (Anger)"
+ },
+ {
+  "key": "Discontent +{0} (Anger), Add Dusk card D0{1}",
+  "vi": "Discontent +{0} (Anger), thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "Discontent +{0} (Anger), Remove all Stress cubes",
+  "vi": "Discontent +{0} (Anger), gỡ bỏ tất cả khối Căng thẳng"
+ },
+ {
+  "key": "Discontent +{0} (Apathy)",
+  "vi": "Discontent +{0} (Apathy)"
+ },
+ {
+  "key": "Discontent +{0} (Apathy), Gain {1} Wood",
+  "vi": "Discontent +{0} (Apathy), nhận {1} Gỗ"
+ },
+ {
+  "key": "Discontent +{0} (Greed)",
+  "vi": "Discontent +{0} (Greed)"
+ },
+ {
+  "key": "Discontent +{0}, Add Dusk card D0{1}",
+  "vi": "Discontent +{0}, thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "Discontent −{0}",
+  "vi": "Discontent −{0}"
+ },
+ {
+  "key": "Discontent −{0}  OR  Place a Near or Far tile  OR  {1} Workshop effects",
+  "vi": "Discontent −{0}  HOẶC  Đặt một mảnh Gần hoặc Xa  HOẶC  {1} hiệu ứng Workshop"
+ },
+ {
+  "key": "Discontent −{0}, {1} Worker leave the city",
+  "vi": "Discontent −{0}, {1} Công nhân rời thành phố"
+ },
+ {
+  "key": "Discontent −{0}, Add Dusk card D0{1}",
+  "vi": "Discontent −{0}, thêm thẻ Dusk D0{1}"
+ },
+ {
+  "key": "Discontent: drew Anger",
+  "vi": "Discontent: đã rút Anger"
+ },
+ {
+  "key": "Discontent: drew Anger (active)",
+  "vi": "Discontent: đã rút Anger (đang kích hoạt)"
+ },
+ {
+  "key": "Discontent: drew Apathy",
+  "vi": "Discontent: đã rút Apathy"
+ },
+ {
+  "key": "Discontent: drew Apathy (active)",
+  "vi": "Discontent: đã rút Apathy (đang kích hoạt)"
+ },
+ {
+  "key": "Discontent: drew Greed",
+  "vi": "Discontent: đã rút Greed"
+ },
+ {
+  "key": "Discontent: drew Greed (active)",
+  "vi": "Discontent: đã rút Greed (đang kích hoạt)"
+ },
+ {
+  "key": "Disease",
+  "vi": "Dịch bệnh"
+ },
+ {
+  "key": "Disease (M0{0})",
+  "vi": "Dịch bệnh (M0{0})"
+ },
+ {
+  "key": "Disease was removed from the game",
+  "vi": "Dịch bệnh đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Dismantle a Building",
+  "vi": "Tháo dỡ một Công trình"
+ }
+]

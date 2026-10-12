@@ -1,0 +1,19 @@
+{
+"note": "Fields: heat = [cold marker, yellow indicator, orange indicator, red indicator] spaces to advance (not beyond last space); hunt = Food per Hunting symbol on Hunter's Huts; scout = spaces each Scout advances; storm = spaces the Storm marker moves BACK on the Round track. Sections resolved A (heat) -> B (hunt) -> C (scouts) -> D (storm).",
+"cards": [
+{"id":"W01","idx":0,"deck":"554","heat":[1,1,1,1],"hunt":1,"scout":4,"storm":0},
+{"id":"W02","idx":1,"deck":"554","heat":[1,1,1,1],"hunt":1,"scout":4,"storm":0},
+{"id":"W03","idx":2,"deck":"554","heat":[1,1,1,1],"hunt":1,"scout":3,"storm":0},
+{"id":"W04","idx":3,"deck":"554","heat":[1,1,1,1],"hunt":1,"scout":3,"storm":0},
+{"id":"W05","idx":4,"deck":"554","heat":[1,1,1,0],"hunt":1,"scout":3,"storm":1},
+{"id":"W06","idx":5,"deck":"554","heat":[1,1,1,0],"hunt":1,"scout":3,"storm":1},
+{"id":"W07","idx":6,"deck":"554","heat":[1,1,1,0],"hunt":1,"scout":3,"storm":1},
+{"id":"W08","idx":7,"deck":"554","heat":[1,1,1,0],"hunt":1,"scout":3,"storm":1},
+{"id":"W09","idx":8,"deck":"554","heat":[1,1,1,0],"hunt":1,"scout":3,"storm":1},
+{"id":"W10","idx":9,"deck":"554","heat":[2,1,0,0],"hunt":1,"scout":2,"storm":1},
+{"id":"W11","idx":10,"deck":"554","heat":[1,1,0,0],"hunt":1,"scout":2,"storm":2},
+{"id":"W12","idx":11,"deck":"554","heat":[1,1,0,0],"hunt":1,"scout":2,"storm":2},
+{"id":"W13","idx":12,"deck":"554","heat":[1,1,0,0],"hunt":1,"scout":2,"storm":2}
+],
+"heatRangeSetup": {"red":1,"orange":2,"yellow":3,"cold":5,"heat":1,"note":"Indicators placed on first 3 Generator-track spaces: Red, Orange, Yellow. Each indicator carries an Insulation symbol and a zone symbol: Red=Insulation Red/zone A (Generator tile), Orange=Orange/zone B (adjacent tiles), Yellow=Yellow/zone C (within 2 hexes). Action is heated if Heat marker is ABOVE the indicator for the Building's insulation OR for the tile's zone. Blue buildings need a heated zone; White ignore insulation. Heat marker on space 1 => everything cold."}
+}

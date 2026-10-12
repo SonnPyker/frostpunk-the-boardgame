@@ -1,0 +1,50 @@
+[
+{"id":"M019","idx":18,"title":"Fight for Offal","top":["activate:greed"],"opts":[
+  {"label":"Set up guards at the kitchen","req":["exhaust:justice"],"fx":["remove"]},
+  {"label":"We'll feed all","req":["payFoodOrHunger:6"],"fx":["hope+1","remove"]},
+  {"label":"Accidents happen","fx":["dusk:D034","remove"]}]},
+{"id":"M020","idx":19,"title":"Relics of the Past","opts":[
+  {"label":"Keep the books as public property","req":["exhaust:motivation|justice"],"fx":["lose:engineer:1","dusk:D035","remove"]},
+  {"label":"Use the books to fuel the generator","fx":["die:engineer:1","gain:coal:3","hope-1","disc-1","remove"]},
+  {"label":"The collection belongs to his family","fx":["die:engineer:1","dusk:D036","remove"]}]},
+{"id":"M021","idx":20,"title":"Disease","opts":[
+  {"label":"Apply treatment as soon as possible","fx":["sick:current:2","spent:engineer:1","remove"]},
+  {"label":"Nip the disease in the bud","fx":["hope-1","die:current:2:noCards","remove"]},
+  {"label":"They will get better soon","fx":["sick:current:2","dusk:D037","remove"]}]},
+{"id":"M022","idx":21,"title":"Youth Gang on the Streets!","opts":[
+  {"label":"Deal with them publicly and put under house arrest","req":["active:justice"],"fx":["disc+1","event"]},
+  {"label":"Send someone sensible to talk with them","fx":["spent:worker:1","dusk:D038","remove"]},
+  {"label":"They are only children","fx":["disc+1","dusk:D039","remove"]}],
+ "eventPassive":{"noChildMeeples":true,"nightChildrenFirst":true}},
+{"id":"M023","idx":22,"title":"Mysterious Shadows","opts":[
+  {"label":"Organise a night watch","req":["exhaust:justice"],"fx":["spent:workerEngineer:1","remove"]},
+  {"label":"Send trusted men to take care of the subject","fx":["lose:worker:3","dusk:D040","remove"]},
+  {"label":"It's nothing to worry about","fx":["dusk:D041","remove"]}]},
+{"id":"M024","idx":23,"title":"Light Under the Snow","opts":[
+  {"label":"Send workers to dig it out","fx":["spent:worker:1","dusk:D042","remove"]},
+  {"label":"We don't have enough people","fx":["dusk:D043","remove"]}]},
+{"id":"M025","idx":24,"title":"The Birth of Gambling","top":["activate:greed"],"opts":[
+  {"label":"Only personal belongings can be used","req":["active:justice"],"fx":["dusk:D044","remove"]},
+  {"label":"Let them do it","fx":["disc-1","dusk:D045","remove"]},
+  {"label":"Order them to stop","fx":["disc+1:anger","remove"]}]},
+{"id":"M026","idx":25,"title":"Dissidents","opts":[
+  {"label":"Institute house arrest","fx":["spent:worker:1","remove"]},
+  {"label":"Fulfil their demands and let them go","req":["spend:2res"],"fx":["lose:worker:2","dusk:D047","remove"]},
+  {"label":"Securing cooperation might prove invaluable","fx":["dusk:D048","remove"]}]},
+{"id":"M027","idx":26,"title":"Strange Noises","top":["disc+1"],"opts":[
+  {"label":"The source must be found","fx":["spent:workerEngineer:1","dusk:D049","remove"]},
+  {"label":"No time to investigate","fx":["dusk:D050","remove"]}]},
+{"id":"M028","idx":27,"title":"Criticising the Leaders","opts":[
+  {"label":"Imprison him","req":["active:justice"],"fx":["spent:worker:1","remove"]},
+  {"label":"Double rations","fx":["hope+1:care","hungerPerMeeple:workerEngineer:1","remove"]},
+  {"label":"Face that man in a public debate","fx":["disc+1","dusk:D052","remove"]}]},
+{"id":"M029","idx":28,"title":"Wooden Toys","opts":[
+  {"label":"Give him more wood","fx":["event","dusk:D053"]},
+  {"label":"Talk to this man about wasting the wood","fx":["disc+1","remove"]},
+  {"label":"Confiscate the toys and the wood","fx":["disc+1:apathy","gain:wood:2","remove"]}],
+ "eventAction":{"acts":["worker","engineer"],"freq":"round","custom":"M029"}},
+{"id":"M030","idx":29,"title":"Relentless Rats","opts":[
+  {"label":"Catch them all","fx":["gain:food:5","dusk:D054","remove"]},
+  {"label":"Put out some strychnine","fx":["spent:worker:1","remove"]},
+  {"label":"Reward for each rat tail","fx":["disc-1","dusk:D055","remove"]}]}
+]

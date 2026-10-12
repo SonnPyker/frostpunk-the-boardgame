@@ -1,0 +1,110 @@
+[
+ {
+  "key": "could not be drawn",
+  "vi": "không thể hiển thị"
+ },
+ {
+  "key": "Unknown error",
+  "vi": "Lỗi không xác định"
+ },
+ {
+  "key": "Reload panel",
+  "vi": "Tải lại bảng"
+ },
+ {
+  "key": "Close",
+  "vi": "Đóng"
+ },
+ {
+  "key": "Dismiss message",
+  "vi": "Ẩn thông báo"
+ },
+ {
+  "key": "The saved game no longer plays back with the current rules, so it was removed. Start a new game to keep playing.",
+  "vi": "Ván đã lưu không còn chạy đúng theo luật hiện tại nên đã bị xóa. Hãy bắt đầu ván mới để tiếp tục chơi."
+ },
+ {
+  "key": "No saved solo game was found in this browser.",
+  "vi": "Không tìm thấy ván chơi đơn đã lưu trên trình duyệt này."
+ },
+ {
+  "key": "There is no open decision to answer.",
+  "vi": "Hiện không có quyết định nào đang chờ trả lời."
+ },
+ {
+  "key": "The engine rejected the answer.",
+  "vi": "Bộ luật chơi đã từ chối lựa chọn này."
+ },
+ {
+  "key": "That co-op room no longer exists. It may have closed. Host or join a new room.",
+  "vi": "Phòng hợp tác đó không còn tồn tại. Có thể phòng đã đóng. Hãy tạo phòng mới hoặc vào phòng khác."
+ },
+ {
+  "key": "Your seat in that room is no longer available. Join again with the room code.",
+  "vi": "Chỗ của bạn trong phòng đó không còn nữa. Hãy vào lại bằng mã phòng."
+ },
+ {
+  "key": "Cannot reach the co-op server. Check the server URL in the build configuration.",
+  "vi": "Không kết nối được tới máy chủ hợp tác. Hãy kiểm tra địa chỉ máy chủ trong cấu hình bản dựng."
+ },
+ {
+  "key": "Not connected to the co-op server.",
+  "vi": "Chưa kết nối tới máy chủ hợp tác."
+ },
+ {
+  "key": "Lost the connection to the co-op server.",
+  "vi": "Đã mất kết nối tới máy chủ hợp tác."
+ },
+ {
+  "key": "The rules engine is not wired into this build yet.",
+  "vi": "Bộ máy luật chơi chưa được tích hợp vào bản dựng này."
+ },
+ {
+  "key": "Could not start the game.",
+  "vi": "Không thể bắt đầu ván chơi."
+ },
+ {
+  "key": "The saved game could not be restored. Start a new one.",
+  "vi": "Không thể khôi phục ván đã lưu. Hãy bắt đầu ván mới."
+ },
+ {
+  "key": "Language",
+  "vi": "Ngôn ngữ"
+ },
+ {
+  "key": "Game terms",
+  "vi": "Thuật ngữ trò chơi"
+ },
+ {
+  "key": "Underlined terms in the game show their Vietnamese meaning when you hover over them.",
+  "vi": "Các thuật ngữ có gạch chân trong game hiện nghĩa tiếng Việt khi di chuột vào."
+ },
+ {
+  "key": "Remove 1 Wood from the map",
+  "vi": "Gỡ bỏ {0} Gỗ khỏi bản đồ"
+ },
+ {
+  "key": "Remove 1 Coal from the map",
+  "vi": "Gỡ bỏ {0} Than khỏi bản đồ"
+ },
+ {
+  "key": "Remove 1 Food from the map",
+  "vi": "Gỡ bỏ {0} Thực phẩm khỏi bản đồ"
+ },
+ {
+  "key": "Remove 1 Steam Core from the map",
+  "vi": "Gỡ bỏ {0} Steam Core khỏi bản đồ"
+ },
+ {
+  "key": "Remove 1 Steel from the map",
+  "vi": "Gỡ bỏ {0} Thép khỏi bản đồ"
+ },
+ {
+  "key": "Care House",
+  "vi": "Nhà chăm sóc"
+ },
+ {
+  "key": "Care House (1 Wood)",
+  "vi": "Nhà chăm sóc ({0} Gỗ)"
+ }
+]

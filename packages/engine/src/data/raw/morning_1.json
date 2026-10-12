@@ -1,0 +1,73 @@
+[
+{"id":"M001","idx":0,"title":"Theft","top":[{"if":"supplyRes<2","then":["disc+1:apathy","clearSupply","remove"],"else":["event","toCard:supply:2",{"each":"active:greed","fx":["toCard:supply:2"]}]}],
+ "opts":[
+  {"label":"Ignore it and keep the theft a secret","fx":["disc+1:greed","remove"]},
+  {"label":"Expose and investigate","fx":["hope-1","spent:workerEngineer:1","dusk:D001"]},
+  {"label":"Keep it a secret and investigate","fx":["spent:workerEngineer:1","dusk:D002"]}]},
+{"id":"M002","idx":1,"title":"Refugees","opts":[
+  {"label":"Let them enter our city","fx":["gain:worker:3","gain:engineer:2","gain:child:1","hunger+5",{"if":"active:care","then":["hope+1"]},{"if":"active:greed","then":["disc+1"]},"remove"]},
+  {"label":"Send them away","fx":["exhaustHope:all","disc+1:greed","remove"]}]},
+{"id":"M003","idx":2,"title":"People from Our Convoy","opts":[
+  {"label":"Send out an expedition","fx":["dusk:D005","remove"]},
+  {"label":"Ignore this demand","fx":["disc+1:apathy","remove"]},
+  {"label":"Equip them and let them seek the group on their own","req":["active:motivation"],"fx":["lose:worker:2","dusk:D006","remove"]}]},
+{"id":"M004","idx":3,"title":"Comfort the Sick","opts":[
+  {"label":"Promise that you will take care of it","fx":["hope+1:care","dusk:D007","event"]},
+  {"label":"Ignore this demand","fx":["disc+1","remove"]}],
+ "eventAction":{"acts":["worker","engineer"],"freq":"round","custom":"M004"}},
+{"id":"M005","idx":4,"title":"Provide Shelter","opts":[
+  {"label":"Promise that no one will ever sleep in the cold","fx":["hope+1:motivation","dusk:D008","remove"]},
+  {"label":"Promise that most of the citizens will have heated shelters","fx":["dusk:D009","remove"]},
+  {"label":"Ignore this demand","fx":["disc+1","remove"]}]},
+{"id":"M006","idx":5,"title":"A Need for Warmth","opts":[
+  {"label":"Promise there will be enough supplies for every household","fx":["hope+1:justice","dusk:D010","remove"]},
+  {"label":"Prepare emergency supplies only for those in greatest need","fx":["dusk:D011","remove"]},
+  {"label":"Ignore this demand","fx":["disc+1","remove"]}]},
+{"id":"M007","idx":6,"title":"Fear of a Food Crisis","opts":[
+  {"label":"Promise that hunger will never be a problem","fx":["hope+1:care","dusk:D012","remove"]},
+  {"label":"Promise that there will be enough food supplies","fx":["dusk:D013","remove"]},
+  {"label":"Ignore this demand","fx":["disc+1","remove"]}]},
+{"id":"M008","idx":7,"title":"Long Hours of Toil","opts":[
+  {"label":"Force them to work","fx":["disc+2","dusk:D014","remove"]},
+  {"label":"Let them rest","fx":["spent:workerEngineer:1",{"each":"active:apathy","fx":["spent:workerEngineer:1"]},"remove"]},
+  {"label":"Motivate them","req":["exhaust:motivation"],"fx":["dusk:D014","remove"]}]},
+{"id":"M009","idx":8,"title":"A Poet","opts":[
+  {"label":"Order her to stop","fx":["disc+1","dusk:D015","remove"]},
+  {"label":"Place her under house arrest","req":["active:justice"],"fx":["spent:worker:1","dusk:D016","remove"]},
+  {"label":"Make a public announcement that her words don't matter","fx":["dusk:D017","remove"]}]},
+{"id":"M010","idx":9,"title":"Another Settlement","opts":[
+  {"label":"We will send them aid","fx":["event","dusk:D019"]},
+  {"label":"Forget about them","fx":["hope-1","dusk:D020","remove"]}],
+ "eventAction":{"acts":["worker","engineer"],"freq":"game","needs":"beacon","custom":"M010"}},
+{"id":"M011","idx":10,"title":"A Prophet","opts":[
+  {"label":"Meet with her mother and make a deal","req":["spend:3res|6food"],"fx":["disc-1","remove"]},
+  {"label":"Let her continue","fx":["hope+1","dusk:D022","remove"]},
+  {"label":"She must be stopped","fx":["disc+1:anger","dusk:D023","remove"]}]},
+{"id":"M012","idx":11,"title":"Murderer","top":["die:current:1"],"opts":[
+  {"label":"Make this public as a warning, don't investigate","fx":["disc+1","dusk:D024","remove"]},
+  {"label":"Keep it a secret","fx":["dusk:D025","remove"]},
+  {"label":"Make this public and investigate","req":["active:justice"],"fx":["hope+1","spent:worker:1","dusk:D026","remove"]}]},
+{"id":"M013","idx":12,"title":"Orphans","opts":[
+  {"label":"Let our engineers prepare an educational program","fx":["spent:engineer:1","remove"]},
+  {"label":"Look for volunteers to adopt them","fx":["spent:worker:1","dusk:D027","remove"]},
+  {"label":"Their basic needs are met","fx":["dusk:D028","remove"]}]},
+{"id":"M014","idx":13,"title":"Work Safety Issues","opts":[
+  {"label":"Provide safe working conditions","fx":["spent:engineer:1","remove"]},
+  {"label":"No time for this now","fx":["disc+1","dusk:D029","remove"]}]},
+{"id":"M015","idx":14,"title":"A New Project","opts":[
+  {"label":"Give him what he needs","fx":["event"]},
+  {"label":"We can't afford to spend our supplies","fx":["disc+1","remove"]}],
+ "eventAction":{"acts":["engineer"],"freq":"round","custom":"M015"}},
+{"id":"M016","idx":15,"title":"Young Adepts","opts":[
+  {"label":"Send engineers to teach them","fx":["event","custom:M016:engineer","spent:engineer:1","dusk:D031"]},
+  {"label":"Send workers to teach them","fx":["event","custom:M016:worker","spent:worker:1","dusk:D031"]},
+  {"label":"If only the circumstances allowed us","fx":["hope-1","remove"]}]},
+{"id":"M017","idx":16,"title":"Illegal Distillery","opts":[
+  {"label":"Let them have their moonshine","fx":["dusk:D032","remove"]},
+  {"label":"Start a public campaign","fx":["spent:worker:1","remove"]},
+  {"label":"Send guards to destroy it","req":["active:justice"],"fx":["disc+1","remove"]}]},
+{"id":"M018","idx":17,"title":"Prostitution","opts":[
+  {"label":"Turn a blind eye","fx":["dusk:D033","remove"]},
+  {"label":"Start a public campaign about morality","req":["exhaustHope:1"],"fx":["remove"]},
+  {"label":"Select one street to become the red light district","fx":["disc+1","remove"]}]}
+]

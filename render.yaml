@@ -1,0 +1,45 @@
+# Render Blueprint for the realtime game server (apps/server).
+# Create it in Render: New > Blueprint > connect this repo. See docs/DEPLOYMENT.md.
+#
+# PLAN NOTE: "free" web services spin down after ~15 minutes without HTTP/WebSocket
+# traffic and take ~30-60 s to wake, which interrupts live co-op games and the
+# snapshot timer. Use "starter" (paid, always on) for anything beyond testing.
+services:
+  - type: web
+    name: frostpunk-server
+    runtime: node
+    plan: free            # change to "starter" for always-on co-op play
+    region: oregon        # pick the region closest to your players
+    rootDir: .            # monorepo root: npm workspaces need the root lockfile
+    buildCommand: npm ci && npm run build:server
+    startCommand: node apps/server/dist/server.mjs
+    healthCheckPath: /health
+    autoDeploy: true
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: PORT
+        value: "10000"          # Render also injects PORT; the server reads process.env.PORT
+      - key: CORS_ORIGIN        # comma-separated list, e.g. https://frostpunk-web.vercel.app,http://localhost:5173
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY   # SECRET: service role, server only, never in the web app
+        sync: false
+      - key: PERSIST_SNAPSHOT_EVERY
+        value: "10"
+      # Capacity and housekeeping (defaults shown; see docs/DEPLOYMENT.md section 2.1).
+      - key: MAX_ROOMS
+        value: "200"
+      - key: MAX_CONNECTIONS
+        value: "1000"
+      - key: ABANDON_GAME_MINUTES
+        value: "1440"
+      - key: PERSIST_ATTEMPTS
+        value: "10"
+      - key: MAX_CONN_PER_IP
+        value: "20"
+      - key: TRUST_PROXY         # Render terminates TLS and forwards the client address in X-Forwarded-For
+        value: "1"
+      - key: SHUTDOWN_GRACE_MS   # database writes allowed to finish on SIGTERM (1000..120000, default 20000)
+        value: "20000"

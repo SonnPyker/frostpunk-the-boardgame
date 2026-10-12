@@ -1,0 +1,902 @@
+[
+ {
+  "key": "The Thing We Found",
+  "vi": "Thứ chúng ta tìm thấy"
+ },
+ {
+  "key": "The Thing We Found (A) - X0{0}",
+  "vi": "Thứ chúng ta tìm thấy (A) - X0{0}"
+ },
+ {
+  "key": "The Thing We Found: choose an option",
+  "vi": "Thứ chúng ta tìm thấy: chọn một lựa chọn"
+ },
+ {
+  "key": "The Virtue of Humanity",
+  "vi": "Đức hạnh nhân loại"
+ },
+ {
+  "key": "The Virtue of Humanity was introduced",
+  "vi": "Đức hạnh nhân loại đã được ban hành"
+ },
+ {
+  "key": "The Virtue of Humanity: choose a Hope token from the Hope bag to place on this card",
+  "vi": "Đức hạnh nhân loại: chọn một dấu Hope từ túi Hope để đặt lên thẻ này"
+ },
+ {
+  "key": "The Virtue of Humanity: swap its Care Hope token with an active Hope token on the track?",
+  "vi": "Đức hạnh nhân loại: hoán đổi dấu Hope Care của nó với một dấu Hope đang hoạt động trên đường đếm?"
+ },
+ {
+  "key": "The wolves are magnificent specimens",
+  "vi": "Những con sói là những mẫu vật tuyệt vời"
+ },
+ {
+  "key": "The Worker was gathering: nothing to repeat here",
+  "vi": "Công nhân đang thu thập: không có gì để lặp lại ở đây"
+ },
+ {
+  "key": "The World Is Less Scary with a Full Belly!",
+  "vi": "Thế giới bớt đáng sợ khi bụng no!"
+ },
+ {
+  "key": "The World Is Less Scary with a Full Belly! (L0{0}A)",
+  "vi": "Thế giới bớt đáng sợ khi bụng no! (L0{0}A)"
+ },
+ {
+  "key": "The World Is Less Scary with a Full Belly! covers the Law",
+  "vi": "Thế giới bớt đáng sợ khi bụng no! phủ lên Law"
+ },
+ {
+  "key": "The yellow Heat Range indicator was removed",
+  "vi": "Chỉ báo Dải Nhiệt màu vàng đã bị gỡ bỏ"
+ },
+ {
+  "key": "Theft",
+  "vi": "Trộm cắp"
+ },
+ {
+  "key": "Theft (M0{0})",
+  "vi": "Trộm cắp (M0{0})"
+ },
+ {
+  "key": "Theft left the Event display",
+  "vi": "Trộm cắp đã rời bảng Sự kiện"
+ },
+ {
+  "key": "Theft was placed in the Event display",
+  "vi": "Trộm cắp đã được đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "Theft was removed from the game",
+  "vi": "Trộm cắp đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Their basic needs are met",
+  "vi": "Nhu cầu cơ bản của họ đã được đáp ứng"
+ },
+ {
+  "key": "Their crimes cannot be justified",
+  "vi": "Tội của họ không thể biện minh"
+ },
+ {
+  "key": "Their loss, our gain.",
+  "vi": "Họ mất, chúng ta được."
+ },
+ {
+  "key": "They are already dead; they just don't know it.",
+  "vi": "Họ đã chết rồi; chỉ là họ chưa biết thôi."
+ },
+ {
+  "key": "They are only children",
+  "vi": "Họ chỉ là trẻ em thôi"
+ },
+ {
+  "key": "They got what they deserved",
+  "vi": "Họ đáng phải nhận như vậy"
+ },
+ {
+  "key": "They will get better soon",
+  "vi": "Họ sẽ sớm khỏe lại"
+ },
+ {
+  "key": "Thievery Problem",
+  "vi": "Vấn đề trộm cắp"
+ },
+ {
+  "key": "Things are not as bad as they thought",
+  "vi": "Mọi chuyện không tệ như họ nghĩ"
+ },
+ {
+  "key": "This would be the sixth Discontent token – you lose!",
+  "vi": "Đây sẽ là dấu Discontent thứ sáu – bạn thua!"
+ },
+ {
+  "key": "Those meetings were social gatherings",
+  "vi": "Những buổi họp đó chỉ là các buổi tụ họp xã hội"
+ },
+ {
+  "key": "Throw the idol into a fire.",
+  "vi": "Ném tượng thần vào lửa."
+ },
+ {
+  "key": "Time to Rest",
+  "vi": "Đã đến lúc nghỉ ngơi"
+ },
+ {
+  "key": "Time to Rest (law action)",
+  "vi": "Đã đến lúc nghỉ ngơi (hành động Law)"
+ },
+ {
+  "key": "Time to Rest was introduced",
+  "vi": "Đã đến lúc nghỉ ngơi đã được ban hành"
+ },
+ {
+  "key": "Top of the stack",
+  "vi": "Trên cùng chồng"
+ },
+ {
+  "key": "Tracking Techniques",
+  "vi": "Kỹ thuật theo dấu"
+ },
+ {
+  "key": "Tragic Accident",
+  "vi": "Tai nạn thương tâm"
+ },
+ {
+  "key": "Tragic Accident (D0{0})",
+  "vi": "Tai nạn thương tâm (D0{0})"
+ },
+ {
+  "key": "Tragic Accident was removed from the game",
+  "vi": "Tai nạn thương tâm đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Traumatising Moments",
+  "vi": "Những khoảnh khắc chấn thương"
+ },
+ {
+  "key": "Treat {0}",
+  "vi": "Điều trị {0}"
+ },
+ {
+  "key": "Treat {0} Sickness marker(s)",
+  "vi": "Điều trị {0} dấu Bệnh"
+ },
+ {
+  "key": "Treat each Dreadnought tile as a Small Building with Blue insulation (heated only in a heated zone). Placing a Meeple there is a Use a Building action gaining {0} Steel. Steel ({1} pieces) substitutes for Wood in Build sub-actions, mixing allowed; paying the full Wood cost in Steel upgrades the building immediately for free.",
+  "vi": "Coi mỗi mảnh Dreadnought như một Công trình nhỏ có insulation Xanh dương (chỉ heated khi nằm trong vùng heated). Đặt một Meeple lên đó là hành động Sử dụng một Công trình, nhận {0} Thép. Thép ({1} miếng) thay cho Gỗ trong các hành động phụ Xây, được phép trộn lẫn; trả đủ chi phí Gỗ bằng Thép sẽ nâng cấp công trình ngay lập tức miễn phí."
+ },
+ {
+  "key": "Treated Child (Skull -> Syringe)",
+  "vi": "Đã điều trị Trẻ em (Đầu lâu -> Ống tiêm)"
+ },
+ {
+  "key": "Treated Engineer (Skull -> Syringe)",
+  "vi": "Đã điều trị Kỹ sư (Đầu lâu -> Ống tiêm)"
+ },
+ {
+  "key": "Treated Worker (Skull -> Syringe)",
+  "vi": "Đã điều trị Công nhân (Đầu lâu -> Ống tiêm)"
+ },
+ {
+  "key": "Tree removed at N1{0} top",
+  "vi": "Đã gỡ bỏ Cây tại N1{0} phía trên"
+ },
+ {
+  "key": "Trials of Life",
+  "vi": "Thử thách sinh tồn"
+ },
+ {
+  "key": "Turn a blind eye",
+  "vi": "Nhắm mắt làm ngơ"
+ },
+ {
+  "key": "Turn away from the light.",
+  "vi": "Quay lưng khỏi ánh sáng."
+ },
+ {
+  "key": "Typhoid",
+  "vi": "Thương hàn"
+ },
+ {
+  "key": "Typhoid (D0{0})",
+  "vi": "Thương hàn (D0{0})"
+ },
+ {
+  "key": "Typhoid was removed from the game",
+  "vi": "Thương hàn đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Uncertainty",
+  "vi": "Bất định"
+ },
+ {
+  "key": "Uncertainty (SD0{0})",
+  "vi": "Bất định (SD0{0})"
+ },
+ {
+  "key": "Uncertainty resolved and removed from the game",
+  "vi": "Bất định đã được giải quyết và bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Unequal Treatment",
+  "vi": "Đối xử bất công"
+ },
+ {
+  "key": "Unequal Treatment (M0{0})",
+  "vi": "Đối xử bất công (M0{0})"
+ },
+ {
+  "key": "Unequal Treatment was removed from the game",
+  "vi": "Đối xử bất công đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "United We Stand",
+  "vi": "Đoàn kết là sức mạnh"
+ },
+ {
+  "key": "United We Stand (L2{0}B)",
+  "vi": "Đoàn kết là sức mạnh (L2{0}B)"
+ },
+ {
+  "key": "United We Stand was placed on the Dusk discard pile",
+  "vi": "Đoàn kết là sức mạnh đã được đặt vào chồng bỏ Dusk"
+ },
+ {
+  "key": "United we stand. Divided we fall.",
+  "vi": "Đoàn kết thì đứng vững. Chia rẽ thì sụp đổ."
+ },
+ {
+  "key": "Unlock the Steam Hub Building. A Steam Hub costs {0} Wood to Build. If the Heat marker level is higher than the red Heat Range indicator level: You may place {1} Coal from the supply into a Steam Hub to count the tile it is on and all adjacent tiles as heated. Place that Coal in the bank in the Generator Phase.",
+  "vi": "Mở khóa công trình Steam Hub. Một Steam Hub tốn {0} Gỗ để Xây. Nếu mức dấu Nhiệt cao hơn mức chỉ báo Dải Nhiệt màu đỏ: bạn có thể đặt {1} Than từ kho chung vào một Steam Hub để tính mảnh nó đang nằm và mọi mảnh liền kề là heated. Đặt Than đó về kho chung trong Giai đoạn Generator."
+ },
+ {
+  "key": "Unsafe Conditions",
+  "vi": "Điều kiện mất an toàn"
+ },
+ {
+  "key": "Unsafe Conditions (L0{0}A)",
+  "vi": "Điều kiện mất an toàn (L0{0}A)"
+ },
+ {
+  "key": "Unsafe Conditions covers the Law",
+  "vi": "Điều kiện mất an toàn phủ lên Law"
+ },
+ {
+  "key": "Unsafe Conditions was placed on the Dusk discard pile; the Law is uncovered",
+  "vi": "Điều kiện mất an toàn đã được đặt vào chồng bỏ Dusk; Law được mở ra"
+ },
+ {
+  "key": "Unstable Structures",
+  "vi": "Công trình bất ổn"
+ },
+ {
+  "key": "Unworthy Successor",
+  "vi": "Kẻ kế vị bất xứng"
+ },
+ {
+  "key": "Unworthy Successor (D0{0})",
+  "vi": "Kẻ kế vị bất xứng (D0{0})"
+ },
+ {
+  "key": "Unworthy Successor was removed from the game",
+  "vi": "Kẻ kế vị bất xứng đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Upgrade a Building",
+  "vi": "Nâng cấp một Công trình"
+ },
+ {
+  "key": "Upgrade a Building  OR  Move the Development token back {0}",
+  "vi": "Nâng cấp một Công trình  HOẶC  Di chuyển Development token lùi lại {0}"
+ },
+ {
+  "key": "Upgrade a Building (pay its cost)",
+  "vi": "Nâng cấp một Công trình (trả chi phí)"
+ },
+ {
+  "key": "Upgrade a Building for free",
+  "vi": "Nâng cấp một Công trình miễn phí"
+ },
+ {
+  "key": "Upgrade a Building for free  OR  Activate {0} Hope",
+  "vi": "Nâng cấp một Công trình miễn phí  HOẶC  Kích hoạt {0} Hope"
+ },
+ {
+  "key": "Upgrade only improves insulation. Law L0{0} allows Child meeples here.",
+  "vi": "Nâng cấp chỉ cải thiện insulation. Law L0{0} cho phép Meeple Trẻ em ở đây."
+ },
+ {
+  "key": "Upgrade only improves insulation. Tech T1{0}: +{1} Wood.",
+  "vi": "Nâng cấp chỉ cải thiện insulation. Công nghệ T1{0}: +{1} Gỗ."
+ },
+ {
+  "key": "Upgrade which Building?",
+  "vi": "Nâng cấp Công trình nào?"
+ },
+ {
+  "key": "Upper tile on bottom, lower tile on top",
+  "vi": "Mảnh trên ở dưới, mảnh dưới ở trên"
+ },
+ {
+  "key": "Upper tile on top, lower tile on bottom",
+  "vi": "Mảnh trên ở trên, mảnh dưới ở dưới"
+ },
+ {
+  "key": "Use a Building",
+  "vi": "Sử dụng một Công trình"
+ },
+ {
+  "key": "Use an Advisor this Round?",
+  "vi": "Dùng một Advisor trong vòng này?"
+ },
+ {
+  "key": "Use Food Additives",
+  "vi": "Dùng Phụ gia thực phẩm"
+ },
+ {
+  "key": "Use the books to fuel the generator",
+  "vi": "Đốt sách để cấp nhiên liệu cho generator"
+ },
+ {
+  "key": "Use which Building?",
+  "vi": "Sử dụng Công trình nào?"
+ },
+ {
+  "key": "Valley of Shadows",
+  "vi": "Thung lũng bóng tối"
+ },
+ {
+  "key": "Venereal Diseases Spread",
+  "vi": "Bệnh hoa liễu lan rộng"
+ },
+ {
+  "key": "Venereal Diseases Spread (D0{0})",
+  "vi": "Bệnh hoa liễu lan rộng (D0{0})"
+ },
+ {
+  "key": "Venereal Diseases Spread was removed from the game",
+  "vi": "Bệnh hoa liễu lan rộng đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "virtueHopeFromBag",
+  "vi": "virtueHopeFromBag"
+ },
+ {
+  "key": "Vox Populi",
+  "vi": "Tiếng nói nhân dân"
+ },
+ {
+  "key": "Vox Populi placed face up",
+  "vi": "Tiếng nói nhân dân đã được đặt ngửa"
+ },
+ {
+  "key": "Walk towards the light.",
+  "vi": "Bước về phía ánh sáng."
+ },
+ {
+  "key": "Wall Drill",
+  "vi": "Máy khoan tường"
+ },
+ {
+  "key": "Wall Drill ({0} Wood + {1} Steam Core)",
+  "vi": "Máy khoan tường ({0} Gỗ + {1} Steam Core)"
+ },
+ {
+  "key": "Warmth for Those in Need",
+  "vi": "Sưởi ấm cho người cần"
+ },
+ {
+  "key": "Warmth for Those in Need (D0{0})",
+  "vi": "Sưởi ấm cho người cần (D0{0})"
+ },
+ {
+  "key": "Warmth for Those in Need left the Event display",
+  "vi": "Sưởi ấm cho người cần đã rời bảng Sự kiện"
+ },
+ {
+  "key": "Warmth for Those in Need was placed in the Event display",
+  "vi": "Sưởi ấm cho người cần đã được đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "We can save them! We must!",
+  "vi": "Chúng ta có thể cứu họ! Chúng ta phải làm!"
+ },
+ {
+  "key": "We can take your precious stuff, but you carry it.",
+  "vi": "Chúng tôi có thể lấy đồ quý giá của các người, nhưng các người phải tự mang nó."
+ },
+ {
+  "key": "We can't afford to spend our supplies",
+  "vi": "Chúng ta không đủ khả năng chi vật tư"
+ },
+ {
+  "key": "We can't. That food would taste of blood.",
+  "vi": "Không được. Thứ thức ăn đó sẽ có vị máu."
+ },
+ {
+  "key": "We cannot let them in",
+  "vi": "Chúng ta không thể cho họ vào"
+ },
+ {
+  "key": "We don't have enough people",
+  "vi": "Chúng ta không đủ người"
+ },
+ {
+  "key": "We don't know them. Our people need supplies.",
+  "vi": "Chúng ta không quen họ. Dân ta cần vật tư."
+ },
+ {
+  "key": "We have bigger problems",
+  "vi": "Chúng ta còn vấn đề lớn hơn"
+ },
+ {
+  "key": "We have failed...",
+  "vi": "Chúng ta đã thất bại..."
+ },
+ {
+  "key": "We must get some rest.",
+  "vi": "Chúng ta phải nghỉ ngơi một chút."
+ },
+ {
+  "key": "We must stay together.",
+  "vi": "Chúng ta phải ở bên nhau."
+ },
+ {
+  "key": "We refused",
+  "vi": "Chúng ta đã từ chối"
+ },
+ {
+  "key": "We should be ashamed and suffer penance.",
+  "vi": "Chúng ta nên xấu hổ và chịu sám hối."
+ },
+ {
+  "key": "We will remember.",
+  "vi": "Chúng ta sẽ ghi nhớ."
+ },
+ {
+  "key": "We will send them aid",
+  "vi": "Chúng ta sẽ gửi viện trợ cho họ"
+ },
+ {
+  "key": "We'll feed all",
+  "vi": "Chúng ta sẽ nuôi tất cả"
+ },
+ {
+  "key": "We've Found the Thief",
+  "vi": "Chúng ta đã tìm ra tên trộm"
+ },
+ {
+  "key": "We've Got Him!",
+  "vi": "Chúng ta đã bắt được hắn!"
+ },
+ {
+  "key": "We've Got Him! (D0{0})",
+  "vi": "Chúng ta đã bắt được hắn! (D0{0})"
+ },
+ {
+  "key": "We've Got Him! was removed from the game",
+  "vi": "Chúng ta đã bắt được hắn! đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "We've spent enough time and resources",
+  "vi": "Chúng ta đã bỏ ra đủ thời gian và tài nguyên"
+ },
+ {
+  "key": "Weather card W0{0} revealed",
+  "vi": "Thẻ thời tiết W0{0} đã được lật"
+ },
+ {
+  "key": "Weather card W1{0} revealed",
+  "vi": "Thẻ thời tiết W1{0} đã được lật"
+ },
+ {
+  "key": "Weather phase",
+  "vi": "Giai đoạn Thời tiết"
+ },
+ {
+  "key": "WEATHER PHASE: Gain {0} Food for each Map tile depicting a Food Bonus.",
+  "vi": "GIAI ĐOẠN THỜI TIẾT: Nhận {0} Thực phẩm cho mỗi mảnh bản đồ có biểu tượng thưởng Thực phẩm."
+ },
+ {
+  "key": "WEATHER PHASE: Gain an additional {0} Food for every {1} Hunting symbols.",
+  "vi": "GIAI ĐOẠN THỜI TIẾT: Nhận thêm {0} Thực phẩm cho mỗi {1} biểu tượng Săn bắn."
+ },
+ {
+  "key": "Welcome if they obey the rules",
+  "vi": "Chào đón nếu họ tuân theo quy định"
+ },
+ {
+  "key": "What About the Toys?",
+  "vi": "Còn đồ chơi thì sao?"
+ },
+ {
+  "key": "What About the Toys? (D0{0})",
+  "vi": "Còn đồ chơi thì sao? (D0{0})"
+ },
+ {
+  "key": "What About the Toys? was placed on the Dusk discard pile",
+  "vi": "Còn đồ chơi thì sao? đã được đặt vào chồng bỏ Dusk"
+ },
+ {
+  "key": "What About the Toys? was removed from the game",
+  "vi": "Còn đồ chơi thì sao? đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "What Happened to the Dissidents?",
+  "vi": "Chuyện gì đã xảy ra với những người bất đồng?"
+ },
+ {
+  "key": "What Happened to the Dissidents? (D0{0})",
+  "vi": "Chuyện gì đã xảy ra với những người bất đồng? (D0{0})"
+ },
+ {
+  "key": "What Happened to the Dissidents? was removed from the game",
+  "vi": "Chuyện gì đã xảy ra với những người bất đồng? đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "What Lies Beneath?",
+  "vi": "Điều ẩn giấu bên dưới?"
+ },
+ {
+  "key": "What Lies Beneath? (D0{0})",
+  "vi": "Điều ẩn giấu bên dưới? (D0{0})"
+ },
+ {
+  "key": "What Lies Beneath? was removed from the game",
+  "vi": "Điều ẩn giấu bên dưới? đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "What? Why? Let's just go.",
+  "vi": "Gì cơ? Sao vậy? Cứ đi thôi."
+ },
+ {
+  "key": "Whenever you Deploy Scouts on an Expedition or Continue an Expedition, move the Scout {0} space forward.",
+  "vi": "Mỗi khi bạn Triển khai Scout lên một Expedition hoặc Tiếp tục một Expedition, di chuyển Scout tiến {0} ô."
+ },
+ {
+  "key": "Whenever you perform the Construct action, you may perform up to {0} Construct sub-actions. Whenever you Dismantle a Building, gain {1} Wood.",
+  "vi": "Mỗi khi bạn thực hiện hành động Xây dựng, bạn có thể thực hiện tối đa {0} hành động phụ Xây dựng. Mỗi khi bạn Tháo dỡ một Công trình, nhận {1} Gỗ."
+ },
+ {
+  "key": "Whenever you perform the Gather Resources action, you may take up to {0} Resources, and you may take them from any spaces on the tile, in any combination.",
+  "vi": "Mỗi khi bạn thực hiện hành động Thu thập Tài nguyên, bạn có thể lấy tối đa {0} Tài nguyên, và có thể lấy từ bất kỳ ô nào trên mảnh, theo bất kỳ tổ hợp nào."
+ },
+ {
+  "key": "Whenever you use a Charcoal Kiln, you may remove a Tree from any Map tile instead of spending {0} Wood.",
+  "vi": "Mỗi khi bạn dùng Lò than củi, bạn có thể gỡ bỏ một Cây ở bất kỳ mảnh bản đồ nào thay vì chi {0} Gỗ."
+ },
+ {
+  "key": "Whenever you use a Coal Thumper, also gain {0} Coal.",
+  "vi": "Mỗi khi bạn dùng Máy đập than, cũng nhận {0} Than."
+ },
+ {
+  "key": "Whenever you use a Hothouse with an Engineer Meeple, you may move the Corpse marker backwards {0} space on the Corpse track to gain an additional {1} Food.",
+  "vi": "Mỗi khi bạn dùng Nhà kính với một Meeple Kỹ sư, bạn có thể di chuyển Corpse marker lùi {0} ô trên đường Xác chết để nhận thêm {1} Thực phẩm."
+ },
+ {
+  "key": "Whenever you use a Medical Post, you may Treat {0} instead of its normal effect.",
+  "vi": "Mỗi khi bạn dùng Trạm y tế, bạn có thể Điều trị {0} thay vì hiệu ứng thông thường."
+ },
+ {
+  "key": "Whenever you use a Sawmill or Wall Drill, gain an additional {0} Wood.",
+  "vi": "Mỗi khi bạn dùng Xưởng cưa hoặc Máy khoan tường, nhận thêm {0} Gỗ."
+ },
+ {
+  "key": "Where Were the Parents?",
+  "vi": "Cha mẹ đâu rồi?"
+ },
+ {
+  "key": "Where Were the Parents? (D0{0})",
+  "vi": "Cha mẹ đâu rồi? (D0{0})"
+ },
+ {
+  "key": "Where Were the Parents? was placed on the Dusk discard pile",
+  "vi": "Cha mẹ đâu rồi? đã được đặt vào chồng bỏ Dusk"
+ },
+ {
+  "key": "Which Citizen dies?",
+  "vi": "Công dân nào chết?"
+ },
+ {
+  "key": "Which Meeple acts?",
+  "vi": "Meeple nào hành động?"
+ },
+ {
+  "key": "Which Meeple becomes the Scout?",
+  "vi": "Meeple nào trở thành Scout?"
+ },
+ {
+  "key": "Which Resources ({0} in total) go onto Comfort the Sick?",
+  "vi": "Tài nguyên nào ({0} tổng cộng) được đặt lên An ủi người bệnh?"
+ },
+ {
+  "key": "White Lies",
+  "vi": "Lời nói dối vô hại"
+ },
+ {
+  "key": "White Lies (B) - X2{0}",
+  "vi": "Lời nói dối vô hại (B) - X2{0}"
+ },
+ {
+  "key": "White Lies: choose an option",
+  "vi": "Lời nói dối vô hại: chọn một lựa chọn"
+ },
+ {
+  "key": "Who Are We?",
+  "vi": "Chúng ta là ai?"
+ },
+ {
+  "key": "Who sleeps in a warm place? ({0} places in heated shelters)",
+  "vi": "Ai ngủ ở nơi ấm áp? ({0} chỗ trong nơi trú ẩn heated)"
+ },
+ {
+  "key": "Who'd trust a Dalton?! Help them all.",
+  "vi": "Ai mà tin được một Dalton?! Hãy giúp tất cả họ."
+ },
+ {
+  "key": "Why We Fail",
+  "vi": "Vì sao chúng ta thất bại"
+ },
+ {
+  "key": "Wild Berries",
+  "vi": "Quả dại"
+ },
+ {
+  "key": "Wild Berries (M0{0})",
+  "vi": "Quả dại (M0{0})"
+ },
+ {
+  "key": "Wild Berries was removed from the game",
+  "vi": "Quả dại đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Winter Has Come",
+  "vi": "Mùa đông đã đến"
+ },
+ {
+  "key": "Winter Has Come (M0{0})",
+  "vi": "Mùa đông đã đến (M0{0})"
+ },
+ {
+  "key": "Winter Has Come was removed from the game",
+  "vi": "Mùa đông đã đến đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Winterhome",
+  "vi": "Nhà Mùa Đông"
+ },
+ {
+  "key": "Winterhome (scenario) - S0{0}",
+  "vi": "Nhà Mùa Đông (kịch bản) - S0{0}"
+ },
+ {
+  "key": "With steam technology comes great responsibility.",
+  "vi": "Công nghệ hơi nước đi kèm trách nhiệm lớn lao."
+ },
+ {
+  "key": "Wood",
+  "vi": "Gỗ"
+ },
+ {
+  "key": "Wood – F0{0} top ({1})",
+  "vi": "Gỗ – F0{0} phía trên ({1})"
+ },
+ {
+  "key": "Wood – Generator UL ({0})",
+  "vi": "Gỗ – Generator UL ({0})"
+ },
+ {
+  "key": "Wood – N0{0} bottom ({1})",
+  "vi": "Gỗ – N0{0} phía dưới ({1})"
+ },
+ {
+  "key": "Wood – N0{0} top ({1})",
+  "vi": "Gỗ – N0{0} phía trên ({1})"
+ },
+ {
+  "key": "Wood ({0})",
+  "vi": "Gỗ ({0})"
+ },
+ {
+  "key": "Wood Processing",
+  "vi": "Chế biến gỗ"
+ },
+ {
+  "key": "Wooden Toys",
+  "vi": "Đồ chơi gỗ"
+ },
+ {
+  "key": "Wooden Toys (event action)",
+  "vi": "Đồ chơi gỗ (hành động sự kiện)"
+ },
+ {
+  "key": "Wooden Toys (M0{0})",
+  "vi": "Đồ chơi gỗ (M0{0})"
+ },
+ {
+  "key": "Wooden Toys left the Event display",
+  "vi": "Đồ chơi gỗ đã rời bảng Sự kiện"
+ },
+ {
+  "key": "Wooden Toys was placed in the Event display",
+  "vi": "Đồ chơi gỗ đã được đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "Wooden Toys was removed from the game",
+  "vi": "Đồ chơi gỗ đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Work Accidents",
+  "vi": "Tai nạn lao động"
+ },
+ {
+  "key": "Work Hard and Play Hard",
+  "vi": "Làm việc chăm chỉ, chơi cũng hết mình"
+ },
+ {
+  "key": "Work Safety Issues",
+  "vi": "Vấn đề an toàn lao động"
+ },
+ {
+  "key": "Work Safety Issues (M0{0})",
+  "vi": "Vấn đề an toàn lao động (M0{0})"
+ },
+ {
+  "key": "Work Safety Issues was removed from the game",
+  "vi": "Vấn đề an toàn lao động đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Worker",
+  "vi": "Công nhân"
+ },
+ {
+  "key": "Worker (sick {0}, skull)",
+  "vi": "Công nhân (bệnh {0}, đầu lâu)"
+ },
+ {
+  "key": "Worker (sick {0})",
+  "vi": "Công nhân (bệnh {0})"
+ },
+ {
+  "key": "Worker (Skull)",
+  "vi": "Công nhân (Đầu lâu)"
+ },
+ {
+  "key": "Worker (Syringe)",
+  "vi": "Công nhân (Ống tiêm)"
+ },
+ {
+  "key": "Worker {0} (board)",
+  "vi": "Công nhân {0} (bàn chơi)"
+ },
+ {
+  "key": "Worker {0} (space)",
+  "vi": "Công nhân {0} (ô)"
+ },
+ {
+  "key": "Worker sickness band: {0} spent, {1} flip(s)",
+  "vi": "Dải bệnh công nhân: đã dùng {0}, lật {1} lần"
+ },
+ {
+  "key": "Worker sickness marker flipped back – a citizen dies",
+  "vi": "Dấu bệnh công nhân được lật lại – một công dân chết"
+ },
+ {
+  "key": "Worker sickness marker flipped to the Skull side",
+  "vi": "Dấu bệnh công nhân được lật sang mặt Đầu lâu"
+ },
+ {
+  "key": "Workers",
+  "vi": "Công nhân"
+ },
+ {
+  "key": "Workers' Strike",
+  "vi": "Đình công"
+ },
+ {
+  "key": "Workshop",
+  "vi": "Workshop"
+ },
+ {
+  "key": "Workshop ({0} Wood)",
+  "vi": "Workshop ({0} Gỗ)"
+ },
+ {
+  "key": "Workshop (free)",
+  "vi": "Workshop (miễn phí)"
+ },
+ {
+  "key": "Workshop at Generator tile (UL)",
+  "vi": "Workshop ở mảnh Generator (UL)"
+ },
+ {
+  "key": "Workshop at Generator tile (UR)",
+  "vi": "Workshop ở mảnh Generator (UR)"
+ },
+ {
+  "key": "Workshop at N0{0} bottom",
+  "vi": "Workshop ở N0{0} phía dưới"
+ },
+ {
+  "key": "Workshop at N0{0} top",
+  "vi": "Workshop ở N0{0} phía trên"
+ },
+ {
+  "key": "Workshop at N1{0} bottom",
+  "vi": "Workshop ở N1{0} phía dưới"
+ },
+ {
+  "key": "Workshop at N1{0} top",
+  "vi": "Workshop ở N1{0} phía trên"
+ },
+ {
+  "key": "Workshop built",
+  "vi": "Workshop đã được xây"
+ },
+ {
+  "key": "Workshop dismantled",
+  "vi": "Workshop đã được tháo dỡ"
+ },
+ {
+  "key": "Workshop effect ({0} left)",
+  "vi": "Hiệu ứng Workshop (còn {0})"
+ },
+ {
+  "key": "Yes – Spend {0} Food",
+  "vi": "Có – Chi {0} Thực phẩm"
+ },
+ {
+  "key": "You may place a Meeple on a Dreadnought tile as a 'Use a Building' action to gain {0} Steel. A Dreadnought tile is a Small Building with Blue insulation (only heated if it is in a heated zone).",
+  "vi": "Bạn có thể đặt một Meeple lên mảnh Dreadnought như hành động 'Sử dụng một Công trình' để nhận {0} Thép. Mảnh Dreadnought là một Công trình nhỏ có insulation Xanh dương (chỉ heated nếu nằm trong vùng heated)."
+ },
+ {
+  "key": "You may use any Building with an Automaton Meeple. If the Heat marker level is higher than the red Heat Range indicator level: Automatons do not cost Coal to use.",
+  "vi": "Bạn có thể dùng bất kỳ Công trình nào với một Meeple Automaton. Nếu mức dấu Nhiệt cao hơn mức chỉ báo Dải Nhiệt màu đỏ: các Automaton không tốn Than khi dùng."
+ },
+ {
+  "key": "You may use the Cookhouse with a Child Meeple.",
+  "vi": "Bạn có thể dùng Nhà bếp với một Meeple Trẻ em."
+ },
+ {
+  "key": "Young Adepts",
+  "vi": "Môn đồ trẻ"
+ },
+ {
+  "key": "Young Adepts (M0{0})",
+  "vi": "Môn đồ trẻ (M0{0})"
+ },
+ {
+  "key": "Young Adepts left the Event display",
+  "vi": "Môn đồ trẻ đã rời bảng Sự kiện"
+ },
+ {
+  "key": "Young Adepts was placed in the Event display",
+  "vi": "Môn đồ trẻ đã được đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "Young Adepts was removed from the game",
+  "vi": "Môn đồ trẻ đã bị loại khỏi trò chơi"
+ },
+ {
+  "key": "Your first Workshop is built: choose a Technology to develop",
+  "vi": "Workshop đầu tiên đã được xây: chọn một Công nghệ để phát triển"
+ },
+ {
+  "key": "Youth Gang on the Streets!",
+  "vi": "Băng thanh niên trên phố!"
+ },
+ {
+  "key": "Youth Gang on the Streets! (M0{0})",
+  "vi": "Băng thanh niên trên phố! (M0{0})"
+ },
+ {
+  "key": "Youth Gang on the Streets! was placed in the Event display",
+  "vi": "Băng thanh niên trên phố! đã được đặt vào bảng Sự kiện"
+ },
+ {
+  "key": "Youth Gang on the Streets! was removed from the game",
+  "vi": "Băng thanh niên trên phố! đã bị loại khỏi trò chơi"
+ }
+]

@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    name: Install, typecheck, test, build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install (workspaces, from root lockfile)
+        run: npm ci
+
+      - name: Typecheck (engine, server, web)
+        run: npm run typecheck
+
+      - name: Test engine
+        run: npm test -w packages/engine
+
+      - name: Test server
+        # --passWithNoTests keeps CI green until the server has its own test files.
+        run: npm test -w apps/server -- --passWithNoTests
+
+      - name: Build web client
+        run: npm run build:web
+
+      - name: Build server bundle
+        run: npm run build:server
+
+      - name: Check server bundle starts (no Supabase needed for /health)
+        env:
+          PORT: "8080"
+          CORS_ORIGIN: "http://localhost:5173"
+          SUPABASE_URL: "https://example.supabase.co"
+          SUPABASE_SERVICE_ROLE_KEY: "ci-placeholder"
+        run: |
+          node apps/server/dist/server.mjs &
+          PID=$!
+          for i in $(seq 1 20); do
+            if curl -fsS http://localhost:8080/health; then kill $PID; exit 0; fi
+            sleep 1
+          done
+          kill $PID; echo "server did not answer /health"; exit 1
