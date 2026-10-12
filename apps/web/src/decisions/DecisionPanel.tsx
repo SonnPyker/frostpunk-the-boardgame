@@ -34,6 +34,8 @@ export interface DecisionPanelProps {
   canAnswer: boolean;
   /** an answer is on its way to the server */
   busy?: boolean;
+  /** watch mode: the bot plays this decision, so the panel says so instead of naming a player */
+  watching?: boolean;
 }
 
 /** Kinds whose card is worth drawing large beside the options. */
@@ -63,7 +65,7 @@ function lastEventLine(state: GameState): string {
   return '';
 }
 
-export function DecisionPanel({ state, answer, canAnswer, busy = false }: DecisionPanelProps) {
+export function DecisionPanel({ state, answer, canAnswer, busy = false, watching = false }: DecisionPanelProps) {
   const engine = state.pending;
   // A Workshop effect shows its place in the run and what each option does; everything else is shown as the engine gives it.
   const wsPos = workshopPosition(engine);
@@ -95,7 +97,13 @@ export function DecisionPanel({ state, answer, canAnswer, busy = false }: Decisi
   const confirmable = !!p && total >= p.min && total <= p.max;
   const live = !!p && canAnswer && !busy;
   const who = p && p.who >= 0 ? state.players[p.who]?.name : undefined;
-  const blocked = !canAnswer ? `${t('Waiting for')} ${who ?? t('another player')}` : busy ? t('Sending the answer...') : '';
+  const blocked = !canAnswer
+    ? watching
+      ? t('The bot is choosing')
+      : `${t('Waiting for')} ${who ?? t('another player')}`
+    : busy
+      ? t('Sending the answer...')
+      : '';
   const lastEvent = useMemo(() => lastEventLine(state), [state.log]);
 
   const press = useCallback(

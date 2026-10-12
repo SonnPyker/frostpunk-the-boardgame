@@ -623,6 +623,83 @@
   gap: 8px;
 }
 
+/* Scenario set-up (screens/ScenarioSetup.tsx): starting values and the set-up summary */
+.start-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.start-table th,
+.start-table td {
+  padding: 4px 6px;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.start-table td .start-field__input {
+  width: 84px;
+}
+
+.start-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 8px 12px;
+}
+
+.start-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.start-field__input {
+  width: 100%;
+  min-width: 0;
+}
+
+.setup__summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: 6px 14px;
+}
+
+.setup__summary > div {
+  min-width: 0;
+}
+
+/* Scenario set-up columns: the same placement as the New game sections (see .setup__options above) */
+.setup__main,
+.setup__side {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.setup__main {
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+
+.setup__side {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+.setup__panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.setup__draw {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
 .seed-row .field {
   flex: 1;
 }
@@ -1066,6 +1143,14 @@
 .game-menu-controls {
   display: flex;
   align-items: center;
+  gap: 8px;
+}
+
+/* Watch mode: bot status, pause or play, step and speed, in the HUD top bar */
+.watch-controls {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 8px;
 }
 

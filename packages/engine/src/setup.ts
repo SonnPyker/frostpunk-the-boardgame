@@ -14,13 +14,15 @@
 // * Corpse track limit 10 (TTS mod: "If reaches 10 ... lose").
 // * The scenario hook: `scenario.ts` may export `scenarioSetup(s)`; it is called once during set-up (it may mutate s and push ops).
 //   Until that module exists the hook is skipped.
+// * Custom start (solo "Tùy chỉnh"): `config.start` replaces the printed Society numbers (see `startValues`, `validateStart`).
+//   Every other step is the same. Random set-ups (randomSetup.ts) use only printed Society cards.
 import './fx/index';
 import { BACK_PICK, answerPending, ask, defOp, hasOp, log, opt, push, run, RuleError } from './core';
 import * as D from './data';
 import { meepleCountFor } from './data';
 import { describeList } from './fx/describe';
 import { feasible, runFx } from './fx/core';
-import { setupTrack } from './hope';
+import { DISC_SLOTS, HOPE_SLOTS, setupTrack } from './hope';
 import { setupExpeditions } from './expedition';
 import { placeBuilding } from './buildings';
 import { addSick } from './sickness';
@@ -29,9 +31,9 @@ import { allLawIds } from './laws';
 import { lessonAdvance, lessonCheck, lessonRewind, validateLesson } from './tutorial';
 import { blankState } from './testing';
 import { randInt, shuffle } from './rng';
-import { newMeeple } from './util';
+import { LIMITS, newMeeple } from './util';
 import * as ScenarioMod from './scenario';
-import type { CitizenType, GameConfig, GameState, MapTile, Space } from './types';
+import type { CitizenType, GameConfig, GameState, MapTile, Space, StartOverride } from './types';
 import { CITIZEN_TYPES } from './types';
 
 export const CORPSE_MAX = 10;
@@ -48,6 +50,20 @@ export interface SetupInfo {
   hope: [number, number];
   discontent: [number, number];
 }
+
+/**
+ * Limits of a custom set-up (`config.start`). Population, Automatons and Food use the engine's component limits (util.ts
+ * LIMITS). Wood, Coal and Cores take the same cap as Food: the rulebook prints no maximum for them, so this cap is a choice of this port.
+ */
+export const START_LIMITS = {
+  citizens: LIMITS.citizens,
+  sick: 25, // a Sickness marker at 26 or more loses the game (sickness.ts checkSicknessLoss)
+  automaton: LIMITS.automatons,
+  supply: LIMITS.food,
+  corpse: CORPSE_MAX - 1, // the last Corpse space loses the game
+  hope: HOPE_SLOTS,
+  discontent: DISC_SLOTS, // a sixth Discontent token loses the game (hope.ts)
+};
 
 const idNum = (id: string) => Number(id.replace(/\D/g, ''));
 const byId = (a: string, b: string) => (a < b ? -1 : a > b ? 1 : 0);
@@ -74,6 +90,34 @@ export function validateConfig(config: GameConfig) {
   if (config.mode === 'solo' && chosen.length > 1) throw new RuleError('a solo game takes one Advisor');
   if (chosen.length > 0 && chosen.length < n) throw new RuleError(`the table needs at least ${n} Advisors (one per player)`);
   if (config.tutorial !== undefined) validateLesson(config);
+  if (config.start !== undefined) validateStart(config.start);
+}
+
+/**
+ * Throws RuleError for a custom start outside START_LIMITS. Hope needs at least one token (an empty Hope track loses at once),
+ * and every "active" count is at most the count drawn.
+ */
+export function validateStart(start: StartOverride) {
+  if (!start || typeof start !== 'object') throw new RuleError('start must be an object');
+  const whole = (v: unknown, lo: number, hi: number) => Number.isInteger(v) && (v as number) >= lo && (v as number) <= hi;
+  const { pop, sick, hope, discontent } = start as unknown as Record<string, unknown>;
+  if (!Array.isArray(pop) || pop.length !== 3 || !pop.every((n) => whole(n, 0, START_LIMITS.citizens))) {
+    throw new RuleError(`population: three counts, each 0 to ${START_LIMITS.citizens}`);
+  }
+  if (!Array.isArray(sick) || sick.length !== 3 || !sick.every((n, i) => whole(n, 0, Math.min(START_LIMITS.sick, pop[i] as number)))) {
+    throw new RuleError(`sick: three counts, each 0 to its population and at most ${START_LIMITS.sick}`);
+  }
+  if (!whole(start.automaton, 0, START_LIMITS.automaton)) throw new RuleError(`Automatons: 0 to ${START_LIMITS.automaton}`);
+  for (const k of ['food', 'wood', 'coal', 'cores'] as const) {
+    if (!whole(start[k], 0, START_LIMITS.supply)) throw new RuleError(`${k}: 0 to ${START_LIMITS.supply}`);
+  }
+  if (!Array.isArray(hope) || hope.length !== 2 || !whole(hope[0], 1, START_LIMITS.hope) || !whole(hope[1], 0, hope[0] as number)) {
+    throw new RuleError(`Hope: 1 to ${START_LIMITS.hope} tokens, with at most that many active`);
+  }
+  if (!Array.isArray(discontent) || discontent.length !== 2 || !whole(discontent[0], 0, START_LIMITS.discontent) || !whole(discontent[1], 0, discontent[0] as number)) {
+    throw new RuleError(`Discontent: 0 to ${START_LIMITS.discontent} tokens, with at most that many active`);
+  }
+  if (!whole(start.corpse, 0, START_LIMITS.corpse)) throw new RuleError(`Corpse: 0 to ${START_LIMITS.corpse}`);
 }
 
 export function societyCardFor(config: GameConfig): any {
@@ -81,6 +125,24 @@ export function societyCardFor(config: GameConfig): any {
   const card = D.societies.find((c: any) => c.society === config.society && c.difficulty === difficulty);
   if (!card) throw new RuleError(`no Society card for ${config.society}/${difficulty}`);
   return card;
+}
+
+/** The starting numbers the game uses: the custom start when the config has one, otherwise the Society card as printed. */
+export function startValues(config: GameConfig): StartOverride {
+  if (config.start !== undefined) return config.start;
+  const c = societyCardFor(config);
+  return {
+    pop: [...c.pop] as [number, number, number],
+    sick: [...c.sick] as [number, number, number],
+    automaton: c.automaton,
+    food: c.food,
+    wood: c.wood,
+    coal: c.coal,
+    cores: c.cores,
+    hope: [...c.hope] as [number, number],
+    discontent: [...c.discontent] as [number, number],
+    corpse: c.corpse,
+  };
 }
 
 /** Builds the state of step 1-12 of the set-up (everything that needs no decision). Board tiles and hands are handled by ops. */
@@ -91,7 +153,7 @@ export function newGameState(config: GameConfig): GameState {
   const board = (D.mapData.boards as any)[sc];
   const start = D.scenarioStart;
   const scen = D.scenarios[sc];
-  const card = societyCardFor(config);
+  const card = startValues(config);
 
   s.phase = 'setup';
   s.round = start.round ?? 1;

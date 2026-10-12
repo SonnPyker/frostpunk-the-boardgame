@@ -13,7 +13,7 @@
 //   --extra        include the extra pack (extraPack: true)
 //   --smart        heuristic bot (fuel, Construct/Gathering Post early, never pass while a useful action exists,
 //                  Food/Coal over junk, Stockpile when affordable). Without it the bot picks random legal answers.
-//   --pro          scripted pro bot (scripts/bots/pro.ts): per-kind scoring from food, shelter, heat, coal, hope and
+//   --pro          scripted pro bot (src/bots/pro.ts): per-kind scoring from food, shelter, heat, coal, hope and
 //                  discontent state. Takes precedence over --smart.
 //   --coverage     report ops, token heads, custom ids and card ids that the games never exercised
 //   --show I       print the full decision + log trace of game index I (the same index as in the repro line; use with --games I+1)
@@ -36,7 +36,8 @@ import '../src/index';
 import * as D from '../src/data';
 import { answer, createGame } from '../src/setup';
 import { legalPick } from '../src/autoplay';
-import { proPick } from './bots/pro';
+import { proPick } from '../src/bots/pro';
+import { heuristicPick } from '../src/bots/heuristic';
 import { boostPick, boostStats, boostTopUp } from './bots/boost';
 import { DEFAULT_MC, mcPick, mcStats } from './bots/mc';
 import type { McOpts } from './bots/mc';
@@ -128,101 +129,7 @@ function parseArgs(argv: string[]): Args {
   return a;
 }
 
-// ---- smart bot -------------------------------------------------------------------------------------------------
-
 const MAX_DECISIONS = 50000;
-
-/** Score of one option for the heuristic bot (higher is better). Unknown decisions score 0 and are picked randomly. */
-function scoreOption(s: GameState, p: Pending, id: string, label: string): number {
-  switch (p.kind) {
-    case 'action': {
-      if (id === 'act:pass') return 0;
-      if (id === 'act:steamHub') return 9; // free, no turn cost
-      // Fuel is free: keep the Generator warm while Coal lasts. Gather Coal and Wood before building when stocks run low.
-      if (id === 'act:fuel') return s.res.coal >= 1 && s.gen.heat <= 4 ? 10 : 1;
-      if (id === 'act:construct') {
-        const early = s.round <= 6 && !s.buildings.some((b) => b.kind === 'gatheringPost');
-        return early ? 6 : 4;
-      }
-      if (id === 'act:use') return 6;
-      if (id === 'act:gather') return s.res.coal < 6 || s.res.wood < 4 ? 9 : 4;
-      if (id === 'act:removeSnow') return 4;
-      if (id === 'act:deploy') return s.buildings.some((b) => b.kind === 'beacon') ? 5 : 1;
-      if (id.startsWith('act:special:stock')) return s.food >= 3 || s.res.coal >= 2 ? 6 : 1;
-      if (id.startsWith('act:special:')) return 5;
-      return 2;
-    }
-    case 'gatherRes': {
-      // option ids are "<space>|<resource>"; the resource that is short right now scores highest
-      const k = id.split('|')[1] ?? '';
-      if (k === 'coal') return s.res.coal < 6 ? 9 : 3;
-      if (k === 'wood') return s.res.wood < 4 ? 8 : 2;
-      if (k === 'core') return 1;
-      return 0;
-    }
-    case 'stockpile':
-      if (id === 'ration') return s.food >= 3 ? 5 : 0;
-      if (id === 'coal') return s.res.coal >= 2 ? 4 : 0;
-      return 0;
-    case 'fuel': {
-      // option ids are the amount of Coal to spend: spend more while the Generator is cold
-      const n = Number(id);
-      if (s.gen.heat >= 6) return n === 0 ? 8 : 0;
-      return n === 0 ? 0 : 2 + 2 * n;
-    }
-    case 'construct':
-      // never dismantle (no refund outside tech T08): End Construction is the fallback
-      return id === 'build' ? 6 : id === 'dismantle' ? 0 : 2;
-    case 'buildPick': {
-      // shelters first (the Night needs a sleeping slot for every citizen), then food and heat, then the rest
-      const order: Record<string, number> = { tent: 10, bunkhouse: 9, house: 9, gatheringPost: 8, cookhouse: 7, huntersHut: 6, workshop: 5 };
-      return order[id] ?? 3;
-    }
-    case 'buildSpace': {
-      // heated tiles first: the Generator tile, then the tiles next to it (labels "Generator tile (..)" and "N01 top")
-      if (/^GEN:/.test(id)) return 9;
-      if (/^N\d/.test(id)) return 6;
-      return 2;
-    }
-    case 'advisor':
-      return id === 'none' ? 1 : 5;
-    case 'sleep':
-      return id === 'child' ? 3 : id === 'engineer' ? 2 : 2;
-    case 'citizen':
-      return id === 'normal' ? 1 : 3;
-    default:
-      return 0;
-  }
-}
-
-/** Picks the best legal answer: highest scores first (random tie-break), repeats only while the caps allow. */
-function smartPick(st: ReturnType<typeof seedRng>, s: GameState, p: Pending): string[] | null {
-  const enabled = p.options.filter((o) => !o.disabled);
-  if (enabled.length === 0) return p.min > 0 ? null : [];
-  const allowRepeat = !!p.meta?.allowRepeat;
-  const caps: Record<string, number> | undefined = p.meta?.caps;
-  const scored = enabled.map((o) => ({ id: o.id, score: scoreOption(s, p, o.id, o.label ?? o.id), tie: randInt(st, 1000) }));
-  const rank = (a: { score: number; tie: number }, b: { score: number; tie: number }) => b.score - a.score || a.tie - b.tie;
-  if (allowRepeat) {
-    const count = p.max;
-    const used: Record<string, number> = {};
-    const pick: string[] = [];
-    for (let i = 0; i < count; i++) {
-      const cands = scored.filter((o) => (used[o.id] ?? 0) < (caps?.[o.id] ?? 1)).sort(rank);
-      if (cands.length === 0) break;
-      used[cands[0].id] = (used[cands[0].id] ?? 0) + 1;
-      pick.push(cands[0].id);
-    }
-    return pick.length >= p.min ? pick : null;
-  }
-  const count = Math.min(p.max, enabled.length);
-  if (count < p.min) return null;
-  const sorted = scored.sort(rank).map((o) => o.id);
-  // multi-select with a score of 0 is still a valid answer when min demands it; otherwise take only useful options
-  const useful = scored.filter((o) => o.score > 0).length;
-  const n = Math.max(p.min, Math.min(count, p.kind === 'action' || p.max === 1 ? count : useful || p.min));
-  return sorted.slice(0, n);
-}
 
 // ---- running games ---------------------------------------------------------------------------------------------
 
@@ -318,7 +225,7 @@ function playGame(cfg: GameConfig, botSeed: number, smart: boolean, observing: b
     if (TRACE) console.log(`>> r${s.round} ${s.phase} pending ${p.kind} who=${p.who}: ${p.prompt} -> ${p.options.filter((o) => !o.disabled).map((o) => o.id + (o.label ? ' (' + o.label + ')' : '')).slice(0, 12).join(' | ')}`);
     let pick: string[] | null;
     try {
-      pick = boost ? boostPick(st, s, p) : mc ? mcPick(st, s, p, mc, (botSeed * 1000003 + decisions * 7919 + 17) >>> 0) : pro ? proPick(st, s, p) : smart ? smartPick(st, s, p) : legalPick(st, p);
+      pick = boost ? boostPick(st, s, p) : mc ? mcPick(st, s, p, mc, (botSeed * 1000003 + decisions * 7919 + 17) >>> 0) : pro ? proPick(st, s, p) : smart ? heuristicPick(st, s, p) : legalPick(st, p);
     } catch (e: any) {
       return finish('crashed', 'bot: ' + String(e?.message ?? e), frameList(e));
     }

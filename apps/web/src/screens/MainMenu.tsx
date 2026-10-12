@@ -1,4 +1,4 @@
-// Main menu: title, Continue / New solo / Co-op host / Join / Rules / Settings / Credits.
+// Main menu: title, Continue / New solo / Watch a bot / Co-op host / Join / Rules / Settings / Credits.
 import { useState } from 'react';
 import { Button, Icon } from '../components/ui';
 import { useSession } from '../store/session';
@@ -61,6 +61,20 @@ export function MainMenu() {
           </Button>
           <Button variant="secondary" size="lg" block onClick={() => setScreen('tutorial')}>
             {tn('Tutorial')}
+          </Button>
+          <div className="menu__group" role="group" aria-label={t('Solo scenarios')}>
+            <span className="label-caps menu__group-label">{tn('Solo · scenario set-up')}</span>
+            <div className="menu__group-row">
+              <Button variant="secondary" block onClick={() => setScreen('scenarioRandom')}>
+                {tn('Random scenario')}
+              </Button>
+              <Button variant="secondary" block onClick={() => setScreen('scenarioCustom')}>
+                {tn('Custom game')}
+              </Button>
+            </div>
+          </div>
+          <Button variant="secondary" size="lg" block onClick={() => setScreen('watch')}>
+            {tn('Watch a bot play')}
           </Button>
           <div className="menu__group" role="group" aria-label={t('Co-op')}>
             <span className="label-caps menu__group-label">{tn('Co-op · 2 to 4 seats')}</span>

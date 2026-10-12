@@ -284,3 +284,65 @@ Caveats (details in docs/KNOWN_ISSUES.md "Current state"):
 * Not done: lessons for Hope and Discontent, Hunger, Laws, Technologies, Expeditions and Storms; a Night sleep lesson
   (the sleep decision is a distribute); a map-click check of the Remove Snow tile steps in the browser (the engine test
   covers them, the map was not clicked).
+
+
+## Scenario and custom set-up (2026-10-12)
+
+* Two solo entries on the main menu, under "Solo · scenario set-up": **Kịch bản ngẫu nhiên** (random) and **Tùy chỉnh**
+  (custom). One screen, `apps/web/src/screens/ScenarioSetup.tsx`, in two modes. Both show the set-up summary before Begin.
+  Co-op is unchanged: the server settings do not carry the custom start.
+* **Random** (`packages/engine/src/randomSetup.ts`, `randomSetup(drawSeed, {name, extraPack})`). One draw picks one of the
+  three playable scenarios, one Advisor and a seed, then draws every starting number at random within `START_LIMITS`: Population
+  per type (0–50), sick Citizens (up to the population, at most 25), Automatons (0–6), Food, Wood, Coal and Cores (0–50), Hope
+  (1–6 tokens, some active), Discontent (0–5 tokens, some active) and the Corpse marker (0–9). Each draw therefore passes
+  `validateStart`. The map and the decks were already random per seed (tile stacks, Morning, Dusk, Weather, Citizen decks, Laws,
+  Technologies, Expeditions); the rulebook fixes the Heat and indicator positions, the Storm marker and Round 1, so those are not
+  drawn. The draw uses the printed Society card only as a label; the numbers come from `randomStart`, not from a card.
+* **Custom**: `GameConfig.start` (`StartOverride`, `types.ts`) replaces the printed numbers for that game. `setup.ts`
+  `validateStart` enforces `START_LIMITS`: population 0–50 per type; sick 0 to its population and at most 25 (a Sickness marker
+  at 26 loses); Automatons 0–6; Food, Wood, Coal and Cores 0–50 (the cap on Wood, Coal and Cores is a choice of this port, the
+  rulebook prints no maximum); Hope 1–6 tokens drawn with at most that many active (no Hope loses at once); Discontent 0–5
+  tokens drawn (a sixth loses) with at most that many active; Corpse 0–9 (the last space loses). The start is plain JSON in the
+  config, so replay and the autosave give the same game. The screen clamps each field to these limits. Custom values are not
+  printed on any card, and the summary says so.
+* `startValues(config)` gives the numbers a game uses (the custom start, or the printed card). `newGameState` reads it.
+* Tests: `packages/engine/tests/scenario_setup.test.ts` (14 tests: 200 random draws use a playable scenario, one Advisor and a
+  start that passes `validateStart`; draws are reproducible and each draw gives a different start; the draws reach the ends of
+  each range; two draws shuffle different map stacks and Morning decks; 200 draws start with the invariants holding, and a sample
+  is played on (up to 300 decisions each). Custom tests: each limit refuses
+  its value; the custom start sets the population, tokens, meeples and Corpse, replays identically, and holds the invariants at
+  the largest allowed values).
+* Checks: `npm run typecheck` clean; engine 958 passed / 3 skipped (67 files); server 106/106; `npm run build:web` ok;
+  token scan 0 unknown. Browser (headless Chromium, 1366×768): both modes render in Vietnamese, the random button changes
+  the draw, the custom fields clamp (50 workers, 6 Hope tokens), and Begin starts a Crater game with no console errors.
+* Open, found while doing this: the solo New game screen (`NewGame.tsx`) previews the Survivalist numbers when Extra pack is
+  ticked, but it never sends `survivalist: true`, so the game plays the normal or hard card. Not changed here. The custom screen
+  has an explicit Survivalist difficulty, so it plays what it shows.
+
+## Watch mode: a bot plays the game (2026-10-12)
+
+* Main menu → "Xem bot chơi" (Watch a bot play). The set-up is the solo one (scenario, society, difficulty, extra pack,
+  seed, one Advisor) plus a bot level: Random (`legalPick`), Heuristic (the sim's `--smart` scoring) or Expert (the
+  `--pro` scripted bot). The level is chosen before the game starts.
+* The bots moved into the engine so the web can use them: `packages/engine/src/bots/pro.ts` (was scripts/bots/pro.ts),
+  `src/bots/heuristic.ts` (the sim's `smartPick`, now `heuristicPick`) and `src/bots/level.ts` (`BOT_LEVELS`, `botPick`,
+  `botRng`, exported from the engine index). `sim.ts` output is unchanged: the same seeds give the same games.
+* `apps/web/src/controller/WatchController.ts`: the bot answers each decision through `applyAnswer` (same rules as a
+  player). Speed is decisions per second (1×, 2×, 4×) or Max (as many as fit in a 40 ms slice per 100 ms tick). Pause,
+  step (one decision while paused) and speed are the viewer's controls (`WatchControls`, in the HUD top bar). The
+  viewer cannot answer: `canAnswer` is false and the decision panel says "Bot đang chọn".
+* Watched games are not autosaved and never touch the solo save: `discardSolo` leaves the solo save alone when a
+  watch is attached, and the in-game menu says "Dừng xem và về menu chính" instead of "Save and return".
+* Bot stuck (no legal pick) stops the game with a toast and status "Stopped: no legal move"; a finished game shows the
+  end screen.
+* Tests: `packages/engine/tests/bots.test.ts` (each level answers with legal picks, the same bot seed plays the same
+  game, the random level depends on its seed, a Frozen Grove game ends under the heuristic level). Engine `npm test`
+  955 passed, 3 skipped (67 files). Typecheck clean. `vite build` clean.
+* Browser (headless shell, 1366×820, `npm run dev:web`, Crater): the setup shows the Mức bot choice; Watch starts and
+  the bot advances; Pause freezes the board for 2.5 s; Step changes the HUD; Max played a whole game to the end screen
+  ("THẤT BẠI"); the solo autosave key was not written; "Dừng xem và về menu chính" returns to the main menu. No page
+  errors in the console (only the existing i18n warnings for untranslated log lines).
+* Not included: the Monte-Carlo bot (`scripts/bots/mc.ts`) stays a sim-only tool; it was not measured in the browser and
+  its rollouts are much heavier than the other levels. The dev bot (`apps/web/src/dev/bot.ts`) still has its own copy of
+  the heuristic.
+* i18n: 26 strings in `tools/i18n/ui/watch.json`; `build_vi.mjs` 0 problems.

@@ -1,8 +1,9 @@
-// New game set-up: solo, host a co-op room, or join one by code.
-// Scenario cards, society I-VI, difficulty, extra pack, seed, advisors (and seats / names for co-op).
+// New game set-up: solo, watch a bot play, host a co-op room, or join one by code.
+// Scenario cards, society I-VI, difficulty, extra pack, seed, advisors (and seats / names for co-op), and the bot level
+// for a watched game.
 import { useMemo, useState, type FormEvent } from 'react';
-import { scenarios, societies } from '@frostpunk/engine';
-import type { GameConfig } from '@frostpunk/engine';
+import { BOT_LEVELS, scenarios, societies } from '@frostpunk/engine';
+import type { BotLevel, GameConfig } from '@frostpunk/engine';
 import { engineReady } from '../controller/engineApi';
 import type { LobbySettings } from '../controller/remoteTypes';
 import { Button, Icon, Panel, Tooltip } from '../components/ui';
@@ -11,27 +12,34 @@ import { useUi } from '../store/ui';
 import { Backdrop } from './Backdrop';
 import { t, tn } from '../i18n';
 
-export type NewGameMode = 'solo' | 'host' | 'join';
+export type NewGameMode = 'solo' | 'watch' | 'host' | 'join';
 
-const SCENARIO_KEYS = ['crater', 'frozenGrove', 'dreadnought'] as const;
-type ScenarioKey = (typeof SCENARIO_KEYS)[number];
+export const SCENARIO_KEYS = ['crater', 'frozenGrove', 'dreadnought'] as const;
+export type ScenarioKey = (typeof SCENARIO_KEYS)[number];
 
-const SOCIETY_NUMERALS = ['I', 'II', 'III', 'IV', 'V', 'VI'];
+export const SOCIETY_NUMERALS = ['I', 'II', 'III', 'IV', 'V', 'VI'];
 
-const ADVISORS: { id: string; label: string; hint: string }[] = [
+/** Bot levels for a watched game: the hint under the level buttons says what the bot weighs. */
+const BOT_HINT: Record<BotLevel, string> = {
+  random: 'Random: any legal answer. A baseline to compare with.',
+  heuristic: 'Heuristic: scores each option by its kind (fuel, shelter, food, buildings).',
+  pro: 'Expert: a scripted bot that weighs food, shelter, heat, Hope and Discontent.',
+};
+
+export const ADVISORS: { id: string; label: string; hint: string }[] = [
   { id: 'ADV_GENERATOR', label: 'Generator', hint: 'Keeps the Generator running' },
   { id: 'ADV_HEALTH', label: 'Health', hint: 'Medical care and sickness' },
   { id: 'ADV_SOCIAL', label: 'Social', hint: 'Dusk cards and public mood' },
   { id: 'ADV_FOREMAN', label: 'Foreman', hint: 'Workers and construction' },
 ];
 
-function randomSeed(): number {
+export function randomSeed(): number {
   const a = new Uint32Array(1);
   crypto.getRandomValues(a);
   return a[0];
 }
 
-function scenarioInfo(key: ScenarioKey): { name: string; stars: number; storm: string } {
+export function scenarioInfo(key: ScenarioKey): { name: string; stars: number; storm: string } {
   const s = (scenarios as Record<string, { name?: string; difficulty?: number; stormCard?: string }>)[key];
   return {
     name: s?.name ?? key,
@@ -70,6 +78,7 @@ export function NewGame({ mode }: { mode: NewGameMode }) {
   const setScreen = useUi((s) => s.setScreen);
   const notify = useUi((s) => s.notify);
   const startSolo = useSession((s) => s.startSolo);
+  const startWatch = useSession((s) => s.startWatch);
   const openCoop = useSession((s) => s.openCoop);
 
   const [scenario, setScenario] = useState<ScenarioKey>('crater');
@@ -86,6 +95,7 @@ export function NewGame({ mode }: { mode: NewGameMode }) {
     ADV_FOREMAN: true,
   });
   const [seats, setSeats] = useState<2 | 3 | 4>(2);
+  const [botLevel, setBotLevel] = useState<BotLevel>('heuristic');
   const [name, setName] = useState('');
   const [joinSuffix] = useState(() => String(10 + Math.floor(Math.random() * 90)));
   const [roomName, setRoomName] = useState('New Home');
@@ -107,6 +117,8 @@ export function NewGame({ mode }: { mode: NewGameMode }) {
   const engineOk = engineReady();
 
   const back = () => setScreen('menu');
+  // Solo and watch share one set-up: one scenario, one player seat, one Advisor.
+  const single = mode === 'solo' || mode === 'watch';
 
   const submit = (e: FormEvent) => {
     e.preventDefault();
@@ -115,8 +127,8 @@ export function NewGame({ mode }: { mode: NewGameMode }) {
       return;
     }
     // A joiner who types no name gets a unique default, so two seats never read the same at the table.
-    const playerName = name.trim() || (mode === 'solo' ? 'Commander' : mode === 'host' ? 'Leader' : `Settler ${joinSuffix}`);
-    if (mode === 'solo') {
+    const playerName = name.trim() || (single ? 'Commander' : mode === 'host' ? 'Leader' : `Settler ${joinSuffix}`);
+    if (single) {
       const config: GameConfig = {
         scenario,
         society,
@@ -128,7 +140,8 @@ export function NewGame({ mode }: { mode: NewGameMode }) {
         advisors: [soloAdvisor],
       };
       // on success the session attaches and App switches to the game view
-      startSolo(config);
+      if (mode === 'watch') startWatch(config, botLevel);
+      else startSolo(config);
       return;
     }
     if (mode === 'host') {
@@ -157,7 +170,8 @@ export function NewGame({ mode }: { mode: NewGameMode }) {
     openCoop().join(cleanCode, playerName);
   };
 
-  const title = mode === 'solo' ? 'New solo game' : mode === 'host' ? 'Host a co-op room' : 'Join a co-op room';
+  const title =
+    mode === 'solo' ? 'New solo game' : mode === 'watch' ? 'Watch a bot play' : mode === 'host' ? 'Host a co-op room' : 'Join a co-op room';
 
   return (
     <div className="setup">
@@ -315,7 +329,7 @@ export function NewGame({ mode }: { mode: NewGameMode }) {
                   </span>
                 </label>
 
-                {mode === 'solo' ? (
+                {single ? (
                   <fieldset className="fieldset">
                     <legend className="field__label">{tn('Advisor')}</legend>
                     <div className="advisor-grid">
@@ -377,10 +391,36 @@ export function NewGame({ mode }: { mode: NewGameMode }) {
                   <span className="muted setup__note">{tn('The same seed and options give the same deck order and map.')}</span>
                 </label>
 
-                <label className="field">
-                  <span className="field__label">{mode === 'solo' ? tn('Your name') : tn('Your name at the table')}</span>
-                  <input className="input" value={name} maxLength={24} placeholder={t('Commander')} onChange={(e) => setName(e.target.value)} />
-                </label>
+                {mode === 'watch' ? (
+                  <div className="field">
+                    <span className="field__label" id="bot-label">
+                      {tn('Bot level')}
+                    </span>
+                    <div className="seg" role="group" aria-labelledby="bot-label">
+                      {BOT_LEVELS.map((lv) => (
+                        <button key={lv} type="button" aria-pressed={botLevel === lv} onClick={() => setBotLevel(lv)}>
+                          {lv === 'random' ? tn('Random') : lv === 'heuristic' ? tn('Heuristic') : tn('Expert')}
+                        </button>
+                      ))}
+                    </div>
+                    <span className="muted setup__note">{tn(BOT_HINT[botLevel])}</span>
+                    <span className="muted setup__note">
+                      {tn('The bot plays the whole game. Pause, step or change the speed while it plays.')}
+                    </span>
+                  </div>
+                ) : null}
+
+                {mode === 'solo' ? (
+                  <label className="field">
+                    <span className="field__label">{tn('Your name')}</span>
+                    <input className="input" value={name} maxLength={24} placeholder={t('Commander')} onChange={(e) => setName(e.target.value)} />
+                  </label>
+                ) : mode === 'host' ? (
+                  <label className="field">
+                    <span className="field__label">{tn('Your name at the table')}</span>
+                    <input className="input" value={name} maxLength={24} placeholder={t('Commander')} onChange={(e) => setName(e.target.value)} />
+                  </label>
+                ) : null}
 
                 {mode === 'host' ? (
                   <>
@@ -410,12 +450,12 @@ export function NewGame({ mode }: { mode: NewGameMode }) {
         </div>
 
         <footer className="setup__foot">
-          {mode === 'solo' && !engineOk ? (
+          {single && !engineOk ? (
             <span className="chip chip--warn" title={t('The engine exports are not complete in this build yet')}>
               <Icon name="warning" size={13} /> {tn('Rules engine pending')}
             </span>
           ) : null}
-          {mode !== 'solo' ? <span className="muted setup__note">{tn('Game server:')} {SERVER_URL}</span> : null}
+          {!single ? <span className="muted setup__note">{tn('Game server:')} {SERVER_URL}</span> : null}
           <span className="setup__foot-spacer" />
           <Button variant="ghost" onClick={back}>
             {tn('Cancel')}
@@ -427,7 +467,7 @@ export function NewGame({ mode }: { mode: NewGameMode }) {
             icon={mode === 'join' ? 'worker' : 'heat'}
             disabledReason={advisorShortfall ? t(advisorShortfall) : undefined}
           >
-            {mode === 'solo' ? tn('Begin') : mode === 'host' ? tn('Open the room') : tn('Join room')}
+            {mode === 'solo' ? tn('Begin') : mode === 'watch' ? tn('Watch') : mode === 'host' ? tn('Open the room') : tn('Join room')}
           </Button>
         </footer>
       </form>

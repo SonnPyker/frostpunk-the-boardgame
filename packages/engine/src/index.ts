@@ -29,11 +29,15 @@ export { BACK_PICK } from './core';
 export { LESSONS, LESSON_REFUSED, LESSON_SEED, lessonConfig, lessonDef, lessonProgress } from './tutorial';
 export type { LessonDef, LessonProgress, LessonStep } from './tutorial';
 export * from './protocol';
-export { createGame, answer, validateConfig, newGameState, pushSetupOps, CORPSE_MAX } from './setup';
+export { createGame, answer, validateConfig, validateStart, startValues, START_LIMITS, newGameState, pushSetupOps, CORPSE_MAX } from './setup';
+export { randomSetup, PLAYABLE_SCENARIOS } from './randomSetup';
+export type { RandomSetupOptions } from './randomSetup';
 export type { AnswerResult } from './setup';
 export type { GameView, PendingView, PlayerSeatView, DeckName, ViewOptions } from './view';
 export { autoplay } from './autoplay';
 export type { AutoplayResult } from './autoplay';
+export { BOT_LEVELS, botPick, botRng } from './bots/level';
+export type { BotLevel } from './bots/level';
 
 /** A player's answer to one decision. */
 export type Command = { who: number; pendingId: number; pick: string[] };
