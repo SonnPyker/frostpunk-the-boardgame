@@ -13,6 +13,7 @@ import { useSession } from './store/session';
 import { useUi } from './store/ui';
 import { MainMenu } from './screens/MainMenu';
 import { NewGame, type NewGameMode } from './screens/NewGame';
+import { WatchControls } from './screens/WatchControls';
 import { Lobby } from './screens/Lobby';
 import { EndScreen } from './screens/EndScreen';
 import { OverlayHost } from './screens/Overlays';
@@ -101,7 +102,7 @@ const noop = () => undefined;
 
 // ---- shell ------------------------------------------------------------------
 
-const SETUP_MODES: Record<string, NewGameMode> = { newSolo: 'solo', coopHost: 'host', coopJoin: 'join' };
+const SETUP_MODES: Record<string, NewGameMode> = { newSolo: 'solo', watch: 'watch', coopHost: 'host', coopJoin: 'join' };
 
 function menuScreenFor(screen: string): ReactNode {
   const mode = SETUP_MODES[screen];
@@ -126,8 +127,10 @@ export function App() {
   const room = snap?.room ?? null;
   const mode = snap?.mode ?? 'solo';
   const seat = snap?.seat ?? 0;
+  const watching = (snap?.watch ?? null) !== null;
   const pending = state?.pending ?? null;
-  const canAnswer = pending !== null && (mode === 'solo' || pending.who === -1 || pending.who === seat);
+  // A watched game is played by the bot: nobody at this screen answers it.
+  const canAnswer = !watching && pending !== null && (mode === 'solo' || pending.who === -1 || pending.who === seat);
 
   const inLobby = controller !== null && mode === 'coop' && (state === null || room?.status === 'lobby');
   const inEnd =
@@ -258,7 +261,22 @@ export function App() {
         <div className="hud-layer">
           <ErrorBoundary name={t('HUD')} variant="corner">
             <Suspense fallback={null}>
-              <Hud state={state} seat={seat} pickable={highlight} onPick={onPickOption} menu={<GameMenuControls />}>
+              <Hud
+                state={state}
+                seat={seat}
+                pickable={highlight}
+                onPick={onPickOption}
+                menu={
+                  watching ? (
+                    <>
+                      <WatchControls />
+                      <GameMenuControls />
+                    </>
+                  ) : (
+                    <GameMenuControls />
+                  )
+                }
+              >
                 <div className="decision-dock">
                   {pending ? (
                     <ErrorBoundary name={t('Decision panel')} variant="inline">
@@ -269,6 +287,7 @@ export function App() {
                           answer={answerNow}
                           canAnswer={canAnswer}
                           busy={busy}
+                          watching={watching}
                         />
                       </Suspense>
                     </ErrorBoundary>

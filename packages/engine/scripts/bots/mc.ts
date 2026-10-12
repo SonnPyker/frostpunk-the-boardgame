@@ -10,7 +10,7 @@ import type { GameState, Pending } from '../../src/types';
 import { seedRng, randInt } from '../../src/rng';
 import { answer } from '../../src/setup';
 import { legalPick } from '../../src/autoplay';
-import { proPick, proCtx, proScore } from './pro';
+import { proPick, proCtx, proScore } from '../../src/bots/pro';
 
 export interface McOpts {
   rollouts: number; // rollouts per candidate

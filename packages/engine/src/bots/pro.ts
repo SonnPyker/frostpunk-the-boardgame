@@ -1,11 +1,12 @@
-// Scripted "pro" bot for scripts/sim.ts (--pro). It only answers pending decisions through the public engine API:
+// Scripted "pro" bot (src/bots/pro.ts): used by scripts/sim.ts (--pro, --mc, --boost) and the watch mode. It only answers
+// pending decisions through the public engine API:
 // it reads the state, scores every enabled option and returns the best legal answer (repeats and caps respected).
 // Scoring is per decision kind; unknown kinds fall back to hint/label text scoring. It never edits the engine.
-import type { GameState, Pending, PendingOption } from '../../src/types';
-import { sleepSlots } from '../../src/buildings';
-import { legalPick } from '../../src/autoplay';
-import { spaceHeated } from '../../src/map';
-import { randInt } from '../../src/rng';
+import type { GameState, Pending, PendingOption } from '../types';
+import { sleepSlots } from '../buildings';
+import { legalPick } from '../autoplay';
+import { spaceHeated } from '../map';
+import { randInt } from '../rng';
 
 type Rng = Parameters<typeof randInt>[0];
 
