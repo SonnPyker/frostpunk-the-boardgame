@@ -13,6 +13,7 @@ import { useSession } from './store/session';
 import { useUi } from './store/ui';
 import { MainMenu } from './screens/MainMenu';
 import { NewGame, type NewGameMode } from './screens/NewGame';
+import { ScenarioSetup, type ScenarioSetupMode } from './screens/ScenarioSetup';
 import { Lobby } from './screens/Lobby';
 import { EndScreen } from './screens/EndScreen';
 import { OverlayHost } from './screens/Overlays';
@@ -102,10 +103,14 @@ const noop = () => undefined;
 // ---- shell ------------------------------------------------------------------
 
 const SETUP_MODES: Record<string, NewGameMode> = { newSolo: 'solo', coopHost: 'host', coopJoin: 'join' };
+const SCENARIO_MODES: Record<string, ScenarioSetupMode> = { scenarioRandom: 'random', scenarioCustom: 'custom' };
 
 function menuScreenFor(screen: string): ReactNode {
   const mode = SETUP_MODES[screen];
-  return mode ? <NewGame mode={mode} /> : <MainMenu />;
+  if (mode) return <NewGame mode={mode} />;
+  const scenarioMode = SCENARIO_MODES[screen];
+  if (scenarioMode) return <ScenarioSetup mode={scenarioMode} />;
+  return <MainMenu />;
 }
 
 export function App() {

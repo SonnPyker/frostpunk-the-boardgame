@@ -3,7 +3,7 @@
 // The engine index is still being completed, so every entry point is looked up at call time. The web
 // build therefore passes before the engine exports these functions; calls then fail with a clear error.
 import * as Engine from '@frostpunk/engine';
-import type { Command, GameConfig, GameState } from '@frostpunk/engine';
+import type { Command, GameConfig, GameState, StartOverride } from '@frostpunk/engine';
 
 type AnyFn = (...args: unknown[]) => unknown;
 const api = Engine as unknown as Record<string, unknown>;
@@ -67,4 +67,36 @@ export function deserializeGame(json: string): GameState {
 export function cloneState(s: GameState): GameState {
   if (typeof structuredClone === 'function') return structuredClone(s);
   return JSON.parse(JSON.stringify(s)) as GameState;
+}
+
+/** The limits a custom start is held to (engine START_LIMITS). */
+export interface StartLimits {
+  citizens: number;
+  sick: number;
+  automaton: number;
+  supply: number;
+  corpse: number;
+  hope: number;
+  discontent: number;
+}
+
+export function startLimits(): StartLimits {
+  const limits = api.START_LIMITS as StartLimits | undefined;
+  if (!limits) throw new EngineUnavailableError('START_LIMITS');
+  return limits;
+}
+
+/** Throws the engine's reason when the config cannot start (validateConfig). */
+export function checkConfig(config: GameConfig): void {
+  lookup('validateConfig')(config);
+}
+
+/** The starting numbers a config uses: its custom start, or the Society card as printed. */
+export function startValuesOf(config: GameConfig): StartOverride {
+  return lookup('startValues')(config) as StartOverride;
+}
+
+/** One random solo set-up: a playable scenario, a printed Society card, one Advisor and a seed (engine randomSetup). */
+export function randomSetupConfig(drawSeed: number, name: string, extraPack: boolean): GameConfig {
+  return lookup('randomSetup')(drawSeed, { name, extraPack }) as GameConfig;
 }

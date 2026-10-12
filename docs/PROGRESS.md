@@ -267,3 +267,31 @@ Caveats (details in docs/KNOWN_ISSUES.md "Current state"):
   (the Use step gave no thump decision). The multi-pick path and the selected marker are reviewed in code only.
 * i18n: "Click the highlighted spaces on the map" added to `tools/i18n/ui/decisions.json`; `build_vi.mjs` 0 problems.
 
+
+## Scenario and custom set-up (2026-10-12)
+
+* Two solo entries on the main menu, under "Solo · scenario set-up": **Kịch bản ngẫu nhiên** (random) and **Tùy chỉnh**
+  (custom). One screen, `apps/web/src/screens/ScenarioSetup.tsx`, in two modes. Both show the set-up summary before Begin.
+  Co-op is unchanged: the server settings do not carry the custom start.
+* **Random** (`packages/engine/src/randomSetup.ts`, `randomSetup(drawSeed, {name, extraPack})`). One draw picks one of the
+  three playable scenarios, one printed Society card (Survivalist cards only with the extra pack), one Advisor and a seed.
+  Every starting number is the one the card prints, so a random game never starts from a state the rulebook does not print.
+  The "Ngẫu nhiên" button draws again.
+* **Custom**: `GameConfig.start` (`StartOverride`, `types.ts`) replaces the printed numbers for that game. `setup.ts`
+  `validateStart` enforces `START_LIMITS`: population 0–50 per type; sick 0 to its population and at most 25 (a Sickness marker
+  at 26 loses); Automatons 0–6; Food, Wood, Coal and Cores 0–50 (the cap on Wood, Coal and Cores is a choice of this port, the
+  rulebook prints no maximum); Hope 1–6 tokens drawn with at most that many active (no Hope loses at once); Discontent 0–5
+  tokens drawn (a sixth loses) with at most that many active; Corpse 0–9 (the last space loses). The start is plain JSON in the
+  config, so replay and the autosave give the same game. The screen clamps each field to these limits. Custom values are not
+  printed on any card, and the summary says so.
+* `startValues(config)` gives the numbers a game uses (the custom start, or the printed card). `newGameState` reads it.
+* Tests: `packages/engine/tests/scenario_setup.test.ts` (12 tests: 200 random draws use only printed cards and playable
+  scenarios, draws are reproducible, a sample of draws is played on (up to 300 decisions each) with the invariants holding; each limit refuses
+  its value; the custom start sets the population, tokens, meeples and Corpse, replays identically, and holds the invariants at
+  the largest allowed values).
+* Checks: `npm run typecheck` clean; engine 958 passed / 3 skipped (67 files); server 106/106; `npm run build:web` ok;
+  token scan 0 unknown. Browser (headless Chromium, 1366×768): both modes render in Vietnamese, the random button changes
+  the draw, the custom fields clamp (50 workers, 6 Hope tokens), and Begin starts a Crater game with no console errors.
+* Open, found while doing this: the solo New game screen (`NewGame.tsx`) previews the Survivalist numbers when Extra pack is
+  ticked, but it never sends `survivalist: true`, so the game plays the normal or hard card. Not changed here. The custom screen
+  has an explicit Survivalist difficulty, so it plays what it shows.

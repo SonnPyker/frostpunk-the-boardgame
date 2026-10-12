@@ -2,7 +2,7 @@
 // session (store/session.ts): no session = menus, session without a finished state = lobby, otherwise game.
 import { create } from 'zustand';
 
-export type MenuScreen = 'menu' | 'newSolo' | 'coopHost' | 'coopJoin';
+export type MenuScreen = 'menu' | 'newSolo' | 'scenarioRandom' | 'scenarioCustom' | 'coopHost' | 'coopJoin';
 export type Overlay = 'settings' | 'rules' | 'credits' | 'ingame' | null;
 export type ToastTone = 'info' | 'ok' | 'error';
 

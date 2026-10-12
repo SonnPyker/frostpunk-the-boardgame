@@ -59,6 +59,17 @@ export function MainMenu() {
           <Button variant="secondary" size="lg" block onClick={() => setScreen('newSolo')}>
             {tn('New solo game')}
           </Button>
+          <div className="menu__group" role="group" aria-label={t('Solo scenarios')}>
+            <span className="label-caps menu__group-label">{tn('Solo · scenario set-up')}</span>
+            <div className="menu__group-row">
+              <Button variant="secondary" block onClick={() => setScreen('scenarioRandom')}>
+                {tn('Random scenario')}
+              </Button>
+              <Button variant="secondary" block onClick={() => setScreen('scenarioCustom')}>
+                {tn('Custom game')}
+              </Button>
+            </div>
+          </div>
           <div className="menu__group" role="group" aria-label={t('Co-op')}>
             <span className="label-caps menu__group-label">{tn('Co-op · 2 to 4 seats')}</span>
             <div className="menu__group-row">

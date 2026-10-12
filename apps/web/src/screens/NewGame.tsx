@@ -13,25 +13,25 @@ import { t, tn } from '../i18n';
 
 export type NewGameMode = 'solo' | 'host' | 'join';
 
-const SCENARIO_KEYS = ['crater', 'frozenGrove', 'dreadnought'] as const;
-type ScenarioKey = (typeof SCENARIO_KEYS)[number];
+export const SCENARIO_KEYS = ['crater', 'frozenGrove', 'dreadnought'] as const;
+export type ScenarioKey = (typeof SCENARIO_KEYS)[number];
 
-const SOCIETY_NUMERALS = ['I', 'II', 'III', 'IV', 'V', 'VI'];
+export const SOCIETY_NUMERALS = ['I', 'II', 'III', 'IV', 'V', 'VI'];
 
-const ADVISORS: { id: string; label: string; hint: string }[] = [
+export const ADVISORS: { id: string; label: string; hint: string }[] = [
   { id: 'ADV_GENERATOR', label: 'Generator', hint: 'Keeps the Generator running' },
   { id: 'ADV_HEALTH', label: 'Health', hint: 'Medical care and sickness' },
   { id: 'ADV_SOCIAL', label: 'Social', hint: 'Dusk cards and public mood' },
   { id: 'ADV_FOREMAN', label: 'Foreman', hint: 'Workers and construction' },
 ];
 
-function randomSeed(): number {
+export function randomSeed(): number {
   const a = new Uint32Array(1);
   crypto.getRandomValues(a);
   return a[0];
 }
 
-function scenarioInfo(key: ScenarioKey): { name: string; stars: number; storm: string } {
+export function scenarioInfo(key: ScenarioKey): { name: string; stars: number; storm: string } {
   const s = (scenarios as Record<string, { name?: string; difficulty?: number; stormCard?: string }>)[key];
   return {
     name: s?.name ?? key,
